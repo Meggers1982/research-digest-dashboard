@@ -10,13 +10,16 @@ Each digest repo stays independent. After its workflow finishes, it publishes on
 index.html
 data/
   sources.json
+  aging-longevity.json
   cardiology-heart.json
+  conditions-body.json
   dermatology-skin.json
   elderly-geriatric.json
   fitness-exercise.json
   gut-digestive.json
   mental-health.json
   pediatric-health.json
+  science-environment.json
   womens-health.json
 .github/
   workflows/
@@ -104,7 +107,18 @@ Then add a step after the digest repo has produced or merged `data/results.json`
       echo "No dashboard changes"
     else
       git commit -m "Update ${SOURCE_LABEL} digest results"
-      git push
+      pushed=false
+      for attempt in 1 2 3; do
+        if git pull --rebase origin main && git push; then
+          pushed=true
+          break
+        fi
+        sleep $((attempt * 5))
+      done
+      if [ "$pushed" != "true" ]; then
+        echo "Failed to publish dashboard update"
+        exit 1
+      fi
     fi
 ```
 
@@ -114,13 +128,16 @@ Change `DASHBOARD_FILE`, `SOURCE_ID`, and `SOURCE_LABEL` for each digest repo.
 
 | Digest repo | Dashboard file | Source ID |
 |---|---|---|
+| `aging-longevity-digest` | `data/aging-longevity.json` | `aging-longevity` |
 | `cardiology-heart-digest` | `data/cardiology-heart.json` | `cardiology-heart` |
+| `conditions-body-digest` | `data/conditions-body.json` | `conditions-body` |
 | `dermatology-skin-digest` | `data/dermatology-skin.json` | `dermatology-skin` |
 | `elderly-geriatric-digest` | `data/elderly-geriatric.json` | `elderly-geriatric` |
 | `fitness-exercise-digest` | `data/fitness-exercise.json` | `fitness-exercise` |
 | `gut-digestive-digest` | `data/gut-digestive.json` | `gut-digestive` |
 | `mental-health-digest` | `data/mental-health.json` | `mental-health` |
 | `pediatric-health-digest` | `data/pediatric-health.json` | `pediatric-health` |
+| `science-environment-digest` | `data/science-environment.json` | `science-environment` |
 | `womens-health-digest` | `data/womens-health.json` | `womens-health` |
 
 ## Local Preview
