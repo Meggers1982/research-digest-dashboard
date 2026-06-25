@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research Digest Dashboard</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --ink: #1d2522;
+    --muted: #66706c;
+    --line: #dde3df;
+    --paper: #ffffff;
+    --wash: #f6f3ed;
+    --green: #173f35;
+    --green-2: #e5f4ee;
+    --blue: #245a92;
+    --gold: #a56a14;
+    --red: #b42318;
+  }
+  body {
+    min-height: 100vh;
+    background: var(--wash);
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.55;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: var(--green);
+    color: #fff;
+    padding: 20px 28px;
+    box-shadow: 0 2px 14px rgba(0,0,0,0.22);
+  }
+  .header-row {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  h1 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+  .meta {
+    margin-top: 3px;
+    font: 0.8rem/1.4 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: rgba(255,255,255,0.72);
+  }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 28px;
+    padding: 4px 11px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.13);
+    font: 0.75rem/1 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    white-space: nowrap;
+  }
+  .chip.highlight { background: #2563eb; }
+  .filters {
+    background: var(--paper);
+    border-bottom: 1px solid var(--line);
+    padding: 14px 28px;
+  }
+  .filters-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(220px, 1.3fr) repeat(6, minmax(135px, auto));
+    gap: 10px;
+    align-items: center;
+  }
+  input, select, button {
+    min-height: 36px;
+    border: 1px solid #cfd8d3;
+    border-radius: 6px;
+    background: #fff;
+    color: var(--ink);
+    font: 0.85rem system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  input, select { padding: 7px 10px; width: 100%; }
+  button {
+    padding: 7px 13px;
+    cursor: pointer;
+  }
+  button:hover { background: #f2f5f3; }
+  main {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 24px 20px 48px;
+  }
+  .summary-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  .result-count {
+    color: var(--muted);
+    font: 0.84rem system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  .source-status {
+    color: var(--muted);
+    font: 0.78rem system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+  }
+  .card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-left: 4px solid #d2d9d5;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .card.status-saved { border-left-color: var(--gold); }
+  .card.status-pitched { border-left-color: #16864f; }
+  .card.status-passed { border-left-color: #9aa3a0; }
+  .card.status-removed { opacity: 0.46; border-left-color: var(--red); }
+  .card-header { padding: 18px 20px 10px; }
+  .headline {
+    color: var(--green);
+    font-size: 1.08rem;
+    font-weight: 700;
+    line-height: 1.38;
+    margin-bottom: 9px;
+  }
+  .card-meta {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    flex-wrap: wrap;
+    color: var(--muted);
+    font: 0.74rem system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    min-height: 22px;
+    max-width: 100%;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font: 700 0.68rem/1.1 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    text-transform: uppercase;
+    overflow-wrap: anywhere;
+  }
+  .badge-source { background: #dbeafe; color: #1e3a8a; }
+  .badge-cat { background: var(--green-2); color: #14543e; }
+  .badge-gb { background: #fff1c7; color: #794600; }
+  .badge-media { background: #dcfce7; color: #166534; }
+  .score {
+    border: 1px solid #cfd8d3;
+    background: #f7faf8;
+    color: #30413a;
+  }
+  .score.high { background: #dcfce7; color: #14532d; border-color: #86efac; }
+  .score.mid { background: #fef9c3; color: #713f12; border-color: #fde047; }
+  .card-body {
+    padding: 0 20px 14px;
+    font-size: 0.93rem;
+  }
+  .card-body p { margin: 9px 0; }
+  .card-body strong { color: #0e1714; }
+  .note {
+    margin-top: 10px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    background: #f7f8f7;
+    color: #59645f;
+    font: 0.8rem/1.45 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  .fact { background: #fff7df; color: #60420f; border-left: 3px solid #e7a92f; }
+  .pitch-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #c7eadb;
+    border-radius: 0;
+    background: #effaf5;
+    color: #176044;
+    padding: 10px 20px;
+    text-align: left;
+    font-weight: 700;
+  }
+  .pitch-toggle:hover { background: #e1f5ec; }
+  .arrow { display: inline-block; width: 16px; transition: transform 0.18s; }
+  .pitch-toggle.open .arrow { transform: rotate(90deg); }
+  .pitch-body {
+    display: none;
+    background: #effaf5;
+    border-top: 1px solid #c7eadb;
+    padding: 14px 20px 18px;
+  }
+  .pitch-body.open { display: block; }
+  .pitch {
+    background: #fff;
+    border: 1px solid #c7eadb;
+    border-radius: 8px;
+    padding: 13px 14px;
+    margin-bottom: 10px;
+  }
+  .pitch:last-child { margin-bottom: 0; }
+  .pitch-type {
+    color: #16864f;
+    margin-bottom: 6px;
+    font: 800 0.7rem system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    text-transform: uppercase;
+  }
+  .pitch-field { margin-top: 8px; }
+  .pitch-field label {
+    display: block;
+    margin-bottom: 2px;
+    color: #66706c;
+    font: 800 0.68rem system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    text-transform: uppercase;
+  }
+  .pitch-field p { margin: 0; font-size: 0.9rem; }
+  .pitch-headline { font-weight: 700; color: var(--green); }
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 11px 20px 14px;
+    border-top: 1px solid #eef1ef;
+  }
+  .status-buttons { display: flex; gap: 6px; flex-wrap: wrap; }
+  .status-btn {
+    min-height: 30px;
+    padding: 5px 10px;
+    border-radius: 999px;
+    color: #4d5954;
+    font-size: 0.75rem;
+  }
+  .status-btn.active-new { background: #e8ecea; border-color: #b8c2bd; }
+  .status-btn.active-saved { background: #fff1c7; border-color: #f5c56b; color: #794600; }
+  .status-btn.active-pitched { background: #dcfce7; border-color: #86efac; color: #166534; }
+  .status-btn.active-passed { background: #f0f2f1; color: #66706c; }
+  .links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .links a {
+    color: var(--blue);
+    text-decoration: none;
+    font: 0.8rem system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  .links a:hover { text-decoration: underline; }
+  .remove {
+    min-height: 28px;
+    border: 0;
+    color: #9aa3a0;
+    background: transparent;
+    padding: 4px 6px;
+  }
+  .remove:hover { background: #fee4e2; color: var(--red); }
+  .empty, #loading {
+    text-align: center;
+    padding: 70px 20px;
+    color: var(--muted);
+    font: 0.92rem system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  .empty h2, #loading h2 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #39453f;
+  }
+  @media (max-width: 980px) {
+    .filters-inner { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .filters-inner input { grid-column: 1 / -1; }
+  }
+  @media (max-width: 620px) {
+    header, .filters { padding-left: 16px; padding-right: 16px; }
+    .filters-inner { grid-template-columns: 1fr; }
+    main { padding-left: 12px; padding-right: 12px; }
+    .card-header, .card-body, .card-footer, .pitch-toggle, .pitch-body { padding-left: 14px; padding-right: 14px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="header-row">
+    <div>
+      <h1>Research Digest Dashboard</h1>
+      <div class="meta" id="last-updated">Loading sources...</div>
+    </div>
+    <div class="chips" id="stats-chips"></div>
+  </div>
+</header>
+
+<section class="filters">
+  <div class="filters-inner">
+    <input type="search" id="search" placeholder="Search studies, journals, pitches" oninput="applyFilters()">
+    <select id="filter-source" onchange="applyFilters()">
+      <option value="">All digests</option>
+    </select>
+    <select id="filter-category" onchange="applyFilters()">
+      <option value="">All categories</option>
+    </select>
+    <select id="filter-groundbreaking" onchange="applyFilters()">
+      <option value="">All types</option>
+      <option value="Counterintuitive">Counterintuitive</option>
+      <option value="Overturns">Overturns prior research</option>
+      <option value="First-in-class">First-in-class</option>
+      <option value="Relevant">Relevant finding</option>
+    </select>
+    <select id="filter-status" onchange="applyFilters()">
+      <option value="">All statuses</option>
+      <option value="new">New</option>
+      <option value="saved">Saved</option>
+      <option value="pitched">Pitched</option>
+      <option value="passed">Passed</option>
+      <option value="removed">Removed</option>
+    </select>
+    <select id="filter-days" onchange="applyFilters()">
+      <option value="0">All time</option>
+      <option value="7" selected>Past 7 days</option>
+      <option value="14">Past 14 days</option>
+      <option value="30">Past 30 days</option>
+    </select>
+    <select id="sort-by" onchange="applyFilters()">
+      <option value="score" selected>Sort: relevance score</option>
+      <option value="date">Sort: newest first</option>
+      <option value="source">Sort: digest</option>
+    </select>
+    <button type="button" onclick="clearFilters()">Clear</button>
+  </div>
+</section>
+
+<main>
+  <div class="summary-row">
+    <div class="result-count" id="result-count" style="display:none"></div>
+    <div class="source-status" id="source-status"></div>
+  </div>
+  <div id="loading">Loading studies...</div>
+  <div class="grid" id="cards"></div>
+</main>
+
+<script>
+let SOURCES = [];
+let ALL_STUDIES = [];
+let SOURCE_ERRORS = [];
+const STATUS_KEY = "research-digest-dashboard-status";
+
+async function fetchJson(path) {
+  const res = await fetch(path + "?ts=" + Date.now());
+  if (!res.ok) throw new Error(path + " returned " + res.status);
+  return res.json();
+}
+
+async function init() {
+  try {
+    SOURCES = await fetchJson("data/sources.json");
+    populateSourceFilter(SOURCES);
+
+    const payloads = await Promise.all(SOURCES.map(async source => {
+      try {
+        const payload = await fetchJson(source.file);
+        return { source, payload };
+      } catch (error) {
+        SOURCE_ERRORS.push(source.label);
+        return { source, payload: { studies: [] } };
+      }
+    }));
+
+    ALL_STUDIES = dedupeStudies(payloads.flatMap(({ source, payload }) => {
+      const studies = Array.isArray(payload) ? payload : (payload.studies || []);
+      const sourceId = payload.source_id || source.id;
+      const sourceLabel = payload.source_label || source.label;
+      return studies.map(study => ({
+        ...study,
+        source_id: study.source_id || sourceId,
+        source_label: study.source_label || sourceLabel,
+        source_file: source.file
+      }));
+    }));
+
+    populateCategoryFilter(ALL_STUDIES);
+    renderStats();
+    applyFilters();
+    renderSourceStatus();
+    document.getElementById("loading").style.display = "none";
+  } catch (error) {
+    document.getElementById("loading").innerHTML =
+      "<h2>Dashboard data is not ready</h2><p>Check data/sources.json and the digest JSON files.</p>";
+  }
+}
+
+function dedupeStudies(studies) {
+  const byKey = new Map();
+  for (const study of studies) {
+    const pmid = study.pmid || "";
+    const key = pmid || [study.source_id, study.headline, study.journal, study.pubdate].join("|");
+    const existing = byKey.get(key);
+    if (!existing || isFresherOrBetter(study, existing)) byKey.set(key, study);
+  }
+  return Array.from(byKey.values());
+}
+
+function isFresherOrBetter(a, b) {
+  const scoreA = Number(a.relevance_score || 0);
+  const scoreB = Number(b.relevance_score || 0);
+  if (scoreA !== scoreB) return scoreA > scoreB;
+  return String(a.run_date || a.pubdate || "") > String(b.run_date || b.pubdate || "");
+}
+
+function populateSourceFilter(sources) {
+  const select = document.getElementById("filter-source");
+  select.innerHTML = '<option value="">All digests</option>' +
+    sources.map(source => `<option value="${escAttr(source.id)}">${esc(source.label)}</option>`).join("");
+}
+
+function populateCategoryFilter(studies) {
+  const categories = Array.from(new Set(studies.map(s => s.category).filter(Boolean))).sort();
+  const select = document.getElementById("filter-category");
+  select.innerHTML = '<option value="">All categories</option>' +
+    categories.map(category => `<option value="${escAttr(category)}">${esc(category)}</option>`).join("");
+}
+
+function renderSourceStatus() {
+  const loaded = SOURCES.length - SOURCE_ERRORS.length;
+  const note = SOURCE_ERRORS.length
+    ? "Loaded " + loaded + " of " + SOURCES.length + " digests; missing: " + SOURCE_ERRORS.join(", ")
+    : "Loaded " + loaded + " digests";
+  document.getElementById("source-status").textContent = note;
+}
+
+function renderStats() {
+  const statuses = getStatuses();
+  const active = ALL_STUDIES.filter(s => getStatus(s, statuses) !== "removed");
+  const saved = active.filter(s => getStatus(s, statuses) === "saved").length;
+  const pitched = active.filter(s => getStatus(s, statuses) === "pitched").length;
+  const chips = [
+    { label: active.length + " active", cls: "highlight" },
+    { label: saved + " saved", cls: "" },
+    { label: pitched + " pitched", cls: "" },
+    { label: SOURCES.length + " digests", cls: "" }
+  ];
+  document.getElementById("stats-chips").innerHTML =
+    chips.map(chip => `<span class="chip ${chip.cls}">${esc(chip.label)}</span>`).join("");
+
+  const latest = latestDate(ALL_STUDIES);
+  document.getElementById("last-updated").textContent = latest
+    ? "Latest study run: " + latest.toLocaleString()
+    : "Waiting for digest results";
+}
+
+function latestDate(studies) {
+  const dates = studies
+    .map(s => new Date(s.run_timestamp || s.run_date || s.pubdate || ""))
+    .filter(date => !Number.isNaN(date.getTime()));
+  if (!dates.length) return null;
+  return new Date(Math.max(...dates.map(date => date.getTime())));
+}
+
+function getStatuses() {
+  try { return JSON.parse(localStorage.getItem(STATUS_KEY) || "{}"); }
+  catch { return {}; }
+}
+
+function statusId(study) {
+  return [study.source_id || "source", study.pmid || study.headline || ""].join(":");
+}
+
+function getStatus(study, statuses = getStatuses()) {
+  return statuses[statusId(study)] || study.status || "new";
+}
+
+function setStatus(id, status) {
+  const statuses = getStatuses();
+  statuses[id] = status;
+  localStorage.setItem(STATUS_KEY, JSON.stringify(statuses));
+  applyFilters();
+  renderStats();
+}
+
+function removeStudy(id) {
+  setStatus(id, "removed");
+}
+
+function applyFilters() {
+  const query = document.getElementById("search").value.trim().toLowerCase();
+  const source = document.getElementById("filter-source").value;
+  const category = document.getElementById("filter-category").value;
+  const type = document.getElementById("filter-groundbreaking").value.toLowerCase();
+  const statusFilter = document.getElementById("filter-status").value;
+  const days = Number(document.getElementById("filter-days").value);
+  const sortBy = document.getElementById("sort-by").value;
+  const cutoff = days > 0 ? new Date(Date.now() - days * 86400000) : null;
+  const statuses = getStatuses();
+
+  let filtered = ALL_STUDIES.filter(study => {
+    const status = getStatus(study, statuses);
+    if (source && study.source_id !== source) return false;
+    if (category && study.category !== category) return false;
+    if (status === "removed" && statusFilter !== "removed") return false;
+    if (statusFilter && status !== statusFilter) return false;
+    if (type && !String(study.groundbreaking || "").toLowerCase().includes(type)) return false;
+    if (cutoff) {
+      const date = new Date(study.run_date || study.pubdate || "");
+      if (!Number.isNaN(date.getTime()) && date < cutoff) return false;
+    }
+    if (query && !searchText(study).includes(query)) return false;
+    return true;
+  });
+
+  if (sortBy === "score") {
+    filtered.sort((a, b) => Number(b.relevance_score || 0) - Number(a.relevance_score || 0));
+  } else if (sortBy === "date") {
+    filtered.sort((a, b) => String(b.run_date || b.pubdate || "").localeCompare(String(a.run_date || a.pubdate || "")));
+  } else {
+    filtered.sort((a, b) => String(a.source_label || "").localeCompare(String(b.source_label || "")));
+  }
+
+  document.getElementById("result-count").style.display = "block";
+  document.getElementById("result-count").textContent =
+    filtered.length + " of " + ALL_STUDIES.length + " studies";
+
+  document.getElementById("cards").innerHTML = filtered.length
+    ? filtered.map(renderCard).join("")
+    : '<div class="empty"><h2>No studies match your filters</h2><p>Try broadening the filters or search.</p></div>';
+}
+
+function searchText(study) {
+  const pitches = (study.pitch_angles || [])
+    .map(p => [p.publication_type, p.headline, p.hook, p.why_it_fits, p.pitch_angle, p.caveats_to_flag].join(" "))
+    .join(" ");
+  return [
+    study.source_label,
+    study.category,
+    study.headline,
+    study.summary,
+    study.why_it_matters,
+    study.caveats,
+    study.journal,
+    pitches
+  ].join(" ").toLowerCase();
+}
+
+function clearFilters() {
+  document.getElementById("search").value = "";
+  document.getElementById("filter-source").value = "";
+  document.getElementById("filter-category").value = "";
+  document.getElementById("filter-groundbreaking").value = "";
+  document.getElementById("filter-status").value = "";
+  document.getElementById("filter-days").value = "7";
+  document.getElementById("sort-by").value = "score";
+  applyFilters();
+}
+
+function renderCard(study) {
+  const id = statusId(study);
+  const status = getStatus(study);
+  const pitchAngles = Array.isArray(study.pitch_angles) ? study.pitch_angles : [];
+  const statusButtons = ["new", "saved", "pitched", "passed"].map(name =>
+    `<button class="status-btn${status === name ? " active-" + name : ""}" onclick="setStatus('${escAttr(id)}','${name}')">${titleCase(name)}</button>`
+  ).join("");
+  const pitches = pitchAngles.map(renderPitch).join("");
+  const fact = study.fact_check_note
+    ? `<div class="note fact"><strong>Fact-check note:</strong> ${esc(study.fact_check_note)}</div>`
+    : "";
+  const caveats = study.caveats && study.caveats !== "None identified"
+    ? `<div class="note">${esc(study.caveats)}</div>`
+    : "";
+
+  return `
+<article class="card status-${escAttr(status)}">
+  <div class="card-header">
+    <div class="headline">${esc(study.headline || study.title || "Untitled study")}</div>
+    <div class="card-meta">
+      ${scoreBadge(study)}
+      <span class="badge badge-source">${esc(study.source_label || "Digest")}</span>
+      ${study.category ? `<span class="badge badge-cat">${esc(study.category)}</span>` : ""}
+      ${study.groundbreaking ? `<span class="badge badge-gb">${esc(study.groundbreaking)}</span>` : ""}
+      ${study.media_coverage && String(study.media_coverage).includes("SERPAPI") ? '<span class="badge badge-media">Media checked</span>' : ""}
+      ${study.journal ? `<span>${esc(study.journal)}</span>` : ""}
+      ${study.pubdate ? `<span>${esc(study.pubdate)}</span>` : ""}
+      ${study.run_date ? `<span>Found ${esc(study.run_date)}</span>` : ""}
+    </div>
+  </div>
+  <div class="card-body">
+    ${study.summary ? `<p><strong>The study:</strong> ${esc(study.summary)}</p>` : ""}
+    ${study.why_it_matters ? `<p><strong>Why it matters:</strong> ${esc(study.why_it_matters)}</p>` : ""}
+    ${caveats}
+    ${fact}
+  </div>
+  ${pitchAngles.length ? `
+    <button class="pitch-toggle" onclick="togglePitch(this)" data-target="pitch-${escAttr(id)}">
+      <span class="arrow">&gt;</span> Pitch angles (${pitchAngles.length})
+    </button>
+    <div class="pitch-body" id="pitch-${escAttr(id)}">${pitches}</div>` : ""}
+  <div class="card-footer">
+    <div class="status-buttons">${statusButtons}</div>
+    <div class="links">
+      ${study.pmid ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${escAttr(study.pmid)}/" target="_blank" rel="noreferrer">PubMed ${esc(study.pmid)}</a>` : ""}
+      ${study.doi ? `<a href="https://doi.org/${escAttr(study.doi)}" target="_blank" rel="noreferrer">DOI</a>` : ""}
+      <button class="remove" title="Remove from dashboard" onclick="removeStudy('${escAttr(id)}')">x</button>
+    </div>
+  </div>
+</article>`;
+}
+
+function renderPitch(pitch) {
+  return `
+<div class="pitch">
+  ${pitch.publication_type ? `<div class="pitch-type">${esc(pitch.publication_type)}</div>` : ""}
+  ${pitch.headline ? `<div class="pitch-field"><label>Headline</label><p class="pitch-headline">${esc(pitch.headline)}</p></div>` : ""}
+  ${pitch.hook ? `<div class="pitch-field"><label>Opening hook</label><p>${esc(pitch.hook)}</p></div>` : ""}
+  ${pitch.why_it_fits ? `<div class="pitch-field"><label>Why it fits</label><p>${esc(pitch.why_it_fits)}</p></div>` : ""}
+  ${pitch.pitch_angle ? `<div class="pitch-field"><label>Pitch angle</label><p>${esc(pitch.pitch_angle)}</p></div>` : ""}
+  ${pitch.caveats_to_flag ? `<div class="pitch-field"><label>Caveats to flag</label><p>${esc(pitch.caveats_to_flag)}</p></div>` : ""}
+</div>`;
+}
+
+function scoreBadge(study) {
+  const score = Number(study.relevance_score);
+  if (Number.isNaN(score)) return "";
+  const cls = score >= 8 ? " high" : score >= 6 ? " mid" : "";
+  const reason = study.relevance_score_reason ? ` title="${escAttr(study.relevance_score_reason)}"` : "";
+  return `<span class="badge score${cls}"${reason}>Relevance ${score}/10</span>`;
+}
+
+function togglePitch(button) {
+  button.classList.toggle("open");
+  const target = document.getElementById(button.dataset.target);
+  if (target) target.classList.toggle("open");
+}
+
+function titleCase(value) {
+  return value.charAt(0).toUpperCase() + value.slice(1);
+}
+
+function esc(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function escAttr(value) {
+  return esc(value).replace(/'/g, "&#39;");
+}
+
+init();
+</script>
+</body>
+</html>
