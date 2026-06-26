@@ -65,6 +65,7 @@
     white-space: nowrap;
   }
   .chip.highlight { background: #2563eb; }
+  .chip.new { background: #16864f; }
   .filters {
     background: var(--paper);
     border-bottom: 1px solid var(--line);
@@ -77,6 +78,14 @@
     grid-template-columns: minmax(220px, 1.3fr) repeat(6, minmax(135px, auto));
     gap: 10px;
     align-items: center;
+  }
+  .filter-actions {
+    max-width: 1180px;
+    margin: 8px auto 0;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
   }
   input, select, button {
     min-height: 36px;
@@ -212,6 +221,7 @@
     border-radius: 8px;
     padding: 13px 14px;
     margin-bottom: 10px;
+    overflow: hidden;
   }
   .pitch:last-child { margin-bottom: 0; }
   .pitch-type {
@@ -230,6 +240,19 @@
   }
   .pitch-field p { margin: 0; font-size: 0.9rem; }
   .pitch-headline { font-weight: 700; color: var(--green); }
+  .copy-btn {
+    float: right;
+    min-height: 26px;
+    padding: 3px 9px;
+    border: 1px solid #c7eadb;
+    border-radius: 5px;
+    background: #fff;
+    color: #176044;
+    font: 0.72rem system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    cursor: pointer;
+  }
+  .copy-btn:hover { background: #e1f5ec; }
+  .copy-btn.copied { background: #dcfce7; color: #14532d; border-color: #86efac; }
   .card-footer {
     display: flex;
     justify-content: space-between;
@@ -317,10 +340,12 @@
     </select>
     <select id="filter-groundbreaking" onchange="applyFilters()">
       <option value="">All types</option>
-      <option value="Counterintuitive">Counterintuitive</option>
-      <option value="Overturns">Overturns prior research</option>
-      <option value="First-in-class">First-in-class</option>
-      <option value="Relevant">Relevant finding</option>
+      <option value="counterintuitive">Counterintuitive</option>
+      <option value="overturns">Overturns prior research</option>
+      <option value="first-in-class">First-in-class</option>
+      <option value="major public health">Major public health implication</option>
+      <option value="clear fitness">Clear fitness implication</option>
+      <option value="relevant">Relevant finding</option>
     </select>
     <select id="filter-status" onchange="applyFilters()">
       <option value="">All statuses</option>
@@ -343,6 +368,13 @@
     </select>
     <button type="button" onclick="clearFilters()">Clear</button>
   </div>
+  <div class="filter-actions">
+    <button type="button" onclick="exportStatus()" title="Export your saved/pitched/passed labels as a JSON file">Export status</button>
+    <label style="display:inline-flex;align-items:center;">
+      <button type="button" onclick="document.getElementById('import-file').click()" title="Import previously exported status labels">Import status</button>
+      <input type="file" id="import-file" accept=".json" style="display:none" onchange="importStatus(event)">
+    </label>
+  </div>
 </section>
 
 <main>
@@ -358,6 +390,7 @@
 let SOURCES = [];
 let ALL_STUDIES = [];
 let SOURCE_ERRORS = [];
+let TOTAL_NEW_THIS_RUN = 0;
 const STATUS_KEY = "research-digest-dashboard-status";
 
 async function fetchJson(path) {
@@ -381,15 +414,18 @@ async function init() {
       }
     }));
 
+    TOTAL_NEW_THIS_RUN = payloads.reduce((sum, { payload }) =>
+      sum + (Number(payload.new_this_run) || 0), 0);
+
     ALL_STUDIES = dedupeStudies(payloads.flatMap(({ source, payload }) => {
-      const studies = Array.isArray(payload) ? payload : (payload.studies || []);
+      const studies = (Array.isArray(payload) ? payload : (payload.studies || []))
+        .filter(s => !s.excluded);
       const sourceId = payload.source_id || source.id;
       const sourceLabel = payload.source_label || source.label;
       return studies.map(study => ({
         ...study,
         source_id: study.source_id || sourceId,
-        source_label: study.source_label || sourceLabel,
-        source_file: source.file
+        source_label: study.source_label || sourceLabel
       }));
     }));
 
@@ -454,6 +490,9 @@ function renderStats() {
     { label: pitched + " pitched", cls: "" },
     { label: SOURCES.length + " digests", cls: "" }
   ];
+  if (TOTAL_NEW_THIS_RUN > 0) {
+    chips.splice(1, 0, { label: TOTAL_NEW_THIS_RUN + " new this run", cls: "new" });
+  }
   document.getElementById("stats-chips").innerHTML =
     chips.map(chip => `<span class="chip ${chip.cls}">${esc(chip.label)}</span>`).join("");
 
@@ -465,7 +504,7 @@ function renderStats() {
 
 function latestDate(studies) {
   const dates = studies
-    .map(s => new Date(s.run_timestamp || s.run_date || s.pubdate || ""))
+    .map(s => new Date(s.run_date || s.pubdate || ""))
     .filter(date => !Number.isNaN(date.getTime()));
   if (!dates.length) return null;
   return new Date(Math.max(...dates.map(date => date.getTime())));
@@ -494,6 +533,38 @@ function setStatus(id, status) {
 
 function removeStudy(id) {
   setStatus(id, "removed");
+}
+
+function exportStatus() {
+  const statuses = getStatuses();
+  const blob = new Blob([JSON.stringify(statuses, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "digest-status-" + new Date().toISOString().slice(0, 10) + ".json";
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function importStatus(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const imported = JSON.parse(e.target.result);
+      const current = getStatuses();
+      const merged = { ...current, ...imported };
+      localStorage.setItem(STATUS_KEY, JSON.stringify(merged));
+      applyFilters();
+      renderStats();
+      alert("Imported " + Object.keys(imported).length + " status labels.");
+    } catch {
+      alert("Could not parse the selected file. Make sure it is a valid status export.");
+    }
+    event.target.value = "";
+  };
+  reader.readAsText(file);
 }
 
 function applyFilters() {
@@ -573,13 +644,16 @@ function renderCard(study) {
   const statusButtons = ["new", "saved", "pitched", "passed"].map(name =>
     `<button class="status-btn${status === name ? " active-" + name : ""}" onclick="setStatus('${escAttr(id)}','${name}')">${titleCase(name)}</button>`
   ).join("");
-  const pitches = pitchAngles.map(renderPitch).join("");
+  const pitches = pitchAngles.map((p, i) => renderPitch(p, id, i)).join("");
   const fact = study.fact_check_note
     ? `<div class="note fact"><strong>Fact-check note:</strong> ${esc(study.fact_check_note)}</div>`
     : "";
   const caveats = study.caveats && study.caveats !== "None identified"
     ? `<div class="note">${esc(study.caveats)}</div>`
     : "";
+  const mediaCoverage = study.media_coverage &&
+    !String(study.media_coverage).startsWith("Not verified") &&
+    !String(study.media_coverage).toLowerCase().includes("unavailable");
 
   return `
 <article class="card status-${escAttr(status)}">
@@ -590,7 +664,7 @@ function renderCard(study) {
       <span class="badge badge-source">${esc(study.source_label || "Digest")}</span>
       ${study.category ? `<span class="badge badge-cat">${esc(study.category)}</span>` : ""}
       ${study.groundbreaking ? `<span class="badge badge-gb">${esc(study.groundbreaking)}</span>` : ""}
-      ${study.media_coverage && String(study.media_coverage).includes("SERPAPI") ? '<span class="badge badge-media">Media checked</span>' : ""}
+      ${mediaCoverage ? '<span class="badge badge-media">Media coverage found</span>' : ""}
       ${study.journal ? `<span>${esc(study.journal)}</span>` : ""}
       ${study.pubdate ? `<span>${esc(study.pubdate)}</span>` : ""}
       ${study.run_date ? `<span>Found ${esc(study.run_date)}</span>` : ""}
@@ -618,9 +692,11 @@ function renderCard(study) {
 </article>`;
 }
 
-function renderPitch(pitch) {
+function renderPitch(pitch, studyId, index) {
+  const copyId = "copy-" + escAttr(studyId) + "-" + index;
   return `
 <div class="pitch">
+  <button class="copy-btn" id="${copyId}" onclick="copyPitch('${copyId}', ${index}, '${escAttr(studyId)}')">Copy</button>
   ${pitch.publication_type ? `<div class="pitch-type">${esc(pitch.publication_type)}</div>` : ""}
   ${pitch.headline ? `<div class="pitch-field"><label>Headline</label><p class="pitch-headline">${esc(pitch.headline)}</p></div>` : ""}
   ${pitch.hook ? `<div class="pitch-field"><label>Opening hook</label><p>${esc(pitch.hook)}</p></div>` : ""}
@@ -628,6 +704,28 @@ function renderPitch(pitch) {
   ${pitch.pitch_angle ? `<div class="pitch-field"><label>Pitch angle</label><p>${esc(pitch.pitch_angle)}</p></div>` : ""}
   ${pitch.caveats_to_flag ? `<div class="pitch-field"><label>Caveats to flag</label><p>${esc(pitch.caveats_to_flag)}</p></div>` : ""}
 </div>`;
+}
+
+function copyPitch(btnId, index, studyId) {
+  const study = ALL_STUDIES.find(s => statusId(s) === studyId);
+  if (!study) return;
+  const pitch = (study.pitch_angles || [])[index];
+  if (!pitch) return;
+  const parts = [
+    pitch.publication_type ? "FOR: " + pitch.publication_type : "",
+    pitch.headline ? "HEADLINE: " + pitch.headline : "",
+    pitch.hook ? "HOOK: " + pitch.hook : "",
+    pitch.pitch_angle ? "PITCH: " + pitch.pitch_angle : "",
+    pitch.why_it_fits ? "WHY IT FITS: " + pitch.why_it_fits : "",
+    pitch.caveats_to_flag ? "CAVEATS: " + pitch.caveats_to_flag : ""
+  ].filter(Boolean).join("\n\n");
+  navigator.clipboard.writeText(parts).then(() => {
+    const btn = document.getElementById(btnId);
+    if (!btn) return;
+    btn.textContent = "Copied!";
+    btn.classList.add("copied");
+    setTimeout(() => { btn.textContent = "Copy"; btn.classList.remove("copied"); }, 2000);
+  });
 }
 
 function scoreBadge(study) {
