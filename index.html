@@ -325,7 +325,6 @@
   .status-btn.active-new { background: #e8ecea; border-color: #b8c2bd; }
   .status-btn.active-saved { background: #fff1c7; border-color: #f5c56b; color: #794600; }
   .status-btn.active-pitched { background: #dcfce7; border-color: #86efac; color: #166534; }
-  .status-btn.active-passed { background: #f0f2f1; color: #66706c; }
   .links {
     display: flex;
     gap: 10px;
@@ -347,6 +346,49 @@
     font-size: 0.78rem;
   }
   .delete-btn:hover { background: #fee4e2; color: var(--red); border-radius: 4px; }
+  #undo-toast {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    background: #1d2522;
+    color: #fff;
+    padding: 12px 16px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font: 0.85rem/1.3 system-ui, -apple-system, sans-serif;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.35);
+    transition: transform 0.22s cubic-bezier(0.34,1.26,0.64,1);
+    z-index: 200;
+    overflow: hidden;
+    min-width: 280px;
+    max-width: 500px;
+  }
+  #undo-toast.visible { transform: translateX(-50%) translateY(0); }
+  #undo-toast .toast-text { flex: 1; }
+  #undo-toast .toast-undo {
+    min-height: 28px;
+    padding: 4px 13px;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.15);
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.22);
+    font: 0.82rem system-ui, sans-serif;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  #undo-toast .toast-undo:hover { background: rgba(255,255,255,0.26); }
+  .toast-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background: rgba(255,255,255,0.35);
+    animation: toast-drain 6s linear forwards;
+  }
+  @keyframes toast-drain { from { width: 100%; } to { width: 0%; } }
   .empty, #loading {
     text-align: center;
     padding: 70px 20px;
@@ -405,7 +447,6 @@
       <option value="new">New</option>
       <option value="saved">Saved</option>
       <option value="pitched">Pitched</option>
-      <option value="passed">Passed</option>
     </select>
     <select id="filter-days" onchange="applyFilters()">
       <option value="0">All time</option>
@@ -435,7 +476,12 @@
     <div class="result-count" id="result-count" style="display:none"></div>
     <div class="source-status" id="source-status"></div>
   </div>
-  <div id="loading">Loading studies...</div>
+  <div id="undo-toast">
+  <span class="toast-text"></span>
+  <button class="toast-undo" onclick="undoDelete()">Undo</button>
+  <div class="toast-bar"></div>
+</div>
+<div id="loading">Loading studies...</div>
   <div class="grid" id="cards"></div>
 </main>
 
@@ -449,6 +495,7 @@ let SOURCE_ERRORS = [];
 let TOTAL_NEW_THIS_RUN = 0;
 let STATUSES_CACHE = {};
 let DB_READY = false;
+let pendingDelete = null;
 
 // ── Supabase config ──────────────────────────────────────────────────────────
 
@@ -559,13 +606,60 @@ function setStatus(id, status) {
 }
 
 function deleteStudy(id) {
-  STATUSES_CACHE[id] = "deleted";
-  persistStatus(id, "deleted");
-  // Remove from ALL_STUDIES so it never re-appears this session
+  // Commit any previously pending delete before starting a new one
+  if (pendingDelete) commitDelete();
+
   const idx = ALL_STUDIES.findIndex(s => statusId(s) === id);
-  if (idx !== -1) ALL_STUDIES.splice(idx, 1);
+  if (idx === -1) return;
+  const study = ALL_STUDIES[idx];
+
+  // Remove from view immediately (optimistic)
+  STATUSES_CACHE[id] = "deleted";
+  ALL_STUDIES.splice(idx, 1);
   applyFilters();
   renderStats();
+
+  // Show undo toast — actual DB write is deferred until the timer fires
+  pendingDelete = { id, study, idx, timer: setTimeout(commitDelete, 6000) };
+  showUndoToast(study.headline || study.title || "Study");
+}
+
+function undoDelete() {
+  if (!pendingDelete) return;
+  clearTimeout(pendingDelete.timer);
+  const { id, study, idx } = pendingDelete;
+  pendingDelete = null;
+  delete STATUSES_CACHE[id];
+  // Restore study at its original position
+  ALL_STUDIES.splice(idx, 0, study);
+  applyFilters();
+  renderStats();
+  hideUndoToast();
+}
+
+function commitDelete() {
+  if (!pendingDelete) return;
+  clearTimeout(pendingDelete.timer);
+  const { id } = pendingDelete;
+  pendingDelete = null;
+  persistStatus(id, "deleted");
+  hideUndoToast();
+}
+
+function showUndoToast(headline) {
+  const toast = document.getElementById("undo-toast");
+  const label = headline.length > 60 ? headline.slice(0, 60) + "…" : headline;
+  toast.querySelector(".toast-text").textContent = "“" + label + "” deleted";
+  // Restart the drain animation
+  const bar = toast.querySelector(".toast-bar");
+  bar.style.animation = "none";
+  bar.offsetHeight;
+  bar.style.animation = "";
+  toast.classList.add("visible");
+}
+
+function hideUndoToast() {
+  document.getElementById("undo-toast").classList.remove("visible");
 }
 
 // ── DB banner UI ─────────────────────────────────────────────────────────────
@@ -836,7 +930,7 @@ function renderCard(study) {
   const id = statusId(study);
   const status = getStatus(study);
   const pitchAngles = Array.isArray(study.pitch_angles) ? study.pitch_angles : [];
-  const statusButtons = ["new", "saved", "pitched", "passed"].map(name =>
+  const statusButtons = ["new", "saved", "pitched"].map(name =>
     `<button class="status-btn${status === name ? " active-" + name : ""}" onclick="setStatus('${escAttr(id)}','${name}')">${titleCase(name)}</button>`
   ).join("");
   const pitches = pitchAngles.map((p, i) => renderPitch(p, id, i)).join("");
