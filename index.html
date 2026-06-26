@@ -802,8 +802,17 @@ function dedupeStudies(studies) {
       // Merge source labels so the card shows all digests it appeared in
       const labels = existing._source_labels;
       if (!labels.includes(study.source_label)) labels.push(study.source_label);
+      // Merge pitch angles from both sources so NS-specific and general pitches both show
+      const mergedPitches = [
+        ...(existing.pitch_angles || []),
+        ...(study.pitch_angles || []).filter(p =>
+          !(existing.pitch_angles || []).some(e => e.headline === p.headline)
+        )
+      ];
       if (isFresherOrBetter(study, existing)) {
-        byKey.set(key, { ...study, _source_labels: labels });
+        byKey.set(key, { ...study, _source_labels: labels, pitch_angles: mergedPitches });
+      } else {
+        byKey.set(key, { ...existing, _source_labels: labels, pitch_angles: mergedPitches });
       }
     }
   }
