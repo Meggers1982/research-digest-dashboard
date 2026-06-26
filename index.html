@@ -496,6 +496,7 @@ let TOTAL_NEW_THIS_RUN = 0;
 let STATUSES_CACHE = {};
 let DB_READY = false;
 let pendingDelete = null;
+let DASHBOARD_LAST_UPDATED = null;
 
 // ── Supabase config ──────────────────────────────────────────────────────────
 
@@ -760,6 +761,12 @@ async function init() {
     TOTAL_NEW_THIS_RUN = payloads.reduce((sum, { payload }) =>
       sum + (Number(payload.new_this_run) || 0), 0);
 
+    const updateDates = payloads
+      .map(({ payload }) => new Date(payload.last_updated || ""))
+      .filter(d => !Number.isNaN(d.getTime()));
+    DASHBOARD_LAST_UPDATED = updateDates.length
+      ? new Date(Math.max(...updateDates.map(d => d.getTime()))) : null;
+
     ALL_STUDIES = dedupeStudies(payloads.flatMap(({ source, payload }) => {
       const studies = (Array.isArray(payload) ? payload : (payload.studies || []))
         .filter(s => !s.excluded);
@@ -848,19 +855,11 @@ function renderStats() {
   document.getElementById("stats-chips").innerHTML =
     chips.map(c => `<span class="chip ${c.cls}">${esc(c.label)}</span>`).join("");
 
-  const latest = latestDate(ALL_STUDIES);
-  document.getElementById("last-updated").textContent = latest
-    ? "Latest study run: " + latest.toLocaleString()
+  document.getElementById("last-updated").textContent = DASHBOARD_LAST_UPDATED
+    ? "Last updated: " + DASHBOARD_LAST_UPDATED.toLocaleString()
     : "Waiting for digest results";
 }
 
-function latestDate(studies) {
-  const dates = studies
-    .map(s => new Date(s.run_date || s.pubdate || ""))
-    .filter(d => !Number.isNaN(d.getTime()));
-  if (!dates.length) return null;
-  return new Date(Math.max(...dates.map(d => d.getTime())));
-}
 
 // ── Filtering & sorting ──────────────────────────────────────────────────────
 
