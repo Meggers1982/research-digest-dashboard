@@ -692,10 +692,19 @@ async function init() {
 function dedupeStudies(studies) {
   const byKey = new Map();
   for (const study of studies) {
-    const pmid = study.pmid || "";
-    const key = pmid || [study.source_id, study.headline, study.journal, study.pubdate].join("|");
+    // Priority: PMID → DOI → headline+journal+pubdate (no source_id, so cross-digest dupes are caught)
+    const key = study.pmid || study.doi || [study.headline, study.journal, study.pubdate].join("|");
     const existing = byKey.get(key);
-    if (!existing || isFresherOrBetter(study, existing)) byKey.set(key, study);
+    if (!existing) {
+      byKey.set(key, { ...study, _source_labels: [study.source_label] });
+    } else {
+      // Merge source labels so the card shows all digests it appeared in
+      const labels = existing._source_labels;
+      if (!labels.includes(study.source_label)) labels.push(study.source_label);
+      if (isFresherOrBetter(study, existing)) {
+        byKey.set(key, { ...study, _source_labels: labels });
+      }
+    }
   }
   return Array.from(byKey.values());
 }
@@ -845,7 +854,7 @@ function renderCard(study) {
     <div class="headline">${esc(study.headline || study.title || "Untitled study")}</div>
     <div class="card-meta">
       ${scoreBadge(study)}
-      <span class="badge badge-source">${esc(study.source_label || "Digest")}</span>
+      ${(study._source_labels || [study.source_label || "Digest"]).map(l => `<span class="badge badge-source">${esc(l)}</span>`).join("")}
       ${study.category ? `<span class="badge badge-cat">${esc(study.category)}</span>` : ""}
       ${study.groundbreaking ? `<span class="badge badge-gb">${esc(study.groundbreaking)}</span>` : ""}
       ${mediaCoverage ? '<span class="badge badge-media">Media coverage found</span>' : ""}
