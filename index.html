@@ -959,7 +959,7 @@ function renderCard(study) {
       ${(study._source_labels || [study.source_label || "Digest"]).map(l => `<span class="badge badge-source">${esc(l)}</span>`).join("")}
       ${study.category ? `<span class="badge badge-cat">${esc(study.category)}</span>` : ""}
       ${study.groundbreaking ? `<span class="badge badge-gb">${esc(study.groundbreaking)}</span>` : ""}
-      ${mediaCoverage ? '<span class="badge badge-media">Media coverage found</span>' : ""}
+      ${mediaCoverage ? `<span class="badge badge-media">${esc(study.media_coverage)}</span>` : ""}
       ${study.journal ? `<span>${esc(study.journal)}</span>` : ""}
       ${study.pubdate ? `<span>${esc(study.pubdate)}</span>` : ""}
       ${study.run_date ? `<span>Found ${esc(study.run_date)}</span>` : ""}
