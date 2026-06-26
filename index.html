@@ -87,6 +87,62 @@
     align-items: center;
     flex-wrap: wrap;
   }
+  .db-banner {
+    max-width: 1180px;
+    margin: 10px auto 0;
+    background: #fff8e1;
+    border: 1px solid #ffe082;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font: 0.83rem system-ui, -apple-system, sans-serif;
+    color: #5a4000;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .db-banner.connected {
+    background: #f0faf5;
+    border-color: #c7eadb;
+    color: #145233;
+  }
+  .db-banner p { flex: 1; min-width: 200px; margin: 0; line-height: 1.5; }
+  .db-form {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 2;
+    min-width: 280px;
+  }
+  .db-form input {
+    flex: 1;
+    min-width: 160px;
+    min-height: 32px;
+    padding: 5px 9px;
+    font-size: 0.8rem;
+    border: 1px solid #ffe082;
+    border-radius: 5px;
+    background: #fff;
+    color: var(--ink);
+    width: auto;
+  }
+  .db-form button, .db-btn {
+    min-height: 32px;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border: 1px solid #cfd8d3;
+    background: #fff;
+    color: var(--ink);
+  }
+  .db-btn-primary {
+    background: var(--green);
+    color: #fff;
+    border-color: var(--green);
+  }
+  .db-btn-primary:hover { background: #0f2e26; }
   input, select, button {
     min-height: 36px;
     border: 1px solid #cfd8d3;
@@ -96,10 +152,7 @@
     font: 0.85rem system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   }
   input, select { padding: 7px 10px; width: 100%; }
-  button {
-    padding: 7px 13px;
-    cursor: pointer;
-  }
+  button { padding: 7px 13px; cursor: pointer; }
   button:hover { background: #f2f5f3; }
   main {
     max-width: 1180px;
@@ -137,7 +190,6 @@
   .card.status-saved { border-left-color: var(--gold); }
   .card.status-pitched { border-left-color: #16864f; }
   .card.status-passed { border-left-color: #9aa3a0; }
-  .card.status-removed { opacity: 0.46; border-left-color: var(--red); }
   .card-header { padding: 18px 20px 10px; }
   .headline {
     color: var(--green);
@@ -286,14 +338,15 @@
     font: 0.8rem system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   }
   .links a:hover { text-decoration: underline; }
-  .remove {
+  .delete-btn {
     min-height: 28px;
     border: 0;
     color: #9aa3a0;
     background: transparent;
-    padding: 4px 6px;
+    padding: 4px 8px;
+    font-size: 0.78rem;
   }
-  .remove:hover { background: #fee4e2; color: var(--red); }
+  .delete-btn:hover { background: #fee4e2; color: var(--red); border-radius: 4px; }
   .empty, #loading {
     text-align: center;
     padding: 70px 20px;
@@ -353,7 +406,6 @@
       <option value="saved">Saved</option>
       <option value="pitched">Pitched</option>
       <option value="passed">Passed</option>
-      <option value="removed">Removed</option>
     </select>
     <select id="filter-days" onchange="applyFilters()">
       <option value="0">All time</option>
@@ -369,12 +421,13 @@
     <button type="button" onclick="clearFilters()">Clear</button>
   </div>
   <div class="filter-actions">
-    <button type="button" onclick="exportStatus()" title="Export your saved/pitched/passed labels as a JSON file">Export status</button>
+    <button type="button" onclick="exportStatus()" title="Download your saved/pitched/passed labels as a JSON backup">Export backup</button>
     <label style="display:inline-flex;align-items:center;">
-      <button type="button" onclick="document.getElementById('import-file').click()" title="Import previously exported status labels">Import status</button>
+      <button type="button" onclick="document.getElementById('import-file').click()" title="Restore from a previous backup file">Import backup</button>
       <input type="file" id="import-file" accept=".json" style="display:none" onchange="importStatus(event)">
     </label>
   </div>
+  <div id="db-banner" class="db-banner" style="display:none"></div>
 </section>
 
 <main>
@@ -387,11 +440,195 @@
 </main>
 
 <script>
+const STATUS_KEY = "research-digest-dashboard-status";
+const CONFIG_KEY = "research-digest-db-config";
+
 let SOURCES = [];
 let ALL_STUDIES = [];
 let SOURCE_ERRORS = [];
 let TOTAL_NEW_THIS_RUN = 0;
-const STATUS_KEY = "research-digest-dashboard-status";
+let STATUSES_CACHE = {};
+let DB_READY = false;
+
+// ── Supabase config ──────────────────────────────────────────────────────────
+
+function getDbConfig() {
+  try { return JSON.parse(localStorage.getItem(CONFIG_KEY) || "null"); }
+  catch { return null; }
+}
+
+function saveDbConfig(url, key) {
+  localStorage.setItem(CONFIG_KEY, JSON.stringify({ url: url.replace(/\/$/, ""), key }));
+}
+
+function clearDbConfig() {
+  localStorage.removeItem(CONFIG_KEY);
+  DB_READY = false;
+  renderDbBanner();
+}
+
+async function dbRequest(method, path, body) {
+  const config = getDbConfig();
+  if (!config) return null;
+  const headers = {
+    "apikey": config.key,
+    "Authorization": "Bearer " + config.key,
+    "Content-Type": "application/json"
+  };
+  if (method === "POST") headers["Prefer"] = "resolution=merge-duplicates,return=minimal";
+  try {
+    const res = await fetch(config.url + "/rest/v1/" + path, {
+      method,
+      headers,
+      body: body ? JSON.stringify(body) : undefined
+    });
+    if (!res.ok) {
+      console.warn("DB error", res.status, await res.text());
+      return null;
+    }
+    return method === "GET" ? res.json() : true;
+  } catch (err) {
+    console.warn("DB fetch failed", err);
+    return null;
+  }
+}
+
+async function loadStatuses() {
+  const rows = await dbRequest("GET", "study_status?select=study_id,status");
+  if (rows === null) return false;
+  STATUSES_CACHE = {};
+  for (const row of rows) STATUSES_CACHE[row.study_id] = row.status;
+  return true;
+}
+
+async function persistStatus(id, status) {
+  const ok = await dbRequest("POST", "study_status", {
+    study_id: id, status, updated_at: new Date().toISOString()
+  });
+  if (!ok) {
+    // Fallback: write to localStorage
+    const local = getLocalStatuses();
+    local[id] = status;
+    localStorage.setItem(STATUS_KEY, JSON.stringify(local));
+  }
+}
+
+async function connectDb(url, key) {
+  saveDbConfig(url, key);
+  const rows = await dbRequest("GET", "study_status?select=study_id,status");
+  if (rows === null) {
+    clearDbConfig();
+    return false;
+  }
+  // Migrate any existing localStorage statuses on first connect
+  const local = getLocalStatuses();
+  const toMigrate = Object.entries(local).filter(([, v]) => v !== "new");
+  if (toMigrate.length > 0) {
+    await dbRequest("POST", "study_status", toMigrate.map(([study_id, status]) => ({
+      study_id, status, updated_at: new Date().toISOString()
+    })));
+    for (const [id, status] of toMigrate) rows.push({ study_id: id, status });
+  }
+  STATUSES_CACHE = {};
+  for (const row of rows) STATUSES_CACHE[row.study_id] = row.status;
+  DB_READY = true;
+  return true;
+}
+
+// ── Status persistence ───────────────────────────────────────────────────────
+
+function getLocalStatuses() {
+  try { return JSON.parse(localStorage.getItem(STATUS_KEY) || "{}"); }
+  catch { return {}; }
+}
+
+function statusId(study) {
+  return [study.source_id || "source", study.pmid || study.headline || ""].join(":");
+}
+
+function getStatus(study) {
+  const id = statusId(study);
+  return STATUSES_CACHE[id] || (DB_READY ? "new" : (getLocalStatuses()[id] || study.status || "new"));
+}
+
+function setStatus(id, status) {
+  STATUSES_CACHE[id] = status;
+  persistStatus(id, status);
+  applyFilters();
+  renderStats();
+}
+
+function deleteStudy(id) {
+  STATUSES_CACHE[id] = "deleted";
+  persistStatus(id, "deleted");
+  // Remove from ALL_STUDIES so it never re-appears this session
+  const idx = ALL_STUDIES.findIndex(s => statusId(s) === id);
+  if (idx !== -1) ALL_STUDIES.splice(idx, 1);
+  applyFilters();
+  renderStats();
+}
+
+// ── DB banner UI ─────────────────────────────────────────────────────────────
+
+function renderDbBanner() {
+  const banner = document.getElementById("db-banner");
+  const config = getDbConfig();
+
+  if (DB_READY) {
+    banner.className = "db-banner connected";
+    banner.style.display = "";
+    banner.innerHTML = `
+      <p>&#10003; Database connected &mdash; statuses sync across devices.</p>
+      <button class="db-btn" onclick="clearDbConfig()">Disconnect</button>`;
+    return;
+  }
+
+  banner.className = "db-banner";
+  banner.style.display = "";
+  banner.innerHTML = `
+    <p><strong>Connect a database</strong> to sync saved/pitched/passed labels across devices.
+    Create a free <a href="https://supabase.com" target="_blank" rel="noreferrer">Supabase</a> project,
+    run the SQL below, then paste your Project URL and anon key.</p>
+    <details style="flex:1;min-width:260px">
+      <summary style="cursor:pointer;font-weight:700;margin-bottom:6px">Setup SQL (click to expand)</summary>
+      <pre style="background:#fff;border:1px solid #ffe082;border-radius:5px;padding:10px;font-size:0.75rem;overflow:auto;white-space:pre-wrap">create table study_status (
+  study_id  text primary key,
+  status    text not null,
+  updated_at timestamptz default now()
+);
+alter table study_status enable row level security;
+create policy "personal use" on study_status
+  for all to anon using (true) with check (true);</pre>
+    </details>
+    <div class="db-form">
+      <input type="url" id="db-url" placeholder="https://xxxx.supabase.co" autocomplete="off">
+      <input type="password" id="db-key" placeholder="anon key" autocomplete="off">
+      <button class="db-btn db-btn-primary" onclick="handleDbConnect()">Connect</button>
+      <button class="db-btn" onclick="document.getElementById('db-banner').style.display='none'">Skip</button>
+    </div>`;
+}
+
+async function handleDbConnect() {
+  const url = document.getElementById("db-url").value.trim();
+  const key = document.getElementById("db-key").value.trim();
+  if (!url || !key) { alert("Please enter both the project URL and anon key."); return; }
+  const btn = document.querySelector(".db-btn-primary");
+  btn.textContent = "Connecting...";
+  btn.disabled = true;
+  const ok = await connectDb(url, key);
+  if (ok) {
+    DB_READY = true;
+    renderDbBanner();
+    applyFilters();
+    renderStats();
+  } else {
+    btn.textContent = "Connect";
+    btn.disabled = false;
+    alert("Could not connect. Check that the URL and key are correct and the study_status table exists.");
+  }
+}
+
+// ── Data loading ─────────────────────────────────────────────────────────────
 
 async function fetchJson(path) {
   const res = await fetch(path + "?ts=" + Date.now());
@@ -400,6 +637,18 @@ async function fetchJson(path) {
 }
 
 async function init() {
+  // Load DB statuses first so we can exclude deleted studies on load
+  const config = getDbConfig();
+  if (config) {
+    const ok = await loadStatuses();
+    DB_READY = ok;
+  } else {
+    // Seed cache from localStorage so getStatus() works before DB is set up
+    STATUSES_CACHE = getLocalStatuses();
+  }
+
+  renderDbBanner();
+
   try {
     SOURCES = await fetchJson("data/sources.json");
     populateSourceFilter(SOURCES);
@@ -408,7 +657,7 @@ async function init() {
       try {
         const payload = await fetchJson(source.file);
         return { source, payload };
-      } catch (error) {
+      } catch {
         SOURCE_ERRORS.push(source.label);
         return { source, payload: { studies: [] } };
       }
@@ -427,14 +676,14 @@ async function init() {
         source_id: study.source_id || sourceId,
         source_label: study.source_label || sourceLabel
       }));
-    }));
+    })).filter(study => STATUSES_CACHE[statusId(study)] !== "deleted");
 
     populateCategoryFilter(ALL_STUDIES);
     renderStats();
     applyFilters();
     renderSourceStatus();
     document.getElementById("loading").style.display = "none";
-  } catch (error) {
+  } catch {
     document.getElementById("loading").innerHTML =
       "<h2>Dashboard data is not ready</h2><p>Check data/sources.json and the digest JSON files.</p>";
   }
@@ -458,18 +707,22 @@ function isFresherOrBetter(a, b) {
   return String(a.run_date || a.pubdate || "") > String(b.run_date || b.pubdate || "");
 }
 
+// ── Filter dropdowns ─────────────────────────────────────────────────────────
+
 function populateSourceFilter(sources) {
   const select = document.getElementById("filter-source");
   select.innerHTML = '<option value="">All digests</option>' +
-    sources.map(source => `<option value="${escAttr(source.id)}">${esc(source.label)}</option>`).join("");
+    sources.map(s => `<option value="${escAttr(s.id)}">${esc(s.label)}</option>`).join("");
 }
 
 function populateCategoryFilter(studies) {
   const categories = Array.from(new Set(studies.map(s => s.category).filter(Boolean))).sort();
   const select = document.getElementById("filter-category");
   select.innerHTML = '<option value="">All categories</option>' +
-    categories.map(category => `<option value="${escAttr(category)}">${esc(category)}</option>`).join("");
+    categories.map(c => `<option value="${escAttr(c)}">${esc(c)}</option>`).join("");
 }
+
+// ── Stats header ─────────────────────────────────────────────────────────────
 
 function renderSourceStatus() {
   const loaded = SOURCES.length - SOURCE_ERRORS.length;
@@ -480,21 +733,17 @@ function renderSourceStatus() {
 }
 
 function renderStats() {
-  const statuses = getStatuses();
-  const active = ALL_STUDIES.filter(s => getStatus(s, statuses) !== "removed");
-  const saved = active.filter(s => getStatus(s, statuses) === "saved").length;
-  const pitched = active.filter(s => getStatus(s, statuses) === "pitched").length;
+  const saved = ALL_STUDIES.filter(s => getStatus(s) === "saved").length;
+  const pitched = ALL_STUDIES.filter(s => getStatus(s) === "pitched").length;
   const chips = [
-    { label: active.length + " active", cls: "highlight" },
+    { label: ALL_STUDIES.length + " studies", cls: "highlight" },
     { label: saved + " saved", cls: "" },
     { label: pitched + " pitched", cls: "" },
     { label: SOURCES.length + " digests", cls: "" }
   ];
-  if (TOTAL_NEW_THIS_RUN > 0) {
-    chips.splice(1, 0, { label: TOTAL_NEW_THIS_RUN + " new this run", cls: "new" });
-  }
+  if (TOTAL_NEW_THIS_RUN > 0) chips.splice(1, 0, { label: TOTAL_NEW_THIS_RUN + " new this run", cls: "new" });
   document.getElementById("stats-chips").innerHTML =
-    chips.map(chip => `<span class="chip ${chip.cls}">${esc(chip.label)}</span>`).join("");
+    chips.map(c => `<span class="chip ${c.cls}">${esc(c.label)}</span>`).join("");
 
   const latest = latestDate(ALL_STUDIES);
   document.getElementById("last-updated").textContent = latest
@@ -505,67 +754,12 @@ function renderStats() {
 function latestDate(studies) {
   const dates = studies
     .map(s => new Date(s.run_date || s.pubdate || ""))
-    .filter(date => !Number.isNaN(date.getTime()));
+    .filter(d => !Number.isNaN(d.getTime()));
   if (!dates.length) return null;
-  return new Date(Math.max(...dates.map(date => date.getTime())));
+  return new Date(Math.max(...dates.map(d => d.getTime())));
 }
 
-function getStatuses() {
-  try { return JSON.parse(localStorage.getItem(STATUS_KEY) || "{}"); }
-  catch { return {}; }
-}
-
-function statusId(study) {
-  return [study.source_id || "source", study.pmid || study.headline || ""].join(":");
-}
-
-function getStatus(study, statuses = getStatuses()) {
-  return statuses[statusId(study)] || study.status || "new";
-}
-
-function setStatus(id, status) {
-  const statuses = getStatuses();
-  statuses[id] = status;
-  localStorage.setItem(STATUS_KEY, JSON.stringify(statuses));
-  applyFilters();
-  renderStats();
-}
-
-function removeStudy(id) {
-  setStatus(id, "removed");
-}
-
-function exportStatus() {
-  const statuses = getStatuses();
-  const blob = new Blob([JSON.stringify(statuses, null, 2)], { type: "application/json" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "digest-status-" + new Date().toISOString().slice(0, 10) + ".json";
-  a.click();
-  URL.revokeObjectURL(url);
-}
-
-function importStatus(event) {
-  const file = event.target.files[0];
-  if (!file) return;
-  const reader = new FileReader();
-  reader.onload = e => {
-    try {
-      const imported = JSON.parse(e.target.result);
-      const current = getStatuses();
-      const merged = { ...current, ...imported };
-      localStorage.setItem(STATUS_KEY, JSON.stringify(merged));
-      applyFilters();
-      renderStats();
-      alert("Imported " + Object.keys(imported).length + " status labels.");
-    } catch {
-      alert("Could not parse the selected file. Make sure it is a valid status export.");
-    }
-    event.target.value = "";
-  };
-  reader.readAsText(file);
-}
+// ── Filtering & sorting ──────────────────────────────────────────────────────
 
 function applyFilters() {
   const query = document.getElementById("search").value.trim().toLowerCase();
@@ -576,18 +770,16 @@ function applyFilters() {
   const days = Number(document.getElementById("filter-days").value);
   const sortBy = document.getElementById("sort-by").value;
   const cutoff = days > 0 ? new Date(Date.now() - days * 86400000) : null;
-  const statuses = getStatuses();
 
   let filtered = ALL_STUDIES.filter(study => {
-    const status = getStatus(study, statuses);
+    const status = getStatus(study);
     if (source && study.source_id !== source) return false;
     if (category && study.category !== category) return false;
-    if (status === "removed" && statusFilter !== "removed") return false;
     if (statusFilter && status !== statusFilter) return false;
     if (type && !String(study.groundbreaking || "").toLowerCase().includes(type)) return false;
     if (cutoff) {
-      const date = new Date(study.run_date || study.pubdate || "");
-      if (!Number.isNaN(date.getTime()) && date < cutoff) return false;
+      const d = new Date(study.run_date || study.pubdate || "");
+      if (!Number.isNaN(d.getTime()) && d < cutoff) return false;
     }
     if (query && !searchText(study).includes(query)) return false;
     return true;
@@ -614,16 +806,8 @@ function searchText(study) {
   const pitches = (study.pitch_angles || [])
     .map(p => [p.publication_type, p.headline, p.hook, p.why_it_fits, p.pitch_angle, p.caveats_to_flag].join(" "))
     .join(" ");
-  return [
-    study.source_label,
-    study.category,
-    study.headline,
-    study.summary,
-    study.why_it_matters,
-    study.caveats,
-    study.journal,
-    pitches
-  ].join(" ").toLowerCase();
+  return [study.source_label, study.category, study.headline, study.summary,
+    study.why_it_matters, study.caveats, study.journal, pitches].join(" ").toLowerCase();
 }
 
 function clearFilters() {
@@ -637,6 +821,8 @@ function clearFilters() {
   applyFilters();
 }
 
+// ── Card rendering ───────────────────────────────────────────────────────────
+
 function renderCard(study) {
   const id = statusId(study);
   const status = getStatus(study);
@@ -646,11 +832,9 @@ function renderCard(study) {
   ).join("");
   const pitches = pitchAngles.map((p, i) => renderPitch(p, id, i)).join("");
   const fact = study.fact_check_note
-    ? `<div class="note fact"><strong>Fact-check note:</strong> ${esc(study.fact_check_note)}</div>`
-    : "";
+    ? `<div class="note fact"><strong>Fact-check note:</strong> ${esc(study.fact_check_note)}</div>` : "";
   const caveats = study.caveats && study.caveats !== "None identified"
-    ? `<div class="note">${esc(study.caveats)}</div>`
-    : "";
+    ? `<div class="note">${esc(study.caveats)}</div>` : "";
   const mediaCoverage = study.media_coverage &&
     !String(study.media_coverage).startsWith("Not verified") &&
     !String(study.media_coverage).toLowerCase().includes("unavailable");
@@ -673,8 +857,7 @@ function renderCard(study) {
   <div class="card-body">
     ${study.summary ? `<p><strong>The study:</strong> ${esc(study.summary)}</p>` : ""}
     ${study.why_it_matters ? `<p><strong>Why it matters:</strong> ${esc(study.why_it_matters)}</p>` : ""}
-    ${caveats}
-    ${fact}
+    ${caveats}${fact}
   </div>
   ${pitchAngles.length ? `
     <button class="pitch-toggle" onclick="togglePitch(this)" data-target="pitch-${escAttr(id)}">
@@ -686,7 +869,7 @@ function renderCard(study) {
     <div class="links">
       ${study.pmid ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${escAttr(study.pmid)}/" target="_blank" rel="noreferrer">PubMed ${esc(study.pmid)}</a>` : ""}
       ${study.doi ? `<a href="https://doi.org/${escAttr(study.doi)}" target="_blank" rel="noreferrer">DOI</a>` : ""}
-      <button class="remove" title="Remove from dashboard" onclick="removeStudy('${escAttr(id)}')">x</button>
+      <button class="delete-btn" title="Delete — hides permanently" onclick="deleteStudy('${escAttr(id)}')">Delete</button>
     </div>
   </div>
 </article>`;
@@ -713,10 +896,10 @@ function copyPitch(btnId, index, studyId) {
   if (!pitch) return;
   const parts = [
     pitch.publication_type ? "FOR: " + pitch.publication_type : "",
-    pitch.headline ? "HEADLINE: " + pitch.headline : "",
-    pitch.hook ? "HOOK: " + pitch.hook : "",
-    pitch.pitch_angle ? "PITCH: " + pitch.pitch_angle : "",
-    pitch.why_it_fits ? "WHY IT FITS: " + pitch.why_it_fits : "",
+    pitch.headline        ? "HEADLINE: " + pitch.headline : "",
+    pitch.hook            ? "HOOK: " + pitch.hook : "",
+    pitch.pitch_angle     ? "PITCH: " + pitch.pitch_angle : "",
+    pitch.why_it_fits     ? "WHY IT FITS: " + pitch.why_it_fits : "",
     pitch.caveats_to_flag ? "CAVEATS: " + pitch.caveats_to_flag : ""
   ].filter(Boolean).join("\n\n");
   navigator.clipboard.writeText(parts).then(() => {
@@ -735,6 +918,54 @@ function scoreBadge(study) {
   const reason = study.relevance_score_reason ? ` title="${escAttr(study.relevance_score_reason)}"` : "";
   return `<span class="badge score${cls}"${reason}>Relevance ${score}/10</span>`;
 }
+
+// ── Export / Import backup ───────────────────────────────────────────────────
+
+function exportStatus() {
+  const data = DB_READY ? STATUSES_CACHE : getLocalStatuses();
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "digest-status-" + new Date().toISOString().slice(0, 10) + ".json";
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function importStatus(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = async e => {
+    try {
+      const imported = JSON.parse(e.target.result);
+      let count = 0;
+      for (const [id, status] of Object.entries(imported)) {
+        if (STATUSES_CACHE[id] !== status) {
+          STATUSES_CACHE[id] = status;
+          await persistStatus(id, status);
+          count++;
+        }
+      }
+      // Remove deleted studies from ALL_STUDIES
+      for (const [id, status] of Object.entries(imported)) {
+        if (status === "deleted") {
+          const idx = ALL_STUDIES.findIndex(s => statusId(s) === id);
+          if (idx !== -1) ALL_STUDIES.splice(idx, 1);
+        }
+      }
+      applyFilters();
+      renderStats();
+      alert("Imported " + count + " status labels.");
+    } catch {
+      alert("Could not parse the selected file. Make sure it is a valid backup export.");
+    }
+    event.target.value = "";
+  };
+  reader.readAsText(file);
+}
+
+// ── Utilities ────────────────────────────────────────────────────────────────
 
 function togglePitch(button) {
   button.classList.toggle("open");
