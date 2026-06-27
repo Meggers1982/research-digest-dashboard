@@ -45,6 +45,12 @@ jobs:
                   ns = study.pop("ns_pitch")
                   study["pitch_angles"] = [ns] if ns and isinstance(ns, dict) else []
 
+          _ANIMAL_TAGS = ("animal only", "animal or cell study", "rodent model only")
+          source["studies"] = [
+              s for s in source.get("studies", [])
+              if not any(tag in s.get("caveats", "").lower() for tag in _ANIMAL_TAGS)
+          ]
+
           source["source_id"] = "new-scientist-mh"
           source["source_label"] = "New Scientist — Mental Health"
           source["total_studies"] = len(source.get("studies", []))
