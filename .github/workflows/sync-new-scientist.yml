@@ -21,37 +21,37 @@ jobs:
       - name: Fetch and transform NS Mental Health data
         run: |
           python - <<'PY'
-import json, urllib.request
-from pathlib import Path
-from datetime import datetime, timezone
+          import json, urllib.request
+          from pathlib import Path
+          from datetime import datetime, timezone
 
-url = "https://raw.githubusercontent.com/Meggers1982/new-scientist-story-ideas/main/data/results.json"
-try:
-    with urllib.request.urlopen(url) as resp:
-        source = json.loads(resp.read())
-except Exception as e:
-    print(f"Fetch failed: {e}")
-    raise
+          url = "https://raw.githubusercontent.com/Meggers1982/new-scientist-story-ideas/main/data/results.json"
+          try:
+              with urllib.request.urlopen(url) as resp:
+                  source = json.loads(resp.read())
+          except Exception as e:
+              print(f"Fetch failed: {e}")
+              raise
 
-if isinstance(source, list):
-    source = {"last_updated": "", "total_studies": len(source), "studies": source}
+          if isinstance(source, list):
+              source = {"last_updated": "", "total_studies": len(source), "studies": source}
 
-for study in source.get("studies", []):
-    if "ns_score" in study and "relevance_score" not in study:
-        study["relevance_score"] = study.pop("ns_score")
-    if "ns_score_reason" in study and "relevance_score_reason" not in study:
-        study["relevance_score_reason"] = study.pop("ns_score_reason")
-    if "ns_pitch" in study and "pitch_angles" not in study:
-        ns = study.pop("ns_pitch")
-        study["pitch_angles"] = [ns] if ns and isinstance(ns, dict) else []
+          for study in source.get("studies", []):
+              if "ns_score" in study and "relevance_score" not in study:
+                  study["relevance_score"] = study.pop("ns_score")
+              if "ns_score_reason" in study and "relevance_score_reason" not in study:
+                  study["relevance_score_reason"] = study.pop("ns_score_reason")
+              if "ns_pitch" in study and "pitch_angles" not in study:
+                  ns = study.pop("ns_pitch")
+                  study["pitch_angles"] = [ns] if ns and isinstance(ns, dict) else []
 
-source["source_id"] = "new-scientist-mh"
-source["source_label"] = "New Scientist — Mental Health"
-source["total_studies"] = len(source.get("studies", []))
+          source["source_id"] = "new-scientist-mh"
+          source["source_label"] = "New Scientist — Mental Health"
+          source["total_studies"] = len(source.get("studies", []))
 
-Path("data/new-scientist-mh.json").write_text(json.dumps(source, indent=2) + "\n")
-print(f"Wrote {source['total_studies']} studies")
-PY
+          Path("data/new-scientist-mh.json").write_text(json.dumps(source, indent=2) + "\n")
+          print(f"Wrote {source['total_studies']} studies")
+          PY
 
       - name: Commit and push
         run: |
