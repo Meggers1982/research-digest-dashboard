@@ -1,87 +1,597 @@
 {
-  "last_updated": "2026-06-27T12:14:06.655555+00:00",
-  "total_studies": 31,
-  "new_this_run": 13,
+  "last_updated": "2026-06-28T12:22:15.247828+00:00",
+  "total_studies": 38,
+  "new_this_run": 11,
   "studies": [
     {
       "pmid": "42339898",
-      "headline": "3D CT scans reveal why hiatal hernia repairs fail \u2014 and show the 'neo-esophagus' looks surprisingly normal",
+      "headline": "3D CT scans reveal why hiatal hernia repairs sometimes fail \u2014 and it's not what surgeons expected",
       "journal": "Arquivos Brasileiros de Cirurgia Digestiva (ABCD)",
       "pubdate": "2026-06-22",
       "doi": "10.1590/0102-67202026000006e1935",
       "groundbreaking": "First-in-class human study",
       "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers used three-dimensional CT reconstruction to evaluate postoperative anatomy in 9 patients who had previously undergone Collis gastroplasty and fundoplication for hiatal hernia repair with esophageal foreshortening. After a mean follow-up of 34 months, objective hernia recurrence was found in 3 of 9 patients, and the fundoplication wrap covered the surgical neo-esophagus in only 2 of 9 cases. The neo-esophagus created by gastroplasty was similar in shape and volume to the native esophagus across all patients.",
-      "why_it_matters": "This imaging approach suggests that incomplete fundoplication coverage of the surgical neo-esophagus may help explain why hiatal hernia recurrences occur after complex repairs \u2014 a finding that could inform future surgical technique.",
+      "summary": "Researchers used 3D computed tomography reconstruction to evaluate postoperative anatomy in 9 patients who had previously undergone Collis gastroplasty and hiatal hernia repair. The study found that the surgically created neo-esophagus closely resembled native esophageal anatomy in all patients, but the fundoplication wrap covered the neo-esophagus in only 2 of 9 cases, with objective hernia recurrence observed in 3 patients over a median 34-month follow-up. The findings suggest that incomplete fundoplication coverage of the neo-esophagus may help explain recurrence patterns after this complex repair.",
+      "why_it_matters": "Understanding why hiatal hernia repairs fail could inform surgical technique improvements for patients with esophageal foreshortening, a group at particularly high risk for recurrence.",
       "caveats": "small sample (N<100), single-center, short follow-up, observational design",
       "fact_check_note": "",
       "relevance_score": 4,
-      "relevance_score_reason": "Surgical/imaging focus; limited microbiome, diet, or broad digestive health relevance.",
+      "relevance_score_reason": "Surgical imaging study; minimal microbiome, diet, or gut health lifestyle relevance.",
       "pitch_angles": [
         {
-          "publication_type": "General health / medical journalism",
-          "headline": "Why Hiatal Hernia Surgery Sometimes Fails: New 3D Imaging Is Showing Surgeons the Answer",
-          "hook": "In a small but telling study, 3D CT scans revealed that the protective stomach wrap placed during hiatal hernia repair wasn't actually covering the surgical neo-esophagus in 7 out of 9 patients \u2014 a clue that may explain recurring hernias.",
-          "pitch_angle": "Researchers used advanced imaging to map the anatomy after one of the most complex hiatal hernia surgeries, finding structural mismatches that standard imaging would likely miss. For the millions of people who undergo hiatal hernia repair and face recurrence, this technique could eventually help surgeons refine their approach before problems start."
+          "publication_type": "General health / Healthline",
+          "headline": "Why Hiatal Hernia Surgery Sometimes Fails: New 3D Imaging Is Giving Surgeons Answers",
+          "hook": "A new imaging technique is revealing a surprising anatomical reason why some hiatal hernia repairs don't hold.",
+          "pitch_angle": "Using 3D CT reconstruction, researchers found that the surgical wrap meant to reinforce the repaired junction wasn't fully covering the newly created esophageal segment in most patients \u2014 a finding that may explain recurring symptoms after surgery. For the millions of people living with hiatal hernias and GERD, this early-stage research suggests that surgical technique details, invisible to standard imaging, could be the key to more durable repairs."
         }
       ],
-      "run_date": "2026-06-27",
+      "run_date": "2026-06-28",
       "category": "Gastroenterology",
       "chunk": "2/2",
       "status": "new"
     },
     {
+      "pmid": "42365266",
+      "headline": "Stroke patients show distinct gut microbiome signatures linked to brain inflammation markers",
+      "journal": "BMC Microbiology",
+      "pubdate": "2026 Jun 27",
+      "doi": "10.1186/s12866-026-05351-7",
+      "groundbreaking": "Major dietary or microbiome implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers enrolled 20 cerebral infarction (stroke) patients and 20 healthy controls, profiling gut microbiota via 16S rRNA sequencing alongside serum metabolomics and proteomics. Stroke patients showed significant gut dysbiosis, with lower gut microbiota health index scores and enrichment of specific bacterial genera compared to controls. Multi-omics integration found that specific gut microbiota genera were strongly correlated with serum metabolites and proteins linked to inflammation and NF-\u03baB signaling pathways associated with stroke pathogenesis.",
+      "why_it_matters": "This study suggests that the gut microbiome may be meaningfully connected to the biological processes driving stroke, opening a potential window for future gut-targeted strategies in cerebrovascular disease research.",
+      "caveats": "small sample (N<100), observational design, single-center, microbiome data only (no clinical outcomes), 16S sequencing (not shotgun metagenomics)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Gut-brain axis topic fit, but tiny sample, observational, no clinical outcomes measured.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / General health",
+          "headline": "Your Gut May Leave Fingerprints on Your Brain After a Stroke",
+          "hook": "A small but striking study found that stroke patients harbor a distinctly different gut microbiome than healthy people \u2014 and those differences track with inflammatory proteins in the blood.",
+          "pitch_angle": "Researchers integrated gut microbiome, metabolite, and protein data from stroke patients and found tight correlations between specific gut bacteria and inflammatory signaling markers linked to cerebral infarction. While the sample is tiny and causality is unproven, it adds to growing evidence that the gut-brain axis may play a role in stroke biology."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Microbiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
       "pmid": "42360525",
-      "headline": "A simple four-variable formula can predict how surgically difficult a rectal cancer operation will be before a single incision is made",
+      "headline": "A simple calculator using BMI, sex, and cancer treatment history can predict how hard robotic rectal surgery will be before the first incision",
       "journal": "Techniques in Coloproctology",
       "pubdate": "2026 Jun 26",
       "doi": "10.1007/s10151-026-03368-8",
       "groundbreaking": "First-in-class human study",
       "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers developed a two-phase anatomic grading system to predict surgical difficulty in robot-assisted rectal resection, validated in a prospective cohort of 158 patients. Using only standard preoperative data \u2014 BMI, sex, age, lung disease, and prior chemoradiotherapy \u2014 models achieved good predictive accuracy (AUC up to 0.927 for the mesorectal phase). The resulting calculator aims to help surgeons anticipate operative complexity before entering the operating room.",
-      "why_it_matters": "A preoperative difficulty score for rectal cancer surgery could eventually help surgical teams better allocate resources, set patient expectations, and reduce complications \u2014 though real-world clinical validation is still needed.",
+      "summary": "Researchers prospectively studied 158 patients undergoing robot-assisted rectal resection and developed a phase-specific anatomical difficulty grading system (grades 1\u20133) for two surgical phases: mesocolic and mesorectal dissection. Using preoperative variables including BMI, sex, age, lung disease, and prior neoadjuvant chemoradiotherapy, they built predictive models validated with tenfold cross-validation, achieving AUC values up to 0.927 for the mesorectal phase. The resulting calculator may help surgeons anticipate operative complexity using only standard preoperative data.",
+      "why_it_matters": "A validated preoperative difficulty score for robotic rectal surgery could help surgical teams better prepare for complex cases and potentially reduce intraoperative complications for colorectal cancer patients.",
       "caveats": "small sample (N<100 per subgroup), observational design, single-center",
       "fact_check_note": "",
       "relevance_score": 4,
-      "relevance_score_reason": "Surgical technique study; limited gut-health, diet, or microbiome relevance for target audience.",
+      "relevance_score_reason": "Surgical technique study; no microbiome, diet, or digestive disease patient-facing relevance.",
       "pitch_angles": [
         {
-          "publication_type": "General health / science news",
-          "headline": "Surgeons May Soon Know How Hard a Rectal Cancer Operation Will Be Before It Starts",
-          "hook": "A new calculator using just four routine measurements \u2014 including BMI and sex \u2014 can predict with high accuracy how surgically complex a rectal cancer removal will be.",
-          "pitch_angle": "Researchers built and validated a preoperative scoring tool for robot-assisted rectal surgery, potentially helping surgeons plan better and patients understand their risk. While still early-stage, the tool points toward a future of more personalized surgical planning for colorectal cancer."
+          "publication_type": "General health / Science",
+          "headline": "A Simple Formula Could Tell Surgeons How Hard Your Colon Cancer Surgery Will Be \u2014 Before They Start",
+          "hook": "Just three data points \u2014 body weight, sex, and whether you had pre-op chemo \u2014 can predict with surprising accuracy how technically difficult robotic rectal surgery will be.",
+          "pitch_angle": "Norwegian surgeons developed and validated a preoperative scoring tool for robotic rectal cancer surgery that could help teams prepare for the hardest cases before opening the operating room, potentially improving outcomes for colorectal cancer patients undergoing one of the most technically demanding procedures in GI surgery."
         }
       ],
-      "run_date": "2026-06-27",
+      "run_date": "2026-06-28",
       "category": "Gastroenterology",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42362093",
-      "headline": "A clinical dilemma case study asks: when something gets stuck near a major artery, do you scope it out or stent around it first?",
+      "headline": "Doctors debate whether to scope or stent first when a dangerous esophageal blockage meets a failing heart",
       "journal": "Gastroenterology",
       "pubdate": "2026 Jun 26",
       "doi": "10.1053/j.gastro.2026.06.016",
       "groundbreaking": "",
       "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "This appears to be a clinical case report or brief communication published in Gastroenterology examining decision-making around a high-risk gastrointestinal impaction near a cardiovascular structure, weighing endoscopic versus stenting approaches. No abstract with study design, sample size, or outcome data is available. The full scope of findings cannot be verified from the available information.",
-      "why_it_matters": "Clinical decision-making around high-risk gastrointestinal foreign body impactions near vascular structures remains a rare but life-threatening scenario with no established protocol.",
-      "caveats": "No abstract available, likely single case report, study design and sample size unverifiable",
-      "fact_check_note": "No abstract was provided; summary and characterization are based solely on the title and author affiliations. Content cannot be verified.",
-      "relevance_score": 2,
-      "relevance_score_reason": "No abstract; likely case report with minimal broader gut-health relevance.",
+      "summary": "This appears to be a case report or clinical commentary examining the procedural dilemma of managing a high-risk esophageal food impaction in a patient with concurrent cardiovascular compromise, weighing endoscopic removal against prior stenting. No sample size or study design details are available from the abstract as provided. The piece is published in Gastroenterology and authored by clinicians at Zhejiang University.",
+      "why_it_matters": "The tension between two standard-of-care interventions in a life-threatening scenario highlights how comorbidities can complicate seemingly routine gastroenterology procedures.",
+      "caveats": "small sample (N<100), single-center, abstract unavailable for full verification \u2014 likely case report or commentary",
+      "fact_check_note": "No structured abstract was provided; summary is based on title and author affiliations only. Study design and sample size cannot be verified.",
+      "relevance_score": 3,
+      "relevance_score_reason": "Procedural gastroenterology case report; minimal dietary or microbiome relevance.",
       "pitch_angles": [
         {
           "publication_type": "General health",
-          "headline": "When Something Gets Dangerously Stuck in Your Digestive Tract, Doctors Face a High-Stakes Choice",
-          "hook": "A new case report in Gastroenterology illustrates the rare but life-threatening decisions gastroenterologists face when a foreign body impaction sits dangerously close to a major blood vessel.",
-          "pitch_angle": "With no established protocol for these extreme scenarios, clinicians must weigh endoscopy against stenting in real time. The case highlights how thin the margin for error can be in emergency GI medicine."
+          "headline": "When a Food Stuck in Your Throat Becomes a Life-or-Death Decision",
+          "hook": "Esophageal food impaction is a medical emergency \u2014 and when your heart is also at risk, doctors face a split-second dilemma over which procedure to attempt first.",
+          "pitch_angle": "A new clinical commentary raises the question of whether to scope or stent first in high-risk impaction cases, underscoring how underlying cardiovascular disease can turn a common GI emergency into a surgical puzzle with no clear protocol."
         }
       ],
-      "run_date": "2026-06-27",
+      "run_date": "2026-06-28",
       "category": "Gastroenterology",
       "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42343625",
+      "headline": "Fatty liver disease actually helps clear hepatitis B \u2014 but still drives liver cancer through a backdoor metabolic route",
+      "journal": "Clinical and Molecular Hepatology",
+      "pubdate": "2026 Jun 25",
+      "doi": "10.3350/cmh.2026.0387",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research / Major dietary or microbiome implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "This narrative review synthesizes current evidence on the interaction between chronic viral hepatitis (B and C) and metabolic dysfunction-associated steatotic liver disease (MASLD). In hepatitis B, the authors describe a 'steatosis paradox': hepatic fat may suppress viral replication locally, yet the systemic metabolic burden still drives fibrosis and hepatocellular carcinoma (HCC) risk. For hepatitis C, metabolic dysfunction and the virus act synergistically, and residual steatosis and insulin resistance persist as HCC drivers even after successful viral clearance with direct-acting antivirals.",
+      "why_it_matters": "The finding that metabolic risk continues to drive liver cancer even after viral hepatitis is cured challenges the assumption that antiviral treatment alone is sufficient and underscores the importance of addressing diet, weight, and metabolic health in these patients.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Strong liver-metabolic health link; review design limits causal claims; no microbiome or diet intervention.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Healthline",
+          "headline": "Curing Hepatitis C Doesn't End Your Liver Cancer Risk \u2014 Metabolic Health Fills the Gap",
+          "hook": "Even after hepatitis C is fully eradicated with antiviral drugs, residual fatty liver and insulin resistance continue to drive liver cancer risk \u2014 a finding that reframes what 'cured' really means.",
+          "pitch_angle": "A new review argues that treating the virus is no longer enough: clinicians must simultaneously target metabolic dysfunction \u2014 through diet, weight management, and glycemic control \u2014 to meaningfully reduce hepatocellular carcinoma risk in patients with chronic viral hepatitis."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Gastroenterology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42343672",
+      "headline": "Stigma, not just funding, is blocking free school meals from reaching kids who need them most",
+      "journal": "Public Health Nutrition",
+      "pubdate": "2026 Jun 25",
+      "doi": "10.1017/S1368980026102432",
+      "groundbreaking": "Major dietary or microbiome implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers conducted qualitative interviews with 17 stakeholders across local, regional, and national government, policy, academia, and schools in England to explore barriers to expanding free school meal (FSM) provision. Stakeholders identified stigma reduction, integration with existing school food policies, improved administrative processes, and a joined-up whole-food-system approach as key priorities. Sufficient financial support was identified as essential, but social and structural implementation challenges were equally prominent.",
+      "why_it_matters": "Understanding that stigma and administrative complexity \u2014 not just cost \u2014 are key barriers to free school meal expansion could reshape how policymakers approach child food insecurity in England and comparable high-income countries.",
+      "caveats": "small sample (N<100), qualitative design, single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Policy/nutrition topic but no microbiome, gut health, or digestive disease angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Prevention",
+          "headline": "It's Not Just Money Keeping Kids From Free School Lunches \u2014 It's Shame",
+          "hook": "Stigma around receiving free school meals may be as big a barrier to child nutrition as budget constraints, new stakeholder research from England suggests.",
+          "pitch_angle": "Researchers found that policymakers and school stakeholders consistently flagged stigma and administrative burden as underappreciated obstacles to expanding free school meal access. For journalists covering child health and food insecurity, this reframes the conversation from a purely financial debate to one about dignity and systems design."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Nutritional Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42349680",
+      "headline": "Eating vitamin C-rich fruit with meals raises iron markers in the blood\u2014but may not actually boost how much iron your gut absorbs",
+      "journal": "The American Journal of Clinical Nutrition",
+      "pubdate": "2026 Jun 25",
+      "doi": "10.1016/j.ajcnut.2026.101418",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "A systematic review and meta-analysis of 15 RCTs (N=1,381 females aged 15\u201374 and children) examined whether consuming whole ascorbate-rich fruits or juices with meals improved iron bioavailability. Serum ferritin and hemoglobin levels improved with fruit consumption (moderate certainty), but iron absorption percentage\u2014the classic mechanism assumed to explain these benefits\u2014showed little to no statistically significant effect (low certainty). The findings suggest that the popular dietary advice to pair vitamin C with iron-rich foods may work through mechanisms beyond simple absorption enhancement.",
+      "why_it_matters": "The long-held assumption that vitamin C directly boosts iron absorption at meals may be more complicated than once thought, with measurable blood iron markers improving even when gut absorption itself does not clearly increase.",
+      "caveats": "None identified",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive finding overturning common dietary advice; well-designed meta-analysis of RCTs with clinical outcomes.",
+      "pitch_angles": [
+        {
+          "publication_type": "Well+Good / Healthline / Prevention",
+          "headline": "Squeezing Lemon on Your Spinach May Not Work the Way You Think\u2014But Still Helps",
+          "hook": "Pairing vitamin C-rich foods with iron-rich meals is one of nutrition's most repeated rules, but a new meta-analysis finds the gut-absorption explanation may not hold up.",
+          "pitch_angle": "Across 15 clinical trials involving nearly 1,400 women and children, eating ascorbate-rich fruits with meals improved blood iron markers like ferritin and hemoglobin\u2014but not measurable iron absorption in the gut itself. That gap suggests the benefits are real but the mechanism dietitians have long cited may be incomplete or wrong."
+        },
+        {
+          "publication_type": "The Atlantic / Wired",
+          "headline": "One of Nutrition's Most Repeated Rules About Iron and Vitamin C Just Got More Complicated",
+          "hook": "For decades, nutrition advice has been clear: eat vitamin C with iron to boost absorption. A major new meta-analysis suggests the story is considerably more nuanced.",
+          "pitch_angle": "The analysis of 15 RCTs found that blood markers of iron status improved in people who ate ascorbate-rich fruits with meals\u2014but measures of actual iron absorption in the gut did not significantly change. The finding challenges textbook explanations and opens the door to new questions about how the gut and blood interact in iron metabolism."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Nutritional Sciences",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42333575",
+      "headline": "A new way to measure acid reflux predicts which heartburn patients will respond to PPI drugs far better than the current standard",
+      "journal": "The American Journal of Gastroenterology",
+      "pubdate": "2026 Jun 24",
+      "doi": "10.14309/ajg.0000000000004092",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers retrospectively analyzed impedance-pH data from 174 GERD patients (97 PPI responders, 77 non-responders) to compare a novel metric \u2014 total integrated acidity exposure (TIAE), which accounts for the exponential increase in hydrogen ion concentration at lower pH \u2014 against conventional acid exposure time (AET). TIAE showed superior discrimination for PPI response (AUC 0.78 vs. 0.64 for AET) and independently predicted treatment response in multivariable models. Crucially, TIAE accurately separated responders from non-responders even in patients with inconclusive AET values (4\u20136%), a common diagnostic grey zone.",
+      "why_it_matters": "For the millions of people with GERD who fail to respond to proton pump inhibitors, a more physiologically accurate measure of acid burden could help doctors identify who will actually benefit from PPIs \u2014 and steer non-responders toward alternative treatments sooner.",
+      "caveats": "small sample (N<100 per group), observational design, retrospective, single-center",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "GERD is highly prevalent; counterintuitive metric outperforms clinical standard; human data with clinical outcomes.",
+      "pitch_angles": [
+        {
+          "publication_type": "Healthline / Prevention",
+          "headline": "The Way Doctors Have Been Measuring Acid Reflux May Be Flawed \u2014 And a New Metric Could Fix It",
+          "hook": "The standard test used to decide whether you need acid reflux medication may be missing a critical dimension of how damaging stomach acid actually is to the esophagus.",
+          "pitch_angle": "A new metric that accounts for the chemistry of acid concentration \u2014 not just how long acid lingers \u2014 predicted PPI treatment success significantly better than the current clinical standard, and could help the large proportion of GERD patients who don't respond to medication get better answers faster."
+        },
+        {
+          "publication_type": "Wired / The Atlantic",
+          "headline": "Doctors Have Been Measuring Heartburn Wrong. Here's the Math That Could Change It.",
+          "hook": "Because stomach acid follows a logarithmic scale, the standard clinical measurement of acid reflux systematically underestimates the most corrosive episodes \u2014 and a new formula accounts for that.",
+          "pitch_angle": "A study of 174 GERD patients found that integrating the actual hydrogen ion load over time \u2014 not just duration of acid exposure \u2014 predicted which patients would benefit from proton pump inhibitors with an AUC of 0.78 versus 0.64 for the current standard, suggesting a fundamental rethink of how reflux severity is quantified."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Gastroenterology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42339861",
+      "headline": "The Mediterranean diet is dying in the countries that invented it \u2014 and thriving everywhere else",
+      "journal": "International Journal of Food Sciences and Nutrition",
+      "pubdate": "2026 Jun 24",
+      "doi": "10.1080/09637486.2026.2692948",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "This narrative review examines population-level trends in Mediterranean diet adherence, finding that adoption of the diet is declining in its countries of origin \u2014 Greece, Spain, and southern Italy \u2014 while increasing in non-Mediterranean countries. The author links this geographic reversal to rising rates of metabolic disease and obesity within the Mediterranean region. The piece calls for coordinated public health strategies to reverse this trend before long-term economic and health consequences worsen.",
+      "why_it_matters": "The paradox that the world's most studied healthy dietary pattern is being abandoned by the populations it originated from \u2014 while metabolic disease rises there \u2014 raises urgent questions about food environment, globalization, and dietary policy.",
+      "caveats": "observational design, no primary data collected, single author, preprint",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Relevant dietary pattern topic but review with no primary data or gut-specific outcomes.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The Mediterranean Diet Is a Hit Everywhere Except the Mediterranean",
+          "hook": "The populations credited with inventing one of the world's healthiest diets are increasingly abandoning it \u2014 and paying a metabolic price.",
+          "pitch_angle": "A new review documents a striking geographic reversal: Mediterranean diet adherence is falling in Greece, Spain, and southern Italy as obesity and metabolic disease climb, while non-Mediterranean countries are adopting it more widely. This cultural and dietary inversion raises deeper questions about globalization, food systems, and whether 'traditional' diets can survive prosperity."
+        },
+        {
+          "publication_type": "Well+Good / Healthline",
+          "headline": "Why the Healthiest Diet in the World Is Disappearing From Its Home Countries",
+          "hook": "People in Greece, Spain, and Italy \u2014 the birthplace of the Mediterranean diet \u2014 are eating it less than ever, and researchers say that's a public health crisis in the making.",
+          "pitch_angle": "A new review finds that adherence to the Mediterranean diet has declined sharply in its countries of origin, coinciding with rising obesity and metabolic disease rates in those same regions. For health-conscious readers, it's a reminder that even the most evidence-backed eating patterns can be lost to shifting food environments and economic pressures."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Nutritional Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42338249",
+      "headline": "Blood iodine may be a better pregnancy thyroid risk predictor than urine tests \u2014 and nearly 1 in 3 pregnant women in this study showed thyroid dysfunction",
+      "journal": "Public Health Nutrition",
+      "pubdate": "2026 Jun 24",
+      "doi": "10.1017/S1368980026102869",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "A cross-sectional study measured serum iodine concentration (SIC) and urine iodine concentration (UIC) alongside thyroid hormones and antibodies in 1,197 pregnant women in Hubei Province, China, across all three trimesters. Thyroid dysfunction was found in 28.4% of participants, with hypothyroxinemia accounting for nearly 80% of cases and highest prevalence in the first trimester. ROC analysis suggested SIC is a reliable predictor of thyroid dysfunction, with significant correlations between SIC and TSH, FT3, and FT4 across trimesters.",
+      "why_it_matters": "If serum iodine proves more informative than urine iodine for assessing thyroid risk in pregnancy, it could improve early detection of a condition affecting more than one in four pregnant women in this population \u2014 with implications for fetal neurodevelopment.",
+      "caveats": "observational design, single-center, cross-sectional design, self-reported dietary intake",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Human study with clinical outcomes and nutritional relevance, but no gut health angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "Healthline / Prevention",
+          "headline": "Nearly 1 in 3 Pregnant Women in This Study Had Thyroid Problems \u2014 and a Blood Test May Catch It Earlier",
+          "hook": "A large Chinese study found thyroid dysfunction in 28% of pregnant women, and suggests that a blood iodine test may be better than urine tests at predicting who is at risk.",
+          "pitch_angle": "Researchers studying over 1,100 pregnant women found that serum iodine levels were more reliably linked to thyroid hormone abnormalities than the standard urine iodine test, potentially offering a more precise tool for monitoring iodine nutrition in pregnancy \u2014 a period when iodine deficiency can affect both maternal health and fetal brain development."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Nutritional Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42342117",
+      "headline": "Toddlers' diets are already trending unhealthy before age two, with sugar and refined grain intake rising fast",
+      "journal": "Journal of the Academy of Nutrition and Dietetics",
+      "pubdate": "2026 Jun 24",
+      "doi": "10.1016/j.jand.2026.156407",
+      "groundbreaking": "Major dietary or microbiome implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers conducted a secondary analysis of 166 toddlers in a prospective cohort (GAINS study), assessing diet quality at 12 and 24 months using the HEI-Toddlers-2020 scoring tool. Diet quality was below recommendations at both time points, and between 12 and 24 months, vegetable intake declined significantly while added sugar and refined grain consumption increased. The shift toward less healthful dietary patterns before age two suggests that the window for dietary intervention may be narrower than previously recognized.",
+      "why_it_matters": "The finding that unhealthy dietary patterns\u2014more sugar, fewer vegetables\u2014emerge before a child's second birthday highlights an earlier-than-expected window for nutritional intervention that could affect long-term gut and metabolic health.",
+      "caveats": "small sample (N<100 \u2014 final analytic N=166, but secondary analysis), observational design, single-center, self-reported dietary intake, secondary analysis",
+      "fact_check_note": "Final analytic sample was N=166, not below 100; caveat flags secondary analysis and observational design as the primary limitations. N=166 is above the small-sample threshold.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Clear dietary relevance for early childhood nutrition; observational and secondary analysis limit strength.",
+      "pitch_angles": [
+        {
+          "publication_type": "Well+Good / Prevention / General health",
+          "headline": "Your Toddler's Diet May Already Be Going Off the Rails\u2014Before Age Two",
+          "hook": "A new study found that added sugar intake among toddlers surged and vegetable consumption dropped significantly between their first and second birthdays.",
+          "pitch_angle": "Researchers tracked 166 children and found diet quality was already below recommendations at 12 months\u2014and got measurably worse by 24 months, with refined grains and added sugars climbing. The findings suggest that parents and pediatricians may need to start dietary conversations much earlier than typically assumed."
+        },
+        {
+          "publication_type": "The Atlantic / Wired",
+          "headline": "America's Sugar Habit Starts in the Crib",
+          "hook": "New data suggest the dietary patterns that drive chronic disease in adults may take root before a child's second birthday.",
+          "pitch_angle": "A prospective cohort study tracking toddlers from 12 to 24 months found a consistent early shift toward refined grains and added sugars and away from vegetables\u2014a trajectory that mirrors national adult diet trends. The research raises questions about food environments, marketing, and family food culture as determinants of lifelong eating behavior."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Nutritional Sciences",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42343482",
+      "headline": "Not being breastfed triples the odds of severe malnutrition in Bangladeshi toddlers hospitalized with diarrhea",
+      "journal": "Journal of Health, Population and Nutrition",
+      "pubdate": "2026 Jun 24",
+      "doi": "10.1186/s41043-026-01362-2",
+      "groundbreaking": "Major dietary or microbiome implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers conducted a secondary analysis of 2,640 children aged 2\u201323 months presenting with diarrhea at urban hospitals in Bangladesh, comparing 660 children with severe acute malnutrition (SAM) against 1,980 matched controls. Dehydration carried nearly a sixfold increased odds of SAM, while not being breastfed was associated with 64% higher odds. Maternal underweight and lower parental education were also independently associated with SAM, while recent antibiotic use was modestly protective.",
+      "why_it_matters": "The strong link between lack of breastfeeding and severe acute malnutrition in young children with diarrhea underscores how early infant feeding choices interact with infectious disease to shape nutritional outcomes in low-resource settings.",
+      "caveats": "observational design, secondary analysis, single-center",
+      "fact_check_note": "The abstract states not being breastfed was associated with OR 1.64 (64% higher odds), not 'triple the odds' as written in the headline. Corrected: the headline overstates the effect size. Dehydration carried ~sixfold higher odds (OR 5.89), not breastfeeding absence.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Relevant to infant gut health and diarrheal disease; observational secondary analysis in a specific population.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Prevention",
+          "headline": "Diarrhea Plus No Breastfeeding Is a Dangerous Combination for Malnourished Infants, Study Finds",
+          "hook": "Among toddlers hospitalized with diarrhea in Bangladesh, those who weren't being breastfed had significantly higher odds of severe acute malnutrition.",
+          "pitch_angle": "A large secondary analysis of over 2,600 children found that dehydration, lack of breastfeeding, and maternal underweight independently predicted the most dangerous form of childhood malnutrition during acute diarrheal illness. The study reinforces breastfeeding's protective role not just for nutrition but as a buffer against diarrheal disease's most severe consequences."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Nutritional Sciences",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42336601",
+      "headline": "If a family member had a precancerous colon polyp, your own colorectal cancer risk may be higher than guidelines currently reflect",
+      "journal": "Clinical and Translational Gastroenterology",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.14309/ctg.0000000000001061",
+      "groundbreaking": "Major dietary or microbiome implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "This systematic review (PRISMA guidelines) identified four observational studies examining colorectal neoplasia risk in first-degree relatives (FDRs) of patients with colorectal advanced adenomas (CAAs), a key precursor to colorectal cancer. FDRs of CAA patients showed a significantly elevated risk for any adenoma (OR/RR 1.33\u20133.29) and advanced neoplasia (OR/RR 1.65\u20136.33), with proband age under 60, multiple adenomas, and distal polyp location emerging as potential risk modifiers. Evidence for elevated colorectal cancer risk specifically was inconsistent across the four included studies.",
+      "why_it_matters": "Family history of advanced precancerous polyps \u2014 not just colorectal cancer itself \u2014 may be an underrecognized signal that warrants earlier or more frequent colonoscopy screening, though current evidence is not yet strong enough to define specific screening intervals.",
+      "caveats": "small sample (N<100 in two included studies), observational design, only four studies included, high heterogeneity precluded meta-analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Colorectal cancer screening relevance; systematic review design; limited by only four included studies.",
+      "pitch_angles": [
+        {
+          "publication_type": "Well+Good / Prevention / Healthline",
+          "headline": "Your Family's Polyp History Matters for Your Colon Cancer Risk \u2014 Even If No One Actually Had Cancer",
+          "hook": "Most people know to flag a family history of colorectal cancer, but a new review suggests that a relative's precancerous polyps may also significantly raise your own risk \u2014 and current screening guidelines may not fully account for it.",
+          "pitch_angle": "A systematic review of four studies found that first-degree relatives of people with advanced precancerous colon polyps had up to three times the risk of developing adenomas themselves and up to six times the risk of advanced neoplasia \u2014 suggesting that family history conversations with your doctor should go beyond cancer diagnoses alone."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Gastroenterology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42332571",
+      "headline": "Two new HIV strains detected in China show signs of treatment resistance and faster viral rebound",
+      "journal": "BMC Microbiology",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1186/s12866-026-05323-x",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers analyzed 636 HIV-1 pol gene sequences from antiretroviral therapy-na\u00efve heterosexual patients in Yunnan, China over five years, identifying two novel second-generation circulating recombinant forms (CRF190_0708 and CRF191_0708). Overall pretreatment drug resistance prevalence was 5.97%, with K103N the most common mutation. During five-year follow-up, viral rebound occurred in 7 patients infected with CRF190_0708, with drug-resistance mutations M184V and K103N detected in a subset, suggesting possible clinical differences between the new strains.",
+      "why_it_matters": "Tracking the emergence of novel HIV recombinant strains with apparent treatment resistance patterns is critical for informing antiviral therapy selection and public health surveillance in regions where HIV diversity is evolving rapidly.",
+      "caveats": "observational design, single-center, small subgroup analysis for novel CRFs",
+      "fact_check_note": "",
+      "relevance_score": 2,
+      "relevance_score_reason": "HIV molecular epidemiology; no gut health, microbiome, or digestive disease relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Science journalism",
+          "headline": "Two New HIV Strains in China Are Already Showing Signs of Drug Resistance",
+          "hook": "Scientists tracking HIV evolution in southwest China found two previously unknown viral strains \u2014 and some patients infected with them are already experiencing treatment failure.",
+          "pitch_angle": "A five-year molecular surveillance study identified two novel HIV recombinants circulating in Yunnan, with one linked to viral rebound and emerging resistance mutations in treated patients; the findings underscore why continuous genomic monitoring of HIV is essential as the virus continues to evolve."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Microbiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42335170",
+      "headline": "A common latent herpesvirus quietly blunts the immune response to malaria \u2014 even during a first infection",
+      "journal": "PLoS Pathogens",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1371/journal.ppat.1014372",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers tested malaria-naive adults in vitro and in a controlled human malaria infection model (CHMI), comparing NK cell responses between individuals with and without latent cytomegalovirus (CMV) infection. CMV-seropositive individuals showed broadly attenuated NK cell transcriptional activation, reduced markers of NK cell cytotoxicity, and lower myeloid cell IL-12 production in response to Plasmodium falciparum parasites. NK cell perforin expression was associated with parasite control specifically in CMV-seronegative individuals, suggesting latent CMV impairs innate immune defenses against a first malaria infection.",
+      "why_it_matters": "Because CMV infects the majority of adults worldwide, this finding suggests that a nearly ubiquitous latent infection may be quietly reshaping how immune systems respond to other pathogens \u2014 with implications for malaria vaccine design and infectious disease vulnerability.",
+      "caveats": "small sample (N<100), single-center, controlled human malaria infection model may not reflect natural transmission",
+      "fact_check_note": "",
+      "relevance_score": 3,
+      "relevance_score_reason": "Counterintuitive immunology finding but no gut health, microbiome, or digestive disease relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Wired",
+          "headline": "The Herpesvirus Almost Everyone Carries Is Secretly Weakening Immune Defenses Against Malaria",
+          "hook": "A virus that silently persists in most adults worldwide appears to dampen the body's first-line immune response to malaria \u2014 even during a very first infection.",
+          "pitch_angle": "Using a controlled human malaria infection model, researchers found that latent CMV broadly suppresses the NK cell activity needed to fight off P. falciparum parasites, linking a nearly universal background infection to measurably worse parasite control; the finding raises important questions about how prior infection history shapes vaccine responses and disease susceptibility globally."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Microbiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42335358",
+      "headline": "Gastroenterology nursing society issues new minimum staffing standards for endoscopy units",
+      "journal": "Gastroenterology Nursing",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1097/SGA.0000000000000965",
+      "groundbreaking": "",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "The Society of Gastroenterology Nurses and Associates (SGNA) Practice Committee published updated guidance on minimum registered nurse staffing requirements for patient care in gastroenterology and endoscopy settings. No abstract text was available; this appears to be a professional practice statement or position paper rather than an original research study. No sample size, study population, or primary findings are available for verification.",
+      "why_it_matters": "Standardized nurse staffing guidelines for endoscopy units could influence patient safety outcomes across one of the most commonly performed GI procedures in the United States.",
+      "caveats": "Not a primary research study \u2014 appears to be a professional practice/position statement; no abstract available for verification",
+      "fact_check_note": "No abstract was provided. Summary is based on title and journal affiliation only. Study design, methodology, and findings cannot be verified.",
+      "relevance_score": 2,
+      "relevance_score_reason": "Healthcare workforce policy document; no diet, microbiome, or digestive disease science content.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Healthcare trade",
+          "headline": "New National Standards Say How Many Nurses Must Be in the Room During Your Colonoscopy",
+          "hook": "The country's leading GI nursing organization has issued updated minimum staffing guidelines for endoscopy suites \u2014 a quiet but consequential patient safety move.",
+          "pitch_angle": "With colonoscopies and other GI endoscopic procedures performed tens of millions of times annually in the U.S., the SGNA's updated staffing standards could have broad implications for patient safety and procedural outcomes across outpatient and hospital endoscopy settings."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Gastroenterology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42337997",
+      "headline": "Foot massage after childbirth improves breastfeeding success and infant stress in small RCT",
+      "journal": "Breastfeeding Medicine",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1177/15568253261457845",
+      "groundbreaking": "None identified",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "A parallel-group randomized controlled trial enrolled 70 primiparous postpartum women in Turkey, randomizing them to 12 sessions of 30-minute foot massage over four weeks (n=35) or standard postpartum care alone (n=35). Women receiving foot massage showed significantly higher LATCH breastfeeding scores at weeks one through three and improved sleep quality on the Pittsburgh Sleep Quality Index compared to controls. Newborn stress scale scores also declined more markedly in the intervention group, with significant between-group differences at weeks two and three.",
+      "why_it_matters": "A simple, low-cost nonpharmacological intervention \u2014 foot massage \u2014 may support breastfeeding success and maternal sleep in the critical early postpartum weeks, suggesting potential for easy integration into postpartum care protocols.",
+      "caveats": "small sample (N<100), single-center, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 3,
+      "relevance_score_reason": "No gut health, microbiome, or digestive disease relevance; outside digest scope.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Well+Good",
+          "headline": "Could a Simple Foot Massage Help New Moms Breastfeed Better?",
+          "hook": "A small randomized trial found that new mothers who received regular foot massages after delivery had significantly better breastfeeding outcomes and sleep quality than those who didn't.",
+          "pitch_angle": "Researchers in Turkey found that 12 sessions of foot massage over four weeks improved breastfeeding scores, maternal sleep, and newborn stress levels compared to standard postpartum care alone \u2014 suggesting a low-cost, drug-free tool that could support the early weeks of motherhood."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Nutritional Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42339901",
+      "headline": "Surgeons in two Brazilian cities 3,200 km apart perform bariatric surgery together via robot \u2014 in real time",
+      "journal": "Arquivos Brasileiros de Cirurgia Digestiva (ABCD)",
+      "pubdate": "2026 Jun 22",
+      "doi": "10.1590/0102-672020260000010e1939",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers describe the first teleassisted robotic bariatric surgery in Latin America, performed between teams in Curitiba and Jo\u00e3o Pessoa, Brazil \u2014 cities 3,200 km apart. A vertical sleeve gastrectomy was completed in real time with two separate surgical teams. The procedure was reported to proceed without significant operative differences compared to conventional face-to-face robotic surgery.",
+      "why_it_matters": "This proof-of-concept suggests that robotic telesurgery could one day extend access to specialized bariatric and digestive surgical care to underserved or geographically remote populations.",
+      "caveats": "small sample (N<100), single-center, observational design, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Surgical innovation, not gut health, microbiome, diet, or digestive disease science.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired / general technology",
+          "headline": "A Surgeon in One City Just Operated on a Patient 2,000 Miles Away \u2014 Using a Robot",
+          "hook": "Two surgical teams separated by 3,200 kilometers just performed a bariatric operation together in real time, marking Latin America's first robotic telesurgery.",
+          "pitch_angle": "The procedure raises the possibility that high-complexity surgical care \u2014 including for severe obesity \u2014 could eventually reach patients in areas where specialist surgeons are scarce, powered by robotics and high-speed communications networks."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Gastroenterology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42329555",
+      "headline": "A new risk model using data from 25,000 esophageal cancer surgeries predicts one of its deadliest complications more accurately than before",
+      "journal": "Esophagus: Official Journal of the Japan Esophageal Society",
+      "pubdate": "2026 Jun 22",
+      "doi": "10.1007/s10388-026-01223-1",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers developed and validated a perioperative risk model for anastomotic leakage \u2014 a serious complication following esophagectomy \u2014 using data from 20,113 patients in Japan's National Clinical Database, with external validation in 5,147 additional cases. The model combined preoperative, intraoperative, and early postoperative variables, outperforming preoperative-only models (C-statistic 0.610 vs. 0.565). Anastomotic leakage occurred in approximately 14% of patients across both cohorts.",
+      "why_it_matters": "A more accurate way to predict which esophageal cancer surgery patients are at highest risk for anastomotic leakage could improve postoperative monitoring and decision-making, potentially reducing a complication that carries significant morbidity and mortality.",
+      "caveats": "observational design, single-center development team, industry funding [Johnson & Johnson K.K., Nipro Corporation, Intuitive Surgical S\u00e0rl \u2014 affiliated with database department]",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Large registry, digestive surgery focus, but limited lifestyle or gut health relevance for target readership.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Healthline",
+          "headline": "Data From 25,000 Surgeries Just Made Esophageal Cancer Operations Safer",
+          "hook": "A new risk model built from one of the largest esophageal surgery datasets ever assembled can now better predict which patients are heading toward one of the procedure's most dangerous complications.",
+          "pitch_angle": "Anastomotic leakage \u2014 where the surgical join between esophagus and stomach fails \u2014 affects roughly 1 in 7 esophagectomy patients; a more accurate predictive tool built on real-world surgical data could help clinical teams intervene earlier and save lives."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Gastroenterology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42328983",
+      "headline": "Patients with amyloidosis face triple the bleeding risk during routine colon polyp removal",
+      "journal": "Digestion",
+      "pubdate": "2026 Jun 22",
+      "doi": "10.1159/000551743",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers conducted a retrospective propensity score-matched study comparing adverse events after colorectal polypectomy in 21 amyloidosis patients (71 polyps) and 110 non-amyloidosis patients (298 polyps) who underwent cold snare polypectomy or endoscopic mucosal resection between 2005 and 2024. Amyloidosis was independently associated with a 3.2-fold increased odds of immediate post-polypectomy bleeding (adjusted OR 3.20, 95% CI 1.14\u20138.99). Within the amyloidosis group, amyloid deposition in the muscularis mucosae and use of EMR (vs. cold snare) were identified as predictors of bleeding risk.",
+      "why_it_matters": "For the growing number of patients with systemic amyloidosis who undergo colorectal cancer surveillance, this finding suggests that polyp removal carries meaningfully higher bleeding risk \u2014 and that technique selection (cold snare vs. EMR) may help manage that risk.",
+      "caveats": "small sample (N<100), observational design, retrospective, single-center",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clinically relevant colorectal finding; small retrospective single-center sample limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Healthline / General health",
+          "headline": "If You Have Amyloidosis, Removing a Colon Polyp Is Riskier Than Doctors May Realize",
+          "hook": "A rare protein-deposition disease triples the odds of immediate bleeding during what is usually considered a low-risk colonoscopy procedure.",
+          "pitch_angle": "New research finds that patients with amyloidosis \u2014 a systemic disease where abnormal protein deposits accumulate in tissues including the gut lining \u2014 face significantly higher bleeding risk after colorectal polyp removal, and that choosing cold snare over more invasive endoscopic techniques may help reduce that risk."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Gastroenterology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42356405",
+      "headline": "Common ICU muscle-monitoring tool fails when patients are fluid-overloaded\u2014ultrasound picks up what it misses",
+      "journal": "Nutrients",
+      "pubdate": "2026 Jun 21",
+      "doi": "10.3390/nu18122019",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "In a prospective observational study of 143 adult ICU patients (stay \u22657 days), researchers compared ultrasound and bioelectrical impedance analysis (BIA) for tracking muscle loss over seven days. Ultrasound detected progressive muscle wasting (\u22127.56% by Day 7, p<0.0001) and correlated with inflammation markers, while BIA showed no significant change in its primary metric (phase angle) and was significantly distorted by fluid overload. The study suggests ultrasound is the more reliable tool for assessing true muscle loss in critically ill patients.",
+      "why_it_matters": "For critically ill patients, accurate muscle monitoring matters for nutrition support decisions, and this study suggests the widely used BIA method may give misleading readings when patients are fluid-overloaded\u2014a near-universal condition in the ICU.",
+      "caveats": "observational design, single-center, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clinically important for ICU nutrition support; limited gut/microbiome relevance for this audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Wired",
+          "headline": "The Machine Doctors Use to Track Muscle Loss in the ICU Has a Blind Spot, Study Shows",
+          "hook": "Bioelectrical impedance\u2014a common bedside tool for measuring muscle mass in critically ill patients\u2014appears to be significantly thrown off by fluid overload, missing the wasting that ultrasound clearly detects.",
+          "pitch_angle": "A prospective study of 143 ICU patients found that while ultrasound reliably tracked muscle loss over a week, BIA readings were distorted by the same fluid retention that routinely accompanies critical illness. The finding has direct implications for how clinicians guide nutrition therapy for the sickest hospitalized patients."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Nutritional Sciences",
+      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -139,240 +649,6 @@
       "status": "new"
     },
     {
-      "pmid": "42343625",
-      "headline": "Fatty liver disease doesn't just add to hepatitis B risk \u2014 it paradoxically suppresses the virus while quietly driving liver cancer",
-      "journal": "Clinical and Molecular Hepatology",
-      "pubdate": "2026 Jun 25",
-      "doi": "10.3350/cmh.2026.0387",
-      "groundbreaking": "Counterintuitive finding / Overturns prior research",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "This narrative review synthesizes current evidence on the interaction between chronic viral hepatitis (hepatitis B and C) and metabolic dysfunction-associated steatotic liver disease (MASLD), focusing on divergent biological mechanisms. In hepatitis B, isolated liver fat appears to suppress viral replication \u2014 a so-called 'steatosis paradox' \u2014 yet the accompanying metabolic burden independently accelerates liver fibrosis and hepatocellular carcinoma (HCC) risk. In hepatitis C, the virus actively hijacks lipid metabolism and induces insulin resistance, and residual metabolic dysfunction persists as a driver of HCC even after viral cure with direct-acting antivirals.",
-      "why_it_matters": "As fatty liver disease becomes increasingly common worldwide, understanding how it interacts differently with hepatitis B versus hepatitis C has real implications for how liver cancer risk is monitored and managed in people living with viral hepatitis.",
-      "caveats": "observational design, small sample (N<100)",
-      "fact_check_note": "This is a review article, not an original study with a defined sample size; the 'small sample' caveat reflects the absence of primary trial data, not a study flaw.",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive finding, hepatology relevance, metabolic-liver disease intersection; review only.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / General science",
-          "headline": "Fatty Liver Actually Suppresses Hepatitis B \u2014 But That's Not the Good News You Think It Is",
-          "hook": "A surprising 'steatosis paradox' means that fat in the liver of someone with hepatitis B can actually slow down the virus \u2014 while simultaneously and silently accelerating their path to liver cancer.",
-          "pitch_angle": "As the global epidemics of fatty liver disease and viral hepatitis increasingly overlap, new research reveals that the liver-fat and hepatitis B relationship is far more complicated \u2014 and dangerous \u2014 than assumed. The finding challenges the old 'one disease at a time' approach to liver care and argues for treating metabolic and viral liver disease as a package deal."
-        },
-        {
-          "publication_type": "Healthline / Prevention",
-          "headline": "Cured of Hep C? Fatty Liver Disease May Still Be Quietly Raising Your Cancer Risk",
-          "hook": "Direct-acting antivirals can eliminate hepatitis C from the body, but new evidence suggests that residual fatty liver disease and insulin resistance continue to drive liver cancer risk even after the virus is gone.",
-          "pitch_angle": "For the growing number of people successfully treated for hepatitis C, this review is a reminder that viral clearance doesn't reset metabolic damage \u2014 and that ongoing monitoring for fatty liver disease and blood sugar control may be critical for long-term liver health."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Gastroenterology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42343672",
-      "headline": "Stigma around free school meals may be as big a barrier as funding, UK stakeholders say",
-      "journal": "Public Health Nutrition",
-      "pubdate": "2026 Jun 25",
-      "doi": "10.1017/S1368980026102432",
-      "groundbreaking": "Major dietary or microbiome implication",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers conducted qualitative interviews with 17 stakeholders across local, regional, and national government, policy, academia, and schools in England to explore barriers to expanding free school meal (FSM) provision. Using the Framework Method and the CICI framework, they found that stigma reduction, integration with existing school policies, improved administrative processes, and a joined-up food system approach were key implementation priorities. Sufficient financial support was identified as essential for any successful expansion.",
-      "why_it_matters": "Understanding the non-financial barriers \u2014 particularly stigma \u2014 to school meal programs could shape more effective child nutrition policy and help reduce food insecurity-related health disparities in children.",
-      "caveats": "small sample (N<100), qualitative design, single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Policy/nutrition topic but no gut health, microbiome, or digestive disease relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "Prevention / General health",
-          "headline": "The Hidden Reason Kids Skip Free School Lunches \u2014 And Why Fixing It Matters for Their Health",
-          "hook": "It's not just about money: UK experts say the stigma of free school meals may be just as big a barrier as the budget.",
-          "pitch_angle": "Researchers found that children and families often avoid free school meal programs due to social stigma, not just eligibility gaps. Addressing shame alongside funding could be a key lever for improving child nutrition and long-term health outcomes."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Nutritional Sciences",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42333575",
-      "headline": "A new acid-measuring metric outperforms the standard GERD test \u2014 and could finally explain why so many patients don't respond to acid-blocking drugs",
-      "journal": "The American Journal of Gastroenterology",
-      "pubdate": "2026 Jun 24",
-      "doi": "10.14309/ajg.0000000000004092",
-      "groundbreaking": "Counterintuitive finding / Overturns prior research",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers retrospectively analyzed impedance-pH monitoring data from 174 GERD patients (97 PPI responders, 77 non-responders) at a single Italian center to evaluate a new metric called total integrated acidity exposure (TIAE), which calculates the actual hydrogen ion load on the esophagus rather than simply the percentage of time pH is below 4. TIAE predicted PPI response significantly better than conventional acid exposure time (AET) (AUC 0.78 vs. 0.64), and in patients with inconclusive AET values (4\u20136%), TIAE accurately distinguished who would and would not respond to treatment. Very low pH episodes (pH <2) contributed most strongly to TIAE and showed the strongest association with treatment response.",
-      "why_it_matters": "Millions of people with GERD fail to respond to proton pump inhibitors despite seemingly abnormal acid tests, and this new metric could help clinicians identify who actually needs stronger acid suppression versus who needs a completely different treatment approach.",
-      "caveats": "small sample (N<100), observational design, single-center, retrospective",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "GERD is highly relatable; counterintuitive metric improvement; single-center and small N limit score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Healthline / Prevention",
-          "headline": "The Standard Test for GERD May Be Missing Who Actually Needs Acid-Blocking Drugs",
-          "hook": "A new way of measuring esophageal acid exposure \u2014 one that accounts for how exponentially more damaging very low pH is \u2014 predicted which GERD patients would respond to treatment far better than the decades-old standard metric.",
-          "pitch_angle": "For the roughly 30\u201340% of GERD patients who don't get relief from proton pump inhibitors, the problem may not be their treatment \u2014 it may be how their acid burden was measured in the first place. This study suggests a physics-based upgrade to a long-standing diagnostic blind spot."
-        },
-        {
-          "publication_type": "Wired / The Atlantic",
-          "headline": "GERD's Most-Used Diagnostic Metric Has a pH Math Problem \u2014 And a Fix May Already Exist",
-          "hook": "Because pH is a logarithmic scale, the standard GERD test treats pH 1 and pH 3 as nearly equivalent \u2014 but in terms of actual acid load, they're not even close.",
-          "pitch_angle": "A new metric that integrates actual hydrogen ion concentration over time, rather than just counting seconds below pH 4, out-predicted the 40-year-old standard by a wide margin in a head-to-head comparison. It's a reminder that sometimes the most entrenched clinical tools have a basic math problem hiding in plain sight."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Gastroenterology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42341608",
-      "headline": "Human microbiomes are becoming a mining ground for the next generation of antibiotics",
-      "journal": "Current Opinion in Microbiology",
-      "pubdate": "2026 Jun 24",
-      "doi": "10.1016/j.mib.2026.102781",
-      "groundbreaking": "Major dietary or microbiome implication",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "This review summarizes how advances in genomics and AI are accelerating the discovery of novel antimicrobial peptides and proteins from human and environmental microbiomes, with a focus on mining biosynthetic gene clusters. The authors highlight AI-enabled computational tools and experimental strategies that are helping identify candidates active against priority pathogens, including drug-resistant bacteria and fungi. They flag antifungal discovery as a critical and underfunded gap, given the limited number of existing antifungal drug classes and slow pipeline growth.",
-      "why_it_matters": "The human gut microbiome may harbor untapped antimicrobial compounds that could one day address the growing crisis of antibiotic and antifungal resistance, making microbiome research directly relevant to the future of infectious disease treatment.",
-      "caveats": "microbiome data only (no clinical outcomes)",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Gut microbiome angle and AMR relevance, but review with no new clinical data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired / The Atlantic",
-          "headline": "Scientists Are Hunting the Next Antibiotic Inside Your Gut",
-          "hook": "With antibiotic resistance accelerating faster than new drugs are developed, researchers are turning to the human microbiome as a library of untapped antimicrobial compounds.",
-          "pitch_angle": "AI and genomic 'mining' of microbiomes \u2014 human and otherwise \u2014 is surfacing novel peptides and proteins that can kill drug-resistant pathogens in ways conventional antibiotics cannot. The authors of this review argue the field is especially urgent for antifungals, where the drug pipeline is nearly empty."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Microbiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42339861",
-      "headline": "The Mediterranean diet is losing followers in the very countries that invented it \u2014 and gaining them everywhere else",
-      "journal": "International Journal of Food Sciences and Nutrition",
-      "pubdate": "2026 Jun 24",
-      "doi": "10.1080/09637486.2026.2692948",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "This narrative review by a single author examines epidemiological and survey data showing that adherence to the Mediterranean diet has declined significantly in Greece, Spain, and Southern Italy \u2014 the diet's countries of origin \u2014 while adoption has increased in non-Mediterranean countries. The shift is associated with rising rates of metabolic disease and obesity in the Mediterranean region itself. The author calls for coordinated public health strategies to reverse this trend.",
-      "why_it_matters": "The widening gap between where the Mediterranean diet originates and where it is actually followed suggests that cultural and economic forces may undermine even the most evidence-backed dietary patterns, with real consequences for chronic disease risk.",
-      "caveats": "observational design, single author review, no primary data collected",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Counterintuitive dietary finding with public health relevance; review only, no new data.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic",
-          "headline": "The Mediterranean Diet Is Thriving Everywhere Except the Mediterranean",
-          "hook": "The countries that gave the world one of its healthiest diets are now abandoning it \u2014 and paying a metabolic price.",
-          "pitch_angle": "A new review finds that adherence to the Mediterranean diet has collapsed in Greece, Spain, and Southern Italy just as the rest of the world embraces it, a paradox linked to rising obesity and metabolic disease in the diet's birthplace. It raises uncomfortable questions about how globalization and economic pressures erode traditional food cultures even when the health evidence is overwhelming."
-        },
-        {
-          "publication_type": "Well+Good / Healthline",
-          "headline": "Why the Mediterranean Diet Is Disappearing From the Mediterranean \u2014 and What That Means for Your Health",
-          "hook": "People in Greece and Italy are eating less like Greeks and Italians than ever before, and chronic disease rates are climbing as a result.",
-          "pitch_angle": "A new review highlights a striking paradox: the Mediterranean diet is gaining popularity in the U.S. and Northern Europe while quietly vanishing from the region it comes from, replaced by ultra-processed foods and Western eating patterns. Experts say this shift has major implications for how we think about diet, culture, and chronic disease prevention."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Nutritional Sciences",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42340162",
-      "headline": "New processing technologies could cut the environmental footprint of table olives by slashing chemical use and wastewater",
-      "journal": "Critical Reviews in Food Science and Nutrition",
-      "pubdate": "2026 Jun 24",
-      "doi": "10.1080/10408398.2026.2691228",
-      "groundbreaking": "Major dietary or microbiome implication",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "This review critically analyzed published literature on conventional and emerging table olive processing methods \u2014 including Spanish, Greek, and Californian styles \u2014 and evaluated non-conventional technologies such as power ultrasound, high-pressure processing, and pulsed electric fields. Researchers found that these green intensification technologies can reduce debittering time by up to 40% and lower chemical usage and wastewater generation compared to traditional methods. However, most studies examined single-stage processes, leaving major knowledge gaps about whole-chain implementation.",
-      "why_it_matters": "Greener olive processing methods could preserve more of the polyphenols and beneficial compounds in table olives that are associated with Mediterranean diet health benefits, while also reducing environmental harm.",
-      "caveats": "observational design, review article no primary data",
-      "fact_check_note": "",
-      "relevance_score": 3,
-      "relevance_score_reason": "Food technology review; minimal direct gut health or microbiome relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired / General health",
-          "headline": "Sound Waves and Pressure Are Reinventing How We Make One of the Mediterranean Diet's Staple Foods",
-          "hook": "Ultrasound and high-pressure processing could make your olives greener \u2014 in both senses of the word.",
-          "pitch_angle": "A new review finds that emerging food technologies can cut the time and chemicals needed to process raw olives by up to 40%, potentially preserving more of the polyphenols that make olives a Mediterranean diet staple. The findings suggest cleaner production methods could make one of the world's oldest fermented foods both healthier and more sustainable."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Nutritional Sciences",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42336601",
-      "headline": "Having a parent with precancerous colon polyps may more than double your own colorectal cancer risk \u2014 but guidelines haven't caught up",
-      "journal": "Clinical and Translational Gastroenterology",
-      "pubdate": "2026 Jun 23",
-      "doi": "10.14309/ctg.0000000000001061",
-      "groundbreaking": "Major dietary or microbiome implication",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "This systematic review (PRISMA-compliant) analyzed four observational studies examining colorectal neoplasia risk in first-degree relatives (FDRs) of patients with colorectal advanced adenomas (CAAs), identifying studies from a search of 421 records through May 2025. FDRs of CAA patients showed significantly elevated risk for any adenoma (OR/RR 1.33\u20133.29) and for advanced neoplasia including CAA or colorectal cancer (OR/RR 1.65\u20136.33), with the strength and consistency of CRC risk estimates varying across studies. The authors conclude that family history of CAAs may warrant consideration in risk-stratified screening, but current evidence is insufficient to define CAA-specific screening intervals beyond existing guidelines.",
-      "why_it_matters": "Most current colonoscopy screening guidelines focus on family history of colorectal cancer itself \u2014 this review suggests that a family history of advanced precancerous polyps may also signal meaningfully elevated personal risk, potentially relevant to millions of people with relatives who've had polyps removed.",
-      "caveats": "observational design, small sample (N<100)",
-      "fact_check_note": "Only four studies were included in the final synthesis; the wide confidence intervals and heterogeneity across studies reflect real uncertainty \u2014 the review itself acknowledges evidence certainty is limited and CRC risk findings were inconsistent.",
-      "relevance_score": 7,
-      "relevance_score_reason": "Colorectal cancer screening relevance, public health impact, but only four studies included.",
-      "pitch_angles": [
-        {
-          "publication_type": "Well+Good / Prevention / Healthline",
-          "headline": "Your Parent Had Precancerous Colon Polyps \u2014 Does That Mean You Need Earlier Screening?",
-          "hook": "A new systematic review finds that people with a parent or sibling who had advanced precancerous colon polyps may face up to three times the normal risk of developing similar growths themselves.",
-          "pitch_angle": "Current colonoscopy guidelines focus mostly on family history of actual colorectal cancer, but this review suggests that advanced adenomas \u2014 the most common cancer precursor \u2014 may carry their own familial risk signal worth discussing with a doctor. The evidence is preliminary and based on only four studies, but for people navigating screening decisions, it's a finding worth knowing about."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Gastroenterology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42332571",
-      "headline": "Two new HIV variants found in China may respond differently to standard treatment",
-      "journal": "BMC Microbiology",
-      "pubdate": "2026 Jun 23",
-      "doi": "10.1186/s12866-026-05323-x",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers analyzed 636 HIV-1 genetic sequences from ART-na\u00efve heterosexual patients in Yunnan, China over five years, identifying two novel second-generation circulating recombinant forms (CRF190_0708 and CRF191_0708). The study tracked clinical outcomes including immune reconstitution and viral rebound over five years. Preliminary findings suggest the two new variants may differ in treatment response, with more viral rebound and drug-resistance mutations observed in the CRF190_0708 group.",
-      "why_it_matters": "Identifying new HIV variants with potentially different treatment responses highlights why ongoing molecular surveillance matters for guiding regional HIV therapy.",
-      "caveats": "small sample (N<100 for novel CRF subgroups), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 3,
-      "relevance_score_reason": "HIV molecular epidemiology; no gut, microbiome, or digestive health relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health",
-          "headline": "Scientists Identify Two New HIV Variants in China That May Resist Standard Treatment",
-          "hook": "Two newly characterized HIV strains circulating in Yunnan, China appear to behave differently under antiretroviral therapy, raising questions about regional treatment protocols.",
-          "pitch_angle": "Researchers tracking HIV genetic diversity in southern China identified two novel recombinant virus forms and found early signals that one may be linked to higher rates of viral rebound and drug resistance, underscoring the importance of continued genomic surveillance in high-transmission regions."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Microbiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42338097",
       "headline": "Global nutrition experts just agreed on the first universal definition of 'risk of malnutrition' \u2014 and it's broader than anyone expected",
       "journal": "JPEN. Journal of Parenteral and Enteral Nutrition",
@@ -396,60 +672,6 @@
       ],
       "run_date": "2026-06-27",
       "category": "Nutritional Sciences",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42339901",
-      "headline": "A surgeon in Curitiba just operated on a patient 3,200 km away \u2014 and bariatric surgery may never be the same",
-      "journal": "Arquivos brasileiros de cirurgia digestiva (ABCD)",
-      "pubdate": "2026 Jun 22",
-      "doi": "10.1590/0102-672020260000010e1939",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers performed the first teleassisted robotic bariatric surgery in Latin America, with a surgical team in Curitiba, Brazil remotely guiding a vertical sleeve gastrectomy on a patient located 3,200 km away in Jo\u00e3o Pessoa. The procedure involved two separate teams and was completed without significant operative differences compared to standard in-person robotic surgery. The case report demonstrates the technical feasibility of long-distance robotic telesurgery for bariatric procedures in real-world conditions.",
-      "why_it_matters": "Telesurgery could eventually expand access to specialized bariatric care in regions far from major medical centers, though this represents a single proof-of-concept case.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Surgical tech innovation; limited direct gut health or microbiome relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired / General science-tech",
-          "headline": "A Surgeon Operated on a Patient 2,000 Miles Away \u2014 Using a Robot",
-          "hook": "For the first time in Latin America, a bariatric surgeon remotely performed a stomach-reduction procedure on a patient more than 3,200 kilometers away.",
-          "pitch_angle": "This first-ever Latin American robotic telesurgery case shows that the technical barriers to remote surgical care are falling fast. For the millions of people with severe obesity living far from specialized surgical centers, telesurgery could eventually mean the difference between access and no access."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Gastroenterology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42329555",
-      "headline": "A new risk model built from 20,000 esophageal cancer surgeries could flag dangerous leaks before they become fatal",
-      "journal": "Esophagus: official journal of the Japan Esophageal Society",
-      "pubdate": "2026 Jun 22",
-      "doi": "10.1007/s10388-026-01223-1",
-      "groundbreaking": "First-in-class human study / Major dietary or microbiome implication",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Using data from 20,113 patients in Japan's National Clinical Database who underwent esophagectomy for esophageal or gastroesophageal junction cancer (2016\u20132019), researchers developed a perioperative risk model for anastomotic leakage that combines preoperative, intraoperative, and early postoperative variables. The model was externally validated in a separate cohort of 5,147 patients from 2020. The perioperative model outperformed a preoperative-only model in predicting anastomotic leakage (AUC 0.610 vs. 0.565), a complication occurring in nearly 14% of patients.",
-      "why_it_matters": "Anastomotic leakage is one of the most dangerous complications after esophageal cancer surgery, and a more accurate early-warning model could help surgeons intervene sooner to improve patient outcomes.",
-      "caveats": "observational design, secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Large human cohort, esophageal cancer relevance, but no microbiome or diet angle.",
-      "pitch_angles": [
-        {
-          "publication_type": "Healthline / General health",
-          "headline": "After Esophageal Cancer Surgery, a New Scoring Model Could Catch Deadly Complications Earlier",
-          "hook": "Nearly 1 in 7 patients who undergo esophageal cancer surgery develops a life-threatening leak at the surgical join \u2014 and a new model trained on 20,000 cases may finally predict who is most at risk.",
-          "pitch_angle": "Japanese researchers built and validated a risk-scoring tool that factors in what happens during and immediately after surgery, not just before it, improving leak prediction meaningfully. For patients and clinicians navigating one of oncology's most complex surgeries, earlier risk identification could translate to faster intervention and better survival."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Gastroenterology",
       "chunk": "2/2",
       "status": "new"
     },
@@ -577,33 +799,6 @@
       "run_date": "2026-06-27",
       "category": "Nutritional Sciences",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42335170",
-      "headline": "A common latent herpesvirus may quietly blunt the immune response you'd need to fight malaria for the first time",
-      "journal": "PLoS Pathogens",
-      "pubdate": "2026 Jun",
-      "doi": "10.1371/journal.ppat.1014372",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers studied how latent cytomegalovirus (CMV) infection \u2014 carried by a majority of adults globally \u2014 affects innate immune responses to malaria using both in vitro experiments with malaria-na\u00efve adult blood and a controlled human malaria infection trial. They found that CMV-seropositive individuals showed attenuated NK cell activation and lower IL-12 production in response to Plasmodium falciparum parasites. In CMV-seronegative individuals, stronger NK cell perforin expression was associated with better parasite control during a first malaria infection, linking NK cell activity to a clinical outcome.",
-      "why_it_matters": "The finding that a near-ubiquitous latent virus can broadly dampen the innate immune response to an unrelated pathogen suggests past infections may quietly shape how well people fight new ones.",
-      "caveats": "small sample (N<100), single-center",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Immunology finding with clinical outcome link; no gut or microbiome relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic",
-          "headline": "The Virus Most of Us Carry May Be Quietly Weakening Our Defenses Against Other Infections",
-          "hook": "A herpesvirus that silently infects the majority of adults worldwide appears to dial down the immune system's first-line response to malaria \u2014 and possibly other pathogens.",
-          "pitch_angle": "New research using a rare controlled human malaria infection study finds that people carrying latent CMV mount a weaker innate immune attack against malaria parasites, raising broader questions about how the cumulative history of our infections shapes our ability to fight the next one."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Microbiology",
-      "chunk": "1/2",
       "status": "new"
     },
     {
