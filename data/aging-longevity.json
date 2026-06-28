@@ -1,33 +1,345 @@
 {
-  "last_updated": "2026-06-27T12:18:20.648339+00:00",
-  "total_studies": 47,
-  "new_this_run": 13,
+  "last_updated": "2026-06-28T12:23:13.906184+00:00",
+  "total_studies": 55,
+  "new_this_run": 8,
   "studies": [
     {
       "pmid": "42360321",
-      "headline": "A new AI-assisted tool scans thousands of medical records in seconds to catch a rare, often-missed form of diabetes",
+      "headline": "AI-assisted medical record tool identifies rare diabetes subtype in youth 50 times faster than manual chart review",
       "journal": "Diabetes Care",
       "pubdate": "2026 Jun 26",
       "doi": "10.2337/dc26-0464",
       "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers developed PEPPER, a Python-based electronic medical record search tool, and tested it on 1,660 youth with type 2 diabetes to identify cases of a rare, atypical form called ketosis-prone diabetes. The tool completed each chart review in an average of 13 seconds versus 27 seconds for manual review, with 100% accuracy, ultimately identifying 21 confirmed cases of the rare diabetes subtype. The study suggests automated EMR tools could accelerate discovery of atypical diabetes forms that are often misclassified.",
-      "why_it_matters": "Faster, accurate identification of rare diabetes subtypes could help patients \u2014 including older adults who may have been misdiagnosed for years \u2014 receive more appropriate treatment sooner.",
-      "caveats": "single-center, sample skews young (youth with T2D)",
+      "summary": "Researchers developed PEPPER, a Python-based electronic medical record search tool, and tested it on 1,660 youth with type 2 diabetes to identify cases of ketosis-prone diabetes (KPD), a rare and often misclassified subtype. PEPPER completed chart review in a mean of 13.4 seconds per chart versus 26.6 seconds manually, with 100% accuracy, and identified 21 youth meeting full KPD diagnostic criteria. The tool is designed to reduce the manual burden of identifying atypical diabetes subtypes that are frequently missed in routine care.",
+      "why_it_matters": "Better tools for identifying rare diabetes subtypes could eventually improve diagnosis and treatment for patients of all ages whose diabetes doesn't fit the standard Type 1 or Type 2 mold.",
+      "caveats": "single-center, sample is exclusively under 40",
       "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Interesting methodology; sample is exclusively youth, limiting aging publication relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health / Everyday Health",
-          "headline": "A New Tech Tool Can Scan 1,600 Medical Records in Minutes to Find Diabetes Cases Doctors Miss",
-          "hook": "A Python-based program just proved it can comb through thousands of electronic health records in seconds \u2014 with perfect accuracy \u2014 to identify a form of diabetes that often gets misdiagnosed.",
-          "pitch_angle": "The tool, called PEPPER, identified cases of ketosis-prone diabetes roughly twice as fast as human reviewers and without a single error, suggesting automated chart review could become a powerful aid in catching atypical diseases earlier. Though tested in a young population, the approach could eventually help older adults who have lived for years with an incorrect diabetes diagnosis."
-        }
-      ],
-      "run_date": "2026-06-27",
+      "relevance_score": 3,
+      "relevance_score_reason": "Technical/diagnostic tool study in youth; limited direct aging or lifestyle relevance.",
+      "pitch_angles": [],
+      "run_date": "2026-06-28",
       "category": "Endocrinology & Metabolism",
       "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42361970",
+      "headline": "After 50 years of research, surgeons still lack a proven method to prevent a common complication of thyroid surgery",
+      "journal": "Annales d'Endocrinologie",
+      "pubdate": "2026 Jun 26",
+      "doi": "10.1016/j.ando.2026.102585",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A PRISMA-method systematic review analyzed 169 interventional studies published between 1969 and 2025 evaluating techniques to locate parathyroid glands during total thyroidectomy and prevent postoperative calcium deficiency. Only six of the 169 studies reported a reduction in permanent hypocalcemia, using carbon nanoparticles, indocyanine green angiography, or autofluorescence imaging. No prospective randomized controlled trial has yet demonstrated a reduction in permanent postoperative hypocalcemia, leaving a major gap in evidence-based surgical practice.",
+      "why_it_matters": "Thyroid surgery rates are rising among older adults, and permanent hypocalcemia \u2014 a quality-of-life-impairing complication \u2014 affects up to 3% of patients, making the lack of a proven preventive technique a meaningful clinical gap.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Surgical review with aging relevance but no direct lifestyle hook; no human primary data.",
+      "pitch_angles": [
+        {
+          "publication_type": "Next Avenue / AARP",
+          "headline": "Thyroid Surgery Is Common After 50 \u2014 But Surgeons Still Can't Reliably Prevent One of Its Most Troublesome Complications",
+          "hook": "A sweeping review of 56 years of research found that no surgical technique has yet been proven in a rigorous trial to prevent the chronic low-calcium condition that affects up to 3% of thyroid surgery patients.",
+          "pitch_angle": "Total thyroidectomy is one of the most common surgeries in older adults, yet a systematic review of 169 studies found that only a handful showed any reduction in permanent hypocalcemia \u2014 a condition that causes muscle cramps, fatigue, and lifelong calcium supplementation. The finding highlights how even well-established surgeries can have unresolved complications that affect quality of life for years."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42362955",
+      "headline": "A Common Shoulder Surgery in Older Adults Is Linked to Greater Care Dependency \u2014 But Also Lower Mortality",
+      "journal": "European Geriatric Medicine",
+      "pubdate": "2026 Jun 26",
+      "doi": "10.1007/s41999-026-01531-w",
+      "groundbreaking": "Counterintuitive finding / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This retrospective study analyzed German health insurance claims data from 54,595 patients aged 65 and older who experienced a proximal humeral (shoulder) fracture between 2017 and 2022, using propensity score matching to compare surgical and non-surgical treatment outcomes. Researchers found that reverse total shoulder arthroplasty (RTSA) was associated with a 40% higher risk of worsening care dependency compared to non-operative treatment, while plate fixation showed no difference. Notably, surgical treatment overall was associated with lower mortality risk.",
+      "why_it_matters": "For older adults and their families weighing treatment options after a serious shoulder fracture, this large real-world study suggests the choice of surgery type may have meaningful long-term consequences for independence and care needs.",
+      "caveats": "observational design, retrospective, single-country (Germany)",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding; large sample of adults 65+; directly addresses aging independence and survival.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Prevention",
+          "headline": "A Popular Shoulder Fracture Surgery May Raise the Risk of Losing Independence in Older Adults",
+          "hook": "One of the most common surgeries used to repair shoulder fractures in older adults is associated with a significantly higher risk of needing more care afterward \u2014 even though surgery overall appears linked to longer survival.",
+          "pitch_angle": "A study of more than 54,000 older German adults found that reverse shoulder replacement after fracture was associated with a 40% higher risk of worsening care dependency, compared to non-surgical treatment or plate fixation. The finding highlights the importance of individualized surgical decision-making that weighs both survival and long-term independence."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Geriatrics",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42350996",
+      "headline": "Muscle Mass, Not Body Fat, Is the Strongest Predictor of Bone Density in Older Adults",
+      "journal": "BMC Geriatrics",
+      "pubdate": "2026 Jun 26",
+      "doi": "10.1186/s12877-026-07904-x",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a cross-sectional DXA-based study of 274 community-dwelling adults aged 65 and older in Chile (80% women) to examine the relationship between body composition and bone mineral density (BMD). Total lean mass showed the strongest independent association with whole-body BMD, explaining more than 53% of the variance, with the relationship slightly stronger in men than women. Adiposity measures showed weaker and site-dependent associations with BMD, suggesting fat mass plays a limited protective role in bone health.",
+      "why_it_matters": "For older adults focused on preventing fractures and maintaining independence, this study adds to evidence suggesting that preserving muscle mass may matter more for bone health than body weight or fat levels alone.",
+      "caveats": "observational design, cross-sectional, single-center, small subsample for regional BMD sites (N=133)",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Clear lifestyle hook; adults 65+; bone and muscle health directly tied to aging independence.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Eating Well",
+          "headline": "To Protect Your Bones After 65, Building Muscle May Matter More Than Managing Weight",
+          "hook": "When it comes to bone density in older adults, new research suggests that how much muscle you have matters far more than how much you weigh or how much body fat you carry.",
+          "pitch_angle": "A DXA-based study of 274 Chilean adults over 65 found that lean mass \u2014 not fat \u2014 was the strongest predictor of bone mineral density, accounting for more than half of the variation in bone health. Experts say the finding reinforces the importance of muscle-building activities like resistance training as a strategy for fracture prevention in older age."
+        },
+        {
+          "publication_type": "AARP",
+          "headline": "The Real Key to Stronger Bones After 65 May Be in Your Muscles",
+          "hook": "Forget focusing on weight alone \u2014 a new study of older adults found that the more muscle mass people have, the stronger their bones tend to be.",
+          "pitch_angle": "Using precision body-scanning technology, researchers found that lean muscle mass explained more than half of the variation in whole-body bone density among adults 65 and older, outpacing the contribution of fat mass or BMI. The finding points to strength training and protein intake as priorities for bone health in later life."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Geriatrics",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42346809",
+      "headline": "Popular sleep supplement melatonin may quietly disrupt blood sugar control \u2014 but only in people with a common gene variant",
+      "journal": "Diabetes Care",
+      "pubdate": "2026 Jun 25",
+      "doi": "10.2337/dc26-0164",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a randomized, double-blind, placebo-controlled crossover trial in 21 healthy adults of European ancestry, including 10 carriers of the MTNR1B diabetes-risk gene variant and 11 noncarriers, testing 5 mg oral melatonin versus placebo under controlled lab conditions. Among gene-risk carriers, melatonin worsened glucose tolerance by about 12%, suppressed first-phase insulin release by 40%, and disrupted the normal negative feedback loop that shuts off insulin secretion. These effects were not seen in noncarriers, suggesting that melatonin's metabolic risks are genotype-dependent.",
+      "why_it_matters": "Melatonin use has quintupled in recent decades and is especially common in older adults \u2014 who also carry higher diabetes risk \u2014 suggesting that for some people a widely used sleep aid may quietly worsen blood sugar regulation.",
+      "caveats": "small sample (N<100), single-center, short follow-up, sample skews toward healthy younger adults (age range not specified but described as healthy participants)",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive RCT finding on popular supplement with direct metabolic aging relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Your Nightly Melatonin Could Be Messing With Your Blood Sugar \u2014 If You Have This Gene",
+          "hook": "Millions of older Americans take melatonin to sleep, but a rigorous new study suggests it may quietly raise blood sugar risk for people with a surprisingly common genetic variant.",
+          "pitch_angle": "A controlled clinical trial found that 5 mg melatonin \u2014 a common over-the-counter dose \u2014 disrupted insulin release and glucose tolerance in carriers of the MTNR1B gene variant, which affects roughly one-third of the population. The finding raises new questions about whether a routine bedtime habit is safe for everyone, and sets the stage for personalized guidance on sleep supplements."
+        },
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "Think Melatonin Is Totally Harmless? New Research Says It Depends on Your DNA",
+          "hook": "A new study found that melatonin blunted the pancreas's ability to release insulin in people with a specific genetic risk factor for type 2 diabetes.",
+          "pitch_angle": "In a double-blind trial, researchers found that melatonin suppressed first-phase insulin secretion by 40% in carriers of a common diabetes-linked gene variant \u2014 but had no such effect on noncarriers. As melatonin use surges, the research suggests that genetics may determine whether the supplement is metabolically neutral or quietly harmful."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42343672",
+      "headline": "School meal policy experts say stigma \u2014 not cost alone \u2014 is the biggest barrier to feeding more kids in England",
+      "journal": "Public Health Nutrition",
+      "pubdate": "2026 Jun 25",
+      "doi": "10.1017/S1368980026102432",
+      "groundbreaking": "None identified",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted qualitative interviews with 17 stakeholders \u2014 including local, regional, and national government representatives, policymakers, academics, and school staff \u2014 about barriers to expanding free school meal provision in England. Stakeholders identified stigma reduction and administrative simplification as priorities, alongside adequate financial support. The study found that linking school meal expansion to existing school food quality monitoring was seen as a practical implementation pathway.",
+      "why_it_matters": "Early childhood nutrition shapes lifelong metabolic health trajectories, making school meal policy a meaningful upstream lever for population-level healthy aging.",
+      "caveats": "small sample (N<100), qualitative design, single-center, UK-only context",
+      "fact_check_note": "",
+      "relevance_score": 2,
+      "relevance_score_reason": "Policy/child nutrition topic; weak fit for aging/longevity audience.",
+      "pitch_angles": [],
+      "run_date": "2026-06-28",
+      "category": "Nutritional Sciences",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42345284",
+      "headline": "Even Affordable Senior Housing Designed to Foster Community Leaves Many Older Residents Lonely",
+      "journal": "Journal of Gerontological Social Work",
+      "pubdate": "2026 Jun 25",
+      "doi": "10.1080/01634372.2026.2693869",
+      "groundbreaking": "Counterintuitive finding / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers synthesized evidence from 14 studies examining social isolation and loneliness among residents of subsidized senior housing \u2014 a housing model specifically designed to support aging in place through on-site services and community supports. The review found that despite these built-in supports, social isolation and loneliness remain widespread, shaped by individual health, peer relationship dynamics, and broader forces such as the COVID-19 pandemic. Findings suggest that reducing loneliness in these settings requires multilevel efforts addressing both individual capacity and the broader social and physical environment.",
+      "why_it_matters": "For the millions of low-income older adults living in subsidized senior housing, supportive housing alone may not be enough to protect against loneliness \u2014 a risk factor closely tied to cognitive and physical decline.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding; strong aging relevance; loneliness is a key wellness topic.",
+      "pitch_angles": [
+        {
+          "publication_type": "Next Avenue / AARP",
+          "headline": "Senior Housing Is Supposed to Fight Loneliness. Many Residents Are Still Isolated.",
+          "hook": "Subsidized senior housing is built around the idea of community \u2014 and yet loneliness remains a persistent problem for residents.",
+          "pitch_angle": "A review of 14 studies found that social isolation persists even in housing specifically designed with on-site services and communal spaces for older adults. Researchers say the fix isn't simple \u2014 it requires attention to individual health, the quality of peer relationships, and policy-level supports."
+        },
+        {
+          "publication_type": "General health / Everyday Health",
+          "headline": "Why Living Around Other Seniors Doesn't Automatically Protect Against Loneliness",
+          "hook": "Being surrounded by peers doesn't guarantee connection \u2014 and a new review shows that even peer relationships in senior housing can sometimes deepen isolation.",
+          "pitch_angle": "Researchers analyzing 14 studies found that peer relationships in subsidized senior housing had mixed effects, sometimes fostering belonging and sometimes contributing to social withdrawal. The findings suggest that the design and social environment of senior housing matters as much as proximity to others."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Geriatrics",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42350222",
+      "headline": "A Six-Month Lifestyle and Memory Program Didn't Sharpen Cognition \u2014 But It Did Lift Emotional Well-Being",
+      "journal": "International Psychogeriatrics",
+      "pubdate": "2026 Jun 25",
+      "doi": "10.1016/j.inpsyc.2026.100231",
+      "groundbreaking": "Counterintuitive finding / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a 6-month randomized controlled trial (N=270 older adults with subjective cognitive decline) testing a multidomain intervention combining memory strategy training, physical exercise, social engagement, and a digital app against an education-only control. No significant differences in cognition or everyday function were detected between groups at 6 months. However, the intervention group showed significantly better well-being outcomes, specifically gratitude, and participants with lower baseline motivation and competence showed the greatest cognitive benefits.",
+      "why_it_matters": "For older adults worried about memory changes, the finding that lifestyle and memory programs may support emotional well-being \u2014 even when cognitive test scores don't budge \u2014 adds a meaningful but often overlooked benefit to these programs.",
+      "caveats": "short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive null-cognition finding; RCT design; directly targets cognitive aging in adults 50+.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Brain-Training Programs May Not Boost Memory Scores \u2014 But They Could Make You Happier",
+          "hook": "A rigorous six-month trial found that a comprehensive lifestyle and memory program didn't improve cognitive test scores in older adults worried about their memory \u2014 but it did improve their sense of well-being.",
+          "pitch_angle": "The randomized trial of 270 older adults found no measurable cognition gains from combining memory strategies, exercise, and social engagement \u2014 but participants reported significantly greater feelings of gratitude and emotional well-being. Researchers also found that people with less confidence in their abilities at the start benefited most cognitively, suggesting these programs may not be one-size-fits-all."
+        },
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "Who Actually Benefits Most From a Brain-Healthy Lifestyle Program? New Research Has Clues",
+          "hook": "Not everyone responds equally to memory and lifestyle programs \u2014 and a new RCT suggests that motivation level and confidence may predict who gets the most out of them.",
+          "pitch_angle": "In a 6-month trial, older adults with lower baseline confidence and motivation showed greater cognitive improvements from a multidomain lifestyle and memory intervention, while those with higher motivation saw more gains in daily functioning. The findings suggest that tailoring cognitive wellness programs to individual characteristics may make them significantly more effective."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Geriatrics",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42338246",
+      "headline": "Researchers argue food aid for refugees must go beyond nutrition advice to address structural barriers",
+      "journal": "Public Health Nutrition",
+      "pubdate": "2026 Jun 24",
+      "doi": "10.1017/S136898002610295X",
+      "groundbreaking": "None identified",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This brief commentary from researchers at Bukidnon State University in the Philippines argues that food security interventions for refugee populations rely too heavily on information provision rather than structural and outcome-focused approaches. The authors contend that without addressing systemic barriers \u2014 such as access, resources, and policy support \u2014 nutritional information alone has limited impact. No original empirical data or participant sample was reported.",
+      "why_it_matters": "Food insecurity at any stage of life accelerates chronic disease risk, but this commentary does not address aging populations specifically.",
+      "caveats": "No empirical data, commentary only, single-center, Philippines context",
+      "fact_check_note": "",
+      "relevance_score": 1,
+      "relevance_score_reason": "Commentary with no data; no aging/longevity relevance.",
+      "pitch_angles": [],
+      "run_date": "2026-06-28",
+      "category": "Nutritional Sciences",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42343546",
+      "headline": "Feeding a loved one with dementia is harder than most caregivers expect \u2014 and support is lagging",
+      "journal": "Research in Gerontological Nursing",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.3928/19404921-20260616-01",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted in-depth interviews with 18 family caregivers of community-dwelling people with dementia to explore the practical challenges of mealtime assistance. Four overlapping challenge categories emerged: functional decline, problematic eating behaviors, communication breakdown, and resistance to care. Findings suggest that mealtime support in dementia care goes well beyond nutrition and requires targeted, skill-based caregiver training.",
+      "why_it_matters": "Understanding the full scope of mealtime challenges may help families and clinicians identify earlier when caregivers need practical skills training, potentially improving quality of life for both caregivers and people living with dementia.",
+      "caveats": "small sample (N<100), observational design, single-center, qualitative design limits generalizability",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Dementia caregiving topic fits aging outlets but tiny qualitative sample limits impact.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Why Mealtime Is One of the Hardest Parts of Caring for Someone With Dementia",
+          "hook": "Caregivers say getting a loved one with dementia to eat is about far more than preparing the right food \u2014 it can become a daily battle against confusion, resistance, and lost communication.",
+          "pitch_angle": "A qualitative study found that family caregivers face four overlapping challenges at mealtimes \u2014 functional decline, difficult eating behaviors, communication breakdown, and outright resistance \u2014 suggesting current support systems leave caregivers underprepared for the reality of dementia care at home."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Seniors & Aging",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42324520",
+      "headline": "Family support and self-belief may matter more than health education alone for older adults managing high blood pressure",
+      "journal": "BMC Geriatrics",
+      "pubdate": "2026 Jun 22",
+      "doi": "10.1186/s12877-026-07842-8",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers surveyed 264 older adults with hypertension in Chongqing, China, using path analysis guided by the PRECEDE-PROCEED behavioral model to identify factors linked to self-management behaviors. Self-efficacy, healthcare access, and family support were the strongest correlates of better hypertension self-management. Notably, health education showed a negative indirect association with self-management behaviors through knowledge, suggesting that how education is delivered \u2014 not just whether it is delivered \u2014 may matter significantly.",
+      "why_it_matters": "The finding that standard health education may not reliably translate into better blood pressure self-management suggests that confidence-building and family involvement could be at least as important as information alone for older adults managing hypertension.",
+      "caveats": "small sample (N<100 threshold not met, N=264), observational design, cross-sectional, self-reported outcomes, single-center, sample from one Chinese city limits generalizability",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive education finding; cardiovascular topic fits aging outlets; cross-sectional limits causal claims.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "The Surprising Thing That Helps Older Adults Actually Manage Their Blood Pressure",
+          "hook": "It turns out that knowing more about hypertension doesn't automatically lead to better self-management \u2014 but believing you can do it, and having family in your corner, may.",
+          "pitch_angle": "A study of older adults with high blood pressure found that self-efficacy and family support were more strongly associated with healthy self-management behaviors than health education alone \u2014 and that some forms of health education were even associated with worse outcomes, pointing to a gap between information and action."
+        },
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Want to Keep Your Blood Pressure in Check? Science Says Lean on Family",
+          "hook": "For older adults with high blood pressure, having family support was linked to better day-to-day self-management \u2014 more so than receiving health education.",
+          "pitch_angle": "A path analysis study of hypertensive older adults suggests that involving family members and building patients' confidence may be more effective levers for blood pressure control than information-based education programs alone, with implications for how doctors and clinics approach chronic disease support."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Seniors & Aging",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42319393",
+      "headline": "New physical fitness benchmarks for adults 50\u201392 reveal how much race, sex, and age shape what 'normal' movement really looks like",
+      "journal": "Journal of Geriatric Physical Therapy",
+      "pubdate": "2026 Jun 22",
+      "doi": "10.1519/JPT.0000000000000506",
+      "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using cross-sectional data from 6,712 diverse adults aged 50\u201392 in the HABS-HD cohort, researchers generated age-, sex-, and race/ethnicity-specific percentile charts for two standard physical functioning tests \u2014 the Timed Up and Go and the Short Physical Performance Battery. Physical function declined with age across all groups, but the size of that decline and the baselines differed meaningfully by sex and race/ethnicity. The new percentile norms are designed to help clinicians and researchers better assess an individual's physical functioning relative to peers who share their demographic profile.",
+      "why_it_matters": "Having race-, sex-, and age-specific benchmarks for physical functioning could help clinicians identify mobility decline earlier in older adults who might otherwise appear 'normal' when compared against a one-size-fits-all standard.",
+      "caveats": "observational design, cross-sectional, single-center (North Texas), potential conflict of interest (founding scientist of Cx Precision Medicine)",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Large diverse cohort 50\u201392; longevity and mobility focus; useful clinical benchmarks; cross-sectional limits causality.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Are You Moving as Well as Others Your Age? New Charts Finally Account for Race and Sex",
+          "hook": "A large study of more than 6,700 older adults found that what counts as 'normal' physical functioning at 70 looks very different depending on whether you're a Black woman, a Hispanic man, or a white woman \u2014 and that the standard benchmarks may be misleading.",
+          "pitch_angle": "Researchers created the first detailed percentile charts for physical mobility across diverse groups of adults aged 50 to 92, revealing that race, sex, and age each shape how well people move in ways current clinical tools often ignore \u2014 a finding that could change how doctors spot early signs of decline."
+        },
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "How Fast You Get Up From a Chair May Predict More Than You Think \u2014 And the Standard Has Changed",
+          "hook": "Scientists now have detailed new benchmarks for everyday mobility tests, and they show that a 'normal' score for a 65-year-old white man can look very different from a normal score for a 65-year-old Black woman.",
+          "pitch_angle": "A study of 6,712 adults aged 50\u201392 found significant variation in physical functioning by age, sex, and race/ethnicity, suggesting that one universal standard for mobility tests may miss meaningful decline in some groups \u2014 with real implications for how older adults monitor their own physical health."
+        }
+      ],
+      "run_date": "2026-06-28",
+      "category": "Seniors & Aging",
+      "chunk": "1/1",
       "status": "new"
     },
     {
@@ -64,39 +376,6 @@
       "status": "new"
     },
     {
-      "pmid": "42346809",
-      "headline": "Your melatonin supplement may quietly sabotage blood sugar \u2014 but only if you carry a common gene variant",
-      "journal": "Diabetes Care",
-      "pubdate": "2026 Jun 25",
-      "doi": "10.2337/dc26-0164",
-      "groundbreaking": "Counterintuitive finding / Relevant aging or longevity finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a randomized, double-blind, placebo-controlled crossover trial, 21 healthy adults received 5 mg oral melatonin or placebo under tightly controlled lab conditions. Researchers found that melatonin worsened glucose tolerance and suppressed first-phase insulin secretion by roughly 40% \u2014 but only in the roughly half of participants who carried the MTNR1B diabetes risk gene variant. Non-carriers showed no significant metabolic disruption from melatonin.",
-      "why_it_matters": "As melatonin use has quintupled in recent decades, this suggests that a very common genetic variant \u2014 carried by a large portion of the population \u2014 may make the popular sleep supplement a hidden metabolic risk factor worth discussing with a doctor.",
-      "caveats": "small sample (N<100), single-center, participants of European ancestry only, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Counterintuitive supplement finding in humans; strong metabolic and longevity hook; small N limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP / General health",
-          "headline": "The Melatonin Sleep Habit That Could Be Hurting Your Blood Sugar",
-          "hook": "Millions of older adults take melatonin nightly for sleep \u2014 but a new study suggests it may silently impair blood sugar control in people with a surprisingly common gene variant.",
-          "pitch_angle": "A rigorous human trial found melatonin suppressed key insulin responses by 40% in carriers of the MTNR1B gene variant, which is linked to type 2 diabetes risk. Because this gene variant is common and melatonin use has surged among older adults, the findings raise important questions about a supplement many assume is completely harmless."
-        },
-        {
-          "publication_type": "Prevention / Eating Well",
-          "headline": "Should You Be Taking Melatonin? Your Genes May Change the Answer",
-          "hook": "A new clinical trial found that melatonin disrupted blood sugar regulation \u2014 but only in people who carry a specific, widespread genetic variant tied to diabetes risk.",
-          "pitch_angle": "The study adds a nuanced twist to sleep supplement advice: what's harmless for one person may not be for another, pointing toward a more personalized approach to even over-the-counter sleep aids. For readers managing blood sugar or metabolic health, it's a compelling reason to ask their doctor about their genetic risk profile."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Endocrinology & Metabolism",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42350669",
       "headline": "Being Born Early May Raise a Child's Odds of Type 1 Diabetes Autoantibodies, Study Finds",
       "journal": "Diabetologia",
@@ -121,33 +400,6 @@
       "run_date": "2026-06-27",
       "category": "Endocrinology & Metabolism",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42343672",
-      "headline": "Free school meals expansion in England stalls over stigma and funding gaps, stakeholders say",
-      "journal": "Public Health Nutrition",
-      "pubdate": "2026 Jun 25",
-      "doi": "10.1017/S1368980026102432",
-      "groundbreaking": "Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted qualitative interviews with 17 stakeholders across government, policy, academia, and schools in England to identify barriers to expanding free school meal provision. Stakeholders highlighted stigma reduction, administrative improvements, and joined-up cross-system approaches as key priorities. Sufficient financial support was identified as the essential prerequisite for any successful expansion.",
-      "why_it_matters": "Childhood nutrition access shapes lifelong metabolic and cognitive health trajectories, making school meal policy a foundational upstream determinant of healthy aging.",
-      "caveats": "small sample (N<100), qualitative design, single-center, UK-specific policy context",
-      "fact_check_note": "",
-      "relevance_score": 3,
-      "relevance_score_reason": "Policy/childhood focus; minimal direct aging or longevity relevance for target audience.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health / public policy",
-          "headline": "Why Expanding Free School Meals in England Is Harder Than It Sounds",
-          "hook": "Stigma, red tape, and tight budgets are blocking a simple fix that could improve children's nutrition for life.",
-          "pitch_angle": "Stakeholders across government and schools say the biggest barriers to feeding more children aren't political will but practical hurdles \u2014 stigma at the lunch line and chronic underfunding. Solving these early-life nutrition gaps could have ripple effects on long-term health outcomes."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Nutritional Sciences",
-      "chunk": "1/1",
       "status": "new"
     },
     {
@@ -432,33 +684,6 @@
       "run_date": "2026-06-27",
       "category": "Cardiology",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42343546",
-      "headline": "Family caregivers face four distinct hidden burdens when feeding loved ones with dementia",
-      "journal": "Research in Gerontological Nursing",
-      "pubdate": "2026 Jun 23",
-      "doi": "10.3928/19404921-20260616-01",
-      "groundbreaking": "Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted face-to-face interviews with 18 family caregivers of community-dwelling people with dementia who experienced feeding difficulties at a memory clinic in China. The qualitative analysis identified four interconnected challenge categories: functional decline, problematic eating behaviors, communication breakdown, and resistance to care. Findings suggest mealtime assistance in dementia care extends well beyond nutritional management and requires targeted, skill-based caregiver support.",
-      "why_it_matters": "Understanding the layered practical burdens caregivers face at mealtimes could help families and clinicians better prepare for and address one of dementia's most common daily caregiving crises.",
-      "caveats": "small sample (N<100), qualitative design, single-center",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Aging-relevant caregiving topic but very small qualitative sample limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP / Next Avenue",
-          "headline": "Feeding a Family Member With Dementia Is Harder Than Anyone Warns You About",
-          "hook": "Caregivers helping loved ones with dementia at mealtimes battle four distinct challenges that go far beyond simply getting someone to eat.",
-          "pitch_angle": "New research identifies functional decline, communication breakdown, and active resistance to eating as daily realities for dementia caregivers \u2014 struggles that rarely come up in standard caregiver training. A practical guide to what families should anticipate and how to find support."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Seniors & Aging",
-      "chunk": "1/1",
       "status": "new"
     },
     {
