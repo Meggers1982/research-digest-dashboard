@@ -1,26 +1,595 @@
 {
-  "last_updated": "2026-06-28T12:23:13.906184+00:00",
-  "total_studies": 55,
-  "new_this_run": 8,
+  "last_updated": "2026-06-29T14:55:26.400168+00:00",
+  "total_studies": 60,
+  "new_this_run": 5,
   "studies": [
     {
+      "pmid": "42366762",
+      "headline": "In cancer survivors, the rules for heart-healthy living may work differently \u2014 and cholesterol's role is murkier than expected",
+      "journal": "European Heart Journal",
+      "pubdate": "2026 Jun 29",
+      "doi": "10.1093/eurheartj/ehag339",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This commentary discusses the application of the American Heart Association's 'Life's Simple 7' cardiovascular health framework to cancer survivors, highlighting that frailty and the 'lipid paradox' \u2014 where lower cholesterol is paradoxically associated with worse outcomes in this population \u2014 complicate standard cardiovascular risk guidance. The authors raise concerns about causal inference when standard heart-health metrics are applied to a population whose biology and treatment history differ markedly from the general public. No original primary data or participant cohort are reported; this is an expert commentary.",
+      "why_it_matters": "The growing population of older cancer survivors may need tailored cardiovascular health guidance, as standard heart-health benchmarks like cholesterol targets may not apply in the same way.",
+      "caveats": "editorial/commentary, no original data, no primary participant cohort",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Relevant aging/survivorship topic; commentary only, no original data.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Standard Heart-Health Rules May Not Apply to Cancer Survivors",
+          "hook": "For cancer survivors, lower cholesterol doesn't always mean better heart outcomes \u2014 and that's forcing experts to rethink cardiovascular guidance for this growing group.",
+          "pitch_angle": "Experts writing in the European Heart Journal suggest that widely used heart-health benchmarks, including cholesterol levels, may work differently in cancer survivors due to frailty and treatment effects. As more adults are living long after a cancer diagnosis, tailored cardiovascular guidance for this population is increasingly urgent."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42366693",
+      "headline": "Childhood trauma can rewire how depression and life dissatisfaction feed each other well into old age, large study finds",
+      "journal": "Aging & Mental Health",
+      "pubdate": "2026 Jun 28",
+      "doi": "10.1080/13607863.2026.2693235",
+      "groundbreaking": "Relevant aging or longevity finding / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using data from nearly 7,900 middle-aged and older Chinese adults in the China Health and Retirement Longitudinal Study, researchers applied latent profile and network analysis to identify how adverse childhood experiences (ACEs) shape the relationship between depression and life dissatisfaction in later life. Three distinct ACE profiles were identified, and those with the highest childhood adversity showed the tightest integration between depressive symptoms and life dissatisfaction as adults. The analysis found that dissatisfaction with life acted as the critical bridge linking the two domains, and that higher ACE burden strengthened these connections \u2014 suggesting early trauma restructures mental health symptom networks in lasting ways.",
+      "why_it_matters": "Early-life adversity may create distinct mental health vulnerabilities in older adults that standard one-size-fits-all depression interventions could miss entirely.",
+      "caveats": "observational design, self-reported outcomes, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Large sample of adults 50+, counterintuitive aging-mental-health finding; observational design limits causality.",
+      "pitch_angles": [
+        {
+          "publication_type": "Next Avenue / AARP",
+          "headline": "How What Happened to You as a Child Could Still Be Shaping Your Mental Health After 50",
+          "hook": "A study of nearly 8,000 older adults found that people who experienced childhood adversity don't just carry more depression \u2014 they're caught in a tighter psychological loop where sadness and life dissatisfaction reinforce each other in uniquely powerful ways.",
+          "pitch_angle": "Researchers found that adverse childhood experiences appear to restructure how depression and life dissatisfaction interact in middle-aged and older adults, creating a more entangled symptom network in those with greater early-life trauma. The finding suggests that older adults with difficult childhoods may need different mental health support than those without that history."
+        },
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "Childhood Trauma May Leave a Lasting Imprint on Your Mental Health \u2014 Even Decades Later",
+          "hook": "Feeling unhappy with life and feeling depressed may be far more tightly linked for people who experienced childhood adversity \u2014 and a new study of older adults reveals just how deep that connection goes.",
+          "pitch_angle": "A large observational study found that adults with higher levels of adverse childhood experiences showed stronger ties between depressive symptoms and life dissatisfaction in later life, with dissatisfaction acting as the key bridge between the two. The findings suggest that early trauma shapes mental health architecture in ways that may persist into old age and call for tailored wellness approaches."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Geriatrics",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
       "pmid": "42360321",
-      "headline": "AI-assisted medical record tool identifies rare diabetes subtype in youth 50 times faster than manual chart review",
+      "headline": "New EMR software slashes the time needed to identify a rare, misdiagnosed form of diabetes in young patients",
       "journal": "Diabetes Care",
       "pubdate": "2026 Jun 26",
       "doi": "10.2337/dc26-0464",
       "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers developed PEPPER, a Python-based electronic medical record search tool, and tested it on 1,660 youth with type 2 diabetes to identify cases of ketosis-prone diabetes (KPD), a rare and often misclassified subtype. PEPPER completed chart review in a mean of 13.4 seconds per chart versus 26.6 seconds manually, with 100% accuracy, and identified 21 youth meeting full KPD diagnostic criteria. The tool is designed to reduce the manual burden of identifying atypical diabetes subtypes that are frequently missed in routine care.",
-      "why_it_matters": "Better tools for identifying rare diabetes subtypes could eventually improve diagnosis and treatment for patients of all ages whose diabetes doesn't fit the standard Type 1 or Type 2 mold.",
-      "caveats": "single-center, sample is exclusively under 40",
+      "summary": "Researchers developed PEPPER, a Python-based electronic medical record search tool, and tested it on 1,660 youth with type 2 diabetes to identify cases of ketosis-prone diabetes (KPD), a rare and often missed condition. PEPPER identified 110 charts with potential KPD characteristics and confirmed 21 full cases, while cutting per-chart review time from 26.6 seconds to 13.4 seconds with 100% accuracy compared to manual review. The tool aims to automate early identification of atypical diabetes subtypes that are frequently overlooked in clinical practice.",
+      "why_it_matters": "Faster, accurate identification of rare diabetes subtypes could reduce misdiagnosis and improve treatment outcomes for patients whose conditions don't fit standard diabetes categories.",
+      "caveats": "single-center, observational design, sample is youth (skews young \u2014 not relevant to aging publications), secondary analysis",
       "fact_check_note": "",
       "relevance_score": 3,
-      "relevance_score_reason": "Technical/diagnostic tool study in youth; limited direct aging or lifestyle relevance.",
-      "pitch_angles": [],
-      "run_date": "2026-06-28",
+      "relevance_score_reason": "Clinical informatics tool study; pediatric sample, no aging or longevity relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "AI-Assisted Software Catches a Rare, Misdiagnosed Form of Diabetes Doctors Often Miss",
+          "hook": "A new automated tool can flag patients with an unusual diabetes subtype twice as fast as human chart reviewers \u2014 and with perfect accuracy.",
+          "pitch_angle": "PEPPER, a Python-based search program, reviewed 1,660 patient records and identified ketosis-prone diabetes cases in half the time of manual review, potentially reducing diagnostic delays for a condition that mimics but behaves very differently from standard type 2 diabetes."
+        }
+      ],
+      "run_date": "2026-06-29",
       "category": "Endocrinology & Metabolism",
       "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42346809",
+      "headline": "Popular sleep supplement melatonin may quietly worsen blood sugar control \u2014 but only in people with a common gene variant",
+      "journal": "Diabetes Care",
+      "pubdate": "2026 Jun 25",
+      "doi": "10.2337/dc26-0164",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a randomized, double-blind, placebo-controlled crossover trial in 21 healthy adults of European ancestry to test whether 5 mg oral melatonin affects glucose metabolism differently based on a person's MTNR1B gene variant. Among the 10 participants carrying the diabetes-risk variant of MTNR1B, melatonin suppressed first-phase insulin secretion by 40% and worsened glucose tolerance compared to placebo; non-carriers showed no such effects. The findings suggest that a gene variant carried by a substantial portion of the population may make melatonin supplementation metabolically risky.",
+      "why_it_matters": "As melatonin use has quintupled in recent decades and type 2 diabetes risk rises with age, this study suggests that a common genetic variant could make a widely used sleep aid metabolically harmful for a large subset of older adults.",
+      "caveats": "small sample (N<100), single-center, sample skews toward healthy younger adults (age range not specified in abstract), European ancestry only limits generalizability",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive supplement finding with direct metabolic and diabetes relevance; limited by very small N.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP",
+          "headline": "That Melatonin You Take for Sleep Could Quietly Raise Your Diabetes Risk \u2014 If You Have This Gene",
+          "hook": "Millions of older adults take melatonin to sleep better, but a new study suggests it may impair blood sugar control in people with a surprisingly common genetic variant.",
+          "pitch_angle": "A controlled Harvard-affiliated trial found melatonin suppressed insulin secretion by 40% in people carrying a diabetes-risk gene variant, with no effect in non-carriers \u2014 raising questions about whether a routine sleep supplement is safe for everyone as we age."
+        },
+        {
+          "publication_type": "Prevention",
+          "headline": "Your Nightly Melatonin Habit Could Be Hurting Your Blood Sugar \u2014 Here's Who's Most at Risk",
+          "hook": "New clinical trial evidence suggests the world's most popular sleep supplement may silently impair glucose metabolism in people with a common DNA variant.",
+          "pitch_angle": "Researchers found that carriers of the MTNR1B diabetes-risk gene \u2014 a variant affecting a significant share of people of European ancestry \u2014 showed measurably worse blood sugar regulation after taking melatonin, suggesting that genetic background may determine whether this supplement is harmless or harmful."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42343672",
+      "headline": "Expanding free school meals in England faces stigma and funding hurdles, stakeholders say",
+      "journal": "Public Health Nutrition",
+      "pubdate": "2026 Jun 25",
+      "doi": "10.1017/S1368980026102432",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted qualitative interviews with 17 stakeholders across government, policy, academia, and schools in England to explore barriers to expanding free school meal (FSM) provision. Stakeholders identified stigma reduction, administrative improvements, and integration with existing school food policies as key priorities. Sufficient financial support was identified as essential for any successful expansion.",
+      "why_it_matters": "Child nutrition policy has long-term implications for lifelong metabolic health trajectories, but this study's focus on children and UK policy limits direct relevance for aging-focused audiences.",
+      "caveats": "small sample (N<100), qualitative design, single-center, UK-only context",
+      "fact_check_note": "",
+      "relevance_score": 2,
+      "relevance_score_reason": "Child nutrition policy focus; no aging, longevity, or adult health angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / public health policy",
+          "headline": "Why Expanding Free School Meals in England Is Harder Than It Sounds",
+          "hook": "Despite growing food insecurity among children, expanding free school meals in England keeps running into the same obstacles: stigma, cost, and administrative complexity.",
+          "pitch_angle": "Stakeholder interviews reveal that even well-intentioned nutrition policy can stall without adequate funding and coordination across the school food system \u2014 a lesson relevant to any country debating school meal expansion."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Nutritional Sciences",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42350669",
+      "headline": "Premature birth may raise a child's odds of developing early type 1 diabetes autoantibodies, large screening study finds",
+      "journal": "Diabetologia",
+      "pubdate": "2026 Jun 25",
+      "doi": "10.1007/s00125-026-06783-6",
+      "groundbreaking": "Counterintuitive finding / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a multicentre cross-sectional study across nine pediatric endocrinology centres in Turkey, 440 children aged 2\u201318 who were first-degree relatives of people with type 1 diabetes were screened for diabetes-associated autoantibodies. About 16.4% tested positive, and each additional week of gestational age was associated with significantly lower odds of autoantibody positivity. The study also found that screening results triggered marked anxiety in both children and parents, especially when results were positive, pointing to an unmet need for psychological support in screening programs.",
+      "why_it_matters": "For families with type 1 diabetes, these findings suggest that a child's birth history \u2014 including how premature they were \u2014 may be a meaningful early signal in assessing their diabetes risk.",
+      "caveats": "observational design, single country (Turkey), cross-sectional design, sibling-dominant cohort limiting generalizability, self-reported outcomes",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Pediatric cohort; indirect aging relevance via early disease prevention framing.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "Babies Born Early May Face Higher Risk of Type 1 Diabetes Autoantibodies, Study Suggests",
+          "hook": "Each additional week in the womb was associated with meaningfully lower odds that a child at family risk for type 1 diabetes would show early immune warning signs.",
+          "pitch_angle": "A large Turkish screening study found that premature birth is independently linked to higher autoantibody rates in children with a family history of type 1 diabetes \u2014 a finding that could reshape how doctors assess risk in young patients. Researchers also flagged that positive screening results cause significant anxiety for families, calling for built-in psychological support."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42348779",
+      "headline": "A DIY open-source artificial pancreas system significantly improved blood sugar control and quality of life for people with type 1 diabetes in Brazil",
+      "journal": "Archives of Endocrinology and Metabolism",
+      "pubdate": "2026 Jun 25",
+      "doi": "10.20945/2359-4292-2026-0066",
+      "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This observational survey study of 371 Brazilians with type 1 diabetes compared 62 users of the open-source Android Artificial Pancreas System (AAPS) to 309 non-users. AAPS users achieved a mean time-in-range of 78.5% and reduced HbA1c from 7.3% to 6.5%, along with fewer severe hypoglycemic events and better self-reported quality of life than non-users. The findings position AAPS as a low-cost, community-built alternative to commercial closed-loop insulin delivery systems, with potential implications for access in lower-resource settings globally.",
+      "why_it_matters": "As commercial automated insulin systems remain financially out of reach for many people with type 1 diabetes worldwide, evidence that an open-source DIY alternative delivers comparable glycemic control and quality-of-life benefits could expand access to life-changing technology.",
+      "caveats": "observational design, self-reported outcomes, single-center, small sample (N<100 for AAPS users), no age data reported for aging relevance",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Relevant diabetes technology finding; observational design, small AAPS user group, limited aging focus.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health",
+          "headline": "A Homemade Artificial Pancreas Built From Open-Source Code Is Helping People With Diabetes Thrive",
+          "hook": "People with type 1 diabetes in Brazil who built their own DIY artificial pancreas system using a smartphone app saw their blood sugar control improve dramatically \u2014 and their quality of life rise significantly.",
+          "pitch_angle": "A study of 62 users of the free, open-source Android Artificial Pancreas System found time-in-range reaching nearly 79% and HbA1c dropping by nearly a full percentage point \u2014 raising the question of whether community-built technology could give millions of people worldwide access to automated diabetes care they currently can't afford."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42335441",
+      "headline": "Patients Stuck in Limbo After Vein Stenting Silently Endure Emotional Collapse, Study Finds",
+      "journal": "The Journal of Cardiovascular Nursing",
+      "pubdate": "2026 Jun 24",
+      "doi": "10.1097/JCN.0000000000001343",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted in-depth interviews with 12 patients in Taiwan who experienced unresolved recovery after iliac vein stenting for chronic venous disease. Using a descriptive phenomenological approach, they identified four major themes including persistent physical discomfort, suppressed emotional distress, feelings of regret and entrapment, and eventual self-directed coping. The study found that patients endured significant psychological suffering largely in silence, suggesting postoperative care routinely underestimates the emotional burden of incomplete recovery.",
+      "why_it_matters": "For older adults living with chronic venous disease, unresolved recovery after vein stenting may carry a hidden psychological toll that standard follow-up care rarely addresses.",
+      "caveats": "small sample (N<100), single-center, qualitative design, self-reported outcomes",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Niche surgical population; qualitative design; limited lifestyle or longevity hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Next Avenue",
+          "headline": "After Vein Surgery, the Emotional Pain Often Goes Unspoken",
+          "hook": "Patients who don't fully recover after a common vein procedure are silently suffering \u2014 and their doctors may not know.",
+          "pitch_angle": "A small Taiwanese study found that patients with unresolved recovery after iliac vein stenting suppressed severe emotional distress until nearly reaching a breaking point, with many feeling trapped and regretful. The findings suggest that routine postoperative care for older adults with chronic venous disease needs to include proactive psychological check-ins alongside physical monitoring."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42340801",
+      "headline": "Waist size predicts heart death risk better than body weight in people with weakened hearts",
+      "journal": "European Journal of Preventive Cardiology",
+      "pubdate": "2026 Jun 24",
+      "doi": "10.1093/eurjpc/zwag310",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed UK Biobank imaging data from 5,615 adults (mean age 56.7 years) with reduced heart pumping function, tracking deaths over a median 13.5-year follow-up. Central adiposity measures \u2014 waist circumference and waist-to-hip ratio \u2014 were more strongly associated with cardiovascular and all-cause mortality than BMI, body fat percentage, or total fat mass. Notably, higher BMI was associated with increased mortality risk, directly challenging the so-called 'obesity paradox' that has suggested heavier patients with heart disease fare better.",
+      "why_it_matters": "For adults with reduced heart function, where fat is stored \u2014 especially around the abdomen \u2014 may matter more for longevity risk than what the scale says.",
+      "caveats": "observational design, single time-point adiposity measurement, sample skews under 65 (mean age 56.7)",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive, overturns obesity paradox, large human cohort, direct cardiovascular aging hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Your Waist Measurement May Be a Better Heart Risk Warning Sign Than Your Weight",
+          "hook": "A large study of people with weakened hearts found that waist size predicted death risk better than BMI \u2014 challenging decades of conventional wisdom.",
+          "pitch_angle": "Researchers found that waist circumference and waist-to-hip ratio were stronger predictors of cardiovascular death than overall body weight in people with reduced heart function. This suggests older adults focused on heart health may want to pay closer attention to belly fat than the number on the scale."
+        },
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "The One Body Measurement Doctors Should Be Tracking More Than BMI",
+          "hook": "In a 13-year study of over 5,600 people with heart problems, waist circumference outperformed BMI at predicting who would die from cardiovascular causes.",
+          "pitch_angle": "The study, which challenges the 'obesity paradox' theory that heavier heart patients do better, found central fat distribution \u2014 not overall weight \u2014 drove mortality risk. It adds to growing evidence that a simple tape measure around the waist may reveal more about heart health than a bathroom scale."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42342116",
+      "headline": "Not all plant-based diets protect equally \u2014 a dairy-heavy low-meat pattern linked to more than double the cardiovascular risk in older women",
+      "journal": "Journal of the Academy of Nutrition and Dietetics",
+      "pubdate": "2026 Jun 24",
+      "doi": "10.1016/j.jand.2026.156406",
+      "groundbreaking": "Counterintuitive finding / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using data from 823 postmenopausal women in the Women's Health Initiative Observational Study (enrolled 1993\u20131998, followed through 2023), researchers used machine learning clustering to identify three distinct low-meat dietary subtypes and compared their disease outcomes to 823 higher-meat consumers. A low-meat pattern high in dairy and solid fat was associated with a significant 163% higher cardiovascular disease risk compared to higher-meat eaters, while a low-meat pattern emphasizing fish was associated with 67% lower type 2 diabetes risk. No dietary pattern was significantly associated with overall cancer incidence.",
+      "why_it_matters": "The findings suggest that simply eating less meat does not guarantee cardiovascular or metabolic protection \u2014 the overall quality and composition of a plant-leaning diet matters enormously for postmenopausal women's long-term health.",
+      "caveats": "observational design, small sample (N<100 per subgroup for some outcomes), self-reported outcomes, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive diet-disease finding in postmenopausal women; strong aging and CVD relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Going Plant-Based After Menopause? The Type of Diet You Choose Could Double Your Heart Risk",
+          "hook": "A low-meat diet built around dairy and solid fats was linked to more than double the cardiovascular disease risk compared to women who ate more meat \u2014 a surprising wake-up call for older women embracing plant-forward eating.",
+          "pitch_angle": "A 30-year follow-up of postmenopausal women found that not all plant-leaning diets are heart-healthy \u2014 only the right kind may lower disease risk, making food quality, not just meat avoidance, the key message for women over 50."
+        },
+        {
+          "publication_type": "Prevention / Eating Well",
+          "headline": "Cutting Meat Isn't Enough \u2014 Here's the Plant-Based Pattern That Actually Lowered Diabetes Risk by 67%",
+          "hook": "Among postmenopausal women eating low-meat diets, only those whose meals centered on fish and vegetables saw a significant drop in type 2 diabetes risk \u2014 while a dairy-and-solid-fat pattern was tied to higher heart disease odds.",
+          "pitch_angle": "New research from the Women's Health Initiative suggests the composition of a plant-forward diet matters far more than simply reducing meat, offering a more nuanced nutrition roadmap for women navigating midlife and beyond."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Nutritional Sciences",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42343546",
+      "headline": "Feeding a loved one with dementia is far harder than managing nutrition alone, caregivers say",
+      "journal": "Research in Gerontological Nursing",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.3928/19404921-20260616-01",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted in-depth interviews with 18 family caregivers of community-dwelling people with dementia who experienced feeding difficulties. The qualitative study, conducted at a single hospital in China, identified four major challenge categories: functional decline, problematic eating behaviors, communication breakdown, and resistance to care. Findings suggest mealtime assistance in dementia care involves complex, skill-based challenges that go well beyond ensuring adequate nutrition.",
+      "why_it_matters": "As dementia prevalence rises, understanding the real-world demands on family caregivers at mealtimes could help shape more targeted training and support programs.",
+      "caveats": "small sample (N<100), single-center, qualitative design, observational design",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Relevant dementia caregiving topic; qualitative, very small sample limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Why Helping a Parent With Dementia Eat Is One of Caregiving's Hardest Jobs",
+          "hook": "It's not just about getting enough calories \u2014 family caregivers say mealtime with a loved one who has dementia can involve resistance, communication failures, and behaviors that no one prepares them for.",
+          "pitch_angle": "A new qualitative study found that caregivers struggle with four distinct challenges during mealtimes \u2014 from physical decline to outright refusal to eat. The findings suggest caregivers need targeted, skill-based support that goes far beyond basic nutrition advice."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Seniors & Aging",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42328871",
+      "headline": "A blood thinner already used for AFib may be safer than warfarin for patients on heart-assist devices \u2014 but one common alternative caused pump clots at alarming rates",
+      "journal": "Journal of Cardiovascular Pharmacology",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1097/FJC.0000000000001847",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a narrative review of 10 studies covering 174 patients with left ventricular assist devices (LVADs) \u2014 mechanical heart pumps \u2014 who received direct oral anticoagulants (DOACs) instead of standard warfarin therapy. Factor Xa inhibitors such as apixaban showed bleeding rates of 6\u201320%, broadly comparable to or lower than warfarin's reported 30% bleeding rate in one retrospective cohort, while thrombotic event rates ranged from 0\u201312.5%. Notably, dabigatran \u2014 a different type of DOAC \u2014 was associated with a 50% pump thrombosis rate in a pilot randomized trial and was terminated early.",
+      "why_it_matters": "For the rising number of older adults with advanced heart failure who rely on mechanical heart pumps, findings suggest that the type of blood thinner chosen may meaningfully affect bleeding risk and device safety.",
+      "caveats": "small sample (N<100), observational design, short follow-up, industry funding [Abbott, Medtronic, Procyrion], secondary analysis, narrative review",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Cardiovascular relevance, aging population; small N, narrative review, industry conflicts limit score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "Not All Blood Thinners Are Equal for People With Mechanical Heart Pumps",
+          "hook": "One popular blood thinner caused pump clots in half of patients with mechanical heart-assist devices \u2014 while another appears to cut bleeding risk compared to the standard treatment.",
+          "pitch_angle": "A review of early evidence found that apixaban, a blood thinner widely used for irregular heartbeat, may produce fewer bleeding complications than warfarin in patients on left ventricular assist devices, while dabigatran was linked to dangerous clotting rates. The findings, though preliminary, highlight how the choice of anticoagulant could have life-or-death consequences for advanced heart failure patients."
+        },
+        {
+          "publication_type": "AARP / General health",
+          "headline": "For Older Adults on Mechanical Heart Pumps, the Wrong Blood Thinner Can Be Dangerous",
+          "hook": "A commonly prescribed blood thinner caused clots in half of patients relying on a heart-assist device, while a newer option may offer a safer alternative.",
+          "pitch_angle": "As more older adults with advanced heart failure receive mechanical heart pumps to bridge them to transplant or extend their lives, a new review suggests the choice of anticoagulant medication matters enormously \u2014 with one drug class associated with far lower bleeding risk than warfarin and another associated with a 50% rate of life-threatening pump clots."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41482650",
+      "headline": "Screening 1,000 older adults for a hidden heart condition uncovered far more disease than expected \u2014 but at a steep cost",
+      "journal": "European Heart Journal. Quality of Care & Clinical Outcomes",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1093/ehjqcco/qcaf166",
+      "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted the first systematic cardiac amyloidosis screening of 1,000 unselected adults aged 65\u201390, using echocardiograms, biomarkers, and bone scintigraphy. Four new cases of wild-type transthyretin cardiac amyloidosis were diagnosed (0.46%), but 15.6% of participants had previously unknown serious findings including significant valvular disease, arrhythmias, or Stage 3\u20135 chronic kidney disease. The cost-effectiveness ratio ranged from approximately \u20ac39,000 to \u20ac94,000 per quality-adjusted life year, depending on whether the value of incidental diagnoses was counted.",
+      "why_it_matters": "Systematic heart screening in healthy older adults suggests a surprisingly high rate of hidden serious conditions, raising questions about whether broader cardiac screening programs could benefit aging populations.",
+      "caveats": "single-center, small sample (N=1000 for a rare condition yielding N=4 diagnoses), European population may limit generalizability, short follow-up for cost-effectiveness projection",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "First systematic screening in elderly; aging-relevant; limited by very small case yield.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "A Routine Heart Screening for People Over 65 Found Hidden Conditions in 1 in 6 Participants",
+          "hook": "When researchers screened 1,000 older adults for a rare but treatable heart condition, they stumbled onto a much bigger finding: 15% had serious undiagnosed heart, kidney, or electrical problems.",
+          "pitch_angle": "The first-ever systematic screening for cardiac amyloidosis \u2014 a stiffening of the heart muscle common in older adults \u2014 diagnosed four new cases, but also revealed previously unknown serious conditions in roughly one in six participants. The findings suggest that structured cardiac screening in adults over 65 could uncover hidden health risks that might otherwise go undetected for years."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41606783",
+      "headline": "Diabetes Alone May Be More Deadly After a Heart Attack Than Previously Recognized \u2014 Other Risk Factors Were Masking the Danger",
+      "journal": "European Heart Journal. Quality of Care & Clinical Outcomes",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1093/ehjqcco/qcag012",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed data from 70,953 first-time acute coronary syndrome (ACS) patients using inverse probability weighting to isolate the independent effect of diabetes on 30-day mortality. They found that diabetic patients without other standard risk factors (such as smoking, hypertension, or high cholesterol) had 29\u201340% higher mortality compared to patients with no risk factors at all \u2014 a risk that was obscured when diabetes was grouped together with other factors in prior analyses. The study suggests a 'dilution bias' in earlier research caused diabetes's true mortality risk to be systematically underestimated.",
+      "why_it_matters": "For the millions of older adults living with diabetes, this finding suggests the condition may carry a larger independent heart attack survival risk than current risk-scoring tools account for, underscoring the importance of aggressive diabetes management.",
+      "caveats": "observational design, retrospective, multi-center but database-based",
+      "fact_check_note": "",
+      "relevance_score": 9,
+      "relevance_score_reason": "Large N=70,953, counterintuitive, overturns prior belief, strong metabolic and cardiovascular aging relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP",
+          "headline": "If You Have Diabetes, Your Heart Attack Risk May Be Higher Than Your Doctor's Checklist Suggests",
+          "hook": "A sweeping new analysis of nearly 71,000 heart attack patients found that diabetes alone \u2014 even without smoking or high blood pressure \u2014 raises the odds of dying within 30 days by up to 40%.",
+          "pitch_angle": "European researchers found that when diabetes was examined on its own, it significantly raised short-term mortality after a heart attack, but that risk was hidden in earlier studies because diabetes was lumped together with other risk factors. The finding matters for older adults managing diabetes as their primary cardiovascular concern, suggesting they may need more individualized risk conversations with their doctors."
+        },
+        {
+          "publication_type": "Everyday Health / General health",
+          "headline": "Diabetes Was Being Underestimated as a Heart Attack Killer \u2014 New Analysis Corrects the Record",
+          "hook": "Researchers discovered that previous heart attack risk studies were accidentally hiding diabetes's true danger by bundling it with other risk factors.",
+          "pitch_angle": "A study of nearly 71,000 acute coronary syndrome patients found that when diabetes stood alone \u2014 without smoking, hypertension, or high cholesterol complicating the picture \u2014 it raised 30-day mortality risk by 29\u201340%, a signal that had been statistically diluted in prior research. The findings call for more individualized risk-factor assessment rather than one-size-fits-all scoring tools, which may particularly affect the large number of older adults whose primary risk factor is diabetes."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42333645",
+      "headline": "Swallowing Difficulties May Signal Higher Risk of Death After Common Heart Procedures",
+      "journal": "Journal of the American Heart Association",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1161/JAHA.126.049122",
+      "groundbreaking": "Counterintuitive finding / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used the TriNetX database (2020\u20132024) to retrospectively examine adults with and without dysphagia (difficulty swallowing) who underwent five major cardiac procedures, creating propensity-matched cohorts totaling more than 16,000 patients. They found that dysphagia \u2014 a recognized marker of frailty common in older adults \u2014 was associated with 32\u201374% higher 90-day mortality risk depending on the procedure, as well as increased 1-year risk of stroke, pneumonia, and other complications. The study suggests dysphagia screening before cardiac procedures could improve risk assessment and patient outcomes.",
+      "why_it_matters": "For older adults facing heart surgery or procedures, a swallowing problem that might seem unrelated to the heart could be an important warning sign worth discussing with care teams.",
+      "caveats": "observational design, retrospective, secondary analysis, self-reported outcomes possible via database",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Large N, older adult focus, counterintuitive frailty-cardiac link, strong cardiovascular relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP",
+          "headline": "Could Trouble Swallowing Put You at Greater Risk During Heart Surgery?",
+          "hook": "A swallowing problem might seem minor, but new research suggests it could nearly double the risk of dying within 90 days of common heart procedures.",
+          "pitch_angle": "Johns Hopkins researchers found that older adults with dysphagia faced dramatically higher mortality after procedures like bypass surgery and valve replacement \u2014 a finding that could change how doctors screen patients before cardiac interventions. Because dysphagia is common with aging, this finding is highly relevant to older patients and their families navigating cardiac care decisions."
+        },
+        {
+          "publication_type": "Prevention",
+          "headline": "This Overlooked Swallowing Problem Is Linked to Worse Heart Surgery Outcomes",
+          "hook": "Doctors may soon ask about your ability to swallow before scheduling heart surgery, after new research tied dysphagia to sharply higher risks of death and stroke.",
+          "pitch_angle": "A large retrospective study found dysphagia \u2014 difficulty swallowing, often a sign of frailty \u2014 was associated with up to 74% higher 90-day mortality after major cardiac procedures, suggesting it should be part of routine pre-procedure risk screening. The finding highlights how whole-body frailty markers, not just heart-specific factors, may predict who fares well after cardiac intervention."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42336315",
+      "headline": "Nearly 9 in 10 Japanese pediatric heart centers lack proper transition programs for young cardiomyopathy patients moving to adult care",
+      "journal": "Journal of Cardiology",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1016/j.jjcc.2026.06.014",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a nationwide cross-sectional survey of 96 Japanese institutions treating pediatric cardiomyopathy, receiving 66 responses (68.8% response rate). Only 12.1% of institutions had operational transitional care programs moving young patients from pediatric to adult cardiac services, and 27.3% reported no successful transitions in the past five years. Over 90% of respondents identified education and training as insufficient, pointing to a major systemic gap in lifelong care for this population.",
+      "why_it_matters": "As more children with serious heart conditions survive into adulthood, the near-absence of structured transition programs suggests a growing unmet need that could leave young adults without appropriate ongoing cardiac care.",
+      "caveats": "single-center, observational design, self-reported outcomes, small sample (N<100 institutions responding), Japan-specific findings may not generalize",
+      "fact_check_note": "",
+      "relevance_score": 3,
+      "relevance_score_reason": "Pediatric/young adult focus; minimal aging or longevity relevance for target audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "Young Heart Patients Are Falling Through the Cracks When They Age Out of Pediatric Care",
+          "hook": "Nearly 9 in 10 specialized heart centers in Japan have no formal program to hand off young cardiomyopathy patients to adult doctors \u2014 and experts warn the same gap exists globally.",
+          "pitch_angle": "A nationwide Japanese survey found that fewer than 1 in 8 pediatric cardiac centers had working transition programs for young cardiomyopathy patients, leaving many without consistent adult care. As survival rates for childhood heart disease improve, the lack of structured handoff systems raises concerns about long-term health outcomes for a growing population of young adult survivors."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42336107",
+      "headline": "Smarter wound dressings designed around the biology of diabetic foot ulcers could finally bridge the gap from lab to clinic",
+      "journal": "Diabetes Research and Clinical Practice",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1016/j.diabres.2026.113390",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This narrative review proposes a microenvironment-informed framework for designing hydrogel wound dressings tailored to the specific biological barriers present in diabetic foot ulcers, including poor blood vessel growth, chronic inflammation, infection, and oxidative stress. The authors compare different hydrogel delivery formats \u2014 topical, injectable, patch, microneedle, and 3D-printed \u2014 and examine why most preclinical advances fail to translate into clinical use. The review identifies regulatory, manufacturing, and evidence gaps as the main obstacles between laboratory development and bedside application.",
+      "why_it_matters": "Diabetic foot ulcers are a leading cause of amputation and hospitalization in older adults with diabetes, and identifying the translational barriers to better wound care could accelerate more effective treatments for a condition that severely limits quality of life.",
+      "caveats": "review article (no original human data), single-center authors, preclinical evidence basis",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Relevant diabetes complication topic for aging readers; review only, no new human data.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health",
+          "headline": "Why Diabetic Foot Wounds Are So Hard to Heal \u2014 And What Next-Gen Dressings Could Change",
+          "hook": "A new review of advanced wound dressings explains why even the most promising lab-developed treatments for diabetic foot ulcers rarely make it to patients \u2014 and what it would take to change that.",
+          "pitch_angle": "Researchers mapped the biological obstacles that make diabetic foot ulcers notoriously difficult to treat and found that smart hydrogel dressings designed to match each wound's specific environment show real promise \u2014 but face major hurdles in manufacturing and regulation before they can reach the clinic."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42334962",
+      "headline": "Extreme weather events pose a growing but under-studied threat to older adults' health, researchers warn",
+      "journal": "The Journals of Gerontology: Series A, Biological Sciences and Medical Sciences",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1093/gerona/glag164",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "An interdisciplinary workshop convened by the Research Centers Collaborative Network examined the intersection of extreme weather events and aging, synthesizing discussions from experts across gerontology, environmental health, and epidemiology. The workshop identified three priority domains: health effects of weather-related hazards on older adults, vulnerabilities and resilience factors within older populations, and interventions to reduce risk. Key recommendations include longitudinal studies tracking cumulative exposures and greater attention to diversity within the older adult population.",
+      "why_it_matters": "As extreme weather events become more frequent, understanding how they disproportionately affect older adults could help communities and policymakers design better protective interventions for aging populations.",
+      "caveats": "observational design, workshop synthesis (not primary data), no original study sample",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Strong aging relevance and timely climate topic; no original data limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Why Extreme Heat and Storms Are Especially Dangerous as You Age \u2014 and What Researchers Want to Do About It",
+          "hook": "Older adults face unique and compounding risks from extreme weather events, and researchers say we barely understand the full scope of the danger.",
+          "pitch_angle": "A new expert workshop report highlights that heat waves, floods, and other extreme weather events can have serious and lasting health consequences for people in later life. Researchers are calling for long-term studies and targeted interventions to protect a population that is both more vulnerable and more diverse than often assumed."
+        },
+        {
+          "publication_type": "General health / Everyday Health",
+          "headline": "Climate Change Is a Health Issue for Older Adults \u2014 Here's What Science Is Just Beginning to Uncover",
+          "hook": "Extreme weather isn't just a climate story \u2014 it's a public health story, and older adults are among the most at risk.",
+          "pitch_angle": "A multidisciplinary research workshop found that extreme weather events are increasingly shaping health outcomes in later life, yet the evidence base for protecting older adults remains thin. Experts are pushing for longitudinal research that captures how repeated exposures to heat, storms, and other hazards accumulate over a lifetime."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Seniors & Aging",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42331280",
+      "headline": "A laser-assisted bypass surgery device achieves 92% graft patency in older heart patients \u2014 and may pave the way for less invasive procedures",
+      "journal": "The Journal of Thoracic and Cardiovascular Surgery",
+      "pubdate": "2026 Jun 22",
+      "doi": "10.1016/j.jtcvs.2026.05.028",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In the first prospective trial of the Excimer Laser-Assisted Non-occlusive Anastomosis (ELANA) device for coronary artery bypass grafting, 71 patients (89% male, average age 71) at a single center received the device to construct the critical artery-to-artery connection during bypass surgery. At six months, 92.5% of grafts remained open; device-related major adverse cardiac events at one year were 2.9%, and overall major adverse cardiac events were 8.7%. Researchers concluded the device appears safe and effective but called for longer follow-up and larger trials to assess whether it can enable less invasive bypass approaches.",
+      "why_it_matters": "A laser-guided bypass tool that maintains high graft patency in patients averaging 71 years old could eventually reduce surgical trauma for older adults undergoing heart surgery.",
+      "caveats": "small sample (N<100), single-center, short follow-up, industry funding [AMT Medical \u2014 two authors affiliated]",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Human study, adults 50+, cardiovascular focus; small N, single-center, industry ties limit score.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / General health",
+          "headline": "A Laser Device May Make Heart Bypass Surgery Less Invasive for Older Adults",
+          "hook": "A new laser-guided tool kept bypass grafts open in more than 9 out of 10 older patients \u2014 and it could eventually help surgeons operate without stopping the heart.",
+          "pitch_angle": "In a first-of-its-kind trial, a laser-assisted anastomosis device achieved 92.5% graft patency at six months in patients averaging age 71 undergoing coronary bypass surgery. If confirmed in larger trials, the technology could make bypass surgery significantly less invasive for the older adults who need it most."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42329280",
+      "headline": "Rare genetic diabetes variant tied to impaired insulin production \u2014 and a familiar drug class may help",
+      "journal": "Acta Diabetologica",
+      "pubdate": "2026 Jun 22",
+      "doi": "10.1007/s00592-026-02731-3",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used whole exome sequencing to identify a novel mutation (Y297D) in the NEUROD1 gene in a Chinese family with maturity-onset diabetes of the young (MODY6). Lab modeling showed the mutation disrupts normal protein structure, reducing insulin transcription activity and impairing pancreatic beta-cell function. The authors suggest GLP-1 receptor agonists \u2014 already widely used for type 2 diabetes \u2014 may offer a precision treatment option for this rare genetic subtype.",
+      "why_it_matters": "The finding suggests that genetic subtyping of diabetes could one day guide more targeted treatment choices, even for rare inherited forms of the disease.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Rare monogenic diabetes; limited aging relevance, very small family-based sample.",
+      "excluded": false,
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Everyday Health",
+          "headline": "Not All Diabetes Is the Same \u2014 A Rare Gene Mutation Shows Why Your Type May Matter for Treatment",
+          "hook": "A newly identified genetic mutation causing a rare inherited form of diabetes suggests that a popular drug class \u2014 GLP-1 receptor agonists \u2014 might be matched to patients based on their DNA.",
+          "pitch_angle": "Researchers found a single mutation in one family that impairs how the pancreas makes insulin, and early evidence suggests an existing drug class may be a precision fit. The story illustrates the growing shift toward genetically guided diabetes care."
+        }
+      ],
+      "run_date": "2026-06-29",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -111,59 +680,6 @@
       "status": "new"
     },
     {
-      "pmid": "42346809",
-      "headline": "Popular sleep supplement melatonin may quietly disrupt blood sugar control \u2014 but only in people with a common gene variant",
-      "journal": "Diabetes Care",
-      "pubdate": "2026 Jun 25",
-      "doi": "10.2337/dc26-0164",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study / Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a randomized, double-blind, placebo-controlled crossover trial in 21 healthy adults of European ancestry, including 10 carriers of the MTNR1B diabetes-risk gene variant and 11 noncarriers, testing 5 mg oral melatonin versus placebo under controlled lab conditions. Among gene-risk carriers, melatonin worsened glucose tolerance by about 12%, suppressed first-phase insulin release by 40%, and disrupted the normal negative feedback loop that shuts off insulin secretion. These effects were not seen in noncarriers, suggesting that melatonin's metabolic risks are genotype-dependent.",
-      "why_it_matters": "Melatonin use has quintupled in recent decades and is especially common in older adults \u2014 who also carry higher diabetes risk \u2014 suggesting that for some people a widely used sleep aid may quietly worsen blood sugar regulation.",
-      "caveats": "small sample (N<100), single-center, short follow-up, sample skews toward healthy younger adults (age range not specified but described as healthy participants)",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Counterintuitive RCT finding on popular supplement with direct metabolic aging relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP / Next Avenue",
-          "headline": "Your Nightly Melatonin Could Be Messing With Your Blood Sugar \u2014 If You Have This Gene",
-          "hook": "Millions of older Americans take melatonin to sleep, but a rigorous new study suggests it may quietly raise blood sugar risk for people with a surprisingly common genetic variant.",
-          "pitch_angle": "A controlled clinical trial found that 5 mg melatonin \u2014 a common over-the-counter dose \u2014 disrupted insulin release and glucose tolerance in carriers of the MTNR1B gene variant, which affects roughly one-third of the population. The finding raises new questions about whether a routine bedtime habit is safe for everyone, and sets the stage for personalized guidance on sleep supplements."
-        },
-        {
-          "publication_type": "Prevention / Everyday Health",
-          "headline": "Think Melatonin Is Totally Harmless? New Research Says It Depends on Your DNA",
-          "hook": "A new study found that melatonin blunted the pancreas's ability to release insulin in people with a specific genetic risk factor for type 2 diabetes.",
-          "pitch_angle": "In a double-blind trial, researchers found that melatonin suppressed first-phase insulin secretion by 40% in carriers of a common diabetes-linked gene variant \u2014 but had no such effect on noncarriers. As melatonin use surges, the research suggests that genetics may determine whether the supplement is metabolically neutral or quietly harmful."
-        }
-      ],
-      "run_date": "2026-06-28",
-      "category": "Endocrinology & Metabolism",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42343672",
-      "headline": "School meal policy experts say stigma \u2014 not cost alone \u2014 is the biggest barrier to feeding more kids in England",
-      "journal": "Public Health Nutrition",
-      "pubdate": "2026 Jun 25",
-      "doi": "10.1017/S1368980026102432",
-      "groundbreaking": "None identified",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted qualitative interviews with 17 stakeholders \u2014 including local, regional, and national government representatives, policymakers, academics, and school staff \u2014 about barriers to expanding free school meal provision in England. Stakeholders identified stigma reduction and administrative simplification as priorities, alongside adequate financial support. The study found that linking school meal expansion to existing school food quality monitoring was seen as a practical implementation pathway.",
-      "why_it_matters": "Early childhood nutrition shapes lifelong metabolic health trajectories, making school meal policy a meaningful upstream lever for population-level healthy aging.",
-      "caveats": "small sample (N<100), qualitative design, single-center, UK-only context",
-      "fact_check_note": "",
-      "relevance_score": 2,
-      "relevance_score_reason": "Policy/child nutrition topic; weak fit for aging/longevity audience.",
-      "pitch_angles": [],
-      "run_date": "2026-06-28",
-      "category": "Nutritional Sciences",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
       "pmid": "42345284",
       "headline": "Even Affordable Senior Housing Designed to Foster Community Leaves Many Older Residents Lonely",
       "journal": "Journal of Gerontological Social Work",
@@ -246,33 +762,6 @@
       "pitch_angles": [],
       "run_date": "2026-06-28",
       "category": "Nutritional Sciences",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42343546",
-      "headline": "Feeding a loved one with dementia is harder than most caregivers expect \u2014 and support is lagging",
-      "journal": "Research in Gerontological Nursing",
-      "pubdate": "2026 Jun 23",
-      "doi": "10.3928/19404921-20260616-01",
-      "groundbreaking": "Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted in-depth interviews with 18 family caregivers of community-dwelling people with dementia to explore the practical challenges of mealtime assistance. Four overlapping challenge categories emerged: functional decline, problematic eating behaviors, communication breakdown, and resistance to care. Findings suggest that mealtime support in dementia care goes well beyond nutrition and requires targeted, skill-based caregiver training.",
-      "why_it_matters": "Understanding the full scope of mealtime challenges may help families and clinicians identify earlier when caregivers need practical skills training, potentially improving quality of life for both caregivers and people living with dementia.",
-      "caveats": "small sample (N<100), observational design, single-center, qualitative design limits generalizability",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Dementia caregiving topic fits aging outlets but tiny qualitative sample limits impact.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP / Next Avenue",
-          "headline": "Why Mealtime Is One of the Hardest Parts of Caring for Someone With Dementia",
-          "hook": "Caregivers say getting a loved one with dementia to eat is about far more than preparing the right food \u2014 it can become a daily battle against confusion, resistance, and lost communication.",
-          "pitch_angle": "A qualitative study found that family caregivers face four overlapping challenges at mealtimes \u2014 functional decline, difficult eating behaviors, communication breakdown, and outright resistance \u2014 suggesting current support systems leave caregivers underprepared for the reality of dementia care at home."
-        }
-      ],
-      "run_date": "2026-06-28",
-      "category": "Seniors & Aging",
       "chunk": "1/1",
       "status": "new"
     },
@@ -376,99 +865,6 @@
       "status": "new"
     },
     {
-      "pmid": "42350669",
-      "headline": "Being Born Early May Raise a Child's Odds of Type 1 Diabetes Autoantibodies, Study Finds",
-      "journal": "Diabetologia",
-      "pubdate": "2026 Jun 25",
-      "doi": "10.1007/s00125-026-06783-6",
-      "groundbreaking": "Counterintuitive finding / Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a multicentre Turkish study, researchers screened 440 children aged 2\u201318 who had a sibling or parent with Type 1 diabetes for diabetes-associated autoantibodies, finding 16.4% tested positive. Each additional week of gestational age at birth was associated with meaningfully lower odds of autoantibody positivity, suggesting that earlier birth may be a risk factor. The study also found that children and parents experienced significant anxiety spikes after receiving positive screening results, underscoring the need for psychological support alongside immunological testing.",
-      "why_it_matters": "For families with Type 1 diabetes, this study suggests that prematurity at birth may be an underappreciated early risk marker \u2014 and that screening programs need built-in emotional support, not just lab results.",
-      "caveats": "observational design, single-center, self-reported outcomes, sample is exclusively under 40",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Pediatric sample limits aging relevance; novel perinatal risk finding adds interest.",
-      "pitch_angles": [
-        {
-          "publication_type": "Prevention / Everyday Health",
-          "headline": "Being Born a Few Weeks Early May Quietly Raise a Child's Type 1 Diabetes Risk",
-          "hook": "A large screening study found that the earlier a child was born, the higher their odds of carrying immune markers linked to Type 1 diabetes \u2014 even if they showed no symptoms.",
-          "pitch_angle": "Researchers screening siblings of children with Type 1 diabetes found gestational age at birth was independently linked to autoantibody presence, a finding that could reshape how doctors assess diabetes risk in families. The study also found parents experienced sharp anxiety spikes after a positive result, highlighting the emotional weight of predictive screening programs."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Endocrinology & Metabolism",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42335441",
-      "headline": "Patients still suffering after vein stenting say emotional distress goes unaddressed by care teams",
-      "journal": "The Journal of Cardiovascular Nursing",
-      "pubdate": "2026 Jun 24",
-      "doi": "10.1097/JCN.0000000000001343",
-      "groundbreaking": "Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used in-depth interviews with 12 patients in Taiwan who had persistent symptoms after iliac vein stenting to explore their lived experience of recovery. Participants described a cycle of suppressed emotional distress, physical restriction, regret, and eventual self-managed coping. The study found that unresolved recovery extends well beyond physical symptoms and that psychological and communication support is largely absent from postoperative care.",
-      "why_it_matters": "For older adults managing chronic venous disease, this suggests that postoperative care focused solely on physical outcomes may leave significant emotional suffering unaddressed.",
-      "caveats": "small sample (N<100), single-center, qualitative/self-reported outcomes, sample from Taiwan only",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Qualitative, very small N; limited lifestyle hook; not counterintuitive.",
-      "pitch_angles": [
-        {
-          "publication_type": "Next Avenue",
-          "headline": "After Vein Surgery, Many Older Patients Silently Struggle \u2014 and Doctors May Not Know",
-          "hook": "Twelve patients who continued suffering after a common vein procedure say they endured emotional distress alone, afraid to speak up.",
-          "pitch_angle": "New research from Taiwan found that patients with unresolved recovery after iliac vein stenting experienced intense psychological suffering they suppressed until near crisis \u2014 and most felt their care teams focused only on physical symptoms. The finding suggests older patients may need proactive emotional check-ins built into postoperative care."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Cardiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42340801",
-      "headline": "In people with weak hearts, waist size predicts death risk better than body weight, large imaging study finds",
-      "journal": "European Journal of Preventive Cardiology",
-      "pubdate": "2026 Jun 24",
-      "doi": "10.1093/eurjpc/zwag310",
-      "groundbreaking": "Counterintuitive finding / Overturns prior research / Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed UK Biobank data from 5,615 adults (mean age 56.7 years) with reduced heart function confirmed by cardiac MRI, following them for a median of 13.5 years. While BMI was associated with increased mortality, central adiposity measures\u2014waist circumference and waist-to-hip ratio\u2014showed stronger associations with cardiovascular death (hazard ratios up to 1.52 per 1 SD increase). Crucially, general measures like total body fat percentage did not improve mortality prediction, challenging the usefulness of BMI and the so-called 'obesity paradox' in this population.",
-      "why_it_matters": "For the millions of midlife and older adults with reduced heart function, measuring waist circumference may be a more meaningful indicator of cardiovascular death risk than stepping on a scale.",
-      "caveats": "observational design, self-reported outcomes (partial \u2014 ICD codes and self-reported MI used for classification)",
-      "fact_check_note": "",
-      "relevance_score": 9,
-      "relevance_score_reason": "Large imaging cohort, counterintuitive obesity paradox challenge, strong cardiovascular and aging hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP",
-          "headline": "For Older Adults With Heart Problems, Waist Size May Matter More Than Weight",
-          "hook": "A 13-year study of more than 5,600 people with reduced heart function found that belly fat \u2014 not overall weight \u2014 was the stronger predictor of dying from cardiovascular disease.",
-          "pitch_angle": "UK Biobank researchers found that waist circumference and waist-to-hip ratio predicted cardiovascular death more accurately than BMI in people with weakened hearts. The findings challenge the popular 'obesity paradox' and suggest that where fat sits on the body is more important than how much someone weighs."
-        },
-        {
-          "publication_type": "Prevention",
-          "headline": "Stop Focusing on the Scale: Your Waist Measurement Is a Better Heart Health Predictor",
-          "hook": "New research suggests that for people with reduced heart function, a tape measure around the waist tells a more accurate survival story than a bathroom scale.",
-          "pitch_angle": "In a large UK imaging study followed for over 13 years, waist-to-hip ratio was associated with 52% higher cardiovascular death risk per standard deviation \u2014 outperforming BMI and total body fat. The study challenges the 'obesity paradox' and points to belly fat distribution as a critical \u2014 and underused \u2014 risk indicator."
-        },
-        {
-          "publication_type": "Eating Well",
-          "headline": "Why Nutritionists Say Where You Carry Fat Matters More Than Your BMI",
-          "hook": "A major long-term study found that belly-fat measures outperformed BMI at predicting heart-related death in people with weakened hearts \u2014 adding scientific weight to advice about waist-friendly eating patterns.",
-          "pitch_angle": "Research from the UK Biobank found that waist circumference and waist-to-hip ratio were stronger predictors of cardiovascular mortality than overall weight in adults with heart dysfunction. The finding reinforces dietary guidance focused on reducing visceral fat \u2014 the kind that accumulates around the abdomen \u2014 rather than simply targeting overall weight loss."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42338360",
       "headline": "Imaging Case Report: Unexpected Thoracic Mass Found in Patient With Prior Valve Repair",
       "journal": "European Heart Journal. Acute Cardiovascular Care",
@@ -522,39 +918,6 @@
       "status": "new"
     },
     {
-      "pmid": "42328871",
-      "headline": "A common blood thinner used in LVADs may cause deadly clots \u2014 a newer option looks safer",
-      "journal": "Journal of Cardiovascular Pharmacology",
-      "pubdate": "2026 Jun 23",
-      "doi": "10.1097/FJC.0000000000001847",
-      "groundbreaking": "Counterintuitive finding \u2014 dabigatran, a widely used oral anticoagulant, associated with 50% pump thrombosis rate in LVAD patients; apixaban suggests lower bleeding risk vs. warfarin",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a narrative review of 417 screened records, ultimately analyzing 10 studies covering 174 LVAD-supported patients treated with direct oral anticoagulants (DOACs), primarily apixaban on the HeartMate 3 device. Factor Xa inhibitors like apixaban showed thrombotic event rates of 0\u201312.5% and bleeding rates of 6\u201320%, broadly comparable to or lower than warfarin, while dabigatran was associated with a 50% pump thrombosis rate in a pilot randomized trial that was stopped early. The review concludes that apixaban may offer a safer bleeding profile than warfarin in selected LVAD patients, but adequately powered randomized trials are still needed.",
-      "why_it_matters": "For the growing number of older adults living with advanced heart failure and mechanical heart pumps, the choice of blood thinner may meaningfully affect risk of life-threatening bleeding or clotting.",
-      "caveats": "small sample (N<100 for most individual studies included), observational design, industry funding [Abbott, Medtronic, Procyrion \u2014 consulting/research support disclosed by senior authors], narrative review (not systematic meta-analysis), significant heterogeneity across included studies",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Cardiovascular topic with clinical hook; highly specialized LVAD population limits broad aging relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP / General health",
-          "headline": "One Common Blood Thinner Proved Dangerous for People With Mechanical Heart Pumps \u2014 Here's What Doctors Are Trying Instead",
-          "hook": "A blood thinner used to prevent clots in patients with mechanical heart pumps was linked to a 50% rate of life-threatening pump clots \u2014 prompting researchers to look at a newer alternative.",
-          "pitch_angle": "A review of LVAD anticoagulation studies found dabigatran associated with alarming thrombosis rates, while apixaban suggested a lower bleeding risk than the standard drug warfarin. For older adults navigating advanced heart failure treatment, this early evidence suggests the choice of blood thinner could be critically important."
-        },
-        {
-          "publication_type": "Everyday Health / Prevention",
-          "headline": "Not All Blood Thinners Are Equal When You Have a Mechanical Heart Pump",
-          "hook": "Doctors have long relied on warfarin for patients with implanted heart pumps, but a new review suggests a newer drug class may reduce dangerous bleeding \u2014 while one popular option may sharply raise clot risk.",
-          "pitch_angle": "A narrative review found that apixaban, a factor Xa inhibitor, was associated with bleeding rates broadly comparable to or lower than warfarin in LVAD patients, while dabigatran was linked to a 50% pump thrombosis rate severe enough to halt a clinical trial. The findings suggest anticoagulation choice deserves closer scrutiny in this vulnerable patient group."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Cardiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42137960",
       "headline": "First pill to block a key cholesterol protein shows promising LDL-lowering results in early human trial",
       "journal": "Circulation",
@@ -585,105 +948,6 @@
       "run_date": "2026-06-27",
       "category": "Cardiology",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "41482650",
-      "headline": "Screening 1,000 Older Adults for a Rare Heart Condition Uncovered Serious Hidden Problems in 1 in 6 \u2014 But Comes With a Steep Price Tag",
-      "journal": "European Heart Journal. Quality of Care & Clinical Outcomes",
-      "pubdate": "2026 Jun 23",
-      "doi": "10.1093/ehjqcco/qcaf166",
-      "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted the first systematic screening of 1,000 unselected adults aged 65\u201390 for wild-type transthyretin cardiac amyloidosis (ATTRwt-CA), a progressive and often missed heart condition in older adults. Four new cases of ATTRwt-CA were diagnosed (0.46%), and 15.6% of participants had previously unknown serious findings including significant valvular disease, conduction abnormalities needing pacemakers, or advanced chronic kidney disease. The cost-effectiveness ratio ranged from approximately \u20ac39,000 to \u20ac94,000 per quality-adjusted life year gained, depending on whether incidental findings were included in the analysis.",
-      "why_it_matters": "For older adults and the clinicians who care for them, this study suggests that structured heart screening programs in people over 65 can uncover a meaningful burden of hidden serious disease \u2014 though the economics depend heavily on drug pricing and healthcare system thresholds.",
-      "caveats": "single-center, small sample (N<100 for ATTRwt-CA cases), short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "First systematic elderly screening study, ages 65\u201390, counterintuitive incidental findings rate, direct aging relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP",
-          "headline": "A Heart Screening for People Over 65 Found Serious Hidden Problems in 1 in 6 Participants",
-          "hook": "When researchers screened 1,000 adults between 65 and 90 for a rare but serious heart condition, they found that 15.6% had previously unknown significant health issues \u2014 from advanced kidney disease to heart valves needing treatment.",
-          "pitch_angle": "The study, the first of its kind, suggests older adults may be walking around with serious undetected cardiovascular or kidney conditions; researchers found the screening cost-effective when the full value of incidental discoveries was counted, though drug costs remain a major variable."
-        },
-        {
-          "publication_type": "Everyday Health",
-          "headline": "Screening Older Adults for a Rare Heart Condition Turned Up Surprising Hidden Health Problems",
-          "hook": "A new study found that 1 in 6 adults over 65 who were screened for a rare heart protein disease had a serious previously undetected condition \u2014 including advanced kidney disease or heart rhythm problems requiring a pacemaker.",
-          "pitch_angle": "Researchers screened 1,000 elderly adults for cardiac amyloidosis and found far more hidden disease than expected; the findings raise questions about whether broader heart screening in older age could catch life-altering conditions before they become emergencies."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "41606783",
-      "headline": "Diabetes Alone Raises Heart Attack Death Risk More Than Previously Recognized \u2014 Grouping It With Other Risk Factors Hides the Danger",
-      "journal": "European Heart Journal. Quality of Care & Clinical Outcomes",
-      "pubdate": "2026 Jun 23",
-      "doi": "10.1093/ehjqcco/qcag012",
-      "groundbreaking": "Counterintuitive finding / Overturns prior research / Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed 70,953 first-time acute coronary syndrome (ACS) patients using inverse probability weighting to isolate the effect of diabetes from other standard modifiable risk factors (SMuRFs) such as smoking, hypertension, and high cholesterol. They found that diabetic patients without other SMuRFs had 29\u201340% higher 30-day mortality after ACS compared to those with no SMuRFs at all. Critically, when diabetes was combined with other risk factors in analysis, its independent deadly effect was statistically diluted \u2014 a phenomenon called dilution bias \u2014 potentially masking its true danger in clinical risk stratification.",
-      "why_it_matters": "For the millions of older adults managing diabetes, this finding suggests their heart attack survival risk may be systematically underestimated when diabetes is lumped together with other common risk factors in standard clinical assessments.",
-      "caveats": "observational design",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Large human cohort, counterintuitive finding, directly addresses diabetes and cardiovascular mortality in aging.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP",
-          "headline": "If You Have Diabetes, Your Heart Attack Risk May Be Bigger Than Your Doctor Realizes",
-          "hook": "A study of nearly 71,000 heart attack patients found that diabetes alone raises 30-day death risk by up to 40% \u2014 but that danger gets hidden when doctors group it with other risk factors.",
-          "pitch_angle": "Researchers found that standard risk-factor grouping methods statistically mask how deadly diabetes is on its own after a heart attack. For older adults with diabetes as their primary risk factor, this suggests current risk models may be giving a false sense of security."
-        },
-        {
-          "publication_type": "Prevention",
-          "headline": "Why Diabetes Is a Bigger Heart Threat Than Risk Charts Suggest",
-          "hook": "New research on 70,000+ patients reveals that diabetes independently raises heart attack death risk by nearly 40% \u2014 a danger that gets buried when it's bundled with other risk factors in standard assessments.",
-          "pitch_angle": "The study shows that grouping diabetes with smoking, hypertension, and high cholesterol in risk models dilutes its true mortality signal, a statistical problem called dilution bias. The findings call for individualized risk assessment rather than one-size-fits-all scoring."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42333645",
-      "headline": "Swallowing difficulty quietly doubles death risk after common heart procedures, large study finds",
-      "journal": "Journal of the American Heart Association",
-      "pubdate": "2026 Jun 23",
-      "doi": "10.1161/JAHA.126.049122",
-      "groundbreaking": "Counterintuitive finding / Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used the TriNetX database (2020\u20132024) to examine outcomes in propensity-matched adults with and without dysphagia (swallowing difficulty) who underwent five major cardiac procedures, including bypass surgery and valve replacement, yielding cohorts of up to 5,152 matched patients. Dysphagia was associated with 32\u201374% higher 90-day mortality depending on procedure type, as well as significantly elevated 1-year risks of stroke, pneumonia, and intubation. The findings suggest dysphagia, a known frailty marker in older adults, may function as an important but overlooked predictor of post-procedural cardiac outcomes.",
-      "why_it_matters": "For older adults facing heart surgery, a simple swallowing assessment before the procedure could flag elevated risk and potentially improve survival planning.",
-      "caveats": "observational design, retrospective analysis",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Large human cohort, counterintuitive frailty-cardiac link, strong aging relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP",
-          "headline": "Your Ability to Swallow Could Predict Survival After Heart Surgery",
-          "hook": "A swallowing problem \u2014 something millions of older adults live with \u2014 was associated with up to 74% higher death risk within 90 days of heart surgery.",
-          "pitch_angle": "A large database study found that dysphagia, a common frailty sign in older adults, significantly raises the risk of dying after major cardiac procedures. The finding suggests a simple pre-surgical swallowing screen could be a low-tech, life-saving addition to heart care for aging patients."
-        },
-        {
-          "publication_type": "Prevention",
-          "headline": "Doctors Should Ask Heart Surgery Patients One Simple Question: Can You Swallow Normally?",
-          "hook": "Swallowing difficulty \u2014 often dismissed as a minor nuisance \u2014 was associated with dramatically worse survival odds after bypass surgery and valve procedures in a new large study.",
-          "pitch_angle": "Research on over 15,000 matched cardiac patients found that pre-existing swallowing problems were linked to 32\u201374% higher 90-day mortality across multiple heart procedures. Adding a swallowing assessment to standard pre-op screenings could help identify patients who need extra support."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Cardiology",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -724,60 +988,6 @@
       "run_date": "2026-06-27",
       "category": "Cardiology",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42336315",
-      "headline": "Most Japanese Children With Serious Heart Muscle Disease Have No Structured Plan for Transitioning to Adult Care",
-      "journal": "Journal of Cardiology",
-      "pubdate": "2026 Jun 23",
-      "doi": "10.1016/j.jjcc.2026.06.014",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a nationwide cross-sectional survey of 96 Japanese institutions managing pediatric cardiomyopathy, with 66 responding (68.8%). Only 12.1% of institutions had operational transitional care programs moving young patients from pediatric to adult cardiology services, and 27.3% reported zero successful transitions in the past five years. Over 90% of respondents said education and training around transitional care were insufficient.",
-      "why_it_matters": "As more children with serious heart conditions survive into adulthood, the near-absence of structured transition programs represents a growing gap in lifelong cardiovascular care that health systems worldwide are beginning to grapple with.",
-      "caveats": "single-center, observational design, small sample (N<100 institutions), self-reported outcomes",
-      "fact_check_note": "",
-      "relevance_score": 3,
-      "relevance_score_reason": "Pediatric-focused, institutional survey; minimal direct relevance to aging or adult longevity audiences.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health",
-          "headline": "Kids With Serious Heart Conditions Are Falling Through the Cracks When They Grow Up",
-          "hook": "A national survey in Japan found that fewer than 1 in 8 hospitals have a formal plan to transition young heart patients into adult care \u2014 leaving many medically vulnerable young adults without a safety net.",
-          "pitch_angle": "With survival rates for pediatric cardiomyopathy improving, the lack of structured transition programs is becoming a critical gap; the study highlights the need for disease-specific frameworks and better training as this population ages into adulthood."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42336107",
-      "headline": "Smart wound dressings may help heal diabetic foot ulcers that resist standard care",
-      "journal": "Diabetes Research and Clinical Practice",
-      "pubdate": "2026 Jun 23",
-      "doi": "10.1016/j.diabres.2026.113390",
-      "groundbreaking": "Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers reviewed the landscape of hydrogel-based wound dressings for diabetic foot ulcers, organizing evidence by the specific biological barriers \u2014 including chronic inflammation, infection, and impaired blood vessel growth \u2014 that prevent healing. The review proposes a framework for matching hydrogel formulations to particular wound conditions rather than applying a one-size-fits-all approach. Authors note significant translational hurdles, including regulatory classification and limited health-economic evidence, that still stand between lab findings and routine clinical use.",
-      "why_it_matters": "Diabetic foot ulcers are a leading cause of disability and amputation in older adults with diabetes, so advances in targeted wound care could meaningfully preserve mobility and quality of life.",
-      "caveats": "observational design, preprint",
-      "fact_check_note": "This is a narrative review, not an original clinical trial; no participant N applies. 'Preprint' caveat removed \u2014 this is published in a peer-reviewed journal. Caveats revised to: review article (no original human data), predominantly preclinical evidence synthesized.",
-      "relevance_score": 5,
-      "relevance_score_reason": "Relevant diabetes complication topic; review article with no original human data limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Everyday Health / General health",
-          "headline": "Why Diabetic Foot Wounds Are So Hard to Heal \u2014 and What New Dressings Might Change",
-          "hook": "Diabetic foot ulcers affect millions and often resist standard wound care, but a new framework for 'smart' hydrogel dressings aims to match treatment to the specific biology of each wound.",
-          "pitch_angle": "A new review proposes tailoring hydrogel wound dressings to the dominant barrier \u2014 whether infection, inflammation, or poor blood flow \u2014 driving a patient's specific ulcer, rather than using generic products. While the technology is still mostly in the lab, the approach suggests a more personalized era of wound care could be on the horizon for people with diabetes."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Endocrinology & Metabolism",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -841,33 +1051,6 @@
       "status": "new"
     },
     {
-      "pmid": "42331280",
-      "headline": "Laser-guided bypass surgery tool shows high safety in older heart patients \u2014 but long-term questions remain",
-      "journal": "The Journal of Thoracic and Cardiovascular Surgery",
-      "pubdate": "2026 Jun 22",
-      "doi": "10.1016/j.jtcvs.2026.05.028",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a single-center, single-arm prospective trial of 71 patients (89% male, mean age 71 years) undergoing coronary artery bypass grafting (CABG) using a novel excimer laser-assisted anastomosis device (ELANA) to connect a bypass graft to a heart artery without stopping blood flow. At one year, the device-related major adverse cardiac event rate was 2.9%, and six-month graft patency was 92.5%, with most failures classified as partial rather than complete occlusion. The trial suggests the ELANA device is safe and effective in an older surgical population, though researchers note longer follow-up and comparative trials are needed.",
-      "why_it_matters": "A laser-assisted bypass tool that avoids stopping blood flow during surgery could eventually make heart bypass procedures safer and less invasive for older adults who face higher surgical risks.",
-      "caveats": "small sample (N<100), single-center, single-arm (no control group), short follow-up, sample skews male (89%)",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Human trial, older adult sample; single-arm, single-center limits confidence.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP",
-          "headline": "A Laser Could Make Heart Bypass Surgery Less Risky for Older Patients",
-          "hook": "A new surgical tool uses laser technology to connect bypass grafts without temporarily blocking blood flow \u2014 and early results in patients averaging age 71 look encouraging.",
-          "pitch_angle": "Coronary bypass surgery remains one of the most common cardiac procedures in older adults, but connecting new blood vessel grafts to the heart currently requires hand-stitching under stopped-flow conditions. A small European trial found that a laser-guided device performed these connections safely in 71 patients with a low complication rate at one year, raising hopes for less invasive future approaches \u2014 though larger studies are still needed."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Cardiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42331416",
       "headline": "Surgeons Thread a Wire to Shield Heart Arteries During Valve Replacement \u2014 A World First",
       "journal": "JACC: Cardiovascular Interventions",
@@ -892,33 +1075,6 @@
       "run_date": "2026-06-27",
       "category": "Cardiology",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42329280",
-      "headline": "Rare 'Young-Onset' Diabetes Gene Mutation Points to GLP-1 Drugs as Precision Treatment",
-      "journal": "Acta Diabetologica",
-      "pubdate": "2026 Jun 22",
-      "doi": "10.1007/s00592-026-02731-3",
-      "groundbreaking": "Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used whole exome sequencing to identify a novel mutation (Y297D) in the NEUROD1 gene in a Chinese family with maturity-onset diabetes of the young (MODY), a hereditary form of diabetes often mistaken for Type 1 or Type 2. Laboratory modeling showed the mutation reduces insulin transcription activity by impairing pancreatic beta-cell function. The study suggests GLP-1 receptor agonists \u2014 the same class as Ozempic \u2014 may be a targeted treatment option for people with this specific genetic variant.",
-      "why_it_matters": "Understanding the genetic roots of young-onset diabetes may help clinicians match patients to more effective treatments earlier, potentially reducing long-term metabolic complications associated with aging.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Metabolic health topic but small family study, no adults 50+, highly clinical.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health",
-          "headline": "The GLP-1 Drug Connection: Rare Diabetes Gene Mutation May Have a Precision Treatment Match",
-          "hook": "A newly discovered gene mutation that causes a rare form of diabetes in young people may respond specifically to the same class of drugs behind Ozempic and Wegovy.",
-          "pitch_angle": "Researchers identified a novel NEUROD1 mutation in a Chinese family with hereditary diabetes and found it impairs the body's ability to produce insulin at the genetic level. The finding suggests GLP-1 receptor agonists could be a targeted therapy \u2014 adding a precision medicine angle to the blockbuster drug conversation."
-        }
-      ],
-      "run_date": "2026-06-27",
-      "category": "Endocrinology & Metabolism",
-      "chunk": "1/2",
       "status": "new"
     },
     {
