@@ -4,6 +4,8 @@ One GitHub Pages dashboard for multiple separate research digest repositories.
 
 Each digest repo stays independent. After its workflow finishes, it publishes one JSON file into this dashboard repo under `data/`. The dashboard loads every source listed in `data/sources.json`, merges the studies, deduplicates by PMID, and shows one searchable, filterable interface.
 
+https://meggers1982.github.io/research-digest-dashboard/
+
 ## Structure
 
 ```text
