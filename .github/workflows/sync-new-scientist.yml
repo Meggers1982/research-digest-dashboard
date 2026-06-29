@@ -2,9 +2,11 @@ name: Sync New Scientist Mental Health
 
 on:
   schedule:
-    # Runs 20 min after the NS digest (12:00 UTC), giving it time to finish
-    - cron: '20 12 * * *'
+    # Fallback: runs daily at 14:00 UTC in case the dispatch event is missed
+    - cron: '0 14 * * *'
   workflow_dispatch:
+  repository_dispatch:
+    types: [new-scientist-digest-complete]
 
 permissions:
   contents: write
