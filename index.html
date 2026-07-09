@@ -154,6 +154,56 @@
   input, select { padding: 7px 10px; width: 100%; }
   button { padding: 7px 13px; cursor: pointer; }
   button:hover { background: #f2f5f3; }
+  .multiselect { position: relative; }
+  .multiselect > button {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  .multiselect > button::after { content: "▾"; opacity: 0.55; font-size: 0.7rem; }
+  .multiselect-panel {
+    display: none;
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    min-width: 240px;
+    max-height: 300px;
+    overflow-y: auto;
+    background: #fff;
+    border: 1px solid #cfd8d3;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.16);
+    padding: 6px;
+    z-index: 60;
+  }
+  .multiselect-panel.open { display: block; }
+  .multiselect-panel .ms-actions {
+    display: flex;
+    gap: 6px;
+    padding: 2px 6px 8px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid var(--line);
+  }
+  .multiselect-panel .ms-actions button {
+    min-height: auto;
+    padding: 3px 9px;
+    font-size: 0.75rem;
+    border-radius: 4px;
+  }
+  .multiselect-panel label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+    border-radius: 5px;
+    font: 0.85rem system-ui, -apple-system, sans-serif;
+    cursor: pointer;
+  }
+  .multiselect-panel label:hover { background: var(--wash); }
+  .multiselect-panel input[type="checkbox"] { min-height: auto; width: auto; }
   main {
     max-width: 1180px;
     margin: 0 auto;
@@ -452,9 +502,10 @@
 <section class="filters">
   <div class="filters-inner">
     <input type="search" id="search" placeholder="Search studies, journals, pitches" oninput="applyFilters()">
-    <select id="filter-source" onchange="applyFilters()">
-      <option value="">All digests</option>
-    </select>
+    <div class="multiselect" id="filter-source-wrap">
+      <button type="button" id="filter-source-btn" onclick="toggleSourcePanel()">All digests</button>
+      <div class="multiselect-panel" id="filter-source-panel"></div>
+    </div>
     <select id="filter-category" onchange="applyFilters()">
       <option value="">All categories</option>
     </select>
@@ -855,11 +906,60 @@ function isFresherOrBetter(a, b) {
 
 // ── Filter dropdowns ─────────────────────────────────────────────────────────
 
+let SELECTED_SOURCES = null; // null = no filter (all digests shown); array = explicit selection
+
 function populateSourceFilter(sources) {
-  const select = document.getElementById("filter-source");
-  select.innerHTML = '<option value="">All digests</option>' +
-    sources.map(s => `<option value="${escAttr(s.id)}">${esc(s.label)}</option>`).join("");
+  const panel = document.getElementById("filter-source-panel");
+  panel.innerHTML =
+    '<div class="ms-actions">' +
+      '<button type="button" onclick="selectAllSources()">All</button>' +
+      '<button type="button" onclick="selectNoSources()">None</button>' +
+    '</div>' +
+    sources.map(s => `<label><input type="checkbox" value="${escAttr(s.id)}" checked onchange="onSourceToggle()"> ${esc(s.label)}</label>`).join("");
+  updateSourceButtonLabel();
 }
+
+function onSourceToggle() {
+  const checkboxes = [...document.querySelectorAll('#filter-source-panel input[type="checkbox"]')];
+  const checked = checkboxes.filter(cb => cb.checked);
+  SELECTED_SOURCES = checked.length === checkboxes.length ? null : checked.map(cb => cb.value);
+  updateSourceButtonLabel();
+  applyFilters();
+}
+
+function selectAllSources() {
+  document.querySelectorAll('#filter-source-panel input[type="checkbox"]').forEach(cb => cb.checked = true);
+  onSourceToggle();
+}
+
+function selectNoSources() {
+  document.querySelectorAll('#filter-source-panel input[type="checkbox"]').forEach(cb => cb.checked = false);
+  onSourceToggle();
+}
+
+function updateSourceButtonLabel() {
+  const btn = document.getElementById("filter-source-btn");
+  if (!SELECTED_SOURCES) {
+    btn.textContent = "All digests";
+  } else if (SELECTED_SOURCES.length === 0) {
+    btn.textContent = "No digests selected";
+  } else if (SELECTED_SOURCES.length === 1) {
+    const s = SOURCES.find(s => s.id === SELECTED_SOURCES[0]);
+    btn.textContent = s ? s.label : "1 digest";
+  } else {
+    btn.textContent = SELECTED_SOURCES.length + " digests";
+  }
+}
+
+function toggleSourcePanel() {
+  document.getElementById("filter-source-panel").classList.toggle("open");
+}
+
+document.addEventListener("click", (e) => {
+  const wrap = document.getElementById("filter-source-wrap");
+  const panel = document.getElementById("filter-source-panel");
+  if (wrap && panel && !wrap.contains(e.target)) panel.classList.remove("open");
+});
 
 function populateCategoryFilter(studies) {
   const categories = Array.from(new Set(studies.map(s => s.category).filter(Boolean))).sort();
@@ -901,7 +1001,6 @@ function renderStats() {
 
 function applyFilters() {
   const query = document.getElementById("search").value.trim().toLowerCase();
-  const source = document.getElementById("filter-source").value;
   const category = document.getElementById("filter-category").value;
   const type = document.getElementById("filter-groundbreaking").value.toLowerCase();
   const statusFilter = document.getElementById("filter-status").value;
@@ -911,7 +1010,7 @@ function applyFilters() {
 
   let filtered = ALL_STUDIES.filter(study => {
     const status = getStatus(study);
-    if (source && study.source_id !== source) return false;
+    if (SELECTED_SOURCES && !SELECTED_SOURCES.includes(study.source_id)) return false;
     if (category && study.category !== category) return false;
     if (statusFilter && status !== statusFilter) return false;
     if (type && !String(study.groundbreaking || "").toLowerCase().includes(type)) return false;
@@ -950,7 +1049,7 @@ function searchText(study) {
 
 function clearFilters() {
   document.getElementById("search").value = "";
-  document.getElementById("filter-source").value = "";
+  selectAllSources();
   document.getElementById("filter-category").value = "";
   document.getElementById("filter-groundbreaking").value = "";
   document.getElementById("filter-status").value = "";
