@@ -380,6 +380,31 @@
     white-space: nowrap;
   }
   #undo-toast .toast-undo:hover { background: rgba(255,255,255,0.26); }
+  #back-to-top {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--green);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    line-height: 1;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(12px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+    z-index: 199;
+  }
+  #back-to-top.visible { opacity: 1; visibility: visible; transform: translateY(0); }
+  #back-to-top:hover { background: var(--ink); }
   .toast-bar {
     position: absolute;
     bottom: 0;
@@ -484,6 +509,8 @@
 <div id="loading">Loading studies...</div>
   <div class="grid" id="cards"></div>
 </main>
+
+<button id="back-to-top" aria-label="Scroll to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#8593;</button>
 
 <script>
 const STATUS_KEY = "research-digest-dashboard-status";
@@ -1099,6 +1126,10 @@ function esc(value) {
 function escAttr(value) {
   return esc(value).replace(/'/g, "&#39;");
 }
+
+window.addEventListener("scroll", () => {
+  document.getElementById("back-to-top").classList.toggle("visible", window.scrollY > 400);
+}, { passive: true });
 
 init();
 </script>
