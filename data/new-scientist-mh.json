@@ -1,237 +1,962 @@
 {
-  "last_updated": "2026-07-12T12:57:45.013614+00:00",
-  "total_studies": 293,
-  "new_this_run": 19,
+  "last_updated": "2026-07-13T14:06:13.710357+00:00",
+  "total_studies": 306,
+  "new_this_run": 13,
   "studies": [
     {
       "pmid": "42424900",
-      "headline": "Parents can run clinical-grade sleep EEG on kids with severe epilepsy at home",
+      "headline": "Parents can run brain-wave sleep studies at home for kids with severe epilepsy",
       "journal": "Epilepsy & Behavior",
       "pubdate": "2026 Jul 9",
       "doi": "10.1016/j.yebeh.2026.111182",
       "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers tested whether caregivers could independently operate a dry-electrode EEG headband to record overnight brain activity in children with Lennox-Gastaut syndrome (LGS), a severe epilepsy. The observational cohort study included 10 children with LGS and 10 neurotypical siblings (aged 5\u201318) across two multi-night recording blocks at home. Caregivers successfully completed recordings in 83\u201390% of cases, and the data revealed that children with LGS had nearly half the REM sleep of controls (51 vs. 101 minutes), far more waking after sleep onset (43 vs. 18 minutes), and only 2.6 sleep cycles compared to 4.6 in controls.",
-      "why_it_matters": "Severe sleep disruption in LGS is clinically significant and hard to measure outside a lab; this study suggests wearable home EEG could make sleep monitoring accessible for children with complex epilepsy, potentially informing care decisions.",
+      "summary": "Researchers tested whether caregivers could operate a dry-electrode EEG headband (Waveband) at home to record overnight brain activity in children with Lennox-Gastaut syndrome (LGS), a severe childhood epilepsy. The observational cohort study included 10 children with LGS and 10 neurotypical sibling controls, aged 5\u201318. Caregivers successfully recorded multi-night EEG data in 83\u201390% of participants. Children with LGS showed dramatically disrupted sleep architecture: nearly twice as much wake-time after falling asleep, roughly half the REM sleep, and far fewer sleep cycles compared with controls.",
+      "why_it_matters": "Home-based EEG monitoring could help clinicians track sleep disruption \u2014 a known seizure trigger \u2014 outside the clinic, potentially improving care for one of childhood epilepsy's most difficult syndromes. The study suggests caregiver-operated wearable EEG is feasible, opening a path to real-world sleep data collection in vulnerable populations.",
       "caveats": "small sample (N<100), observational design, single-center, industry funding [Beacon Biosignals; UCB]",
-      "fact_check_note": "Abstract states 10/12 LGS participants and 10/10 controls were included in analysis (not 10/10 for controls in the success rate \u2014 9/10 completed the full 5 nights, 10/10 were included in analysis). Summary accurately reflects these numbers. REM sleep for controls rounded from 100.6 min to ~101 min \u2014 noted.",
+      "fact_check_note": "Conflict of interest statement says authors declare no competing interests, but author affiliations show most authors are employed by Beacon Biosignals (the device maker) and two authors are from UCB (a pharmaceutical company). This constitutes industry involvement and is flagged accordingly despite the boilerplate COI statement.",
       "excluded": false,
-      "run_date": "2026-07-12",
+      "run_date": "2026-07-13",
       "category": "Neurology",
       "chunk": "1/1",
       "status": "new",
       "relevance_score": 6,
-      "relevance_score_reason": "Novel home-monitoring angle with clear parental/caregiver hook, but very small sample and industry-funded, limiting confidence; epilepsy sleep architecture finding is clinically significant but a niche topic for NS Mind's general audience.",
+      "relevance_score_reason": "Genuinely novel feasibility finding with a clear lifestyle/caregiving hook, but very small N (10 per group) and heavy industry authorship limit its strength for NS Mind.",
       "pitch_angles": [
         {
-          "headline": "Parents can measure their child's brain waves at home \u2014 and the results are striking",
-          "hook": "Children with a severe form of epilepsy are getting less than half the REM sleep of their healthy siblings \u2014 and caregivers can now detect this themselves using a headband at home.",
-          "why_it_fits": "NS Mind readers care about sleep science and accessible health technology, and the caregiver-as-researcher angle adds a compelling human dimension.",
-          "pitch_angle": "A small but striking pilot study found that children with Lennox-Gastaut syndrome, a severe epilepsy, have dramatically disrupted sleep architecture \u2014 but the headline finding is that untrained parents successfully ran multi-night EEG recordings at home using a dry-electrode headband. This challenges the assumption that clinical-grade brain monitoring requires a hospital setting, and opens a window into a poorly understood sleep-epilepsy cycle. The study is tiny and industry-funded, but the concept of democratising sleep neuroscience is timely.",
-          "caveats_to_flag": "Very small sample (N=20 total), industry-funded by the device maker (Beacon Biosignals) and a pharmaceutical company (UCB), observational design \u2014 no causal claims possible, results need replication in larger trials."
+          "headline": "Parents can run EEG sleep labs at home \u2014 and the data is good enough to use",
+          "hook": "Caregivers with no medical training successfully recorded clinical-grade brain-wave sleep data from their children with severe epilepsy, right in their own bedrooms.",
+          "why_it_fits": "NS Mind readers are fascinated by sleep science and by technology that democratises medical monitoring \u2014 this story hits both.",
+          "pitch_angle": "Children with Lennox-Gastaut syndrome suffer devastating, poorly understood sleep disruption that worsens their seizures \u2014 but studying their sleep has required expensive lab stays. A new study found that parents can strap a dry-electrode EEG headband onto their child at bedtime and generate usable, clinically meaningful data. The surprise: caregiver-run home recordings revealed that these children get barely half the REM sleep of their siblings and wake far more during the night \u2014 findings that could reshape how clinicians manage this condition.",
+          "caveats_to_flag": "Tiny sample (10 per group); most authors work for the company that makes the device, raising potential bias; results need replication in larger, independent trials before clinical uptake."
         }
       ]
     },
     {
       "pmid": "42423676",
-      "headline": "Framing prison reform as 'justice' doesn't shift public opinion \u2014 racial resentment and belief in change do",
+      "headline": "Framing prison reform as 'justice' rather than 'safety' does nothing to change public opinion",
       "journal": "Law and Human Behavior",
       "pubdate": "2026 Jul 9",
       "doi": "10.1037/lhb0000673",
-      "groundbreaking": "Counterintuitive finding",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers randomly assigned 1,110 U.S. adults (recruited via Prolific Academic) to receive different messages about prisons \u2014 framed around either retributive justice or utilitarian goals \u2014 to test whether messaging could boost support for prison reform. Contrary to the hypothesis, brief messaging interventions had little effect on reform attitudes. Instead, two pre-existing beliefs drove support most strongly: whether people thought prisoners were capable of moral rehabilitation, and how much racial resentment a respondent harboured.",
-      "why_it_matters": "The findings suggest that short-term public-awareness campaigns for criminal justice reform may be largely ineffective, and that shifting attitudes may require longer-term efforts to change deeply held beliefs about prisoner character and racial bias.",
-      "caveats": "observational design, self-reported outcomes, online convenience sample (Prolific Academic)",
+      "summary": "Researchers recruited a U.S. quota sample (N=1,110) via Prolific Academic and randomly assigned participants to one of seven conditions that varied how prison reform was framed (justice-focused vs. utilitarian) and what information was provided (rehabilitation programs, cruel conditions, or recidivism statistics). Contrary to the hypothesis that retributive framing would boost support for reform, brief messaging interventions had little effect on attitudes. Instead, pre-existing beliefs \u2014 particularly whether people thought prisoners were capable of moral growth and participants' levels of racial resentment \u2014 were the strongest predictors of reform support.",
+      "why_it_matters": "The findings suggest that short-term public messaging campaigns aimed at shifting prison reform attitudes are unlikely to succeed on their own; advocates may need to invest in longer-term efforts to change deep-seated perceptions about prisoner character and racial bias.",
+      "caveats": "observational design, self-reported outcomes, online convenience sample (Prolific)",
       "fact_check_note": "",
       "excluded": false,
-      "run_date": "2026-07-12",
+      "run_date": "2026-07-13",
       "category": "Behavioral Sciences",
       "chunk": "2/2",
       "status": "new",
       "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive null finding on messaging strategy combined with a clear societal hook (criminal justice reform and racial resentment) gives this strong NS Mind appeal, tempered slightly by self-report and online-sample limitations.",
+      "relevance_score_reason": "Counterintuitive null finding on a highly polarised social issue with a decent U.S. sample and a clear societal hook, offset slightly by reliance on self-reported attitudes and an online convenience sample.",
       "pitch_angles": [
         {
-          "headline": "Telling people prison is cruel doesn't make them want to fix it \u2014 but one belief does",
-          "hook": "A U.S. experiment found that carefully crafted messages about prison cruelty and recidivism had almost no effect on whether people support prison reform.",
-          "why_it_fits": "NS Mind readers who follow the psychology of persuasion, social justice, and polarisation will find the gap between messaging strategy and actual attitude change both sobering and intellectually rich.",
-          "pitch_angle": "Advocates and policymakers have long assumed that telling the public about the costs of harsh incarceration \u2014 in suffering or in recidivism \u2014 will win them over to reform. A pre-registered experiment with 1,110 U.S. adults found that assumption is wrong: brief messages changed almost nothing. What actually predicted reform support were prior convictions \u2014 specifically, whether someone believed prisoners could change, and how much racial resentment they carried. The finding reframes the entire communications strategy around criminal justice reform.",
-          "caveats_to_flag": "All outcomes were self-reported; the sample was recruited online via Prolific Academic and may not represent the full U.S. public; the study cannot establish causality for the role of racial resentment given its observational correlational analysis within the experiment."
+          "headline": "Telling people prison reform is about justice \u2014 not just safety \u2014 doesn't change their minds",
+          "hook": "A carefully designed experiment found that reframing prison reform as a matter of retributive justice made almost no difference to public support \u2014 what really mattered was whether people believed prisoners could change.",
+          "why_it_fits": "NS Mind readers are fascinated by the gap between what we think will shift attitudes and what actually does \u2014 this speaks directly to persuasion, moral psychology, and the roots of racial resentment.",
+          "pitch_angle": "Advocates for criminal-justice reform have long argued that framing rehabilitation as serving justice \u2014 not just cutting crime \u2014 would win over punishment-focused voters. A new randomised experiment with over 1,100 U.S. adults tested exactly that, and the framing made virtually no difference. What actually predicted support for reform was a person's pre-existing belief that prisoners have the moral character to rehabilitate \u2014 and their level of racial resentment. The finding upends a common advocacy assumption and raises uncomfortable questions about how deeply entrenched racial attitudes shape criminal-justice policy preferences.",
+          "caveats_to_flag": "Participants were recruited via an online panel (Prolific Academic) and attitudes were self-reported, so actual behaviour or voting may differ; the study measures attitude change after a single brief exposure, which may not reflect real-world campaign effects."
         }
       ]
     },
     {
       "pmid": "42423096",
-      "headline": "A widely used wellness planning tool could give people with mental illness more say over their own crisis care",
+      "headline": "A mental health self-planning tool could double as a legal document for crisis care",
       "journal": "Irish Journal of Psychological Medicine",
       "pubdate": "2026 Jul 9",
       "doi": "10.1017/ipm.2026.10203",
       "groundbreaking": "Included for relevance",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This conceptual paper, authored by a single researcher at University College Cork, proposes using the Wellness Recovery Action Planning (WRAP) framework \u2014 specifically its crisis and post-crisis sections \u2014 as a practical template for advance healthcare directives in mental health settings in Ireland. The paper argues that WRAP's existing evidence base, its deep integration into Irish mental health services, and its accessibility make it a feasible structure for legally formalising patients' own wishes for care during periods when they lack capacity. No new empirical data or participants were involved.",
-      "why_it_matters": "Advance healthcare directives could give people with serious mental illness genuine legal agency over their treatment during crises, addressing longstanding concerns about involuntary care and patient autonomy in psychiatric services.",
-      "caveats": "observational design, single-center, small sample (N<100)",
-      "fact_check_note": "This is a conceptual/opinion paper with no empirical data or participants \u2014 there is no N to report. Caveats field corrected to reflect this: the study has no sample size, no observational data, and no control group. It is a policy/framework proposal only.",
+      "summary": "A researcher at University College Cork argues that Wellness Recovery Action Planning (WRAP) \u2014 a widely used self-management tool in Irish mental health services \u2014 could serve as a structural template for advance healthcare directives, allowing people with mental health conditions to record their care wishes before a crisis renders them unable to decide. The paper is a conceptual proposal rather than an empirical study, drawing on existing evidence for WRAP's effectiveness and the framework created by Ireland's Assisted Decision Making (Capacity) Act 2015. No participant sample was involved; this is a theoretical and policy-focused paper.",
+      "why_it_matters": "Advance healthcare directives are common in physical medicine but rarely formalised in mental health; this proposal suggests a practical, already-embedded route to giving people in psychiatric crisis more say over their own treatment.",
+      "caveats": "No empirical data, single-author opinion/policy paper, single-center (Irish legislative context), findings closely tied to Irish mental health policy framework",
+      "fact_check_note": "Abstract describes a conceptual/opinion paper with no study participants or sample size \u2014 no N to report. Caveats updated accordingly.",
       "excluded": false,
-      "run_date": "2026-07-12",
+      "run_date": "2026-07-13",
       "category": "Psychiatry",
       "chunk": "2/2",
       "status": "new",
-      "relevance_score": 5,
-      "relevance_score_reason": "Relevant topic (patient autonomy in mental health) with a clear societal hook, but this is a single-author conceptual paper with no new data, limiting its scientific weight for NS Mind.",
+      "relevance_score": 4,
+      "relevance_score_reason": "Relevant policy idea with a human-rights hook, but no empirical data, single-author opinion piece, and closely tied to Irish legislation, limiting resonance for a global NS Mind readership.",
       "pitch_angles": [
         {
-          "headline": "A popular self-help planning tool could let people with mental illness legally direct their own crisis care",
-          "hook": "A widely used wellness programme could finally give people with serious mental illness a legally recognised voice in the treatment decisions made about them during their worst moments.",
-          "why_it_fits": "Questions of autonomy, consent, and who controls psychiatric treatment are of growing public interest, and NS Mind readers care about the rights of people with mental illness.",
-          "pitch_angle": "When someone with a severe mental illness loses capacity during a crisis, clinicians typically make decisions for them \u2014 often overriding the person's known preferences. An Irish researcher argues that the Wellness Recovery Action Plan, already embedded in Irish mental health services, provides a ready-made, accessible template for legally binding advance directives that capture what a person actually wants. The proposal arrives as Ireland implements landmark capacity legislation, and the author suggests the model could translate internationally.",
-          "caveats_to_flag": "This is a conceptual opinion piece with no new empirical data; it is grounded in Irish legislation and service structures that may not map directly onto other countries' legal frameworks; the WRAP evidence base cited is general wellbeing evidence, not specifically for advance directives."
+          "headline": "People in mental health crises could soon have legal say over their own treatment",
+          "hook": "A tool millions of people already use to manage their mental health could, with a small legal tweak, become a binding document telling doctors exactly what to do if they lose the ability to speak for themselves.",
+          "why_it_fits": "NS Mind readers care deeply about autonomy, mental health rights, and how systems can be made to listen \u2014 this touches all three.",
+          "pitch_angle": "Advance directives are standard in physical medicine \u2014 but in psychiatry, where capacity is most likely to fluctuate, they barely exist. A University College Cork researcher proposes that WRAP, already embedded in Irish mental health services, could fill that gap legally and practically. The angle: the tool to do this already exists, we just haven't used it that way.",
+          "caveats_to_flag": "This is a conceptual proposal, not a clinical trial \u2014 no patient outcomes data. The argument is anchored in Irish law (the Assisted Decision Making Act 2015), so applicability elsewhere depends on local legal frameworks. Journalists should note the single-author perspective and absence of service-user or clinician co-authorship despite the title's promise of 'hearing voices'."
         }
       ]
     },
     {
       "pmid": "42425477",
-      "headline": "A blood test taken before treatment could predict who with schizophrenia will think more clearly after medication",
+      "headline": "A blood test taken before treatment may predict which schizophrenia patients will think more clearly after antipsychotics",
       "journal": "Progress in Neuro-Psychopharmacology & Biological Psychiatry",
       "pubdate": "2026 Jul 9",
       "doi": "10.1016/j.pnpbp.2026.111830",
       "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers in Tianjin, China tracked plasma metabolites in 105 first-episode, drug-na\u00efve patients with schizophrenia before and after eight weeks of antipsychotic treatment. Using machine learning, they identified four baseline blood metabolites \u2014 including serotonin, isoleucine, tryptophan betaine, and a triglyceride \u2014 that together predicted which patients would show cognitive improvement. Notably, higher baseline serotonin was associated with less cognitive improvement, while shifts in glycerophospholipids over eight weeks tracked specific cognitive gains such as working memory and reasoning.",
-      "why_it_matters": "If validated, a simple pre-treatment blood test could help clinicians identify which patients with schizophrenia are most likely to benefit cognitively from antipsychotics, a major unmet need since cognitive symptoms often persist despite medication.",
-      "caveats": "small sample (N=105), single-center, short follow-up, observational design",
-      "fact_check_note": "N=105 confirmed against abstract. AUC of 0.734 with wide confidence interval (0.523\u20130.936) noted, indicating modest predictive accuracy \u2014 this was not originally flagged but is an important limitation. Study is from a single center in Tianjin, China.",
+      "summary": "Researchers at Tianjin Anding Hospital measured plasma metabolites in 105 first-episode, drug-na\u00efve schizophrenia patients before and after 8 weeks of antipsychotic treatment. Using a machine-learning framework, they identified a four-metabolite blood signature \u2014 including serotonin, isoleucine, and two lipid-related molecules \u2014 that predicted which patients would show cognitive improvement, achieving an AUC of 0.734. Longitudinal analysis also found that shifts in glycerophospholipid levels tracked domain-specific gains in working memory and reasoning over the treatment period.",
+      "why_it_matters": "Cognitive impairment is one of the hardest-to-treat aspects of schizophrenia, and having a pre-treatment blood marker could help clinicians identify who is most likely to benefit cognitively from antipsychotics \u2014 a step toward more personalised psychiatric care.",
+      "caveats": "small sample (N=105 is modest for machine learning), single-center, short follow-up (8 weeks), study population specific to China",
+      "fact_check_note": "AUC confidence interval (0.523\u20130.936) is wide, reflecting genuine uncertainty in the model's predictive accuracy \u2014 noted but not corrected as it is accurately reported from the abstract. Sample size of 105 is above N<100 threshold so 'small sample' flag adjusted to note it is modest for ML validation rather than strictly small.",
       "excluded": false,
-      "run_date": "2026-07-12",
+      "run_date": "2026-07-13",
       "category": "Psychopharmacology",
       "chunk": "1/1",
       "status": "new",
       "relevance_score": 7,
-      "relevance_score_reason": "Strong topic fit (cognition, mental health treatment) and counterintuitive serotonin finding boost the score, but single-center design, modest AUC, and a Chinese-only sample with potential generalizability limits keep it from scoring higher.",
+      "relevance_score_reason": "Human study with a counterintuitive metabolomics-predicts-cognition angle scores well, but a modest single-center Chinese sample, short follow-up, and wide AUC confidence interval temper enthusiasm.",
       "pitch_angles": [
         {
-          "headline": "Higher serotonin before treatment predicts worse cognitive recovery in schizophrenia",
-          "hook": "Counterintuitively, patients with schizophrenia who had higher blood serotonin levels before starting antipsychotics showed less cognitive improvement after eight weeks of treatment.",
-          "why_it_fits": "NS Mind readers interested in brain chemistry and mental health treatment will be gripped by the idea that a simple blood test \u2014 not a brain scan \u2014 could forecast who thinks more clearly after medication.",
-          "pitch_angle": "Scientists in China used machine learning on blood samples from 105 first-episode schizophrenia patients to find four metabolites that predict cognitive recovery \u2014 and the most surprising was serotonin, which worked against improvement. This challenges the assumption that more serotonin activity is always beneficial in psychiatric illness. The findings raise the prospect of personalised psychiatry guided by a pre-treatment blood draw.",
-          "caveats_to_flag": "Small single-center sample from China limits generalisability; the model's predictive accuracy (AUC 0.734, CI 0.523\u20130.936) is modest; only eight weeks of follow-up; observational design means causality cannot be established."
+          "headline": "A simple blood test before treatment may reveal which schizophrenia patients will think more clearly on antipsychotics",
+          "hook": "Cognitive decline in schizophrenia is notoriously resistant to treatment \u2014 but a pattern of four molecules in a patient's blood before they take a single pill may predict who will improve.",
+          "why_it_fits": "NS Mind readers are fascinated by precision psychiatry and the idea that biology, not trial-and-error, could drive mental health treatment decisions.",
+          "pitch_angle": "Chinese researchers tracked plasma metabolites in 105 first-episode schizophrenia patients before and after 8 weeks on antipsychotics, finding that a four-metabolite signature \u2014 including serotonin and an amino acid \u2014 predicted cognitive gains with reasonable accuracy. Counterintuitively, higher baseline serotonin was associated with less improvement, challenging assumptions about the relationship between serotonin and cognitive outcomes in schizophrenia. The findings raise the prospect of a pre-treatment blood test to personalise care for a condition where cognitive impairment is often left behind even when psychosis is controlled.",
+          "caveats_to_flag": "Single-center study in China; modest sample for machine learning validation; short 8-week follow-up; wide confidence intervals around the predictive model's accuracy; results need replication in diverse populations before any clinical application."
         }
       ]
     },
     {
       "pmid": "42423666",
-      "headline": "You don't need everyone to agree to fight mental health stigma \u2014 partial alignment is enough",
+      "headline": "Eliminating mental health stigma may not need everyone to agree \u2014 just to keep talking",
       "journal": "Journal of Applied Psychology",
       "pubdate": "2026 Jul 9",
       "doi": "10.1037/apl0001400",
       "groundbreaking": "Counterintuitive finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a three-year action research study of a multistakeholder initiative aimed at eliminating mental health stigma, drawing on participant observation, interviews, and archival data. Rather than finding that shared goals required consensus among diverse participants, the study found that 'community weaving' \u2014 a model combining central coordination with semi-autonomous local subgroups \u2014 sustained engagement precisely by allowing persistent tensions to remain unresolved. The key mechanism was 'partial alignment': organisations with conflicting values could still collaborate effectively around a broad shared purpose.",
-      "why_it_matters": "The finding challenges the assumption that successful social change campaigns need unified goals, suggesting that embracing \u2014 rather than resolving \u2014 disagreement among stakeholders may be a more realistic and durable strategy for tackling entrenched social problems like mental health stigma.",
-      "caveats": "observational design, single-center, small sample context (single initiative), qualitative/action research methodology",
-      "fact_check_note": "This is a qualitative action research study, not a quantitative study with a defined N of participants in the traditional sense. The 'sample' is one multi-stakeholder initiative studied over three years. Noted in caveats accordingly.",
+      "summary": "Researchers conducted a 3-year action research study of a multistakeholder initiative aimed at eliminating mental health stigma, drawing on participant observation, interviews, and archival data. Rather than finding that success required consensus among stakeholders, the study found that sustained engagement was maintained by allowing persistent tensions between groups with different values and priorities to be repeatedly reworked rather than resolved. The researchers developed a model called 'community weaving,' describing how a central coordinating structure combined with semi-autonomous local subgroups can sustain collective action without full agreement.",
+      "why_it_matters": "The finding suggests that mental health anti-stigma campaigns may be more durable when they embrace disagreement rather than demanding ideological alignment \u2014 a potentially counterintuitive lesson for advocates and policymakers.",
+      "caveats": "observational design, single-center, qualitative/action research design, small sample",
+      "fact_check_note": "No sample size (N) for participants is specified in the abstract \u2014 this is a qualitative action research study. Caveats updated accordingly. No industry funding declared.",
       "excluded": false,
-      "run_date": "2026-07-12",
+      "run_date": "2026-07-13",
       "category": "Psychology",
       "chunk": "3/3",
       "status": "new",
       "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive organisational finding with a strong societal hook around mental health destigmatisation; qualitative single-initiative design limits generalisability but the conceptual insight is accessible and relevant to NS Mind readers.",
+      "relevance_score_reason": "Counterintuitive finding (disagreement sustains anti-stigma campaigns better than consensus) with a strong societal hook around mental health destigmatisation, though qualitative design and absence of quantitative sample limit the score.",
       "pitch_angles": [
         {
-          "headline": "Anti-stigma campaigns work better when everyone disagrees",
-          "hook": "A three-year study of a mental health destigmatisation initiative found that the key to keeping diverse stakeholders engaged was not resolving their conflicts \u2014 but letting them persist.",
-          "why_it_fits": "NS Mind readers care about mental health advocacy and the social forces that shape attitudes toward mental illness.",
-          "pitch_angle": "Conventional wisdom says effective campaigns need unified messaging and shared goals. But a new study tracking a real-world mental health anti-stigma initiative found the opposite: organisations with clashing values and priorities stayed engaged longer when their differences were acknowledged rather than papered over. Researchers call this 'community weaving' \u2014 a model that could reshape how we think about large-scale social change efforts.",
-          "caveats_to_flag": "Qualitative action research based on a single initiative \u2014 findings are suggestive, not generalisable in a statistical sense. Researchers were participant observers, raising potential bias. No control group or comparison initiative."
+          "headline": "Mental health stigma campaigns work better when people disagree",
+          "hook": "A three-year study of a mental health destigmatisation initiative found that the initiative survived \u2014 and grew \u2014 precisely because it stopped trying to get everyone on the same page.",
+          "why_it_fits": "NS Mind readers are primed to question the conventional wisdom around awareness campaigns, and this finding directly challenges the assumption that social change requires consensus.",
+          "pitch_angle": "Conventional wisdom holds that campaigns to reduce mental health stigma need a unified message and shared values among all partners. A new study tracking a real-world multistakeholder initiative over three years found the opposite: the initiative thrived by letting tensions between organisations with different priorities repeatedly resurface and be renegotiated, rather than resolved. The researchers call this 'community weaving' \u2014 a model that could reshape how we design and fund mental health advocacy at scale.",
+          "caveats_to_flag": "Qualitative action research design means findings are descriptive rather than causal. Based on a single initiative, so generalisability is uncertain. No quantitative outcome data on stigma reduction are reported in the abstract."
         }
       ]
     },
     {
       "pmid": "42423674",
-      "headline": "A warm Latino cultural value in parents predicts how kind their toddlers are to strangers",
+      "headline": "Latino caregivers who value warmth and social harmony raise more prosocial toddlers, study finds",
       "journal": "Cultural Diversity and Ethnic Minority Psychology",
       "pubdate": "2026 Jul 9",
       "doi": "10.1037/cdp0000811",
       "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a preregistered experimental field study, researchers recruited 100 Latino caregiver\u2013child pairs from a public park in Los Angeles County, measuring caregivers' endorsement of simpat\u00eda \u2014 a Latino cultural value emphasising warm, positive social engagement \u2014 and independently assessing children's prosocial behaviour toward a stranger using a standardised, blinded coding procedure. The study found a significant positive association between caregiver simpat\u00eda scores and children's prosocial behaviour, with children of top-quartile caregivers showing especially high prosocial scores. The association held after controlling for child age, gender, and family economic insecurity.",
-      "why_it_matters": "The findings suggest that specific cultural values transmitted through caregiving may be a meaningful driver of children's early prosocial development, pointing to the importance of culturally grounded frameworks in developmental psychology beyond Western-centric models.",
-      "caveats": "observational design, single-center, geographically specific sample (95%-Latino area of Los Angeles County)",
-      "fact_check_note": "",
+      "summary": "In a preregistered experimental field study, researchers recruited 100 Latino caregivers and their young children at a public park in Los Angeles County \u2014 an area where Latinos make up 95% of the local population. Caregivers completed a validated scale measuring their endorsement of simpat\u00eda, a Latino cultural value emphasising warm, positive engagement with others. Their children were independently assessed on a standardised measure of prosocial behaviour toward a stranger, scored by blinded coders from video recordings. Caregivers who scored higher on simpat\u00eda had children who showed significantly more prosocial behaviour, with the strongest effect seen among children of caregivers in the top quartile; results held after controlling for child age, gender, and family economic insecurity.",
+      "why_it_matters": "The findings suggest that culturally specific values \u2014 not just general parenting warmth \u2014 may shape children's social behaviour, pointing to the importance of incorporating diverse cultural frameworks into developmental psychology research.",
+      "caveats": "observational design, single-center, self-reported outcomes (caregiver simpat\u00eda scale)",
+      "fact_check_note": "Sample size confirmed as N=100 caregiver-child pairs. Design is experimental-correlational (preregistered field study with behavioural outcome measure), not a pure intervention RCT; described accurately as associational in summary. Caregiver simpat\u00eda is self-reported; child behaviour is objectively coded, so 'self-reported outcomes' flag applies only to the predictor variable, noted accordingly.",
       "excluded": false,
-      "run_date": "2026-07-12",
+      "run_date": "2026-07-13",
       "category": "Social Sciences",
       "chunk": "1/1",
       "status": "new",
       "relevance_score": 7,
-      "relevance_score_reason": "Clean preregistered experimental design with N=100, a clear societal hook around cultural transmission of kindness, and a counterintuitive angle (a named cultural value measurably predicts toddler altruism); docked slightly for single-city sample and observational limitation on causality.",
+      "relevance_score_reason": "Preregistered, decent sample (N=100), objective behavioural outcome measure, and a counterintuitive cultural-specificity angle make this strong for NS Mind; docked one point for observational design and one for self-reported predictor.",
       "pitch_angles": [
         {
-          "headline": "A warm Latino cultural value in parents predicts how kind their toddlers are to strangers",
-          "hook": "A parent's embrace of simpat\u00eda \u2014 a Latino cultural ideal of warmth and harmony \u2014 is measurably linked to how generously their young child behaves toward a complete stranger.",
-          "why_it_fits": "NS Mind readers interested in child development, culture, and the roots of human kindness will be drawn to a study that identifies a specific, nameable cultural value as a predictor of early altruism.",
-          "pitch_angle": "A preregistered field experiment with 100 Latino families in Los Angeles found that caregivers who strongly endorse simpat\u00eda \u2014 a cultural value prioritising warm, positive engagement \u2014 have children who show significantly more prosocial behaviour toward strangers in a standardised test. The effect held even after accounting for age, gender, and economic hardship. The finding challenges the assumption that prosocial development is a universal, culturally neutral process and suggests named cultural values may be transmissible through caregiving in ways we can measure.",
-          "caveats_to_flag": "Observational association \u2014 causality cannot be established; sample is drawn from a single, unusually homogeneous Latino-majority area of LA, so generalisability to other Latino communities or other cultures needs care; preprint status not applicable but ahead-of-print should be noted."
+          "headline": "A Latino cultural value centred on warmth could explain why some children are kinder to strangers",
+          "hook": "Children whose caregivers scored highest on simpat\u00eda \u2014 a Latino cultural emphasis on warm, harmonious social engagement \u2014 were significantly more likely to help a stranger, even in toddlerhood.",
+          "why_it_fits": "NS Mind readers are fascinated by how culture shapes cognition and social behaviour, and this study offers a rare, rigorously designed look at a non-Western cultural value with a direct, measurable effect on children.",
+          "pitch_angle": "Developmental psychologists have long studied how parenting shapes prosociality, but most research centres on Western, individualist values. This preregistered field study of 100 Latino families in Los Angeles found that caregivers who strongly endorsed simpat\u00eda \u2014 prioritising warm, positive engagement with others \u2014 had children who were measurably more likely to help a stranger, assessed by blinded coders. The finding challenges the assumption that prosocial development works the same way across cultures, and raises the question of what Western parenting frameworks might be missing.",
+          "caveats_to_flag": "Observational design means causality cannot be established; caregiver simpat\u00eda is self-reported; study was conducted in a single, highly Latino-majority neighbourhood in Los Angeles, limiting generalisability even within the US Latino population; children's ages are not specified in the abstract, which journalists should clarify with authors."
         }
       ]
     },
     {
       "pmid": "42423673",
-      "headline": "Small acts of affirmation in dedicated campus spaces significantly ease Black male students' mental distress",
+      "headline": "Small acts of affirmation from peers may protect Black male students' mental health at white-majority universities",
       "journal": "Cultural Diversity and Ethnic Minority Psychology",
       "pubdate": "2026 Jul 9",
       "doi": "10.1037/cdp0000815",
       "groundbreaking": "Included for relevance",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used focus groups with 27 Black male college students at a predominantly White institution (PWI), exploring how small positive social gestures \u2014 termed microaffirmations \u2014 and dedicated support spaces ('counterspaces') relate to mental health. Analysed using a rigorous qualitative data-reduction technique, participants reported mental distress stemming from racism and microaggressions, and described how microvalidations, microsupport, and microprotections in counterspaces helped them cope. Participants expressed that these spaces and gestures enhanced their sense of belonging, confidence, and overall well-being.",
-      "why_it_matters": "As mental health crises on university campuses intensify, the findings suggest that low-cost, socially embedded interventions \u2014 rather than clinical services alone \u2014 may be important tools for supporting racially minoritised students.",
-      "caveats": "small sample (N<100), observational design, single-center, self-reported outcomes, qualitative design limits generalisability",
+      "summary": "Researchers used focus groups to explore how Black male college students at a predominantly white institution (PWI) experience and internalize 'microaffirmations' \u2014 small, positive social gestures \u2014 and how these relate to mental health. Data came from four focus groups with 27 participants enrolled in an intervention program. Students reported mental distress linked to racism and microaggressions, but described microvalidations, microsupport, and microprotections within dedicated peer spaces as bolstering their sense of belonging and confidence.",
+      "why_it_matters": "The findings suggest that intentionally designed peer counterspaces and everyday affirmative interactions could meaningfully support the well-being of Black male students navigating racially hostile campus environments.",
+      "caveats": "small sample (N<100), qualitative design, single-center, self-reported outcomes",
       "fact_check_note": "",
       "excluded": false,
-      "run_date": "2026-07-12",
+      "run_date": "2026-07-13",
       "category": "Social Sciences",
       "chunk": "1/1",
       "status": "new",
       "relevance_score": 5,
-      "relevance_score_reason": "Socially relevant topic with a clear NS Mind audience hook around campus mental health, but the very small qualitative sample (N=27), single-institution design, and self-reported outcomes limit the strength of the finding considerably.",
+      "relevance_score_reason": "Socially relevant topic with a clear hook, but a very small qualitative sample (N=27) and single-institution design limit broader conclusions, keeping the score moderate.",
       "pitch_angles": [
         {
-          "headline": "Small acts of affirmation in dedicated campus spaces significantly ease Black male students' mental distress",
-          "hook": "Tiny gestures of validation \u2014 a word of encouragement, a moment of recognition \u2014 may do more for Black male students' mental health at majority-white universities than many formal support structures.",
-          "why_it_fits": "NS Mind readers care about mental health, belonging, and social behaviour, and this study offers a concrete, human-scale angle on how university environments can protect or harm wellbeing.",
-          "pitch_angle": "A qualitative study of 27 Black male students at a predominantly White US university finds that 'microaffirmations' \u2014 small, everyday acts of validation and support \u2014 delivered in spaces specifically designed for Black men are associated with meaningful improvements in mental wellbeing and sense of belonging. Students reported that these counterspaces buffered the mental toll of racism and microaggressions in ways formal university services had not. The study arrives as US universities face growing pressure to address mental health disparities among racially minoritised students.",
-          "caveats_to_flag": "Very small sample (N=27) at a single institution; qualitative design means findings reflect participants' subjective experience, not measured outcomes; no control group; causality cannot be inferred \u2014 journalists should avoid implying these spaces definitively improve mental health."
+          "headline": "Tiny acts of affirmation from peers may be a lifeline for Black male students at white universities",
+          "hook": "It's not sweeping policy change but small, everyday gestures of support that Black male college students say help them cope with the psychological toll of racism on campus.",
+          "why_it_fits": "NS Mind readers care deeply about how social environments shape mental health, and this study offers a counterpoint to the dominant focus on microaggressions by spotlighting their positive mirror image.",
+          "pitch_angle": "Most campus mental health research focuses on what harms minoritized students; this study flips the lens to ask what helps. Among 27 Black men at a predominantly white US university, peer-created 'counterspaces' and micro-level affirmations \u2014 a knowing nod, a word of validation \u2014 emerged as genuine mental health buffers. At a time when DEI programmes face political attack, the finding raises the question of whether informal peer cultures can do what institutions are retreating from.",
+          "caveats_to_flag": "Very small qualitative sample (N=27) from a single university; findings reflect participants' own accounts and cannot be generalised; the study does not measure mental health outcomes quantitatively."
         }
       ]
     },
     {
       "pmid": "42423692",
-      "headline": "Gambling companies' 'welfare calls' to at-risk players actually cut losses \u2014 but not equally for everyone",
+      "headline": "Gambling companies' welfare calls reduce losses \u2014 but they work best before problem gambling becomes entrenched",
       "journal": "Psychology of Addictive Behaviors",
       "pubdate": "2026 Jul 9",
       "doi": "10.1037/adb0001163",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "groundbreaking": "Counterintuitive finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analysed account data from Norsk Tipping, a Norwegian state gambling operator, for 4,752 customers who received duty-of-care 'care calls' between 2022 and 2024. The calls were triggered by several different criteria, including high losses by age group, new-customer high losses, persistent high-risk classification, or self-initiated contact. Across all criteria, gambling frequency and net losses fell significantly in the 12 weeks after the call compared with the 12 weeks before. Crucially, customers identified through early-risk signals or who had recently escalated their gambling showed the largest reductions, while those with persistent high-risk patterns and older high-loss customers showed the smallest improvements.",
-      "why_it_matters": "As gambling operators face growing regulatory pressure to demonstrate harm-reduction efforts, this large real-world dataset suggests that proactive welfare calls can be associated with measurable behavioural change \u2014 but that the timing and basis for making the call may matter as much as the call itself.",
-      "caveats": "observational design, single-center, short follow-up, secondary analysis",
-      "fact_check_note": "Study population is Norwegian (Norsk Tipping); findings may not generalise directly to US or other gambling markets with different regulatory structures and operator incentives. This is flagged in caveats_to_flag. The design is a pre-post account-data analysis without a randomised control group, so reductions could partly reflect regression to the mean \u2014 noted in caveats.",
+      "summary": "Researchers analyzed account data from 4,752 customers of Norsk Tipping (Norway's state gambling operator) who received operator-initiated 'care calls' between 2022 and 2024, comparing gambling behaviour in the 12 weeks before and after the call. Overall, gambling frequency and net losses fell after calls, and customers who voluntarily lowered their loss limits during calls showed the largest reductions. Crucially, the benefit was significantly smaller for customers with persistent high-risk patterns, and larger for those identified early \u2014 through self-initiated contact or recent risk escalation.",
+      "why_it_matters": "The finding suggests that proactive outreach from gambling companies has real potential, but that timing is everything \u2014 intervening early in problem development may be far more effective than waiting until harm is entrenched.",
+      "caveats": "observational design, single-center, secondary analysis, population specific to Norwegian state gambling context",
+      "fact_check_note": "Abstract clearly states N=4,752 and 12-week pre/post windows \u2014 both reflected accurately. Study is set within a Norwegian state-monopoly gambling operator; the regulatory and cultural context may limit generalisability to commercial gambling markets in the US or UK.",
       "excluded": false,
-      "run_date": "2026-07-12",
+      "run_date": "2026-07-13",
       "category": "Substance-Related Disorders",
       "chunk": "1/1",
       "status": "new",
       "relevance_score": 7,
-      "relevance_score_reason": "Large real-world sample (N=4,752), counterintuitive finding that industry-initiated welfare calls are associated with genuine behaviour change, clear societal hook around gambling harm, but observational design with regression-to-the-mean risk and a Norway-specific operator context slightly limits generalisability.",
+      "relevance_score_reason": "Large real-world dataset and a counterintuitive early-intervention finding give this strong NS Mind appeal, but docked for observational design, single-operator context, and the Norway-specific state gambling monopoly environment that limits global generalisability.",
       "pitch_angles": [
         {
-          "headline": "Phone calls from your gambling company could actually make you gamble less",
-          "hook": "When a state gambling operator in Norway called high-risk customers to check on their wellbeing, those customers went on to lose significantly less money \u2014 and the effect was real enough to show up across nearly 5,000 accounts.",
-          "why_it_fits": "NS Mind readers are interested in how social nudges and institutional behaviour shape individual choices \u2014 and the idea that a company phone call can shift addictive behaviour sits squarely in that territory.",
-          "pitch_angle": "The gambling industry is under fire for profiting from addiction, but a large new study from Norway suggests its duty-of-care 'welfare calls' may genuinely work \u2014 at least for some players. Analysing nearly 5,000 customer accounts, researchers found gambling frequency and losses fell after care calls, with the biggest drops among people caught early or who reached out themselves. The surprise: those with the most entrenched problem gambling showed the weakest response, raising the question of whether industry-led interventions are best suited to prevention rather than treatment.",
-          "caveats_to_flag": "Study uses a Norwegian state monopoly operator (Norsk Tipping), whose incentive structure, regulatory environment, and player demographics differ from commercial gambling markets in the US or UK \u2014 caution in generalising. Pre-post design without randomisation means reductions could partly reflect regression to the mean. Follow-up is only 12 weeks. Secondary analysis of account data, so individual-level context is limited."
+          "headline": "Phone calls from gambling companies actually reduce losses \u2014 but only if they come early enough",
+          "hook": "A gambling company calling to check on a customer sounds absurd \u2014 but new data suggests it cuts losses, with one important catch.",
+          "why_it_fits": "NS Mind readers are fascinated by nudge theory, addiction science, and corporate responsibility \u2014 and this study sits at the intersection of all three.",
+          "pitch_angle": "Analysis of nearly 5,000 gamblers found that welfare calls made by a state gambling operator were associated with meaningful reductions in gambling frequency and net losses. But the effect was strikingly weaker for those already locked into persistent high-risk patterns \u2014 early intervention, triggered by a customer's own distress signals, produced the largest changes. This challenges the assumption that problem gambling is best addressed only after it becomes severe, and raises questions about how and when commercial operators should be required to intervene.",
+          "caveats_to_flag": "Observational pre-post design cannot establish causation; natural regression to the mean may partly explain post-call reductions; study is from a Norwegian state monopoly operator, which differs legally and culturally from commercial gambling markets in the US, UK, and Australia; no randomised control group."
+        }
+      ]
+    },
+    {
+      "pmid": "42423691",
+      "headline": "Impulsive people rate drink-driving as less dangerous when they are actually drunk \u2014 not sober",
+      "journal": "Psychology of Addictive Behaviors",
+      "pubdate": "2026 Jul 9",
+      "doi": "10.1037/adb0001172",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a controlled laboratory study at the University of Missouri, 78 young adult moderate drinkers (55% female, mean age 23.9) consumed alcohol calibrated to reach a breath alcohol concentration of 0.10% \u2014 legally impaired in all US states. Researchers then measured their perceptions of how dangerous it would be to drive, comparing results across different facets of trait impulsivity measured by the UPPS-P scale. Participants higher in 'urgency' (acting rashly under strong emotions) and 'lack of premeditation' judged drink-driving as significantly less dangerous while intoxicated, and those higher in urgency also reported greater willingness to actually drive.",
+      "why_it_matters": "Identifying which specific impulsivity traits distort risk perception under intoxication \u2014 rather than treating impulsivity as a single trait \u2014 could help target drink-driving prevention efforts more precisely at high-risk individuals.",
+      "caveats": "small sample (N<100), single-center, self-reported outcomes, laboratory setting may not reflect real-world driving decisions",
+      "fact_check_note": "Abstract reports N=78, mean age 23.9, 55% female, BAC target of 0.10% \u2014 all verified and reflected accurately in summary. Study measures willingness/perceptions, not actual driving behaviour, which is a key caveat added to summary context.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Substance-Related Disorders",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive and specific finding \u2014 urgency-type impulsivity warps drunk risk perception in a way general impulsivity measures miss \u2014 earns a strong score, but small N, lab setting, and self-report cap it.",
+      "pitch_angles": [
+        {
+          "headline": "Not all impulsive people are equally bad drunk decision-makers \u2014 it depends which kind of impulsive they are",
+          "hook": "Being impulsive doesn't uniformly make you think drink-driving is fine \u2014 only one specific flavour of impulsivity does, and only once you're already drunk.",
+          "why_it_fits": "NS Mind readers are drawn to nuanced takes on personality and decision-making \u2014 especially when they overturn blunt assumptions about who is 'at risk'.",
+          "pitch_angle": "In a lab study where participants were brought to legal intoxication, researchers found that only certain impulsivity traits \u2014 particularly 'urgency', the tendency to act rashly when emotions run high \u2014 predicted seeing drink-driving as less dangerous and being more willing to do it. People high in other impulsivity facets, such as sensation-seeking, didn't show the same distorted risk perception. The finding suggests that screening for urgency specifically, rather than impulsivity broadly, could improve how we identify those most likely to drink and drive.",
+          "caveats_to_flag": "Small sample of 78 young adult moderate drinkers from a single US university; all outcomes are self-reported perceptions and stated willingness, not real driving behaviour; lab conditions may not replicate real-world social pressures and contexts that precede drink-driving."
+        }
+      ]
+    },
+    {
+      "pmid": "42423724",
+      "headline": "The brain averages out a crowd of faces just as easily as a crowd of triangles \u2014 until you mix them",
+      "journal": "Journal of Experimental Psychology: General",
+      "pubdate": "2026 Jul 9",
+      "doi": "10.1037/xge0001963",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at the University of Toronto ran a series of experiments testing whether the brain's ability to rapidly extract average visual information ('ensemble perception') works equally well across different types of objects \u2014 faces, shoes, and triangles. When participants compared average orientations across two groups of identical objects, accuracy was the same regardless of whether both groups showed the same or different object types, suggesting a domain-general mechanism. However, when objects were mixed within a single group, accuracy dropped and participants' judgements were systematically biased toward the orientation of triangles in particular, revealing that while the system is broadly flexible, it is not immune to category-specific interference.",
+      "why_it_matters": "Understanding how the brain rapidly summarises complex visual scenes \u2014 and where that process breaks down \u2014 has implications for perception research and could inform how we design environments or displays that require fast, accurate visual judgements.",
+      "caveats": "small sample (N not specified in abstract), laboratory study, single-center",
+      "fact_check_note": "The abstract does not report a specific N for participants \u2014 flagged in caveats. The direction of the triangle bias finding is accurately reflected. 'Domain generality' finding is for comparing across groups, not within \u2014 distinction preserved in summary.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Psychology",
+      "chunk": "3/3",
+      "status": "new",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive finding about visual perception (faces and triangles processed by the same mechanism, but mixing them causes bias) is engaging, but the absence of a strong societal or mental health hook and unspecified sample size temper the score.",
+      "pitch_angles": [
+        {
+          "headline": "Your brain treats a crowd of faces the same as a crowd of triangles \u2014 until you mix them",
+          "hook": "New experiments show the brain uses one universal mechanism to read the 'average' of any visual crowd \u2014 but throw different types of objects together and a surprising bias takes over.",
+          "why_it_fits": "NS Mind readers are fascinated by the hidden shortcuts the brain uses to navigate a complex visual world, and this finding reveals one of those shortcuts has an unexpected Achilles heel.",
+          "pitch_angle": "When you scan a busy room, your brain rapidly extracts a kind of average \u2014 the general mood of the crowd, the rough direction everyone is facing. Psychologists call this 'ensemble perception,' and a new study suggests it operates through a single, flexible mechanism that works just as well for faces as for shoes or geometric shapes. But mix different object types together in one group and the system gets confused: in experiments, triangles hijacked participants' judgements in a way that faces and shoes did not, hinting at subtle category hierarchies in visual processing that researchers are only beginning to map.",
+          "caveats_to_flag": "Laboratory study with artificial stimuli (faces, shoes, triangles on screen) \u2014 relevance to real-world complex scenes is an open question. Sample size not reported in abstract. Single university setting."
+        }
+      ]
+    },
+    {
+      "pmid": "42421440",
+      "headline": "Gay fathers in China are rewriting masculinity \u2014 but not quite dismantling patriarchy",
+      "journal": "Culture, Health & Sexuality",
+      "pubdate": "2026 Jul 8",
+      "doi": "10.1080/13691058.2026.2697927",
+      "groundbreaking": "Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A qualitative study drew on 19 in-depth interviews with urban gay men in China who became fathers through surrogacy, examining how they negotiate fatherhood and masculinity within neo-familist cultural structures. Researchers found that these fathers combined greater parental involvement and caring masculinities with persistent gendered divisions of labour sustained through kinship networks. Within partnerships, class position and biological ties often created unequal parental authority and caregiving responsibilities between partners.",
+      "why_it_matters": "The study suggests that even family forms that visibly challenge heteronormative norms can reproduce patriarchal structures in subtler ways, with implications for understanding equality within same-sex families globally.",
+      "caveats": "small sample (N<100), qualitative design, single-country (China), observational design",
+      "fact_check_note": "",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Social Sciences",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 5,
+      "relevance_score_reason": "Counterintuitive framing about masculinity persisting in gay families is compelling, but the very small sample, China-specific context, and qualitative design limit generalisability to NS Mind's primarily US/UK audience; regional specificity penalty applied.",
+      "pitch_angles": [
+        {
+          "headline": "Gay fathers in China are more hands-on parents \u2014 but patriarchy still runs the household",
+          "hook": "Gay men who became fathers through surrogacy in China are more involved parents than traditional norms would predict \u2014 yet class and biology still determine who holds power at home.",
+          "why_it_fits": "NS Mind readers are interested in how gender and family structures evolve, and this study delivers a genuinely counterintuitive finding: queer family formation doesn't automatically flatten hierarchy.",
+          "pitch_angle": "Same-sex parenthood is often framed as inherently egalitarian, but this study of 19 gay surrogacy fathers in urban China finds the reality is more complicated. While these men embraced caring masculinities, gendered labour divisions crept back in through extended kinship networks, and within couples, the partner with biological ties or higher class status often assumed more authority. The finding resonates beyond China: it challenges a widespread assumption that LGBTQ+ families escape the power dynamics that straight families struggle with.",
+          "caveats_to_flag": "Only 19 participants, all urban and relatively affluent Chinese men; surrogacy is legally ambiguous in China, meaning this is a self-selecting group; findings are closely tied to China's neo-familist cultural context and may not generalise to Western same-sex families."
+        }
+      ]
+    },
+    {
+      "pmid": "42419626",
+      "headline": "Brain waves travel in the wrong direction after traumatic brain injury, EEG study finds",
+      "journal": "Progress in Neuro-Psychopharmacology & Biological Psychiatry",
+      "pubdate": "2026 Jul 8",
+      "doi": "10.1016/j.pnpbp.2026.111828",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Australian researchers analysed resting-state EEG from 174 people with traumatic brain injury (TBI) and 174 matched clinical controls drawn from the large Temple University Hospital EEG Corpus. Beyond standard connectivity and power measures, they applied a novel travelling-wave analysis to track the direction of oscillatory activity across the scalp. People with TBI showed weaker backward-travelling (front-to-back) theta waves \u2014 a pattern linked to top-down cognitive coordination \u2014 alongside already-known disruptions in alpha and theta band power and connectivity.",
+      "why_it_matters": "TBI affects millions globally and its long-term cognitive effects remain poorly understood at the neural level; identifying a directional brain-wave signature could open new avenues for monitoring recovery or treatment response.",
+      "caveats": "observational design, limited clinical metadata (heterogeneous TBI sample from hospital EEG archive), single dataset (Temple University Hospital EEG Corpus), secondary analysis",
+      "fact_check_note": "N=174 TBI and 174 matched controls confirmed. Study uses an existing clinical EEG corpus (secondary analysis of Temple University Hospital EEG Corpus). TBI group is described as heterogeneous with limited clinical metadata \u2014 flagged in caveats. No industry funding declared beyond equipment/grants to one author (PBF, Brainsway equipment; NHMRC Investigator grant).",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Psychiatry",
+      "chunk": "2/2",
+      "status": "new",
+      "relevance_score": 6,
+      "relevance_score_reason": "Novel travelling-wave angle is genuinely counterintuitive and the sample size is solid, but secondary analysis of a heterogeneous archive, limited clinical metadata, and a somewhat technical finding reduce accessibility and NS Mind fit.",
+      "pitch_angles": [
+        {
+          "headline": "After a brain injury, neural signals start travelling in the wrong direction",
+          "hook": "In healthy brains, certain electrical waves ripple backward across the cortex as part of top-down thinking \u2014 but in people who have suffered a traumatic brain injury, those backward waves are measurably weaker.",
+          "why_it_fits": "NS Mind readers are drawn to surprising findings about how the brain organises itself, especially when linked to a condition \u2014 TBI \u2014 that affects millions including athletes and veterans.",
+          "pitch_angle": "EEG studies of TBI have long focused on how strong different brain waves are. But Australian researchers have now looked at where those waves are going \u2014 and found that TBI disrupts the direction of travel, not just the amplitude. Backward-moving theta waves, associated with the brain's ability to coordinate top-down thinking, are weaker in TBI patients. The finding suggests the injured brain isn't just quieter in some frequencies \u2014 it's losing its ability to orchestrate thought from the front.",
+          "caveats_to_flag": "This is a secondary analysis of an existing hospital EEG archive; the TBI group is clinically heterogeneous with limited detail on injury type, severity, or time since injury. Observational design means no causal conclusions. Findings need prospective replication with richer clinical data before clinical applications can be considered."
+        }
+      ]
+    },
+    {
+      "pmid": "42435589",
+      "headline": "A 90-minute film presentation boosts parents' confidence to talk to teens about fentanyl \u2014 and the effect lasts months",
+      "journal": "Addictive Behaviors",
+      "pubdate": "2026 Jul 8",
+      "doi": "10.1016/j.addbeh.2026.108795",
+      "groundbreaking": "Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Stanford evaluated a 90-minute fentanyl-awareness film presentation (Song for Charlie's 'The New Drug Talk') aimed at parents and caregivers, recruiting 274\u2013276 participants who completed pre- and post-surveys between November 2024 and December 2025. After the presentation, participants showed significant gains in knowledge about fentanyl, overdose symptoms, and naloxone use, and reported greater confidence in discussing fentanyl with their children. A subset (N=44) completed optional follow-up surveys at one week and two months, and improvements in knowledge and confidence remained elevated at both time points.",
+      "why_it_matters": "With fentanyl overdose remaining a leading cause of death among adolescents in the US, finding scalable, low-cost educational tools that actually stick with parents over time could help fill a critical prevention gap.",
+      "caveats": "small sample (N<100 for follow-up, N=44), self-reported outcomes, observational design, single opt-in follow-up cohort, short follow-up",
+      "fact_check_note": "Abstract notes 274/276 completed pre/post surveys but only n=44 completed the opt-in follow-up surveys \u2014 both figures included in summary for accuracy. Follow-up arm is very small and opt-in, which creates selection bias not explicitly flagged in abstract but noted here.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Substance-Related Disorders",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 6,
+      "relevance_score_reason": "Clear societal hook around the fentanyl crisis and parental communication, but weakened by a very small opt-in follow-up sample, self-reported outcomes, and an observational pre-post design with no control group.",
+      "pitch_angles": [
+        {
+          "headline": "A short film about fentanyl makes parents more confident talking to their teens \u2014 for months afterward",
+          "hook": "Just 90 minutes of education was enough to shift what parents knew about fentanyl \u2014 and the change hadn't faded two months later.",
+          "why_it_fits": "NS Mind readers are engaged parents, educators, and policy-minded thinkers who care about the opioid crisis and how behavioural science can help.",
+          "pitch_angle": "Researchers found that a single film-based community presentation was associated with lasting increases in fentanyl knowledge and parental confidence \u2014 suggesting that low-cost, scalable educational events could be a meaningful tool in the fight against adolescent overdose deaths. The finding is timely given that fentanyl is now the leading cause of death for US teens. The surprising element is that just one 90-minute session produced effects measurable two months later.",
+          "caveats_to_flag": "No control group, so observed changes can't be attributed solely to the presentation; follow-up data came from only 44 opt-in participants, likely the most motivated attendees, creating selection bias; all outcomes are self-reported."
+        }
+      ]
+    },
+    {
+      "pmid": "42417479",
+      "headline": "The legal system has no good framework for when a child victim and a child perpetrator are the same age \u2014 this paper proposes one",
+      "journal": "Behavioral Sciences & the Law",
+      "pubdate": "2026 Jul 8",
+      "doi": "10.1002/bsl.70082",
+      "groundbreaking": "Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This is a theoretical review article, not an empirical study. Legal scholars from Israel and Germany examined the gap in juvenile justice frameworks when both the perpetrator and the victim of a crime are minors. Drawing on juvenile justice scholarship, child development research, and therapeutic jurisprudence, the authors argue that current victim-perpetrator frameworks are ill-suited to these cases. They propose a four-pillar model integrating therapeutic justice, developmental principles, relational procedural justice, and children's rights norms. This is Part 1 of a two-part project establishing the theoretical framework.",
+      "why_it_matters": "As youth-on-youth violence and peer abuse receive greater public and policy attention, the absence of an integrated legal framework means both child defendants and child victims may be poorly served by existing systems.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "No empirical data or participant sample; this is a legal-theoretical review. No N applicable. Caveats reflect the non-empirical nature of the work.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Behavioral Sciences",
+      "chunk": "1/2",
+      "status": "new",
+      "relevance_score": 4,
+      "relevance_score_reason": "Relevant social and developmental topic, but as a purely theoretical legal review with no empirical data it lacks the scientific finding NS Mind typically anchors stories on.",
+      "pitch_angles": [
+        {
+          "headline": "Justice systems are failing when both the victim and the perpetrator are children",
+          "hook": "When a child harms another child, the law treats them as adversaries \u2014 but a new framework argues both are developmentally vulnerable and deserve something better.",
+          "why_it_fits": "NS Mind readers engaged with child development, social justice, and the psychology of behaviour will find the developmental-rights angle genuinely thought-provoking.",
+          "pitch_angle": "Legal scholars argue that juvenile justice systems are structurally unable to handle cases where both parties are minors \u2014 the victim-perpetrator binary simply doesn't fit. Their proposed model fuses child rights, developmental psychology, and therapeutic jurisprudence into a single framework. The piece arrives as peer-on-peer abuse, school violence, and youth exploitation dominate policy debates worldwide.",
+          "caveats_to_flag": "Purely theoretical; no empirical data; framework has not been tested in real cases (Part 2 will apply it to case studies); authors are based in Israel and Germany, so some legal specifics may not map directly onto other jurisdictions including the US."
+        }
+      ]
+    },
+    {
+      "pmid": "42419607",
+      "headline": "Cycling in virtual reality cuts anxiety and sharpens thinking better than ordinary exercise",
+      "journal": "Psychology of Sport and Exercise",
+      "pubdate": "2026 Jul 8",
+      "doi": "10.1016/j.psychsport.2026.103203",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in China recruited 75 anxious college students and randomly assigned them to 30 minutes of quiet sitting, traditional stationary cycling, or immersive VR cycling at the same intensity. Before and after the session, anxiety was assessed by questionnaire, inhibitory control was measured with the Stroop task, and brain activity was recorded using functional near-infrared spectroscopy (fNIRS). The VR cycling group showed significantly greater reductions in anxiety and significantly better Stroop performance \u2014 faster and more accurate \u2014 than both the regular exercise group and the control group, with higher activation in the dorsolateral prefrontal cortex (DLPFC) associated with the improvements.",
+      "why_it_matters": "The findings suggest that pairing immersive virtual reality with ordinary aerobic exercise may amplify both the mood and cognitive benefits of physical activity, pointing to a potentially accessible tool for student mental health \u2014 though the neural mechanism remains preliminary.",
+      "caveats": "small sample (N<100), single-center, short follow-up, self-reported outcomes (anxiety scale), study population specific to Chinese university students",
+      "fact_check_note": "Abstract confirms N=75 (25 per group), randomised design, fNIRS used for neural data (not self-reported), Stroop task used for inhibitory control (objective measure). Anxiety was assessed with the State Anxiety Inventory (SAI), a validated self-report scale \u2014 flagged accordingly. The authors themselves note the neural mechanism conclusion is exploratory and needs replication with more sophisticated methods.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Psychology",
+      "chunk": "2/3",
+      "status": "new",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive VR-beats-exercise finding with a neat brain-imaging angle and strong NS Mind topic fit (cognition, anxiety, technology), but small N, single-center, short follow-up, and a Chinese student sample that may limit generalisability pull the score down.",
+      "pitch_angles": [
+        {
+          "headline": "Cycling in VR beats regular exercise for calming anxiety and boosting brain power",
+          "hook": "Just one 30-minute session of cycling inside a virtual reality headset reduced anxiety and sharpened mental focus more than the same workout without the immersive technology.",
+          "why_it_fits": "NS Mind readers are fascinated by how technology intersects with mental health and cognition, and VR exercise is an idea many can imagine trying.",
+          "pitch_angle": "Exercise is already known to help with anxiety and attention, but researchers found that wrapping that workout in an immersive virtual environment supercharges both effects \u2014 at least in a single session. Brain-imaging data hint that the VR experience may recruit the prefrontal cortex more powerfully than ordinary cycling, the region responsible for self-control and emotional regulation. With student mental health in crisis globally, a low-cost, gamified exercise tool that delivers stronger cognitive and emotional benefits than the gym alone is a genuinely intriguing prospect.",
+          "caveats_to_flag": "Only 75 participants at one Chinese university; effects measured immediately after a single session with no follow-up; the neural mechanism is exploratory and the authors explicitly caution against over-interpreting the fNIRS data; results may not generalise beyond anxious young adults in a Chinese university context."
+        }
+      ]
+    },
+    {
+      "pmid": "42421344",
+      "headline": "A single inhaled dose of DMT is associated with reduced anxiety and better quality of life lasting up to a year in depressed patients",
+      "journal": "Journal of Psychopharmacology",
+      "pubdate": "2026 Jul 8",
+      "doi": "10.1177/02698811261465005",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In two open-label clinical trials based in Brazil, 27 healthy volunteers and 14 patients with treatment-resistant depression (TRD) received a single session of inhaled DMT in a supportive clinical setting. Both groups showed reduced state anxiety immediately after dosing; healthy volunteers reported increased life satisfaction for up to 14 days. Among TRD patients followed for 12 months, the study found sustained improvements in quality of life across physical, psychological, social, and environmental domains, as well as increased life satisfaction.",
+      "why_it_matters": "Most psychedelic research focuses on symptom reduction over short periods; this exploratory study suggests DMT may be associated with broader, longer-lasting gains in daily functioning and wellbeing in people with treatment-resistant depression, pointing to a dimension of recovery that standard psychiatric measures often miss.",
+      "caveats": "small sample (N=41 combined; N=14 TRD), observational design, open-label (no placebo control), self-reported outcomes, single-center, study population in Brazil",
+      "fact_check_note": "The abstract explicitly flags open-label design, lack of placebo control, and modest sample size as limitations \u2014 all accurately reflected in caveats. Total N is 41 (27 healthy + 14 TRD), not a single unified sample; this distinction is preserved in the summary.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Psychopharmacology",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 7,
+      "relevance_score_reason": "High topic fit (psychedelics, wellbeing, depression) and a genuinely surprising 12-month quality-of-life finding lift the score, but the tiny TRD sample (N=14), open-label design, and no placebo control are serious limitations that cap enthusiasm.",
+      "pitch_angles": [
+        {
+          "headline": "A single inhaled trip on DMT is associated with better quality of life a year later in people with hard-to-treat depression",
+          "hook": "It lasts only minutes in the brain, but a single inhaled dose of DMT may be associated with improvements in quality of life that persist for an entire year in patients whose depression has resisted every other treatment.",
+          "why_it_fits": "NS Mind readers are following the psychedelic renaissance closely and will be struck by the finding that effects extend well beyond symptom scores to encompass social relationships, physical health, and a sense of inner peace.",
+          "pitch_angle": "Brazilian researchers followed 14 patients with treatment-resistant depression for 12 months after a single supervised DMT inhalation session, finding self-reported gains across multiple quality-of-life domains \u2014 physical, psychological, social, and environmental \u2014 as well as greater life satisfaction. Unlike most psychedelic trials that measure depression scores over weeks, this study asked whether patients were actually living better, and for how long. The counterintuitive twist: a drug famous for producing one of the shortest and most intense psychedelic experiences known appears associated with some of the longest-lasting wellbeing effects so far reported.",
+          "caveats_to_flag": "Extremely small TRD sample (N=14); no placebo or control group; open-label design means expectation effects cannot be ruled out; self-reported outcomes; conducted in Brazil in a highly supportive clinical context that may not generalise; healthy volunteer findings are much shorter-term."
+        }
+      ]
+    },
+    {
+      "pmid": "42419665",
+      "headline": "It's anxiety \u2014 not stress or cravings \u2014 that best predicts smoking relapse after quitting",
+      "journal": "Physiology & Behavior",
+      "pubdate": "2026 Jul 8",
+      "doi": "10.1016/j.physbeh.2026.115444",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a secondary analysis of a randomised controlled trial in which adult smokers attempting to quit underwent a remotely administered Trier Social Stress Test the day after overnight nicotine abstinence. Participants (N not explicitly stated in abstract; this is a secondary analysis of an RCT) were monitored for cigarette use and lapse within 48 hours of their quit date. Anxiety reactivity \u2014 but not urge or general stress \u2014 was significantly associated with higher cigarette counts and greater odds of relapse, though effect sizes were small.",
+      "why_it_matters": "Pinpointing anxiety as the specific emotional driver of early smoking relapse \u2014 rather than cravings or generalised stress \u2014 could help researchers design more targeted quit-smoking interventions. The feasibility of delivering this stress test remotely also opens doors for scalable digital health research.",
+      "caveats": "secondary analysis, small sample (N unclear from abstract), self-reported outcomes (visual analog scales), short follow-up (48 hours), single-center",
+      "fact_check_note": "The abstract does not report the total N for this secondary analysis; the original RCT sample size is not stated. Summary notes this uncertainty. Effect sizes described as small per the abstract \u2014 retained in summary.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Psychophysiology",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive finding (anxiety not stress or urge) gives it punch, but small/unclear N, secondary analysis design, 48-hour follow-up, and single-center origin limit its strength for NS Mind.",
+      "pitch_angles": [
+        {
+          "headline": "It's anxiety \u2014 not cravings \u2014 that makes you light up again after quitting smoking",
+          "hook": "When smokers trying to quit are put under social stress, it's anxiety that predicts relapse \u2014 not the urge to smoke or general stress, upending assumptions about what makes quitting so hard.",
+          "why_it_fits": "NS Mind readers are deeply interested in the psychology of habits and self-control; this reframes a widely experienced struggle through a surprising emotional lens.",
+          "pitch_angle": "A new study used a remotely delivered social stress test on smokers' quit day, the morning after they'd gone cold turkey overnight. Researchers expected cravings or generalised stress to drive relapse \u2014 instead, anxiety alone predicted who smoked more and who caved within 48 hours. The finding suggests that quit-smoking programmes focusing on craving management may be missing the real emotional culprit.",
+          "caveats_to_flag": "This is a secondary analysis with unclear sample size, a very short 48-hour follow-up window, self-reported mood measures, and small effect sizes \u2014 the journalist should note these are early-stage findings requiring replication in larger trials."
+        }
+      ]
+    },
+    {
+      "pmid": "41793756",
+      "headline": "Schizophrenia has a movement disorder component that isn't just a drug side effect",
+      "journal": "Brain: A Journal of Neurology",
+      "pubdate": "2026 Jul 7",
+      "doi": "10.1093/brain/awag064",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This narrative review, authored by researchers at King's College London and collaborating institutions, synthesises existing literature on sensorimotor abnormalities \u2014 including dyskinesia, parkinsonism, and motor incoordination \u2014 in people with schizophrenia. The authors argue these movement problems are present even in medication-na\u00efve individuals and are therefore an intrinsic feature of the disease, not merely a side effect of antipsychotic drugs. They review pathogenic mechanisms linking schizophrenia's core biology to sensorimotor dysfunction and argue that better measurement of these symptoms could reveal new treatment targets.",
+      "why_it_matters": "If movement dysfunction is baked into schizophrenia rather than caused by medication, clinicians may need to rethink how they assess and treat the condition, and drug developers may need to target sensorimotor pathways alongside dopamine. This reframing could shift how schizophrenia is understood at a fundamental level.",
+      "caveats": "observational design, industry funding [multiple pharmaceutical companies via author disclosures]",
+      "fact_check_note": "This is a review article, not an original study with a specific N. Summary adjusted accordingly to avoid implying a clinical trial. Multiple authors disclose financial relationships with pharmaceutical companies including Lundbeck, Otsuka, Boehringer-Ingelheim, and others; flagged as industry funding.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Neurology",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 8,
+      "relevance_score_reason": "Strongly counterintuitive claim (movement problems are core to schizophrenia, not drug side effects), published in a high-prestige journal, directly relevant to mental health understanding \u2014 loses one point for being a review rather than new primary data, and one for industry COIs.",
+      "pitch_angles": [
+        {
+          "headline": "Schizophrenia may be a movement disorder as much as a thought disorder",
+          "hook": "The tremors and stiffness seen in people with schizophrenia have long been blamed on antipsychotic drugs \u2014 but a major new review argues these movement problems exist before any medication is ever taken.",
+          "why_it_fits": "NS Mind readers care deeply about how psychiatric conditions are framed and whether the drugs used to treat them cause harm \u2014 this study reframes both questions at once.",
+          "pitch_angle": "For decades, the shaking hands and rigid gait seen in schizophrenia patients were attributed to antipsychotics. A landmark review in Brain now marshals evidence that these sensorimotor disturbances appear even in people who have never taken medication, suggesting they are woven into the biology of schizophrenia itself. If confirmed, this overturns a foundational assumption in psychiatry and points toward entirely new classes of treatment targeting movement-control circuits.",
+          "caveats_to_flag": "Review article synthesises existing studies rather than presenting new data; several authors have financial ties to pharmaceutical companies; the argument, while well-supported, remains an interpretive synthesis and not a definitive experimental proof."
+        }
+      ]
+    },
+    {
+      "pmid": "42413308",
+      "headline": "Only 1 in 55 first-episode schizophrenia patients in Japan receives the most effective form of antipsychotic medication",
+      "journal": "Schizophrenia Research",
+      "pubdate": "2026 Jul 7",
+      "doi": "10.1016/j.schres.2026.07.004",
+      "groundbreaking": "Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used a large Japanese insurance claims database (JMDC, 2005\u20132024) to track how often long-acting injectable antipsychotics (LAIs) \u2014 depot injections that remove the need for daily pills \u2014 were prescribed to patients with first-episode schizophrenia. Among 24,226 patients followed for a median of 30 months, only 1.8% (437 patients) ever received an LAI, and when they did, it typically came 12 months after diagnosis. Annual LAI use never exceeded 2% across the entire study period.",
+      "why_it_matters": "LAIs are associated with better treatment continuity than daily oral pills and are increasingly recommended early in schizophrenia care; these findings suggest a large gap between clinical guidelines and real-world prescribing that may leave many patients undertreated at the most critical window.",
+      "caveats": "observational design, single-center, single-country (Japan) claims database, industry funding (AbbVie G.K. employs one author; multiple authors report pharma ties), secondary analysis",
+      "fact_check_note": "Abstract does not describe this as single-center \u2014 it is a national claims database study; 'single-center' caveat removed. Industry funding flagged because one author (Miyagawa R) is an AbbVie employee and others report pharmaceutical consulting/research income. 'Secondary analysis' flagged because this is a retrospective analysis of an existing claims database.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Psychiatry",
+      "chunk": "1/2",
+      "status": "new",
+      "relevance_score": 5,
+      "relevance_score_reason": "Relevant to mental health treatment but closely tied to Japan's specific healthcare and prescribing context, limiting generalisability; observational claims-data design and industry conflicts reduce confidence; no counterintuitive twist for a global audience.",
+      "pitch_angles": [
+        {
+          "headline": "Only 1 in 55 first-episode schizophrenia patients gets the injection that could help most",
+          "hook": "Despite strong evidence that long-acting injectable antipsychotics improve treatment continuity, a study of more than 24,000 schizophrenia patients found fewer than 2% ever received one.",
+          "why_it_fits": "NS Mind readers who follow mental health treatment debates will be struck by the gulf between what clinical guidelines recommend and what patients actually receive.",
+          "pitch_angle": "Long-acting injectable antipsychotics remove the burden of remembering a daily pill \u2014 a major cause of relapse in schizophrenia \u2014 yet a large Japanese database study found they were prescribed to barely 1 in 55 newly diagnosed patients. When patients did receive them, it was typically a year after diagnosis, missing what many clinicians consider the critical early window. The finding raises questions about whether prescribing culture, stigma around injections, or system-level barriers are keeping an effective tool out of reach.",
+          "caveats_to_flag": "Data are from Japanese insured patients only and may not reflect prescribing patterns in the US or Europe; one author is employed by AbbVie, a maker of an LAI antipsychotic; the study is descriptive and cannot establish whether LAIs would have improved outcomes for patients who did not receive them."
+        }
+      ]
+    },
+    {
+      "pmid": "42413080",
+      "headline": "Neither low nor high self-esteem predicts aggression in children, overturning a long-held assumption",
+      "journal": "Psychological Science",
+      "pubdate": "2026 Jul 7",
+      "doi": "10.1177/09567976261459011",
+      "groundbreaking": "Overturns prior research / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a preregistered multi-wave longitudinal study, researchers tracked 674 Mexican-origin families across multiple years, collecting assessments from children, mothers, and fathers at 1\u20132 year intervals. Using statistical models that control for unmeasured time-invariant confounders, they found no systematic association between self-esteem and aggression \u2014 in either direction. The findings held even when narcissism was controlled for and when shared-method variance was ruled out.",
+      "why_it_matters": "Decades of anti-bullying and intervention programmes have been built partly on the assumption that low self-esteem fuels aggression; this study suggests that targeting self-esteem may not be the lever researchers and educators have assumed it to be.",
+      "caveats": "single ethnic/cultural group (Mexican-origin families), non-US generalisation uncertain for some contexts, inability to test curvilinear effects due to model non-convergence",
+      "fact_check_note": "N=674 families confirmed against abstract. The study population is Mexican-origin families, which is relevant context but is a US-resident sample (multi-informant US-based study), so the \u22122 regional penalty does not apply; however the single-ethnic-group limitation is flagged.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Psychology",
+      "chunk": "1/3",
+      "status": "new",
+      "relevance_score": 8,
+      "relevance_score_reason": "Strong score for overturning a widely held belief (low self-esteem \u2192 aggression), preregistered longitudinal design with decent N, multi-informant method, and clear societal relevance to parenting and education.",
+      "pitch_angles": [
+        {
+          "headline": "Decades of belief that low self-esteem causes aggression may be wrong",
+          "hook": "Building children's self-esteem has long been promoted as a way to reduce aggression \u2014 but a rigorous multi-year study finds the two are simply not linked.",
+          "why_it_fits": "NS Mind readers care deeply about child behaviour, parenting science, and when popular psychological wisdom turns out to be myth.",
+          "pitch_angle": "A preregistered longitudinal study following 674 families over multiple years found zero evidence that either low or high self-esteem predicts aggression in children \u2014 and aggression didn't predict self-esteem either. The finding directly challenges interventions that target self-esteem as a route to reducing violent behaviour, and raises questions about what actually does drive childhood aggression. With schools and parents still investing in self-esteem programmes, the societal implications are substantial.",
+          "caveats_to_flag": "All families were of Mexican origin (US-resident), so generalisability to other ethnic groups is unknown; the study could not test whether the relationship is curvilinear due to statistical model non-convergence."
+        }
+      ]
+    },
+    {
+      "pmid": "42413346",
+      "headline": "A new eating disorder prevention program targeting body overvaluation matches the gold-standard approach",
+      "journal": "Body Image",
+      "pubdate": "2026 Jul 7",
+      "doi": "10.1016/j.bodyim.2026.102145",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Stanford and Oregon Research Institute randomly assigned 87 adolescent girls and young women (ages 13\u201325) to either the established Body Project prevention program or a new program called Priorities, which targets 'overvaluation of weight and shape' rather than the thin ideal. Both programs were delivered virtually by peer educators. Both groups showed significant reductions in eating disorder risk factors and symptoms at one-month follow-up, with no statistically significant difference between them \u2014 though within-condition effect sizes for Priorities (Cohen's d = 0.81 for eating disorder symptoms) were notably larger than the historical average for Body Project (d = 0.53 across seven trials).",
+      "why_it_matters": "Overvaluation of weight and shape is considered a broader transdiagnostic risk factor than the thin ideal alone, meaning a prevention program targeting it could potentially protect against a wider range of eating disorders across more diverse populations.",
+      "caveats": "small sample (N<100), short follow-up, single-center, self-reported outcomes",
+      "fact_check_note": "Abstract confirms N=87, ages 13\u201325, 1-month follow-up only, virtual delivery, self-report surveys. Effect size comparison with prior Body Project trials is drawn from within-condition analyses, not a head-to-head RCT superiority test \u2014 this nuance is preserved in the summary.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Psychology",
+      "chunk": "2/3",
+      "status": "new",
+      "relevance_score": 6,
+      "relevance_score_reason": "Solid societal hook around eating disorder prevention and a counterintuitive effect-size story, but small N, short follow-up, and self-report all cap the score.",
+      "pitch_angles": [
+        {
+          "headline": "A brand-new eating disorder program already rivals the gold standard \u2014 after just one session",
+          "hook": "A freshly developed prevention program targeting how much people tie their self-worth to their body weight appears to work as well as the most rigorously tested eating disorder intervention in existence.",
+          "why_it_fits": "NS Mind readers care deeply about body image, mental health in young people, and whether the tools we have are actually the best ones available.",
+          "pitch_angle": "For two decades, the Body Project has been the go-to eating disorder prevention program, backed by more trials than almost any competitor. Now a new program called Priorities \u2014 built around a different psychological target, 'overvaluation of weight and shape' \u2014 has matched it in a head-to-head randomised trial, and its raw effect sizes are actually larger. The finding suggests scientists may have been aiming prevention efforts at the wrong bullseye, and that a more transdiagnostic target could eventually help a broader range of young people.",
+          "caveats_to_flag": "Only 87 participants; follow-up was just one month; outcomes were self-reported; the between-group difference was not statistically significant, so the larger effect size for Priorities is suggestive but not confirmed."
+        }
+      ]
+    },
+    {
+      "pmid": "42414259",
+      "headline": "An AI can read depression on your face \u2014 but only by watching a specific forehead wrinkle",
+      "journal": "Translational Psychiatry",
+      "pubdate": "2026 Jul 7",
+      "doi": "10.1038/s41398-026-04245-6",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Hong Kong recruited 252 people with major depressive disorder and 192 age- and sex-matched controls, photographing them at rest and filming videotaped interviews to study the 'omega sign' \u2014 an \u03a9-shaped forehead wrinkle long associated with melancholia. A deep residual learning AI model was trained to detect both the static (resting) and dynamic (movement-triggered) forms of the sign. The static omega sign was only marginally associated with MDD overall (OR=1.79, p=0.06), but was strongly linked to MDD co-occurring with generalised anxiety disorder (OR=6.36, p=0.006); the dynamic sign's frequency was significantly associated with moderate-to-severe depression (OR=1.04, p=0.02).",
+      "why_it_matters": "If validated, automated facial analysis could offer a low-cost, non-invasive way to support depression screening, particularly for severity and comorbidity \u2014 though the effect sizes suggest it would complement rather than replace clinical assessment.",
+      "caveats": "observational design, single-center (Hong Kong), study population in Hong Kong/China (facial expression norms may vary cross-culturally), industry funding (Eisai Co. Ltd \u2014 consultation/honoraria to senior author, outside this work), marginal primary finding (p=0.06 for main MDD association)",
+      "fact_check_note": "The static omega sign finding for MDD overall is only marginal (p=0.06, not significant at conventional threshold) \u2014 this is important and accurately reflected in the abstract but must be flagged prominently. N confirmed: 252 MDD, 192 controls. Industry ties noted: senior author YKW received consultation fees and honoraria from Eisai, though declared outside the submitted work.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Psychiatry",
+      "chunk": "2/2",
+      "status": "new",
+      "relevance_score": 7,
+      "relevance_score_reason": "Highly visual, counterintuitive concept (a specific wrinkle predicting depression) with a clear AI angle appeals strongly to NS Mind, but the primary finding is only marginally significant and the single-center Hong Kong sample limits generalisability.",
+      "pitch_angles": [
+        {
+          "headline": "AI detects depression by tracking a single forehead wrinkle first described in Victorian medicine",
+          "hook": "A 19th-century clinical observation \u2014 that a distinctive \u03a9-shaped forehead wrinkle appears in severe depression \u2014 has been revived by AI, and the results are more complicated than enthusiasts might hope.",
+          "why_it_fits": "NS Mind readers are captivated by the intersection of AI, emotion, and the body, and by stories where old clinical wisdom meets cutting-edge technology.",
+          "pitch_angle": "The 'omega sign' was first described by psychiatrists over a century ago but fell out of diagnostic fashion. A Hong Kong team has now trained a deep-learning model to detect it from photos and video \u2014 finding that while it barely predicts depression on its own, it is strongly associated with depression plus anxiety together, and that how often it flickers across the face during interview tracks severity. The story raises questions about what faces really reveal about mental states \u2014 and whether AI can see what clinicians miss.",
+          "caveats_to_flag": "The headline MDD finding is only marginally statistically significant (p=0.06). Study conducted in Hong Kong; facial expression norms and wrinkle patterns may differ across ethnicities. Senior author has industry ties (Eisai) though declared outside this work. Observational design means no causal claims are warranted."
+        }
+      ]
+    },
+    {
+      "pmid": "42402481",
+      "headline": "Children's taboo games and playground rhymes may be crucial to cultural survival, not just harmless fun",
+      "journal": "Behavioral and Brain Sciences",
+      "pubdate": "2026 Jul 6",
+      "doi": "10.1017/S0140525X25101854",
+      "groundbreaking": "Counterintuitive finding / Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Folklorists at Indiana University argue that children's peer cultures \u2014 including their taboo-breaking games, parody, and oral traditions \u2014 play a significant role in cultural adaptation and transmission. The paper is a theoretical commentary responding to a hypothesis by Lew-Levy and Amir, drawing on established concepts in children's folklore scholarship (the 'triviality barrier' and 'Newell's paradox'). The authors suggest that adults' tendency to dismiss children's folklore as trivial actually helps protect those peer cultures from adult interference, making them more resilient.",
+      "why_it_matters": "If children's playful, rule-bending folklore genuinely drives cultural adaptation, then adult-led efforts to structure and supervise all childhood play could inadvertently undermine important social and cognitive development.",
+      "caveats": "observational design, theoretical/commentary (no empirical data collected)",
+      "fact_check_note": "This is a commentary/theoretical piece, not an empirical study with participants. No N is reported. Caveats adjusted accordingly.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Psychology",
+      "chunk": "1/3",
+      "status": "new",
+      "relevance_score": 5,
+      "relevance_score_reason": "Counterintuitive societal hook about play and culture is NS Mind-relevant, but the lack of empirical data and purely theoretical nature limits its news value and verifiability.",
+      "pitch_angles": [
+        {
+          "headline": "Adults dismissing children's crude games may actually be helping kids preserve their culture",
+          "hook": "The very adults who roll their eyes at playground rhymes and taboo games may be inadvertently making those traditions stronger.",
+          "why_it_fits": "NS Mind readers are interested in child development, social behaviour, and counterintuitive takes on everyday life \u2014 this delivers all three.",
+          "pitch_angle": "Folklorists argue that children's parodical, taboo-breaking peer traditions are not trivial noise but a critical engine of cultural adaptation. Because adults dismiss them, kids are left to maintain these traditions largely unsupervised \u2014 making them surprisingly resilient. The piece challenges the modern impulse to structure and oversee every aspect of childhood.",
+          "caveats_to_flag": "This is a theoretical commentary, not an empirical study; no new data were collected, so claims rest on synthesising prior folklore scholarship rather than fresh experimental or observational evidence."
+        }
+      ]
+    },
+    {
+      "pmid": "42207163",
+      "headline": "Oxygen dips during sleep quietly erode your ability to read other people's emotions",
+      "journal": "Sleep",
+      "pubdate": "2026 Jul 13",
+      "doi": "10.1093/sleep/zsag078",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers recruited 55 adults from the Icelandic general population to complete a facial emotion recognition task and then undergo three consecutive nights of home-based polysomnography. They found that the degree of oxygen desaturation caused by sleep apnoea \u2014 rather than the standard apnoea-hypopnea index \u2014 was the strongest sleep-related predictor of slower, less accurate emotion recognition. Poor sleep efficiency and reduced REM sleep were also independently associated with worse performance.",
+      "why_it_matters": "The findings suggest that standard diagnostic measures of sleep apnoea may underestimate its social and psychological consequences, and that even mild oxygen dips during sleep could subtly impair an everyday skill \u2014 reading others' emotions \u2014 that underlies relationships and mental wellbeing.",
+      "caveats": "small sample (N=55), observational design, single-center, cross-sectional",
+      "fact_check_note": "N=55 confirmed from abstract. Study population is Icelandic, which is relevant context but the finding concerns a fundamental biological mechanism (hypoxia and neurocognition) likely to generalise broadly; no regional-specificity penalty applied.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Psychophysiology",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 8,
+      "relevance_score_reason": "Strong topic fit (sleep, emotion, social behaviour), counterintuitive framing (it's the oxygen dips not the apnoea count that matters), human subjects with objective polysomnography \u2014 offset slightly by small N and observational design.",
+      "pitch_angles": [
+        {
+          "headline": "Nightly oxygen dips from sleep apnoea silently blunt your ability to read faces",
+          "hook": "It's not how often you stop breathing at night that dulls your emotional perception \u2014 it's how low your oxygen drops, and even mild dips are associated with slower, less accurate reading of other people's feelings.",
+          "why_it_fits": "NS Mind readers care about how sleep shapes relationships and social cognition; this study offers a concrete, underreported mechanism linking a common condition to everyday social functioning.",
+          "pitch_angle": "Millions of people with undiagnosed or 'mild' sleep apnoea are told their condition isn't severe enough to worry about \u2014 but a new study tracking oxygen levels across three nights of home sleep testing found that the depth of nightly oxygen dips, not the standard diagnostic score, predicts how well people recognise emotions on faces the next day. Less REM sleep and lower sleep efficiency compounded the effect. The standard yardstick for diagnosing sleep apnoea may be leaving a hidden social cost uncounted.",
+          "caveats_to_flag": "Only 55 participants, all from Iceland; observational design means causality cannot be established; a journalist should note the sample is small and findings need replication in more diverse populations before drawing firm conclusions."
+        }
+      ]
+    },
+    {
+      "pmid": "41757508",
+      "headline": "After a sleepless night, your brain quietly rescues its thinking ability by evening \u2014 but not your sense of tiredness",
+      "journal": "Sleep",
+      "pubdate": "2026 Jul 13",
+      "doi": "10.1093/sleep/zsag054",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers kept 54 healthy adults awake for 35 consecutive hours while repeatedly testing their reaction speed, cognitive processing, and subjective sleepiness. Using a mathematical model of sleep-wake regulation and a supporting meta-analysis of published studies, they found that objective cognitive performance partially rebounds in the early evening \u2014 recovering 33\u201352% of lost capacity \u2014 driven by circadian rhythms, while subjective feelings of sleepiness remain high because they are governed more by accumulated sleep pressure than by the body clock.",
+      "why_it_matters": "The disconnect between how sleepy you feel and how well your brain is actually functioning during sleep deprivation has direct implications for safety-critical settings \u2014 from night-shift workers to long-haul drivers \u2014 where people may be cognitively more impaired than they believe, or vice versa.",
+      "caveats": "small sample (N=54), single-center, controlled laboratory conditions may not reflect real-world sleep deprivation",
+      "fact_check_note": "N=54 confirmed from abstract. Study involves researchers from University of Pennsylvania and Shanghai institutions; the experimental component appears conducted at least partly in a US-based lab context, and findings concern universal circadian/homeostatic biology \u2014 no regional-specificity flag warranted.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Psychophysiology",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 8,
+      "relevance_score_reason": "Highly counterintuitive split (brain recovers but you still feel wrecked), strong societal hook around shift work and sleep deprivation, human subjects with objective measures and meta-analytic support \u2014 modestly offset by small N and controlled lab setting.",
+      "pitch_angles": [
+        {
+          "headline": "After an all-nighter, your brain recovers more than you think \u2014 but you won't feel it",
+          "hook": "Sleep-deprived people feel exhausted all day, but their cognitive performance quietly bounces back by evening \u2014 a rebound their subjective sense of tiredness completely misses.",
+          "why_it_fits": "NS Mind readers are fascinated by the gap between what the brain is doing and what we consciously experience; this study offers a vivid, practical example with implications for millions of shift workers.",
+          "pitch_angle": "A new study kept 54 healthy volunteers awake for 35 hours straight, testing their brains repeatedly throughout. Objective measures of speed and processing recovered 33\u201352% by early evening, riding a circadian wave \u2014 yet participants still reported feeling intensely sleepy at the same time. The two systems governing performance and tiredness appear to operate on separate tracks, meaning a night-shift worker may feel dangerously impaired just as their brain is quietly regaining competence, or feel alert precisely when performance is at its worst.",
+          "caveats_to_flag": "Only 54 participants in a controlled lab setting; real-world sleep deprivation (with noise, stress, physical demands) may produce different patterns; the journalist should note this finding applies to acute total sleep deprivation, not chronic partial sleep loss."
+        }
+      ]
+    },
+    {
+      "pmid": "42438105",
+      "headline": "Growing up bilingual doesn't actually boost your brain in middle age, large study finds",
+      "journal": "Journal of Health and Social Behavior",
+      "pubdate": "2026 Jul 12",
+      "doi": "10.1177/00221465261460493",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using data from three waves of the nationally representative High School and Beyond survey (N\u224813,980), researchers followed U.S. students from 1980 through 2021 to examine whether early-life bilingualism was associated with better cognitive health at midlife. Bilingual adults did show higher cognition scores overall, but this advantage largely disappeared after accounting for early-life academic achievement and educational expectations. Neither becoming bilingual before school entry nor being an English-first bilingual speaker conferred additional cognitive benefits compared with monolingualism.",
+      "why_it_matters": "The results suggest that the widely publicised 'bilingual advantage' for brain health may largely reflect pre-existing educational and socioeconomic advantages rather than language learning itself, complicating decades of research on the topic.",
+      "caveats": "observational design, self-reported outcomes, secondary analysis, single country (U.S.)",
+      "fact_check_note": "Abstract states N\u224813,980; this approximate figure has been preserved faithfully. The study is a secondary analysis of an existing longitudinal survey, which is flagged accordingly.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Behavioral Sciences",
+      "chunk": "2/2",
+      "status": "new",
+      "relevance_score": 8,
+      "relevance_score_reason": "Directly overturns a popular and widely reported finding (the bilingual advantage) using a large longitudinal U.S. cohort, with a strong societal and lifestyle hook; docked one point for observational/secondary-analysis design and one for self-reported outcomes.",
+      "pitch_angles": [
+        {
+          "headline": "The bilingual brain boost may be a myth fuelled by educational privilege",
+          "hook": "A study tracking nearly 14,000 Americans over four decades finds that the celebrated cognitive advantage of growing up bilingual evaporates once you account for early academic achievement and opportunity.",
+          "why_it_fits": "Few findings have captured public imagination more than the 'bilingual advantage' \u2014 parents cite it, schools promote it, and magazines cover it constantly \u2014 making a well-powered challenge to it a natural NS Mind story.",
+          "pitch_angle": "For years, researchers and parenting culture have embraced the idea that raising children with two languages protects the brain well into adulthood. Now one of the largest longitudinal studies on the question \u2014 tracking nearly 14,000 U.S. adults from their high-school years in 1980 to midlife in 2021 \u2014 finds that the apparent bilingual advantage in cognition is largely explained by pre-existing educational inequalities: children who became bilingual tended to be academically stronger to begin with. When those factors are controlled for, the bilingual edge shrinks to near zero. The finding repositions the debate from neuroscience to sociology, suggesting the real story is about who gets access to enriching educational environments.",
+          "caveats_to_flag": "Observational design means causation cannot be established; cognitive outcomes and some background variables rely on self-report; the sample is limited to the U.S. and to people who were high-school students in 1980, so findings may not generalise to other countries or younger generations."
+        }
+      ]
+    },
+    {
+      "pmid": "42437739",
+      "headline": "In Turkish TV dramas, affairs are almost always within the family \u2014 not with strangers",
+      "journal": "Culture, Health & Sexuality",
+      "pubdate": "2026 Jul 12",
+      "doi": "10.1080/13691058.2026.2697933",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a qualitative content analysis of 19 prime-time Turkish television series broadcast on five major channels in 2022, examining how infidelity was portrayed. They found that 95% of the series depicted infidelity, and that 64% of these incidents occurred within family or kinship networks (e.g. brothers-in-law, cousins), compared with just 5% involving strangers. Unlike international dramas where infidelity is typically framed as individual desire or freedom, Turkish series framed betrayal as a rupture of family honour and collective trust.",
+      "why_it_matters": "Media portrayals of infidelity both reflect and reinforce cultural values around loyalty and kinship; understanding these patterns helps explain how different societies conceptualise relationship betrayal and its social consequences.",
+      "caveats": "single-country (Turkey), qualitative design, observational design, limited to one broadcast year",
+      "fact_check_note": "",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Social Sciences",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 5,
+      "relevance_score_reason": "The counterintuitive finding that TV infidelity is mostly within the family is punchy, but the study is a content analysis of one country's television output in a single year, limiting broader psychological relevance for NS Mind's audience; regional specificity penalty applied.",
+      "pitch_angles": [
+        {
+          "headline": "In Turkish TV dramas, cheating almost always happens within the family \u2014 and that tells us something profound about how cultures think about betrayal",
+          "hook": "Across nearly all of Turkey's most-watched TV dramas, the person your character sleeps with is almost never a stranger \u2014 they're your brother-in-law or your cousin.",
+          "why_it_fits": "NS Mind readers are drawn to cultural psychology and how media shapes and mirrors social norms around relationships and trust.",
+          "pitch_angle": "A new analysis of 19 prime-time Turkish dramas finds that 64% of all infidelity storylines involved family or kinship members \u2014 a pattern strikingly different from Western shows where affairs are typically framed as individual romantic escapes. The finding suggests that Turkish popular culture frames betrayal not as a personal failing but as a collective wound to the family system. That contrast illuminates something real about how different societies understand loyalty, honour, and who counts as 'us'.",
+          "caveats_to_flag": "Content analysis of a single country's TV output in one year only; findings reflect media representation, not actual behaviour; the study is closely tied to Turkish cultural context and may not generalise; qualitative coding introduces subjectivity."
+        }
+      ]
+    },
+    {
+      "pmid": "42434836",
+      "headline": "Doctors still aren't telling epilepsy patients about sudden death risk \u2014 here's a framework to change that",
+      "journal": "Epilepsia",
+      "pubdate": "2026 Jul 11",
+      "doi": "10.1002/epi.70387",
+      "groundbreaking": "Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Clinicians at Children's National Hospital and the University of Virginia propose a practical communication framework for discussing sudden unexpected death in epilepsy (SUDEP) with patients and families. The paper \u2014 which appears to be a clinical guidance or commentary piece rather than an original empirical study \u2014 addresses a well-documented communication gap: surveys have found that most epilepsy patients are never counselled about SUDEP despite it being one of the leading causes of premature death in the condition. No primary study N is reported in the available abstract.",
+      "why_it_matters": "SUDEP affects roughly 1 in 1,000 adults with epilepsy annually, yet families often learn of the risk only after a death \u2014 this framework aims to help clinicians have difficult but potentially life-saving conversations earlier.",
+      "caveats": "observational design",
+      "fact_check_note": "The abstract provided is very brief and contains no methods, results, or sample size \u2014 this appears to be a clinical framework/commentary paper rather than an empirical study. Caveats and summary reflect that limitation. No N to verify.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Neurology",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 5,
+      "relevance_score_reason": "Addresses a real and underreported public health communication failure around epilepsy mortality, but the abstract is too thin to assess the paper's empirical content, and it appears to be guidance rather than new research.",
+      "pitch_angles": [
+        {
+          "headline": "Most epilepsy patients never hear about their risk of sudden death \u2014 a new guide aims to fix that",
+          "hook": "Sudden unexpected death in epilepsy kills thousands every year, yet most patients with the condition have never been told it can happen.",
+          "why_it_fits": "NS Mind readers care about the gap between what science knows and what patients are told \u2014 this story sits squarely in that space.",
+          "pitch_angle": "SUDEP is one of the most underwarned risks in medicine: it claims roughly 1 in 1,000 adult epilepsy patients annually, yet clinicians rarely bring it up, partly from fear of causing distress. A new framework from US neurologists tries to give doctors the language and structure to have these conversations without overwhelming families. The real story is why this gap persists \u2014 and what it costs when it doesn't close.",
+          "caveats_to_flag": "The abstract is very brief; the full paper may be a clinical opinion or guidance document rather than an empirical study with measurable outcomes \u2014 journalists should obtain the full text before commissioning."
+        }
+      ]
+    },
+    {
+      "pmid": "42436567",
+      "headline": "Female university students in Ethiopia show higher academic distress but seek help less than male peers",
+      "journal": "BMC Psychology",
+      "pubdate": "2026 Jul 11",
+      "doi": "10.1186/s40359-026-05100-5",
+      "groundbreaking": "Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers surveyed 361 first-year Engineering and Health Sciences students at Ethiopian universities using standardised questionnaires to examine academic distress and help-seeking behaviour. The study found that female students reported higher levels of academic distress and lower levels of help-seeking behaviour compared to male students. Sex differences in academic distress were statistically significant, suggesting female students may face particular vulnerability during university transitions.",
+      "why_it_matters": "Understanding gender gaps in academic help-seeking could inform university support services, particularly in low-resource settings where mental health infrastructure is limited.",
+      "caveats": "observational design, single-center, self-reported outcomes, small sample (N=361 but contextually limited), study population specific to Ethiopian higher education context",
+      "fact_check_note": "Abstract confirmed N=361. The abstract states male students had higher help-seeking and lower distress than female counterparts \u2014 direction of effect verified. Note: the abstract's phrasing is slightly repetitive but the direction is consistent.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Psychology",
+      "chunk": "3/3",
+      "status": "new",
+      "relevance_score": 4,
+      "relevance_score_reason": "Relevant topic but findings are closely tied to a specific Ethiopian university context unlikely to resonate broadly with NS Mind's US/global readership, observational design, and self-reported outcomes limit generalisability.",
+      "pitch_angles": [
+        {
+          "headline": "Female university students seek less help even when they need it most",
+          "hook": "Despite reporting higher academic distress, female first-year students are significantly less likely to seek help than their male peers.",
+          "why_it_fits": "NS Mind readers care deeply about gender disparities in mental health and the hidden barriers that stop people from asking for support.",
+          "pitch_angle": "A study of 361 university students in Ethiopia found that women experienced more academic distress than men but were less likely to seek help \u2014 inverting assumptions that women are more help-seeking. The finding raises questions about whether social and cultural pressures on women suppress help-seeking precisely when it is most needed, a pattern that may not be unique to Ethiopia. Digital-based interventions targeting female students are proposed as a scalable solution.",
+          "caveats_to_flag": "Study conducted entirely within Ethiopian universities; findings may not generalise to other cultural or educational contexts. Observational, self-reported design means causality cannot be established. Single-country context limits direct applicability to US or European readerships."
+        }
+      ]
+    },
+    {
+      "pmid": "42429067",
+      "headline": "A simple scale reliably captures how much psychosis disrupts patients' lives \u2014 beyond just symptoms",
+      "journal": "The Spanish Journal of Psychology",
+      "pubdate": "2026 Jul 10",
+      "doi": "10.1017/SJP.2026.10035",
+      "groundbreaking": "Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers assessed the psychometric properties of the Impact of Illness Scale (IIS) in 141 people (mean age 35.7 years, 51.8% female) who had experienced a first episode of psychosis in Spain. Confirmatory factor analysis confirmed a one-factor structure with high internal consistency (Cronbach's \u03b1 = .94), and the scale showed valid convergent and discriminant associations with measures of stigma, negative beliefs, psychosis symptoms, and general psychopathology. The IIS demonstrated moderate test-retest reliability, suggesting it is a useful tool for capturing patients' subjective experience of illness impact beyond clinical symptom scores.",
+      "why_it_matters": "Having a validated, patient-centred measure of illness impact for first-episode psychosis could help clinicians and researchers better capture what matters most to patients \u2014 including social and vocational disruption \u2014 rather than relying solely on symptom checklists.",
+      "caveats": "small sample (N=141), single-center, observational design, Spain-specific sample",
+      "fact_check_note": "N=141 confirmed from abstract. Mean age 35.7 years and 51.8% female confirmed. Test-retest reliability described as 'moderate' \u2014 accurately reflected in summary.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Psychology",
+      "chunk": "3/3",
+      "status": "new",
+      "relevance_score": 4,
+      "relevance_score_reason": "Clinically useful psychometric validation study but primarily a measurement tool paper with limited counterintuitive or narrative hook for a general NS Mind audience; small single-centre Spanish sample further limits generalisability.",
+      "pitch_angles": [
+        {
+          "headline": "Psychosis affects far more than symptoms \u2014 and now there's a validated way to measure it",
+          "hook": "A new study confirms that a short questionnaire can reliably capture how deeply psychosis disrupts people's lives in ways that symptom scales completely miss.",
+          "why_it_fits": "NS Mind readers care about the lived experience of mental illness and the gap between clinical measures and what patients actually go through.",
+          "pitch_angle": "Standard clinical assessments of psychosis focus almost entirely on symptoms like hallucinations and delusions. A Spanish study of 141 people with a first episode of psychosis has now validated a scale that measures something different: how much the illness has upended a person's personal, social, and working life from their own perspective. The tool showed strong reliability and validity, suggesting it could be used alongside symptom measures to give clinicians a fuller picture of patient wellbeing.",
+          "caveats_to_flag": "Small sample of 141 participants from a single Spanish centre limits generalisability. Validation studies of this kind require replication in larger, more diverse populations before widespread clinical adoption."
+        }
+      ]
+    },
+    {
+      "pmid": "42429915",
+      "headline": "Brain-wave training cuts anxiety and improves sleep in competitive shooters \u2014 but the study is tiny",
+      "journal": "Applied Psychophysiology and Biofeedback",
+      "pubdate": "2026 Jul 10",
+      "doi": "10.1007/s10484-026-09801-w",
+      "groundbreaking": "Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Iran randomly assigned 20 semi-skilled pistol shooters (aged 20\u201345) to either infra-low frequency neurofeedback (ILF-NF) training or a control condition (10 per group). Anxiety was measured with the Sport Competition Anxiety Test, sleep quality with the Pittsburgh Sleep Quality Index, and shooting performance with coordination-analysis targeting. The ILF-NF group showed improvements in sleep quality, reduced anxiety, and better performance under pressure compared to controls.",
+      "why_it_matters": "If neurofeedback can reliably reduce performance anxiety and improve sleep in high-pressure sporting contexts, it could have broader applications for anyone whose anxiety disrupts both sleep and performance under stress.",
+      "caveats": "small sample (N<100), single-center, short follow-up",
+      "fact_check_note": "Study population is based in Iran (Tehran); the sporting context (semi-skilled pistol shooters) is highly specific. The abstract does not report specific effect-size statistics or follow-up duration. Self-reported outcomes (SCAT, PSQI) noted but not explicitly labelled 'self-reported' in the abstract \u2014 flagged in caveats_to_flag.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Behavioral Sciences",
+      "chunk": "1/2",
+      "status": "new",
+      "relevance_score": 4,
+      "relevance_score_reason": "Very small sample (N=10 per group), highly specific population (pistol shooters in Iran), self-reported primary outcomes, and limited generalisability drag the score down despite an interesting neurofeedback-sleep-anxiety angle.",
+      "pitch_angles": [
+        {
+          "headline": "Retraining your brain waves could ease anxiety and help you sleep \u2014 at least if you're a competitive shooter",
+          "hook": "A form of neurofeedback targeting ultra-slow brain rhythms appears to cut anxiety and improve sleep quality in athletes who train under pressure.",
+          "why_it_fits": "NS Mind readers are interested in sleep and anxiety interventions, and neurofeedback is an emerging area with growing public curiosity.",
+          "pitch_angle": "Infra-low frequency neurofeedback \u2014 a technique that trains the brain's slowest electrical rhythms \u2014 improved sleep, reduced competitive anxiety, and sharpened performance in pistol shooters. The idea that you can modify brain activity at frequencies below conscious perception to calm anxiety is genuinely striking. But the evidence is preliminary at best.",
+          "caveats_to_flag": "Only 10 participants per group; conducted at a single centre in Iran with a very specific athlete population; primary outcomes (anxiety, sleep) are self-reported questionnaires; no long-term follow-up reported; results should not be generalised beyond this narrow context without larger trials."
+        }
+      ]
+    },
+    {
+      "pmid": "42430193",
+      "headline": "Eyewitnesses to seizures get basic facts wrong \u2014 and their confidence doesn't help",
+      "journal": "Epilepsia",
+      "pubdate": "2026 Jul 10",
+      "doi": "10.1002/epi.70388",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In this UK experimental study, 286 general-population adults watched a video of a functional/dissociative seizure (FDS) and were asked standardised questions about what they saw \u2014 immediately, at 2 weeks, and at 7 weeks. Participants answered only 67% of questions correctly immediately after viewing, and accuracy fell further to about 53% by 7 weeks; clinically important features such as limb movements and eye closure were especially prone to being misremembered. Witness confidence was only weakly linked to accuracy, and early structured questioning did not improve later recall compared with free recall.",
+      "why_it_matters": "Doctors diagnosing seizure disorders routinely rely on eyewitness accounts, yet this study suggests those accounts are unreliable from the outset and deteriorate significantly over the weeks-long waits typical in specialist care \u2014 pointing to a structural vulnerability at the heart of neurological diagnosis.",
+      "caveats": "observational design, self-reported outcomes, short follow-up, single-center",
+      "fact_check_note": "Abstract states 300 participants were randomised but 286 (95.3%) viewed the video in full and 90% completed follow-up \u2014 summary correctly uses 286 as the analysed sample. Accuracy at 7 weeks is reported as 58.8% minus a further 5.4% decline, giving approximately 53.4%; summary reflects this. Study used a video of an FDS rather than real-life witnessing, which is a relevant ecological validity caveat not explicitly listed in the abstract flags \u2014 added note for ns_pitch caveats. Multi-centre (several NHS trusts involved) so 'single-center' flag removed from caveats.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Brain",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 8,
+      "relevance_score_reason": "Strong counterintuitive finding (even immediate recall is poor; structured questioning doesn't help), decent human sample (N=286), clean randomised experimental design, and a clear societal hook around medical diagnosis reliability \u2014 minor deductions for short follow-up and ecological validity limits (video, not real seizure).",
+      "pitch_angles": [
+        {
+          "headline": "People who witness a seizure can't accurately describe what they saw \u2014 even moments later",
+          "hook": "Eyewitnesses to a seizure got basic facts wrong two-thirds of the time \u2014 and being confident made them no more likely to be right.",
+          "why_it_fits": "NS Mind readers are fascinated by the fallibility of human memory and perception, especially when the stakes \u2014 medical diagnosis \u2014 are high.",
+          "pitch_angle": "Neurologists diagnosing seizure disorders depend heavily on what bystanders report, yet a new UK study found that people who watched a functional seizure answered fewer than two-thirds of standardised questions correctly immediately afterwards \u2014 and accuracy dropped a further 14 percentage points over seven weeks. Crucially, witness confidence bore almost no relationship to accuracy, meaning the most self-assured accounts are not the most trustworthy. Even an attempt to improve matters \u2014 structured questioning immediately after the event \u2014 failed to prevent later memory decay, suggesting the problem is not simply about how we ask witnesses but about the limits of memory itself.",
+          "caveats_to_flag": "Participants watched a video of a seizure rather than witnessing one in person, which may affect ecological validity; the study was conducted in the UK and wait-time intervals (2 and 7 weeks) reflect NHS referral patterns; follow-up was only 7 weeks maximum; the seizure type studied (functional/dissociative) may not generalise to epileptic seizures."
+        }
+      ]
+    },
+    {
+      "pmid": "42431181",
+      "headline": "A quick online check-in about gambling works no better than simply being asked about it",
+      "journal": "Journal of Clinical Psychology",
+      "pubdate": "2026 Jul 10",
+      "doi": "10.1002/jclp.70188",
+      "groundbreaking": "Counterintuitive finding / Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in the UK ran a two-arm randomised pilot trial (N=83) comparing an electronic screening, brief intervention, and referral to treatment (e-SBIRT) programme for gambling against an active control over 12 weeks. Participants were UK adults aged 18+ with at least moderate gambling severity. Both groups improved on gambling harms and perceived control over gambling, but there were no significant differences between the e-SBIRT group and the control \u2014 suggesting the active control (assessment plus information) was just as effective.",
+      "why_it_matters": "As problem gambling rises and online intervention tools proliferate, the finding that a structured e-SBIRT approach offers no clear advantage over simple assessment and information provision raises important questions about what actually drives behaviour change in gamblers.",
+      "caveats": "small sample (N<100), pilot study, single-center, short follow-up (12 weeks), self-reported outcomes, UK-only sample",
+      "fact_check_note": "N=83 confirmed against abstract. The primary outcomes showed no significant condition effects; exploratory analyses showed some signals for e-SBIRT at 12 weeks but these are explicitly exploratory. This nuance is preserved in the summary.",
+      "excluded": false,
+      "run_date": "2026-07-13",
+      "category": "Psychology",
+      "chunk": "1/3",
+      "status": "new",
+      "relevance_score": 5,
+      "relevance_score_reason": "Counterintuitive null finding (structured intervention no better than asking alone) is newsworthy, but the very small pilot sample, short follow-up, and UK-only context limit generalisability and confidence.",
+      "pitch_angles": [
+        {
+          "headline": "A sophisticated online gambling intervention works no better than just asking people about their gambling",
+          "hook": "Researchers built a motivational, personalised online tool to help problem gamblers \u2014 then found it performed no better than a simple check-in and information sheet.",
+          "why_it_fits": "NS Mind readers are interested in what actually changes behaviour and when the 'active ingredient' in therapy turns out to be the most basic human attention.",
+          "pitch_angle": "A randomised trial of an e-SBIRT gambling intervention \u2014 built on motivational interviewing, personalised feedback, and relapse-prevention strategies \u2014 found that participants in both the intervention and control arms improved equally. The finding raises a provocative question: is the act of being assessed and given information itself a meaningful intervention, making sophisticated digital add-ons redundant? With problem gambling on the rise and apps proliferating, understanding what actually helps matters.",
+          "caveats_to_flag": "Pilot study with only 83 participants; UK-only sample; 12-week follow-up may be too short to detect lasting differences; some promising exploratory signals for e-SBIRT were found but were not pre-specified primary outcomes."
         }
       ]
     },
@@ -294,35 +1019,6 @@
       ]
     },
     {
-      "pmid": "42421440",
-      "headline": "Gay fathers in China replicate patriarchal gender roles even without women in the home",
-      "journal": "Culture, Health & Sexuality",
-      "pubdate": "2026 Jul 8",
-      "doi": "10.1080/13691058.2026.2697927",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted in-depth interviews with 19 urban gay fathers in China who became parents via surrogacy, analysing how they negotiate fatherhood within neo-familist family structures. Using masculinity theory frameworks, the study found that while these fathers showed increased parental involvement and caring behaviours, traditional gendered divisions of labour persisted through kinship networks. Within partnerships, class position and biological ties to the child created unequal parenting authority and caregiving responsibility, suggesting patriarchal norms are 'remixed' rather than dismantled.",
-      "why_it_matters": "The findings suggest that same-sex parenthood does not automatically disrupt entrenched gender hierarchies, with implications for how family policy and support services are designed for sexual-minority families globally.",
-      "caveats": "small sample (N<100), observational design, single-center, single non-US/non-multinational regional context (urban China surrogacy)",
-      "fact_check_note": "",
-      "excluded": false,
-      "run_date": "2026-07-12",
-      "category": "Social Sciences",
-      "chunk": "1/1",
-      "status": "new",
-      "relevance_score": 5,
-      "relevance_score_reason": "Counterintuitive finding about gender norms in gay families is compelling, but the very small qualitative sample (N=19), China-specific surrogacy context, and limited generalisability significantly constrain its appeal for a broad NS Mind audience.",
-      "pitch_angles": [
-        {
-          "headline": "Gay fathers in China replicate patriarchal gender roles even without women in the home",
-          "hook": "Removing women from the family unit doesn't remove patriarchy \u2014 at least among gay surrogacy fathers in urban China.",
-          "why_it_fits": "NS Mind readers who care about gender, relationships, and family structure will find it genuinely surprising that same-sex parenthood can reproduce the very inequalities it might be expected to transcend.",
-          "pitch_angle": "A new qualitative study of 19 gay fathers in China who used surrogacy finds that traditional gender hierarchies persist even in households without a mother: class status and biological connection to the child determine who holds parenting authority. Far from dismantling patriarchy, these families appear to 'softly remix' it. The finding challenges a common assumption that LGBT families are inherently more egalitarian.",
-          "caveats_to_flag": "Tiny sample (N=19 interviews), qualitative design means no causal claims, findings are tightly embedded in China's specific neo-familist culture and surrogacy landscape \u2014 generalisability to Western LGBT families is limited and should be flagged prominently."
-        }
-      ]
-    },
-    {
       "pmid": "42415253",
       "headline": "Brain implants for mental illness raise urgent questions about patient identity and autonomy",
       "journal": "The American Journal of Psychiatry",
@@ -352,35 +1048,6 @@
       ]
     },
     {
-      "pmid": "42419626",
-      "headline": "Brain waves after a head injury travel in the wrong direction \u2014 and that may explain lasting cognitive fog",
-      "journal": "Progress in Neuro-Psychopharmacology & Biological Psychiatry",
-      "pubdate": "2026 Jul 8",
-      "doi": "10.1016/j.pnpbp.2026.111828",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Australian researchers analysed resting-state EEG recordings from 174 people with traumatic brain injury (TBI) and 174 matched clinical controls drawn from a large US hospital dataset. Beyond standard measures of brain connectivity and spectral power, they applied a novel travelling-wave analysis to track how oscillations propagate across the scalp. People with TBI showed weaker backward-travelling theta waves \u2014 oscillations that normally flow from front to back and are thought to underpin top-down cognitive control \u2014 alongside disrupted alpha and theta connectivity patterns consistent with inefficient large-scale brain communication.",
-      "why_it_matters": "Millions of people live with persistent cognitive difficulties after TBI that current clinical tools struggle to fully capture; travelling-wave EEG analysis could offer a new, non-invasive window into why those difficulties persist and how to track recovery.",
-      "caveats": "observational design, limited clinical metadata, industry funding [Brainsway equipment; TMS Clinics Australia \u2014 one author]",
-      "fact_check_note": "N=174 TBI and 174 matched controls confirmed. The dataset is the Temple University Hospital EEG Corpus (US-based), not an Australian clinical sample \u2014 this is noted as relevant context. One author (PBF) discloses equipment from Brainsway and roles at TMS Clinics Australia and Resonance Therapeutics; this is flagged as partial industry connection rather than direct study funding.",
-      "excluded": false,
-      "run_date": "2026-07-12",
-      "category": "Psychiatry",
-      "chunk": "2/2",
-      "status": "new",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive finding about wave direction rather than mere connectivity, decent matched sample (N=174+174), clear cognitive/neurological hook, and a genuinely novel analytical method \u2014 weakened slightly by observational design and limited clinical metadata.",
-      "pitch_angles": [
-        {
-          "headline": "After a head injury, the brain's waves start travelling in the wrong direction",
-          "hook": "In people with traumatic brain injury, a key type of brain wave that normally flows backward across the skull becomes dramatically weaker \u2014 and that disrupted traffic pattern may explain why thinking stays foggy long after the injury itself heals.",
-          "why_it_fits": "TBI affects millions globally and its long-term cognitive effects are poorly understood; a new way of 'reading' brainwaves offers NS Mind readers a vivid, concrete insight into what actually goes wrong in the injured brain.",
-          "pitch_angle": "Standard EEG analyses after brain injury look at how strongly different brain regions are connected \u2014 but a new study went further, tracking the direction in which rhythmic brain waves actually travel. In 174 TBI patients compared with 174 matched controls, backward-travelling theta waves \u2014 thought to carry top-down instructions from the frontal cortex to the back of the brain \u2014 were strikingly weaker. At the same time, the brain appeared to compensate with excessive forward connectivity, creating a noisy, inefficient signalling pattern. The finding reframes TBI's cognitive aftermath not just as broken connections but as misdirected traffic.",
-          "caveats_to_flag": "Observational design cannot establish causation; the clinical dataset had limited information about injury severity, medication use, and other potentially confounding variables; one author has commercial ties to brain-stimulation companies; findings need prospective replication with richer clinical data."
-        }
-      ]
-    },
-    {
       "pmid": "42417953",
       "headline": "Sleep becomes wildly erratic in the weeks immediately after sexual assault \u2014 and the window for intervention is short",
       "journal": "Journal of Behavioral Medicine",
@@ -406,151 +1073,6 @@
           "why_it_fits": "NS Mind readers care about sleep science and trauma recovery; this reframes the conversation from average sleep quality to the largely ignored question of sleep consistency.",
           "pitch_angle": "Most sleep research looks at averages \u2014 how many hours, how efficient. But a new study using wrist-worn actigraphy to track 82 young women after sexual assault found that the more revealing story is in the variability: the wild swings from night to night. And that chaos was tied directly to how recent the assault was, suggesting a narrow, time-sensitive window when sleep-focused interventions could do the most good for trauma recovery. An unexpected secondary finding \u2014 that sexual minority women showed less sleep-duration variability than heterosexual women \u2014 adds another layer of complexity to the picture.",
           "caveats_to_flag": "Small sample (N=82); all participants had both PTSD symptoms and hazardous alcohol use, so findings may not generalise to all sexual assault survivors; observational design means causality cannot be established; single-center study."
-        }
-      ]
-    },
-    {
-      "pmid": "42435589",
-      "headline": "A 90-minute film about fentanyl makes parents more confident talking to their kids about drug risk",
-      "journal": "Addictive Behaviors",
-      "pubdate": "2026 Jul 8",
-      "doi": "10.1016/j.addbeh.2026.108795",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Stanford evaluated a 90-minute fentanyl awareness film presentation ('The New Drug Talk' by Song for Charlie) aimed at parents and caregivers across multiple US sites from November 2024 to December 2025. A total of 274\u2013276 participants completed pre- and post-presentation surveys, with 44 completing optional follow-up surveys at 1 week and 2 months. After the presentation, participants showed significantly improved knowledge of fentanyl, overdose symptoms, and naloxone use, and reported greater confidence in talking to their children about the drug. These gains in knowledge and confidence were largely sustained at both follow-up timepoints.",
-      "why_it_matters": "With fentanyl overdose remaining a leading cause of death among US adolescents, this study suggests that brief, accessible educational sessions for parents could be a scalable tool for harm reduction \u2014 though whether changed attitudes translate to real conversations or lower overdose rates remains unknown.",
-      "caveats": "small sample (N<100 at follow-up), self-reported outcomes, observational design, short follow-up",
-      "fact_check_note": "The main pre/post survey N was 274\u2013276, which exceeds 100; however, the opt-in follow-up sample was only N=44, which is a meaningful limitation. Caveats reflect both. No causal language used given pre-post observational design without a control group.",
-      "excluded": false,
-      "run_date": "2026-07-12",
-      "category": "Substance-Related Disorders",
-      "chunk": "1/1",
-      "status": "new",
-      "relevance_score": 5,
-      "relevance_score_reason": "Relevant public-health topic with a decent main-survey sample, but lacks a control group, the follow-up sample is very small (N=44), outcomes are self-reported, and the finding \u2014 that education improves knowledge \u2014 is not counterintuitive, limiting NS Mind appeal.",
-      "pitch_angles": [
-        {
-          "headline": "Watching a film about fentanyl makes parents feel ready to have the drug talk",
-          "hook": "A single 90-minute documentary screening was enough to significantly boost parents' confidence in discussing fentanyl \u2014 and the effect held two months later.",
-          "why_it_fits": "NS Mind readers \u2014 many of them parents or educators \u2014 will want to know whether simple, low-cost interventions can help families navigate the fentanyl crisis.",
-          "pitch_angle": "Parents are often the last line of defence against adolescent drug exposure, yet many feel ill-equipped to start the conversation. A Stanford-led evaluation of a community film presentation found that just 90 minutes was associated with meaningful gains in fentanyl knowledge, naloxone confidence, and willingness to talk to children \u2014 gains that persisted at two-month follow-up. The challenge now is knowing whether these attitude shifts translate into real-world protective behaviour.",
-          "caveats_to_flag": "No control group so improvement over time cannot be firmly attributed to the presentation; the follow-up sample shrank to just 44 people who opted in, raising self-selection concerns; all outcomes are self-reported; the program was delivered by a non-profit (Song for Charlie) with Stanford evaluators, and the evaluation covers a US-specific context."
-        }
-      ]
-    },
-    {
-      "pmid": "41793756",
-      "headline": "Schizophrenia's movement problems are part of the illness itself \u2014 not just a drug side effect",
-      "journal": "Brain: A Journal of Neurology",
-      "pubdate": "2026 Jul 7",
-      "doi": "10.1093/brain/awag064",
-      "groundbreaking": "Counterintuitive finding / Overturns prior research",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at King's College London and collaborating institutions conducted a comprehensive review arguing that sensorimotor abnormalities \u2014 including dyskinesia, parkinsonism, and motor incoordination \u2014 are a core feature of schizophrenia rather than a side effect of antipsychotic medication. Drawing on evidence from medication-na\u00efve individuals with schizophrenia, the review outlines how current understanding of schizophrenia's pathogenesis supports sensorimotor dysfunction as integral to the disease and discusses how better measurement of these problems could improve treatment development.",
-      "why_it_matters": "If movement problems in schizophrenia are intrinsic rather than drug-induced, it could reshape how clinicians assess patients and how researchers design new treatments, potentially opening motor control as a therapeutic target.",
-      "caveats": "None identified (review article \u2014 no primary data collected)",
-      "fact_check_note": "This is a narrative review, not an empirical study with participants (N). Summary accurately reflects this. No sample size to verify. Multiple authors report industry ties (Lundbeck, Otsuka, Boehringer-Ingelheim, etc.) \u2014 flagged as potential conflict of interest though not strictly 'industry funding' of the study itself.",
-      "excluded": false,
-      "run_date": "2026-07-12",
-      "category": "Neurology",
-      "chunk": "1/1",
-      "status": "new",
-      "relevance_score": 8,
-      "relevance_score_reason": "Strongly counterintuitive \u2014 overturns the widespread assumption that movement problems in schizophrenia are drug side effects \u2014 with clear societal relevance and published in a high-profile journal, though it is a review rather than new primary data.",
-      "pitch_angles": [
-        {
-          "headline": "Schizophrenia's tremors and stiffness were never really about the medication",
-          "hook": "For decades, clinicians assumed the movement problems seen in people with schizophrenia were an unfortunate side effect of antipsychotic drugs \u2014 a major review now argues they are a fundamental part of the illness itself.",
-          "why_it_fits": "NS Mind readers are fascinated by paradigm shifts in mental health science, and this reframes schizophrenia as a disorder of both mind and body in a way that challenges a half-century of clinical assumption.",
-          "pitch_angle": "A major review in Brain argues that motor abnormalities \u2014 shaking, stiffness, poor coordination \u2014 appear even in people with schizophrenia who have never taken medication, suggesting these are core disease features, not drug side effects. This overturns a long-held clinical assumption and has real implications: patients' physical symptoms may have been misattributed and undertreated for decades. The finding also points to sensorimotor assessment as a new frontier for understanding and treating schizophrenia.",
-          "caveats_to_flag": "This is a review article, not new primary research \u2014 it synthesises existing evidence rather than presenting new data. Several authors have financial ties to pharmaceutical companies, which journalists should note. The case rests partly on evidence from medication-na\u00efve individuals, which is inherently a difficult population to study."
-        }
-      ]
-    },
-    {
-      "pmid": "42413308",
-      "headline": "Fewer than 2% of first-episode schizophrenia patients in Japan receive long-acting injectable antipsychotics \u2014 even a year after diagnosis",
-      "journal": "Schizophrenia Research",
-      "pubdate": "2026 Jul 7",
-      "doi": "10.1016/j.schres.2026.07.004",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Using a large Japanese health insurance claims database covering nearly two decades (2005\u20132024), researchers identified 24,226 patients approximating first-episode schizophrenia and examined how many received long-acting injectable (LAI) antipsychotics \u2014 a formulation given every few weeks that can improve treatment adherence. Only 1.8% of patients ever received an LAI, the median time from diagnosis to first LAI was 12 months, and annual LAI uptake rates remained below 2% throughout the study period. Among those who did switch from daily oral medication to an LAI, about one in four had been hospitalised in the previous year.",
-      "why_it_matters": "Long-acting injectables are recommended as an early option for schizophrenia in many clinical guidelines because they reduce relapse risk, yet this large real-world dataset suggests they remain almost unused in Japan's first-episode population \u2014 pointing to a significant gap between evidence and practice.",
-      "caveats": "observational design, single non-US/non-multinational region (Japan), claims-based proxy diagnosis (not confirmed clinical diagnosis), industry funding [AbbVie, AstraZeneca, Eisai, and others]",
-      "fact_check_note": "N=24,226 confirmed. LAI uptake of 1.8% and median time to LAI of 12 months verified against abstract. Industry conflicts of interest (AbbVie employment of one author, multiple pharma research grants) noted and added to caveats. 'Proxy cohort' caveat added as diagnoses are claims-based approximations, not clinician-confirmed.",
-      "excluded": false,
-      "run_date": "2026-07-12",
-      "category": "Psychiatry",
-      "chunk": "1/2",
-      "status": "new",
-      "relevance_score": 5,
-      "relevance_score_reason": "Large, real-world dataset and a striking treatment-gap finding, but the Japan-specific healthcare and prescribing context, claims-based proxy diagnosis, and multiple industry conflicts limit generalisability and credibility for a general NS Mind audience; \u22122 for regional specificity, \u22121 for industry funding conflicts.",
-      "pitch_angles": [
-        {
-          "headline": "A proven tool for preventing schizophrenia relapse is barely being used",
-          "hook": "Despite clinical guidelines endorsing long-acting injectable antipsychotics for early schizophrenia, a study of more than 24,000 patients found fewer than 2% ever received one.",
-          "why_it_fits": "NS Mind readers interested in mental health treatment gaps and the gulf between clinical evidence and real-world practice would find this striking \u2014 especially given the scale of the dataset.",
-          "pitch_angle": "Long-acting injectable antipsychotics \u2014 given by injection every few weeks rather than relying on daily pills \u2014 are widely regarded as a way to help people with schizophrenia stay on treatment and avoid relapse. Yet analysis of nearly 20 years of Japanese health insurance data found that among newly diagnosed patients, uptake was vanishingly small and barely changed over two decades. The finding raises questions about why clinicians and patients aren't using a tool that could prevent hospitalisation. Note: results are from Japan's specific healthcare context, and patterns may differ elsewhere.",
-          "caveats_to_flag": "Study is specific to Japan's insured healthcare population and prescribing culture, which differs markedly from UK, US, and European contexts; diagnoses are claims-based proxies, not confirmed clinical assessments; multiple authors have financial ties to pharmaceutical companies including AbbVie (one author is an employee) and AstraZeneca; observational design only."
-        }
-      ]
-    },
-    {
-      "pmid": "42413080",
-      "headline": "Neither low nor high self-esteem predicts aggression, large longitudinal study finds",
-      "journal": "Psychological Science",
-      "pubdate": "2026 Jul 7",
-      "doi": "10.1177/09567976261459011",
-      "groundbreaking": "Overturns prior research / Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers tested the long-debated link between self-esteem and aggression using data from 674 Mexican-origin families tracked across multiple waves at one- or two-year intervals, with assessments from children, mothers, and fathers (multi-informant design). Using preregistered statistical models that control for unmeasured time-invariant confounders, they found no evidence that either low or high self-esteem predicts later aggression. The null finding held even after controlling for narcissism and ruling out shared-method variance, and there was also little evidence that being aggressive affects self-esteem.",
-      "why_it_matters": "Decades of public-health messaging and school anti-bullying programmes have assumed that boosting children's self-esteem will reduce aggression \u2014 this study suggests that assumption lacks longitudinal support.",
-      "caveats": "observational design, single ethnic/cultural group (Mexican-origin families), curvilinear effects not fully testable due to model non-convergence",
-      "fact_check_note": "Abstract confirms N=674 families, multi-informant longitudinal design, preregistered. Limitation re curvilinear effects confirmed in abstract. Sample is Mexican-origin families specifically, noted in caveats.",
-      "excluded": false,
-      "run_date": "2026-07-12",
-      "category": "Psychology",
-      "chunk": "1/3",
-      "status": "new",
-      "relevance_score": 8,
-      "relevance_score_reason": "Strongly counterintuitive finding that overturns a widely held belief underpinning school programmes, with a decent longitudinal sample and preregistered design; docked one point for the culturally specific sample limiting generalisability.",
-      "pitch_angles": [
-        {
-          "headline": "Boosting children's self-esteem probably won't make them less aggressive",
-          "hook": "One of the most enduring assumptions in child psychology \u2014 that low self-esteem drives aggression \u2014 has found no support in one of the most rigorous tests yet conducted.",
-          "why_it_fits": "NS Mind readers are interested in evidence that challenges mainstream psychological wisdom, especially when it has real implications for parenting and schools.",
-          "pitch_angle": "A preregistered longitudinal study tracking 674 families over multiple years found zero evidence that self-esteem \u2014 high or low \u2014 predicts aggression in children and adolescents. The finding survived controls for narcissism and multiple informants. It directly challenges the rationale behind many school self-esteem programmes and anti-bullying interventions. The researchers also found almost no evidence running the other way: being aggressive doesn't seem to dent self-esteem either.",
-          "caveats_to_flag": "Sample is exclusively Mexican-origin families in the US, so generalisability to other ethnic and cultural groups is uncertain. Curvilinear (U-shaped) relationships between self-esteem and aggression could not be fully tested due to statistical non-convergence \u2014 a caveat the authors acknowledge."
-        }
-      ]
-    },
-    {
-      "pmid": "42413346",
-      "headline": "A new eating disorder prevention program matches the gold standard \u2014 by targeting a different risk factor",
-      "journal": "Body Image",
-      "pubdate": "2026 Jul 7",
-      "doi": "10.1016/j.bodyim.2026.102145",
-      "groundbreaking": "First-in-class human study / Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Stanford and Oregon Research Institute tested 'Priorities,' a new eating disorder prevention program targeting overvaluation of weight and shape, against the well-established Body Project program in a randomized trial. Adolescent girls and young women (N=87, ages 13\u201325) were assigned to one of the two virtually delivered, peer-educator-led programs. Both groups showed significant reductions in eating disorder risk factors and symptoms at one-month follow-up, with no statistically significant difference between conditions. However, within-condition effect sizes for Priorities (Cohen's d = 0.81 for eating disorder symptoms) were larger than the average seen for Body Project across this and six prior trials (d = 0.53), suggesting overvaluation of weight and shape may be a potent new intervention target.",
-      "why_it_matters": "Eating disorders affect millions and are among the most lethal mental health conditions; a new program that achieves comparable or potentially superior results to the current evidence-based gold standard could meaningfully expand prevention options for adolescents and young adults.",
-      "caveats": "small sample (N<100), single-center, short follow-up, self-reported outcomes",
-      "fact_check_note": "Abstract confirms N=87, ages 13\u201325, randomized design, 1-month follow-up only, virtual delivery. No significant between-group difference was found; the larger within-condition effect for Priorities vs. Body Project is an exploratory comparison across trials, not a head-to-head superiority finding \u2014 this nuance is preserved in the summary.",
-      "excluded": false,
-      "run_date": "2026-07-12",
-      "category": "Psychology",
-      "chunk": "2/3",
-      "status": "new",
-      "relevance_score": 7,
-      "relevance_score_reason": "Strong topic fit (eating disorders, body image, adolescents), counterintuitive angle that a new program rivals the gold standard, but held back by small N, short follow-up, and lack of a significant between-group difference.",
-      "pitch_angles": [
-        {
-          "headline": "A new eating disorder prevention program outperforms the gold standard \u2014 at least on one measure",
-          "hook": "A fledgling eating disorder program delivered by peer educators online produced larger symptom reductions than the world's most evidence-backed prevention program, at least within its own group.",
-          "why_it_fits": "NS Mind readers are interested in mental health innovations that challenge established thinking, especially around body image and eating in young women.",
-          "pitch_angle": "The Body Project has decades of evidence behind it \u2014 so researchers were surprised when a brand-new program called Priorities, targeting a different psychological mechanism (how much people overvalue their weight and shape), produced comparable and possibly larger effect sizes in a head-to-head pilot trial. The twist: the two programs didn't statistically differ from each other, so this is early-stage evidence rather than a clean win. But the finding raises a provocative question about whether the field has been targeting the wrong risk factor all along.",
-          "caveats_to_flag": "Only 87 participants, all female, short one-month follow-up, no long-term eating disorder onset data; the larger effect size for Priorities is a cross-trial comparison, not a statistically significant head-to-head result \u2014 the journalist must not overstate this as a proven superiority finding."
         }
       ]
     },
@@ -600,35 +1122,6 @@
           "why_it_fits": "Few topics captivate NS Mind readers more than free will, consciousness, and the possibility that foundational neuroscience experiments need revisiting.",
           "pitch_angle": "A new methodological review argues that the 'complication clock', used since the 19th century and famously by Benjamin Libet to probe when we become aware of our own intentions, has a built-in spatial distortion that skews participants' time reports in predictable ways. The authors show that the method also smuggles in an assumption \u2014 that time is serial and discrete \u2014 that may not hold for many of the cognitive phenomena researchers are trying to study. If correct, this calls for a reappraisal of dozens of studies on volition, agency, and perceptual awareness.",
           "caveats_to_flag": "This is a theoretical and historical review, not new experimental data. The authors propose that distortions can be controlled for, but have not yet demonstrated this empirically. Journalist should seek comment from researchers who use the complication clock and those critical of Libet's legacy."
-        }
-      ]
-    },
-    {
-      "pmid": "42402481",
-      "headline": "Children's taboo games and playground folklore may be doing more developmental work than adults realise",
-      "journal": "Behavioral and Brain Sciences",
-      "pubdate": "2026 Jul 6",
-      "doi": "10.1017/S0140525X25101854",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Folklorists at Indiana University argue that the playful, parodical, and taboo-breaking character of children's peer-transmitted folklore \u2014 rhymes, games, rituals \u2014 plays a functional role in cultural adaptation, building on Lew-Levy and Amir's hypothesis about peer cultures. The commentary highlights two long-standing theoretical tensions in folklore scholarship: the 'triviality barrier' (adults dismiss children's culture as inconsequential) and 'Newell's paradox' (the very adult dismissal helps preserve peer traditions). The authors suggest this adult-imposed triviality paradoxically shields children's folklore from interference, reinforcing peer culture resilience.",
-      "why_it_matters": "It suggests that adult efforts to sanitise or supervise children's play may inadvertently undermine the peer-culture mechanisms children use to transmit social knowledge across generations.",
-      "caveats": "observational design, no empirical data (theoretical commentary), single-center",
-      "fact_check_note": "This is a commentary/theoretical piece, not an empirical study with a sample size. No N to verify. Caveats adjusted accordingly.",
-      "excluded": false,
-      "run_date": "2026-07-12",
-      "category": "Psychology",
-      "chunk": "1/3",
-      "status": "new",
-      "relevance_score": 5,
-      "relevance_score_reason": "Interesting societal hook around children's play, but it is a theoretical commentary with no empirical data, limiting its news value for NS Mind.",
-      "pitch_angles": [
-        {
-          "headline": "Adults ignoring children's rude playground games may actually be helping kids",
-          "hook": "The very adults who dismiss children's taboo rhymes and toilet-humour games as trivial may be unwittingly protecting one of childhood's most important cultural transmission systems.",
-          "why_it_fits": "NS Mind readers are primed to care about child development, social behaviour, and counterintuitive findings about how culture is passed on \u2014 this delivers all three.",
-          "pitch_angle": "Folklorists argue that children's parodic, rule-breaking playground culture does real developmental and cultural work \u2014 and that adult dismissal of it as silly or offensive is precisely what keeps it alive and beyond adult control. The piece reframes 'let kids play' as a scientific argument, not just a parenting platitude. With screen time and structured activities increasingly colonising childhood, the stakes for unstructured peer culture feel urgent.",
-          "caveats_to_flag": "This is a theoretical commentary, not an empirical study \u2014 there is no experimental data or measured outcomes. Journalist should seek empirical child-development researchers to corroborate or push back on the claims."
         }
       ]
     },
@@ -798,35 +1291,6 @@
       ]
     },
     {
-      "pmid": "42434836",
-      "headline": "Doctors rarely tell epilepsy patients they could die suddenly \u2014 a new framework aims to change that",
-      "journal": "Epilepsia",
-      "pubdate": "2026 Jul 11",
-      "doi": "10.1002/epi.70387",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Clinicians at Children's National Hospital and the University of Virginia, in collaboration with a patient advocacy group, have developed a practical communication framework to help neurologists discuss sudden unexpected death in epilepsy (SUDEP) with patients and families. The paper identifies a persistent 'communication gap' in which many patients and caregivers are never informed of SUDEP risk despite guidelines recommending disclosure. No empirical participant sample is reported \u2014 this is a clinical framework/guidance paper rather than an original data study.",
-      "why_it_matters": "SUDEP claims around 1 in 1,000 epilepsy patients per year, yet many families report never being warned; a standardised communication approach could help clinicians navigate this difficult conversation and ensure patients can make informed decisions about their care.",
-      "caveats": "no empirical data, single-center authorship group, guidance paper only, no participant sample",
-      "fact_check_note": "The abstract contains no N, no participant sample, and no results from a study \u2014 this is a framework/guidance paper. Summary and caveats have been adjusted to reflect this accurately rather than implying empirical findings.",
-      "excluded": false,
-      "run_date": "2026-07-12",
-      "category": "Brain",
-      "chunk": "1/1",
-      "status": "new",
-      "relevance_score": 5,
-      "relevance_score_reason": "Clinically and societally relevant topic with a clear real-world hook, but absence of new empirical data, a participant sample, or a surprising finding limits its score for NS Mind.",
-      "pitch_angles": [
-        {
-          "headline": "Most epilepsy patients are never told they could die suddenly \u2014 doctors now have a script to fix that",
-          "hook": "Despite guidelines urging disclosure, a large proportion of people with epilepsy have never been warned about sudden unexpected death \u2014 a condition that kills roughly 1 in 1,000 patients a year.",
-          "why_it_fits": "NS Mind readers care about the intersection of neuroscience, mental health, and the doctor-patient relationship; the idea that a known, quantifiable risk is routinely withheld from patients is both alarming and actionable.",
-          "pitch_angle": "Neurologists have long struggled with how \u2014 or whether \u2014 to tell patients with epilepsy that they face a small but real risk of dying suddenly and unexpectedly in their sleep or after a seizure. Now a team including patient advocates has published a structured framework to help clinicians have exactly that conversation. The paper highlights a troubling communication gap: many patients report their doctors simply never raised the subject, leaving families blindsided by a risk they didn't know existed.",
-          "caveats_to_flag": "This is a guidance/framework paper rather than an empirical study, so there are no trial data showing whether the framework actually improves communication outcomes or patient wellbeing. Journalists should note that evidence of real-world effectiveness remains to be tested."
-        }
-      ]
-    },
-    {
       "pmid": "42435138",
       "headline": "People who constantly compare their bodies to others can't be nudged into liking them more",
       "journal": "Cognitive Processing",
@@ -856,35 +1320,6 @@
       ]
     },
     {
-      "pmid": "42436567",
-      "headline": "Female university students suffer more academic distress \u2014 but seek less help than their male peers",
-      "journal": "BMC Psychology",
-      "pubdate": "2026 Jul 11",
-      "doi": "10.1186/s40359-026-05100-5",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers surveyed 361 first-year Engineering and Health Sciences students at Ethiopian universities using standardized questionnaires to examine academic distress and help-seeking behaviour. The study found that male students reported higher help-seeking behaviour and lower academic distress than female students, while female students showed greater vulnerability to academic distress despite lower help-seeking rates. The finding \u2014 that those most distressed seek help least \u2014 points to a troubling gender gap in how students cope with university transitions.",
-      "why_it_matters": "Understanding why distressed students don't seek help \u2014 particularly along gender lines \u2014 could inform university mental health outreach strategies worldwide, though the Ethiopian context may limit direct generalisability.",
-      "caveats": "observational design, self-reported outcomes, single-center, small sample context (Ethiopian higher education ecosystem specific)",
-      "fact_check_note": "Abstract does not specify a single center but all institutions are in Ethiopia; flagged regional specificity. N=361 confirmed from abstract.",
-      "excluded": false,
-      "run_date": "2026-07-12",
-      "category": "Psychology",
-      "chunk": "3/3",
-      "status": "new",
-      "relevance_score": 5,
-      "relevance_score_reason": "Counterintuitive gender finding is engaging, but the study is confined to Ethiopia's higher education system with limited generalisability, and the observational, self-report design adds further caution.",
-      "pitch_angles": [
-        {
-          "headline": "The students most in academic distress are the least likely to ask for help",
-          "hook": "Among university students, those suffering most from academic stress \u2014 women \u2014 are also the least likely to seek help, according to a new study.",
-          "why_it_fits": "NS Mind readers care about mental health on campuses and the hidden barriers that stop people getting support.",
-          "pitch_angle": "A study of 361 first-year students in Ethiopia found a striking paradox: male students sought help more and suffered less distress, while female students reported higher distress but lower help-seeking. This inverts assumptions that need drives action. Though based in Ethiopia, the gender dynamic resonates with global debates about mental health stigma and gender norms on campus.",
-          "caveats_to_flag": "Study conducted in Ethiopia \u2014 cultural and institutional context may not transfer to Western universities. Observational, self-report design means causality cannot be established. Results may be specific to Engineering and Health Sciences students."
-        }
-      ]
-    },
-    {
       "pmid": "42431813",
       "headline": "Being underweight in your twenties is linked to worse sleep \u2014 but only if you're a woman",
       "journal": "Sleep Health",
@@ -910,35 +1345,6 @@
           "why_it_fits": "Body weight, sleep, and women's health sit squarely in NS Mind's wheelhouse, and the age-specificity of the finding gives the story a counterintuitive angle beyond a simple weight-sleep correlation.",
           "pitch_angle": "Among nearly 6,000 Japanese females surveyed, only women in their 20s showed a clear connection between being underweight and struggling to sleep \u2014 not adolescent girls, and not women in their 30s or 40s. Intriguingly, underweight status was not linked to daytime sleepiness or sleep debt in any group, suggesting the mechanism may involve anxiety or hormonal factors specific to early adulthood rather than simple energy deprivation. The finding is particularly relevant in Japan, where cultural pressure to be thin is intense among young women, but raises broader questions about whether clinicians elsewhere should routinely screen underweight patients for sleep disorders.",
           "caveats_to_flag": "Study is conducted in Japan only, where underweight prevalence among young women (~23%) is unusually high by global standards, limiting direct generalisability; cross-sectional design means cause and effect cannot be determined; sleep outcomes were self-reported via questionnaire rather than clinically measured; web-based convenience sampling may introduce selection bias. Journalists should avoid implying that underweight causes insomnia."
-        }
-      ]
-    },
-    {
-      "pmid": "42429067",
-      "headline": "A new scale reliably measures how much a first psychosis episode disrupts someone's life \u2014 beyond just symptoms",
-      "journal": "The Spanish Journal of Psychology",
-      "pubdate": "2026 Jul 10",
-      "doi": "10.1017/SJP.2026.10035",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers in Spain tested the psychometric properties of the Impact of Illness Scale (IIS) in 141 people (mean age 35.7 years, 51.8% female) who had experienced a first episode of psychosis. Using confirmatory factor analysis, the study found the IIS has a single-factor structure with excellent internal consistency and valid links to measures of stigma, symptoms, and psychopathology. The findings suggest the IIS is a reliable tool for capturing how psychosis disrupts everyday life in ways that symptom-severity scales alone miss.",
-      "why_it_matters": "Measuring the subjective life impact of a first psychosis episode \u2014 not just clinical symptoms \u2014 could improve how clinicians understand and support patients at a critical early stage of illness.",
-      "caveats": "small sample (N=141), single-center, observational design, self-reported outcomes",
-      "fact_check_note": "N=141 confirmed. Study conducted in Spain; flagged regional context but finding has broader clinical measurement relevance. No industry funding disclosed.",
-      "excluded": false,
-      "run_date": "2026-07-12",
-      "category": "Psychology",
-      "chunk": "3/3",
-      "status": "new",
-      "relevance_score": 5,
-      "relevance_score_reason": "Relevant to mental health and patient experience, but primarily a psychometric validation study with a small Spanish sample \u2014 limited narrative hook for general NS Mind readers.",
-      "pitch_angles": [
-        {
-          "headline": "Psychosis disrupts people's lives in ways symptoms scores completely miss",
-          "hook": "A validated scale finds that the real-world impact of a first psychosis episode \u2014 on work, relationships, and identity \u2014 is measurably distinct from how severe someone's symptoms are.",
-          "why_it_fits": "NS Mind readers are interested in how mental health is understood and measured, and in the gap between clinical metrics and lived experience.",
-          "pitch_angle": "Spanish researchers have validated a tool that captures what it actually feels like to have your life derailed by a first psychosis episode \u2014 separate from how 'sick' you appear on a symptom checklist. For 141 patients, the scale reliably measured stigma, disruption, and personal loss in one coherent dimension. This raises a bigger question: are we measuring the right things in mental health care?",
-          "caveats_to_flag": "Small sample of 141 patients from Spain; results need replication in larger, more diverse populations. Psychometric validation study \u2014 not a treatment or intervention trial. Self-reported outcomes."
         }
       ]
     },
@@ -1075,35 +1481,6 @@
           "why_it_fits": "NS Mind readers are fascinated by the hidden machinery of social cognition; this study reveals a precise neural mechanism behind one of conversation's most fundamental but unexamined skills.",
           "pitch_angle": "Neuroscientists used EEG to show that the brain generates distinct electrical signatures for listener-directed versus topic-directed speech in under 300 milliseconds \u2014 even during passive, effortless listening. What's surprising is that only listener-oriented speech triggers a conflict-detection response when the speaker's tone doesn't match their words, suggesting the brain treats social address as a privileged category requiring extra scrutiny. The finding raises intriguing questions about why some people \u2014 including those on the autism spectrum \u2014 may find it harder to pick up on these vocal social cues.",
           "caveats_to_flag": "Sample size not reported in abstract (likely small); participants were Chinese-speaking, so prosodic cues may not generalise directly to other languages; correlational EEG design cannot establish causation."
-        }
-      ]
-    },
-    {
-      "pmid": "42423691",
-      "headline": "Impulsive people find drunk driving less risky when they are actually drunk",
-      "journal": "Psychology of Addictive Behaviors",
-      "pubdate": "2026 Jul 9",
-      "doi": "10.1037/adb0001172",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers administered alcohol to 78 young adult moderate drinkers (55% female, mean age 23.9) in a laboratory, targeting a peak breath alcohol concentration of 0.10%, then measured their perceptions of drunk-driving risk. Participants scoring higher on urgency (both negative and positive) and lack of premeditation rated alcohol-impaired driving as less dangerous while intoxicated. Those higher in urgency also reported greater willingness to actually drive drunk, suggesting that specific personality-level impulsivity facets distort risk judgments precisely when impairment is greatest.",
-      "why_it_matters": "Understanding which impulsivity traits warp drunk-driving risk perception under the influence could help identify people who are most vulnerable to making dangerous decisions after drinking, informing more targeted prevention messaging.",
-      "caveats": "small sample (N<100), single-center, laboratory setting may not reflect real-world driving decisions, self-reported outcomes",
-      "fact_check_note": "",
-      "excluded": false,
-      "run_date": "2026-07-11",
-      "category": "Substance-Related Disorders",
-      "chunk": "1/1",
-      "status": "new",
-      "relevance_score": 6,
-      "relevance_score_reason": "Counterintuitive and socially relevant finding about personality and impaired judgment, but hampered by a small lab sample (N=78) and limited real-world generalizability.",
-      "pitch_angles": [
-        {
-          "headline": "The impulsive drinker thinks drunk driving is fine \u2014 right when they're most drunk",
-          "hook": "People who score high on impulsivity don't just make riskier decisions when drunk \u2014 they actually perceive drunk driving as less dangerous at the exact moment their blood alcohol is highest.",
-          "why_it_fits": "NS Mind readers interested in decision-making, risk perception, and personality will be drawn to the idea that a measurable personality trait quietly dismantles our safety instincts when we need them most.",
-          "pitch_angle": "A laboratory study gave young adults enough alcohol to reach a BAC of 0.10% \u2014 well over the legal limit \u2014 then asked them how dangerous they thought drunk driving was. The impulsive ones said: not that bad. The finding suggests impulsivity doesn't just push people toward risky behaviour in the abstract; it actively reshapes how they read danger in the moment. With drink-driving remaining a leading cause of road deaths, knowing who is most likely to misjudge the risk \u2014 and why \u2014 could transform how prevention campaigns are targeted.",
-          "caveats_to_flag": "Small laboratory sample of 78 participants limits generalisability; participants were moderate drinkers recruited at a single US university; the study measured stated willingness to drive, not actual driving behaviour."
         }
       ]
     },
