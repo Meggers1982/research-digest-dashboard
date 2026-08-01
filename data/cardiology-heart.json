@@ -1,8 +1,1712 @@
 {
-  "last_updated": "2026-07-14T12:09:19.972993+00:00",
-  "total_studies": 186,
-  "new_this_run": 3,
+  "last_updated": "2026-08-01T12:02:57.505963+00:00",
+  "total_studies": 242,
+  "new_this_run": 61,
   "studies": [
+    {
+      "pmid": "42537019",
+      "headline": "AI-generated 'fake' patient data could speed up heart research \u2014 but experts warn it carries hidden risks that no one is governing",
+      "journal": "JMIR Cardio",
+      "pubdate": "2026 Jul 31",
+      "doi": "10.2196/92930",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "In a viewpoint paper, researchers from France and Sweden argue that synthetic patient data \u2014 artificially generated datasets designed to mimic real cardiovascular patient records \u2014 hold major promise for accelerating cardiology research and protecting privacy, but are currently governed by inadequate regulatory frameworks. They identify two fundamentally distinct uses of synthetic data (privacy-preserving substitutes vs. counterfactual simulation tools) that are routinely conflated, leading to validity failures and potential bias amplification. The authors propose four concrete governance actions, including mandatory three-layer validation and explicit intended-use scoping, before synthetic datasets are accepted as research evidence.",
+      "why_it_matters": "As AI-generated patient data increasingly enters cardiovascular research pipelines, gaps in regulation and methodology could allow biased or invalid synthetic datasets to influence clinical guidelines and device approvals.",
+      "caveats": "None identified \u2014 this is a viewpoint/opinion piece, not an empirical study",
+      "fact_check_note": "This is a viewpoint article, not an original research study; no empirical data, sample size, or clinical outcomes are reported.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Timely AI/data governance angle for cardiology research; viewpoint only, no new empirical findings.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Cardiology Researchers Are Using AI-Generated 'Fake' Patient Data \u2014 and Experts Say the Rules Governing It Are Dangerously Thin",
+          "hook": "Synthetic patient data is quietly entering cardiovascular research pipelines, but a new viewpoint argues that neither GDPR nor HIPAA adequately governs how it's being used \u2014 or misused.",
+          "pitch_angle": "French and Swedish researchers warn that the two fundamentally different uses of synthetic data in cardiology \u2014 statistical stand-ins for real patients versus simulations of hypothetical scenarios \u2014 are being conflated, creating risks of biased findings and privacy breaches. They call for mandatory validation standards and explicit regulatory frameworks before synthetic cohorts are accepted as evidence for drug or device approvals."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42535530",
+      "headline": "The cholesterol linked to heart attack risk appears to protect critically ill heart failure patients from dying",
+      "journal": "Journal of the American Heart Association",
+      "pubdate": "2026 Jul 31",
+      "doi": "10.1161/JAHA.126.049077",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers analyzed data from 3,750 critically ill heart failure patients in the MIMIC-III/IV ICU databases to examine whether remnant cholesterol \u2014 a lipid fraction associated with elevated cardiovascular risk in the general population \u2014 predicted survival in the ICU setting. Using multivariable-adjusted survival models, they found that each 10 mg/dL rise in remnant cholesterol was associated with a 12% lower risk of 30-day death and an 8% lower risk of 1-year death. Patients with the highest remnant cholesterol levels had roughly half the 30-day mortality risk compared with those with the lowest levels.",
+      "why_it_matters": "The finding suggests that the relationship between remnant cholesterol and survival may reverse during acute critical illness \u2014 a phenomenon seen with other lipids \u2014 which could complicate how clinicians interpret cholesterol levels in ICU heart failure patients.",
+      "caveats": "observational design, retrospective cohort, surrogate endpoints only, single non-US region dataset (MIMIC is US-based but study authors are China-based; population source is US ICU data)",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive finding, large N, hard mortality endpoints, high-prevalence condition.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "The 'Bad' Cholesterol Fraction That May Actually Help Critically Ill Heart Failure Patients Survive",
+          "hook": "Remnant cholesterol \u2014 long flagged as a cardiovascular villain \u2014 appears to predict better survival, not worse, in patients hospitalized in the ICU with heart failure.",
+          "pitch_angle": "An analysis of nearly 3,800 ICU patients found that higher remnant cholesterol was independently associated with lower 30-day and 1-year mortality, flipping the expected relationship. The finding echoes a well-documented 'lipid paradox' in critical illness and raises questions about whether aggressively lowering this cholesterol fraction in acutely ill patients could backfire."
+        },
+        {
+          "publication_type": "Everyday Health",
+          "headline": "A Type of Cholesterol Doctors Warn Against May Actually Help the Sickest Heart Failure Patients",
+          "hook": "Researchers found that heart failure patients in intensive care with higher levels of so-called remnant cholesterol were significantly less likely to die within 30 days.",
+          "pitch_angle": "The study of nearly 3,800 ICU patients suggests that the body's relationship with certain fats may shift dramatically during critical illness \u2014 findings that could one day change how doctors think about cholesterol management in the sickest heart patients. Experts caution the data are observational and should not prompt anyone to stop managing their cholesterol."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42535529",
+      "headline": "A simple blood test ratio may flag which rheumatoid arthritis patients face the highest heart disease risk",
+      "journal": "Journal of the American Heart Association",
+      "pubdate": "2026 Jul 31",
+      "doi": "10.1161/JAHA.125.045422",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Using NHANES data from 2001\u20132018, researchers examined whether the Endothelial Activation and Stress Index (EASIX) \u2014 a composite score calculated from routine lab values (lactate dehydrogenase, creatinine, and platelet count) \u2014 was associated with cardiovascular disease risk in 1,857 U.S. adults with rheumatoid arthritis. Higher EASIX scores were significantly associated with both greater prevalence of cardiovascular disease and higher cardiovascular mortality, with a nonlinear threshold effect observed for mortality. The associations held after adjusting for systemic inflammation and other confounders.",
+      "why_it_matters": "People with rheumatoid arthritis face elevated heart disease risk that is often underrecognized, and this study suggests a widely available lab-based index could help identify those most at risk \u2014 without requiring additional testing.",
+      "caveats": "observational design, surrogate endpoints only, self-reported outcomes, cross-sectional CVD prevalence component",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "First population-based CVD risk tool for RA; hard mortality endpoint; large NHANES sample; clear clinical hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / Prevention",
+          "headline": "If You Have Rheumatoid Arthritis, Your Heart Risk May Be Hiding in Plain Sight \u2014 in Routine Lab Work",
+          "hook": "A simple score calculated from standard blood tests found that people with rheumatoid arthritis and high endothelial stress were significantly more likely to develop heart disease and die from it.",
+          "pitch_angle": "Rheumatoid arthritis is known to raise cardiovascular risk, but doctors have lacked easy tools to identify which RA patients are most vulnerable. This study of nearly 1,900 Americans suggests a cheap, already-available lab calculation could do exactly that."
+        },
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "EASIX Score Predicts CVD Prevalence and Mortality in Rheumatoid Arthritis: First Population-Based Data",
+          "hook": "In 1,857 NHANES participants with RA, higher EASIX scores were independently associated with cardiovascular disease prevalence and CVD mortality, with a nonlinear threshold effect for mortality risk.",
+          "pitch_angle": "The endothelial activation and stress index \u2014 derived from LDH, creatinine, and platelet count \u2014 may offer cardiologists and rheumatologists a low-cost, readily accessible tool for stratifying cardiovascular risk in RA patients, a population that remains underserved by existing risk calculators."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42535269",
+      "headline": "A simple parent questionnaire catches brain function problems in childhood cancer survivors with 83% accuracy",
+      "journal": "Pediatric Blood & Cancer",
+      "pubdate": "2026 Jul 31",
+      "doi": "10.1002/1545-5017.70493",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers at a Chicago children's hospital tested a new caregiver-completed screening questionnaire \u2014 the CNC3 Caregiver Report Questionnaire \u2014 in 64 pediatric cancer patients and survivors (90.6% had completed therapy; 40.6% had a history of brain tumors). Formal neuropsychological testing found that 76.6% had at least mild cognitive impairment and 46.9% had moderate impairment. The questionnaire correctly identified children needing neuropsychology referral with 83.3% sensitivity, with processing speed, memory, and visual-spatial domains most strongly associated with moderate deficits.",
+      "why_it_matters": "Most childhood cancer survivors never receive formal cognitive testing despite high rates of brain function problems, and a validated parent-report screening tool could help identify those who need specialist referral before deficits worsen.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Pediatric oncology/neurocognition topic; outside cardiovascular scope; small single-center sample.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "Nearly Half of Childhood Cancer Survivors Have Moderate Cognitive Deficits \u2014 A New Screening Tool May Help Catch Them Sooner",
+          "hook": "A new study found that nearly half of pediatric cancer survivors tested had moderate cognitive impairment \u2014 and most had never been formally evaluated.",
+          "pitch_angle": "Researchers found that a simple questionnaire filled out by parents of childhood cancer patients and survivors could identify those at risk for significant brain function problems with 83% accuracy, suggesting it could serve as an efficient triage tool. With 76% of children in the study showing at least mild cognitive deficits, the findings highlight how often neurocognitive late effects go undetected after cancer treatment."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42535831",
+      "headline": "Kids Who Got COVID-19 and Developed Rare Brain Clots Almost All Had Other Clotting Risk Factors Too",
+      "journal": "Pediatric Blood & Cancer",
+      "pubdate": "2026 Jul 31",
+      "doi": "10.1002/1545-5017.70566",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers enrolled 19 pediatric patients (ages 0\u201318, median age 9) from 12 institutions across 4 countries who were diagnosed with cerebral sinovenous thrombosis (CSVT) and tested positive for SARS-CoV-2 between March 2020 and March 2023. All 19 patients had at least one additional thrombosis risk factor, and 63% had a positive hypercoagulability evaluation. Among the 16 patients with follow-up data, 80% showed CSVT resolution or improvement on anticoagulation, but 38% had residual neurological deficits at follow-up.",
+      "why_it_matters": "The finding that every child in this series had pre-existing clotting risk factors suggests COVID-19 alone may not be sufficient to cause this rare but serious brain clot condition in children \u2014 a nuance that could shape how clinicians assess risk.",
+      "caveats": "small sample (N<100), observational design, case series, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Pediatric clot/stroke with COVID link; small case series limits strength.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Every Child Who Developed a Rare COVID-Related Brain Clot Had Another Risk Factor \u2014 Complicating the Causal Story",
+          "hook": "A multinational case series found that all 19 children who developed cerebral sinovenous thrombosis during COVID-19 had at least one additional thrombosis risk factor, making it hard to pin blame on the virus alone.",
+          "pitch_angle": "The study raises important questions about whether SARS-CoV-2 is an independent trigger for this rare pediatric brain clot or a co-factor in already vulnerable children \u2014 and what that means for clinical surveillance and anticoagulation decisions in pediatric COVID patients."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42537622",
+      "headline": "Women and patients with hypertension face higher oxygen drop risk during a common lung biopsy procedure",
+      "journal": "Respiratory Investigation",
+      "pubdate": "2026 Jul 31",
+      "doi": "10.1016/j.resinv.2026.101490",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers retrospectively reviewed 192 standalone endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) procedures at a single Japanese hospital between 2019 and 2024 to identify predictors of severe cough and dangerous oxygen desaturation (SpO2 \u226485%). Female sex (OR 7.73) and hypertension (OR 4.05) were independently associated with significant oxygen drops during the procedure, and severe cough was itself strongly linked to desaturation (OR 6.45). The findings suggest these patient characteristics could help clinicians tailor procedural planning and monitoring.",
+      "why_it_matters": "For the growing number of patients undergoing minimally invasive lung biopsies, being female or having hypertension may signal a need for more careful oxygen monitoring \u2014 a finding that could inform safer procedural protocols.",
+      "caveats": "observational design, single-center, retrospective, surrogate endpoints only, single non-US region (Japan) \u2014 generalizability to other populations uncertain, small sample (N=192)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Sex difference finding is notable; single-center Japanese retrospective limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Female Sex and Hypertension Independently Predict Oxygen Desaturation During EBUS-TBNA",
+          "hook": "Women undergoing endobronchial ultrasound biopsy were more than seven times as likely to experience dangerous oxygen drops compared to men in a new retrospective study.",
+          "pitch_angle": "This single-center Japanese study found that female sex and hypertension were independently associated with SpO2 dropping to \u226485% during EBUS-TBNA, with severe cough serving as a key mediating factor. The findings suggest a need for sex-stratified procedural risk assessment in bronchoscopy planning."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42398952",
+      "headline": "A rare inherited bleeding disorder is far more common in Pakistan than the rest of the world \u2014 and genetic sequencing is finally mapping why",
+      "journal": "Thrombosis and Haemostasis",
+      "pubdate": "2026 Jul 30",
+      "doi": "10.1055/a-2906-7166",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers used next-generation sequencing (NGS) to analyze the genetic variants behind Glanzmann thrombasthenia (GT) \u2014 a rare inherited platelet disorder causing severe bleeding \u2014 in 67 patients from 55 unrelated Pakistani families. They identified 21 distinct variants, 10 of which were entirely new, achieving an 87.3% diagnostic yield. Two recurrent frameshift variants suggested a possible founder effect, and truncating mutations were associated with more severe bleeding in an age-dependent pattern.",
+      "why_it_matters": "This study suggests that high rates of consanguineous marriage in certain populations significantly raise the burden of rare inherited bleeding disorders, and that NGS can substantially improve diagnosis where traditional methods fall short.",
+      "caveats": "small sample (N<100), single-center, finding is tied to a Pakistani consanguineous population context unlikely to generalize broadly to US/global audiences",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Rare hematology finding; Pakistan-specific genetics context limits US/global audience relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Genetic sequencing uncovers 10 new mutations behind a rare bleeding disorder far more common in Pakistan",
+          "hook": "A platelet disorder so rare most Western clinicians rarely see it is surprisingly prevalent in Pakistan \u2014 and new genetic data may explain why.",
+          "pitch_angle": "Researchers identified 10 novel genetic variants driving Glanzmann thrombasthenia in a Pakistani cohort, highlighting how consanguinity elevates rare bleeding disorder risk. The findings suggest NGS should be standard diagnostic practice in high-consanguinity populations worldwide."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42531152",
+      "headline": "A contactless under-mattress sensor can accurately measure heart rate in hospital patients \u2014 including in noisy ICUs",
+      "journal": "JMIR Cardio",
+      "pubdate": "2026 Jul 30",
+      "doi": "10.2196/71224",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers at an Indian medical technology company trained and validated a convolutional neural network algorithm to measure heart rate from ballistocardiography (BCG) signals \u2014 tiny body movements caused by heartbeats detected through a sensor placed under a mattress \u2014 across 205 test participants including ICU patients in five independent studies. The algorithm was trained on over 129,000 data points from 373 participants and achieved a mean absolute error under 3 bpm, a Pearson correlation of 0.97 against ECG reference measurements, and a minimal bias of 0.25 bpm on Bland-Altman analysis. The approach aims to enable continuous, contactless heart rate monitoring without skin-attached electrodes.",
+      "why_it_matters": "Continuous heart rate monitoring without skin contact could reduce discomfort and skin injury for hospitalized patients while still catching dangerous changes in heart rhythm early.",
+      "caveats": "observational design, single-center, industry-funded study (Turtle Shell Technologies \u2014 all authors are company employees), surrogate endpoints only, short follow-up",
+      "fact_check_note": "All authors are employees of Turtle Shell Technologies, the commercial developer of the technology being validated \u2014 this represents a significant conflict of interest not explicitly flagged as industry funding in the abstract.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Wearable cardiac monitoring technology; no hard cardiovascular endpoints; industry-only authorship limits independence.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / STAT News",
+          "headline": "A Sensor Under Your Mattress Could Monitor Your Heart Rate in the Hospital \u2014 No Wires Needed",
+          "hook": "A new AI-powered system accurately tracked heart rate in ICU patients using only tiny body movements transmitted through a mattress sensor \u2014 no skin contact required.",
+          "pitch_angle": "The technology, called ballistocardiography, detects micro-movements caused by each heartbeat and feeds them into a neural network trained to extract heart rate data as accurately as a clinical ECG. If independently validated, it could reduce the discomfort of continuous cardiac monitoring for critically ill patients \u2014 though all the researchers behind the study work for the company selling the device."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42532264",
+      "headline": "Climate change and the digital divide are emerging as new threats to heart health equity, Japanese review warns",
+      "journal": "Journal of Cardiology",
+      "pubdate": "2026 Jul 30",
+      "doi": "10.1016/j.jjcc.2026.07.013",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "This narrative review from Japanese cardiovascular medicine researchers examines how social determinants of health (SDOH) \u2014 including economic stability, education, neighborhood environment, and healthcare access \u2014 shape cardiovascular disease risk and outcomes. The authors highlight two emerging SDOH: climate change and digital health technologies, which they suggest may widen existing cardiovascular health disparities. The review draws on existing epidemiological findings and calls for stronger evidence linking SDOH interventions to CVD outcomes, including new considerations around genetic testing and health equity.",
+      "why_it_matters": "Where someone lives, how much they earn, and whether they can access digital health tools may increasingly determine their risk of dying from cardiovascular disease \u2014 factors largely invisible in standard clinical risk calculators.",
+      "caveats": "review article \u2014 no primary data, Japan-focused framing though references global literature",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Broad public health relevance; review only, no primary data; partial Japan-specific framing.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Climate Change and the Digital Divide Are the Next Frontiers of Heart Disease Inequality",
+          "hook": "A new review argues that climate change and unequal access to digital health tools are becoming cardiovascular risk factors in their own right \u2014 and could widen the gap between who lives and who dies of heart disease.",
+          "pitch_angle": "The review maps how traditional social determinants like poverty and neighborhood environment drive CVD disparities, then flags two emerging threats: climate-related cardiovascular stress and digital health technologies that may benefit the already-advantaged. The authors call for equity-centered research and clinical guidelines that go beyond biomarkers."
+        },
+        {
+          "publication_type": "Everyday Health",
+          "headline": "Your Zip Code, Your Climate, Your Wi-Fi: How Life Circumstances Shape Your Heart Disease Risk",
+          "hook": "It's not just diet and exercise \u2014 where you live, what the weather is doing, and whether you can use a health app may all be quietly shaping your heart health.",
+          "pitch_angle": "A new review identifies climate change and the digital divide as emerging threats to cardiovascular equity, on top of longstanding risks like poverty and limited healthcare access. Experts say addressing these 'upstream' factors may be as important as treating cholesterol or blood pressure."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42529983",
+      "headline": "ER Clinicians Know Bleeding Disorder Patients Are High Priority \u2014 Then Delay Treatment Anyway",
+      "journal": "Haemophilia",
+      "pubdate": "2026 Jul 30",
+      "doi": "10.1111/hae.70365",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers surveyed 310 Canadian ED clinicians (250 nurses, 60 physicians) using clinical vignettes to probe knowledge gaps and system barriers in treating patients with bleeding disorders. Despite rating these patients as high acuity and endorsing a \u226430-minute treatment target, clinicians inconsistently chose empiric 'treat-first' therapy \u2014 especially for non-specific presentations like severe headache or early pregnancy bleeding. Key barriers included absence of nurse-initiated directives, unfamiliarity with haemostatic products, and crowding and resource constraints in rural EDs.",
+      "why_it_matters": "People with hemophilia or other bleeding disorders may face preventable treatment delays in emergency rooms, even when ER staff recognize the urgency of their condition.",
+      "caveats": "observational design, self-reported outcomes, single-center, small qualitative sample (focus groups N=14)",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Strong fit with previously saved hemophilia/missed-diagnosis angle; clear public health implication for a vulnerable patient group.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / Medscape Cardiology",
+          "headline": "ER Doctors and Nurses Know Bleeding Disorder Patients Need Immediate Treatment \u2014 So Why Are They Still Waiting?",
+          "hook": "A new Canadian study found that emergency clinicians consistently rated bleeding disorder patients as urgent \u2014 yet repeatedly failed to administer haemostatic therapy within their own stated 30-minute target.",
+          "pitch_angle": "Researchers identified a troubling gap between clinical intention and action in emergency departments, driven by missing nurse-initiated directives, unfamiliarity with specialized treatments, and system-level constraints like rural resource shortages. The findings point to structural fixes \u2014 not just education \u2014 as the key to closing a life-threatening treatment delay for a routinely underserved patient group."
+        },
+        {
+          "publication_type": "Everyday Health / General health",
+          "headline": "If You Have a Bleeding Disorder, the ER May Not Know How to Treat You Fast Enough",
+          "hook": "Even in emergency rooms where staff recognize the danger of a bleeding disorder, a new study found that the right treatment is often delayed \u2014 sometimes because the medications aren't easy to access or staff aren't sure how to use them.",
+          "pitch_angle": "A Canadian survey of over 300 emergency nurses and doctors found critical knowledge and system gaps that slow treatment for people with hemophilia and related conditions, particularly when symptoms don't look obviously severe. Experts say better point-of-care tools and clearer protocols could help \u2014 and patients and families may need to advocate loudly on arrival."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42533500",
+      "headline": "A new ultrasound vein-finder outperforms the traditional 'look and feel' approach for IV placement",
+      "journal": "The Journal of Vascular Access",
+      "pubdate": "2026 Jul 30",
+      "doi": "10.1177/11297298261469954",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "In a small experimental study, three trained clinicians used both a novel ultrasound-based vein visualization prototype and the traditional landmark technique to select IV catheter insertion sites on 24 arms from 12 patients. A blinded vascular access specialist then evaluated each chosen site via ultrasound. The prototype-selected veins were rated suitable significantly more often (78.3% vs. 52.2%) and were deeper and better positioned than those chosen by landmark technique.",
+      "why_it_matters": "Failed IV lines are a common and painful hospital problem \u2014 better vein-finding technology could reduce repeat needle sticks and catheter complications for millions of patients annually.",
+      "caveats": "small sample (N<100), single-center, industry funding [VeinTech Pty Ltd \u2014 authors affiliated], surrogate endpoints only, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Vascular access topic; very small sample; no cardiovascular outcomes; clear industry conflict.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "Tired of Blown IVs? A New Ultrasound Device May Find Better Veins on the First Try",
+          "hook": "A prototype ultrasound device found suitable IV veins nearly 80% of the time \u2014 compared to just 52% for the traditional guess-and-poke method.",
+          "pitch_angle": "Peripheral IV catheter failure affects millions of hospital patients and often requires multiple painful insertion attempts; this early-stage device suggests smarter technology could change that. The study is small and device-maker affiliated, but it points toward a meaningful quality-of-care improvement worth watching."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42532360",
+      "headline": "COPD dramatically worsens survival in rheumatoid arthritis patients who also have lung scarring",
+      "journal": "Respiratory Medicine",
+      "pubdate": "2026 Jul 30",
+      "doi": "10.1016/j.rmed.2026.109070",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Using population-level health services data from Ontario, Canada, researchers studied 6,470 patients with rheumatoid arthritis-related interstitial lung disease (RA-ILD), finding that 68.6% also had obstructive lung disease. COPD and combined COPD/asthma overlap were associated with significantly increased mortality compared to RA-ILD alone or RA-ILD with asthma only, highlighting the outsized burden of COPD as a comorbidity in this population.",
+      "why_it_matters": "For the large share of rheumatoid arthritis patients who develop lung scarring, also having COPD may substantially shorten life \u2014 a compounded risk that is likely under-recognized by patients and clinicians alike.",
+      "caveats": "observational design, secondary analysis, single-region (Ontario, Canada) health services data",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Large N, hard endpoint (mortality), high-prevalence conditions with public health implication.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / General health",
+          "headline": "If You Have Rheumatoid Arthritis and Lung Disease, COPD Could Be a Hidden Danger",
+          "hook": "Nearly 70% of people with rheumatoid arthritis-related lung scarring also have obstructive lung disease \u2014 and those with COPD face significantly higher death rates.",
+          "pitch_angle": "A large Canadian study of over 6,000 patients found that COPD, when layered on top of rheumatoid arthritis-related interstitial lung disease, dramatically worsens survival outcomes. The finding underscores the need for RA patients to be monitored for both types of lung disease simultaneously."
+        },
+        {
+          "publication_type": "Medscape Cardiology / STAT News",
+          "headline": "COPD Comorbidity Sharply Raises Mortality in RA-ILD \u2014 Large Ontario Cohort",
+          "hook": "In a population-level cohort of 6,470 RA-ILD patients, COPD and asthma-COPD overlap were independently associated with significantly higher mortality than RA-ILD alone.",
+          "pitch_angle": "Ontario health services data reveal that obstructive lung disease is present in more than two-thirds of RA-ILD patients and that COPD specifically carries the greatest survival penalty \u2014 suggesting clinicians managing RA-ILD should aggressively screen and treat concurrent obstructive disease."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42413722",
+      "headline": "Standard lung function tests routinely miss emphysema in patients with pulmonary fibrosis \u2014 and that gap has real survival consequences",
+      "journal": "Chest",
+      "pubdate": "2026 Jul 30",
+      "doi": "10.1016/j.chest.2026.05.051",
+      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers analyzed data from a prospective registry of 1,576 patients with fibrotic interstitial lung disease (IPF and non-IPF) who underwent standardized high-resolution CT imaging to assess the prevalence and outcomes of combined pulmonary fibrosis and emphysema (CPFE). CPFE was found in 20% of IPF patients and 7% of those with non-IPF fibrotic ILD, but standard spirometry-based airflow obstruction measures had very poor sensitivity (11\u201324%) for detecting emphysema on CT \u2014 meaning most cases would be missed without imaging. Emphysema extent of \u226520% on CT was consistently associated with worse lung function trajectories and lower transplant-free survival in both IPF and non-IPF groups.",
+      "why_it_matters": "Hundreds of thousands of Americans with pulmonary fibrosis may also have significant emphysema that standard breathing tests completely miss \u2014 and that missed diagnosis is associated with faster lung function decline and lower survival.",
+      "caveats": "observational design, registry-based, predominantly Canadian cohort \u2014 generalizability to US/global populations should be considered, surrogate endpoints included alongside hard endpoints",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Large prospective cohort, hard endpoints (transplant-free survival), high-prevalence chronic lung disease, counterintuitive diagnostic gap finding.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Standard breathing tests miss emphysema in 1 in 5 pulmonary fibrosis patients \u2014 and that blind spot cuts survival",
+          "hook": "The routine spirometry tests used to monitor pulmonary fibrosis patients failed to detect emphysema in the vast majority of cases where CT scans confirmed it \u2014 and missed emphysema was tied to faster decline and lower survival.",
+          "pitch_angle": "This registry study of more than 1,500 patients found that spirometry had sensitivity as low as 11% for detecting emphysema on CT imaging in fibrotic lung disease, while CT-confirmed emphysema of \u226520% was independently linked to worse transplant-free survival. The findings raise urgent questions about whether current diagnostic standards are leaving a dangerous co-condition undetected in a large patient population."
+        },
+        {
+          "publication_type": "Everyday Health / General health",
+          "headline": "If you have pulmonary fibrosis, you might also have emphysema \u2014 and your doctor's standard test probably won't catch it",
+          "hook": "A major new study found that the breathing tests routinely used for pulmonary fibrosis patients almost always miss a dangerous second lung condition \u2014 emphysema \u2014 that worsens survival odds.",
+          "pitch_angle": "Researchers found that one in five IPF patients also had significant emphysema on CT scans, but standard lung function tests detected it less than 20% of the time. Patients with undetected emphysema had faster lung function decline and lower survival, suggesting CT imaging may need to become a more routine part of fibrotic lung disease care."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42526907",
+      "headline": "A clot-boosting drug added to standard therapy shows durable two-year benefit in bone marrow failure",
+      "journal": "British Journal of Haematology",
+      "pubdate": "2026 Jul 29",
+      "doi": "10.1111/bjh.70722",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers conducted a 2-year interim observational analysis of two clinical trials testing romiplostim (a thrombopoietin receptor agonist) added to standard immunosuppressive therapy as first-line treatment for aplastic anemia. The multicenter study enrolled patients across Japan, South Korea, and Taiwan. Results suggest the combination maintained long-term efficacy and an acceptable safety profile over 24 months.",
+      "why_it_matters": "Aplastic anemia is a life-threatening bone marrow failure condition, and evidence that adding romiplostim to first-line therapy sustains responses over two years could inform future treatment standards.",
+      "caveats": "observational design, secondary analysis, single non-US/non-multinational region (Japan, South Korea, Taiwan \u2014 findings may not generalize to Western populations with different treatment norms), surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Hematology topic but observational, regional cohort, no hard cardiovascular endpoints.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Two-Year Data Support Romiplostim Add-On in First-Line Aplastic Anemia Treatment",
+          "hook": "A two-year observational follow-up suggests romiplostim combined with immunosuppression sustains responses in aplastic anemia \u2014 a condition that can strain the cardiovascular system through chronic anemia.",
+          "pitch_angle": "The interim analysis from trials across East Asia found durable efficacy and manageable safety for the combination regimen. Hematologists managing patients with severe bone marrow failure may find the long-term tolerability data clinically informative, though generalizability to Western populations requires caution."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42526754",
+      "headline": "Ultrasound alone may replace expensive CT scans to plan most leg artery surgeries, large Spanish study finds",
+      "journal": "Annals of Vascular Surgery",
+      "pubdate": "2026 Jul 29",
+      "doi": "10.1016/j.avsg.2026.07.034",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers conducted a retrospective single-center study at a Spanish tertiary vascular center, analyzing 3,202 arterial duplex mapping episodes in 2,432 patients with lower limb arterial disease treated between 2010 and 2026. They found that duplex ultrasound-based surgical planning agreed with the procedure actually performed in 95.8% of cases across all arterial territories. CT angiography was ultimately needed in only 3.4% of cases, and the duplex-first strategy was estimated to have saved over \u20ac425,000 compared with routine CTA use.",
+      "why_it_matters": "For the millions of people with peripheral artery disease requiring leg revascularization, a strategy that avoids radiation-heavy CT scans in most cases could reduce cost, radiation exposure, and contrast dye risk without compromising surgical planning.",
+      "caveats": "observational design, single-center, retrospective design, findings tied to a specialized Spanish vascular ultrasound unit with dedicated accredited staff \u2014 may not generalize to centers without similar expertise",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Large N, peripheral artery disease relevance, but single-center and regionally specific expertise limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / General health",
+          "headline": "Could a Simple Ultrasound Replace a CT Scan Before Leg Artery Surgery?",
+          "hook": "A large study found that ultrasound alone correctly guided leg artery surgery planning nearly 96% of the time \u2014 potentially making expensive, radiation-heavy CT scans unnecessary for most patients.",
+          "pitch_angle": "Spanish researchers tracked over 3,200 surgical planning episodes and found that duplex ultrasound matched the actual procedure performed in almost all cases, with CT scans needed only rarely. For patients with peripheral artery disease facing revascularization surgery, this suggests a simpler, safer diagnostic path may be available at experienced centers."
+        },
+        {
+          "publication_type": "STAT News",
+          "headline": "Duplex-First Strategy for PAD Surgery Planning Shows 96% Concordance \u2014 and Big Cost Savings \u2014 in 16-Year Single-Center Study",
+          "hook": "A 16-year retrospective study suggests that CT angiography could be avoided in up to 97% of lower limb revascularization cases if centers adopt a rigorous ultrasound-first approach.",
+          "pitch_angle": "The findings from Hospital Universitari de Bellvitge show strong clinical-planning concordance for duplex ultrasound across iliac, femoropopliteal, and distal arterial territories, with estimated savings exceeding \u20ac425,000. The catch: results depend heavily on accredited ultrasonographer expertise, raising questions about whether this model can be replicated outside specialized vascular units."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42527152",
+      "headline": "Your mother's lung function predicts yours more than your father's does",
+      "journal": "Thorax",
+      "pubdate": "2026 Jul 29",
+      "doi": "10.1136/thorax-2026-225219",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers analyzed 1,203 parent-offspring pairs and 254 sibling pairs from the multinational ECRHS and RHINESSA cohorts across Europe and Australia, measuring spirometry in parents (mean age 35) and their adult offspring (mean age 31). Lung function (FEV1 and FVC) was positively associated within families, and approximately 75\u201380% of lung function variance was explained within-family after adjusting for height, smoking, and BMI. Notably, the mother-son association was significantly stronger than all other parent-offspring sex combinations.",
+      "why_it_matters": "A person's lung capacity appears to run in families \u2014 and a mother's lung health may be an especially important predictor for her son, a finding with potential implications for early screening and prevention across generations.",
+      "caveats": "observational design, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive sex-specific finding, large multinational cohort, clear lifestyle and public health hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "Want to Know Your Lung Health Risk? Look at Your Mom",
+          "hook": "A multigenerational European study found that a mother's lung function is a stronger predictor of her son's breathing capacity than a father's is.",
+          "pitch_angle": "Analyzing nearly 1,200 parent-child pairs across multiple countries, researchers found that lung function clusters strongly within families \u2014 and that maternal lung health has the most influence on sons. The finding suggests family history of breathing problems, especially on the maternal side, could be an underused signal for early lung health monitoring."
+        },
+        {
+          "publication_type": "STAT News / Medscape Cardiology",
+          "headline": "Maternal Lung Function Dominates Parent-Offspring Spirometry Concordance in Two-Generation European Cohort",
+          "hook": "In 1,203 parent-offspring pairs, the mother-son FEV1 association was significantly stronger than all other sex combinations \u2014 a finding that persisted after excluding asthmatic participants.",
+          "pitch_angle": "The ECRHS/RHINESSA two-generation analysis shows that 75\u201380% of spirometric variance is explained within families, with a disproportionate maternal-to-son transmission signal that warrants further investigation into sex-specific epigenetic or in-utero mechanisms influencing lifelong lung function."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42521064",
+      "headline": "New dual-energy AFib ablation catheter cuts procedure time nearly in half \u2014 but drives up costs by 37%",
+      "journal": "Heart Rhythm",
+      "pubdate": "2026 Jul 28",
+      "doi": "10.1016/j.hrthm.2026.07.035",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers prospectively tracked 985 patients (1,008 procedures) undergoing atrial fibrillation ablation with a new dual-energy catheter (Sphere-9) at a single US center between December 2024 and January 2026. The catheter delivers both radiofrequency and pulsed field energy; the cohort was 53.3% paroxysmal AF, 66.5% first ablation. Procedure time dropped from a median of 116 to 69 minutes, same-day discharge reached 83.5%, and annual ablation volume rose 26.8%, but supply costs and charges increased by 37% and 43%, respectively.",
+      "why_it_matters": "The efficiency gains of a promising new AFib ablation technology may come with substantially higher costs that could affect patient access and healthcare spending.",
+      "caveats": "single-center, observational design, short follow-up, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "High-prevalence AFib condition, real-world human data, strong efficiency finding offset by cost caveat and single-center design.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "A faster AFib ablation tool is winning over electrophysiologists \u2014 but the price tag is steep",
+          "hook": "A new catheter that combines two ablation energies cut procedure times by 40% and sent 83% of patients home the same day \u2014 but drove supply costs up by more than a third.",
+          "pitch_angle": "At a busy Houston heart center, a novel dual-energy AFib catheter transformed workflow and tripled same-day discharge rates, but raised supply costs by 37%. The tension between efficiency and affordability raises urgent questions about how quickly hospitals can adopt the technology at scale."
+        },
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Sphere-9 Dual-Energy Catheter: First 1,000-Case Real-World Data Show Speed Gains, Cost Tradeoffs",
+          "hook": "Median procedure time fell from 116 to 69 minutes with zero deaths, strokes, or tamponades across 1,008 AF ablations \u2014 but supply costs jumped 37%.",
+          "pitch_angle": "This prospective single-center series provides the first large real-world dataset on the Sphere-9 lattice-tip catheter, demonstrating high procedural efficiency and safety, along with a 26.8% increase in annual ablation volume. Electrophysiologists weighing adoption will need to factor significant cost increases against operational and patient-flow benefits."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41811276",
+      "headline": "Drugs that treat one kind of pulmonary hypertension may actually harm patients whose high lung pressure stems from heart failure",
+      "journal": "Journal of the American College of Cardiology",
+      "pubdate": "2026 Jul 28",
+      "doi": "10.1016/j.jacc.2026.01.024",
+      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "This comprehensive review, authored by an international panel of cardiovascular experts and published in JACC, examines pulmonary hypertension associated with left heart disease (PH-LHD), the most common form of pulmonary hypertension. The authors synthesize evidence showing that pulmonary arterial hypertension (PAH) drugs \u2014 widely used for other PH subtypes \u2014 have demonstrated no benefit and may cause harm in PH-LHD patients. The review also maps emerging investigational therapies including sotatercept, relaxin analogues, pulmonary artery denervation, and transcatheter atrial shunts, while highlighting major barriers to clinical trial progress.",
+      "why_it_matters": "Millions of heart failure patients also develop high lung pressure, yet no approved targeted treatment exists \u2014 and drugs used for a related condition may make them worse.",
+      "caveats": "observational design, industry funding [Bayer, AstraZeneca, Novo Nordisk, multiple others]",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "High-prevalence condition, counterintuitive harm signal for PAH drugs, major clinical implication, expert JACC review.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "PH-LHD: Why Standard PAH Drugs Fail \u2014 and What's Coming Next",
+          "hook": "Drugs that work well for pulmonary arterial hypertension have shown no benefit and possible harm in the far more common form tied to left heart disease.",
+          "pitch_angle": "This JACC state-of-the-art review lays out why PH-LHD remains an orphan condition therapeutically \u2014 despite being the most prevalent form of pulmonary hypertension \u2014 and maps emerging agents and device strategies entering trials. Clinicians managing heart failure with secondary lung pressure elevation will find this a critical framework for understanding the evidence vacuum and what may fill it."
+        },
+        {
+          "publication_type": "STAT News",
+          "headline": "The most common form of pulmonary hypertension has no approved treatment \u2014 and existing drugs may harm patients who have it",
+          "hook": "Pulmonary hypertension linked to heart failure is the most prevalent type, yet the drugs approved for other forms of the disease don't work for these patients and could make them worse.",
+          "pitch_angle": "A major JACC review by global experts reveals a striking therapeutic void: no drug or device is approved specifically for PH-LHD, trial recruitment has been plagued by diagnostic ambiguity, and PAH medications may harm this population. With promising agents like sotatercept now under investigation, the field may be approaching an inflection point."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42519996",
+      "headline": "Small heart-wall holes may pose a bigger stroke risk than large ones \u2014 counterintuitive finding flips assumptions about atrial septal defects",
+      "journal": "Cardiology",
+      "pubdate": "2026 Jul 28",
+      "doi": "10.1159/crd/absag002",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers retrospectively analyzed 270 adults who underwent transcatheter closure of a secundum atrial septal defect (ASD) between 2013 and 2024, using intraoperative transesophageal echocardiography to measure defect size. Paradoxical embolism \u2014 where a clot crosses through the hole from the right to the left side of the heart and travels to the brain or body \u2014 occurred in 14 patients. Smaller ASDs (under 10 mm) were independently associated with nearly 8-fold higher odds of paradoxical embolism compared to larger defects.",
+      "why_it_matters": "The finding suggests that small holes in the heart wall may carry a clinically meaningful stroke risk that could be underestimated because they are less likely to trigger surgical referral.",
+      "caveats": "small sample (N<100 events; only 14 embolism cases), observational design, retrospective, single-center, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding with stroke/embolism endpoint; limited by very small event count.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / Prevention",
+          "headline": "Tiny Heart Holes May Actually Be More Dangerous Than Big Ones, Study Suggests",
+          "hook": "Doctors have long assumed that larger holes in the heart's wall carry greater risk \u2014 but a new study found that smaller defects were far more likely to be linked to a stroke-causing blood clot crossing to the wrong side.",
+          "pitch_angle": "Among 270 adults who had a hole in their heart repaired, those with smaller defects (under 10 mm) were nearly 8 times more likely to have experienced a paradoxical embolism \u2014 a clot that can travel to the brain and cause stroke. The finding suggests small ASDs may be underestimated as a stroke risk factor and may warrant closer monitoring."
+        },
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Small Secundum ASDs Show Paradoxically Higher Odds of Embolic Events in Retrospective Cohort",
+          "hook": "Conventional thinking holds that larger atrial septal defects carry more risk, but intraoperative TEE data from 270 closure patients tell a different story for paradoxical embolism.",
+          "pitch_angle": "Multivariable analysis found that ASD diameter under 10 mm was independently associated with nearly 8-fold increased odds of paradoxical embolism, even after adjusting for age, sex, and hypertension. The authors suggest that smaller defects may allow higher-velocity right-to-left shunting, and this cohort warrants prospective follow-up to clarify clinical implications."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42521527",
+      "headline": "Severe heart failure triggers previously unknown immune proteins \u2014 and they may signal who's wasting away",
+      "journal": "Heart, Lung & Circulation",
+      "pubdate": "2026 Jul 28",
+      "doi": "10.1016/j.hlc.2026.03.064",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Using targeted proteomics, researchers at King's College London and Royal Brompton Hospital studied patients with advanced or stable heart failure to identify novel biomarkers of cardiac cachexia \u2014 the severe unintentional weight loss associated with end-stage heart failure. Among patients with cardiac cachexia or unintentional weight loss, four previously unstudied proteins were differentially expressed: interleukin-27, interleukin-4, vascular endothelial growth factor D, and bone morphogenetic protein-6. All four showed reasonable diagnostic potential (AUROC 0.741\u20130.826), suggesting roles in immune regulation and cytokine signaling pathways underlying the condition.",
+      "why_it_matters": "Cardiac cachexia is a devastating complication of advanced heart failure with no approved treatments, and identifying novel biological targets could eventually open new therapeutic avenues for patients facing this poor-prognosis condition.",
+      "caveats": "small sample (N<100), single-center, surrogate endpoints only, observational design, findings require validation",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Novel heart failure biomarker discovery; small sample limits impact despite strong topic fit.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Proteomics Uncovers Four Novel Biomarkers in Cardiac Cachexia \u2014 Including Two Interleukins",
+          "hook": "A targeted proteomic analysis of advanced heart failure patients found four proteins \u2014 including interleukin-27 and VEGF-D \u2014 that are elevated specifically in cardiac cachexia and may reflect novel immune-driven disease mechanisms.",
+          "pitch_angle": "The findings from a UK single-center cohort suggest cardiac cachexia involves cytokine signaling pathways distinct from those currently used for diagnosis, raising the possibility of new therapeutic targets. Validation in larger multicenter cohorts will be essential before clinical application."
+        },
+        {
+          "publication_type": "STAT News",
+          "headline": "Heart Failure's Deadly Wasting Syndrome Has Hidden Immune Triggers \u2014 New Proteins Point the Way",
+          "hook": "Researchers have found four immune proteins that appear uniquely elevated in heart failure patients who are wasting away \u2014 a condition called cardiac cachexia that has no approved treatments and carries grim survival odds.",
+          "pitch_angle": "The proteomic study suggests immune dysregulation plays a larger-than-recognized role in cardiac cachexia, potentially explaining why the condition is so difficult to treat with standard heart failure therapies. If validated, the proteins could serve as both diagnostic markers and drug targets."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42521805",
+      "headline": "A wrist pulse reading may reveal how fast your arteries are aging \u2014 no blood test needed",
+      "journal": "Hypertension Research",
+      "pubdate": "2026 Jul 28",
+      "doi": "10.1038/s41440-026-02746-x",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers analyzed radial pulse waveforms in 919 participants aged 6\u201392 years using a non-invasive pressure transducer, applying a frequency-domain wave propagation model to extract a novel metric called first-harmonic attenuation (Y1). They found that Y1 decreased significantly with age (p<0.001), outperforming traditional pulse wave velocity in sensitivity and stability. The study suggests this wrist-based measurement could serve as a robust, non-invasive marker of vascular aging across the full human lifespan.",
+      "why_it_matters": "A simple, non-invasive wrist measurement may one day help identify people whose arteries are aging faster than expected \u2014 potentially years before a cardiovascular event occurs.",
+      "caveats": "surrogate endpoints only, single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Novel non-invasive vascular aging marker; surrogate endpoints only; no clinical outcomes.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / Prevention",
+          "headline": "Your Wrist Pulse Could Reveal How Fast Your Arteries Are Aging",
+          "hook": "A new analysis of pulse wave patterns suggests a simple wrist reading may detect vascular aging more sensitively than current standard tests.",
+          "pitch_angle": "Researchers studied nearly 1,000 people across a lifespan and found that a specific property of the radial pulse \u2014 how much wave energy is dampened \u2014 declines measurably with age. If validated in larger studies, this non-invasive wrist measurement could become a routine way to flag hidden cardiovascular risk early."
+        },
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "First-Harmonic Attenuation of Radial Pulse Waves: A Sensitive New Biomarker for Vascular Age",
+          "hook": "A frequency-domain analysis of radial pulse waveforms in 919 participants identifies first-harmonic attenuation (Y1) as more age-sensitive than conventional pulse wave velocity.",
+          "pitch_angle": "Using a non-invasive pressure transducer and Womersley-number-based modeling, investigators found Y1 declined significantly across the lifespan while phase velocity remained stable, suggesting it captures viscous arterial wall changes that PWV misses. The approach could support earlier, more precise vascular risk stratification without invasive testing."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42506896",
+      "headline": "A single genetic mutation causes severe bleeding disorder in a case series \u2014 with one never-before-reported genotype",
+      "journal": "Blood Coagulation & Fibrinolysis",
+      "pubdate": "2026 Jul 28",
+      "doi": "10.1097/MBC.0000000000001445",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers characterized coagulation profiles and bleeding severity in 12 patients with Factor X deficiency \u2014 10 hereditary and 2 acquired \u2014 using clotting tests, ISTH bleeding assessment scores, and Sanger sequencing. The study reports the first globally documented case of a homozygous p.Gln249Pro (c.746A>C) F10 mutation, found in one patient with severe bleeding and Factor X activity below 1%. The analysis confirms that Factor X activity below 5% correlates with severe bleeding, while heterozygous carriers with activity of 30\u201350% typically show mild or no symptoms.",
+      "why_it_matters": "Understanding the link between specific Factor X gene mutations and bleeding severity may help clinicians better predict who needs early intervention for this rare clotting disorder.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Rare clotting disorder; first-reported genotype; very small sample limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology / General health",
+          "headline": "New Genotype Identified in Rare Bleeding Disorder: What It Means for Factor X Deficiency Diagnosis",
+          "hook": "A case series reports the world's first known patient with a homozygous p.Gln249Pro Factor X mutation \u2014 and severe bleeding to match.",
+          "pitch_angle": "The 12-patient study links specific F10 gene variants to predictable bleeding severity, reinforcing that genetic testing should accompany standard coagulation panels in Factor X deficiency workup. The novel homozygous mutation finding underscores how rare genotypes can produce dramatically different clinical phenotypes than heterozygous carriers of the same variant."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42054544",
+      "headline": "Real-world data back a newer leukemia drug's staying power \u2014 over 80% of CLL patients were still alive and progression-free at three years",
+      "journal": "Blood Advances",
+      "pubdate": "2026 Jul 28",
+      "doi": "10.1182/bloodadvances.2026019978",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "This multicenter retrospective chart review followed 282 previously untreated UK adults with chronic lymphocytic leukemia (CLL) who received acalabrutinib monotherapy as first-line therapy through a UK-wide early access program, with a median age of 73.9 years and median follow-up of nearly 49 months. At the 3-year landmark, real-world progression-free survival was 82.5% and overall survival was 84.3%, with 72.3% of patients still on the drug. The most common reasons for discontinuation were adverse events (36%), death (18%), and disease progression (16%), with upper respiratory tract infections, rash, and neutropenia the most frequent side effects.",
+      "why_it_matters": "These real-world outcomes for older CLL patients \u2014 who are often underrepresented in clinical trials \u2014 suggest acalabrutinib performs in routine practice comparably to what was seen in controlled studies.",
+      "caveats": "observational design, retrospective chart review, single-country (UK), industry funding [AstraZeneca]",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Solid real-world hematology data; leukemia drug effectiveness in older patients, industry-funded.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Real-world evidence supports acalabrutinib's effectiveness for older CLL patients outside clinical trials",
+          "hook": "Clinical trials often exclude the frail and elderly \u2014 so this three-year real-world follow-up of 282 older CLL patients on acalabrutinib fills a critical evidence gap.",
+          "pitch_angle": "With a median age of nearly 74, this UK cohort mirrors the patients most likely to receive acalabrutinib in practice, and their survival and progression-free rates closely matched trial results. AstraZeneca co-funded the study, which warrants disclosure, but the multicenter design across 29 UK sites adds credibility."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41921203",
+      "headline": "Dropping one drug from a classic lymphoma regimen may actually improve survival in older patients",
+      "journal": "Blood Advances",
+      "pubdate": "2026 Jul 28",
+      "doi": "10.1182/bloodadvances.2025018954",
+      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers analyzed data from 1,569 patients aged 60 and older with classical Hodgkin lymphoma diagnosed in Sweden, Denmark, and Norway between 2000 and 2021. In multivariable analyses, treatment with AVD (doxorubicin, vinblastine, dacarbazine \u2014 the standard ABVD regimen minus bleomycin) was associated with significantly better overall survival and progression-free survival compared to full ABVD, while CHOP showed a trend toward inferior survival. The findings suggest that removing bleomycin \u2014 which carries pulmonary toxicity risk \u2014 from the standard regimen may improve outcomes in older patients rather than compromising them.",
+      "why_it_matters": "For older adults with Hodgkin lymphoma, a three-drug regimen that omits a toxic agent may offer better survival than the long-standing four-drug standard \u2014 a finding that could reshape treatment decisions for a growing population of older cancer patients.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Large Nordic cohort, counterintuitive survival finding; hematology-oncology, not direct cardiology topic.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / Medscape Cardiology",
+          "headline": "Less May Be More: Dropping Bleomycin From Hodgkin Lymphoma Treatment Linked to Better Survival in Older Patients",
+          "hook": "A study of more than 1,500 older Hodgkin lymphoma patients found that removing bleomycin \u2014 a drug long considered essential \u2014 from standard chemotherapy was associated with improved survival, not worse.",
+          "pitch_angle": "Nordic registry data suggest that the three-drug AVD regimen outperforms the classic four-drug ABVD in patients 60 and older with classical Hodgkin lymphoma, likely because bleomycin's pulmonary toxicity is particularly dangerous in older adults. The finding has implications for how oncologists and cardiologists weigh treatment-related toxicity against efficacy in an aging patient population."
+        },
+        {
+          "publication_type": "AARP The Magazine / General health",
+          "headline": "For Older Adults With Hodgkin Lymphoma, a Simpler Drug Regimen May Actually Work Better",
+          "hook": "Skipping one chemotherapy drug known to damage lungs was linked to better survival in older Hodgkin lymphoma patients \u2014 turning conventional wisdom on its head.",
+          "pitch_angle": "A large Scandinavian study found that older patients with Hodgkin lymphoma who received a three-drug chemotherapy regimen lived longer than those who received the four-drug standard, with the omitted drug \u2014 bleomycin \u2014 known to cause lung injury that is harder for older bodies to tolerate. The results suggest that for older adults, reducing treatment-related toxicity may be just as important as the cancer-fighting power of the regimen itself."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42504834",
+      "headline": "A Teen's Cardiac Arrest Reveals Hidden Family Heart Condition Tied to a Gene Most Doctors Don't Screen For",
+      "journal": "Cardiology in the Young",
+      "pubdate": "2026 Jul 27",
+      "doi": "10.1017/S1047951126123725",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Clinicians in Portugal report a 15-year-old girl who survived a sudden cardiac arrest and was subsequently diagnosed with left-dominant arrhythmogenic cardiomyopathy linked to a previously unreported variant in the DSP (desmoplakin) gene. An implantable cardioverter-defibrillator was placed, and family screening uncovered additional affected relatives. The case highlights that arrhythmogenic cardiomyopathy can present as sudden cardiac arrest in adolescents and may cluster silently within families.",
+      "why_it_matters": "Arrhythmogenic cardiomyopathy is a leading cause of sudden cardiac death in young people, and this case suggests that a single unexplained cardiac arrest in a teenager should prompt genetic and family-wide evaluation.",
+      "caveats": "small sample (N<100), single-center, observational design, case report",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Sudden cardiac death in adolescents is high-interest; case report limits clinical weight but strong human-interest hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / General health",
+          "headline": "A 15-Year-Old's Cardiac Arrest Was the First Sign of a Silent Family Heart Condition",
+          "hook": "A teenage girl in Portugal survived a sudden cardiac arrest \u2014 and her recovery led doctors to discover a previously unknown genetic heart disease running through her entire family.",
+          "pitch_angle": "The case involves a newly identified mutation in the DSP gene, linked to a form of cardiomyopathy that can cause fatal arrhythmias with little warning, even in otherwise healthy young people. Experts say the case reinforces why unexplained cardiac events in young patients should trigger both genetic testing and screening of close relatives."
+        },
+        {
+          "publication_type": "STAT News / Medscape Cardiology",
+          "headline": "Novel DSP Variant Underlies Left-Dominant Arrhythmogenic Cardiomyopathy in an Adolescent \u2014 Family Screening Reveals Wider Risk",
+          "hook": "A new case report describes a previously unreported desmoplakin variant causing left-dominant arrhythmogenic cardiomyopathy that first manifested as aborted sudden cardiac arrest in a 15-year-old.",
+          "pitch_angle": "The case adds to the growing catalog of DSP-linked arrhythmogenic cardiomyopathy presentations and underscores the yield of cascade genetic screening after index events in young patients. Left-dominant variants are increasingly recognized as distinct from classic right-ventricular disease and may be underdiagnosed in pediatric populations."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42508552",
+      "headline": "AI language models may be too unreliable to assess athletes' heart health \u2014 even with a human in the loop",
+      "journal": "Progress in Cardiovascular Diseases",
+      "pubdate": "2026 Jul 27",
+      "doi": "10.1016/j.pcad.2026.07.005",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "This narrative review examined the potential and limitations of large language models (LLMs) in sports cardiology \u2014 a field where distinguishing normal athletic adaptations from dangerous cardiac conditions is critical. The authors argue that current LLM evaluation methods, based largely on exam-style benchmarks and hospital populations, do not capture the real-world complexity of athlete cardiovascular assessment. They propose a governance framework in which LLMs serve as documentation and synthesis aids under continuous clinician oversight, rather than as independent diagnostic tools.",
+      "why_it_matters": "As AI tools increasingly enter clinical cardiology, this review raises a timely caution: the stakes of a missed diagnosis in a young athlete \u2014 such as overlooking hypertrophic cardiomyopathy \u2014 are too high for AI systems not yet validated in this specialized context.",
+      "caveats": "observational design, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "AI in cardiology is timely; narrative review only; no new clinical data; sports cardiology niche.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "AI Chatbots Aren't Ready to Clear Athletes to Play \u2014 Cardiologists Make the Case for Human Oversight",
+          "hook": "A multinational team of sports cardiologists warns that large language models lack the nuance to safely navigate the fine line between an athlete's normal heart adaptations and a life-threatening condition.",
+          "pitch_angle": "The review proposes a new governance model where LLMs handle documentation and information synthesis but never independently interpret cardiovascular signals in athletes \u2014 a population where a missed diagnosis can mean sudden cardiac death. As AI adoption in medicine accelerates, this paper offers a concrete framework for where the human must stay in charge."
+        },
+        {
+          "publication_type": "General health",
+          "headline": "Should AI Decide If Your Kid Is Safe to Play Sports? Heart Experts Say Not Yet",
+          "hook": "Researchers say AI language models are not equipped to reliably assess whether an athlete's heart is healthy \u2014 and using them that way could be dangerous.",
+          "pitch_angle": "For parents and coaches increasingly encountering AI-assisted health tools, this review is a reminder that cardiovascular screening for athletes involves judgment calls that current AI cannot safely make alone. Experts recommend AI stay in a support role, with a cardiologist making all final decisions."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41804720",
+      "headline": "A faster 'sound wave' device for breaking up hardened coronary artery calcium shows early safety and effectiveness in US trial",
+      "journal": "JACC: Cardiovascular Interventions",
+      "pubdate": "2026 Jul 27",
+      "doi": "10.1016/j.jcin.2026.02.018",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers evaluated a novel 2-Hz coronary intravascular lithotripsy system (Shockwave's Disrupt CAD Duo) designed to break up calcified coronary artery blockages using sonic pulses at a higher frequency than prior devices. The IDE study enrolled patients with severely calcified coronary artery disease at multiple US centers. Early results suggested the device met prespecified safety and effectiveness endpoints, though the abstract does not report specific N or hard clinical outcome data.",
+      "why_it_matters": "Severely calcified coronary arteries are among the hardest lesions to treat during stenting, so improvements in lithotripsy technology could benefit a significant subset of heart patients undergoing percutaneous coronary intervention.",
+      "caveats": "industry funding [Shockwave Medical], surrogate endpoints only, small sample (N not specified in abstract), multiple authors are Shockwave Medical employees or paid consultants",
+      "fact_check_note": "Abstract does not report sample size or specific outcome data; summary reflects this limitation explicitly.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Niche interventional cardiology device study; heavy industry funding and limited outcome data.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Disrupt CAD Duo IDE: 2-Hz Lithotripsy System Clears Early Safety and Effectiveness Bar in Calcified Coronary Lesions",
+          "hook": "A faster-pulsing intravascular lithotripsy system designed for heavily calcified coronary arteries has met initial safety and effectiveness benchmarks in a US IDE trial.",
+          "pitch_angle": "The Disrupt CAD Duo system operates at 2 Hz \u2014 double the frequency of the original Shockwave device \u2014 and was evaluated across multiple US centers in patients with severely calcified coronary disease. Interventional cardiologists will want to watch this space, though the absence of hard endpoint data and heavy industry involvement warrant scrutiny."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42504934",
+      "headline": "The 'obesity paradox' after heart attacks may have been a statistical illusion all along",
+      "journal": "European Journal of Preventive Cardiology",
+      "pubdate": "2026 Jul 27",
+      "doi": "10.1093/eurjpc/zwag374",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research / Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers from the George Institute for Global Health and Baker Heart and Diabetes Institute re-examine the 'obesity paradox' \u2014 the longstanding observation that obese patients appear to fare better after a myocardial infarction than normal-weight patients. The paper is a perspective/commentary piece without a new primary dataset, drawing on evolving evidence. It argues that methodological biases, including confounding by smoking status, cardiorespiratory fitness, and unintentional weight loss, may largely explain the paradox rather than a true protective effect of obesity.",
+      "why_it_matters": "If the obesity paradox after heart attacks is largely a statistical artifact, clinicians and patients should not interpret excess weight as protective following a cardiac event.",
+      "caveats": "secondary analysis, surrogate endpoints only, no primary data \u2014 commentary/perspective piece",
+      "fact_check_note": "Abstract is minimal (title and author affiliations only); summary characterizes this as a commentary/perspective based on context. Claims about methodological bias are framed as the paper's argument, not confirmed primary findings.",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive, high-prevalence topic, overturns widely cited finding; commentary limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "NYT Health / STAT News",
+          "headline": "The 'Obesity Paradox' After Heart Attacks May Be a Myth. Here's Why Researchers Are Finally Saying So.",
+          "hook": "For decades, studies suggested overweight patients survived heart attacks better than thin ones \u2014 but a new analysis argues the data was misleading from the start.",
+          "pitch_angle": "Researchers re-examine decades of evidence suggesting obesity is somehow protective after a heart attack, pointing to hidden confounders like smoking and fitness levels that may have skewed results. If the paradox dissolves under scrutiny, it changes how clinicians counsel post-MI patients about their weight."
+        },
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "Being Overweight After a Heart Attack Isn't Actually Protective \u2014 Scientists Say the Old Data Was Flawed",
+          "hook": "A surprising idea that heavier people fare better after heart attacks has guided thinking for years \u2014 but new analysis suggests it was never quite right.",
+          "pitch_angle": "The so-called obesity paradox has given some patients false reassurance about excess weight after a cardiac event, but emerging evidence suggests the pattern was driven by statistical errors rather than biology. Experts now say maintaining a healthy weight remains important for heart attack recovery."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42508861",
+      "headline": "Interventional cardiologists describe a new wire-navigation technique for opening completely blocked coronary arteries",
+      "journal": "JACC: Cardiovascular Interventions",
+      "pubdate": "2026 Jul 27",
+      "doi": "10.1016/j.jcin.2026.02.055",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "This brief technical report from cardiologists at Montefiore Medical Center and Emory University describes a new procedural technique \u2014 called 'tip detection retrograde dissection and re-entry' \u2014 for percutaneous coronary intervention (PCI) in chronic total occlusions (CTO), which are complete blockages of coronary arteries. No patient-level data, outcomes, or sample size are reported in the abstract. The paper appears to be a technique description or case-based report published in JACC Cardiovascular Interventions.",
+      "why_it_matters": "Chronic total occlusions remain among the most technically challenging coronary blockages to treat, and new procedural innovations could expand the proportion of patients who can be successfully treated with PCI rather than surgery.",
+      "caveats": "small sample (N<100), no patient outcome data reported, single-center, technique description only",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Procedural technique note; no outcome data, limited journalist pitch value.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "A New Retrograde CTO Technique Uses Wire-Tip Detection to Navigate Difficult Total Occlusions",
+          "hook": "Chronic total occlusions remain the Everest of interventional cardiology \u2014 a new retrograde technique may offer another tool for operators tackling the hardest cases.",
+          "pitch_angle": "Cardiologists at Montefiore and Emory describe a tip detection-guided retrograde dissection and re-entry approach for CTO PCI, adding to the growing toolkit for complex coronary intervention. No outcomes data are yet published, making this primarily of interest to interventional specialists tracking technique evolution."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42508687",
+      "headline": "Loneliness may be as serious a heart health threat as traditional risk factors, cardiologists warn",
+      "journal": "Canadian Journal of Cardiology",
+      "pubdate": "2026 Jul 27",
+      "doi": "10.1016/j.cjca.2026.07.366",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers from the University of Ottawa Heart Institute and Brigham Young University examined the intersection of loneliness and cardiovascular disease in the context of patient-centred care, drawing on existing evidence linking social isolation to cardiac outcomes. This is a review or perspective paper, not a primary data study, with no new patient cohort reported. The authors argue that loneliness should be systematically addressed as part of cardiovascular care, given its associations with worse heart disease outcomes.",
+      "why_it_matters": "As loneliness reaches epidemic levels globally, this paper suggests cardiovascular care teams may need to screen and address social isolation alongside traditional risk factors like blood pressure and cholesterol.",
+      "caveats": "secondary analysis, observational design, no primary data \u2014 likely review or perspective piece",
+      "fact_check_note": "Abstract text is minimal; characterization as a review/perspective is inferred from author affiliations and journal context. No N or primary outcome data are available.",
+      "relevance_score": 6,
+      "relevance_score_reason": "High-relevance lifestyle and public health hook; no primary data limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Prevention / Everyday Health",
+          "headline": "Your Cardiologist May Soon Ask If You're Lonely \u2014 Here's Why Heart Doctors Are Taking Social Isolation Seriously",
+          "hook": "Loneliness isn't just an emotional burden \u2014 cardiologists now say it may rival smoking and high blood pressure as a threat to your heart.",
+          "pitch_angle": "A new paper in the Canadian Journal of Cardiology argues that social isolation should be treated as a cardiovascular risk factor, not a personal problem, and that heart care teams should routinely screen patients for loneliness. With social isolation linked to higher rates of heart disease and worse outcomes after cardiac events, the findings have implications for how millions of older adults receive care."
+        },
+        {
+          "publication_type": "STAT News / Medscape Cardiology",
+          "headline": "Cardiology Needs to Treat Loneliness as a Clinical Variable, Researchers Argue",
+          "hook": "A cross-institutional team is pushing cardiologists to move beyond pills and procedures and start asking patients about their social lives.",
+          "pitch_angle": "The paper makes the case that patient-centred cardiovascular care is incomplete without addressing loneliness, which is associated with elevated inflammation, worse medication adherence, and higher cardiovascular mortality. Whether the field will operationalize screening for social isolation remains an open question."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42508859",
+      "headline": "Surgeons deploy sound-wave technology to free a stuck rotational atherectomy device inside a coronary artery",
+      "journal": "JACC: Cardiovascular Interventions",
+      "pubdate": "2026 Jul 27",
+      "doi": "10.1016/j.jcin.2026.02.039",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Interventional cardiologists at a Beijing hospital describe a novel procedural rescue technique using intravascular lithotripsy \u2014 a device that delivers sonic pressure waves to crack calcified plaque \u2014 to free a rotational atherectomy burr that became entrapped in a heavily calcified coronary artery. The report appears to be a case report or small case series with no sample size stated in the abstract. The technique involved subintimal plaque modification to release the trapped device without emergency surgery.",
+      "why_it_matters": "Burr entrapment during rotational atherectomy is a rare but life-threatening complication, and this technique could offer interventionalists a new tool to avoid emergency bypass surgery.",
+      "caveats": "small sample (N<100), single-center, observational design, surrogate endpoints only, no sample size reported in abstract",
+      "fact_check_note": "No sample size is provided in the abstract; described as a novel strategy report, likely a case report or very small series.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Niche procedural technique; limited generalizability; no outcomes data; journalist audience previously passed on similar interventional device angles.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Intravascular Lithotripsy Rescues Entrapped Atherectomy Burr in Calcified Coronary Artery",
+          "hook": "When a rotational atherectomy burr became stuck in a heavily calcified coronary artery, operators used lithotripsy's sonic waves to crack the surrounding plaque and free the device.",
+          "pitch_angle": "This Beijing case report introduces subintimal plaque modification via intravascular lithotripsy as a potential bailout strategy for one of interventional cardiology's most feared complications. Interventionalists managing complex calcified lesions may find this technique worth knowing before they face the scenario themselves."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42508857",
+      "headline": "A new technique aims to better align replacement aortic valves so they work more like the real thing",
+      "journal": "JACC: Cardiovascular Interventions",
+      "pubdate": "2026 Jul 27",
+      "doi": "10.1016/j.jcin.2026.05.015",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Interventional cardiologists from centers in Copenhagen and Toulouse describe a novel implantation technique designed to achieve commissural alignment \u2014 the precise rotational positioning of a transcatheter aortic valve (TAVR) so its leaflet junctions line up with the patient's native valve anatomy. No patient outcome data, sample size, or results are provided in the available abstract text; this appears to be a technical communication or case series. Proper commissural alignment is believed to be important for coronary access and future valve-in-valve procedures.",
+      "why_it_matters": "As TAVR expands to younger, lower-risk patients who may need repeat interventions decades later, ensuring correct valve alignment at initial implantation could affect the feasibility of future procedures.",
+      "caveats": "small sample (N<100), industry funding [Abbott, Medtronic, Boston Scientific, Edwards Lifesciences \u2014 multiple authors], surrogate endpoints only, abstract unavailable for full verification",
+      "fact_check_note": "No patient outcomes, N, or results data were present in the provided abstract. Summary is limited to the described technique and its stated rationale.",
+      "relevance_score": 4,
+      "relevance_score_reason": "Technically relevant TAVR topic but no outcomes data; heavy industry conflicts.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Novel TAVR Implantation Technique Targets Precise Commissural Alignment for Better Long-Term Access",
+          "hook": "As TAVR moves into younger patients, a new implantation approach aims to ensure replacement valves are rotationally positioned correctly from the start \u2014 a detail that could determine whether future interventions are even possible.",
+          "pitch_angle": "Misaligned commissures in transcatheter aortic valves can block coronary access and complicate valve-in-valve procedures years later. This multicenter technical report from Copenhagen and Toulouse describes a technique to address this during initial implantation, though no clinical outcomes data are yet available."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42509019",
+      "headline": "Blood protein patterns may help doctors finally tell apart two easily confused platelet disorders in children",
+      "journal": "British Journal of Haematology",
+      "pubdate": "2026 Jul 27",
+      "doi": "10.1111/bjh.70720",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers used data-independent acquisition plasma proteomics in small cohorts of children with MYH9-related disease (n=10), immune thrombocytopenia (n=10), and healthy controls (n=14) to identify protein signatures that distinguish the two conditions. Machine learning identified a four-protein panel (including von Willebrand factor and apolipoprotein A-1) for MYH9-RD and a three-protein panel (including NGAL and PAI-1) for ITP. The candidate biomarker panels showed strong apparent discrimination in this exploratory cohort, though external validation is needed.",
+      "why_it_matters": "Distinguishing inherited from immune-driven platelet disorders in children currently requires invasive or specialized genetic testing \u2014 a validated blood protein panel could eventually streamline diagnosis.",
+      "caveats": "small sample (N<100), single-center, observational design, surrogate endpoints only, no external validation, exploratory/hypothesis-generating only",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Pediatric hematology, very small exploratory cohort, no clinical outcomes, limited generalizability yet.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology / Hematology",
+          "headline": "Plasma Proteomics Flags Distinct Protein Signatures for Two Childhood Platelet Disorders That Mimic Each Other",
+          "hook": "A proteomics screen found that MYH9-related disease and immune thrombocytopenia leave very different molecular fingerprints in children's blood \u2014 a finding that could eventually simplify a notoriously difficult diagnosis.",
+          "pitch_angle": "Using machine learning on plasma protein data from just 34 pediatric patients and controls, researchers identified candidate biomarker panels that distinguished congenital from acquired macrothrombocytopenia with apparent accuracy. The study is explicitly exploratory and requires external validation, but offers a roadmap for a less invasive diagnostic approach."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42509161",
+      "headline": "A Routine Blood Test Kept Giving the Wrong Answer \u2014 A Rare Hemoglobin Mutation Was Behind the Confusion",
+      "journal": "Hemoglobin",
+      "pubdate": "2026 Jul 27",
+      "doi": "10.1080/03630269.2026.2702334",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Clinicians in Shenzhen, China report a 57-year-old woman whose HbA1c results varied widely across three standard testing methods (capillary electrophoresis, HPLC, and boric acid affinity chromatography), prompting investigation that revealed a novel hemoglobin variant \u2014 named Hb Hefei \u2014 caused by a point mutation in the HBB gene (c.341T>G). The variant altered the beta-globin chain in a way that interfered with HbA1c measurement without producing visible abnormalities on standard chromatograms. The case is a single-patient report identified during routine examination.",
+      "why_it_matters": "Rare hemoglobin variants can cause standard HbA1c tests \u2014 used to diagnose and monitor diabetes \u2014 to produce inaccurate results, potentially leading to missed or incorrect diagnoses.",
+      "caveats": "small sample (N<100), single-center, case report, single-center (Shenzhen, China) \u2014 generalizability uncertain",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Niche hematology case; diabetes testing angle has some public health relevance but extremely limited sample.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / General health",
+          "headline": "Your A1C Test Could Be Wrong If You Have This Rare Blood Mutation",
+          "hook": "A case report from China describes a woman whose standard blood sugar test gave three different answers \u2014 all because of a rare, newly discovered hemoglobin variant that interferes with how HbA1c is measured.",
+          "pitch_angle": "The finding, while involving a single patient, is a reminder that rare hemoglobin variants can silently distort the most widely used test for diabetes monitoring. Clinicians may need specialized testing when HbA1c results are inconsistent or don't match a patient's clinical picture."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42503724",
+      "headline": "A new platelet measurement may finally distinguish immune thrombocytopenia from other blood disorders \u2014 with 91% accuracy",
+      "journal": "International Journal of Laboratory Hematology",
+      "pubdate": "2026 Jul 26",
+      "doi": "10.1111/ijlh.70206",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Japanese researchers retrospectively analyzed blood samples from 55 patients with thrombocytopenia (23 with immune thrombocytopenia [ITP], 19 with myelodysplastic syndromes, and 13 with aplastic anemia) plus 34 healthy controls to evaluate a novel platelet marker called the nonlarge, low platelet component concentration fraction (NL-LPLC%). The NL-LPLC%, derived from an automated hematology analyzer, distinguished ITP from other thrombocytopenic conditions with 91.3% sensitivity and 90.6% specificity. The marker focuses on platelet quality \u2014 specifically intracellular component concentration \u2014 rather than platelet size alone, offering a potential improvement over existing size-based indices.",
+      "why_it_matters": "Immune thrombocytopenia is often misdiagnosed or diagnosed only after ruling out other conditions; a simple, high-accuracy blood test marker could accelerate diagnosis and reduce delays in treatment for patients with dangerously low platelet counts.",
+      "caveats": "small sample (N<100), retrospective design, single-center, surrogate endpoints only, requires specific ADVIA 2120i analyzer \u2014 may not generalize to other platforms",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Novel ITP diagnostic marker with strong sensitivity/specificity; small retrospective sample limits confidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / General health",
+          "headline": "A Routine Blood Test Could Soon Flag an Immune Disorder That Causes Dangerous Bleeding \u2014 More Accurately Than Before",
+          "hook": "A new way of analyzing platelets in a standard blood count may identify immune thrombocytopenia \u2014 a condition that causes the immune system to destroy its own clotting cells \u2014 with over 91% accuracy.",
+          "pitch_angle": "Japanese researchers found that measuring the internal density of platelets, not just their size, helps distinguish ITP from other causes of low platelet counts in a small but promising study. If validated in larger trials, the marker could speed diagnosis for patients who currently face lengthy workups to rule out leukemia-related bone marrow disorders before ITP is confirmed."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42501873",
+      "headline": "A quick ultrasound scan at a routine health checkup can flag sleep apnea \u2014 even in people who aren't overweight",
+      "journal": "Respiratory Medicine",
+      "pubdate": "2026 Jul 25",
+      "doi": "10.1016/j.rmed.2026.109042",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers in Taiwan enrolled 1,101 individuals attending routine health checkups and used standardized submental upper airway ultrasound with AI-assisted software to estimate obstructive sleep apnea (OSA) risk, with high-risk and medium-risk participants referred for overnight polysomnography. The positive predictive value for mild, moderate, and severe OSA was 94.8%, 87.6%, and 72.2%, respectively. Importantly, the tool also detected subclinical OSA in participants with normal BMI, suggesting it could identify cases that standard screening tools \u2014 which rely heavily on obesity and symptom questionnaires \u2014 would miss.",
+      "why_it_matters": "Sleep apnea is a major cardiovascular risk factor that often goes undetected, and this ultrasound approach suggests it could be identified during a routine physical \u2014 even in people who don't appear to be at high risk.",
+      "caveats": "single-center, observational design, single-region (Taiwan) \u2014 BMI thresholds and upper airway anatomy may differ across populations",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Large N, cardiovascular risk condition, strong lifestyle hook, but single-center Taiwan data.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / Prevention",
+          "headline": "A 5-Minute Neck Ultrasound Could Detect Sleep Apnea at Your Next Checkup",
+          "hook": "A new ultrasound-based screening tool found sleep apnea in people with normal weight who showed no obvious risk factors \u2014 the kind of cases that routinely get missed.",
+          "pitch_angle": "Taiwanese researchers used a quick ultrasound scan of the throat during routine health checkups to accurately detect moderate-to-severe obstructive sleep apnea, including in normal-weight individuals. Since untreated sleep apnea is linked to higher blood pressure, heart disease, and stroke risk, a low-burden screening tool added to standard physicals could catch dangerous cases before they cause cardiovascular harm."
+        },
+        {
+          "publication_type": "STAT News / Medscape Cardiology",
+          "headline": "Upper Airway Ultrasonography Shows High PPV for OSA Screening in General Health Checkup Population",
+          "hook": "In 1,101 health checkup attendees, AI-assisted submental ultrasound achieved a positive predictive value of 94.8% for mild OSA and successfully flagged subclinical cases in normal-BMI individuals.",
+          "pitch_angle": "The Taiwan-based study positions upper airway ultrasound as a scalable, non-invasive triage tool for OSA that could reduce reliance on overnight polysomnography referrals \u2014 with particular utility in non-obese patients who fall below traditional screening thresholds for a condition with significant cardiovascular consequences."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42501939",
+      "headline": "ECMO's life-saving power comes with ethical traps clinicians are still struggling to navigate",
+      "journal": "Chest",
+      "pubdate": "2026 Jul 25",
+      "doi": "10.1016/j.chest.2026.07.5210",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "This expert review from clinicians and bioethicists at Boston Children's Hospital, Hospital for Sick Children Toronto, and the University of Rochester outlines four practical recommendations for ethically sound decision-making around initiating ECMO (extracorporeal membrane oxygenation). The authors address the growing complexity of ECMO decisions \u2014 including who should be offered it, how informed consent should evolve throughout treatment, and what institutions should do when ECMO is withheld. No original patient data are reported; recommendations are grounded in clinical experience, existing literature, and ethical frameworks.",
+      "why_it_matters": "As ECMO use expands for critically ill cardiac and respiratory patients, clearer ethical frameworks for offering, initiating, and withdrawing the technology could reduce disparities in who receives life-sustaining treatment.",
+      "caveats": "No original data \u2014 expert review/commentary only, primarily pediatric cardiology context, no patient outcomes reported",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Clinically important ethical framework; no patient data, primarily pediatric context, limited pitch angles for health consumer outlets.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Who deserves ECMO? Experts say clinicians need clearer ethical guardrails \u2014 now",
+          "hook": "As life-support machines capable of replacing heart and lung function become more widely used, a new expert framework warns that ad hoc ECMO decision-making risks unfair, inconsistent, and poorly informed choices for critically ill patients and families.",
+          "pitch_angle": "This review from leading pediatric cardiologists and bioethicists proposes four structured recommendations \u2014 covering medical eligibility, iterative informed consent, documentation when ECMO is denied, and institutional accountability \u2014 to bring ethical rigor to one of medicine's most consequential decisions. It arrives as ECMO use grows rapidly in both adult and pediatric critical care, often under acute time pressure."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42263958",
+      "headline": "Emphysema patients who walk the least may gain the most from a minimally invasive lung procedure",
+      "journal": "Respiratory Medicine",
+      "pubdate": "2026 Aug-Sep",
+      "doi": "10.1016/j.rmed.2026.108954",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers at a single US center retrospectively analyzed 96 emphysema patients stratified by pre-procedure walking ability who underwent bronchoscopic lung volume reduction (BLVR), a minimally invasive valve-placement procedure. The low functional capacity group (100\u2013250 m walk) gained an average of 53.3 m in walking distance at 12 months, while the high functional capacity group (>400 m) actually declined by 53.2 m. Despite this walking-distance divergence, FEV1 responder rates and quality-of-life scores did not differ significantly across groups.",
+      "why_it_matters": "Emphysema patients who are least physically capable before a bronchoscopic procedure may see the greatest gains in their ability to walk and move around afterward.",
+      "caveats": "small sample (N<100), observational design, single-center, retrospective, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Chronic pulmonary condition, single-center retrospective with N<100 and surrogate endpoints.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / General health",
+          "headline": "The Emphysema Patients Who Benefit Most From a Lung Procedure May Surprise You",
+          "hook": "People with the worst walking ability before a minimally invasive emphysema procedure gained the most ground afterward \u2014 while those who started strongest actually declined.",
+          "pitch_angle": "A small retrospective study found that emphysema patients with the lowest pre-procedure walking capacity saw the biggest improvements in mobility after bronchoscopic lung volume reduction. The finding suggests functional baseline may matter more than previously assumed when counseling patients about expected outcomes."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42251910",
+      "headline": "Idiopathic pulmonary fibrosis review maps new precision therapy targets \u2014 but translation to patients remains elusive",
+      "journal": "Respiratory Medicine",
+      "pubdate": "2026 Aug-Sep",
+      "doi": "10.1016/j.rmed.2026.108946",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Authors from Chinese institutions conducted a narrative review of idiopathic pulmonary fibrosis (IPF), synthesizing current understanding of its cellular and molecular mechanisms \u2014 including alveolar epithelial injury, macrophage polarization, fibroblast activation, and oxidative stress \u2014 alongside genetic, epigenetic, and environmental contributors. The review covers established antifibrotic drugs (pirfenidone, nintedanib) and emerging targeted, antioxidant, and regenerative approaches. The authors conclude that while mechanistic understanding has advanced, translating findings into improved clinical outcomes remains a major challenge, and that better biomarkers and patient stratification are urgently needed.",
+      "why_it_matters": "IPF carries a median survival of only 3\u20135 years after diagnosis, and this synthesis of the current treatment pipeline illustrates both how far the field has come and how far it still needs to go.",
+      "caveats": "review article (no original data), single-region authorship (China)",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Narrative review, no original data, no hard endpoints, limited pitch novelty.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / General health",
+          "headline": "A Deadly Lung Disease Has No Good Treatment \u2014 Here's What Scientists Are Trying Next",
+          "hook": "Idiopathic pulmonary fibrosis kills most patients within five years of diagnosis, and the two approved drugs only slow it \u2014 so researchers are racing toward precision therapies that target the disease's root causes.",
+          "pitch_angle": "A new review maps the complex biology driving IPF \u2014 from immune dysfunction to scarring at the cellular level \u2014 and surveys an emerging pipeline of targeted treatments. For patients and families facing this disease, the science is advancing, but experts caution that turning lab findings into life-extending therapies has proven stubbornly difficult."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41949808",
+      "headline": "A new blood test taken within hours of a traumatic injury may predict who will develop a dangerous clot weeks later",
+      "journal": "Shock",
+      "pubdate": "2026 Aug 1",
+      "doi": "10.1097/SHK.0000000000002725",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "In a prospective cohort study at a Level I Trauma Center, researchers collected blood samples within 12 hours of injury from 254 trauma patients and tracked them for 90 days for symptomatic venous thromboembolism (VTE), including deep vein thrombosis (DVT) and pulmonary embolism (PE). Of the cohort, 25.2% developed VTE (29 DVT, 24 PE, 11 both), with a median onset at 8 days post-injury. Using the high-throughput ST Genesia thrombin generation assay, patients who later developed VTE showed significantly accelerated thrombin generation profiles early after injury \u2014 including higher peak thrombin, greater endogenous thrombin potential, and faster velocity index \u2014 compared with those who did not.",
+      "why_it_matters": "Pulmonary embolism is a leading cause of preventable death after trauma, and a high-throughput blood test that identifies hypercoagulation within hours of injury could allow earlier, targeted clot prevention in the highest-risk patients.",
+      "caveats": "single-center, observational design, moderate sample size",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Hard VTE endpoints, prospective design, strong clinical application for PE prevention.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Blood Test Taken Hours After Trauma May Predict Pulmonary Embolism Weeks Before It Strikes",
+          "hook": "A prospective study found that a high-throughput thrombin generation assay drawn within 12 hours of traumatic injury could identify patients at significantly elevated risk of developing pulmonary embolism or deep vein thrombosis up to 90 days later.",
+          "pitch_angle": "One in four trauma patients in the study developed VTE, with PE among the most dangerous complications \u2014 and the new assay showed distinct clotting profiles in those patients from the very first blood draw. The platform's batch-testing capability makes it potentially practical for busy Level I trauma centers, though single-center validation limits immediate clinical translation."
+        },
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "ST Genesia Thrombin Generation Assay Flags VTE Risk Early in Trauma Patients",
+          "hook": "In 254 prospectively enrolled trauma patients, a novel high-throughput thrombin generation platform identified hypercoagulable profiles within 12 hours of injury that significantly predicted symptomatic DVT and PE over 90-day follow-up.",
+          "pitch_angle": "Key parameters \u2014 peak thrombin height, endogenous thrombin potential, and velocity index \u2014 were all significantly elevated in the 64 patients who later developed VTE. If validated in multicenter studies, this assay could refine prophylaxis decisions beyond current clinical risk scoring alone."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42001968",
+      "headline": "New mapping tool pinpoints where atrial fibrillation starts \u2014 and finds the left atrium drives it more than the right",
+      "journal": "International Journal of Cardiology",
+      "pubdate": "2026 Aug 1",
+      "doi": "10.1016/j.ijcard.2026.134505",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers used the Ockham AF Mapping module to identify and characterize atrial fibrillation driver sources in 110 consecutive patients (226 atria, 112,388 beats analyzed) undergoing ablation at multiple Japanese centers. The system defined drivers by short local cycle lengths and high duty cycle ratios, then mapped their anatomical locations. Drivers were found most commonly in the posterior and inferior left atrium and lateral right atrium, with the left atrium showing significantly shorter cycle lengths and greater response to pulmonary vein isolation than the right.",
+      "why_it_matters": "More precisely locating where atrial fibrillation originates could eventually help guide more targeted ablation procedures for the millions of people living with AFib.",
+      "caveats": "observational design, single-center (primarily), retrospective, Japan-only population, surrogate endpoints only, industry funding [Medtronic Japan, Japan LIFELINE \u2014 speaker honoraria to lead author]",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "AFib topic fit; human study with reasonable N; surrogate/technical endpoints only, Japan-only.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Ockham AF Module Maps Driver Anatomy in 110 Patients: Left Atrium Dominates, Septal Gaps Remain a Challenge",
+          "hook": "A novel AF mapping system reliably identified driver sources across 112,000+ beats \u2014 but the septal region remained a consistent blind spot.",
+          "pitch_angle": "The Ockham module characterized AF drivers by short cycle length and high duty cycle, finding the left atrium drove fibrillation more than the right and responded more robustly to pulmonary vein isolation. Clinicians considering driver-guided ablation strategies will want to note both the anatomical patterns and the module's current limitations in septal coverage."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42218953",
+      "headline": "A simple exercise test metric may help predict risk in people with thickened heart muscle disease",
+      "journal": "The American Journal of Cardiology",
+      "pubdate": "2026 Aug 1",
+      "doi": "10.1016/j.amjcard.2026.05.027",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "This is an editorial commentary \u2014 not a primary research study \u2014 discussing whether the Hemodynamic Gain Index (HGI), a measure of blood pressure and heart rate response during exercise, could serve as a novel risk stratification tool in patients with hypertrophic cardiomyopathy (HCM). No original patient data, sample size, or primary endpoints are reported in this publication. The editorial raises the question of HGI's clinical utility for HCM risk assessment without providing new empirical evidence.",
+      "why_it_matters": "If validated in future studies, an exercise-based hemodynamic index could offer a non-invasive way to identify which HCM patients face the highest risk of serious cardiac events.",
+      "caveats": "editorial/commentary only \u2014 no primary data, no sample size, surrogate endpoints only",
+      "fact_check_note": "This publication is an editorial commentary, not a primary research study. No participant data, N, or primary endpoints are available from the abstract. Summary reflects this accurately.",
+      "relevance_score": 4,
+      "relevance_score_reason": "Editorial only, no primary data; HCM is a relevant but lower-prevalence condition.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Could a Simple Exercise Metric Improve Risk Stratification in Hypertrophic Cardiomyopathy?",
+          "hook": "An editorial in the American Journal of Cardiology asks whether the Hemodynamic Gain Index \u2014 captured during standard exercise testing \u2014 could be a missing piece in HCM risk assessment.",
+          "pitch_angle": "The commentary explores HGI as a potential non-invasive tool for identifying high-risk HCM patients, a population where risk stratification remains challenging. Prospective validation studies would be needed before clinical adoption."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42167712",
+      "headline": "Tiny Squirts of Contrast Dye Help Cardiologists Navigate Through Completely Blocked Arteries With Near-Perfect Success",
+      "journal": "The American Journal of Cardiology",
+      "pubdate": "2026 Aug 1",
+      "doi": "10.1016/j.amjcard.2026.05.015",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers at multiple centers in China (with Canadian co-authorship) enrolled 71 patients undergoing percutaneous coronary intervention for chronic total occlusions (CTOs) to test a novel Titrated Contrast Recanalization (TCR) technique, which uses an automated microinjector to deliver 0.1\u20130.5 ml of contrast dye directly into the blocked segment with real-time pressure monitoring. Successful anterograde wire crossing was achieved in 70 of 71 cases (98.6%) with no TCR-related complications; median crossing time was 8 minutes. The technique classifies lesions by contrast penetration pattern to guide wire strategy selection.",
+      "why_it_matters": "Chronic total occlusions are among the most technically challenging coronary lesions to treat, and a technique that achieves near-complete anterograde crossing success with minimal contrast volume could expand treatment options for patients with complex blocked arteries.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up, surrogate endpoints only",
+      "fact_check_note": "The study enrolled patients from multiple Hebei province hospitals plus one Shanghai center, making it multi-center rather than single-center; the single-center caveat has been removed. N=71 CTOs (not patients), which is below 100.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Novel CTO technique; promising efficacy signal; small uncontrolled series limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Micro-Doses of Contrast Map a Path Through Totally Blocked Coronary Arteries",
+          "hook": "Crossing a chronic total occlusion anterograde remains one of interventional cardiology's hardest challenges \u2014 a new technique using sub-milliliter contrast injections achieved success in 98.6% of 71 attempts.",
+          "pitch_angle": "The Titrated Contrast Recanalization (TCR) technique uses an automated microinjector to reveal the internal architecture of a CTO in real time, classifying the lesion and guiding wire strategy \u2014 with a median crossing time of just 8 minutes and no reported complications. The results are preliminary and uncontrolled, but the approach offers a structured anterograde-first framework that could be tested in larger comparative trials."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42331393",
+      "headline": "A blood-filtering device for severe limb ischemia shows limited success \u2014 only 1 in 4 wounds healed in dialysis patients",
+      "journal": "Therapeutic Apheresis and Dialysis",
+      "pubdate": "2026 Aug",
+      "doi": "10.1002/1744-9987.70164",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers at a single Japanese center retrospectively reviewed 31 hemodialysis patients (mean age 67 years) with chronic limb-threatening ischemia (CLTI) treated with Rheocarna, a novel LDL apheresis device. At 6 months, only 25.8% of patients achieved ulcer healing, while 35.5% required major amputation and 22.6% died; 1-year amputation-free survival was just 40%. Ankle-brachial index improved modestly but significantly, suggesting some hemodynamic benefit despite poor overall outcomes.",
+      "why_it_matters": "Chronic limb-threatening ischemia in dialysis patients carries extremely high amputation and mortality rates, and this study suggests that even novel LDL-filtering devices offer limited benefit in the most advanced cases.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up, surrogate endpoints only, single non-US/non-multinational region (Japan) \u2014 findings tied to a specific Japanese device not widely available globally",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Vascular/cardiovascular topic; very small single-center Japanese study with poor generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / Medscape Cardiology",
+          "headline": "A Novel LDL-Filtering Device for Dialysis Patients With Limb Ischemia Delivers Sobering Results",
+          "hook": "Despite some hemodynamic improvement, fewer than one in three dialysis patients with severe limb ischemia avoided amputation or death within a year of treatment with a new blood-filtering device.",
+          "pitch_angle": "A small Japanese study found that Rheocarna, a direct hemoperfusion LDL adsorption device, achieved ulcer healing in only 26% of hemodialysis patients with chronic limb-threatening ischemia \u2014 a population already at extreme cardiovascular and surgical risk. The findings highlight how difficult it remains to treat advanced vascular disease in dialysis patients and call into question the clinical utility of this device in the most severe cases."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41698624",
+      "headline": "A simple ECG score may flag AFib patients at 23-fold higher risk of sudden cardiac arrest",
+      "journal": "Heart Rhythm",
+      "pubdate": "2026 Aug",
+      "doi": "10.1016/j.hrthm.2026.02.009",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers developed a five-point ECG risk score (SCAAF-ERS) to predict sudden cardiac arrest in people with atrial fibrillation \u2014 a group previously excluded from ECG-based SCA risk tools. The discovery cohort included 447 SCA cases and 138 controls (mean age 74.9; 73.5% male) from Oregon; a California cohort of 315 cases and 138 controls was used for validation. Patients scoring 4 or higher had 13-fold increased odds of SCA in the discovery group, and those scoring 3 or higher had 23-fold increased odds in the validation group.",
+      "why_it_matters": "For the millions of people living with AFib, this score suggests that a routine ECG may one day help identify who is at highest risk of sudden cardiac arrest \u2014 potentially guiding closer monitoring or preventive care.",
+      "caveats": "observational design, single-center, male-predominant sample (73.5% male in discovery cohort), retrospective case-control, further validation in diverse populations needed",
+      "fact_check_note": "",
+      "relevance_score": 9,
+      "relevance_score_reason": "High-prevalence condition, novel clinical tool, hard endpoint (SCA), counterintuitive magnitude of risk.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Novel ECG Score Predicts Sudden Cardiac Arrest Risk in AFib Patients \u2014 With Up to 23-Fold Increased Odds",
+          "hook": "Atrial fibrillation patients have long been excluded from ECG-based sudden cardiac arrest risk models \u2014 a new five-factor score may finally change that.",
+          "pitch_angle": "The SCAAF-ERS assigns points for five ECG features and successfully stratified SCA risk in two independent US community cohorts totaling over 1,000 patients. Clinicians may eventually use this tool to identify which AFib patients warrant more aggressive monitoring or intervention."
+        },
+        {
+          "publication_type": "NYT Health / STAT News",
+          "headline": "Doctors May Be Able to Spot Hidden Cardiac Arrest Risk in AFib Patients Using a Routine Heart Tracing",
+          "hook": "A new study found that five specific patterns on an ECG \u2014 a test already done routinely \u2014 could identify AFib patients at more than 20 times the normal risk of sudden cardiac arrest.",
+          "pitch_angle": "More than 33 million people worldwide have AFib, and they face a higher-than-average risk of sudden cardiac arrest, yet no validated ECG tool existed to identify the highest-risk individuals \u2014 until now. Researchers say the score needs broader validation but could one day reshape how cardiologists monitor this common arrhythmia."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42033435",
+      "headline": "A purpose-built ICD lead for a newer pacing technique shows strong safety results in multinational trial",
+      "journal": "Heart Rhythm",
+      "pubdate": "2026 Aug",
+      "doi": "10.1016/j.hrthm.2026.03.1939",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "The ASCEND CSP trial evaluated a novel ICD lead specifically designed for left bundle branch area pacing (LBBAP), a newer physiologic pacing technique that until now has relied on leads not engineered for this purpose. The multinational study enrolled patients across the US, Europe, Asia, and Australia. Results showed the dedicated lead met prespecified safety and performance endpoints, with acceptable complication rates and stable pacing parameters.",
+      "why_it_matters": "This suggests that a purpose-designed lead for a newer, more heart-friendly pacing method may be safer and more reliable than adapting conventional equipment \u2014 potentially benefiting the growing number of patients who receive ICDs.",
+      "caveats": "industry funding [Abbott], surrogate endpoints only, short follow-up, single-arm trial design",
+      "fact_check_note": "Abstract was truncated in the source; specific N, follow-up duration, and exact safety/performance metrics could not be fully verified. Summary reflects only what was confirmed in the available abstract text.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Device trial with surrogate endpoints; technical focus limits general audience appeal.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "First Dedicated ICD Lead for Left Bundle Branch Area Pacing Meets Safety Bar in Multinational Trial",
+          "hook": "Left bundle branch area pacing has gained rapid adoption for its physiologic benefits, but has relied on leads never designed for the technique \u2014 a purpose-built option now shows promising early results.",
+          "pitch_angle": "The ASCEND CSP trial tested a novel Abbott lead engineered specifically for LBBAP-ICD implantation across multiple international centers, reporting it met its prespecified safety and performance criteria. If longer-term data hold up, this could standardize a procedure that has so far depended on off-label hardware adaptations."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42504903",
+      "headline": "A Traditional Chinese Herbal Formula Is Being Studied as an Antiarrhythmic Drug \u2014 But Scientists Say the Evidence Has Major Gaps",
+      "journal": "Anatolian Journal of Cardiology",
+      "pubdate": "2026 Aug",
+      "doi": "10.14744/AnatolJCardiol.2026.5694",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Chinese researchers conducted a critical review of Wenxin Keli (WXKL), a traditional Chinese medicine formula used to treat cardiac arrhythmias including atrial fibrillation and premature ventricular contractions, synthesizing preclinical, clinical trial, and meta-analysis evidence on its mechanisms and efficacy. The review found that while WXKL modulates ion channels relevant to arrhythmia and shows a reportedly favorable safety profile, the evidence base is limited by formulation variability, quality control problems, heterogeneous trial methods, and lack of regulatory approval outside China. The authors propose a research agenda to address these gaps before broader clinical adoption.",
+      "why_it_matters": "With atrial fibrillation affecting millions worldwide and conventional antiarrhythmic drugs carrying serious toxicity risks, understanding the evidence quality behind herbal alternatives matters for patients seeking options.",
+      "caveats": "observational design, surrogate endpoints only, single-center",
+      "fact_check_note": "Study context is closely tied to traditional Chinese medicine regulatory and clinical practice environment in China; generalizability to US/Western clinical practice is limited.",
+      "relevance_score": 4,
+      "relevance_score_reason": "TCM-specific context limits US generalizability; surrogate endpoints; review only.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "An Ancient Chinese Herbal Remedy Is Being Tested Against AFib \u2014 Researchers Say the Science Isn't There Yet",
+          "hook": "A traditional Chinese herbal formula called Wenxin Keli is already widely used in China to treat heart rhythm disorders, but a new critical review finds the evidence underpinning it has serious methodological weaknesses.",
+          "pitch_angle": "The review, published in Anatolian Journal of Cardiology, found that while Wenxin Keli shows promise in preclinical studies and small trials for atrial fibrillation and other arrhythmias, formulation inconsistency and low-quality clinical trials make it impossible to draw firm conclusions about safety or efficacy. The authors argue that without rigorous large-scale trials meeting international standards, the formula remains unready for adoption outside China's regulatory framework."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41619148",
+      "headline": "Off-pump bypass surgery holds up at 20 years \u2014 but the abstract tells us almost nothing about how",
+      "journal": "General Thoracic and Cardiovascular Surgery",
+      "pubdate": "2026 Aug",
+      "doi": "10.1007/s11748-026-02260-4",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers at Kurashiki Central Hospital in Japan report 20-year long-term outcomes from a coronary artery bypass grafting program that prioritized an off-pump (beating-heart) approach. No abstract text detailing sample size, patient characteristics, or specific outcome data was available for review. The study appears to address a longstanding debate about whether avoiding cardiopulmonary bypass in CABG surgery affects long-term survival and graft function.",
+      "why_it_matters": "Long-term survival data on off-pump bypass surgery could help inform decisions about the best surgical technique for patients with coronary artery disease needing bypass.",
+      "caveats": "single-center, abstract unavailable for full verification",
+      "fact_check_note": "Abstract text was not provided in the input; summary is based solely on title and journal metadata. Sample size, patient demographics, and outcome data could not be verified.",
+      "relevance_score": 5,
+      "relevance_score_reason": "High-prevalence condition and long follow-up, but abstract absent; unverifiable.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Off-Pump CABG Shows Durable 20-Year Results in Single-Center Japanese Cohort",
+          "hook": "A two-decade follow-up from a Japanese center that routinely favors beating-heart bypass surgery suggests the off-pump approach may hold up over the long term.",
+          "pitch_angle": "The off-pump versus on-pump CABG debate has persisted for years, with concerns about higher incomplete revascularization rates in off-pump cases offsetting potential benefits of avoiding cardiopulmonary bypass. Twenty-year outcome data from a high-volume center committed to an off-pump-first strategy could add meaningful evidence to this unresolved question."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42390347",
+      "headline": "A newer MRI contrast agent safely maps the lymphatic system for the first time \u2014 opening a window into hard-to-diagnose fluid disorders",
+      "journal": "Radiology: Cardiothoracic Imaging",
+      "pubdate": "2026 Aug",
+      "doi": "10.1148/ryct.260067",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Mayo Clinic researchers conducted the first-in-human study of dynamic contrast-enhanced MR lymphangiography using gadopiclenol, a newer gadolinium-based contrast agent, in 23 patients (12 female) referred for complex lymphatic disorders. The contrast agent was injected via inguinal lymph nodes in all patients, and imaging successfully visualized central conducting lymphatic anatomy and drainage into the central venous system in 100% of cases with no adverse events. The study also identified an optimized imaging flip angle of approximately 35\u00b0 at 1.5 Tesla \u2014 higher than required for other gadolinium agents \u2014 supporting protocol development.",
+      "why_it_matters": "Lymphatic disorders \u2014 which can cause severe fluid accumulation and complicate heart failure and other cardiovascular conditions \u2014 are notoriously difficult to image, and a safe, effective MRI-based approach could improve diagnosis for patients with few current options.",
+      "caveats": "small sample (N<100), single-center, observational design, short follow-up, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "First-in-human imaging study; small N=23; lymphatic disorders relevant to heart failure but indirect cardiovascular link.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "First-in-Human Study: A New MRI Contrast Agent Successfully Maps the Lymphatic System With Zero Adverse Events",
+          "hook": "For the first time, a next-generation MRI contrast agent safely and successfully visualized the central lymphatic system in all 23 patients tested \u2014 potentially transforming how doctors diagnose complex fluid disorders linked to heart failure.",
+          "pitch_angle": "The Mayo Clinic feasibility study used gadopiclenol-enhanced MR lymphangiography to image lymphatic anatomy and drainage in patients with complex lymphatic conditions, achieving 100% technical success with no safety signals. Because lymphatic dysfunction plays a significant but underrecognized role in heart failure and other cardiovascular conditions, a reliable non-invasive imaging method could open new diagnostic pathways for a patient population with limited options."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41981887",
+      "headline": "For the most aggressive form of chronic leukemia, newer targeted drugs decisively beat traditional chemo \u2014 and now there's a ranking",
+      "journal": "European Journal of Haematology",
+      "pubdate": "2026 Aug",
+      "doi": "10.1111/ejh.70191",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers performed a Bayesian network meta-analysis of randomized clinical trials enrolling more than 4,500 patients with IGHV-unmutated chronic lymphocytic leukemia (CLL), a biologically aggressive subtype with poor response to chemotherapy. The analysis compared targeted therapies \u2014 BTK inhibitors and venetoclax combinations \u2014 against chemoimmunotherapy regimens for first-line treatment. Acalabrutinib-based regimens ranked highest for progression-free survival, while chlorambucil- and fludarabine-containing regimens ranked lowest.",
+      "why_it_matters": "For patients with the hardest-to-treat form of CLL, this quantitative ranking of available therapies could help clinicians and patients make more informed first-line treatment decisions.",
+      "caveats": "surrogate endpoints only, no head-to-head trials included, secondary analysis, limited long-term follow-up data for some regimens",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Solid meta-analysis in hematologic oncology; limited cardiovascular/heart-health relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Network Meta-Analysis Ranks First-Line Options for Hard-to-Treat CLL \u2014 Targeted Therapy Wins",
+          "hook": "A comprehensive Bayesian analysis of 4,500+ patients with the most aggressive form of chronic lymphocytic leukemia finds targeted drugs aren't just better than chemo \u2014 researchers can now rank which ones perform best.",
+          "pitch_angle": "Acalabrutinib-based regimens emerged as top performers for progression-free survival, while old-line chemotherapy ranked last. The findings give oncologists a quantitative framework for treatment selection while underscoring the urgent need for direct head-to-head trials."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42261656",
+      "headline": "Young women who had high blood pressure in pregnancy face a surprisingly common \u2014 and often overlooked \u2014 form of hypertension years later",
+      "journal": "Hypertension",
+      "pubdate": "2026 Aug",
+      "doi": "10.1161/HYPERTENSIONAHA.125.26296",
+      "groundbreaking": "Major cardiovascular or public health implication / Counterintuitive finding",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers conducted a secondary analysis of 4,302 nulliparous women (mean age 30.7 years) from the nuMoM2b Heart Health Study, assessing blood pressure subtypes 2\u20137 years after their first pregnancy at 8 US clinical sites. Isolated diastolic hypertension was the most prevalent elevated blood pressure subtype (15% of the cohort), exceeding isolated systolic and combined hypertension. Women who had hypertensive disorders of pregnancy faced a roughly three-fold higher risk of combined systolic-diastolic hypertension and a 1.65-fold higher risk of isolated diastolic hypertension compared with those who had normotensive pregnancies.",
+      "why_it_matters": "Young women who experienced high blood pressure during pregnancy may be developing a common but under-recognized form of hypertension in their 30s \u2014 a window for early cardiovascular risk reduction that is frequently missed.",
+      "caveats": "secondary analysis, observational design, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Heart disease in women; large prospective cohort; high-prevalence condition; strong lifestyle/clinical hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / Prevention",
+          "headline": "Had High Blood Pressure During Pregnancy? Your Heart May Still Be Paying the Price Years Later",
+          "hook": "A study of more than 4,000 young women found that those who had hypertension during pregnancy were significantly more likely to have elevated blood pressure \u2014 especially an often-overlooked diastolic type \u2014 years after delivery.",
+          "pitch_angle": "The findings suggest that pregnancy complications don't stay in the delivery room: a history of hypertensive disorders of pregnancy may be an early warning sign of long-term cardiovascular risk. Experts say postpartum blood pressure monitoring in young women, particularly diastolic readings, deserves more clinical attention."
+        },
+        {
+          "publication_type": "NYT Health / STAT News",
+          "headline": "Pregnancy Was Years Ago. But for Many Young Women, the Blood Pressure Problem Never Went Away.",
+          "hook": "A large US study finds that isolated diastolic hypertension \u2014 a subtype rarely discussed outside of older populations \u2014 is the most common form of elevated blood pressure in women in their late 20s and 30s, and is strongly tied to pregnancy complications.",
+          "pitch_angle": "The nuMoM2b Heart Health Study followed women for up to 7 years after their first pregnancy and found 15% had isolated diastolic hypertension, with risk rising sharply among those who had preeclampsia or gestational hypertension. The results add to growing evidence that pregnancy should be considered a cardiovascular stress test \u2014 with real consequences for long-term heart health if warning signs are missed."
+        },
+        {
+          "publication_type": "AARP The Magazine",
+          "headline": "Doctors Are Realizing That Pregnancy Problems Can Predict Heart Disease Decades Later",
+          "hook": "New research confirms that women who had high blood pressure during their first pregnancy face significantly higher odds of hypertension just a few years later \u2014 at an age when most doctors aren't yet looking.",
+          "pitch_angle": "The study of over 4,000 women underscores that reproductive history is a critical but underused tool in assessing a woman's lifetime heart disease risk. For women now in midlife or beyond, a history of pregnancy hypertension may be worth revisiting with a cardiologist."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42263413",
+      "headline": "A new risk-stratified approach to a rare fetal platelet disorder may reduce dangerous interventions during pregnancy",
+      "journal": "Transfusion and Apheresis Science",
+      "pubdate": "2026 Aug",
+      "doi": "10.1016/j.transci.2026.104469",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Clinicians at Leiden University Medical Center and Sanquin Diagnostic Services (Netherlands) revised the national management protocol for fetal and neonatal alloimmune thrombocytopenia (FNAIT), a condition in which maternal antibodies destroy fetal platelets and can cause intracranial hemorrhage in utero. The updated protocol introduces a personalized, three-tier risk classification (high-risk, standard-risk, undifferentiated risk) and uses anti-HPA-1a antibody quantification \u2014 initiating IVIg treatment when levels exceed 2 IU/mL \u2014 to guide antenatal management. Delivery mode recommendations were also revised, reducing the role of elective cesarean section in lower-risk pregnancies.",
+      "why_it_matters": "A more targeted approach to managing this rare but serious pregnancy complication could reduce unnecessary interventions while better protecting the fetuses at highest risk of brain bleeding.",
+      "caveats": "single-center, observational design, small sample (N<100)",
+      "fact_check_note": "The abstract was truncated before full delivery and postnatal management details; summary reflects only the content available.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Rare hematologic condition in pregnancy; single-center Dutch protocol; limited US generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology / General health",
+          "headline": "Rare Fetal Platelet Disorder Gets a New Risk-Stratified Management Protocol",
+          "hook": "Dutch experts have revised their national protocol for FNAIT \u2014 a rare but potentially fatal fetal bleeding disorder \u2014 using antibody levels to personalize treatment rather than applying one-size-fits-all interventions.",
+          "pitch_angle": "The updated framework classifies pregnancies into three risk tiers and triggers IVIg treatment based on measurable anti-HPA-1a antibody thresholds, aiming to reduce overtreatment in lower-risk cases while ensuring high-risk fetuses receive timely intervention. Though based at a single Dutch center, the protocol may offer a model for other countries grappling with inconsistent FNAIT guidelines."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42507788",
+      "headline": "Rural Hospitals Are Falling Further Behind on Stroke Care \u2014 and Expert Warns It's About to Get Worse",
+      "journal": "Stroke",
+      "pubdate": "2026 Aug",
+      "doi": "10.1161/STROKEAHA.126.054530",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "This is an expert commentary published in Stroke describing the current state and future trajectory of stroke care quality in rural US hospitals; no original study data or participant population is presented. The authors argue that rural hospitals face critical and worsening structural challenges in delivering timely, guideline-adherent stroke care. No new empirical findings or effect sizes are reported.",
+      "why_it_matters": "Stroke outcomes are highly time-dependent, and persistent rural\u2013urban disparities in stroke care access mean millions of Americans may face worse survival and disability outcomes based solely on where they live.",
+      "caveats": "No original data \u2014 commentary only",
+      "fact_check_note": "No abstract with original data available; this is a commentary and cannot be evaluated for study findings.",
+      "relevance_score": 4,
+      "relevance_score_reason": "High-prevalence condition with clear public health angle; commentary only, no new data.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "If You Have a Stroke in a Rural Area, Your Odds Are Already Worse \u2014 Experts Say the Gap Is Growing",
+          "hook": "Stroke is one of the most time-sensitive medical emergencies, and Americans in rural areas are increasingly at risk of not getting fast enough care \u2014 a problem experts say is accelerating.",
+          "pitch_angle": "A commentary in Stroke from researchers at Tufts, University of Colorado, and the University of Wisconsin warns that rural hospitals face escalating structural barriers to stroke care that are unlikely to improve without urgent policy attention, raising stark equity concerns for the roughly 46 million Americans living in rural communities."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42155872",
+      "headline": "Immunotherapy fails to improve survival for most ovarian cancer patients \u2014 but works for a surprising subgroup",
+      "journal": "Critical Reviews in Oncology/Hematology",
+      "pubdate": "2026 Aug",
+      "doi": "10.1016/j.critrevonc.2026.105383",
+      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers conducted a meta-analysis of six randomized phase III trials involving 6,465 patients with advanced ovarian cancer to evaluate whether adding immunotherapy (with or without PARP inhibitors) to standard first-line treatment improved progression-free survival. In the overall unselected population, immunotherapy alone or combined with PARP inhibitors did not significantly improve progression-free survival. However, specific subgroups \u2014 including patients with HRD-positive/BRCA wild-type tumors and those receiving a triple combination of immunotherapy, PARP inhibitors, and bevacizumab \u2014 showed meaningful benefits.",
+      "why_it_matters": "For ovarian cancer patients and advocates, this finding suggests that biomarker testing to identify who will actually benefit from immunotherapy may be essential before treatment decisions are made.",
+      "caveats": "surrogate endpoints only, industry funding [AstraZeneca, Merck, Menarini, PharmaMar], secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Oncology/hematology focus; weak cardiovascular fit; surrogate endpoints only.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Immunotherapy for Ovarian Cancer: Promising for Some, Useless for Most \u2014 New Meta-Analysis Demands Biomarker-Driven Trials",
+          "hook": "A sweeping meta-analysis of over 6,400 patients finds that immunotherapy does not improve survival for the average ovarian cancer patient \u2014 but may help specific molecular subgroups.",
+          "pitch_angle": "The analysis of six phase III trials suggests that blanket use of immunotherapy in first-line ovarian cancer treatment is not justified, but a targeted approach based on tumor biology could unlock real benefits. The findings underscore an urgent need to redesign trials around biomarker stratification rather than treating ovarian cancer as a single disease."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42259526",
+      "headline": "A hybrid plasma exchange technique selectively removes disease-causing antibodies while sparing protective proteins",
+      "journal": "Therapeutic Apheresis and Dialysis",
+      "pubdate": "2026 Aug",
+      "doi": "10.1002/1744-9987.70163",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Japanese researchers developed and tested a novel hybrid plasma exchange method called centrifugation selective plasma exchange (cSePE) in seven patients with autoimmune diseases across 15 treatment sessions. The technique combines centrifugal plasma separation with membrane-based fractionation, achieving an average IgG removal rate of 65.7% while preserving albumin levels and limiting fibrinogen reduction to 29.8%. No treatment-related complications were observed, and disease-specific autoantibodies were reduced by more than 45%.",
+      "why_it_matters": "For patients with severe autoimmune conditions who require plasma exchange, a more selective method that removes harmful antibodies without depleting essential proteins could mean safer treatment with fewer side effects.",
+      "caveats": "small sample (N<100), single-center, surrogate endpoints only, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Novel apheresis technique; very small sample; surrogate endpoints; weak direct cardiovascular fit.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Novel Hybrid Plasma Exchange Selectively Strips IgG While Preserving Albumin in Autoimmune Patients",
+          "hook": "A new plasma exchange modality achieves over 65% IgG removal while leaving albumin intact \u2014 and requires only peripheral venous access rather than central line placement.",
+          "pitch_angle": "Centrifugation selective plasma exchange (cSePE) could offer a safer, more targeted alternative to standard therapeutic plasma exchange for autoimmune conditions, including those with cardiovascular manifestations such as autoimmune myocarditis. The technique is early-stage with only seven patients tested, but the safety and selectivity profile warrants larger studies."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41999027",
+      "headline": "A single depleted molecule in bone marrow tissue may reliably distinguish multiple myeloma from its precursor condition",
+      "journal": "International Journal of Laboratory Hematology",
+      "pubdate": "2026 Aug",
+      "doi": "10.1111/ijlh.70116",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Chinese researchers developed a new metabolomic profiling method for bone marrow biopsy tissue and tested it in 78 participants: 19 with newly diagnosed multiple myeloma (MM), 29 with monoclonal gammopathy of undetermined significance (MGUS), and 30 lymphoma controls without bone marrow invasion. They found that levels of a compound called N-acetylornithine were significantly lower in MM patients compared to both MGUS and controls. In head-to-head comparison with controls, N-acetylornithine showed an AUC of 0.933 with 90% sensitivity and 93.3% specificity for MM diagnosis.",
+      "why_it_matters": "Distinguishing multiple myeloma from its precursor MGUS is clinically challenging, and this finding suggests a bone marrow metabolic marker could improve diagnostic accuracy \u2014 though the study is very small and requires validation.",
+      "caveats": "small sample (N<100), single-center, surrogate endpoints only, observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Interesting diagnostic signal; very small single-center sample, no hard clinical endpoints.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "A depleted metabolite in bone marrow biopsies may help doctors tell dangerous myeloma apart from its milder precursor",
+          "hook": "One of hematology's trickiest calls \u2014 when does a precancerous plasma cell condition become true multiple myeloma \u2014 may get easier with a new metabolic fingerprint.",
+          "pitch_angle": "Researchers found that N-acetylornithine, a molecule involved in arginine metabolism, is markedly depleted specifically in multiple myeloma bone marrow tissue, not in the precursor condition MGUS. If validated in larger cohorts, this biomarker could sharpen a diagnosis that currently relies on invasive and sometimes ambiguous workups."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41857430",
+      "headline": "A newer leukemia drug combo matches intensive chemo in older patients who can't tolerate it \u2014 with far fewer early deaths",
+      "journal": "International Journal of Hematology",
+      "pubdate": "2026 Aug",
+      "doi": "10.1007/s12185-026-04193-3",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers retrospectively analyzed 101 AML patients aged 65\u201374 in Japan who were unfit for intensive chemotherapy, comparing outcomes before and after venetoclax approval in 2021. After approval, venetoclax plus azacitidine became the dominant first-line regimen (56% of patients), and despite being used in patients with worse genetic profiles, it achieved similar response rates (64.5% CR/CRi) and overall survival (median 11.7 months) as reduced-dose chemotherapy. Critically, 60-day early mortality was dramatically lower with venetoclax plus azacitidine (3.2%) compared to reduced-dose chemotherapy (12.9%), standard azacitidine alone (18.8%), or CAG regimen (26.7%).",
+      "why_it_matters": "For older adults with AML who cannot tolerate standard chemotherapy, this real-world evidence suggests a newer drug combination may achieve similar survival with far fewer early deaths.",
+      "caveats": "observational design, single-center, small sample (N=101), Japan-specific healthcare context, industry funding [AbbVie], secondary analysis, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "AML is hematology, not cardiovascular; Japan-specific, small sample, observational.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "A gentler leukemia drug combo is reshaping care for older patients who can't survive standard chemo",
+          "hook": "Older AML patients treated with venetoclax plus azacitidine had a 60-day death rate of just 3.2% \u2014 compared to nearly 13% with reduced-dose chemotherapy.",
+          "pitch_angle": "Real-world Japanese data show that since venetoclax's 2021 approval, oncologists rapidly shifted away from toxic regimens for frail older patients \u2014 and early mortality plummeted. The findings raise questions about whether similar real-world shifts are playing out in US practice for this hard-to-treat population."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41968845",
+      "headline": "Most platelet function disorders still lack a known genetic cause \u2014 but lab tests are getting sharper at finding them",
+      "journal": "International Journal of Laboratory Hematology",
+      "pubdate": "2026 Aug",
+      "doi": "10.1111/ijlh.70110",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "A single-author reflective review from McMaster University summarizes decades of investigator-led research on diagnosing platelet function disorders (PFDs), covering light transmittance aggregometry (LTA) and electron microscopy techniques. The article does not report a new clinical trial or patient cohort. Key findings include that validated LTA protocols now reliably detect PFDs even in patients with low platelet counts, and that Quebec platelet disorder \u2014 a rare bleeding condition \u2014 stems from a gain-of-function mutation that increases PLAU expression more than 100-fold in megakaryocytes.",
+      "why_it_matters": "Better diagnostic tests for platelet function disorders could reduce missed diagnoses of inherited bleeding conditions, which are associated with significant bleeding risk and are frequently underdiagnosed \u2014 particularly in women.",
+      "caveats": "observational design, single-center, secondary analysis, small sample (N<100)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Hematology topic fit; review article with no new clinical data or hard endpoints.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology / General health",
+          "headline": "Platelet Bleeding Disorders Are Still Hard to Diagnose \u2014 But Lab Science Is Closing the Gap",
+          "hook": "Most platelet function disorders still have no known genetic cause, leaving many patients \u2014 especially women \u2014 without a clear diagnosis for years.",
+          "pitch_angle": "A review from McMaster University highlights how improved lab testing protocols now better detect inherited bleeding disorders, even in challenging cases like low platelet counts. The finding that many common platelet disorders remain genetically unexplained suggests a significant diagnostic gap that may disproportionately affect women with unexplained heavy bleeding."
+        }
+      ],
+      "run_date": "2026-08-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
     {
       "pmid": "42422927",
       "headline": "Treatment of rare blood cancers is expanding fast \u2014 but experts say clinical trial goalposts need to shift",
@@ -1486,33 +3190,6 @@
       "run_date": "2026-07-10",
       "category": "Hematology & Vascular",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42398952",
-      "headline": "Next-generation sequencing uncovers 10 new genetic mutations behind a rare but severe inherited bleeding disorder in Pakistani families",
-      "journal": "Thrombosis and Haemostasis",
-      "pubdate": "2026 Jul 3",
-      "doi": "10.1055/a-2906-7166",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers used a targeted next-generation sequencing (NGS) gene panel to analyze 67 patients from 55 unrelated Pakistani families diagnosed with Glanzmann thrombasthenia (GT) or a GT-like platelet bleeding disorder. The panel achieved an 87.3% diagnostic yield, identifying 21 distinct variants \u2014 10 of which were novel \u2014 in genes encoding platelet surface proteins (ITGA2B, ITGB3) and intracellular signaling proteins (RASGRP2). Two recurrent frameshift variants suggested a possible founder effect, and patients with truncating mutations showed more severe bleeding in an age-dependent pattern.",
-      "why_it_matters": "Expanding the known genetic map of Glanzmann thrombasthenia \u2014 especially in high-consanguinity populations \u2014 could accelerate accurate diagnosis for patients with unexplained severe bleeding who may otherwise go undiagnosed for years.",
-      "caveats": "small sample (N=67), single-country (Pakistan), observational design, surrogate endpoints only, finding is tied to a single non-US/non-multinational region's genetics unlikely to generalize directly to a US/global audience",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Rare hematologic disorder, small Pakistani-specific cohort, limited US/global applicability.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / Medscape Cardiology",
-          "headline": "NGS Panel IDs 10 Novel Mutations in Rare Platelet Disorder Concentrated in Consanguineous Pakistani Families",
-          "hook": "A targeted sequencing study achieved an 87% diagnostic yield for Glanzmann thrombasthenia in a Pakistani cohort, uncovering 10 previously unknown mutations and hints of a founder effect.",
-          "pitch_angle": "The findings illustrate how NGS can outperform traditional diagnostic approaches for rare inherited bleeding disorders in populations with high rates of consanguinity, where these conditions cluster. While specific to a Pakistani patient population, the methodology offers a model for improving diagnostic accuracy in underserved communities with inherited platelet disorders globally."
-        }
-      ],
-      "run_date": "2026-07-10",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -4657,33 +6334,6 @@
       "run_date": "2026-06-29",
       "category": "Hematology & Vascular",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42331393",
-      "headline": "Novel LDL-removal device shows limited effectiveness for dialysis patients with severe limb-threatening ischemia",
-      "journal": "Therapeutic Apheresis and Dialysis",
-      "pubdate": "2026 Jun 22",
-      "doi": "10.1002/1744-9987.70164",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers retrospectively reviewed 31 hemodialysis patients (mean age 67 years) with chronic limb-threatening ischemia (CLTI) treated with Rheocarna, a direct hemoperfusion LDL adsorption device, at a single Japanese center. At 6 months, ulcer healing occurred in only 25.8% of patients, while major amputation and mortality rates were 35.5% and 22.6%, respectively; 1-year amputation-free survival was 40%. Ankle-brachial index improved modestly and significantly (1.00 to 1.07, p=0.041), but overall clinical outcomes suggest limited effectiveness in advanced disease.",
-      "why_it_matters": "Dialysis patients with severe lower-limb artery disease face extremely poor outcomes, and this study suggests a novel LDL-clearing device offers only marginal benefit in the most advanced cases, underscoring the need for earlier intervention.",
-      "caveats": "small sample (N<100), observational design, single-center, retrospective, surrogate endpoints only",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Vascular disease in dialysis patients; small retrospective single-center study limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Medscape Cardiology",
-          "headline": "LDL Apheresis Device Rheocarna Shows Modest Benefit in Dialysis Patients With Chronic Limb-Threatening Ischemia",
-          "hook": "A new LDL-removal device produced a 1-year amputation-free survival of only 40% in dialysis patients with the most severe form of peripheral artery disease.",
-          "pitch_angle": "This small retrospective study found that while ankle-brachial index improved statistically with Rheocarna therapy, hard clinical outcomes including ulcer healing and limb salvage remained poor, suggesting the device may offer limited benefit once CLTI reaches advanced stages in hemodialysis patients."
-        }
-      ],
-      "run_date": "2026-06-29",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
       "status": "new"
     },
     {
