@@ -1,93 +1,630 @@
 {
-  "last_updated": "2026-08-07T11:55:57.744394+00:00",
+  "last_updated": "2026-08-08T11:40:10.080697+00:00",
   "total_studies": 150,
-  "new_this_run": 7,
+  "new_this_run": 2,
   "studies": [
     {
       "pmid": "42002072",
-      "headline": "AI and multi-omics tools may finally make diagnosing ulcerative colitis less invasive \u2014 but clinical use is still years away",
+      "headline": "Combining gut microbiome, metabolomics, and AI may finally crack ulcerative colitis diagnosis",
       "journal": "Gastroenterologia y Hepatologia",
       "pubdate": "2026 Aug-Sep",
       "doi": "10.1016/j.gastrohep.2026.502764",
       "groundbreaking": "Major dietary or microbiome implication",
       "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers conducted a comprehensive literature review of emerging biomarkers and multi-omics strategies \u2014 including fecal, serological, genetic, epigenetic, microbial, and metabolite-based markers \u2014 for diagnosing and monitoring ulcerative colitis (UC). The review also assessed machine learning tools for integrating these data into clinically useful panels. Key finding: fecal calprotectin and lactoferrin remain the most reliable non-invasive markers, while multi-omics integration and AI show promise for precision medicine but face significant barriers to clinical translation including standardization and validation gaps.",
-      "why_it_matters": "For the millions living with UC, non-invasive diagnostic tools that reduce the need for colonoscopy could meaningfully change how the disease is monitored and treated.",
-      "caveats": "review article (no original data), microbiome data only (no clinical outcomes), no external validation of proposed biomarker panels",
+      "summary": "This narrative review evaluated emerging biomarkers and multi-omics strategies for diagnosing and monitoring ulcerative colitis (UC), synthesizing literature on fecal, serological, genetic, epigenetic, microbial, and metabolite-based markers. The authors assessed integration of transcriptomics, proteomics, metabolomics, and machine learning for clinical applicability, finding that fecal calprotectin and lactoferrin remain the most reliable non-invasive markers, while multi-omics panels and AI tools show promise for precision diagnosis and treatment response prediction. The review concludes that standardization, external validation, and regulatory qualification remain major barriers to clinical implementation.",
+      "why_it_matters": "Multi-omics and AI approaches may eventually allow UC to be diagnosed and monitored through non-invasive tests rather than repeated colonoscopies, but the field is not there yet.",
+      "caveats": "review article (no original data), microbiome data only (no clinical outcomes from primary research), validation gaps acknowledged by authors",
       "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "IBD topic fit, but review with no new data and clinical translation still distant.",
+      "relevance_score": 5,
+      "relevance_score_reason": "IBD topic fit, but review-only with no new data; limited pitch differentiation.",
       "pitch_angles": [
         {
-          "publication_type": "Healthline / General health",
-          "headline": "Could a Stool Test Replace Colonoscopy for Ulcerative Colitis? Scientists Are Getting Closer",
-          "hook": "A new review finds that AI-powered combinations of gut microbiome data, genetics, and stool markers may one day make invasive scopes less necessary for people with ulcerative colitis.",
-          "pitch_angle": "Researchers mapped out the most promising non-invasive tools for diagnosing and tracking UC flares, from fecal calprotectin to machine-learning biomarker panels. While clinical use is still years away, the science suggests a future where UC monitoring could happen through a simple stool or blood test."
+          "publication_type": "Wired / The Atlantic",
+          "headline": "AI and the Gut Microbiome Are Teaming Up to Rethink How We Diagnose Ulcerative Colitis",
+          "hook": "Colonoscopy is still the gold standard for ulcerative colitis, but a new review argues that the combination of multi-omics data and machine learning could soon make that invasive procedure far less necessary.",
+          "pitch_angle": "Researchers synthesized advances in fecal, genetic, microbial, and metabolite-based biomarkers for UC, finding that while individual markers still underperform, integrating them through AI-driven models shows real promise for precision diagnosis and predicting who will respond to which treatments. The catch: standardization and clinical validation remain years away, meaning the colonoscope isn't going anywhere just yet."
         }
       ],
-      "run_date": "2026-08-07",
+      "run_date": "2026-08-08",
       "category": "Gastroenterology",
       "chunk": "1/2",
       "status": "new"
     },
     {
-      "pmid": "41951359",
-      "headline": "Artificial sweeteners and a common emulsifier found at higher levels in Crohn's disease patients \u2014 and may track how active the disease is",
-      "journal": "Gut",
-      "pubdate": "2026 Aug 6",
-      "doi": "10.1136/gutjnl-2024-333999",
-      "groundbreaking": "First-in-class human study / Major dietary or microbiome implication",
+      "pmid": "42565893",
+      "headline": "The most commonly prescribed UTI antibiotics in Japan may actually work worse than older, cheaper alternatives",
+      "journal": "European Journal of Clinical Microbiology & Infectious Diseases",
+      "pubdate": "2026 Aug 7",
+      "doi": "10.1007/s10096-026-05622-1",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
       "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "In the ENIGMA study, researchers measured artificial sweeteners (aspartame, sucralose, saccharin) and the emulsifier polysorbate-80 (P-80) in stool, urine, and serum from 487 subjects (245 with Crohn's disease, 242 controls) across Australia, Hong Kong, and mainland China, analyzing 1,461 biosamples. Patients with CD had significantly higher sweetener levels than controls, and specific P-80 metabolites (the native form was undetectable) correlated positively with disease activity; in vitro experiments found these metabolites increased gut permeability. A model combining sweeteners and P-80 metabolites distinguished active from inactive CD with an AUC of 0.86\u20130.94 across discovery and validation cohorts.",
-      "why_it_matters": "This is the first human study to directly quantify food additive levels in Crohn's disease patients and link them to disease activity, raising the possibility that what people eat may both reflect and influence how severe their Crohn's flares are \u2014 and that these additives could serve as non-invasive biomarkers.",
-      "caveats": "observational design, cross-sectional (cannot establish causation), multinational but predominantly Asian cohort, in vitro permeability data only (no causal human evidence), industry-adjacent conflicts of interest noted for lead authors",
-      "fact_check_note": "The abstract notes P-80's native form was undetectable in samples \u2014 only metabolites were measured; the headline and summary reflect this distinction.",
-      "relevance_score": 8,
-      "relevance_score_reason": "First-in-class human study on food additives in Crohn's, strong IBD and ultra-processed food angle, multinational cohort.",
+      "summary": "Using a nationwide Japanese claims database (2006\u20132022), researchers compared outcomes for 40,003 adult women treated with oral third-generation cephalosporins versus first- or second-generation cephalosporins (cephalexin or cefaclor) for acute uncomplicated cystitis. After propensity-score overlap weighting, women receiving third-generation agents had a significantly higher rate of treatment failure \u2014 defined as pyelonephritis diagnosis or additional antibiotic use within 7 days \u2014 compared to those on older agents (8.4% vs. 6.5%). Despite this, third-generation cephalosporins accounted for 90.7% of all prescriptions in the cohort.",
+      "why_it_matters": "The finding suggests that widely prescribed newer antibiotics for UTIs may be associated with worse outcomes than older, cheaper options \u2014 a pattern with implications for antibiotic stewardship and UTI management globally.",
+      "caveats": "observational design, single-center (Japan-specific claims data), finding tied to Japan's prescribing patterns and drug availability which may not generalize to US clinical practice, retrospective design",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Large N, counterintuitive UTI finding; Japan-specific prescribing context limits US generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Healthline / Prevention",
+          "headline": "The Newer UTI Antibiotic May Not Be Better \u2014 In Fact, It Might Be Worse",
+          "hook": "A study of 40,000 women found that the most commonly prescribed antibiotics for urinary tract infections were associated with higher treatment failure rates than older, less fashionable alternatives.",
+          "pitch_angle": "Japanese researchers found that third-generation cephalosporins \u2014 which dominated UTI prescribing at over 90% of cases \u2014 were associated with nearly 30% more treatment failures than first- or second-generation options like cephalexin, likely because newer agents have lower and less predictable absorption. The findings add to antibiotic stewardship debates about whether 'newer' always means 'better' when it comes to common infections like UTIs."
+        }
+      ],
+      "run_date": "2026-08-08",
+      "category": "Microbiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42566149",
+      "headline": "Living bacterial medicines are being engineered to fight colorectal cancer \u2014 but clinical proof is still elusive",
+      "journal": "Probiotics and Antimicrobial Proteins",
+      "pubdate": "2026 Aug 7",
+      "doi": "10.1007/s12602-026-11164-x",
+      "groundbreaking": "Major dietary or microbiome implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "This is a narrative review summarizing preclinical and early clinical evidence for live biotherapeutic products (LBPs) \u2014 including single-strain, composite-strain, and genetically engineered bacteria \u2014 as potential treatments or treatment adjuncts for colorectal cancer (CRC), the world's third most common cancer. No original human data were generated; the review synthesizes existing literature and ongoing clinical trials. Authors highlight promising mechanisms (immunomodulation, SCFA production, microbiota restoration) but emphasize that heterogeneous study designs, undefined mechanisms in humans, and manufacturing barriers currently limit clinical translation.",
+      "why_it_matters": "As the gut microbiome's role in cancer immunity becomes clearer, engineered living medicines that can reprogram the tumor microenvironment represent a genuinely novel therapeutic frontier for colorectal cancer \u2014 though human evidence remains thin.",
+      "caveats": "review article (no original data), microbiome data only (no clinical outcomes), preclinical findings dominate",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Strong topic fit (CRC, microbiome, LBPs) but review only, no new human data.",
       "pitch_angles": [
         {
           "publication_type": "Wired / The Atlantic",
-          "headline": "Scientists Can Now Detect Artificial Sweeteners and Emulsifiers in Crohn's Patients' Bodies \u2014 and They Track with Disease Flares",
-          "hook": "For the first time, researchers have directly measured food additives \u2014 including sucralose and an emulsifier found in hundreds of processed foods \u2014 inside the bodies of Crohn's disease patients, and found they rise with disease activity.",
-          "pitch_angle": "The ENIGMA study analyzed nearly 1,500 biological samples from almost 500 people across three countries, finding that sweetener levels were consistently higher in Crohn's patients than in healthy controls, and that a model built on these additive signatures could distinguish active from inactive disease with high accuracy. The findings don't prove these additives cause flares, but they suggest that what people with Crohn's eat may be measurable in their bodies in ways that matter clinically."
+          "headline": "Scientists are engineering bacteria to fight colorectal cancer. The hard part is getting them to work in people.",
+          "hook": "A new class of medicines made from living, sometimes genetically engineered gut bacteria shows real promise against colorectal cancer in the lab \u2014 but translating that into the clinic is proving far harder than expected.",
+          "pitch_angle": "Live biotherapeutic products can boost immune responses, produce protective metabolites, and even synergize with chemotherapy in preclinical models of colorectal cancer; yet heterogeneous study designs, unclear mechanisms in humans, and regulatory hurdles mean these 'living drugs' are still years from routine use \u2014 making the gap between microbiome hype and clinical reality a compelling story."
         },
         {
-          "publication_type": "Well+Good / Healthline",
-          "headline": "Could Sucralose and Food Emulsifiers Be Making Crohn's Disease Worse? A New Study Says It's Worth Asking",
-          "hook": "A first-of-its-kind study found that people with Crohn's disease carry higher levels of common food additives \u2014 including artificial sweeteners and an emulsifier used in ice cream and salad dressing \u2014 and that those levels track with how active their disease is.",
-          "pitch_angle": "Researchers directly measured artificial sweeteners and polysorbate-80 metabolites in stool, urine, and blood from nearly 500 people with and without Crohn's across three countries, finding strong associations with disease severity. While the study can't prove these additives trigger flares, it raises new questions about whether ultra-processed food ingredients play a role in Crohn's and opens the door to non-invasive monitoring tools."
+          "publication_type": "Healthline / Prevention / General health",
+          "headline": "Could engineered probiotics one day treat colorectal cancer? Here's where the science actually stands.",
+          "hook": "Researchers are developing a new category of microbiome-based medicines \u2014 including specially engineered bacteria \u2014 designed to help the immune system fight colorectal cancer, though the approach is still largely in the experimental stage.",
+          "pitch_angle": "A sweeping new review maps out how these 'live biotherapeutic products' are meant to work and where current clinical trials stand, offering a clear-eyed look at what's genuinely promising versus what still needs years of research before it reaches patients."
         }
       ],
-      "run_date": "2026-08-07",
+      "run_date": "2026-08-08",
+      "category": "Microbiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41951359",
+      "headline": "Food additives found at higher levels in Crohn's patients may signal how active the disease is",
+      "journal": "Gut",
+      "pubdate": "2026 Aug 6",
+      "doi": "10.1136/gutjnl-2024-333999",
+      "groundbreaking": "First-in-class human study / Major dietary or microbiome implication / Counterintuitive finding",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers measured artificial sweeteners (aspartame, sucralose, saccharin) and the emulsifier polysorbate-80 (P-80) in stool, urine, and serum samples from 487 people (245 with Crohn's disease, 242 controls) across Australia, Hong Kong, and mainland China. Patients with Crohn's had significantly higher sweetener levels than controls, and P-80 was metabolized differently in Crohn's patients compared to controls \u2014 with its metabolites associated with increased gut permeability in vitro. A model combining sweetener and P-80 metabolite levels distinguished active from inactive Crohn's disease with an AUC of 0.86\u20130.94, suggesting these food additive markers could serve as non-invasive indicators of disease activity.",
+      "why_it_matters": "This is the first human study to directly measure artificial sweetener and emulsifier levels in Crohn's patients, suggesting these common food additives could one day serve as non-invasive biomarkers for tracking disease flares.",
+      "caveats": "observational design, single-center not applicable (multi-center but Asia-Pacific/Australia populations may limit generalizability), includes in vitro component for mechanistic data only",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "First human quantification of food additives in Crohn's; strong IBD and ultra-processed food angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "Well+Good / Prevention / General health",
+          "headline": "The Sweeteners and Emulsifiers in Your 'Diet' Foods May Show Up Differently in People With Crohn's",
+          "hook": "For the first time, researchers have directly measured artificial sweeteners and a common food emulsifier in the blood, urine, and stool of Crohn's disease patients \u2014 and found them at higher levels than in healthy people.",
+          "pitch_angle": "The ENIGMA study found that sweetener and emulsifier metabolite levels tracked closely with Crohn's disease activity, raising new questions about whether these ubiquitous food additives are markers of gut damage, drivers of it, or both. For the millions living with IBD, the finding suggests that what's in processed food could someday be measured \u2014 not just guessed at \u2014 to track how their disease is doing."
+        },
+        {
+          "publication_type": "The Atlantic / Wired",
+          "headline": "Could a Urine Test for Diet Coke Additives Become the Next Crohn's Disease Monitor?",
+          "hook": "Scientists have built a model using levels of artificial sweeteners and emulsifier byproducts in bodily fluids that can distinguish active from inactive Crohn's disease with startling accuracy \u2014 up to 94% in validation cohorts.",
+          "pitch_angle": "The ENIGMA study is the first to quantify food additive exposure directly in human tissues, revealing that polysorbate-80 \u2014 a common emulsifier in ice cream, bread, and processed foods \u2014 is broken down differently in Crohn's patients, producing metabolites that may increase gut permeability. If validated in more diverse populations, this approach could reshape both Crohn's monitoring and how regulators think about food additive safety."
+        }
+      ],
+      "run_date": "2026-08-08",
       "category": "Gastroenterology",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42557411",
-      "headline": "A new drug combination is outperforming the 15-year standard of care for HER2-positive stomach cancer",
+      "headline": "A new antibody drug is outperforming the 15-year standard of care for HER2-positive stomach cancer",
       "journal": "Journal of Gastrointestinal Cancer",
       "pubdate": "2026 Aug 5",
       "doi": "10.1007/s12029-026-01560-5",
-      "groundbreaking": "Overturns prior research",
+      "groundbreaking": "Overturns prior research / First-in-class human study",
       "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "This narrative review synthesized pivotal and emerging Phase III trial data on first-line treatment for HER2-positive advanced gastric and gastroesophageal junction adenocarcinoma. The review found that the HERIZON-GEA-01 trial showed zanidatamab plus chemotherapy (with or without tislelizumab) improved progression-free survival over trastuzumab plus chemotherapy, and that zanidatamab plus tislelizumab plus chemotherapy improved overall survival \u2014 the first regimen to do so since trastuzumab became standard in 2010. Pembrolizumab added to trastuzumab and chemotherapy (KEYNOTE-811) also demonstrated overall survival benefit, particularly in PD-L1-positive disease.",
-      "why_it_matters": "After 15 years with no improvement over a single standard treatment for HER2-positive stomach cancer, multiple new drug combinations now suggest meaningfully longer survival may be achievable for patients with this aggressive cancer.",
-      "caveats": "observational design",
+      "summary": "This narrative review summarizes pivotal clinical trial evidence for first-line treatment of HER2-positive advanced gastric and gastroesophageal junction cancer, covering trials through June 2026. The HERIZON-GEA-01 phase III trial found that zanidatamab plus chemotherapy improved progression-free survival over the long-standing trastuzumab-based standard established by the 2010 ToGA trial, with the zanidatamab-tislelizumab-chemotherapy triplet also improving overall survival. The review concludes that the field is entering a 'second transformation,' shifting the central question from whether to combine HER2 blockade with chemotherapy to which HER2 platform should anchor treatment.",
+      "why_it_matters": "For patients with HER2-positive advanced stomach cancer \u2014 a disease with historically poor prognosis \u2014 these findings suggest a new generation of targeted therapies may meaningfully extend survival beyond what has been possible for over a decade.",
+      "caveats": "narrative review, Japan-based authors (single-region perspective), no original patient data",
       "fact_check_note": "",
       "relevance_score": 4,
-      "relevance_score_reason": "Oncology narrative review; limited gut microbiome or diet relevance for this digest's audience.",
+      "relevance_score_reason": "Gastric cancer oncology review; minimal gut microbiome, diet, or digestive health relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Wired",
+          "headline": "The 15-Year-Old Standard for Stomach Cancer Just Got Dethroned",
+          "hook": "A new bispecific antibody has outperformed trastuzumab \u2014 the drug that has anchored HER2-positive stomach cancer treatment since 2010 \u2014 in a phase III trial.",
+          "pitch_angle": "Zanidatamab, a next-generation HER2-targeting antibody, improved both progression-free and overall survival compared to trastuzumab-based chemotherapy in a major international trial, signaling a rare shake-up in gastric cancer treatment. The shift raises broader questions about how biomarker-driven oncology \u2014 increasingly guided by tumor genetics and immune checkpoint status \u2014 will reshape cancer care over the next decade."
+        }
+      ],
+      "run_date": "2026-08-08",
+      "category": "Gastroenterology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42545024",
+      "headline": "New DNA sequencing tools are revealing a hidden microbial world in cystic fibrosis lungs \u2014 and could reshape treatment in the post-Trikafta era",
+      "journal": "Clinical Microbiology Reviews",
+      "pubdate": "2026 Aug 3",
+      "doi": "10.1128/cmr.00352-25",
+      "groundbreaking": "First-in-class human study / Major dietary or microbiome implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "This review examines how DNA sequencing technologies \u2014 including 16S rRNA gene sequencing, shotgun metagenomics, metatranscriptomics, and viromics \u2014 are transforming microbial surveillance in the airways of people with cystic fibrosis (CF), moving beyond traditional culture-based pathogen detection. The authors discuss technical barriers such as high-viscosity sputum, host DNA contamination, and bioinformatics complexity, as well as emerging solutions like host DNA depletion and Oxford Nanopore adaptive sampling. With CFTR modulator therapies (e.g., Trikafta) dramatically changing CF lung disease, the review argues sequencing offers a critical window into how airway microbiomes may be adapting in response.",
+      "why_it_matters": "As CFTR modulators transform cystic fibrosis outcomes, understanding how the lung microbiome shifts in response could inform smarter infection management and personalized care for people with CF.",
+      "caveats": "review article (not primary research), microbiome data only (no clinical outcomes from sequencing), technical and translational challenges acknowledged throughout",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Airway (not gut) microbiome; review only; no primary clinical outcome data.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired / The Atlantic",
+          "headline": "Trikafta Changed Cystic Fibrosis. Now Scientists Want to Know What It Did to the Bacteria Living in CF Lungs.",
+          "hook": "Breakthrough CFTR modulator drugs have transformed life for people with cystic fibrosis \u2014 but they may also be reshaping the microbial ecosystems inside CF airways in ways scientists are only beginning to map.",
+          "pitch_angle": "New DNA sequencing tools, from shotgun metagenomics to Oxford Nanopore real-time sequencing, are giving researchers their first detailed look at the full microbial community \u2014 bacteria, fungi, and viruses \u2014 living in CF lungs. As modulators change the underlying disease biology, tracking these microbial shifts in real time could reveal whether the drugs are also altering infection risk and antibiotic resistance patterns."
+        }
+      ],
+      "run_date": "2026-08-08",
+      "category": "Microbiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42475229",
+      "headline": "A blood clotting marker may predict liver crisis in patients with stable cirrhosis \u2014 years before it happens",
+      "journal": "Hepatology Communications",
+      "pubdate": "2026 Aug 1",
+      "doi": "10.1097/HC9.0000000000001003",
+      "groundbreaking": "Counterintuitive finding / Major dietary or microbiome implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers retrospectively analyzed a prospectively collected cohort of 171 patients with compensated cirrhosis in Italy, measuring thrombomodulin-modified thrombin generation (TM-TG) at enrollment and tracking hepatic decompensation over a median 3.3-year follow-up. Among the 37 patients (21.6%) who developed first hepatic decompensation, higher TM-TG levels were independently associated with that outcome even after adjusting for MELD score, large varices, and platelet count. An ETP ratio above 0.80 was associated with up to a 3.4-fold higher hazard of decompensation.",
+      "why_it_matters": "Identifying a blood marker that independently predicts liver crisis in outwardly stable cirrhosis patients could help clinicians prioritize monitoring and intervention before a life-threatening complication occurs.",
+      "caveats": "observational design, single-center, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clinically meaningful liver finding, but not diet/microbiome focused; observational cohort.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / science-forward general interest",
+          "headline": "A Blood Clotting Test Could Warn of Liver Failure Before Patients Ever Feel Sick",
+          "hook": "People with cirrhosis who look stable on standard tests may already be on a trajectory toward liver crisis \u2014 and a clotting marker could reveal who's at highest risk.",
+          "pitch_angle": "This Italian cohort study found that elevated thrombin generation \u2014 a measure of clotting activity \u2014 predicted first hepatic decompensation independently of the standard MELD scoring system. If confirmed prospectively, it could shift how doctors monitor the 4+ million Americans estimated to have cirrhosis."
+        }
+      ],
+      "run_date": "2026-08-08",
+      "category": "Gastroenterology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42339861",
+      "headline": "The Mediterranean diet is dying in the countries that invented it \u2014 and thriving everywhere else",
+      "journal": "International Journal of Food Sciences and Nutrition",
+      "pubdate": "2026 Aug",
+      "doi": "10.1080/09637486.2026.2692948",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "This narrative review by a single author at Temple University examines public health data showing that adherence to the Mediterranean diet has significantly declined in its countries of origin \u2014 Greece, Spain, and Southern Italy \u2014 while adoption is rising in non-Mediterranean countries. The shift in Mediterranean countries is associated with increasing rates of metabolic disease and obesity. The paper calls for coordinated public health strategies to reverse this trend in the Mediterranean basin itself.",
+      "why_it_matters": "The finding that the world's most studied healthy diet is being abandoned precisely where it originated \u2014 with measurable health consequences \u2014 reframes the Mediterranean diet conversation from 'what to eat' to 'why food cultures collapse under modernization.'",
+      "caveats": "observational design, single author, review article only, no original data, no microbiome or clinical outcome data",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Counterintuitive cultural finding; review only, no original data or gut outcomes.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The Mediterranean Diet Is Disappearing From the Mediterranean",
+          "hook": "The world's most praised eating pattern is being abandoned by the very countries that created it \u2014 and the health consequences are already showing up.",
+          "pitch_angle": "As Greece, Spain, and Southern Italy shift toward Western-style diets, rates of metabolic disease and obesity are climbing, while countries outside the Mediterranean basin increasingly embrace olive oil, legumes, and fish. This 'Mediterranean diet paradox' raises uncomfortable questions about whether any dietary culture can survive globalization and economic modernization."
+        },
+        {
+          "publication_type": "Well+Good",
+          "headline": "The Country That Invented the Mediterranean Diet Has Basically Stopped Eating It",
+          "hook": "New research reveals a striking paradox: the Mediterranean diet is losing ground in Greece and Italy just as wellness culture in the US and beyond is embracing it harder than ever.",
+          "pitch_angle": "A review of public health data finds that adherence to the Mediterranean diet has dropped sharply in its home countries, linked to rising obesity and metabolic disease, even as followers multiply globally. The irony reveals something important about how food traditions are sustained \u2014 or lost \u2014 in the face of convenience culture."
+        }
+      ],
+      "run_date": "2026-08-08",
+      "category": "Nutritional Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42029729",
+      "headline": "A tumor's blood vessel pattern predicts who won't respond to liver cancer immunotherapy",
+      "journal": "Journal of Gastroenterology",
+      "pubdate": "2026 Aug",
+      "doi": "10.1007/s00535-026-02421-5",
+      "groundbreaking": "Counterintuitive finding / Major dietary or microbiome implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers retrospectively analyzed 111 patients with unresectable hepatocellular carcinoma (HCC) treated with immune checkpoint inhibitors (ICI) alone, tyrosine kinase inhibitors (TKIs), or ICI-based combinations, pooling data from 19 prospective studies. Tumors with a 'vessels encapsulating tumor clusters' (VETC) pattern had severely poor outcomes on ICI-alone therapy (median overall survival 3.47 months vs. 12.87 months for ICI-combo). Transcriptomic and immunohistochemical analysis showed VETC tumors have an immunosuppressive microenvironment with reduced CD8+ T cells and B cells and dominant M2-like macrophages, explaining their resistance to immunotherapy.",
+      "why_it_matters": "Identifying VETC status before treatment could help oncologists steer patients with this aggressive liver cancer pattern away from ICI monotherapy, where outcomes are markedly worse, toward combination regimens.",
+      "caveats": "small sample (N<100 per subgroup), observational design, single-center, retrospective, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Oncology/hepatology focus; minimal gut health, diet, or microbiome angle for this audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Wired",
+          "headline": "A Hidden Pattern in Liver Tumors May Explain Why Some Patients Don't Benefit From Immunotherapy",
+          "hook": "A vascular pattern visible under a microscope could predict which liver cancer patients are unlikely to respond to some of the most widely used immunotherapy drugs.",
+          "pitch_angle": "New research links a structural tumor feature \u2014 blood vessels that wrap around clusters of cancer cells \u2014 to an immunosuppressive environment that essentially shuts out checkpoint inhibitors. If validated, VETC testing could become a simple pathology step that redirects patients to combination therapies with far better odds."
+        }
+      ],
+      "run_date": "2026-08-08",
+      "category": "Gastroenterology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41534761",
+      "headline": "A blood antibody to gut bacteria flags Crohn's disease risk years before symptoms appear",
+      "journal": "Clinical Gastroenterology and Hepatology",
+      "pubdate": "2026 Aug",
+      "doi": "10.1016/j.cgh.2025.12.006",
+      "groundbreaking": "First-in-class human study / Major dietary or microbiome implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Using a nested case-control design from the CCC-GEM cohort, researchers measured antimicrobial antibody responses in blood samples from 77 first-degree relatives of Crohn's disease patients who later developed the disease, matched to 304 healthy relatives. IgG antibodies targeting flagellins from Roseburia and related Lachnospiraceae bacteria \u2014 commensal gut microbes \u2014 were significantly associated with future Crohn's disease risk and correlated with intestinal permeability and inflammation markers. The flagellins shared a conserved amino acid sequence ('hinge peptide'), suggesting a specific immune target.",
+      "why_it_matters": "A blood test targeting immune responses to specific commensal gut bacteria could one day identify people at high risk of developing Crohn's disease years before diagnosis, potentially enabling earlier intervention.",
+      "caveats": "small sample (N<100 cases), observational design, microbiome data only (no clinical outcomes beyond CD diagnosis), secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Strong microbiome-IBD link with human data; small case group and observational limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Wired",
+          "headline": "Your Immune System's Response to a Gut Bacterium Could Predict Crohn's Disease Years Early",
+          "hook": "A blood marker tied to immune responses against common gut bacteria may identify people destined to develop Crohn's disease long before they feel a single symptom.",
+          "pitch_angle": "Researchers found that elevated IgG antibodies against flagellins from Roseburia \u2014 a commensal gut bacterium linked to fiber fermentation \u2014 were significantly associated with future Crohn's onset in high-risk relatives. The finding suggests the gut immune system may begin quietly misreading the microbiome years before overt disease, opening a new window for early detection and potentially prevention."
+        }
+      ],
+      "run_date": "2026-08-08",
+      "category": "Gastroenterology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41284512",
+      "headline": "Cutting sugar in the first two years of life is linked to dramatically lower liver disease risk decades later",
+      "journal": "Clinical Gastroenterology and Hepatology",
+      "pubdate": "2026 Aug",
+      "doi": "10.1016/j.cgh.2025.10.015",
+      "groundbreaking": "Counterintuitive finding / Major dietary or microbiome implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers used the UK's WWII-era sugar rationing policy (1942\u20131953) as a natural experiment, comparing 63,698 UK Biobank participants who were exposed to rationing in utero and early childhood against those born after rationing ended. Those exposed to sugar restriction in the first ~1,000 days of life had a 30% lower risk of metabolic dysfunction-associated steatotic liver disease (MASLD) and a 35% lower risk of major adverse liver outcomes in adulthood. Mediation analysis found that over 60% of the protective effect was explained by improved metabolic syndrome traits.",
+      "why_it_matters": "This large natural experiment suggests that limiting sugar exposure during pregnancy and the first two years of life \u2014 a critical developmental window \u2014 may substantially reduce the risk of fatty liver disease and serious liver complications decades later.",
+      "caveats": "observational design, secondary analysis, exposure defined by birth year relative to policy (not individually measured sugar intake), findings tied to a specific UK historical context",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Large human cohort, strong dietary-liver outcome link, clear everyday relevance; observational limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Well+Good / Prevention",
+          "headline": "What a WWII Sugar Shortage Reveals About Your Liver Health Today",
+          "hook": "A wartime sugar rationing policy in the UK has become one of the most compelling pieces of evidence yet that what babies eat in their first two years of life shapes their liver health for decades.",
+          "pitch_angle": "Analyzing 63,000 UK Biobank participants, researchers found that people exposed to strict sugar rationing in the womb and early childhood had up to 35% lower risk of serious liver disease as adults. The finding points to a critical early-life window where diet may set a metabolic trajectory that plays out over a lifetime."
+        },
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The WWII Ration Book That May Have Saved Millions of Livers",
+          "hook": "Britain's wartime sugar shortages were an accidental experiment in early-childhood nutrition \u2014 and the results, 70 years on, are striking.",
+          "pitch_angle": "A study of 63,000 people born around the end of WWII found that those whose sugar intake was involuntarily curtailed in the womb and infancy had dramatically lower rates of fatty liver disease and cirrhosis as adults. The research raises uncomfortable questions about how modern food environments \u2014 saturated with added sugar from pregnancy onward \u2014 may be programming disease risk before children can even walk."
+        }
+      ],
+      "run_date": "2026-08-08",
+      "category": "Gastroenterology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41386563",
+      "headline": "Swallowing difficulty may stem from weak throat muscles, not just a hypersensitive esophagus",
+      "journal": "Clinical Gastroenterology and Hepatology",
+      "pubdate": "2026 Aug",
+      "doi": "10.1016/j.cgh.2025.11.021",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers used high-resolution manometry and barium imaging to assess esophageal mechanics in 25 functional dysphagia (FD) patients and 25 healthy controls. They identified two subtypes: one resembling classic FD with normal distension, and a newly described subtype (FD-rED) with reduced esophageal distension and impaired bolus transit. Weak striated (skeletal) muscle contractility in the upper esophagus \u2014 not just sensory hypersensitivity \u2014 appears to drive the new subtype.",
+      "why_it_matters": "This suggests that some people diagnosed with functional dysphagia may actually have a motor problem rooted in striated muscle weakness, potentially pointing toward different treatment targets than those currently used.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Interesting gastroenterology finding but small, single-center, limited diet or microbiome angle.",
       "pitch_angles": [
         {
           "publication_type": "Healthline / General health",
-          "headline": "Stomach Cancer Treatment Just Got Its Biggest Upgrade in 15 Years",
-          "hook": "For the first time since 2010, a new drug combination has shown it can extend survival beyond the long-standing standard of care for HER2-positive stomach cancer.",
-          "pitch_angle": "A narrative review of Phase III trials finds that zanidatamab-based regimens are outperforming trastuzumab \u2014 the gold standard since the ToGA trial \u2014 in advanced gastric cancer, signaling a major shift in how oncologists will approach this hard-to-treat disease."
+          "headline": "If You Struggle to Swallow, the Problem May Be in Your Throat Muscles \u2014 Not Your Mind",
+          "hook": "For years, unexplained swallowing difficulty was chalked up to an oversensitive esophagus \u2014 but new research suggests a subset of patients may have weak striated muscle as the culprit.",
+          "pitch_angle": "A small Japanese study identified a new subtype of functional dysphagia driven by reduced esophageal distension tied to striated muscle weakness. This finding could eventually reshape how clinicians diagnose and treat people whose swallowing problems don't respond to standard therapies."
         }
       ],
-      "run_date": "2026-08-07",
+      "run_date": "2026-08-08",
+      "category": "Gastroenterology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41833604",
+      "headline": "Drug-resistant pig bacteria that cause meningitis are now resistant to the only antibiotics that treat them",
+      "journal": "Clinical Microbiology and Infection",
+      "pubdate": "2026 Aug",
+      "doi": "10.1016/j.cmi.2026.03.012",
+      "groundbreaking": "Counterintuitive finding / Major dietary or microbiome implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers sequenced 141 Thai Streptococcus suis strains isolated over 15 years and combined them with 2,761 published genomes globally, using comparative genomics and Bayesian evolutionary modeling. S. suis is a zoonotic bacterium linked to raw pork consumption and is a leading cause of adult bacterial meningitis in Southeast Asia. Two newly characterized lineages (CC104 and CC233) have independently acquired resistance to penicillin and ceftriaxone \u2014 the standard antibiotics used to treat S. suis infections in humans \u2014 along with resistance to up to 8 antibiotic classes.",
+      "why_it_matters": "For consumers of raw or undercooked pork, this finding suggests that a foodborne bacterial pathogen capable of causing meningitis may now be untreatable with standard antibiotics in parts of Southeast Asia.",
+      "caveats": "single-center, finding is tied to a single non-US/non-multinational region's diet and healthcare system (Thailand/Southeast Asia) in a way unlikely to generalize directly to a US/global audience",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Zoonotic food-safety angle is real but regionally specific; low gut-health topic fit.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired / The Atlantic",
+          "headline": "The Bacteria in Raw Pork That Causes Meningitis Is Now Resistant to Its Only Cure",
+          "hook": "Two newly identified lineages of a pig bacterium transmitted through raw pork consumption have independently evolved resistance to the only antibiotics used to treat them.",
+          "pitch_angle": "Scientists tracking Streptococcus suis \u2014 a leading cause of adult bacterial meningitis in Southeast Asia, spread through raw pork \u2014 found that two emerging strains have acquired resistance to penicillin and ceftriaxone, leaving clinicians with no standard treatment options. The finding raises broader questions about antibiotic use in livestock and the global pipeline for zoonotic disease surveillance."
+        }
+      ],
+      "run_date": "2026-08-08",
+      "category": "Microbiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41905557",
+      "headline": "Getting a COVID booster in the first trimester \u2014 even a repeat dose \u2014 doesn't appear to raise the risk of major birth defects",
+      "journal": "Clinical Microbiology and Infection",
+      "pubdate": "2026 Aug",
+      "doi": "10.1016/j.cmi.2026.03.027",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "In a population-based cohort study of 47,665 live births in Singapore (July 2021\u2013December 2023), researchers used national vaccination registries and healthcare claims data to assess whether repeat mRNA COVID-19 vaccination during the first trimester was associated with major structural birth defects. Among the 11.2% of mothers who received repeat COVID-19 mRNA vaccine doses in the first trimester, the adjusted prevalence ratio for major structural birth defects was 0.97 (95% CI: 0.74\u20131.27), indicating no statistically significant increased risk compared to unvaccinated (first trimester) mothers. Results were consistent for both bivalent and ancestral vaccine formulations, though confidence intervals for the bivalent subgroup were wide due to smaller numbers.",
+      "why_it_matters": "The study offers reassurance that repeat mRNA COVID-19 vaccination during early pregnancy \u2014 including updated booster doses \u2014 is not associated with increased risk of major structural birth defects, which may help address vaccine hesitancy among pregnant people.",
+      "caveats": "observational design, single-center (Singapore population), confidence intervals wide for bivalent subgroup, short follow-up for some outcomes, population-specific healthcare and vaccination context",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Large N, reassuring safety finding; no gut-health angle; Singapore-specific population.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Healthline",
+          "headline": "Getting a COVID Booster While Pregnant Doesn't Appear to Raise Birth Defect Risk \u2014 Even If You've Already Been Vaccinated",
+          "hook": "A study of nearly 48,000 births found no significant increase in major structural birth defects among babies born to mothers who received repeat mRNA COVID-19 vaccine doses during the first trimester.",
+          "pitch_angle": "Researchers in Singapore tracked vaccination records and birth outcomes for tens of thousands of pregnancies and found that booster doses \u2014 including updated bivalent formulations \u2014 during the most sensitive window of fetal development were not associated with elevated birth defect rates. The findings directly address one of the most common concerns driving vaccine hesitancy in pregnancy, building on earlier evidence that single doses are also safe."
+        }
+      ],
+      "run_date": "2026-08-08",
+      "category": "Microbiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42275987",
+      "headline": "A GLP-2 drug helps kids with severe intestinal failure gain weight \u2014 but weaning them off IV nutrition too fast may stall their growth",
+      "journal": "Clinical Nutrition",
+      "pubdate": "2026 Aug",
+      "doi": "10.1016/j.clnu.2026.106702",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "This European multicenter cohort study tracked weight, height, and BMI z-scores over 12 months in 104 children with short bowel syndrome-associated intestinal failure treated with teduglutide, a GLP-2 analogue. Children who responded to the drug (defined as a >20% reduction in parenteral nutrition volume) had significantly better weight and BMI trajectories than non-responders throughout follow-up. However, the 21 children who achieved full parenteral nutrition weaning showed a period of growth vulnerability around nine months, with differences becoming non-significant by 12 months.",
+      "why_it_matters": "The findings suggest that stopping IV nutrition too abruptly in children on teduglutide may temporarily compromise growth, highlighting that the transition away from parenteral nutrition needs careful nutritional monitoring even when the drug is working.",
+      "caveats": "observational design, small sample (N=104 total, N=21 for weaning subgroup), multicenter European cohort, short follow-up, industry conflict of interest (Takeda consultant honoraria for some authors)",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Pediatric intestinal failure is niche; journalist previously passed on similar teduglutide study.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "The Drug Helping Kids With Devastating Gut Disease Has a Hidden Growth Risk When Stopped Too Soon",
+          "hook": "A GLP-2 drug can dramatically reduce dependence on IV nutrition in children with short bowel syndrome \u2014 but pulling that IV too fast may temporarily stall their growth.",
+          "pitch_angle": "A European study of 104 children with short bowel syndrome found that teduglutide supported better weight and BMI trajectories in those who responded to it, but the transition off parenteral nutrition coincided with a window of growth vulnerability at nine months. The findings underscore that for children with severe intestinal failure, treatment success is not the end of the story \u2014 nutritional monitoring must continue through the weaning process."
+        }
+      ],
+      "run_date": "2026-08-08",
+      "category": "Nutritional Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41921744",
+      "headline": "A diet high in refined grains, sugar, and dairy is linked to greater weight loss risk in colorectal cancer patients \u2014 and not in a good way",
+      "journal": "Journal of the Academy of Nutrition and Dietetics",
+      "pubdate": "2026 Aug",
+      "doi": "10.1016/j.jand.2026.156351",
+      "groundbreaking": "Counterintuitive finding / Major dietary or microbiome implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers performed a cross-sectional analysis of 405 patients newly diagnosed with colorectal cancer (CRC) enrolled in the ColoCare Study across four US sites between 2010 and 2021. Using principal component analysis, they identified four dietary patterns and found that high adherence to a 'Refined Grain, Sugar, and Dairy' pattern was associated with greater odds of losing \u22655% body weight in the first 6 months after CRC diagnosis \u2014 a clinically significant and unwanted outcome. Dietary assessment relied on a 6-month food frequency questionnaire with self-reported weight data.",
+      "why_it_matters": "For the large population navigating colorectal cancer treatment, this study suggests that the composition of dietary patterns \u2014 not just calorie intake \u2014 may play a role in the risk of clinically harmful unintentional weight loss after diagnosis.",
+      "caveats": "observational design, cross-sectional, self-reported dietary intake, self-reported weight",
+      "fact_check_note": "Abstract was truncated before reporting the full odds ratio for the Refined Grain, Sugar, and Dairy pattern association; direction of effect (greater odds of weight loss with high adherence) is stated clearly in the available text and confirmed.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Colorectal cancer and diet is on-topic; observational and self-reported; journalist recently passed on similar dietary pattern angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / General health",
+          "headline": "The Diet Pattern Linked to Dangerous Weight Loss in Colorectal Cancer Patients May Surprise You",
+          "hook": "A diet heavy in refined grains, sugar, and dairy was associated with a higher risk of significant unintentional weight loss in the critical months after a colorectal cancer diagnosis \u2014 the kind of weight loss that worsens outcomes.",
+          "pitch_angle": "Analyzing data from 405 CRC patients across four US cancer centers, researchers found that patients eating more refined grains, sugar, and dairy were more likely to lose 5% or more of their body weight in the first six months after diagnosis, a threshold associated with worse clinical outcomes. The finding points to dietary pattern quality \u2014 not just quantity \u2014 as potentially important in cancer nutritional care, though the observational design means causation cannot be established."
+        }
+      ],
+      "run_date": "2026-08-08",
+      "category": "Nutritional Sciences",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42547103",
+      "headline": "AI models predicting blood sugar responses to food still fall short of beating standard dietary guidelines",
+      "journal": "The American Journal of Clinical Nutrition",
+      "pubdate": "2026 Aug",
+      "doi": "10.1016/j.ajcnut.2026.101322",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers conducted a narrative review of 26 studies that used machine learning (ML) models to predict postprandial blood sugar responses to food, drawing from six major databases through November 2025. Most existing models were tree-based and incorporated personal features (anthropometrics, biomarkers, microbiota) and food features (nutrients/food groups), but overlooked key variables like food processing. Critically, some clinical trials found that ML-based personalized dietary recommendations failed to produce meaningfully better glycemic outcomes than standard dietary guidelines.",
+      "why_it_matters": "Despite enormous hype around AI-personalized nutrition, this review suggests the technology has not yet proven it can outperform conventional dietary guidance for blood sugar control.",
+      "caveats": "narrative review, no primary data, heterogeneous study designs across included studies",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Topically relevant but narrative review with no new data; journalist recently passed on similar AI nutrition angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired / The Atlantic",
+          "headline": "The AI That Was Supposed to Personalize Your Diet Still Can't Beat Basic Nutrition Advice",
+          "hook": "After years of promises, machine learning models designed to predict your blood sugar response to food have yet to outperform the nutrition guidelines your doctor already gives you.",
+          "pitch_angle": "A new review of 26 studies found that most AI blood-sugar prediction tools are tree-based models built on biomarkers and food data \u2014 but when tested in clinical trials, they failed to deliver meaningfully better glycemic outcomes than standard dietary guidelines, raising hard questions about whether the precision nutrition boom is living up to its hype."
+        }
+      ],
+      "run_date": "2026-08-08",
+      "category": "Nutritional Sciences",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42246211",
+      "headline": "A modified pacifier lets doctors scope infants' upper GI tract without anesthesia",
+      "journal": "Journal of Pediatric Gastroenterology and Nutrition",
+      "pubdate": "2026 Aug",
+      "doi": "10.1002/jpn3.70463",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers at Children's Hospital of Philadelphia developed a modified pacifier device that allows transoral endoscopy in early infancy without general anesthesia, reporting on its use in a small case series. The device is designed to guide an endoscope through an infant's mouth during natural sucking, reducing procedural risk associated with anesthesia in neonates. The report describes feasibility and early technical results, though no sample size, comparative outcomes, or microbiome data are provided in the abstract.",
+      "why_it_matters": "Eliminating the need for general anesthesia during upper GI endoscopy in infants could meaningfully reduce procedural risk for one of medicine's most vulnerable patient populations.",
+      "caveats": "small sample (N<100), single-center, no comparative outcome data reported, feasibility study only",
+      "fact_check_note": "Abstract contains no sample size or outcome data; summary reflects only what is stated. Study design and N cannot be verified from the abstract alone.",
+      "relevance_score": 4,
+      "relevance_score_reason": "Pediatric GI procedure innovation; limited gut health or diet relevance for target audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Parenting",
+          "headline": "A Pacifier With a Built-In Scope Could Make Infant Gut Exams Safer",
+          "hook": "A modified pacifier developed at CHOP may allow doctors to examine a baby's upper digestive tract without putting the infant under general anesthesia.",
+          "pitch_angle": "The device, still in early feasibility testing, works by threading an endoscope through a pacifier the infant sucks on naturally \u2014 potentially sidestepping one of the riskiest parts of GI diagnosis in newborns. If it proves out in larger studies, it could change how conditions like reflux, esophageal abnormalities, and feeding disorders are diagnosed in the first months of life."
+        }
+      ],
+      "run_date": "2026-08-08",
+      "category": "Gastroenterology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42248250",
+      "headline": "The gut microbiome-diet research field has a reproducibility crisis \u2014 and scientists are finally mapping a way out",
+      "journal": "The Journal of Nutrition",
+      "pubdate": "2026 Aug",
+      "doi": "10.1016/j.tjnut.2026.101646",
+      "groundbreaking": "Counterintuitive finding / Major dietary or microbiome implication",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers from RIKEN Center for Integrative Medical Sciences conducted a narrative review examining why studies linking host genetics, diet, and the gut microbiome so frequently fail to replicate across labs and cohorts. They identified that differences in cohort design, dietary assessment methods, DNA extraction protocols, sequencing approaches, and statistical analysis can all independently alter which microbes are detected and in what abundances \u2014 making cross-study comparisons unreliable. The review calls for standardized workflows, consensus reporting standards, absolute quantification methods, and diverse longitudinal study designs to make precision nutrition and microbiome-based public health strategies actually viable.",
+      "why_it_matters": "Many popular claims about diet and the gut microbiome are built on studies that cannot be replicated \u2014 suggesting that headlines linking specific foods to specific microbiome changes should be read with far more caution than they typically receive.",
+      "caveats": "narrative review (no original data), no clinical outcomes measured, microbiome data only (no clinical outcomes)",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "High topic fit for microbiome-diet research; narrative review limits causal weight.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The Gut Microbiome Science You've Been Reading About May Be Mostly Noise",
+          "hook": "A sweeping new review finds that differences in lab protocols, not biology, may explain why microbiome-diet studies so rarely agree with each other.",
+          "pitch_angle": "Researchers at RIKEN have mapped out how dozens of methodological choices \u2014 from how stool samples are stored to how DNA is sequenced \u2014 can produce wildly different results from the same gut, undermining the evidence base for precision nutrition. For readers who've encountered breathless claims about fermented foods or fiber reshaping their microbiome, this review is a corrective \u2014 and a call for the field to get its house in order before those claims reach clinical practice."
+        },
+        {
+          "publication_type": "Wired",
+          "headline": "Gut Microbiome Research Has a Reproducibility Problem. Scientists Are Building a Fix.",
+          "hook": "The tools and protocols used to study the gut microbiome are so inconsistent across labs that two researchers studying the same stool sample can reach opposite conclusions.",
+          "pitch_angle": "A new review from one of Japan's leading microbiome research centers lays out the full scope of the field's methodological chaos \u2014 and outlines concrete solutions, from standardized sequencing workflows to mock microbial communities used as calibration controls. It's a technical deep-dive that matters enormously for anyone tracking whether microbiome science is ready to inform real dietary or medical recommendations."
+        }
+      ],
+      "run_date": "2026-08-08",
+      "category": "Nutritional Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42251897",
+      "headline": "The special membrane coating on milk fat doesn't change how much fat ends up in your blood after a fatty meal",
+      "journal": "The Journal of Nutrition",
+      "pubdate": "2026 Aug",
+      "doi": "10.1016/j.tjnut.2026.101647",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "In a randomized, double-blind crossover trial, 12 healthy adults consumed three isocaloric high-fat dairy spreads differing only in their milk fat globule membrane (MFGM) content \u2014 intact, disrupted, or absent \u2014 across separate study visits in whole-room indirect calorimeters. Postprandial triglyceride levels (the primary outcome) did not differ significantly between the three conditions. Some secondary differences were observed: intact MFGM raised glucose-dependent insulinotropic polypeptide (GIP) and free fatty acid concentrations more than disrupted or absent MFGM, but these did not translate into differences in energy expenditure, appetite, or ad libitum food intake.",
+      "why_it_matters": "The study suggests that the often-cited metabolic benefits of whole dairy over processed dairy may not be explained by the milk fat globule membrane alone \u2014 at least not through postprandial blood fat levels in healthy people.",
+      "caveats": "small sample (N=12), short follow-up, healthy adults only (findings may not apply to people with metabolic disease), single-center, industry funding (Arla Foods \u2014 multiple authors employed by Arla)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Counterintuitive dairy finding; very small N and industry funding limit confidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "Healthline",
+          "headline": "The 'Healthy' Part of Whole Milk May Not Be What We Thought",
+          "hook": "Scientists have long suspected the membrane surrounding milk fat droplets explains why whole dairy might be better for heart health than its fat content suggests \u2014 but a new trial finds it doesn't change blood fat levels after a fatty meal.",
+          "pitch_angle": "A small but carefully controlled crossover trial found that the milk fat globule membrane \u2014 a complex phospholipid coating touted as a possible reason dairy isn't as bad for cardiovascular health as saturated fat theory predicts \u2014 did not reduce postprandial triglycerides compared to a matched spread without it. The study, though limited by its tiny sample size and industry involvement, suggests the dairy matrix story is more complicated than one component can explain."
+        }
+      ],
+      "run_date": "2026-08-08",
+      "category": "Nutritional Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42486599",
+      "headline": "Autoimmune liver diseases may not be as distinct as doctors once thought \u2014 they blur into each other more than recognized",
+      "journal": "Clinics in Liver Disease",
+      "pubdate": "2026 Aug",
+      "doi": "10.1016/j.cld.2026.04.008",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "This narrative review examines 'overlap syndromes' in autoimmune liver disease \u2014 cases where autoimmune hepatitis, primary biliary cholangitis, and primary sclerosing cholangitis co-occur or share features rather than presenting as distinct conditions. The authors argue these overlaps represent phenotypic variations along a shared disease spectrum rather than separate diagnoses. The rarity of these conditions and gaps in understanding their pathophysiology have prevented standardized definitions and evidence-based treatment protocols.",
+      "why_it_matters": "For patients with autoimmune liver disease, the blurring of diagnostic categories suggests current treatment protocols may not adequately reflect the complexity of individual presentations.",
+      "caveats": "narrative review, small patient population (rare diseases), no original data, single-center authors",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Rare liver disease review; no original data, limited gut-microbiome or diet relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "Your Autoimmune Liver Disease Diagnosis May Be More Complicated Than Your Doctor Told You",
+          "hook": "Three autoimmune liver diseases once thought to be totally separate may actually bleed into one another \u2014 and that's changing how experts think about diagnosis.",
+          "pitch_angle": "Researchers argue that autoimmune hepatitis, primary biliary cholangitis, and primary sclerosing cholangitis exist on a spectrum rather than as neatly distinct conditions, complicating diagnosis and treatment. For the estimated thousands of patients with these rare diseases, the lack of standardized definitions means care can vary widely depending on where \u2014 and by whom \u2014 they're treated."
+        }
+      ],
+      "run_date": "2026-08-08",
       "category": "Gastroenterology",
       "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42082786",
+      "headline": "The bacteria in your dog's mouth that can kill you is quietly developing antibiotic resistance",
+      "journal": "European Journal of Clinical Microbiology & Infectious Diseases",
+      "pubdate": "2026 Aug",
+      "doi": "10.1007/s10096-026-05526-0",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
+      "summary": "Researchers from the Global Capnocytophaga Consortium used hybrid genome sequencing and functional testing to characterize beta-lactamase genes \u2014 enzymes that break down beta-lactam antibiotics \u2014 in three Capnocytophaga canimorsus isolates (two from human clinical infections, one from a dog). They identified a previously unknown beta-lactamase gene, designated blaOXA-1422, and confirmed that strains carrying either known or novel OXA-type genes showed elevated resistance to multiple beta-lactam antibiotics when tested in a reference strain. C. canimorsus is a zoonotic pathogen transmitted by dog and cat bites or licks that can cause life-threatening sepsis, especially in immunocompromised individuals.",
+      "why_it_matters": "As pet ownership grows globally, understanding that the bacteria commonly found in dogs' mouths may carry resistance genes against standard antibiotics has direct implications for how clinicians treat dog-bite infections.",
+      "caveats": "small sample (N<100), single-center, observational design, microbiome data only (no clinical outcomes)",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Compelling zoonotic angle but low gut-health topic fit; small sample.",
+      "pitch_angles": [
+        {
+          "publication_type": "Well+Good / Prevention / General health",
+          "headline": "The Bacteria in Your Dog's Saliva Can Cause Sepsis \u2014 and It's Getting Harder to Treat",
+          "hook": "Scientists have identified antibiotic-resistance genes in Capnocytophaga canimorsus, a bacterium found in dog and cat mouths that can cause life-threatening infections in humans.",
+          "pitch_angle": "A new genomic study found that clinical isolates of this dog-mouth bacterium \u2014 which spreads through bites, licks, or scratches \u2014 carry genes that allow it to resist beta-lactam antibiotics, the standard treatment for such infections. While serious infections remain rare, the finding suggests clinicians and pet owners should be aware that standard antibiotics may not always work."
+        }
+      ],
+      "run_date": "2026-08-08",
+      "category": "Microbiology",
+      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -118,447 +655,6 @@
       "status": "new"
     },
     {
-      "pmid": "42545024",
-      "headline": "New lung drugs are changing cystic fibrosis \u2014 and scientists are racing to track what happens to the airway microbiome next",
-      "journal": "Clinical Microbiology Reviews",
-      "pubdate": "2026 Aug 3",
-      "doi": "10.1128/cmr.00352-25",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "This review examines how DNA sequencing technologies \u2014 including 16S rRNA gene sequencing, shotgun metagenomics, metatranscriptomics, and viromics \u2014 are transforming microbial surveillance in the airways of people with cystic fibrosis (CF). It highlights emerging tools like host DNA depletion protocols and Oxford Nanopore adaptive sampling that improve detection of the full microbial community beyond classical culture methods. The review also identifies a critical research gap: as CFTR modulator therapies (e.g., elexacaftor/tezacaftor/ivacaftor) transform patient outcomes, there is an urgent need to track how these drugs reshape the CF airway microbiome.",
-      "why_it_matters": "As life-changing CFTR modulator drugs alter the lungs of people with cystic fibrosis, understanding how the airway microbiome responds could help explain why some patients still experience infections and lung decline \u2014 a question with broad implications for microbiome-informed medicine.",
-      "caveats": "review article, no primary data, microbiome data only (no clinical outcomes from this study), airway microbiome rather than gut microbiome",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Airway microbiome review with strong scientific framing; not gut-focused but links microbiome sequencing to a major clinical shift.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired / The Atlantic",
-          "headline": "The Miracle Cystic Fibrosis Drug Is Working \u2014 Now Scientists Want to Know What It's Doing to the Lung Microbiome",
-          "hook": "CFTR modulators like Trikafta have transformed cystic fibrosis from a death sentence into a manageable condition \u2014 but researchers still don't know how these drugs are reshaping the microbial communities living in patients' lungs.",
-          "pitch_angle": "A new review in Clinical Microbiology Reviews argues that next-generation DNA sequencing tools are finally powerful enough to track microbial changes in the CF airway in real time \u2014 and that doing so in the post-modulator era is a scientific and clinical priority. The finding matters beyond CF: it illustrates how rapidly advancing microbiome science is being applied to understand drug effects at the microbial level, potentially reshaping how we think about infection risk and treatment in respiratory disease."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Microbiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42475229",
-      "headline": "A clotting marker may predict which cirrhosis patients will deteriorate \u2014 even when liver scores look stable",
-      "journal": "Hepatology Communications",
-      "pubdate": "2026 Aug 1",
-      "doi": "10.1097/HC9.0000000000001003",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers prospectively followed 171 patients with compensated cirrhosis in Italy over a median of 3.3 years, measuring thrombomodulin-modified thrombin generation (TM-TG) at enrollment to see if it predicted first hepatic decompensation. Among the 37 patients (21.6%) who decompensated, elevated TM-TG was independently associated with decompensation even after controlling for MELD score, platelet count, and presence of large varices. An endogenous thrombin potential ratio above 0.80 was associated with a nearly three-fold higher hazard of decompensation.",
-      "why_it_matters": "Identifying patients with stable-seeming cirrhosis who are at highest risk of sudden deterioration could help clinicians prioritize monitoring and early intervention before a life-threatening complication occurs.",
-      "caveats": "small sample (N<100 events), single-center, observational design, retrospective analysis of prospective cohort",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Hepatology clinical finding; limited direct gut health, diet, or microbiome angle.",
-      "pitch_angles": [
-        {
-          "publication_type": "Healthline / General health",
-          "headline": "A Blood Clotting Test Could Warn Doctors When Cirrhosis Is About to Turn Dangerous",
-          "hook": "A clotting biomarker not typically used in liver disease appears to predict which patients with compensated cirrhosis are heading toward a serious health crisis \u2014 even when standard liver scores suggest stability.",
-          "pitch_angle": "A prospective cohort study found that elevated thrombin generation predicted first hepatic decompensation in cirrhosis patients independently of established risk markers, suggesting coagulation biology may play an underappreciated role in liver disease progression."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Gastroenterology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42341608",
-      "headline": "The next wave of antibiotics may already be hiding inside your own microbiome",
-      "journal": "Current Opinion in Microbiology",
-      "pubdate": "2026 Aug",
-      "doi": "10.1016/j.mib.2026.102781",
-      "groundbreaking": "Major dietary or microbiome implication",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "This review surveys how genomic big-data approaches and artificial intelligence are being used to mine human and environmental microbiomes for novel antimicrobial peptides, proteins, and biosynthetic gene clusters targeting drug-resistant bacteria and fungi. No original experimental data or human subjects were studied; the paper synthesizes a decade of advances in computational and experimental antimicrobial discovery. Authors highlight an urgent gap in antifungal drug development relative to antibacterial work.",
-      "why_it_matters": "Mining the human microbiome for natural antimicrobials represents a fundamentally new strategy against drug-resistant infections \u2014 one that could yield treatments discovered from within our own bodies.",
-      "caveats": "review article (no original data), no clinical outcomes, industry conflict of interest [Peptaris Inc., Invaio Sciences, Intera Bio, Nowture S.L., Peptidus, ePhective Therapeutics, Phare Bio \u2014 co-author C. de la Fuente-Nunez]",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Strong microbiome relevance and AI angle, but review only, no original human data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired / The Atlantic",
-          "headline": "AI is learning to hunt for antibiotics hidden inside the trillions of microbes living in and on your body",
-          "hook": "Scientists are feeding microbiome genomic data into AI models to surface natural antimicrobial compounds that evolution has already stress-tested \u2014 and the results are beginning to yield real drug candidates.",
-          "pitch_angle": "A new review maps how machine learning and big-data genomics are transforming the human microbiome into a drug-discovery library at a moment when antibiotic resistance is outpacing the pharmaceutical pipeline; authors also flag that antifungal discovery is dangerously lagging behind antibacterial efforts."
-        },
-        {
-          "publication_type": "General health / Healthline",
-          "headline": "Your gut microbiome may hold the antibiotics of the future \u2014 and AI is starting to find them",
-          "hook": "Researchers are using artificial intelligence to comb through the genetic blueprints of gut and skin microbes in search of natural compounds that could combat the drug-resistant infections that modern antibiotics increasingly can't handle.",
-          "pitch_angle": "This review of a decade of microbiome-based antimicrobial discovery suggests the body's own microbial ecosystem is an underexplored pharmacy \u2014 a framing with obvious resonance for health-minded readers interested in what the microbiome can do beyond digestion."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Microbiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42339861",
-      "headline": "Mediterranean countries are abandoning the Mediterranean diet \u2014 and their disease rates are rising as Western nations adopt it",
-      "journal": "International Journal of Food Sciences and Nutrition",
-      "pubdate": "2026 Aug",
-      "doi": "10.1080/09637486.2026.2692948",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "This narrative review by a Temple University neuroscientist examines the epidemiological and public health evidence around Mediterranean diet adherence globally. The author documents a paradox: adherence is declining in Greece, Spain, and Southern Italy \u2014 the diet's countries of origin \u2014 coinciding with rising rates of metabolic disease and obesity, while adoption is increasing in non-Mediterranean countries. The review calls for coordinated public health strategies to reverse the trend within Mediterranean nations.",
-      "why_it_matters": "The geographic reversal in Mediterranean diet adoption suggests that cultural and economic forces can undermine even the most evidence-backed dietary patterns \u2014 a cautionary signal for any population-level nutrition strategy.",
-      "caveats": "observational design, single-center",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Counterintuitive and culturally resonant finding, but narrative review with no primary data.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic",
-          "headline": "The Mediterranean diet is conquering the world \u2014 except the Mediterranean",
-          "hook": "The countries that invented the Mediterranean diet are abandoning it, while rising rates of metabolic disease follow close behind.",
-          "pitch_angle": "A new review documents a striking paradox: adherence to the Mediterranean diet is falling fastest in Greece, Spain, and Southern Italy \u2014 precisely where obesity and metabolic disease are climbing \u2014 while countries with no historical connection to the diet are embracing it. It's a story about globalization, food systems, and what happens when a culture exports its healthiest habits while importing the worst of Western eating."
-        },
-        {
-          "publication_type": "Well+Good / Prevention",
-          "headline": "Why the world's 'healthiest diet' is disappearing in its home countries",
-          "hook": "The Mediterranean diet is gaining followers across the U.S. and Northern Europe \u2014 but people in Greece and Italy are eating less of it than ever.",
-          "pitch_angle": "A new review finds that the very countries credited with the Mediterranean diet's health benefits are now seeing declining adherence and surging metabolic disease \u2014 a cautionary tale about how economic pressures and food industry shifts can dismantle even the most time-tested eating patterns. For American readers, it reframes the diet not as an exotic ideal but as a fragile cultural practice worth protecting."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Nutritional Sciences",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42029729",
-      "headline": "A specific tumor vessel pattern predicts which liver cancer patients will fail immunotherapy \u2014 and who needs combination treatment instead",
-      "journal": "Journal of Gastroenterology",
-      "pubdate": "2026 Aug",
-      "doi": "10.1007/s00535-026-02421-5",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers retrospectively analyzed 111 patients with unresectable hepatocellular carcinoma (HCC) treated with immune checkpoint inhibitors alone (ICI-alone), tyrosine kinase inhibitors (TKIs), or ICI-based combinations (ICI-combo), pooling data from 19 prospective studies. Patients whose tumors displayed the VETC (vessels encapsulating tumor clusters) pattern and received ICI-alone had dramatically worse outcomes \u2014 a disease control rate of just 9.1%, median PFS of 1.63 months, and median OS of 3.47 months. VETC tumors showed an immunosuppressive microenvironment with reduced CD8+ T-cell and B-cell infiltration, explaining their resistance to immunotherapy alone.",
-      "why_it_matters": "Identifying which liver cancer patients are unlikely to respond to immunotherapy alone \u2014 before treatment begins \u2014 could spare them ineffective therapy and guide oncologists toward combination regimens that may actually work.",
-      "caveats": "small sample (N<100 per treatment arm), retrospective design, single-country (China), pooled data from multiple studies with varying protocols",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Liver cancer oncology \u2014 limited gut health, diet, or microbiome relevance for this audience.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health / science journalism",
-          "headline": "A Tumor's Blood Vessel Pattern May Predict Whether Liver Cancer Immunotherapy Will Work",
-          "hook": "A new study found that a specific structural pattern in liver tumors \u2014 called VETC \u2014 essentially predicts treatment failure for patients given immune checkpoint inhibitors alone, with median survival of less than four months.",
-          "pitch_angle": "By analyzing 111 patients across 19 studies, researchers found that VETC-positive tumors carry an immunosuppressive microenvironment that renders single-agent immunotherapy nearly ineffective, while combination regimens still produced meaningful responses. The finding suggests a pathology test done at biopsy could guide treatment decisions before therapy begins."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Gastroenterology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "41534761",
-      "headline": "A blood antibody to gut bacteria flags Crohn's disease risk years before symptoms appear",
-      "journal": "Clinical Gastroenterology and Hepatology",
-      "pubdate": "2026 Aug",
-      "doi": "10.1016/j.cgh.2025.12.006",
-      "groundbreaking": "Counterintuitive finding / Major dietary or microbiome implication",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Using the large Canadian CCC-GEM nested case-control cohort, researchers tested sera from 77 healthy first-degree relatives of Crohn's disease patients who later developed CD, matched 1:4 against 304 healthy first-degree relatives who did not, probing for antibody responses to a microbiota antigen microarray and flagellin peptide array. IgG antibodies reactive to flagellins from Roseburia and other Lachnospiraceae \u2014 commensal gut bacteria that produce beneficial short-chain fatty acids \u2014 were significantly associated with future Crohn's disease onset and correlated with early subclinical gut inflammation markers including fecal calprotectin and intestinal permeability. The reactive flagellins shared a conserved amino acid sequence (a 'hinge' region), suggesting immune targeting of a specific structural domain on commensal bacteria as a pre-diagnostic signal.",
-      "why_it_matters": "A blood-based antibody signature against common gut commensal bacteria could one day serve as an early warning biomarker for Crohn's disease in people with a family history, potentially enabling earlier intervention before irreversible gut damage occurs.",
-      "caveats": "observational design, secondary analysis, small case group (N=77 cases), microbiome data only (no clinical outcomes beyond CD onset)",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Human prospective cohort, IBD topic fit, early biomarker finding with real clinical relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / STAT News",
-          "headline": "Your Immune System May Be Attacking the Wrong Gut Bacteria \u2014 Years Before Crohn's Disease Strikes",
-          "hook": "A new study finds that people who later develop Crohn's disease carry elevated antibodies against beneficial gut bacteria \u2014 not pathogens \u2014 well before they have any symptoms.",
-          "pitch_angle": "Canadian researchers found that healthy people with a family history of Crohn's who later develop the disease show early IgG immune responses targeting flagellin proteins from Roseburia and other Lachnospiraceae \u2014 bacteria normally associated with gut health and short-chain fatty acid production. This counterintuitive immune misfiring against commensals, detectable years in advance, could eventually form the basis of a pre-diagnostic blood test for people at elevated genetic risk."
-        },
-        {
-          "publication_type": "Well+Good / Healthline",
-          "headline": "People Who Develop Crohn's May Have an Immune Red Flag in Their Blood Years Earlier",
-          "hook": "Scientists have found a specific blood antibody pattern in people destined to develop Crohn's disease \u2014 and it targets some of the same gut bacteria linked to digestive health.",
-          "pitch_angle": "A large Canadian study of families with Crohn's disease found that people who later develop the condition show elevated antibodies against common commensal gut bacteria long before diagnosis, suggesting their immune systems begin reacting abnormally to the microbiome years in advance. For the estimated 1 in 4 people with a first-degree relative with Crohn's, this research raises the possibility of one day identifying disease risk with a blood test."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Gastroenterology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "41284512",
-      "headline": "Cutting sugar in the first two years of life \u2014 not just later \u2014 is linked to dramatically lower adult liver disease risk",
-      "journal": "Clinical Gastroenterology and Hepatology",
-      "pubdate": "2026 Aug",
-      "doi": "10.1016/j.cgh.2025.10.015",
-      "groundbreaking": "Counterintuitive finding / Major dietary or microbiome implication",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Using UK Biobank data from 63,698 participants, researchers exploited the UK's WWII-era sugar rationing policy (1942\u20131953) as a natural experiment to compare adults who had sugar restricted in utero and early childhood against those born after rationing ended. Those exposed to rationing had a 30% lower risk of metabolic dysfunction-associated steatotic liver disease (MASLD), 35% lower risk of major adverse liver outcomes, and 32% lower risk of cirrhosis, with protective effects increasing with longer exposure duration. Mediation analysis found that over 60% of the protective association was explained by improved metabolic syndrome traits.",
-      "why_it_matters": "This large natural experiment suggests the first two years of life may be a critical window where limiting sugar shapes liver and metabolic health for decades \u2014 a finding with significant implications for infant feeding and early nutrition policy.",
-      "caveats": "observational design, single-country (UK) population, natural experiment (not RCT), historical exposure measurement relies on rationing policy dates rather than individual intake, self-reported or registry-based outcomes",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Large human cohort, strong dietary and liver health relevance, but observational and UK-specific policy context.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic",
-          "headline": "What a WWII Sugar Shortage Taught Us About Fatty Liver Disease",
-          "hook": "A wartime rationing policy that cut British children's sugar intake in the 1940s is now offering scientists a rare window into how early-life diet shapes adult liver health \u2014 decades later.",
-          "pitch_angle": "By comparing 63,000 UK Biobank participants born during and after sugar rationing, researchers found that restricting sugar in the first two years of life was associated with a 30% lower risk of fatty liver disease in adulthood. The finding reframes the debate around infant nutrition, suggesting the damage from excess sugar may be set earlier in life than most public health campaigns acknowledge."
-        },
-        {
-          "publication_type": "Prevention / Well+Good",
-          "headline": "The Case for Cutting Sugar Early: New Research Links Toddler-Era Sugar Restriction to a 30% Lower Liver Disease Risk",
-          "hook": "A sweeping new study found that limiting sugar before age two \u2014 not just in school years \u2014 was associated with dramatically lower odds of developing fatty liver disease as an adult.",
-          "pitch_angle": "Researchers used a natural experiment from WWII-era Britain, when sugar was rationed for children under two, and tracked health outcomes 60-plus years later in over 63,000 adults. The results suggest that the first 1,000 days of life may be a uniquely sensitive window for sugar's long-term effects on metabolic and liver health."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Gastroenterology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "41386563",
-      "headline": "Some people's swallowing trouble isn't about sensitivity \u2014 it may be weak throat muscles",
-      "journal": "Clinical Gastroenterology and Hepatology",
-      "pubdate": "2026 Aug",
-      "doi": "10.1016/j.cgh.2025.11.021",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers enrolled 25 patients with functional dysphagia (FD) and 25 healthy controls at Kyushu University in Japan, assessing esophageal function using high-resolution manometry with distension-contraction plots and a novel barium imaging method. The study identified a new subtype of FD \u2014 called FD with reduced esophageal distension (FD-rED) \u2014 characterized by impaired bolus transit and significantly lower striated muscle contractility in the upper esophagus, distinct from the conventional hypersensitivity-based model of FD. Thirteen of 14 FD-rED patients showed measurably impaired bolus transit, suggesting a motility disorder rather than a purely sensory one.",
-      "why_it_matters": "Recognizing that some functional dysphagia stems from weak striated muscle contraction rather than nerve hypersensitivity could eventually point toward targeted, mechanism-based treatments for people whose swallowing difficulties have gone unexplained.",
-      "caveats": "small sample (N<100), single-center, observational design, single non-US region (Japan)",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Niche esophageal motility finding; small single-center Japanese study limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Healthline / General health",
-          "headline": "Can't Swallow Comfortably? The Problem Might Be in Your Throat Muscles, Not Your Nerves",
-          "hook": "Doctors have long assumed functional dysphagia is a sensitivity problem \u2014 but a new study suggests a subset of patients actually have weak upper esophageal muscles that impair how food moves down.",
-          "pitch_angle": "Japanese researchers identified a new subtype of the swallowing disorder functional dysphagia, linked not to nerve hypersensitivity but to reduced contractility in the striated (voluntary) muscle of the upper esophagus. If confirmed in larger studies, this distinction could reshape how clinicians diagnose and treat patients who struggle to swallow without an obvious structural cause."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Gastroenterology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "41833604",
-      "headline": "A pig-borne superbug behind Southeast Asia's meningitis crisis is developing resistance to the only drugs that treat it",
-      "journal": "Clinical Microbiology and Infection",
-      "pubdate": "2026 Aug",
-      "doi": "10.1016/j.cmi.2026.03.012",
-      "groundbreaking": "First-in-class human study / Major dietary or microbiome implication",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers sequenced whole genomes of 141 Thai Streptococcus suis strains isolated over 15 years and combined them with 2,761 published genomes globally, using comparative genomics and Bayesian evolutionary modeling. They found two novel Thai lineages (CC104, CC233) of S. suis \u2014 a bacterium spread to humans through raw pork consumption \u2014 emerged recently and have acquired resistance to penicillin and ceftriaxone, the standard treatments for S. suis meningitis in humans. This is the first time zoonotic S. suis lineages have been found resistant to these first-line antibiotics, raising alarm about treatment failure in Southeast Asia.",
-      "why_it_matters": "Because S. suis spreads to humans primarily through eating raw or undercooked pork, the rise of treatment-resistant strains has direct food safety implications for the millions of people in Southeast Asia who consume traditional raw pork dishes.",
-      "caveats": "single-center, finding is tied to a single non-US/non-multinational region's diet, genetics, environment, or healthcare system in a way unlikely to resonate with or apply to a US/global audience",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Foodborne zoonosis angle has diet link, but narrowly Southeast Asia-specific; no gut microbiome data.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / General health",
-          "headline": "The Superbug in Raw Pork That's Running Out of Treatments",
-          "hook": "A pig bacterium that causes meningitis across Southeast Asia has quietly evolved resistance to the only antibiotics doctors rely on to treat it.",
-          "pitch_angle": "Streptococcus suis spreads to humans almost exclusively through raw pork consumption, making it a direct food-safety story. New genomic evidence shows two novel strains have acquired resistance to penicillin and ceftriaxone \u2014 for the first time in any zoonotic S. suis lineage \u2014 raising urgent questions about antibiotic stewardship in livestock and the global raw-meat food culture."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Microbiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "41685941",
-      "headline": "Traditional Chinese Medicine for Crohn's disease gets a modern makeover \u2014 but the evidence base is still thin",
-      "journal": "Critical Reviews in Microbiology",
-      "pubdate": "2026 Aug",
-      "doi": "10.1080/1040841X.2026.2623245",
-      "groundbreaking": "None \u2014 narrative review only",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "This narrative review examines how combining multi-omics data (genomics, transcriptomics, proteomics, metabolomics) with network pharmacology could help explain how Traditional Chinese Medicine (TCM) formulations may affect Crohn's disease (CD) biology, including gut microbiota composition, inflammatory cytokine pathways, and intestinal mucosal integrity. No new clinical trial data or original patient data are presented; this is a methodological and conceptual review. The authors propose TCM-multi-omics integration as a framework for future drug discovery, not a demonstration of clinical efficacy.",
-      "why_it_matters": "As interest in gut-microbiome-targeted therapies for Crohn's disease grows, frameworks that could systematically evaluate complex herbal medicines using modern molecular tools may eventually help identify which TCM components \u2014 if any \u2014 have genuine therapeutic value.",
-      "caveats": "observational design, single-center, finding is tied to a single non-US/non-multinational region's diet, genetics, environment, or healthcare system in a way unlikely to resonate with or apply to a US/global audience, no original clinical data, narrative review only",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Crohn's disease and microbiome are strong topic fits, but no original data and TCM framing limits US audience relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "Healthline / General health",
-          "headline": "Can Traditional Chinese Medicine Treat Crohn's Disease? Scientists Are Now Using AI-Era Tools to Find Out",
-          "hook": "Researchers are applying cutting-edge multi-omics and network pharmacology to map exactly how ancient herbal formulas might \u2014 or might not \u2014 affect the inflamed guts of Crohn's patients.",
-          "pitch_angle": "A new review proposes a systematic scientific framework for testing Traditional Chinese Medicine against Crohn's disease using genomics, metabolomics, and molecular pathway modeling. While no clinical proof exists yet, the approach could help separate genuinely active herbal compounds from the noise \u2014 a meaningful step for the millions living with Crohn's who seek alternatives to immunosuppressants."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Microbiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "41905557",
-      "headline": "Getting a COVID booster in the first trimester doesn't raise birth defect risk, large study finds",
-      "journal": "Clinical Microbiology and Infection",
-      "pubdate": "2026 Aug",
-      "doi": "10.1016/j.cmi.2026.03.027",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers used Singapore's national vaccination and healthcare claims registries to study 47,665 live births, comparing outcomes in mothers who received repeat mRNA COVID-19 vaccination during the first trimester versus those who did not. The study found no statistically significant increase in major structural birth defects following repeat first-trimester vaccination (adjusted prevalence ratio 0.97; 95% CI 0.74\u20131.27). Results held for both bivalent and ancestral vaccine formulations, though confidence intervals for the bivalent subgroup were wide due to smaller numbers.",
-      "why_it_matters": "This large population-based study suggests that getting an updated COVID-19 booster early in pregnancy does not appear to increase the risk of major birth defects \u2014 potentially easing a key driver of vaccine hesitancy among pregnant people.",
-      "caveats": "observational design, single-center, study population limited to Singapore (findings may not generalize fully to other populations or healthcare systems), wide confidence intervals for bivalent subgroup",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Vaccine safety topic; not gut/microbiome/digestive health \u2014 outside core beat.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health / Healthline / Prevention",
-          "headline": "Study of Nearly 50,000 Births Finds No Increased Birth Defect Risk From COVID Boosters in Early Pregnancy",
-          "hook": "One of the largest studies to date on repeat COVID vaccination in the first trimester found no significant rise in major birth defects \u2014 addressing a top concern driving vaccine hesitancy in pregnant people.",
-          "pitch_angle": "Researchers tracked nearly 48,000 births in Singapore and found that mothers who received mRNA COVID boosters in their first trimester were no more likely to have babies with structural birth defects than unvaccinated mothers. The finding directly addresses a fear that has kept many pregnant people from staying up to date on COVID vaccines during endemicity."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Microbiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42275987",
-      "headline": "Kids with short bowel syndrome who respond to teduglutide grow better \u2014 but coming off IV nutrition is a vulnerable window",
-      "journal": "Clinical Nutrition",
-      "pubdate": "2026 Aug",
-      "doi": "10.1016/j.clnu.2026.106702",
-      "groundbreaking": "First-in-class human study / Major dietary or microbiome implication",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers analyzed growth data from 104 children with short bowel syndrome\u2013associated intestinal failure treated with teduglutide (a GLP-2 analogue) across a large European multicenter cohort over 12 months. Children who responded to treatment \u2014 defined as a >20% reduction in parenteral nutrition (PN) volume \u2014 had significantly better weight and BMI z-scores at baseline and maintained those advantages throughout follow-up compared to non-responders. However, children who successfully weaned off PN entirely showed a period of growth vulnerability around nine months, with weight and height gains that were not statistically different from non-weaned peers by 12 months.",
-      "why_it_matters": "The finding suggests that successfully stopping IV nutrition in children with short bowel syndrome may come with a hidden growth risk, pointing to the need for careful nutritional monitoring during and after the weaning process.",
-      "caveats": "observational design, single-center, short follow-up, small sample (N=104 total; only N=21 achieved full PN weaning), industry funding [Takeda \u2014 authors disclosed consultant honoraria]",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Rare pediatric GI condition; journalist recently passed on similar teduglutide/short bowel study.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health / Healthline",
-          "headline": "Stopping IV Nutrition in Kids With Rare Gut Disease May Slow Their Growth, Study Finds",
-          "hook": "A new European study found that when children with short bowel syndrome finally wean off parenteral nutrition, their growth can stall \u2014 even when the drug helping them get there is working.",
-          "pitch_angle": "Teduglutide, a GLP-2 analogue, helps children with short bowel syndrome reduce dependence on IV nutrition \u2014 but the transition off IV feeding appears to be a critical, under-monitored window for growth. The finding highlights how even successful treatment in pediatric intestinal failure requires ongoing nutritional vigilance."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Nutritional Sciences",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "41921744",
-      "headline": "A diet high in refined grains, sugar, and dairy is linked to greater weight loss \u2014 the dangerous kind \u2014 in colorectal cancer patients",
-      "journal": "Journal of the Academy of Nutrition and Dietetics",
-      "pubdate": "2026 Aug",
-      "doi": "10.1016/j.jand.2026.156351",
-      "groundbreaking": "Counterintuitive finding / Major dietary or microbiome implication",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers used principal component analysis to identify four dietary patterns among 405 newly diagnosed colorectal cancer patients enrolled in the multi-site US ColoCare Study, then assessed associations with unintentional weight loss of \u22655% in the first 6 months post-diagnosis. High adherence to a Refined Grain, Sugar, and Dairy pattern was associated with significantly greater odds of clinically meaningful weight loss, while other patterns \u2014 including Western and Prudent \u2014 were not significantly associated. The cross-sectional design captures diet and weight at a single time window, limiting causal inference.",
-      "why_it_matters": "For colorectal cancer patients, eating more refined grains, sugar, and dairy shortly after diagnosis may be associated with the kind of unintentional weight loss that worsens treatment outcomes \u2014 a counterintuitive finding that challenges assumptions about 'comfort eating' during cancer recovery.",
-      "caveats": "observational design, cross-sectional design, self-reported dietary intake, secondary analysis, industry funding [Ocean Spray Cranberries Inc \u2014 one co-author affiliated]",
-      "fact_check_note": "Abstract was truncated before full results were reported; the association for the Refined Grain, Sugar, and Dairy pattern is confirmed but results for other patterns (Western, Prudent, High-Fat High-Protein) could not be fully verified from the available text.",
-      "relevance_score": 6,
-      "relevance_score_reason": "Human cohort, colorectal cancer focus, counterintuitive dietary finding; observational and cross-sectional limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Healthline / Prevention",
-          "headline": "Eating refined grains, sugar, and dairy after a colorectal cancer diagnosis is linked to dangerous weight loss",
-          "hook": "A study of 400+ colorectal cancer patients found that those who leaned on refined grains, sugar, and dairy after diagnosis were more likely to lose a clinically significant amount of weight \u2014 not a good thing during cancer treatment.",
-          "pitch_angle": "Unintentional weight loss after a cancer diagnosis raises the risk of worse outcomes, and this new data suggests that a comfort-food-style diet pattern may be associated with exactly that kind of dangerous weight loss in colorectal cancer patients, adding nuance to what oncology dietitians should recommend right after diagnosis."
-        },
-        {
-          "publication_type": "The Atlantic / General health",
-          "headline": "The foods cancer patients reach for when they feel sick may be making things worse",
-          "hook": "When colorectal cancer patients defaulted to refined grains, sugar, and dairy in the months after diagnosis, they were more likely to lose weight in a way that could harm their recovery.",
-          "pitch_angle": "This study challenges the implicit permission patients often get to 'eat whatever you can tolerate' after a cancer diagnosis, suggesting that the dietary patterns formed in those first six months may have real consequences for body weight and potentially for survival."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Nutritional Sciences",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42547103",
-      "headline": "AI models that predict your blood sugar response to food still can't consistently beat standard dietary guidelines in clinical trials",
-      "journal": "The American Journal of Clinical Nutrition",
-      "pubdate": "2026 Aug",
-      "doi": "10.1016/j.ajcnut.2026.101322",
-      "groundbreaking": "Counterintuitive finding / Overturns prior research",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers conducted a narrative review of 26 studies identified from 13,471 records that developed or validated machine learning models predicting postprandial glycemic responses to food, drawing on databases including PubMed, Embase, and IEEE Xplore through November 2025. Most models were tree-based and incorporated personal features such as anthropometrics, biomarkers, and gut microbiota alongside food features. Critically, the review found that clinical trials testing ML-based personalized dietary recommendations failed to produce favorable or clinically significant glycemic improvements compared with standard dietary guidelines.",
-      "why_it_matters": "Despite enormous investment in personalized nutrition technology, the current generation of AI-powered blood sugar prediction tools has not yet shown it can outperform conventional dietary advice in real-world clinical settings.",
-      "caveats": "review article (no primary data), narrative review (not systematic meta-analysis), mostly tree-based ML models with limited generalizability",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Counterintuitive finding on precision nutrition hype; strong topic fit but review-only limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired / The Atlantic",
-          "headline": "All those AI apps promising to personalize your diet by predicting blood sugar spikes? The science says they're not beating basic nutrition advice yet",
-          "hook": "A sweeping new review of 26 machine learning studies found that AI-powered personalized nutrition tools haven't actually outperformed standard dietary guidelines in clinical trials \u2014 despite years of hype.",
-          "pitch_angle": "The precision nutrition industry has promised that algorithms trained on your gut microbiome, continuous glucose monitor data, and biomarkers can tell you exactly what to eat \u2014 but this review finds the clinical evidence doesn't yet support that promise, raising questions about a multibillion-dollar category of consumer health technology."
-        },
-        {
-          "publication_type": "Healthline / Prevention",
-          "headline": "Can an app really predict how your body responds to food? A new review says the science isn't there yet",
-          "hook": "Researchers reviewed more than two dozen AI models built to predict blood sugar spikes after eating and found that none consistently did better than following standard nutrition guidelines.",
-          "pitch_angle": "For consumers curious about personalized nutrition apps that use continuous glucose monitors or microbiome data, this review is a useful reality check \u2014 the technology is advancing rapidly, but hasn't yet proven its clinical value over simply eating a balanced diet."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Nutritional Sciences",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42246211",
-      "headline": "A pacifier-mounted endoscope lets doctors examine infants' upper GI tracts without anesthesia",
-      "journal": "Journal of Pediatric Gastroenterology and Nutrition",
-      "pubdate": "2026 Aug",
-      "doi": "10.1002/jpn3.70463",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers at Children's Hospital of Philadelphia developed and tested a novel modified pacifier device that allows transoral endoscopy in early infants without general anesthesia. No further details on sample size, study design, or quantitative outcomes are available from the abstract provided (abstract body was not included in the PMID record). The study appears to be a feasibility or case series report.",
-      "why_it_matters": "Eliminating the need for anesthesia during upper GI endoscopy in infants could significantly reduce procedural risk in one of the most vulnerable patient populations in pediatric gastroenterology.",
-      "caveats": "abstract unavailable (no N, no outcomes data reported in record), single-center, likely small sample, feasibility study",
-      "fact_check_note": "The PubMed record provided contains no abstract text beyond author affiliations and the DOI. Summary reflects only what can be verified from the title and available metadata.",
-      "relevance_score": 4,
-      "relevance_score_reason": "Niche pediatric procedural innovation; limited diet, microbiome, or adult gut health relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health / parenting publications",
-          "headline": "A Pacifier That Doubles as an Endoscope Could Spare Babies From Anesthesia During GI Exams",
-          "hook": "Doctors at Children's Hospital of Philadelphia have developed a modified pacifier that allows them to examine a baby's esophagus and stomach without putting the infant under general anesthesia.",
-          "pitch_angle": "The device \u2014 designed for use in early infancy \u2014 could make upper GI endoscopy safer and more accessible for newborns and young infants who currently require anesthesia for the procedure. If validated at scale, it represents a meaningful step forward for diagnosing conditions like esophageal atresia, reflux, or feeding disorders in the earliest weeks of life."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Gastroenterology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42045618",
       "headline": "The drug-resistant superbug Candida auris can evolve resistance even faster than we thought \u2014 while on antifungal treatment",
       "journal": "European Journal of Clinical Microbiology & Infectious Diseases",
@@ -582,66 +678,6 @@
       ],
       "run_date": "2026-08-07",
       "category": "Microbiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42248250",
-      "headline": "Microbiome-diet research may be less reliable than scientists assumed \u2014 a new review explains why studies keep failing to replicate",
-      "journal": "The Journal of Nutrition",
-      "pubdate": "2026 Aug",
-      "doi": "10.1016/j.tjnut.2026.101646",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "RIKEN researchers conducted a narrative review examining why studies linking host genetics, diet, and the gut microbiome so often fail to replicate across research groups. They identified key sources of variability across the entire research pipeline \u2014 including cohort design, dietary assessment methods, DNA extraction protocols, sequencing approaches, and statistical analysis \u2014 that can meaningfully alter microbiome taxonomic assignments and apparent diet-microbiome associations. The authors call for standardized protocols, consensus reporting, and diverse longitudinal cohorts to make precision nutrition and microbiome-based public health strategies viable.",
-      "why_it_matters": "Many popular claims about how specific foods reshape your gut microbiome may rest on studies that can't be reproduced \u2014 a fundamental credibility problem for the entire field of microbiome-diet research.",
-      "caveats": "observational design",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive meta-level finding with direct relevance to microbiome-diet field credibility.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired / The Atlantic",
-          "headline": "The microbiome-diet research boom has a reproducibility crisis \u2014 and scientists are finally saying so",
-          "hook": "A new review from one of the world's leading microbiome labs finds that the methods used to study how diet shapes your gut bacteria are so inconsistent that many published findings simply can't be trusted.",
-          "pitch_angle": "Researchers at RIKEN in Japan catalogued the ways that lab choices \u2014 from how stool samples are stored to which DNA sequencing method is used \u2014 can produce wildly different pictures of the same person's microbiome, making it nearly impossible to replicate results across studies. The review is a rare inside critique of a field that has generated enormous media attention and commercial products, and raises hard questions about how much of the microbiome-diet advice reaching consumers is built on solid science."
-        },
-        {
-          "publication_type": "Well+Good / Healthline",
-          "headline": "That study saying [food X] transforms your gut microbiome? It might not hold up",
-          "hook": "A new scientific review finds that microbiome-diet studies are plagued by inconsistencies that make their results nearly impossible to reproduce \u2014 casting doubt on many popular gut health claims.",
-          "pitch_angle": "From how a stool sample is handled in the lab to which statistical method researchers use, dozens of technical choices can change what a microbiome study 'finds' \u2014 meaning two teams studying the same diet can reach opposite conclusions. For readers bombarded with gut health advice, this is a useful reality check: the science is real, but far more unsettled than headlines suggest."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Nutritional Sciences",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42251897",
-      "headline": "A special membrane in dairy fat doesn't lower your triglycerides after a high-fat meal, small RCT finds",
-      "journal": "The Journal of Nutrition",
-      "pubdate": "2026 Aug",
-      "doi": "10.1016/j.tjnut.2026.101647",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "In a randomized, double-blind crossover trial (N=12 healthy adults), researchers tested whether milk fat globule membrane (MFGM) \u2014 a complex phospholipid-rich membrane surrounding milk fat droplets \u2014 affects postprandial triglyceride levels after two high-fat sandwich meals containing 40g of milk fat each. Participants consumed three isocaloric spreads (intact MFGM, disrupted MFGM, or no MFGM) on separate visits in whole-room calorimeters. Postprandial triglyceride response did not differ significantly between conditions (P=0.9), though MFGM was associated with higher glucose-dependent insulinotropic polypeptide (GIP) and free fatty acid levels.",
-      "why_it_matters": "MFGM has been proposed as a reason why some dairy products seem metabolically neutral despite high saturated fat content, but this trial suggests the membrane alone may not explain the effect \u2014 at least acutely in healthy people.",
-      "caveats": "small sample (N<100), short follow-up, industry funding [Arla Foods]",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Clean RCT design, but very small N=12 and industry-funded; limited gut health angle.",
-      "pitch_angles": [
-        {
-          "publication_type": "Healthline / Prevention",
-          "headline": "The special coating on dairy fat was supposed to make it heart-healthier \u2014 a new trial isn't convinced",
-          "hook": "A small but rigorous trial finds that milk fat globule membrane \u2014 the phospholipid shell that some researchers thought explained dairy's surprisingly neutral effect on heart disease risk \u2014 doesn't actually lower blood fat levels after a high-fat meal.",
-          "pitch_angle": "Researchers designed three carefully matched high-fat spreads differing only in their MFGM content and fed them to healthy volunteers in metabolic chambers, finding no difference in triglyceride response. The study is small and industry-funded, but it's a useful reality check on a popular mechanistic theory \u2014 and suggests the dairy matrix story is more complicated than any single component."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Nutritional Sciences",
       "chunk": "1/2",
       "status": "new"
     },
@@ -696,60 +732,6 @@
       ],
       "run_date": "2026-08-06",
       "category": "Gastroenterology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42486599",
-      "headline": "The boundaries between autoimmune liver diseases are blurrier than doctors once thought",
-      "journal": "Clinics in Liver Disease",
-      "pubdate": "2026 Aug",
-      "doi": "10.1016/j.cld.2026.04.008",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers from Tel Aviv Sourasky Medical Center authored a narrative review examining 'overlap' or 'variant' syndromes in autoimmune liver disease \u2014 conditions where autoimmune hepatitis, primary biliary cholangitis, and primary sclerosing cholangitis co-occur or share features. The review argues these conditions exist on a continuous spectrum rather than as discrete diseases, reflecting shared immune pathways. No new patient data are presented; the authors propose a pragmatic clinical framework for managing these complex, poorly defined cases.",
-      "why_it_matters": "Recognizing that autoimmune liver diseases can overlap rather than present as textbook-distinct conditions may help clinicians avoid misdiagnosis and tailor treatment for patients with atypical presentations.",
-      "caveats": "observational design, no primary data \u2014 narrative review only",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Clinically relevant review but no new data; limited general audience hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health",
-          "headline": "Three Autoimmune Liver Diseases May Actually Be One Spectrum \u2014 and That Changes How Doctors Treat Them",
-          "hook": "Autoimmune hepatitis, primary biliary cholangitis, and primary sclerosing cholangitis were long treated as separate diseases \u2014 but a new review argues they're more like points on a continuum.",
-          "pitch_angle": "This narrative review from Israeli gastroenterologists reframes how we classify rare autoimmune liver diseases, suggesting shared immune mechanisms underlie what were once considered distinct diagnoses \u2014 with real implications for how these patients are diagnosed and managed."
-        }
-      ],
-      "run_date": "2026-08-06",
-      "category": "Gastroenterology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42082786",
-      "headline": "Dog-bite bacteria carry hidden antibiotic resistance genes that doctors may not be testing for",
-      "journal": "European Journal of Clinical Microbiology & Infectious Diseases",
-      "pubdate": "2026 Aug",
-      "doi": "10.1007/s10096-026-05526-0",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers screened a multinational collection of Capnocytophaga canimorsus isolates \u2014 a zoonotic bacterium transmitted by dog and cat bites that can cause life-threatening infections \u2014 and identified OXA-type beta-lactamase resistance genes in clinical human isolates from Sweden and New Zealand, including a previously unknown variant designated OXA-1422. Using hybrid genome sequencing, structural modeling, and lab expression experiments (N=3 isolates in depth, drawn from a larger consortium collection), they confirmed these genes raise minimum inhibitory concentrations for multiple beta-lactam antibiotics. The resistance genes were chromosomally encoded with no obvious mobile elements, suggesting they are intrinsic to the bacterium rather than recently acquired.",
-      "why_it_matters": "Because C. canimorsus infections are typically treated with beta-lactam antibiotics, undetected resistance in clinical isolates could mean some patients receive ineffective treatment after a dog or cat bite.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Clinically relevant zoonosis finding but no gut/digestive health angle.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health / Prevention",
-          "headline": "Your dog's mouth may harbor antibiotic-resistant bacteria \u2014 and standard bite treatment might not work",
-          "hook": "A multinational study found that Capnocytophaga canimorsus \u2014 a bacteria commonly found in dogs and cats that can cause fatal infections in humans \u2014 sometimes carries genes that make it resistant to the antibiotics doctors typically prescribe.",
-          "pitch_angle": "Researchers discovered novel beta-lactamase resistance genes in clinical human isolates of this dog-bite pathogen, including one never described before, suggesting current antibiotic protocols may occasionally fail. While still early and based on only a handful of isolates, the finding calls for routine resistance testing in serious C. canimorsus infections."
-        }
-      ],
-      "run_date": "2026-08-06",
-      "category": "Microbiology",
       "chunk": "1/2",
       "status": "new"
     },
