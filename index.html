@@ -533,6 +533,7 @@
     <select id="sort-by" onchange="applyFilters()">
       <option value="score" selected>Sort: relevance score</option>
       <option value="date">Sort: newest first</option>
+      <option value="date-asc">Sort: oldest first</option>
       <option value="source">Sort: digest</option>
     </select>
     <button type="button" onclick="clearFilters()">Clear</button>
@@ -1026,6 +1027,8 @@ function applyFilters() {
     filtered.sort((a, b) => Number(b.relevance_score || 0) - Number(a.relevance_score || 0));
   } else if (sortBy === "date") {
     filtered.sort((a, b) => String(b.run_date || b.pubdate || "").localeCompare(String(a.run_date || a.pubdate || "")));
+  } else if (sortBy === "date-asc") {
+    filtered.sort((a, b) => String(a.run_date || a.pubdate || "").localeCompare(String(b.run_date || b.pubdate || "")));
   } else {
     filtered.sort((a, b) => String(a.source_label || "").localeCompare(String(b.source_label || "")));
   }
