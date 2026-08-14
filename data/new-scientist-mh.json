@@ -1,34 +1,875 @@
 {
-  "last_updated": "2026-08-13T12:46:04.471992+00:00",
-  "total_studies": 746,
-  "new_this_run": 11,
+  "last_updated": "2026-08-14T12:42:09.647858+00:00",
+  "total_studies": 769,
+  "new_this_run": 23,
   "studies": [
     {
+      "pmid": "42571826",
+      "headline": "A overlooked brain relay station may be the missing link explaining how psychosis unfolds in stages",
+      "journal": "Neuroscience and Biobehavioral Reviews",
+      "pubdate": "2026 Aug 9",
+      "doi": "10.1016/j.neubiorev.2026.106897",
+      "groundbreaking": "Counterintuitive finding / Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This narrative review synthesizes evidence from postmortem studies, genetics, sleep physiology, neuroimaging, and preclinical models to argue that the thalamic reticular nucleus (TRN) \u2014 a largely overlooked brain circuit \u2014 may act as a stage-dependent hub linking cellular abnormalities, disrupted sleep spindles, and clinical symptoms across the psychosis spectrum. Rather than treating psychosis as arising from a single focal brain region, the author proposes that early TRN dysfunction underlies subtle sensory and cognitive problems in high-risk individuals, escalating to hallucinations and delusions in first-episode psychosis, and contributing to chronic cognitive symptoms over time. The review is the work of a single author and synthesizes indirect evidence; causal relationships in humans have not yet been directly tested.",
+      "why_it_matters": "If the TRN framework holds up, it could reframe how researchers design biomarkers and treatments for psychosis by targeting a single circuit that may bridge sleep disturbances, sensory filtering, and dopamine dysregulation. This suggests that disrupted sleep spindles \u2014 already measurable in clinical settings \u2014 could serve as an early warning signal worth investigating.",
+      "caveats": "observational design, single author review, evidence largely indirect, causal relationships in humans unconfirmed",
+      "fact_check_note": "Abstract explicitly states 'current evidence remains largely indirect and causal relationships in humans require further testing' \u2014 this is reflected accurately in the summary. No sample size applies as this is a review article.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Neurology",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 6,
+      "relevance_score_reason": "Strong conceptual hook linking sleep spindles to psychosis staging is counterintuitive and relevant to NS Mind's cognition and mental health treatment interests, but the single-author narrative review design and entirely indirect evidence base limit its score.",
+      "pitch_angles": [
+        {
+          "headline": "Sleep disruptions may be the earliest sign that psychosis is developing \u2014 here's why",
+          "hook": "A brain structure barely mentioned in psychiatry textbooks may quietly link broken sleep to the step-by-step emergence of psychosis.",
+          "why_it_fits": "NS Mind readers curious about sleep, mental health, and the brain's hidden architecture will find the idea that a tiny relay station could predict \u2014 and possibly one day be treated \u2014 across the full arc of psychosis genuinely surprising.",
+          "pitch_angle": "A new review proposes that the thalamic reticular nucleus, a filtering hub long overshadowed by flashier brain regions, could explain why psychosis doesn't arrive all at once but builds in stages \u2014 from subtle sensory weirdness to full hallucinations. The surprising link is sleep: the TRN governs sleep spindles, which are measurably disrupted before psychosis fully emerges, potentially offering a measurable early-warning signal. The societal hook is real: if sleep-spindle monitoring could flag who is at high risk, it might change how clinicians intervene before a first episode.",
+          "caveats_to_flag": "This is a single-author narrative review drawing on indirect, mixed evidence; no causal human studies yet exist; the framework is theoretical and requires prospective testing before any clinical application."
+        }
+      ]
+    },
+    {
+      "pmid": "42571855",
+      "headline": "A single blood protein predicts dementia, depression, Parkinson's and stroke \u2014 but probably doesn't cause them",
+      "journal": "Progress in Neuro-Psychopharmacology & Biological Psychiatry",
+      "pubdate": "2026 Aug 9",
+      "doi": "10.1016/j.pnpbp.2026.111886",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using UK Biobank data from a large prospective cohort followed for a median of 14 years, Chinese researchers examined whether baseline plasma levels of GDF15 \u2014 a stress-responsive protein \u2014 were associated with developing eight brain disorders. Higher GDF15 levels were associated with significantly elevated risk of all conditions examined, including dementia (HR 1.98), Alzheimer's disease (HR 1.84), stroke (HR 1.92), anxiety, depression, sleep disorders, Parkinson's disease, and epilepsy. However, Mendelian randomisation analyses did not support a direct causal role for GDF15, suggesting it may be a marker of shared underlying biology rather than a driver of disease.",
+      "why_it_matters": "A single blood test that predicts risk across such a wide range of brain conditions \u2014 from mood disorders to neurodegeneration \u2014 could one day contribute to earlier screening, even if the protein itself is not directly causing harm.",
+      "caveats": "observational design, single blood measurement at baseline",
+      "fact_check_note": "UK Biobank is a large multinational-standard cohort; sample size not specified in abstract but UK Biobank typically involves hundreds of thousands of participants. Mendelian randomisation finding (no direct causal effect) is a key nuance \u2014 correctly represented. No industry funding declared.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Psychiatry",
+      "chunk": "2/2",
+      "status": "new",
+      "relevance_score": 8,
+      "relevance_score_reason": "Large prospective cohort with a striking counterintuitive twist \u2014 the protein predicts everything but appears to cause nothing \u2014 and broad relevance across mental health and neurological conditions; the observational caveat and single baseline measure prevent a higher score.",
+      "pitch_angles": [
+        {
+          "headline": "One blood protein predicts eight different brain disorders \u2014 but scientists say it's probably not to blame for any of them",
+          "hook": "A single molecule in your blood is associated with dramatically higher risks of dementia, depression, stroke, Parkinson's, anxiety, and more \u2014 yet the genetic evidence suggests it isn't actually causing any of them.",
+          "why_it_fits": "NS Mind readers are primed to be sceptical of 'predicts everything' biomarker stories, and the Mendelian randomisation twist \u2014 which undercuts the obvious headline \u2014 is exactly the kind of nuanced, counterintuitive finding that distinguishes NS Mind from the press-release science coverage elsewhere.",
+          "pitch_angle": "Researchers tracking hundreds of thousands of UK Biobank participants for 14 years found that people with high levels of the protein GDF15 in their blood were nearly twice as likely to develop dementia and 92% more likely to have a stroke \u2014 and also significantly more likely to develop anxiety, depression, sleep disorders, epilepsy, and Parkinson's. That would sound like the discovery of a universal brain-disease predictor, except that when the team used genetic analysis to test causality, GDF15 didn't appear to be driving any of these conditions. It may instead be a readout of chronic inflammation and metabolic stress \u2014 a smoke alarm, not the fire.",
+          "caveats_to_flag": "Observational design; GDF15 was only measured once at baseline so changes over time are unknown; Mendelian randomisation has its own assumptions and limitations; study population is UK Biobank, which skews older, healthier, and whiter than the general population."
+        }
+      ]
+    },
+    {
       "pmid": "42569801",
-      "headline": "Machismo isn't why Hispanic men avoid vasectomies \u2014 structural barriers and historical trauma are",
+      "headline": "Machismo alone does not explain why Hispanic men get far fewer vasectomies \u2014 the real barriers are systemic",
       "journal": "Culture, Health & Sexuality",
       "pubdate": "2026 Aug 8",
       "doi": "10.1080/13691058.2026.2713049",
       "groundbreaking": "Counterintuitive finding / Overturns prior research",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at the University of Texas and Texas A&M analysed the persistent gap in vasectomy uptake between Hispanic and non-Hispanic White men in the USA using a sociological framework that positions vasectomy as a site of cultural and political contestation. The study found that traditional machismo-based explanations are insufficient; instead, low awareness, myths about sexual dysfunction, Spanish-language counselling barriers, lack of insurance coverage for male contraception, provider bias, and deep-seated medical mistrust rooted in historical forced sterilisation of Latina women better explain the disparity. The authors also note a post-Dobbs increase in vasectomy requests, suggesting Hispanic men will pursue permanent contraception when reproductive circumstances shift.",
-      "why_it_matters": "The findings suggest that reproductive health policy designed around cultural gender stereotypes may be missing the real structural and historical drivers of inequality, with implications for how clinicians and policymakers approach contraceptive counselling for Hispanic communities.",
-      "caveats": "observational design, qualitative/review framing (no primary quantitative data reported in abstract)",
-      "fact_check_note": "The abstract does not report a specific sample size (N); this appears to be a conceptual/analytical article rather than an empirical study with a defined participant pool. Caveats updated accordingly.",
+      "summary": "Researchers conducted a conceptual and empirical analysis of the persistent gap in vasectomy uptake between Hispanic and non-Hispanic White men in the United States, drawing on existing data and qualitative framing. They found that the disparity is not primarily driven by machismo or cultural attitudes toward masculinity, as commonly assumed, but instead by structural factors including low awareness, myths about sexual dysfunction, lack of Spanish-language counselling, insurance gaps, provider bias, and deep-rooted medical mistrust linked to historical coercive sterilisation of Latina women. The authors also note an uptick in vasectomy requests among men of all backgrounds following the Supreme Court's Dobbs ruling.",
+      "why_it_matters": "Attributing reproductive health disparities to cultural attitudes alone may obscure the systemic barriers that actually drive them, suggesting that policy solutions need to target healthcare access, language, and historical trauma rather than simply changing attitudes.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "The abstract does not report a primary sample size for the study's own data collection \u2014 this appears to be a conceptual/review-style article drawing on existing data rather than a new empirical dataset. The summary has been written to reflect this accurately, avoiding any implied N figure.",
       "excluded": false,
-      "run_date": "2026-08-13",
+      "run_date": "2026-08-14",
       "category": "Social Sciences",
       "chunk": "1/1",
       "status": "new",
       "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive overturning of the machismo narrative is punchy and societal hook around post-Dobbs contraception trends is timely, but absence of primary empirical data limits the score.",
+      "relevance_score_reason": "Directly overturns a widely held cultural explanation (machismo) in favour of structural factors, with a timely Dobbs hook and clear relevance to reproductive health equity, though docked for lack of a primary empirical dataset.",
       "pitch_angles": [
         {
-          "headline": "It's not machismo stopping Hispanic men getting vasectomies \u2014 the real reason is far more disturbing",
-          "hook": "A new analysis argues that blaming cultural attitudes about masculinity for low vasectomy rates among Hispanic men in the US obscures a darker truth: structural barriers and the living memory of forced sterilisation of Latina women.",
-          "why_it_fits": "NS Mind readers interested in social psychology, reproductive health, and how historical trauma shapes present-day behaviour will find this reframing of a widely assumed cultural narrative genuinely surprising.",
-          "pitch_angle": "Hispanic men in the US have vasectomies at far lower rates than non-Hispanic White men, and the easy explanation has long been machismo. But researchers say that framing is wrong \u2014 and potentially harmful. The real drivers include a lack of Spanish-language counselling, myths that vasectomy causes sexual dysfunction, and profound medical mistrust stemming from decades of coerced sterilisation of Latina women by the US healthcare system. Strikingly, vasectomy requests among Hispanic men rose after the Dobbs ruling, suggesting the barrier is structural, not attitudinal.",
-          "caveats_to_flag": "This is a conceptual/analytical article rather than a primary empirical study; no new quantitative data are presented. The argument draws on existing literature and qualitative reasoning, so causal claims cannot be made."
+          "headline": "It is not machismo stopping Hispanic men from getting vasectomies \u2014 it is the healthcare system",
+          "hook": "The persistent gap in vasectomy rates between Hispanic and non-Hispanic White men in the US has long been blamed on cultural attitudes toward masculinity, but new analysis suggests the real culprits are structural: insurance gaps, language barriers, provider bias, and the long shadow of coercive sterilisation.",
+          "why_it_fits": "NS Mind readers care about how cultural stereotypes distort our understanding of health behaviour \u2014 and this study offers a sharp corrective to a widely repeated assumption.",
+          "pitch_angle": "Hispanic men in the US undergo vasectomies at markedly lower rates than White men, even though the procedure is safer, cheaper, and more effective than female sterilisation. The standard explanation \u2014 machismo \u2014 turns out to be largely a myth. A new analysis points instead to low awareness, sexual dysfunction myths, a lack of Spanish-language counselling, and a well-founded medical mistrust rooted in documented histories of Latina women being forcibly sterilised. The Dobbs ruling has since prompted more men to seek permanent contraception, showing that access and circumstances matter more than culture.",
+          "caveats_to_flag": "This is a conceptual and secondary analysis rather than a primary empirical study with its own dataset; causal claims cannot be made; findings are specific to the US Hispanic population and its particular historical and policy context."
+        }
+      ]
+    },
+    {
+      "pmid": "42570996",
+      "headline": "How you score a viewing-time test dramatically changes how many people it flags as having sexual interest in children",
+      "journal": "Archives of Sexual Behavior",
+      "pubdate": "2026 Aug 8",
+      "doi": "10.1007/s10508-026-03490-6",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a secondary analysis of a large German male community sample (N=8,554) to compare different mathematical scoring methods for viewing-time tasks \u2014 indirect behavioural tests used to assess sexual interest in children. They found that while the basic validity of the measure was robust across scoring approaches, reliability and the proportion of men classified as having elevated sexual interest in children varied substantially depending on which algorithm was used. The best-performing method excluded the longest viewing time in each stimulus category before calculating group differences.",
+      "why_it_matters": "Viewing-time tasks are used in forensic and clinical settings, and this finding suggests that the choice of scoring method alone can meaningfully alter how many people are flagged \u2014 raising important questions about consistency and fairness in assessment.",
+      "caveats": "secondary analysis, male-only sample, single country (Germany)",
+      "fact_check_note": "N=8,554 confirmed from abstract. Secondary analysis flag added as the paper explicitly describes itself as a secondary analysis of an existing dataset.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Behavioral Sciences",
+      "chunk": "1/2",
+      "status": "new",
+      "relevance_score": 7,
+      "relevance_score_reason": "Large human sample, counterintuitive methodological finding with serious real-world forensic implications, clean secondary analysis of a big dataset; loses a point for being male-only and single-country, and the technical nature may need skilled translation for general readers.",
+      "pitch_angles": [
+        {
+          "headline": "A simple scoring tweak changes how many men a paedophilia test flags \u2014 by a lot",
+          "hook": "The same behavioural test, scored two different ways, can produce dramatically different estimates of how many people show elevated sexual interest in children.",
+          "why_it_fits": "NS Mind readers care about the reliability of psychological measurement, and the forensic and civil-liberties stakes here make this immediately gripping.",
+          "pitch_angle": "Viewing-time tasks \u2014 where how long someone lingers on an image reveals unconscious sexual interest \u2014 are used in courts and clinics. But a study of over 8,500 German men found that swapping the scoring algorithm changes classification rates substantially, even though the test's basic validity stays roughly stable. The implication is unsettling: whether someone is flagged as having elevated sexual interest in children may depend less on their psychology than on a researcher's or clinician's methodological choice.",
+          "caveats_to_flag": "Secondary analysis of existing data; sample is male-only and German, so findings may not generalise to other populations; the study addresses measurement, not prevalence of actual offending behaviour."
+        }
+      ]
+    },
+    {
+      "pmid": "42570335",
+      "headline": "Clinical trials are measuring patient improvement in at least seven different incompatible ways",
+      "journal": "Journal of Clinical Psychology",
+      "pubdate": "2026 Aug 8",
+      "doi": "10.1002/jclp.70203",
+      "groundbreaking": "Counterintuitive finding / Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a methodological scoping review of four clinical psychology journals (2020\u20132023), examining how 226 clinical trials measured whether individual patients improved. Only 29 trials (13%) formally assessed reliable change, and among those, researchers identified at least seven distinct ways of operationalising the same core statistical tool \u2014 the Reliable Change Index. These differences in calculation method produced threshold discrepancies as large as 79%, or about one standard deviation, meaning whether a patient is classified as 'reliably improved' can hinge entirely on which version of the formula a researcher chose.",
+      "why_it_matters": "If clinical trials use incompatible methods to measure individual patient improvement, comparisons across studies \u2014 and therefore evidence-based treatment decisions \u2014 may be built on shaky statistical ground.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Psychology",
+      "chunk": "1/3",
+      "status": "new",
+      "relevance_score": 7,
+      "relevance_score_reason": "Strong methodological expos\u00e9 with a counterintuitive 'the ruler is broken' hook that NS Mind readers will find alarming; docked for being a scoping review with no human participant data, limiting direct emotional resonance.",
+      "pitch_angles": [
+        {
+          "headline": "Clinical trials are measuring patient recovery in seven incompatible ways",
+          "hook": "Whether a patient officially 'got better' in a clinical trial may depend less on their actual improvement than on which version of a formula their researcher happened to use.",
+          "why_it_fits": "NS Mind readers trust clinical psychology research to mean something consistent \u2014 this piece pulls back the curtain on a structural flaw affecting the entire field.",
+          "pitch_angle": "A new scoping review found that only 13% of clinical trials even formally tested whether individual patients improved, and those that did used at least seven different versions of the same statistical tool \u2014 producing discrepancies of nearly 80% in who counts as 'recovered'. This is not a fringe issue: it affects how treatments are compared, recommended, and ultimately adopted in mental health care. The story taps into growing public scepticism about replication and research quality.",
+          "caveats_to_flag": "This is a methodological review, not a clinical study \u2014 it identifies a problem rather than measuring its real-world harm to patients. Journalists should avoid implying that existing treatment recommendations are wrong, only that comparisons between trials may be less reliable than assumed."
+        }
+      ]
+    },
+    {
+      "pmid": "42570457",
+      "headline": "A 20-minute play session sharpens preschoolers' ability to sync their senses \u2014 and kids with poorest self-control gain the most",
+      "journal": "Cognition",
+      "pubdate": "2026 Aug 8",
+      "doi": "10.1016/j.cognition.2026.106676",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Italian researchers tested whether a single 20-minute play-based multisensory training session could improve preschoolers' sensitivity to intersensory synchrony \u2014 the ability to detect that sights and sounds belong together in time. The study included 77 trained children aged 3\u20136 and 62 age-matched controls. Children who received training showed a significantly greater preference for synchronous audiovisual events immediately after, with effects generalising to untrained speech stimuli; notably, children with the lowest inhibitory control showed the largest gains.",
+      "why_it_matters": "Intersensory synchrony perception is thought to underpin higher-order cognitive development; the finding that a brief, non-verbal play session can strengthen it \u2014 especially in children with weaker self-control \u2014 suggests a low-cost approach that could benefit children at risk of developmental difficulties.",
+      "caveats": "small sample (N<100 per group, though combined N=139), single-center, short follow-up",
+      "fact_check_note": "Combined N is 139 (77 trained + 62 controls), so the per-group N is below 100 but total is above. Noted small sample flag is borderline; retained as a caveat given per-group sizes. No industry funding declared in abstract.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Psychology",
+      "chunk": "2/3",
+      "status": "new",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding (poorest self-regulators benefit most), decent combined sample, clean experimental design with control group, and a strong early-childhood development hook that fits NS Mind's cognition and neurodiversity remit.",
+      "pitch_angles": [
+        {
+          "headline": "Preschoolers with the worst self-control gain the most from a 20-minute sensory play session",
+          "hook": "A single short play session can tune up how preschoolers' brains stitch sight and sound together \u2014 and children who struggle most to control their impulses benefit the most.",
+          "why_it_fits": "NS Mind readers are drawn to counterintuitive findings about child development and accessible, low-cost cognitive interventions.",
+          "pitch_angle": "Researchers in Italy ran 77 children aged 3\u20136 through a 20-minute, non-verbal, play-based training designed to sharpen their sensitivity to audiovisual timing \u2014 a perceptual skill thought to scaffold language and attention. Not only did training work immediately, it generalised to untrained speech sounds. The twist: kids with the worst inhibitory control improved the most, flipping the assumption that self-regulation skills are a prerequisite for learning gains. This raises exciting questions about low-effort, inclusive approaches for children at developmental risk.",
+          "caveats_to_flag": "Only immediate post-training effects were measured (no follow-up), the sample was Italian preschoolers from a single centre, and total N was 139 \u2014 moderate for a developmental study. Whether gains persist or translate to real-world language and attention outcomes remains unknown."
+        }
+      ]
+    },
+    {
+      "pmid": "42579964",
+      "headline": "Brain timing signals run too fast in the cortex and too slow deep down in early schizophrenia \u2014 before any medication",
+      "journal": "Asian Journal of Psychiatry",
+      "pubdate": "2026 Aug 7",
+      "doi": "10.1016/j.ajp.2026.105112",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in China used resting-state fMRI to measure intrinsic neural timescales (the natural rhythm of brain activity) in 123 first-episode schizophrenia patients who were drug-na\u00efve or minimally treated, compared with 102 matched healthy controls. They found a striking divergence: cortical brain regions showed shorter-than-normal timescales while subcortical regions showed prolonged timescales, a pattern linked to synapse-related genes and cerebral blood flow. The study suggests this cortical-subcortical mismatch may be a neurobiological signature of schizophrenia that predates medication effects.",
+      "why_it_matters": "Identifying a reliable brain-based marker of early schizophrenia that is not confounded by medication could accelerate diagnosis and help researchers understand what goes wrong in the brain before illness becomes entrenched.",
+      "caveats": "single-center, observational design",
+      "fact_check_note": "Sample sizes confirmed: 123 patients, 102 controls \u2014 total N=225, above the N\u2265100 threshold. Study conducted at a single centre in Changsha, China. No industry funding declared.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Psychiatry",
+      "chunk": "2/2",
+      "status": "new",
+      "relevance_score": 7,
+      "relevance_score_reason": "Solid human neuroimaging study with a counterintuitive divergent finding in drug-na\u00efve patients; single-centre design and technical subject matter limit the score.",
+      "pitch_angles": [
+        {
+          "headline": "The schizophrenic brain runs on two different clocks at once",
+          "hook": "Brain scans of people in the earliest stages of schizophrenia \u2014 before any medication \u2014 reveal that the cortex is running too fast while deep brain structures run too slow.",
+          "why_it_fits": "NS Mind readers are fascinated by what makes the schizophrenic brain different, and a finding this visually striking \u2014 two opposing rhythms at war \u2014 offers a compelling new way to understand one of psychiatry's most enigmatic conditions.",
+          "pitch_angle": "A new fMRI study of 123 drug-na\u00efve patients found that schizophrenia is associated with a tug-of-war in the brain's internal timing: the outer cortex speeds up while subcortical structures slow down. This divergence \u2014 not a uniform change as previously assumed \u2014 was tied to synaptic gene activity and blood flow patterns. Because the patients were unmedicated, the finding can't be blamed on drugs, making it a candidate biological marker for early detection.",
+          "caveats_to_flag": "Single-centre study in China; fMRI measures are indirect proxies for neural activity; Mendelian randomisation was not used so causality cannot be established; clinical translation is distant."
+        }
+      ]
+    },
+    {
+      "pmid": "42570430",
+      "headline": "Longer or earlier smoking medication doesn't help most people quit \u2014 but counselling type matters for some",
+      "journal": "Addictive Behaviors",
+      "pubdate": "2026 Aug 7",
+      "doi": "10.1016/j.addbeh.2026.108828",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A factorial randomised controlled trial enrolled 496 adult primary care patients (55% women, 45.6% Black) to test four smoking cessation variables: medication type (varenicline vs. combination nicotine replacement therapy), pre-quit medication duration (4 weeks vs. standard 1 week), total medication duration (24 vs. 12 weeks), and counselling intensity (4 vs. 2 sessions). None of the four factors produced statistically significant main effects on biochemically confirmed abstinence at 12, 26, or 52 weeks. However, a three-way interaction suggested that more intensive cessation counselling improved quit rates specifically when varenicline was paired with a longer pre-quit phase \u2014 an effect not seen with combination NRT. The trial was stopped early due to pandemic-related budget cuts, falling short of its planned N=608.",
+      "why_it_matters": "The results challenge the common clinical assumption that longer or earlier pharmacotherapy automatically improves quit rates, suggesting instead that the match between medication type and counselling intensity may matter more than duration alone.",
+      "caveats": "short of planned sample size (stopped early, N=496 vs planned 608), single-center, short follow-up relative to lifetime smoking risk",
+      "fact_check_note": "Abstract explicitly states the trial was discontinued before reaching the proposed sample size of 608 due to pandemic-related budgetary constraints; this has been noted in caveats as 'stopped early'. The study was conducted at the University of Wisconsin \u2014 described as single-center in design.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Substance-Related Disorders",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 7,
+      "relevance_score_reason": "RCT design with a counterintuitive null finding on pharmacotherapy duration is strong for NS Mind, but early stopping and reduced sample size are meaningful caveats that cap the score.",
+      "pitch_angles": [
+        {
+          "headline": "Taking quit-smoking drugs for longer doesn't make you more likely to quit",
+          "hook": "A randomised trial found that doubling the duration of the most effective stop-smoking medications \u2014 or starting them earlier \u2014 made no significant difference to whether people actually quit.",
+          "why_it_fits": "Smoking cessation is a perennial NS Mind topic, and a counterintuitive null result from a well-designed RCT challenges widely held assumptions about how pharmacotherapy works.",
+          "pitch_angle": "Doctors often assume that more medication \u2014 taken longer or started earlier \u2014 should translate into better quit rates, but this US trial of nearly 500 primary care patients found no such benefit. The real surprise is a nuanced interaction: intensive counselling did appear to boost success, but only when paired with varenicline and a longer pre-quit phase, not with nicotine patches and lozenges. In an era of rising interest in personalised medicine, the finding hints that tailoring the combination of drug and support \u2014 rather than simply extending treatment \u2014 may be what actually moves the needle.",
+          "caveats_to_flag": "The trial was stopped early due to COVID-19 budget cuts and did not reach its planned sample size, meaning it may have been underpowered to detect real effects; the three-way interaction finding should be treated as exploratory; results come from a single US academic centre and may not generalise broadly."
+        }
+      ]
+    },
+    {
+      "pmid": "42565749",
+      "headline": "LGBTQ+ people in Malaysia distrust their institutions most when they fear being scapegoated \u2014 and women and non-binary people feel it hardest",
+      "journal": "Culture, Health & Sexuality",
+      "pubdate": "2026 Aug 7",
+      "doi": "10.1080/13691058.2026.2713046",
+      "groundbreaking": "Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using a mixed-methods design, researchers surveyed 647 LGBTQ+ adults in Malaysia about their trust in police, political, legal, and media institutions, and analysed open-ended responses from 228 participants. They found that cisgender women, trans men, and non-binary participants reported higher institutional distrust than cisgender men, as did Malay and Indian participants compared to Chinese participants. Qualitative analysis identified three drivers of distrust: being scapegoated, fear of dehumanisation, and diminishing hope for the future.",
+      "why_it_matters": "The study shows that institutional distrust among LGBTQ+ people in contexts of legal discrimination is not uniform \u2014 gender identity and ethnicity intersect to shape who feels most endangered, with implications for mental health and healthcare access in similar environments worldwide.",
+      "caveats": "observational design, self-reported outcomes, single-center, small qualitative subsample (N=228 for qualitative component)",
+      "fact_check_note": "The qualitative subsample is N=228, not the full N=647; this distinction has been accurately reflected in the summary.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Social Sciences",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 6,
+      "relevance_score_reason": "Relevant to NS Mind's coverage of minority mental health and social behaviour, with a decent sample and intersectional nuance, but docked for observational/self-report design, single-country context, and limited generalisability outside Malaysia.",
+      "pitch_angles": [
+        {
+          "headline": "In Malaysia, LGBTQ+ women and non-binary people distrust the state far more than gay men do",
+          "hook": "Among LGBTQ+ people living under legal discrimination in Malaysia, it is not gay men but cisgender women, trans men, and non-binary individuals who report the deepest distrust of police, law, and political institutions.",
+          "why_it_fits": "NS Mind readers interested in the psychology of minority stress and social exclusion will find the intersectional pattern \u2014 gender identity and ethnicity both shaping distrust independently \u2014 genuinely surprising.",
+          "pitch_angle": "A mixed-methods study of 647 LGBTQ+ adults in Malaysia found that institutional distrust is stratified by gender identity and ethnicity in unexpected ways, with those most marginalised within an already marginalised group feeling most at risk. Qualitative responses revealed that fear of being used as a political scapegoat \u2014 not just direct discrimination \u2014 was a key driver of distrust. As governments worldwide debate LGBTQ+ rights, the study illuminates how legal hostility cascades into psychological estrangement from society's core institutions.",
+          "caveats_to_flag": "Observational and self-reported; findings are specific to Malaysia's legal and cultural context and may not generalise; the qualitative sample is a subset of the survey sample; no causal claims can be made."
+        }
+      ]
+    },
+    {
+      "pmid": "42567365",
+      "headline": "Teaching your brain to ignore certain foods actually makes you want them less, brain scans suggest",
+      "journal": "Appetite",
+      "pubdate": "2026 Aug 7",
+      "doi": "10.1016/j.appet.2026.108752",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used functional MRI to examine 85 women who underwent food go/no-go training \u2014 a task in which participants repeatedly practise responding to some foods and withholding responses to others. After training, participants reported wanting the 'no-go' foods significantly less, and brain imaging showed reduced activity in frontal and visual regions associated with this devaluation effect. Mediation analysis suggested that changes in food wanting were associated with subsequent food choice in the same session, though the authors note this does not establish causal or temporal mediation.",
+      "why_it_matters": "The findings add to early evidence that simple behavioural training \u2014 practising non-response to certain foods \u2014 may shift the subjective appeal of those foods, with detectable brain-level correlates, which could have implications for understanding appetite regulation.",
+      "caveats": "small sample (N=85), women only, single-center, short follow-up, same-session mediation analysis (cannot establish temporal mediation), study conducted in China",
+      "fact_check_note": "N=85 confirmed from abstract. Authors themselves flag that same-session mediation analysis does not establish temporal or causal mediation \u2014 reflected in summary and caveats. Women-only sample noted.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Behavioral Sciences",
+      "chunk": "1/2",
+      "status": "new",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding (doing nothing changes desire), brain imaging adds credibility, clear lifestyle hook around appetite and food cravings; penalised for small all-female sample, single-centre design, short follow-up, and same-session-only mediation.",
+      "pitch_angles": [
+        {
+          "headline": "Simply practising not reacting to a food makes women want it less, brain scans show",
+          "hook": "Repeatedly pressing a button \u2014 or deliberately not pressing it \u2014 when you see a food image is enough to alter how much you want to eat that food.",
+          "why_it_fits": "Appetite, self-control, and the neuroscience of desire sit squarely in NS Mind's wheelhouse, and this offers a fresh, non-dietary angle on eating behaviour.",
+          "pitch_angle": "An fMRI study of 85 women found that a brief go/no-go training session \u2014 where participants practised withholding responses to images of specific foods \u2014 significantly reduced how much they wanted those foods afterwards. Brain scans revealed dampened activity in frontal and visual regions linked to the effect. The twist is that no reasoning, willpower, or dietary information was involved: just conditioned non-action. It raises the intriguing possibility that behaviour, not cognition, is a primary lever for desire.",
+          "caveats_to_flag": "Only 85 women studied, all from a single Chinese university, so results may not generalise to men or other populations; follow-up was same-session only so durability of the effect is unknown; mediation analysis cannot establish causality."
+        }
+      ]
+    },
+    {
+      "pmid": "42596819",
+      "headline": "Moving an autistic adult into residential care is as hard on parents as it is on the person moving",
+      "journal": "Journal of Intellectual Disabilities",
+      "pubdate": "2026 Aug 14",
+      "doi": "10.1177/17446295261477155",
+      "groundbreaking": "Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A UK independent researcher analysed 100 days of blog posts written by a mother as her autistic son with intellectual disability transitioned from the family home to residential care (N=1 parent). The study found that parents need active support during this transition \u2014 not just an expectation that they will support their adult child \u2014 and identified key challenges for residential services in managing this handover period.",
+      "why_it_matters": "With growing numbers of autistic adults transitioning to residential care, this research suggests current services may be neglecting a critical support gap for families navigating one of the most stressful periods of their lives.",
+      "caveats": "small sample (N<100), single-center, self-reported outcomes, observational design",
+      "fact_check_note": "Sample is effectively N=1 (one mother's blog posts), which is an extreme case of small sample; flagged accordingly. Study is from the UK, which is relevant context but the finding has broad applicability.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Psychiatry",
+      "chunk": "2/2",
+      "status": "new",
+      "relevance_score": 4,
+      "relevance_score_reason": "Relevant neurodiversity topic with a real societal hook, but the N=1 qualitative design based on blog posts is a severe limitation that undermines generalisability and NS Mind appeal.",
+      "pitch_angles": [
+        {
+          "headline": "When an autistic adult moves into residential care, it's parents who need the most support",
+          "hook": "Services designed to help autistic adults transition into residential care may be overlooking the people who need support most: the parents left behind.",
+          "why_it_fits": "NS Mind readers care deeply about neurodiversity, family dynamics, and gaps in care provision \u2014 this challenges the assumption that parental involvement is a resource rather than a need.",
+          "pitch_angle": "A new study tracking 100 days of a mother's blog as her autistic son moved into residential care found that parents are expected to facilitate a smooth transition while receiving little support themselves. This flips the usual framing \u2014 parents as helpers \u2014 and raises urgent questions about what residential care services owe families. As more autistic adults with intellectual disabilities reach adulthood, the pressure on families to manage these transitions without help is only growing.",
+          "caveats_to_flag": "This is a qualitative analysis of a single parent's blog posts \u2014 it cannot be generalised, and the researcher is independent rather than affiliated with an institution. It is a starting point for conversation, not evidence of a pattern."
+        }
+      ]
+    },
+    {
+      "pmid": "41761775",
+      "headline": "Brain stimulation for insomnia calms the mind's 'default' chatter but misses another key network",
+      "journal": "Sleep",
+      "pubdate": "2026 Aug 14",
+      "doi": "10.1093/sleep/zsag056",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers applied low-frequency repetitive transcranial magnetic stimulation (rTMS) to the right dorsolateral prefrontal cortex in people with chronic insomnia, then measured brain fluid dynamics using BOLD-CSF coupling on MRI. The treatment selectively dampened activity in the default mode network \u2014 the brain's 'mind-wandering' system \u2014 but had no detectable effect on the frontoparietal network, which governs attention and cognitive control. The paradox: targeting a region that bridges both networks produced only partial results, raising questions about why one network responded and the other did not.",
+      "why_it_matters": "Understanding which brain networks actually respond to non-drug insomnia treatments could help researchers refine stimulation targets and explain why rTMS works for some patients but not others.",
+      "caveats": "single-center, small sample (N<100), observational design",
+      "fact_check_note": "The abstract does not report a specific N or study design details beyond the imaging method; small sample and single-center inferred from single-institution affiliation and absence of multi-site language. Summary reflects the conceptual/paradox framing of the paper rather than claiming a large RCT.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Psychophysiology",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive finding (+2) with a clear sleep/cognition hook (+1), but the abstract reads more as a theoretical/mechanistic paper than a large human trial, and single-center/small-N caveats reduce the score (\u22122).",
+      "pitch_angles": [
+        {
+          "headline": "Zapping a key brain region for insomnia quiets the wandering mind \u2014 but leaves attention networks untouched",
+          "hook": "A brain stimulation treatment for chronic insomnia silenced the network responsible for rumination but, paradoxically, left the attention-control network completely unaffected.",
+          "why_it_fits": "NS Mind readers fascinated by sleep and brain science will want to understand why a seemingly precise brain intervention produces such selective \u2014 and incomplete \u2014 results.",
+          "pitch_angle": "Researchers delivered magnetic pulses to a prefrontal brain region thought to govern both mind-wandering and attention in people with chronic insomnia, then scanned their brains to see what changed. The default mode network \u2014 the system that keeps us awake with racing thoughts \u2014 was calmed. But the frontoparietal attention network showed no response at all, despite being closely connected to the target site. The finding challenges the assumption that stimulating one hub will ripple evenly across connected networks, and opens a debate about whether insomnia treatments should target multiple sites.",
+          "caveats_to_flag": "Small single-center sample, no clear control group described in the abstract, and findings may not generalise beyond the Chinese clinical population studied."
+        }
+      ]
+    },
+    {
+      "pmid": "42127413",
+      "headline": "A new patient questionnaire captures what narcolepsy really steals from daily life \u2014 beyond just sleepiness",
+      "journal": "Sleep",
+      "pubdate": "2026 Aug 14",
+      "doi": "10.1093/sleep/zsag127",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Takeda and clinical outcomes specialists developed the Functional Impacts of Narcolepsy Instrument (FINI), a new patient-reported outcome measure designed specifically for narcolepsy type 1 and type 2. Through patient interviews, expert consensus, and statistical analyses (including Rasch and confirmatory factor analyses), they produced a 28-item tool for NT1 covering six domains \u2014 tiredness, cognitive functioning, cataplexy, social activities, everyday activities, and everyday responsibilities \u2014 and a 23-item version for NT2 (excluding the cataplexy domain). Content validity was confirmed across multiple patient interview waves.",
+      "why_it_matters": "Existing narcolepsy measures focus narrowly on daytime sleepiness; this instrument could give clinicians and researchers a fuller picture of how the condition disrupts work, school, and social life \u2014 and how treatments change that.",
+      "caveats": "industry funding [Takeda], self-reported outcomes",
+      "fact_check_note": "Abstract does not specify total N for patient interviews; the study is an instrument-development paper rather than a clinical trial. Industry affiliation of lead authors (Takeda) noted as funding/sponsorship caveat.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Psychophysiology",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 5,
+      "relevance_score_reason": "Relevant to NS Mind's neurodiversity and daily-life angle, but this is a methodological instrument-development paper rather than a novel finding, and industry sponsorship is a notable caveat \u2014 limiting its appeal as a punchy story.",
+      "pitch_angles": [
+        {
+          "headline": "Narcolepsy does far more damage than just making you sleepy \u2014 and medicine is only now measuring it properly",
+          "hook": "For decades, clinical tools for narcolepsy have focused almost entirely on how drowsy patients feel, ignoring the cognitive fog, social withdrawal, and lost responsibilities that patients say define their condition.",
+          "why_it_fits": "NS Mind readers interested in neurodiversity and chronic illness will recognise the gap between what medicine measures and what patients actually experience.",
+          "pitch_angle": "A new patient questionnaire \u2014 the Functional Impacts of Narcolepsy Instrument \u2014 was built from the ground up with input from people living with narcolepsy, capturing six distinct dimensions of how the condition disrupts daily life. The tool distinguishes between the two main types of narcolepsy and includes domains like cognitive functioning and social activities that older scales miss entirely. Developed partly by Takeda (a pharmaceutical company with narcolepsy treatments), it is designed for both clinical trials and routine care \u2014 raising both promise and questions about whose interests it ultimately serves.",
+          "caveats_to_flag": "Instrument developed by researchers with Takeda affiliation; no independent psychometric validation in an external cohort yet reported; sample sizes for interview phases not specified in the abstract."
+        }
+      ]
+    },
+    {
+      "pmid": "41967017",
+      "headline": "Nightmares in depressed patients may be a warning sign of suicide risk that clinicians are missing",
+      "journal": "Sleep",
+      "pubdate": "2026 Aug 14",
+      "doi": "10.1093/sleep/zsag101",
+      "groundbreaking": "Counterintuitive finding / Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "French psychiatrists Julia Maruani and Pierre A. Geoffroy present a commentary arguing that nightmares are an underappreciated and independent risk factor for suicidal ideation and behavior in people with depression. They call for nightmares to be routinely assessed as part of suicide risk screening in depressed patients, and suggest that treating nightmares \u2014 for example with imagery rehearsal therapy or prazosin \u2014 could represent a novel intervention point. The piece synthesises existing evidence rather than presenting new primary data.",
+      "why_it_matters": "If nightmares are indeed an independent pathway to suicidal crisis in depression, adding a simple sleep question to psychiatric assessments could help identify at-risk patients who might otherwise be missed.",
+      "caveats": "None identified (commentary/opinion piece \u2014 no primary data)",
+      "fact_check_note": "This appears to be a commentary or opinion piece, not an original research study with a sample. Summary and caveats adjusted accordingly \u2014 no N reported because this is not a primary data study.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Psychophysiology",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 7,
+      "relevance_score_reason": "Strong NS Mind fit on mental health, sleep, and suicide prevention (+1 societal hook, +2 counterintuitive framing that nightmares are a clinical target), but it is a commentary not a primary study, limiting evidential weight (\u22121).",
+      "pitch_angles": [
+        {
+          "headline": "Nightmares could be a missing warning sign for suicide risk in depressed people",
+          "hook": "Psychiatrists are routinely asking depressed patients about hopelessness and self-harm \u2014 but almost never about nightmares, which may be an independent route to suicidal crisis.",
+          "why_it_fits": "NS Mind readers care deeply about mental health and will be struck by the idea that something as familiar as a bad dream could carry life-or-death clinical weight.",
+          "pitch_angle": "Two French psychiatrists are calling for a rethink of suicide risk assessment in depression, arguing that nightmares deserve a place alongside classic warning signs like hopelessness and social withdrawal. Their synthesis of existing evidence suggests nightmares are not merely a symptom of distress but may independently elevate suicide risk \u2014 and crucially, that they are treatable. The implication: a simple question about bad dreams in a clinical consultation could open a new intervention window.",
+          "caveats_to_flag": "This is a commentary, not a new clinical study; the causal relationship between nightmares and suicidality in depression remains to be established in prospective research. Journalists should avoid implying that treating nightmares has been proven to prevent suicide."
+        }
+      ]
+    },
+    {
+      "pmid": "41810864",
+      "headline": "CPAP therapy may slow cognitive decline in Parkinson's \u2014 but the evidence is still far from clear-cut",
+      "journal": "Sleep",
+      "pubdate": "2026 Aug 14",
+      "doi": "10.1093/sleep/zsag072",
+      "groundbreaking": "Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Clinicians at two community health centers in Hangzhou, China, review the existing evidence on whether positive airway pressure (PAP) therapy for obstructive sleep apnea can protect or enhance cognition in people with Parkinson's disease. The commentary examines statistical associations seen in prior studies and discusses the challenges of translating these signals into clinical guidance. No new primary patient data are presented; the authors note important gaps between observed statistical trends and what can be recommended in practice.",
+      "why_it_matters": "Sleep apnea is common in Parkinson's disease, and if treating it helps preserve cognition, millions of patients could benefit \u2014 but this piece highlights that the evidence base is not yet strong enough to drive routine clinical change.",
+      "caveats": "None identified (commentary/opinion piece \u2014 no primary data; single-center authorship context)",
+      "fact_check_note": "This appears to be a commentary or editorial rather than a primary research study; no N or original data are reported in the abstract. Summary and caveats adjusted accordingly.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Psychophysiology",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 5,
+      "relevance_score_reason": "Relevant neurodegenerative/sleep topic with societal significance, but this is a commentary with no new primary data and a cautious 'signals not yet practice-ready' message \u2014 limiting its punch for NS Mind.",
+      "pitch_angles": [
+        {
+          "headline": "Treating sleep apnea might protect the Parkinson's-affected brain \u2014 but doctors aren't sure yet",
+          "hook": "There are tantalising statistical hints that CPAP therapy could slow cognitive decline in Parkinson's disease, but clinicians reviewing the evidence say the signals are not yet strong enough to change what happens in the clinic.",
+          "why_it_fits": "NS Mind readers interested in ageing, sleep, and neurological conditions will want to know whether a widely used, non-invasive therapy could do double duty against one of the most feared cognitive complications of Parkinson's.",
+          "pitch_angle": "Obstructive sleep apnea affects a large proportion of people with Parkinson's disease, and some studies have flagged associations between PAP therapy and better cognitive outcomes. A new clinical commentary tries to bridge that statistical hope with the reality of medical practice \u2014 finding the gap uncomfortably wide. The piece is a call for better-designed trials to settle whether treating fragmented sleep in Parkinson's can genuinely protect the brain.",
+          "caveats_to_flag": "Commentary only \u2014 no new clinical data; authors are based in China and may reflect a regional clinical context; causal relationship between PAP therapy and cognition in Parkinson's remains unestablished."
+        }
+      ]
+    },
+    {
+      "pmid": "42595255",
+      "headline": "Stressed parents are more likely to have picky eaters \u2014 and feeling unfulfilled in caregiving is the bigger driver",
+      "journal": "Appetite",
+      "pubdate": "2026 Aug 13",
+      "doi": "10.1016/j.appet.2026.108755",
+      "groundbreaking": "Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers surveyed 459 parent-child pairs in Urumqi, China, examining how parenting stress relates to picky eating in preschoolers. They found that parenting stress was associated with greater picky eating severity, and that this relationship was partly explained by lower parental self-efficacy \u2014 specifically lower satisfaction with caregiving (the emotional fulfilment dimension) was a stronger mediating pathway than lower perceived competence. Together these two pathways explained about 51% of the total association, though effect sizes were small.",
+      "why_it_matters": "The finding suggests that interventions targeting parents' emotional fulfilment in caregiving \u2014 not just their practical feeding skills \u2014 may be relevant to understanding picky eating in young children.",
+      "caveats": "observational design, single-center, cross-sectional, small effect sizes, study population from Urumqi China (limited generalisability), self-reported outcomes",
+      "fact_check_note": "Abstract explicitly notes effect sizes were small and authors urge cautious interpretation of practical significance; this is reflected in the summary. N=459 confirmed from abstract.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Behavioral Sciences",
+      "chunk": "1/2",
+      "status": "new",
+      "relevance_score": 5,
+      "relevance_score_reason": "Relatable parenting topic with a mildly counterintuitive emphasis on emotional satisfaction over competence, but small effect sizes, cross-sectional design, single-centre Chinese sample, and self-report all limit appeal for NS Mind's global readership.",
+      "pitch_angles": [
+        {
+          "headline": "Feeling unfulfilled as a parent matters more for picky eating than feeling incompetent",
+          "hook": "When it comes to fussy eaters, a parent's emotional satisfaction in caregiving may be a stronger factor than their confidence in their own parenting skills.",
+          "why_it_fits": "NS Mind readers \u2014 many of whom are parents or plan to be \u2014 will find a fresh angle on the familiar picky-eating headache that goes beyond 'try harder' advice.",
+          "pitch_angle": "A study of nearly 500 Chinese parent-child pairs found that stressed parents are more likely to have picky eaters, but the route runs through how fulfilled \u2014 not just how competent \u2014 parents feel. That emotional satisfaction dimension turned out to be roughly twice as influential as perceived competence, challenging the common assumption that feeding confidence is the key lever. The finding points to a largely overlooked emotional dimension of mealtime struggles.",
+          "caveats_to_flag": "Cross-sectional design means no causality can be inferred; effect sizes were small; study conducted in a single city in northwest China so generalisability is uncertain; all measures were self-reported."
+        }
+      ]
+    },
+    {
+      "pmid": "42594483",
+      "headline": "A wearable sensor can track how close parents stay to their babies across an entire week at home",
+      "journal": "Infant Behavior & Development",
+      "pubdate": "2026 Aug 13",
+      "doi": "10.1016/j.infbeh.2026.102221",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers deployed the TotTag \u2014 a wearable, infrastructure-free proximity sensor \u2014 to measure moment-to-moment physical distance between infants (average age ~12 months) and their caregivers and siblings in real home environments over seven consecutive days. N=families (exact number not specified in abstract). The study found strong procedural feasibility and adherence, with caregivers rating the device highly for ease of use and scientific value, though minor challenges included remembering to reattach devices after baths and confirming charging status. Results suggest that naturalistic, multi-day proximity sensing in family settings is both feasible and acceptable.",
+      "why_it_matters": "Most research on caregiver-infant bonding relies on brief lab visits that may not reflect real life; this tool could allow researchers to study how everyday physical closeness shapes early emotional and cognitive development in its natural context.",
+      "caveats": "small sample (N<100), observational design, self-reported outcomes, single-center, highly educated sample (majority bachelor's degree or higher) limiting generalizability",
+      "fact_check_note": "Abstract does not report the total N of families enrolled \u2014 only infant mean age (M=12.19 months). Summary reflects this uncertainty. Educated-sample caveat added based on abstract statement that most participants held a bachelor's degree or higher.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Behavioral Sciences",
+      "chunk": "2/2",
+      "status": "new",
+      "relevance_score": 5,
+      "relevance_score_reason": "Methodological feasibility study with a clear real-world hook (infant development, parenting) but no experimental findings or surprising effect \u2014 more of an enabling tool paper than a discovery, limiting NS Mind appeal.",
+      "pitch_angles": [
+        {
+          "headline": "A tiny wearable can now track every moment a parent stays close to their baby \u2014 for a whole week",
+          "hook": "Most of what we know about how parents and babies interact physically comes from hour-long lab visits \u2014 a new sensor reveals what actually happens across a full week at home.",
+          "why_it_fits": "NS Mind readers care about child development, parenting science, and how technology is reshaping our understanding of human behaviour \u2014 this sits at all three intersections.",
+          "pitch_angle": "Scientists have long assumed that how physically close a caregiver stays to their infant matters enormously for development \u2014 but almost no one has actually measured it in real life. A new wearable sensor called the TotTag tracked caregiver-infant distance moment-to-moment across seven days in real homes, and families found it easy and acceptable to use. The story is less about what they found and more about the door it opens: for the first time, researchers can study the ecology of early attachment as it actually unfolds.",
+          "caveats_to_flag": "Feasibility study only \u2014 no developmental outcomes measured yet; sample skewed toward highly educated families, so findings on acceptability may not generalise; total family N not reported in abstract."
+        }
+      ]
+    },
+    {
+      "pmid": "42595883",
+      "headline": "Cutting and repairing a hand nerve reshuffles the brain's finger map \u2014 but surprisingly doesn't explain why patients struggle",
+      "journal": "Nature Human Behaviour",
+      "pubdate": "2026 Aug 13",
+      "doi": "10.1038/s41562-026-02548-8",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using functional MRI, researchers mapped how the primary somatosensory cortex (S1) represents individual fingers in 21 patients who had undergone surgical hand nerve repair and 30 healthy controls. In patients, the orderly brain map of digits was systematically disrupted and neural response amplitudes were elevated on the side of the brain opposite the repaired hand \u2014 mirroring what had previously only been shown in non-human primates. Unexpectedly, altered map organisation was also found in S1 corresponding to the uninjured hand. Crucially, the researchers found no credible links between the degree of map disruption and patients' actual functional impairments, suggesting the cortical circuitry itself may remain largely intact despite the disordered inputs.",
+      "why_it_matters": "The finding that brain reorganisation after nerve injury does not predict functional recovery challenges a long-held assumption in rehabilitation medicine, and raises important questions about what actually drives patients' difficulties regaining hand function.",
+      "caveats": "small sample (N<100), single-center",
+      "fact_check_note": "N=21 patients and 30 controls confirmed from abstract. The counterintuitive finding \u2014 no link between S1 map disruption and functional impairment \u2014 is explicitly stated in the abstract. The finding of altered maps in the uninjured hand is also confirmed. No corrections needed.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Behavioral Sciences",
+      "chunk": "2/2",
+      "status": "new",
+      "relevance_score": 8,
+      "relevance_score_reason": "Strongly counterintuitive finding (brain reorganisation doesn't explain patients' functional problems) in a human fMRI study published in a top journal, with clear relevance to rehabilitation and neuroscience \u2014 docked one point for small N and one for single-center design.",
+      "pitch_angles": [
+        {
+          "headline": "Cutting a hand nerve scrambles your brain's finger map \u2014 but that's not why your hand stops working",
+          "hook": "When a hand nerve is surgically repaired, the brain's map of the fingers becomes dramatically reorganised \u2014 but in a surprising twist, that reorganisation has nothing to do with how well patients recover.",
+          "why_it_fits": "NS Mind readers are fascinated by brain plasticity and how injury reshapes the mind \u2014 this upends a popular narrative about cortical reorganisation being functionally meaningful.",
+          "pitch_angle": "For decades, neuroscientists have assumed that when the brain's sensory maps are disrupted by injury, those changes explain why patients struggle to regain function. Now a first-of-its-kind human fMRI study of patients with repaired hand nerves finds that yes, the brain's finger maps are genuinely scrambled \u2014 but the degree of scrambling predicts nothing about how well someone can use their hand. Even stranger, the brain map of the uninjured hand is also altered. The finding suggests that the cortical circuitry may be more resilient than we thought, and that rehabilitation science may have been chasing the wrong target.",
+          "caveats_to_flag": "Small sample (21 patients, 30 controls); study is observational so cannot establish causation; the functional relevance of S1 map changes remains genuinely uncertain by the authors' own admission; UK-based single-site study."
+        }
+      ]
+    },
+    {
+      "pmid": "42595016",
+      "headline": "Slouching your head forward makes you choose instant rewards over future ones",
+      "journal": "Behavioural Brain Research",
+      "pubdate": "2026 Aug 13",
+      "doi": "10.1016/j.bbr.2026.116435",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers assigned 59 healthy young adults to perform a Delay Discounting Task \u2014 which measures preference for smaller-sooner versus larger-later rewards \u2014 while holding either a forward head posture (chin jutting forward, common when looking at phones) or a neutral head posture. Using mixed-effects models, they found that participants in the forward-head-posture condition were significantly more likely to choose smaller, immediate rewards over larger future ones (p=.004), while reaction times on a simple control task were unchanged, suggesting the effect was specific to decision-making rather than general cognitive slowdown.",
+      "why_it_matters": "Given how many hours people spend in forward head posture while using screens, this study suggests that everyday posture habits could subtly bias people toward impulsive financial and lifestyle choices \u2014 though causal conclusions await replication in larger, more diverse samples.",
+      "caveats": "small sample (N<100), single-center, short follow-up, self-reported outcomes",
+      "fact_check_note": "N=59 confirmed from abstract. No self-reported outcomes are mentioned in the abstract \u2014 removed that flag. The study used behavioural task measures, not self-report. Corrected caveats to remove 'self-reported outcomes'.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Brain",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 8,
+      "relevance_score_reason": "Strongly counterintuitive finding with a vivid, immediately relatable lifestyle hook (phone posture affecting self-control), human experimental design, and clear societal relevance; penalised one point for small N<100.",
+      "pitch_angles": [
+        {
+          "headline": "Slouching your head forward \u2014 like when you look at your phone \u2014 makes you choose instant gratification over future rewards",
+          "hook": "Tilt your head forward for a few minutes and you become measurably more impulsive, a new experiment suggests.",
+          "why_it_fits": "In an era of screen addiction and self-control crises, NS Mind readers will immediately connect this finding to their own daily habits and the broader conversation about how bodies shape minds.",
+          "pitch_angle": "A US study found that simply inducing 'forward head posture' \u2014 the slumped-neck position most of us adopt when scrolling on a phone \u2014 made healthy adults significantly more likely to pick a smaller reward now over a larger reward later, compared to people sitting with a neutral head position. The effect was specific to decision-making: basic reaction times were identical between groups, ruling out general sluggishness. The authors argue that the head-neck relationship feeds constant postural signals into the brain's self-regulation circuitry, and that bad posture may tip us toward an 'I want it now' state of mind.",
+          "caveats_to_flag": "Small sample of 59 young adults; single-centre US study; posture was artificially induced in a lab, not naturalistic screen use; replication in larger and more diverse populations needed before drawing firm conclusions."
+        }
+      ]
+    },
+    {
+      "pmid": "42593974",
+      "headline": "Just looking at a disgusting image is enough to slow your stomach's natural rhythm",
+      "journal": "Emotion",
+      "pubdate": "2026 Aug 13",
+      "doi": "10.1037/emo0001729",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Ben-Gurion University of the Negev recorded the stomach's electrical activity in 46 participants (mostly female undergraduate students) while they viewed appetising, disgusting, or neutral images for about 13 minutes each. Using electrogastrography, they found that disgusting images were associated with significantly reduced normal gastric rhythmic activity compared to appetising images, while appetising images produced significantly higher normal gastric activity than neutral images \u2014 suggesting that visual emotional cues can alter gut physiology in a top-down fashion.",
+      "why_it_matters": "The finding that emotions triggered purely by vision can modulate stomach rhythms suggests a concrete physiological pathway linking psychological states and digestive function, which may be relevant to understanding conditions like nausea, appetite dysregulation, and gut-brain disorders.",
+      "caveats": "small sample (N<100), observational design, single-center, self-reported outcomes, short follow-up",
+      "fact_check_note": "Abstract confirms N=46, mostly female (37 females), undergraduate students, study conducted 2024\u20132025. No errors found; summary accurately reflects the direction and nature of effects described.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Psychology",
+      "chunk": "2/3",
+      "status": "new",
+      "relevance_score": 7,
+      "relevance_score_reason": "Highly counterintuitive gut-brain finding with a clear societal hook (emotions physically changing stomach activity), though limited by small N, all-female-skewed student sample, and observational design.",
+      "pitch_angles": [
+        {
+          "headline": "Looking at a disgusting photo slows your stomach's rhythm within minutes",
+          "hook": "Your stomach doesn't wait for you to eat something revolting \u2014 just seeing a disgusting image is enough to disrupt its natural electrical rhythm.",
+          "why_it_fits": "NS Mind readers are fascinated by the gut-brain connection and the surprising ways emotions manifest physically, and this offers a vivid, concrete new data point.",
+          "pitch_angle": "Israeli scientists wired up 46 people's stomachs with electrogastrography electrodes and showed them pictures of delicious food, disgusting scenes, and neutral objects. Disgusting images measurably suppressed the stomach's normal slow-wave electrical rhythm \u2014 the beat that coordinates digestion \u2014 while appetising images ramped it up beyond neutral baseline. The effect held even after controlling for hunger, BMI, and psychological traits, suggesting the brain is continuously preparing the gut for what the eyes expect to arrive. It opens a new window onto why anxiety, disgust, and stress so reliably upset our digestion.",
+          "caveats_to_flag": "Only 46 participants, mostly female students from a single Israeli university, so results may not generalise broadly. The study was observational with no causal manipulation of gut activity, and only immediate effects were captured \u2014 whether prolonged emotional states produce sustained gastric changes is unknown."
+        }
+      ]
+    },
+    {
+      "pmid": "42593985",
+      "headline": "A neural network algorithm outperforms standard methods for filling gaps in psychological test data",
+      "journal": "Psychological Methods",
+      "pubdate": "2026 Aug 13",
+      "doi": "10.1037/met0000867",
+      "groundbreaking": "Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers from Beijing Normal University and UCLA developed a new algorithm called Columnwise Neural Imputation (COLNI) to handle missing data in psychological and educational assessments, which commonly use ordinal response scales. Simulation studies showed COLNI more accurately recovered key statistical properties \u2014 including item means, inter-item correlations, and latent trait estimates \u2014 compared with conventional missing-data methods such as listwise deletion and item-mean imputation. The algorithm was also validated on real data from the Short Dark Triad personality test.",
+      "why_it_matters": "Missing data is one of the most common and underappreciated problems in psychological research; a more accurate imputation method could improve the reliability of findings across many areas of mental health and education science.",
+      "caveats": "simulation-based validation, single empirical dataset for real-world test",
+      "fact_check_note": "No human participant N reported; this is a methodological/simulation study. No corrections needed, but no N applicable in the traditional sense.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Psychology",
+      "chunk": "3/3",
+      "status": "new",
+      "relevance_score": 4,
+      "relevance_score_reason": "Methodological advance with genuine research relevance but low public interest hook, no counterintuitive finding for general readers, and no direct human-subjects angle \u2014 weak fit for NS Mind's general audience.",
+      "pitch_angles": [
+        {
+          "headline": "The hidden flaw undermining psychology studies \u2014 and an AI fix",
+          "hook": "Millions of psychology findings rest on data riddled with gaps \u2014 and the standard fixes may be making the science quietly worse.",
+          "why_it_fits": "NS Mind readers care about the reliability of the psychological research that shapes how we understand ourselves; a story about systemic data problems has broad resonance.",
+          "pitch_angle": "Missing data is everywhere in psychological research \u2014 participants skip questions, drop out of studies, or give unusable responses \u2014 and the methods most researchers use to fill those gaps can distort results in ways that are rarely acknowledged. A new AI-based algorithm called COLNI, tested against conventional approaches, suggests neural networks could recover more accurate data patterns from incomplete personality and cognitive assessments. The broader story is really about how much of what we think we know about the human mind may be shaped by mundane technical choices made when data goes missing.",
+          "caveats_to_flag": "Primarily validated through simulation rather than large-scale real-world datasets; the single empirical test used personality data from the Short Dark Triad; generalisation to clinical assessment contexts is unproven; likely to require technical expertise to implement."
+        }
+      ]
+    },
+    {
+      "pmid": "42583768",
+      "headline": "Most patients become delirious after ECT \u2014 but nearly all recover within 30 minutes",
+      "journal": "Nordic Journal of Psychiatry",
+      "pubdate": "2026 Aug 12",
+      "doi": "10.1080/08039488.2026.2716243",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a prospective randomised trial at a tertiary care ECT unit in India, randomly assigning 90 adult patients to one of three anaesthetic agents \u2014 propofol, etomidate, or thiopental (n=30 each). Delirium was assessed at 15 and 30 minutes after ECT using validated scales. Delirium occurred in 72.2% of patients at 15 minutes, but 83.1% of those had recovered by 30 minutes; longer seizure duration was independently associated with higher delirium risk, while thiopental and etomidate were associated with substantially lower odds of delirium compared with propofol.",
+      "why_it_matters": "ECT remains one of the most effective treatments for severe depression, and fear of cognitive side effects is a major barrier to its use; findings suggesting that anaesthetic choice may significantly influence post-ECT confusion could inform clinical practice discussions.",
+      "caveats": "small sample (N<100), single-center, short follow-up, participants blinded but outcome assessors were not",
+      "fact_check_note": "Abstract states participants were blinded to treatment allocation but outcome assessors were not \u2014 this partial blinding limitation was noted. N=90 confirmed. Delirium rate of 72.2% at 15 min and 83.1% recovery by 30 min confirmed against abstract.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Psychopharmacology",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 7,
+      "relevance_score_reason": "Strong counterintuitive hook (most ECT patients become delirious, yet almost all recover fast) and a clean RCT design lift the score, but the small single-centre N and partial blinding apply deductions.",
+      "pitch_angles": [
+        {
+          "headline": "Nearly three-quarters of ECT patients become delirious \u2014 but it's usually over in half an hour",
+          "hook": "Post-ECT delirium is far more common than most patients are told \u2014 but a new study finds it almost always vanishes within 30 minutes.",
+          "why_it_fits": "NS Mind readers who follow mental health treatment debates will find this reframes a widely feared side effect of ECT, potentially affecting how doctors and patients talk about the procedure.",
+          "pitch_angle": "A randomised trial of 90 patients found that 72% became delirious immediately after electroconvulsive therapy \u2014 a rate much higher than typically discussed \u2014 yet 83% had fully recovered within 30 minutes. The study also found that the anaesthetic used matters: thiopental and etomidate were associated with far lower odds of delirium than propofol, suggesting a practical lever clinicians may be underusing. With ECT stigma already high, evidence that its most alarming short-term side effect is largely transient \u2014 and potentially modifiable \u2014 is a significant reframe.",
+          "caveats_to_flag": "Small single-centre trial (N=90) from one Indian hospital; outcome assessors were not blinded; results need replication in larger, multicenter studies before influencing clinical guidelines."
+        }
+      ]
+    },
+    {
+      "pmid": "42587257",
+      "headline": "Censoring LGBT+ media made Chinese men less accepting of same-sex relationships \u2014 but the internet softened the blow",
+      "journal": "Archives of Sexual Behavior",
+      "pubdate": "2026 Aug 12",
+      "doi": "10.1007/s10508-026-03498-y",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used interrupted time series analysis on data from the Chinese General Social Survey (2010\u20132021, N = 66,057) to examine how China's 2017 policy restricting SGM media portrayals was associated with public attitudes toward same-sex behavior. The policy was associated with a significant short-term drop in accepting attitudes overall (27% lower odds), with men showing a larger decrease (38% lower odds) than women. In the longer term, a counterintuitive divergence emerged: frequent internet users saw their rate of attitude improvement slow, while infrequent internet users actually accelerated their pace of growing acceptance.",
+      "why_it_matters": "The findings suggest that state-level media censorship can measurably shift public attitudes toward sexual minorities, but that internet access may partly buffer or complicate those effects \u2014 with implications for how information environments shape social acceptance globally.",
+      "caveats": "observational design, self-reported outcomes, single-country (China-specific policy context)",
+      "fact_check_note": "Abstract confirmed N = 66,057, interrupted time series design, direction of effects as summarised. The infrequent internet users' acceleration in positive attitudes post-policy is counterintuitive and accurately reflected. No corrections needed.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Psychiatry",
+      "chunk": "1/2",
+      "status": "new",
+      "relevance_score": 8,
+      "relevance_score_reason": "Large human dataset, counterintuitive internet-user divergence finding, strong societal hook around censorship and LGBT+ acceptance that NS Mind readers care about, offset slightly by single-country observational design.",
+      "pitch_angles": [
+        {
+          "headline": "Censoring LGBT+ media backfired for offline Chinese citizens \u2014 their acceptance of same-sex relationships actually grew faster",
+          "hook": "When China banned LGBT+ content from its airwaves in 2017, people who rarely used the internet became more accepting of same-sex relationships \u2014 not less.",
+          "why_it_fits": "NS Mind readers are fascinated by how media environments and government policy shape social attitudes, and this finding directly challenges the intuition that censorship uniformly suppresses acceptance.",
+          "pitch_angle": "A Stanford-led analysis of more than 66,000 Chinese survey respondents found that the 2017 censorship policy immediately pushed attitudes toward same-sex relationships in a more negative direction \u2014 particularly among men. But over time, something unexpected happened: people who rarely went online grew more accepting at a faster rate than before the ban, while heavy internet users slowed down. The study raises pointed questions about how information bubbles, state control, and offline social networks interact to shape tolerance. With governments worldwide debating restrictions on LGBT+ media, the finding has relevance well beyond China.",
+          "caveats_to_flag": "Observational design means causation cannot be established; results are specific to China's political and media context and may not generalise; attitudes were self-reported and social desirability bias may affect responses on a sensitive topic; the mechanism behind the infrequent-user acceleration remains unexplained."
+        }
+      ]
+    },
+    {
+      "pmid": "42581633",
+      "headline": "Cuteness isn't about protecting the helpless \u2014 it evolved to make us teach the curious",
+      "journal": "Behavioral and Brain Sciences",
+      "pubdate": "2026 Aug 12",
+      "doi": "10.1017/S0140525X26106918",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Two researchers from French institutions synthesised evidence from evolutionary anthropology, cognitive neuroscience, developmental psychology, and social science to propose a new theory of why we perceive things as cute. The dominant view since Konrad Lorenz has held that cute features \u2014 big eyes, round faces \u2014 trigger protective instincts because they signal vulnerability. The authors argue this cannot explain why children are judged cutest not when helpless, but when sociable and curious, or why na\u00efvet\u00e9 and enthusiasm make adults seem cute too. Their 'developmental investment theory' proposes that cuteness evolved as a motivational system to elicit teaching, guidance, and social play toward inexperienced-but-eager individuals, not just protection of the defenceless.",
+      "why_it_matters": "Reframing cuteness as a teaching-motivation system rather than a protection reflex reshapes how we understand human bonding, pedagogy, and even the explosion of 'cute' aesthetics in modern consumer culture.",
+      "caveats": "None identified",
+      "fact_check_note": "This is a theoretical synthesis paper, not an empirical study \u2014 there is no N or experimental manipulation. The abstract does not report original data. This is accurately reflected in the summary, which describes it as a synthesis and theory paper. No corrections needed.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Psychology",
+      "chunk": "1/3",
+      "status": "new",
+      "relevance_score": 8,
+      "relevance_score_reason": "Strongly counterintuitive overturning of a 70-year-old Lorenz hypothesis, high topic fit (social behaviour, emotion, evolutionary psychology), and a broad cultural hook \u2014 scored slightly down because it is a theoretical synthesis with no original empirical data.",
+      "pitch_angles": [
+        {
+          "headline": "Cuteness isn't about protecting the helpless \u2014 it makes us want to teach",
+          "hook": "For 70 years, scientists thought we find things cute because they look vulnerable \u2014 a new theory says we're actually responding to learning potential.",
+          "why_it_fits": "NS Mind readers are fascinated by evolutionary explanations for everyday emotions, and 'cuteness' is a universal experience with almost no satisfying scientific account \u2014 until now.",
+          "pitch_angle": "A sweeping new theoretical paper argues that Lorenz's classic 'baby schema' account of cuteness \u2014 that it evolved to protect the helpless \u2014 cannot explain why children are judged cutest when curious and sociable rather than when distressed, or why adults seem cute when they display enthusiasm and teachability. The authors propose instead that cuteness is a motivational system that evolved to recruit investment in the development of inexperienced-but-eager individuals: not rescue, but mentorship. The theory also explains why modern, knowledge-rich societies are saturated in cute aesthetics, and why women disproportionately perform cuteness in patriarchal contexts.",
+          "caveats_to_flag": "This is a theoretical synthesis, not a new empirical study \u2014 the authors have not tested the theory experimentally. Journalists should present it as a compelling new framework, not an established finding."
+        }
+      ]
+    },
+    {
+      "pmid": "42580452",
+      "headline": "Acupuncture brain-wave studies show promise but are too inconsistent to prove anything yet",
+      "journal": "Behavioural Brain Research",
+      "pubdate": "2026 Aug 11",
+      "doi": "10.1016/j.bbr.2026.116408",
+      "groundbreaking": "Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a critical narrative review of studies over the past decade that used endogenous event-related potentials (ERPs) \u2014 brain-wave markers of cognitive and emotional processing \u2014 to evaluate acupuncture's effects on cognitive disorders and neuropsychiatric conditions. Most reviewed studies reported improvements in ERP parameters following acupuncture-related treatments, with some also noting associations between ERP changes and clinical symptom improvement. However, the review found widespread methodological problems including high heterogeneity, lack of reliability validation, and difficulty isolating acupuncture effects in combined-treatment designs. The authors conclude current findings should be treated as exploratory signals, not evidence of efficacy.",
+      "why_it_matters": "As acupuncture is increasingly used for mental health and cognitive conditions, this review highlights that objective brain-based measures are not yet reliable enough to confirm or refute its effectiveness \u2014 a caution relevant to both patients and clinicians.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "This is a narrative review, not an original study with a participant N \u2014 summary reflects this correctly. No industry funding declared.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Behavioral Sciences",
+      "chunk": "2/2",
+      "status": "new",
+      "relevance_score": 5,
+      "relevance_score_reason": "Relevant mental-health topic and counterintuitive message (brain-wave studies don't actually prove acupuncture works) but it is a narrative review without new data, limiting its punch for NS Mind.",
+      "pitch_angles": [
+        {
+          "headline": "Brain scans appear to show acupuncture working \u2014 but scientists say the evidence is a mess",
+          "hook": "A decade of studies using sophisticated brain-wave measurements suggests acupuncture changes how the brain processes cognition and emotion \u2014 but a new review finds the research is too flawed to mean very much.",
+          "why_it_fits": "NS Mind readers are curious about the science behind alternative therapies and how brain measurement tools are (and aren't) being used rigorously.",
+          "pitch_angle": "Studies measuring electrical brain responses have repeatedly found that acupuncture appears to alter markers of cognitive and emotional processing. On paper, that sounds like compelling neurological evidence. But a new critical review finds that these studies are so methodologically inconsistent \u2014 combining acupuncture with other treatments, failing to validate their measurements, using incompatible protocols \u2014 that no firm conclusions can be drawn. It's a story about how sophisticated-looking technology can create an illusion of scientific progress.",
+          "caveats_to_flag": "Narrative (not systematic) review, so may not capture all relevant literature; all studies reviewed were in clinical populations in China (Chengdu University of Traditional Chinese Medicine), raising generalisability questions; authors have no declared conflicts but are based at a TCM institution."
+        }
+      ]
+    },
+    {
+      "pmid": "42578540",
+      "headline": "Going to church out of guilt actively erodes your sense of meaning in life over time",
+      "journal": "Journal of Personality",
+      "pubdate": "2026 Aug 11",
+      "doi": "10.1111/jopy.70091",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a preregistered longitudinal study, researchers tracked 2,056 emerging adults across four measurement points spaced six months apart, examining how different motivations for religious practice related to their sense of meaning in life. Using cross-lagged panel models, they found that practising religion for external reasons (e.g., social pressure) or out of guilt and obligation (introjected motivation) was associated with lower meaning in life over time. By contrast, practising religion because it genuinely aligned with one's values (identified motivation) was reciprocally associated with higher meaning, with each reinforcing the other.",
+      "why_it_matters": "The findings suggest that the psychological benefit \u2014 or cost \u2014 of religious participation depends heavily on why someone engages in it, not just whether they do, which has implications for how wellbeing researchers and clinicians think about spirituality.",
+      "caveats": "single-center, self-reported outcomes",
+      "fact_check_note": "The study is from Baylor University, a single institution, though the sample of N=2056 is large. Participants are described as 'emerging adults' \u2014 likely a college-age sample from one university, which limits generalisability. Added single-center and self-reported outcomes as caveats accordingly.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Psychology",
+      "chunk": "1/3",
+      "status": "new",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive finding (religion can harm meaning in life), strong N, longitudinal preregistered design, and high topic fit for NS Mind's coverage of wellbeing, motivation, and social behaviour \u2014 docked one point for likely single-institution emerging-adult sample.",
+      "pitch_angles": [
+        {
+          "headline": "Going to church out of guilt actively erodes your sense of meaning in life",
+          "hook": "Religion is widely assumed to boost wellbeing \u2014 but a two-year longitudinal study finds that practising it for the wrong reasons does the opposite.",
+          "why_it_fits": "Questions about why religion sometimes helps and sometimes harms mental health are of wide interest to NS Mind readers navigating secular and spiritual identities.",
+          "pitch_angle": "A preregistered study of over 2,000 young adults found that attending religious services out of external pressure or guilt was associated with a declining sense of meaning in life across two years \u2014 while doing so out of genuine personal conviction showed the reverse, reciprocally reinforcing each other. The findings challenge blanket claims that religion is good (or bad) for mental health, and suggest the motivation behind any practice matters as much as the practice itself. This has implications well beyond religion \u2014 for exercise, volunteering, or any behaviour we do because we feel we 'should'.",
+          "caveats_to_flag": "Sample is likely drawn from a single US Christian university (Baylor), so findings may not generalise to non-Christian traditions, non-Western contexts, or older adults. All measures are self-reported."
+        }
+      ]
+    },
+    {
+      "pmid": "42586005",
+      "headline": "Most teenagers' urge to smoke stays low for years \u2014 but a small group escalates fast",
+      "journal": "Addictive Behaviors",
+      "pubdate": "2026 Aug 11",
+      "doi": "10.1016/j.addbeh.2026.108830",
+      "groundbreaking": "Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers tracked smoking susceptibility in 5,045 South Korean adolescents across five annual waves (ages 11\u201316) using latent class growth analysis. Three trajectory groups emerged: a large low-stable group (88.4%), a small increasing group (5.6%), and a high-decreasing group (6.0%). Adolescents in the increasing and high-decreasing groups were significantly more likely to have used cigarettes, e-cigarettes, and heated tobacco products by age 15\u201316, with lower parental disapproval, lower perceived harm, and greater media exposure among the key distinguishing factors.",
+      "why_it_matters": "The findings suggest that a small but identifiable subgroup of adolescents shows escalating tobacco susceptibility during early-to-mid adolescence, pointing to parental attitudes and media exposure as potentially modifiable prevention targets \u2014 though the study's Korean context may limit direct generalisability.",
+      "caveats": "observational design, single-country (South Korea) sample, self-reported outcomes",
+      "fact_check_note": "",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Substance-Related Disorders",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 6,
+      "relevance_score_reason": "Solid longitudinal design and large N boost the score, but the Korea-specific context, observational nature, and self-reported outcomes limit generalisability and NS Mind appeal.",
+      "pitch_angles": [
+        {
+          "headline": "Only a tiny slice of teens are on track to smoke \u2014 and we can spot them at age 11",
+          "hook": "A five-year study of thousands of Korean adolescents found that the vast majority never become meaningfully tempted to smoke \u2014 but a small, identifiable group shows steadily rising susceptibility from as young as 11.",
+          "why_it_fits": "NS Mind readers are interested in how early-life social environments shape long-term behaviour, and this study offers a concrete, data-driven picture of adolescent risk trajectories.",
+          "pitch_angle": "Conventional thinking treats teenage smoking risk as fairly uniform, but this research shows it clusters into distinct developmental paths that diverge in early adolescence. The surprising finding is that parental disapproval and perceived harm \u2014 not peer pressure alone \u2014 most sharply separate the at-risk minority from the majority. With e-cigarettes and heated tobacco on the rise among young people, understanding who is actually at risk, and why, has real preventive value.",
+          "caveats_to_flag": "Data come entirely from South Korean adolescents, so cultural and policy contexts may differ substantially from Western settings; susceptibility was self-reported; causality cannot be inferred from this observational design."
+        }
+      ]
+    },
+    {
+      "pmid": "42572818",
+      "headline": "Having two therapists in a psychedelic session shapes the experience in ways researchers didn't anticipate",
+      "journal": "Psychology and Psychotherapy: Theory, Research and Practice",
+      "pubdate": "2026 Aug 10",
+      "doi": "10.1111/papt.70098",
+      "groundbreaking": "First-in-class human study / Included for relevance",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Monash University conducted longitudinal qualitative interviews with 18 participants enrolled in a randomised phase 2 clinical trial of psilocybin-assisted therapy for Generalised Anxiety Disorder (GAD) in Australia. Using 29 semi-structured interviews before and after dosing sessions, they explored how the co-therapy model \u2014 two therapists jointly supporting each participant \u2014 shaped the therapeutic experience. Participants described the co-therapy dyad as both a safety net and an active ingredient in the therapy, finding that having two therapists influenced trust, the depth of psychological insights, and how credible those insights felt after the session.",
+      "why_it_matters": "As psychedelic-assisted therapy moves toward clinical rollout, understanding how the therapy relationship itself shapes outcomes \u2014 not just the drug \u2014 could influence how future services are designed and staffed.",
+      "caveats": "small sample (N<100), single-center, qualitative design, open-label trial",
+      "fact_check_note": "Abstract describes the trial as 'randomised, open-label, phase 2'; confirmed N=18 participants, 29 interviews. No corrections needed.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Psychology",
+      "chunk": "3/3",
+      "status": "new",
+      "relevance_score": 7,
+      "relevance_score_reason": "Strong topic fit for NS Mind (psychedelics, therapy relationships, mental health treatment) with a novel human angle, but qualitative design and very small N cap the score.",
+      "pitch_angles": [
+        {
+          "headline": "Two therapists in a psychedelic session can make or break the experience",
+          "hook": "The relationship between patient and therapist is already central to mental health treatment \u2014 but in psychedelic-assisted therapy, having two therapists in the room may itself be an active therapeutic ingredient.",
+          "why_it_fits": "NS Mind readers are deeply interested in the science of psychedelic therapy and in the human dynamics that shape mental health outcomes \u2014 this study sits at that intersection.",
+          "pitch_angle": "Most psychedelic therapy research focuses on the drug dose or the set and setting \u2014 but this qualitative study from a phase 2 psilocybin trial found that the co-therapy model, two clinicians jointly supporting each patient, does something the researchers didn't fully anticipate: it actively shapes the depth and credibility of therapeutic insights, not just safety. As regulators begin approving psychedelic treatments, the question of whether every session needs two therapists has huge cost and access implications \u2014 and this research suggests the answer may not be simple.",
+          "caveats_to_flag": "Only 18 participants at a single Australian centre; qualitative design cannot establish causation; open-label trial means participants knew they received psilocybin; findings may not generalise to other psychedelic compounds or clinical contexts."
+        }
+      ]
+    },
+    {
+      "pmid": "42574138",
+      "headline": "Successive generations of Hispanic immigrants are getting physically stronger in old age, bucking US trends",
+      "journal": "Cultural Diversity and Ethnic Minority Psychology",
+      "pubdate": "2026 Aug 10",
+      "doi": "10.1037/cdp0000818",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used longitudinal data from the Health and Retirement Study to track physical health trajectories across birth cohorts of Hispanic immigrants in midlife and old age (N=3,007, 56% women, born 1890\u20131968). Using multilevel models, they found that more recent cohorts showed better physical functioning and grip strength compared to earlier cohorts, even as health conditions remained stable. This improvement runs counter to the overall decline in physical health seen across the broader US population over the same historical period.",
+      "why_it_matters": "The findings suggest that aspects of immigrant experience or culture may confer physical resilience into old age, and that the widely documented deterioration of US population health is not inevitable \u2014 some subgroups appear to be moving in the opposite direction.",
+      "caveats": "observational design, self-reported outcomes, secondary analysis",
+      "fact_check_note": "",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Social Sciences",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding that directly contradicts broader US population health trends, with a large longitudinal sample and clear societal hook, but docked for observational design and secondary analysis limitations.",
+      "pitch_angles": [
+        {
+          "headline": "Hispanic immigrants are defying America's physical health decline \u2014 and getting stronger with each generation",
+          "hook": "While the US population's physical health has broadly deteriorated over recent decades, successive cohorts of Hispanic immigrants are arriving in midlife and old age in better physical shape than those who came before them.",
+          "why_it_fits": "NS Mind readers are drawn to findings that challenge dominant narratives about aging and health inequality \u2014 this one does both at once.",
+          "pitch_angle": "A large longitudinal study of over 3,000 Hispanic immigrants found that newer cohorts showed measurably better grip strength and physical functioning in old age than earlier cohorts \u2014 even as America's overall physical health went in the other direction. The finding challenges assumptions about the health costs of immigration and raises intriguing questions about what immigrant life experience might actually protect against the forces eroding health in the wider US population. The societal stakes are high at a time of intense political debate over immigration's costs and benefits.",
+          "caveats_to_flag": "Observational design means causation cannot be established; outcomes partly rely on self-report; data are from a secondary analysis of an existing study; the mechanisms behind the improvement remain speculative."
+        }
+      ]
+    },
+    {
+      "pmid": "42486671",
+      "headline": "Your brain resets its motion-tracking system every time a moving object crosses the centre of your vision",
+      "journal": "eNeuro",
+      "pubdate": "2026 Aug",
+      "doi": "10.1523/ENEURO.0004-26.2026",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used the 'flash-jump illusion' \u2014 in which a brief colour change in a moving bar appears shifted in the direction of motion \u2014 to probe how the brain predicts moving-object positions. Testing human participants of both sexes across two experiments, they found that longer motion histories improved localization accuracy, but this adaptation was confined to each visual half-field (hemifield). Crucially, when a moving object crossed the vertical midline of the visual field, mislocalization transiently reappeared, suggesting that motion-prediction systems in each brain hemisphere operate largely independently, with limited information transfer across the midline.",
+      "why_it_matters": "This finding reframes how the brain handles continuous motion \u2014 including during eye tracking \u2014 and suggests that smooth eye movements may have evolved partly to compensate for the brain's limited ability to share motion information between its two hemispheres.",
+      "caveats": "small sample (N<100), single-center",
+      "fact_check_note": "Abstract does not report exact N; study involves human participants across two experiments but exact sample size is not stated in the abstract. Flagged as small sample given the experimental psychophysics context. No other corrections needed.",
+      "excluded": false,
+      "run_date": "2026-08-14",
+      "category": "Brain",
+      "chunk": "1/1",
+      "status": "new",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive finding about visual perception in humans earns points, but the technical subject matter (hemifield adaptation, MT/MST areas) and lack of a clear lifestyle or mental-health hook limit its appeal for NS Mind's core readership.",
+      "pitch_angles": [
+        {
+          "headline": "Your brain loses track of moving objects every time they cross the middle of your vision",
+          "hook": "Every time something moves from one side of your visual field to the other, your brain momentarily forgets what it knew about that object's motion \u2014 and has to start over.",
+          "why_it_fits": "NS Mind readers fascinated by the quirks of perception and consciousness will find this a vivid illustration of how the two brain hemispheres fail to fully cooperate.",
+          "pitch_angle": "A new study shows that the brain's ability to predict where a moving object will be next is reset each time the object crosses the vertical midline of your vision \u2014 the invisible boundary between the left and right visual fields. Rather than sharing motion history seamlessly, the two brain hemispheres appear to work in relative isolation, briefly 'forgetting' what the other side learned. The authors suggest this is why smooth eye-tracking movements exist: they may be an evolutionary workaround for a fundamental flaw in how our hemispheres communicate.",
+          "caveats_to_flag": "Exact sample size not reported in the abstract; highly controlled lab illusion may not fully reflect real-world motion perception; single research group."
         }
       ]
     },
@@ -87,35 +928,6 @@
           "why_it_fits": "NS Mind readers care about the psychology of medical decision-making, parental experience of chronic illness, and what keeps families engaged with science even in the face of uncertainty.",
           "pitch_angle": "Researchers surveyed 44 caregivers of children with Dravet syndrome \u2014 a devastating, drug-resistant epilepsy \u2014 about their experience of participating in four clinical trials over nearly three decades. Rather than regret or disillusionment, the dominant emotion reported was hope, and post-trial feelings of solitude or regret were strikingly rare. The finding challenges assumptions about how families process the disappointment of trial failure and raises questions about how the emotional architecture of clinical research is discussed publicly.",
           "caveats_to_flag": "Very small sample (N=44), self-reported and retrospective data, survey conducted in French only (likely French-speaking families), no comparison group of caregivers who declined participation, and results may reflect selection bias toward families already positively disposed to research."
-        }
-      ]
-    },
-    {
-      "pmid": "42579964",
-      "headline": "Schizophrenia brains show opposite timing shifts in cortex and deeper regions \u2014 even before medication starts",
-      "journal": "Asian Journal of Psychiatry",
-      "pubdate": "2026 Aug 7",
-      "doi": "10.1016/j.ajp.2026.105112",
-      "groundbreaking": "First-in-class human study / Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used resting-state fMRI to measure intrinsic neural timescales (INT) \u2014 how long brain regions retain information \u2014 in 123 first-episode schizophrenia patients who were drug-na\u00efve or minimally treated, compared with 102 matched healthy controls. They found a striking divergent pattern: cortical regions (particularly in the default mode network) showed shorter neural timescales, while subcortical regions showed longer ones. These opposite-direction changes, associated with synapse-related genes and cerebral blood flow patterns, suggest that disrupted neural timing may be a feature of schizophrenia independent of medication effects.",
-      "why_it_matters": "Identifying a neurobiological signature present before significant medication exposure brings researchers closer to early-stage biomarkers for schizophrenia, which could eventually support earlier detection efforts.",
-      "caveats": "single-center, observational design",
-      "fact_check_note": "Abstract states two scanner sites were controlled for statistically; study is from a single institution (Second Xiangya Hospital, China) but used multi-scanner data \u2014 described as single-center in affiliation but scanner-site was a covariate. Noted as single-center per institutional affiliation. N=123 patients and N=102 controls confirmed in abstract.",
-      "excluded": false,
-      "run_date": "2026-08-13",
-      "category": "Psychiatry",
-      "chunk": "2/2",
-      "status": "new",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive cortical-vs-subcortical divergence in drug-na\u00efve patients is compelling, but the neuroimaging/timescale concept requires significant unpacking for a general audience and the Chinese single-institution sample limits immediate global resonance.",
-      "pitch_angles": [
-        {
-          "headline": "Schizophrenia shifts brain timing in opposite directions at once \u2014 and drugs aren't to blame",
-          "hook": "In people experiencing their first episode of schizophrenia, two parts of the brain appear to be running at mismatched speeds \u2014 and this happens before antipsychotic medication has had any chance to intervene.",
-          "why_it_fits": "NS Mind readers fascinated by consciousness, perception, and mental illness will be gripped by the idea that schizophrenia may fundamentally scramble the brain's internal clock in a counterintuitive, region-specific way.",
-          "pitch_angle": "Scientists studying 123 drug-na\u00efve schizophrenia patients found that the brain's cortex processes information too quickly while deeper subcortical regions slow down \u2014 a divergence nobody expected. Because patients hadn't yet taken significant medication, this suggests the timing mismatch is a core feature of the illness, not a treatment side-effect. If confirmed, such a 'temporal fingerprint' could eventually help clinicians identify schizophrenia earlier.",
-          "caveats_to_flag": "All participants were recruited from a single Chinese institution, limiting how far findings generalise; the study is observational so causation cannot be established; 'minimally treated' patients were included alongside drug-na\u00efve patients, introducing some heterogeneity."
         }
       ]
     },
@@ -381,35 +1193,6 @@
       ]
     },
     {
-      "pmid": "42583768",
-      "headline": "Most post-ECT delirium clears within 30 minutes \u2014 and the anaesthetic used makes a big difference",
-      "journal": "Nordic Journal of Psychiatry",
-      "pubdate": "2026 Aug 12",
-      "doi": "10.1080/08039488.2026.2716243",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a prospective randomised trial at a tertiary care centre in India, randomly assigning 90 adult patients undergoing electroconvulsive therapy (ECT) to one of three anaesthetics: propofol, etomidate, or thiopental (n=30 each). Post-ECT delirium was strikingly common, occurring in 72% of patients at 15 minutes after eye-opening, but the vast majority \u2014 around 83% of those affected \u2014 had recovered by 30 minutes. Longer seizure duration was independently associated with higher odds of delirium, while patients given thiopental or etomidate had substantially lower odds of delirium compared with those given propofol.",
-      "why_it_matters": "ECT remains one of the most effective treatments for severe depression and other psychiatric conditions, and understanding how to minimise its side effects \u2014 including post-procedure confusion \u2014 could improve patient experience and clinical practice. These findings suggest that the choice of anaesthetic agent may be a modifiable factor in post-ECT delirium risk.",
-      "caveats": "small sample (N<100), single-center, outcome assessors not blinded, short follow-up, study population limited to India",
-      "fact_check_note": "Abstract states N=90 with n=30 per group. Delirium at 15 min affected 65/90 patients (72.2%, not 65%); 54 of those 65 (83.1%) recovered by 30 min \u2014 figures verified and accurately reflected in summary. Noted that outcome assessors were not blinded (participants were blinded to allocation), added to caveats.",
-      "excluded": false,
-      "run_date": "2026-08-13",
-      "category": "Psychopharmacology",
-      "chunk": "1/1",
-      "status": "new",
-      "relevance_score": 6,
-      "relevance_score_reason": "Counterintuitive prevalence finding (delirium in nearly three-quarters of ECT patients) and clinically relevant anaesthetic comparison lift this, but small single-centre sample, non-blinded assessors, and limited generalisability hold the score back.",
-      "pitch_angles": [
-        {
-          "headline": "Nearly three-quarters of ECT patients become delirious \u2014 but almost all recover within half an hour",
-          "hook": "Post-ECT delirium is far more common than many assume, but a new study suggests it is also far more fleeting \u2014 and that the anaesthetic used may be a lever clinicians can pull.",
-          "why_it_fits": "NS Mind readers are curious about mental health treatments and their real-world tolerability; the surprising prevalence figure and the actionable anaesthetic finding make this accessible and timely.",
-          "pitch_angle": "A randomised trial of 90 patients receiving ECT found that 72% developed delirium shortly after waking \u2014 yet 83% of those had fully cleared within 30 minutes. Crucially, the choice of anaesthetic mattered: thiopental and etomidate were associated with dramatically lower odds of delirium than propofol. ECT is experiencing a quiet rehabilitation in psychiatry after years of stigma, and findings that could make it safer and more tolerable are directly relevant to that conversation.",
-          "caveats_to_flag": "Single-centre study in India (n=90), outcome assessors were not blinded to treatment group, follow-up was limited to 30 minutes post-procedure, and results need replication in larger multicentre trials before any clinical guidance changes."
-        }
-      ]
-    },
-    {
       "pmid": "42583847",
       "headline": "Blood-pressure drugs hyped as psychiatric treatments show no benefit over standard care in largest real-world test",
       "journal": "Journal of Psychopharmacology",
@@ -439,35 +1222,6 @@
       ]
     },
     {
-      "pmid": "42572818",
-      "headline": "Having two therapists in the room shapes the psychedelic experience itself, not just safety",
-      "journal": "Psychology and Psychotherapy: Theory, Research and Practice",
-      "pubdate": "2026 Aug 10",
-      "doi": "10.1111/papt.70098",
-      "groundbreaking": "First-in-class human study / Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Monash University conducted longitudinal qualitative interviews with 18 participants (29 interviews total) drawn from a phase 2 randomised clinical trial of psilocybin-assisted therapy for Generalised Anxiety Disorder. The study found that having two co-therapists present did more than provide safety \u2014 it actively shaped the therapeutic process and the perceived credibility of insights gained during dosing sessions. Participants reported that the relational dynamics between themselves and the therapist pair became a meaningful part of the therapeutic experience itself.",
-      "why_it_matters": "As psychedelic-assisted therapy moves toward clinical rollout, decisions about staffing \u2014 including whether to use one or two therapists \u2014 may have consequences beyond logistics, potentially influencing therapeutic outcomes and who can access treatment.",
-      "caveats": "small sample (N<100), observational design, single-center, qualitative self-reported outcomes",
-      "fact_check_note": "Abstract specifies n=18 participants via 29 interviews; confirmed. Study is sampled from a larger RCT but is itself qualitative \u2014 noted as observational/qualitative design rather than RCT.",
-      "excluded": false,
-      "run_date": "2026-08-13",
-      "category": "Psychology",
-      "chunk": "3/3",
-      "status": "new",
-      "relevance_score": 7,
-      "relevance_score_reason": "Strong topic fit for NS Mind (psychedelic therapy, relationships, mental health treatment) with a counterintuitive finding that co-therapy shapes the psychedelic experience itself; penalised for small qualitative sample and self-reported data.",
-      "pitch_angles": [
-        {
-          "headline": "Having two therapists during a psychedelic trip changes the trip itself",
-          "hook": "When people take psilocybin in a clinical setting, the relationship dynamics between them and their two therapists don't just keep them safe \u2014 they become part of the therapeutic experience.",
-          "why_it_fits": "NS Mind readers interested in the science and practice of psychedelic therapy will want to know that the 'co-therapy' model, now standard in clinical trials, may be doing something far more complex than researchers assumed.",
-          "pitch_angle": "Most discussion of co-therapy in psychedelic trials frames two therapists as a safety measure. A new qualitative study from Monash University suggests something stranger: participants report that having two therapists shaped the insights they had during dosing sessions and made those insights feel more credible. The relational web in the room \u2014 between patient, therapist one, and therapist two \u2014 became therapeutic material in itself. As psychedelic therapy edges toward mainstream practice, this raises urgent questions about training, cost, and access.",
-          "caveats_to_flag": "Only 18 participants, all from a single Australian trial site; qualitative findings cannot be generalised quantitatively; participants knew they were in a clinical trial, which may colour their reflections."
-        }
-      ]
-    },
-    {
       "pmid": "42574736",
       "headline": "Mystical experiences during psychedelic use may be what makes people mentally flexible, not the drug itself",
       "journal": "Journal of Psychoactive Drugs",
@@ -493,35 +1247,6 @@
           "why_it_fits": "As psychedelic therapy moves toward mainstream clinical use, NS Mind readers want to understand what's actually working \u2014 and this study offers a provocative answer that reframes the entire field.",
           "pitch_angle": "A new survey study found that people who had used psychedelics were more psychologically flexible \u2014 better able to adapt their thoughts and behaviours \u2014 but only because they were more likely to have had profound mystical experiences. When researchers modelled the data, the drug use itself had no direct effect; the mystical experience was the apparent mediator. This challenges a purely pharmacological view of psychedelic therapy and suggests that set, setting, and the quality of the experience itself may matter as much as the chemical.",
           "caveats_to_flag": "Retrospective self-report design means recall bias is a serious concern; sample is predominantly white and college-educated, limiting generalisability; correlational design cannot establish that mystical experiences cause psychological flexibility; the exact sample size is not reported precisely in the abstract."
-        }
-      ]
-    },
-    {
-      "pmid": "42574138",
-      "headline": "Newer generations of Hispanic immigrants are physically healthier in old age \u2014 even as wider US trends worsen",
-      "journal": "Cultural Diversity and Ethnic Minority Psychology",
-      "pubdate": "2026 Aug 10",
-      "doi": "10.1037/cdp0000818",
-      "groundbreaking": "Counterintuitive finding / Overturns prior research",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Arizona State University used multilevel models to analyse longitudinal data from the Health and Retirement Study, tracking physical health trajectories in N=3,007 middle-aged and older adult Hispanic immigrants (56% women, born 1890\u20131968) across successive birth cohorts. While diagnosed health conditions remained stable across cohorts, more recently born Hispanic immigrants showed better physical functioning and grip strength in midlife and old age compared with earlier-born peers. Notably, gender, education, age at immigration, and year of immigration did not moderate these improvements, and the gains run counter to declining physical health trends observed in the broader US population.",
-      "why_it_matters": "The finding challenges assumptions that successive immigrant cohorts inevitably experience worse health outcomes due to acculturation, and suggests something about the immigrant experience itself may be protective for physical ageing \u2014 a question with implications for public health and ageing research.",
-      "caveats": "observational design, self-reported outcomes (activities of daily living), secondary analysis",
-      "fact_check_note": "Abstract confirms N=3,007, longitudinal design using Health and Retirement Study, and that health conditions (not functioning) remained stable \u2014 summary reflects this distinction accurately.",
-      "excluded": false,
-      "run_date": "2026-08-13",
-      "category": "Social Sciences",
-      "chunk": "1/1",
-      "status": "new",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive finding that contradicts broader US health decline trends, decent sample size, longitudinal design, and a clear ageing/immigration hook \u2014 tempered by observational, secondary-analysis design with self-reported functioning measures.",
-      "pitch_angles": [
-        {
-          "headline": "Hispanic immigrants are getting physically healthier across generations \u2014 even as Americans overall are not",
-          "hook": "While the health of the broader US population has been declining, successive cohorts of Hispanic immigrants are actually arriving in old age in better physical shape than their predecessors.",
-          "why_it_fits": "NS Mind readers fascinated by the science of ageing, resilience, and what immigrant experience does to the body and brain will find this cohort trend genuinely surprising and sociologically rich.",
-          "pitch_angle": "A large longitudinal study tracking over 3,000 Hispanic immigrants across decades found that more recently born cohorts show significantly better physical functioning and grip strength in midlife and old age compared with earlier generations \u2014 a trend that bucks the declining health seen in the wider American population. Crucially, this improvement held regardless of gender, education level, or when people immigrated, suggesting the effect isn't easily explained by selection or socioeconomic factors. Researchers suggest something intrinsic to the immigrant developmental experience \u2014 perhaps psychological resilience, social cohesion, or cultural health practices \u2014 may be conferring a physical longevity advantage.",
-          "caveats_to_flag": "Observational secondary analysis of existing survey data; physical functioning measures are partly self-reported; causal mechanisms remain speculative; findings specific to Hispanic immigrants in the US."
         }
       ]
     },
@@ -700,35 +1425,6 @@
       ]
     },
     {
-      "pmid": "42570430",
-      "headline": "Longer or earlier medication doesn't boost quitting success \u2014 but the right counselling type might matter",
-      "journal": "Addictive Behaviors",
-      "pubdate": "2026 Aug 7",
-      "doi": "10.1016/j.addbeh.2026.108828",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers ran a factorial randomised controlled trial with 496 primary care patients (55% women, 45.6% Black) to test whether tweaking varenicline or combination nicotine replacement therapy \u2014 by starting medication earlier, running it longer, or pairing it with more intensive counselling \u2014 could improve quitting rates. No main effect of any of the four factors on abstinence at 12, 26, or 52 weeks was found. A three-way interaction suggested that more intensive cessation counselling improved quit rates for varenicline users who also had four weeks of pre-quit medication, but this pattern did not hold for combination NRT. The trial was discontinued early due to pandemic-related funding cuts, reaching N=496 of a planned N=608.",
-      "why_it_matters": "Prescribers often assume giving patients more medication for longer will improve outcomes, but this study suggests that for the most effective quit aids currently available, the type of counselling support may matter more than dosing strategy.",
-      "caveats": "small sample (N<608 planned, N=496 analysed), single-center (University of Wisconsin), short follow-up relative to lifetime smoking relapse, secondary analysis (study discontinued early), self-reported abstinence supplemented by biochemical confirmation",
-      "fact_check_note": "Abstract states abstinence was 'biochemically confirmed' at 52 weeks for the primary outcome \u2014 removed 'self-reported outcomes' flag for the primary outcome, but some secondary outcomes relied on self-report; retained note about early discontinuation and underpowering.",
-      "excluded": false,
-      "run_date": "2026-08-12",
-      "category": "Substance-Related Disorders",
-      "chunk": "1/1",
-      "status": "new",
-      "relevance_score": 6,
-      "relevance_score_reason": "Counterintuitive null finding on a widely-used clinical assumption (+2), human RCT with N\u2248500 (+2), clear lifestyle/public-health hook (+1), but underpowered due to early termination (\u22121), single-center (\u22121), and limited NS Mind topic fit (smoking cessation is relevant but not core NS Mind territory, \u22121); net 6.",
-      "pitch_angles": [
-        {
-          "headline": "Taking stop-smoking drugs for longer doesn't make quitting easier",
-          "hook": "Despite the intuitive appeal of 'more is more', a randomised trial finds that extending or front-loading the most effective quit-smoking medications makes no difference to whether smokers actually quit.",
-          "why_it_fits": "NS Mind readers are interested in evidence that challenges received medical wisdom, especially around behaviour change and the gap between clinical advice and real-world outcomes.",
-          "pitch_angle": "Doctors routinely tell patients to start their quit medication earlier and keep taking it longer \u2014 but a factorial RCT testing exactly those strategies found no benefit from doing so. What did show a hint of promise was the type of counselling paired with the drug. The finding reframes the smoking-cessation conversation away from pharmacology and toward psychology. Societal hook: with millions prescribed varenicline annually, this could influence how GP consultations are structured.",
-          "caveats_to_flag": "The trial was cut short by pandemic funding cuts (N=496 vs. planned 608), so it was underpowered; the three-way interaction finding is exploratory and should not be over-interpreted; conducted at a single US academic centre."
-        }
-      ]
-    },
-    {
       "pmid": "42566138",
       "headline": "Teens most prone to depression online are also the easiest to pull back from the brink",
       "journal": "Journal of Youth and Adolescence",
@@ -754,35 +1450,6 @@
           "why_it_fits": "NS Mind readers worried about teens, screens, and mental health will find a genuinely surprising answer about resilience hiding inside a crisis narrative.",
           "pitch_angle": "A year-long study of over 4,000 Chinese teenagers found that the group combining heavy depression with excessive internet use was not the hardest to shift \u2014 it was the depressive-dominant group that showed the highest spontaneous recovery rate. The research also pinpoints two psychological levers: a hair-trigger threat-sensitivity system that pulls teens into trouble, and self-control capacity that helps pull them out. The findings suggest that blanket interventions for all screen-addicted, depressed teens may be missing the point.",
           "caveats_to_flag": "Observational design means causation cannot be inferred; all measures self-reported; sample is Chinese adolescents only, limiting direct generalisability to Western contexts; missing follow-up data handled by imputation."
-        }
-      ]
-    },
-    {
-      "pmid": "42565749",
-      "headline": "LGBTQ+ people in Malaysia distrust state institutions most when they belong to multiple marginalised groups",
-      "journal": "Culture, Health & Sexuality",
-      "pubdate": "2026 Aug 7",
-      "doi": "10.1080/13691058.2026.2713046",
-      "groundbreaking": "First-in-class human study / Included for relevance",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Using a mixed-methods design, researchers surveyed 647 LGBTQ+ adults in Malaysia and analysed open-ended responses from 228 participants to examine institutional trust toward police, political, legal, and media institutions. Quantitative analyses found that cisgender women, trans men, and non-binary participants reported higher distrust than cisgender men, and that Malay and Indian participants reported higher distrust than Chinese participants. Qualitative themes identified three drivers of distrust: being scapegoated by institutions, fear of dehumanisation, and waning hope for the future.",
-      "why_it_matters": "Intersecting identities \u2014 gender identity and ethnicity \u2014 compound institutional distrust among LGBTQ+ people in countries with pervasive institutional discrimination, with likely consequences for health-seeking behaviour and long-term wellbeing.",
-      "caveats": "observational design, self-reported outcomes, single-country context (Malaysia) with limited generalisability to other settings",
-      "fact_check_note": "N=647 for survey, N=228 for open-ended qualitative component \u2014 both confirmed from abstract and accurately reflected in summary.",
-      "excluded": false,
-      "run_date": "2026-08-12",
-      "category": "Social Sciences",
-      "chunk": "1/1",
-      "status": "new",
-      "relevance_score": 6,
-      "relevance_score_reason": "Decent sample size and mixed-methods design strengthen credibility, and the intersectionality finding is genuinely interesting, but the single-country authoritarian context and observational self-report design limit the score.",
-      "pitch_angles": [
-        {
-          "headline": "Being LGBTQ+ in Malaysia is dangerous enough \u2014 but belonging to multiple minorities makes institutions feel even more hostile",
-          "hook": "Among LGBTQ+ people already living under institutional discrimination, it's trans, non-binary, and ethnically marginalised individuals who distrust the state most deeply.",
-          "why_it_fits": "NS Mind readers engaged with topics of social identity, discrimination, and mental health will find the intersectionality angle and its wellbeing consequences both intellectually and politically compelling.",
-          "pitch_angle": "A mixed-methods study of 647 LGBTQ+ adults in Malaysia \u2014 where same-sex relations are criminalised \u2014 found that institutional distrust isn't uniform: trans men, non-binary people, and ethnic minority participants reported sharper distrust of police, law, politics, and media than cisgender gay men. Qualitative responses pointed to scapegoating, fear of dehumanisation, and a creeping loss of hope as the drivers. The findings raise urgent questions about how compounding marginalisation shapes health and civic participation globally.",
-          "caveats_to_flag": "Observational, self-reported design; single-country sample in a specific authoritarian legal context that may not generalise directly to Western or other settings. Convenience sampling likely means participants may not represent all LGBTQ+ Malaysians, particularly those least visible."
         }
       ]
     },
