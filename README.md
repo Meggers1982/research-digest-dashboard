@@ -1,10 +1,10 @@
 # Research Digest Dashboard
 
-One GitHub Pages dashboard for multiple separate research digest repositories.
+One dashboard for multiple separate research digest repositories.
 
 Each digest repo stays independent. After its workflow finishes, it publishes one JSON file into this dashboard repo under `data/`. The dashboard loads every source listed in `data/sources.json`, merges the studies, deduplicates by PMID, and shows one searchable, filterable interface.
 
-https://meggers1982.github.io/research-digest-dashboard/
+https://research-digest-dashboard.vercel.app
 
 ## Structure
 
@@ -25,7 +25,7 @@ data/
   womens-health.json
 .github/
   workflows/
-    pages.yml
+    sync-new-scientist.yml
 ```
 
 ## Data Shape
@@ -54,13 +54,17 @@ The dashboard also tolerates older source files shaped like:
 
 When a source does not include `source_id` or `source_label`, the dashboard fills them from `data/sources.json`.
 
-## GitHub Pages
+## Hosting
 
-1. Create a GitHub repo for this folder.
-2. Push the repo to GitHub.
-3. Go to **Settings -> Pages**.
-4. Set source to **GitHub Actions**.
-5. Push to `main`; `.github/workflows/pages.yml` deploys the static site.
+The dashboard is hosted on Vercel at https://research-digest-dashboard.vercel.app
+
+The Vercel project builds this repo directly (root directory `.`, framework
+"Other"), so every push to `main` redeploys the static site. No build step and no
+workflow are involved.
+
+GitHub Pages previously served a second copy of this dashboard at
+`meggers1982.github.io/research-digest-dashboard`. It was retired in favor of the
+Vercel deployment, and `.github/workflows/pages.yml` was removed along with it.
 
 ## Digest Repo Publishing
 
