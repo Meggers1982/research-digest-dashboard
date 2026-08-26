@@ -1,489 +1,1089 @@
 {
-  "last_updated": "2026-08-25T12:07:01.370092+00:00",
-  "total_studies": 813,
-  "new_this_run": 8,
+  "last_updated": "2026-08-26T12:06:41.682768+00:00",
+  "total_studies": 822,
+  "new_this_run": 13,
   "studies": [
     {
+      "pmid": "42641188",
+      "headline": "Portable silica dust detectors may not be sensitive enough to protect miners \u2014 a cheap fix involving filter concentration could help",
+      "journal": "Journal of Occupational and Environmental Hygiene",
+      "pubdate": "2026 Aug 25",
+      "doi": "10.1080/15459624.2026.2707987",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at the Desert Research Institute and University of Nevada Reno evaluated Raman spectroscopy as a tool for measuring respirable crystalline silica (RCS) \u2014 the dust that causes silicosis \u2014 directly on collection filters from coal dust samples. They found that portable Raman spectrometers have limits of quantification (0.21\u20133.25 \u00b5g/mm\u00b2) substantially higher than standard infrared methods (0.018\u20130.152 \u00b5g/mm\u00b2), meaning they often cannot detect dangerous silica levels on standard 37 mm filters. A simple adaptation \u2014 concentrating the sample onto a 9 mm deposit area \u2014 increased Raman signal intensity more than tenfold, potentially making portable field measurements viable.",
+      "why_it_matters": "Silicosis is a deadly and resurging occupational disease among miners and construction workers, and accurate real-time field monitoring tools are critical for protecting workers from dangerous dust exposure.",
+      "caveats": "single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Clear occupational health hook; silicosis resurging in mining; practical measurement fix identified.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American",
+          "headline": "The portable silica detectors meant to protect miners may not be sensitive enough \u2014 but a small hardware tweak could fix that",
+          "hook": "Portable Raman spectrometers promoted for field-monitoring of deadly silica dust have detection limits up to 18 times worse than lab-standard infrared methods \u2014 meaning hazardous exposures could go unmeasured.",
+          "pitch_angle": "A systematic evaluation found that concentrating dust samples onto a smaller filter area more than tenfold improves Raman sensitivity, potentially bridging the gap between portable convenience and regulatory-grade accuracy. At a moment when silicosis is re-emerging among stone countertop workers and miners, the stakes for getting this right are high."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42641276",
+      "headline": "A carbon-capture building material 'fix' may be quietly leaching toxic metals after demolition",
+      "journal": "Journal of Environmental Management",
+      "pubdate": "2026 Aug 25",
+      "doi": "10.1016/j.jenvman.2026.130796",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers synthesized evidence from 24 studies examining what happens to carbonated alkaline industrial waste materials \u2014 promoted as a dual-win strategy for sequestering CO\u2082 and replacing conventional construction materials \u2014 when they reach end of life and are crushed or demolished. While carbonation efficiently immobilizes cationic metals like lead and zinc (90\u201399.9% efficiency), it simultaneously remobilizes dangerous oxyanionic species, with vanadium leaching increasing by 334\u2013470% and similar increases seen for chromium(VI), arsenic, and molybdenum. The authors argue that current regulatory frameworks, which test single metals without end-of-life crushing scenarios, are not designed to detect these divergent outcomes.",
+      "why_it_matters": "Green building materials marketed as climate solutions could be releasing toxic heavy metals into soil and groundwater at scale during demolition, exposing a critical blind spot in environmental regulations and carbon credit accounting.",
+      "caveats": "secondary analysis, observational design",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive finding overturning green-materials assumption; PFAS-adjacent regulatory blind spot; major public health and climate policy implications.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "A celebrated climate fix for the construction industry may be poisoning the ground after buildings come down",
+          "hook": "Industrial waste carbonated to capture CO\u2082 and used as green building material efficiently locks in some toxic metals \u2014 but may release far more vanadium, chromium, and arsenic when demolished.",
+          "pitch_angle": "A synthesis of 24 studies reveals a 'stability paradox': the same chemical process that earns carbon credits by locking away industrial waste also transforms stable heavy metals into mobile toxic forms that can leach into soil and water after a building's life ends. Regulators, carbon credit markets, and the construction industry may be counting on a green solution that isn't fully accounting for what happens at the other end."
+        },
+        {
+          "publication_type": "Scientific American",
+          "headline": "Carbon-storing building materials have a toxic chemistry problem nobody is regulating",
+          "hook": "Accelerated carbonation locks cationic heavy metals safely away but simultaneously converts vanadium, chromium, and arsenic into mobile forms that leach out when the material is crushed at demolition.",
+          "pitch_angle": "The mechanism \u2014 carbonate precipitation stabilizes positively charged metals while increasing pH-sensitive mobility of oxyanions \u2014 is chemically well understood but absent from regulatory frameworks and life cycle assessments used to validate these materials as climate solutions. The review calls for end-of-life crushing tests, expanded regulated element suites, and revised carbon credit accounting."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42248668",
+      "headline": "Long-read DNA sequencing unlocks a genetic variant that standard tests missed \u2014 reclassifying a family's cancer risk",
+      "journal": "Journal of Medical Genetics",
+      "pubdate": "2026 Aug 25",
+      "doi": "10.1136/jmg-2026-111541",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used long-read Oxford Nanopore sequencing with methylation profiling to investigate a structural variant in the intergenic region between EPCAM and MSH2 genes in a family with a strong Lynch syndrome cancer history. The variant had initially been classified as of uncertain significance by standard short-read sequencing. Long-read analysis revealed precise deletion breakpoints and confirmed MSH2 promoter hypermethylation with complete loss of protein expression, establishing the first evidence that intergenic EPCAM-MSH2 deletions can cause Lynch syndrome through epigenetic silencing.",
+      "why_it_matters": "Variants in non-coding DNA regions are routinely flagged as uncertain by standard genetic tests, and this case suggests some families may carry unrecognized hereditary cancer risk that only newer sequencing technology can detect.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Cancer genetics hook with clear diagnostic implication; single family limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American",
+          "headline": "Genetic Tests Missed This Family's Cancer Risk. Long-Read Sequencing Found It.",
+          "hook": "A standard genetic panel flagged a suspicious DNA deletion as 'uncertain significance' \u2014 but a newer sequencing technology revealed it was silencing a key cancer-protection gene.",
+          "pitch_angle": "Long-read nanopore sequencing resolved a structural variant in non-coding DNA that short-read tests couldn't interpret, reclassifying a family's Lynch syndrome status and establishing a new mechanism of hereditary cancer risk. The finding suggests that variants of uncertain significance in intergenic regions may be under-recognized drivers of inherited cancer syndromes, with implications for how clinicians interpret negative or ambiguous genetic test results."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42642943",
+      "headline": "More hydrogen in a solar cell coating actually makes it perform worse \u2014 and physicists finally know why",
+      "journal": "Advanced Materials",
+      "pubdate": "2026 Aug 25",
+      "doi": "10.1002/adma.74816",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Kangwon National University and Harvard investigated why some aluminum oxide passivation coatings on silicon solar cells perform better than others, despite containing less hydrogen \u2014 a property previously thought to be key to performance. Using ion-beam quantification and photo-induced force microscopy, they found that thermal ALD films contained more hydrogen (5.0 vs. 3.7 at%) but passivated silicon surfaces worse than plasma-enhanced ALD films, because residual methyl contaminants and incomplete oxidation \u2014 not hydrogen content \u2014 determine junction quality. Plasma-enhanced ALD films achieved minority-carrier lifetimes of 2,780 microseconds and solar cell efficiencies up to 9.15%, with simulations suggesting 3D microstructures could push efficiencies toward 20%.",
+      "why_it_matters": "Identifying chemical purity \u2014 not hydrogen content \u2014 as the true driver of silicon solar cell passivation quality could reshape manufacturing design rules for next-generation, dopant-free photovoltaics.",
+      "caveats": "single-center, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Counterintuitive materials science finding but narrow photovoltaics engineering focus, limited general audience hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired",
+          "headline": "Solar Cell Scientists Were Wrong About Hydrogen \u2014 and the Fix Could Make Panels More Efficient",
+          "hook": "For years, engineers assumed more hydrogen in a key solar cell coating meant better performance \u2014 a new study shows the opposite is true, and pinpoints exactly why.",
+          "pitch_angle": "Researchers discovered that it's chemical cleanliness at the atomic interface \u2014 not hydrogen abundance \u2014 that determines how well a silicon solar cell converts light to electricity, overturning a widely held assumption in photovoltaics manufacturing. The finding offers a clearer design principle for building more efficient, dopant-free solar cells at a moment when the solar industry is pushing hard to squeeze more power from cheaper materials."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42641878",
+      "headline": "War has shattered Ukraine's ability to track antibiotic-resistant infections \u2014 a WHO-led effort is trying to rebuild it from scratch",
+      "journal": "Clinical Microbiology and Infection",
+      "pubdate": "2026 Aug 25",
+      "doi": "10.1016/j.cmi.2026.08.030",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "WHO and international partners describe an ongoing effort to rebuild antimicrobial resistance (AMR) surveillance infrastructure in Ukraine amid active conflict, detailing the approach taken, progress achieved, challenges encountered, and future priorities. The paper documents how war-related disruptions to laboratories, supply chains, and healthcare systems have compromised the country's ability to detect and respond to drug-resistant infections. No sample size is reported; this is a policy and programmatic review rather than an empirical study.",
+      "why_it_matters": "As Ukraine's healthcare system operates under wartime conditions, collapsed AMR surveillance creates a blind spot that could allow resistant pathogens to spread undetected across borders into Europe and beyond.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "No abstract text was provided beyond the citation and author list; summary is based on the title, author affiliations, and journal context. Journalists should verify specific claims against the full text.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Antibiotic resistance and conflict-health topic; policy review limits empirical weight.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The War in Ukraine Is Creating a Hidden Antibiotic Resistance Crisis \u2014 and Europe May Pay the Price",
+          "hook": "While the world watches Ukraine's battlefields, a quieter catastrophe is unfolding in its hospitals: the country's ability to track and contain drug-resistant infections has been severely disrupted by war.",
+          "pitch_angle": "A WHO-led review documents how conflict has dismantled Ukraine's antimicrobial resistance surveillance network, leaving a dangerous gap in the region's ability to detect emerging superbugs. With Ukraine's borders open to millions of displaced people moving across Europe, what happens to AMR surveillance in a war zone doesn't stay in a war zone."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42641172",
+      "headline": "The tiniest eukaryotic genomes ever found belong to parasites that rewired themselves to steal from their hosts \u2014 and 25 years of genomics is finally revealing how",
+      "journal": "Annual Review of Microbiology",
+      "pubdate": "2026 Aug 25",
+      "doi": "10.1146/annurev-micro-042424-034850",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This review marks 25 years since microsporidia became the first eukaryotic parasites to have their genome fully sequenced, revealing the smallest known eukaryotic genomes through extreme genomic reduction. The authors synthesize two and a half decades of genomics, transcriptomics, proteomics, and structural biology applied to these fungal intracellular parasites, which infect animals including humans and threaten food security in insects and fish. Key insights include how these parasites shed cellular machinery they co-opt from hosts, and how population genomics is beginning to reveal diversity and transmission dynamics.",
+      "why_it_matters": "Microsporidia infect immunocompromised people and devastate commercially important insects and fish, and understanding their stripped-down genomes could expose new vulnerabilities to target with treatments.",
+      "caveats": "None identified",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Fungi/parasite topic resonance with saved items; strong scientific breadth and public health hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American",
+          "headline": "These Parasites Deleted Most of Their DNA \u2014 and Became Nearly Impossible to Kill",
+          "hook": "Microsporidia stripped their genomes down to the bare minimum and outsource the rest to their hosts \u2014 making them extraordinarily hard to target with drugs.",
+          "pitch_angle": "Twenty-five years of genomic research on the eukaryotes with the smallest known genomes has revealed how these fungal parasites systematically shed their own cellular machinery while hijacking host biology. The review synthesizes what genomics has taught us about infection, diversity, and potential therapeutic targets for organisms that threaten immunocompromised patients and food-producing animals alike."
+        },
+        {
+          "publication_type": "National Geographic / Wired",
+          "headline": "Scientists Have Spent 25 Years Trying to Understand Life's Most Stripped-Down Parasite",
+          "hook": "A parasite so genomically reduced it barely looks like a eukaryote has spent 600 million years perfecting the art of living inside other cells.",
+          "pitch_angle": "Microsporidia \u2014 fungal parasites that infect everything from silkworms to humans \u2014 hold the record for smallest eukaryotic genomes, having shed most of the machinery that defines complex life. A sweeping new review asks what two and a half decades of genomic tools have finally taught us about these evolutionary outliers and why they still matter for human health and global food security."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42640515",
+      "headline": "How much Black and Hispanic gay men value PrEP \u2014 and how price shapes that \u2014 can now be measured like consumer demand",
+      "journal": "AIDS and Behavior",
+      "pubdate": "2026 Aug 25",
+      "doi": "10.1007/s10461-026-05284-2",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at UTHealth Houston developed two behavioral economic demand tasks \u2014 one for PrEP pills, one for injectable PrEP \u2014 and administered them online to 144 Black and Hispanic gay and bisexual men aged 18\u201334 in Texas. Willingness to purchase PrEP declined predictably with rising price on both tasks, fitting established demand models, and current PrEP users showed higher pill demand while those who had discussed injectable PrEP with providers showed higher injection demand. The study provides initial validation that behavioral economic tools can quantify PrEP valuation and potentially identify individuals who need additional support to initiate prevention.",
+      "why_it_matters": "Measuring how populations with high HIV risk actually value prevention tools \u2014 rather than just asking about intent \u2014 could help public health programs design cost structures and messaging that meaningfully increase PrEP uptake in communities where rates remain low.",
+      "caveats": "small sample (N<100 per subgroup), observational design, self-reported outcomes, single-center, online recruitment may not represent clinical populations",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Public health HIV prevention angle; small sample, methodological development study limits newsworthiness.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "Treating HIV Prevention Like a Consumer Choice Might Actually Work",
+          "hook": "A new study borrowed tools from behavioral economics \u2014 the same field that explains why people buy name brands over generics \u2014 to measure how much young Black and Hispanic gay men value PrEP, and found that price is a powerful, measurable barrier.",
+          "pitch_angle": "By mapping PrEP 'demand curves' the way economists track consumer goods, researchers found that willingness to use HIV prevention drops sharply as cost rises \u2014 and that those already using PrEP value it more, suggesting the first hurdle is getting people to try it. The approach could help health programs identify who needs the most support before they disengage from prevention entirely."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42642717",
+      "headline": "Generic SGLT2 inhibitors are coming \u2014 here's why that could reshape diabetes and heart failure care for millions",
+      "journal": "Clinical Pharmacology and Therapeutics",
+      "pubdate": "2026 Aug 25",
+      "doi": "10.1002/cpt.70459",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Harvard researchers analyzed the policy and economic implications of first-in-class generic entry for SGLT2 inhibitors \u2014 a drug class widely used to treat type 2 diabetes and increasingly prescribed for heart failure and chronic kidney disease. The commentary examines how generic competition could expand access to these high-cost medicines. No patient cohort or trial data is reported; this is a policy and pharmacoeconomics analysis.",
+      "why_it_matters": "SGLT2 inhibitors carry a list price exceeding $500 per month in the US; generic entry could dramatically lower costs for the tens of millions of Americans with diabetes, heart failure, or kidney disease who stand to benefit.",
+      "caveats": "secondary analysis, observational design",
+      "fact_check_note": "Abstract is not available in full \u2014 summary reflects title, author affiliations, and journal context only; specific claims about savings or timelines could not be verified against abstract text.",
+      "relevance_score": 7,
+      "relevance_score_reason": "Drug pricing, access, and cardiovascular health \u2014 strong public health hook for broad audiences.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The Blockbuster Diabetes Drug That Could Finally Get Cheap",
+          "hook": "SGLT2 inhibitors transformed treatment for diabetes, heart failure, and kidney disease \u2014 now generics are on the horizon, and the stakes for patients couldn't be higher.",
+          "pitch_angle": "Harvard researchers are examining what happens when a first-in-class generic finally enters a market dominated by expensive brand-name drugs, using SGLT2 inhibitors as the test case \u2014 a drug class that has proven benefits across multiple serious chronic conditions but remains out of reach for many patients due to cost."
+        },
+        {
+          "publication_type": "Scientific American",
+          "headline": "One Drug Class, Three Diseases, and a Generic Turning Point",
+          "hook": "SGLT2 inhibitors work against diabetes, heart failure, and kidney disease \u2014 and the arrival of generics could be one of the biggest access stories in recent drug history.",
+          "pitch_angle": "A Harvard pharmacoeconomics team is mapping the ripple effects of generic SGLT2 inhibitor entry, raising questions about how drug pricing policy shapes who actually benefits from medical advances, and whether the US system is equipped to let that happen efficiently."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42640129",
+      "headline": "Logging injuries in Maine have fallen sharply over 15 years \u2014 but trees are still striking workers down",
+      "journal": "Journal of Agromedicine",
+      "pubdate": "2026 Aug 25",
+      "doi": "10.1080/1059924X.2026.2718146",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed 471 pre-hospital care records of forestry-related injuries in Maine from 2008 to 2022, coding them using a standardized occupational injury classification system across three time periods. Annual injury counts and rates declined significantly over the 15-year study period across all age groups, with no consistent seasonal pattern. Despite mechanization gains, being struck by a tree remained the most common injury event, with legs the most frequently injured body part and prime working-age adults (31\u201360) sustaining the most injuries.",
+      "why_it_matters": "Logging is consistently one of the most dangerous jobs in the United States, and understanding which hazards persist despite mechanization can guide targeted safety interventions for this underserved workforce.",
+      "caveats": "observational design, single-center, small sample (N=471 records over 15 years), missing years (2017\u20132018 excluded)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Niche occupational health topic; regional dataset limits generalizability for broad science outlets.",
+      "pitch_angles": [
+        {
+          "publication_type": "General science / Occupational health trade",
+          "headline": "Logging Is Getting Safer \u2014 But Trees Are Still Winning",
+          "hook": "Despite 15 years of mechanization in the Maine logging industry, being struck by a falling tree remains the leading cause of non-fatal injury among forestry workers.",
+          "pitch_angle": "A novel dataset drawn from pre-hospital care records shows injury rates dropped significantly from 2008 to 2022, yet the fundamental hazard \u2014 trees \u2014 hasn't changed, suggesting that technology alone can't engineer away the most dangerous moments in one of America's most lethal jobs."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Public Health & Epidemiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
       "pmid": "42634878",
-      "headline": "China's drug patent incentive nudged generic manufacturers toward real innovation \u2014 but only modestly",
+      "headline": "China's new patent-style exclusivity rule is pushing generic drugmakers to actually innovate",
       "journal": "Expert Review of Pharmacoeconomics & Outcomes Research",
       "pubdate": "2026 Aug 24",
       "doi": "10.1080/14737167.2026.2715978",
-      "groundbreaking": "Counterintuitive finding",
+      "groundbreaking": "Major public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Using a difference-in-differences analysis of panel data from 1,248 firm-year observations of publicly listed Chinese pharmaceutical companies between 2015 and 2023, researchers examined whether a 2021 policy granting 12-month market exclusivity to first-to-market generic drugs spurred innovation. Chemical generic drug manufacturers showed a roughly 1.2 percentage point increase in R&D intensity and an 18.5% rise in patent applications compared to controls, with stronger effects in non-state-owned and highly competitive firms. The authors caution that the short post-policy window and concurrent pharmaceutical reforms limit broad causal conclusions.",
-      "why_it_matters": "China is a dominant global supplier of generic drug ingredients and finished medicines, meaning policy shifts that reshape its generic industry's innovation incentives could eventually affect drug availability and pricing worldwide.",
-      "caveats": "observational design, short follow-up, single-center",
+      "summary": "Using panel data from 1,248 firm-year observations of Chinese pharmaceutical companies listed on stock exchanges between 2015 and 2023, researchers applied a difference-in-differences model to assess China's 2021 policy granting 12-month market exclusivity to the first generic drug to market. Generic drug manufacturers in the treatment group showed a roughly 1.2 percentage-point increase in R&D intensity and an 18.5% rise in patent applications after the policy took effect. Privately owned firms in highly competitive sub-sectors showed the strongest response.",
+      "why_it_matters": "China supplies a large share of the world's generic drug ingredients and finished products, so policies that shift its manufacturers toward higher-quality drug development have potential implications for global drug supply chains and medicine access worldwide.",
+      "caveats": "observational design, short follow-up, secondary analysis",
       "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Interesting drug policy angle; China-specific context limits direct US/global audience relevance; observational design.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Clear drug-policy hook; large panel dataset; primarily China-specific industry context limits generalizability.",
       "pitch_angles": [
         {
-          "publication_type": "The Atlantic / General science",
-          "headline": "China Tried to Fix Its Generic Drug Industry With a Patent Carrot \u2014 It Might Be Working",
-          "hook": "For years, China's generic drug sector was notorious for copycat competition that stifled quality; a new exclusivity incentive suggests that the right market nudge can shift behavior \u2014 at least on paper.",
-          "pitch_angle": "A quasi-experimental study finds that giving the first generic manufacturer to market a 12-month window of exclusivity meaningfully increased R&D spending and patent activity among Chinese firms. Because China produces a large share of the world's generic medicines, understanding what drives \u2014 or stifles \u2014 quality innovation there has direct implications for global drug supply chains and pricing."
+          "publication_type": "Wired",
+          "headline": "China Tried a Patent Trick to Fix Its Generic Drug Problem \u2014 and It Seems to Be Working",
+          "hook": "For decades, China's generic drug industry competed by copying each other rather than innovating \u2014 a 2021 exclusivity rule appears to be changing that.",
+          "pitch_angle": "A new study finds that granting the first generic manufacturer to market a 12-month exclusivity window \u2014 borrowed from US and EU policy playbooks \u2014 measurably increased R&D spending and patent filings among Chinese drugmakers. Given China's role as a global pharmaceutical supplier, whether this translates to higher-quality generics reaching world markets is a consequential open question."
         }
       ],
-      "run_date": "2026-08-25",
+      "run_date": "2026-08-26",
       "category": "Pharmacology & Drug Therapy",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42637934",
-      "headline": "US wheat breeding programs harbor untapped resistance genes against a major global fungal disease",
-      "journal": "TAG. Theoretical and Applied Genetics",
+      "headline": "U.S. wheat breeding programs may harbor untapped genetic resistance to a globally destructive fungal disease",
+      "journal": "Theoretical and Applied Genetics",
       "pubdate": "2026 Aug 24",
       "doi": "10.1007/s00122-026-05324-4",
-      "groundbreaking": "First-in-class human study",
+      "groundbreaking": "Major public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "A GWAS of 337 soft winter wheat genotypes from an Indiana breeding program identified 12 marker-trait associations linked to resistance against Zymoseptoria tritici, the fungus causing Septoria tritici blotch (STB) \u2014 one of wheat's most economically damaging diseases worldwide. Several of the identified genomic loci corresponded to known resistance genes (Stb1, Stb7, Stb15, Stb19), while associations on chromosomes 1A, 3B, and 7A appear to be novel. The study found significant isolate-by-genotype interactions, confirming that some resistance is pathogen-strain specific.",
-      "why_it_matters": "Identifying novel resistance loci in commercial US wheat germplasm could accelerate breeding of fungal-resistant varieties and reduce reliance on fungicide applications that drive resistance evolution.",
-      "caveats": "observational design, single-center, seedling-stage inoculation may not fully reflect field resistance",
+      "summary": "A genome-wide association study analyzed 337 soft winter wheat genotypes from Indiana breeding programs, inoculating them with two isolates of Zymoseptoria tritici \u2014 the fungus causing Septoria tritici blotch, one of wheat's most economically damaging diseases worldwide. Researchers identified 12 marker-trait associations linked to resistance, including several on chromosomes 1A, 3B, 4A, 6A, and 7A that do not correspond to any previously known resistance gene. The results suggest that existing U.S. breeding germplasm contains both known and potentially novel genetic resistance resources that could be deployed to protect wheat yields.",
+      "why_it_matters": "Septoria tritici blotch can cut wheat yields by up to 50% in severe outbreaks, and identifying new genetic resistance sources in U.S. breeding lines could reduce reliance on fungicides and help secure food supplies.",
+      "caveats": "small sample (N<100 genotypes by human-study standards; N=337 wheat genotypes), observational design, single-center",
       "fact_check_note": "",
       "relevance_score": 5,
-      "relevance_score_reason": "Agricultural disease resistance with food security implications; solid GWAS design but narrow regional sample.",
+      "relevance_score_reason": "Food security angle is broadly relevant; audience fit for science-forward outlets is moderate.",
       "pitch_angles": [
         {
-          "publication_type": "General science / Wired",
-          "headline": "Hidden in Indiana wheat fields: genes that could fight a global crop fungus",
-          "hook": "Wheat varieties already being grown in US breeding programs contain previously unknown genetic resistance to one of the world's most destructive wheat diseases.",
-          "pitch_angle": "By scanning the genomes of 337 Indiana wheat lines against a major fungal pathogen, scientists found several new resistance loci that breeders could use to develop more resilient crops without new transgenic tools. As Septoria tritici blotch causes billions in losses globally, mining existing germplasm for overlooked defenses offers a fast, practical path toward more disease-resistant wheat."
+          "publication_type": "National Geographic",
+          "headline": "A Wheat Fungus Threatens Global Harvests. Hidden Genes in U.S. Fields May Help Fight Back.",
+          "hook": "A fungal disease that can wipe out half a wheat harvest in a bad year may have met its match in genes quietly sitting in American breeding programs.",
+          "pitch_angle": "By scanning hundreds of U.S. soft winter wheat varieties, researchers found novel genetic markers associated with resistance to Septoria tritici blotch \u2014 a disease that costs farmers billions annually worldwide. If confirmed and deployed, these resistance genes could reduce fungicide use and help stabilize wheat production as climate change expands the range of crop pathogens."
         }
       ],
-      "run_date": "2026-08-25",
+      "run_date": "2026-08-26",
       "category": "Genetics & Molecular Biology",
       "chunk": "1/3",
       "status": "new"
     },
     {
-      "pmid": "42634182",
-      "headline": "Tibetan Plateau pikas changed their diet within one year when COVID locked down traffic \u2014 but took generations to revert",
-      "journal": "Journal of Animal Ecology",
-      "pubdate": "2026 Aug 23",
-      "doi": "10.1111/1365-2656.70336",
-      "groundbreaking": "Counterintuitive finding / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used fecal DNA metabarcoding to track the diets of roadside and remote pika populations (Ochotona spp.) on the Qinghai-Tibetan Plateau across seven years (2018\u20132024), spanning before, during, and after COVID-19 lockdowns. Roadside pikas rapidly converged toward the diets of undisturbed meadow populations within a single generation once traffic declined, but took multiple generations to diverge again after human activity resumed. The asymmetric response\u2014fast recovery under reduced disturbance, slow return to disruption\u2014suggests temporary traffic reductions could produce conservation benefits that outlast the quiet period itself.",
-      "why_it_matters": "The finding suggests that even brief, targeted reductions in road traffic could yield lasting wildlife conservation benefits in human-dominated landscapes, offering a cost-effective policy lever for biodiversity management.",
-      "caveats": "observational design, single-region (Qinghai-Tibetan Plateau, China), single taxon",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive asymmetric response; strong conservation policy hook; 7-year longitudinal data.",
-      "pitch_angles": [
-        {
-          "publication_type": "National Geographic",
-          "headline": "COVID's Accidental Wildlife Experiment: Tibetan Pikas Rewrote Their Diets When Humans Disappeared",
-          "hook": "When pandemic lockdowns emptied China's roads, tiny plateau pikas changed what they ate within a single generation\u2014then took years to go back.",
-          "pitch_angle": "A seven-year dietary tracking study found that roadside pikas on the Qinghai-Tibetan Plateau rapidly adopted the eating habits of undisturbed wild populations during COVID lockdowns, but reverted slowly once traffic returned\u2014suggesting that even temporary quieting of human activity can leave lasting ecological imprints."
-        },
-        {
-          "publication_type": "The Atlantic",
-          "headline": "The Pandemic Showed Us That Wildlife Recovers Fast \u2014 and Loses Ground Slowly",
-          "hook": "Animals adapt quickly to a quieter world, but the damage from returning human activity accumulates across generations.",
-          "pitch_angle": "Research on Tibetan Plateau pikas reveals a troubling asymmetry: wildlife can bounce back from human disturbance surprisingly fast, but re-exposure to traffic and activity degrades their behavior much more slowly \u2014 a dynamic that could reshape how conservationists think about road management and wildlife corridors."
-        }
-      ],
-      "run_date": "2026-08-25",
-      "category": "Environmental Health",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
       "pmid": "42634119",
-      "headline": "A gene linked to a rare facial syndrome may also quietly cause unexplained bone fractures in adults",
+      "headline": "A gene linked to a rare facial syndrome may also cause mysterious thigh-bone fractures in adults \u2014 upending assumptions about their origin",
       "journal": "Clinical Genetics",
       "pubdate": "2026 Aug 23",
       "doi": "10.1111/cge.70232",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Whole-exome sequencing of an 11-member family with oral-facial-digital syndrome (OFD1 gene mutations) revealed that affected members also experienced adult-onset long-bone insufficiency fractures closely resembling atypical femur fractures \u2014 a side effect typically associated with bisphosphonate drug use. Targeted sequencing of 49 unrelated patients with atypical femur fractures and 100 healthy controls identified a second rare OFD1 variant in one fracture patient. AlphaFold 3 modeling suggested both variants destabilize the OFD1 protein in ways that could be pathogenic.",
-      "why_it_matters": "Identifying OFD1 as a potential genetic cause of atypical femur fractures could help explain cases of unexplained bone fragility that are currently misattributed solely to drug exposure.",
-      "caveats": "small sample (N<100), observational design, single-center",
+      "summary": "Researchers performed whole-exome sequencing on a family of 11 members who shared features of oral-facial-digital syndrome alongside adult-onset long-bone insufficiency fractures resembling atypical femur fractures (AFF), typically associated with long-term bisphosphonate use. A rare novel variant in the OFD1 gene (p.Ala642Asp) segregated with the phenotype across the family; a second OFD1 variant (p.Lys668Asn) was independently found in one of 49 unrelated AFF patients screened. AlphaFold 3 modeling suggests both variants destabilize the OFD1 protein dimer, pointing to a potential pathogenic mechanism.",
+      "why_it_matters": "Atypical femur fractures are often attributed to long-term drug use, but this finding suggests some cases may have an unrecognized genetic cause \u2014 with implications for how clinicians investigate and counsel patients who sustain these injuries without obvious drug exposure.",
+      "caveats": "small sample (N<100), single-center, observational design",
       "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Rare disease genetics finding; small N and limited generalizability constrain score.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive genetic link to common clinical puzzle; small sample limits generalizability.",
       "pitch_angles": [
         {
-          "publication_type": "Scientific American",
-          "headline": "Mysterious Bone Fractures Blamed on Drugs May Have a Hidden Genetic Cause",
-          "hook": "Atypical femur fractures are almost always blamed on long-term osteoporosis drugs \u2014 but a rare genetic syndrome may produce identical breaks with no drug exposure at all.",
-          "pitch_angle": "A Canadian family study found that mutations in OFD1, a gene associated with a rare developmental syndrome, were also linked to spontaneous adult bone fractures mimicking a known drug side effect. The finding, supported by AI-based protein modeling, suggests some unexplained atypical fractures may have a genetic rather than pharmacological origin."
+          "publication_type": "The Atlantic",
+          "headline": "Some Mysterious Thigh-Bone Fractures May Have Been Blamed on the Wrong Cause All Along",
+          "hook": "Atypical femur fractures are almost always attributed to long-term bone-strengthening drugs \u2014 but a rare gene variant linked to a facial syndrome may be causing some of them instead.",
+          "pitch_angle": "For years, patients with unexplained stress fractures of the femur have been told their bones were damaged by the very medications meant to protect them. A new genetic study suggests a subset of these fractures may instead trace back to mutations in a gene called OFD1 \u2014 raising questions about how many patients have been given the wrong explanation for their injuries."
         }
       ],
-      "run_date": "2026-08-25",
+      "run_date": "2026-08-26",
       "category": "Genetics & Molecular Biology",
       "chunk": "1/3",
       "status": "new"
     },
     {
       "pmid": "42631550",
-      "headline": "It's total screen time\u2014not late-night scrolling\u2014that disrupts college students' sleep and health",
+      "headline": "Social media's sleep-wrecking effect on college students persisted even through the pandemic \u2014 but timing of use wasn't the culprit",
       "journal": "Public Health Reports",
       "pubdate": "2026 Aug 22",
       "doi": "10.1177/00333549261462497",
-      "groundbreaking": "Counterintuitive finding",
+      "groundbreaking": "Major public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers tracked 349 first-year college students at George Mason University across three semesters before and after the COVID-19 pandemic, measuring social media use, sleep quality, and self-rated health. Total daily social media use was associated with poorer sleep quality both cross-sectionally and over time, but\u2014counterintuitively\u2014nighttime-specific social media use was not independently linked to sleep quality or health. Poor sleep quality mediated the relationship between overall social media use and worse self-rated health.",
-      "why_it_matters": "The finding challenges the common assumption that the timing of social media use matters most, suggesting that reducing overall daily use\u2014not just enforcing a phone curfew\u2014may be key to protecting young adults' sleep and wellbeing.",
-      "caveats": "small sample (N<100 is not applicable here, N=349), single-center, self-reported outcomes, observational design, short follow-up",
+      "summary": "Researchers tracked 349 first-year students at George Mason University across three semesters spanning the start of the COVID-19 pandemic, measuring total and nighttime social media use, sleep quality, and self-rated health. Total daily social media use was consistently associated with poorer sleep quality both cross-sectionally and longitudinally, and poor sleep quality mediated the relationship between social media use and worse self-rated health. Surprisingly, nighttime-specific social media use was not independently linked to sleep or health outcomes \u2014 suggesting overall volume of use, not timing, drives the effect.",
+      "why_it_matters": "With college mental health crises dominating campus health policy debates, evidence that total social media consumption \u2014 not just late-night scrolling \u2014 undermines sleep and health could reshape student wellness interventions.",
+      "caveats": "small sample (N<100 is not applicable \u2014 N=349, but single-center, self-reported outcomes, observational design",
       "fact_check_note": "",
       "relevance_score": 6,
-      "relevance_score_reason": "Counterintuitive timing finding, but single-center, self-reported, modest sample limits impact.",
+      "relevance_score_reason": "Timely public health hook; observational, single-center, self-reported limits score.",
       "pitch_angles": [
         {
           "publication_type": "Scientific American / General science",
-          "headline": "The Real Social Media Sleep Thief Isn't Late-Night Scrolling\u2014It's All-Day Use",
-          "hook": "A new longitudinal study finds that when students use social media matters far less for sleep quality than how much they use it overall.",
-          "pitch_angle": "Researchers tracked college freshmen across the COVID-19 pandemic and found that total daily social media use\u2014not nighttime use specifically\u2014predicted poor sleep and worse self-rated health. The finding suggests public health messaging focused solely on screen-time curfews may be missing the bigger picture."
+          "headline": "It's Not When You Scroll That Wrecks Your Sleep \u2014 It's How Much",
+          "hook": "A pandemic-era study of college students found that the total daily dose of social media \u2014 not late-night use specifically \u2014 is what degrades sleep and self-reported health.",
+          "pitch_angle": "Researchers tracked first-year students before and after COVID-19 lockdowns and found that overall social media volume, mediated through sleep quality, drove worse health outcomes \u2014 even when nighttime use was accounted for separately. The finding challenges the common advice to simply put the phone down before bed, suggesting the fix may require broader reductions in daily use."
         }
       ],
-      "run_date": "2026-08-25",
+      "run_date": "2026-08-26",
       "category": "Public Health & Epidemiology",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42631785",
-      "headline": "Community health workers helped cut Mali's child mortality by 42 deaths per 1,000 live births over 14 years",
+      "headline": "Community health workers in Mali cut child mortality by 42 deaths per 1,000 live births over 14 years \u2014 but neonatal deaths barely budged",
       "journal": "Journal of Community Health",
       "pubdate": "2026 Aug 22",
       "doi": "10.1007/s10900-026-01622-6",
       "groundbreaking": "Major public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used retrospective modeling with the Lives Saved Tool software and qualitative interviews with 385 stakeholders to assess the impact of Mali's community health worker (CHW) program from 2010 to 2024 across five regions. Infant and child mortality fell by an average of 42 deaths per 1,000 live births nationally, and maternal mortality declined from approximately 122 to 101 per 100,000 live births. Neonatal mortality showed only marginal improvement (2.52 per 1,000), and 75% of respondents reported that female CHWs received greater community acceptance.",
-      "why_it_matters": "Mali's 14-year CHW program demonstrates that task-shifting healthcare delivery to trained community workers can substantially reduce child and maternal mortality in settings with severe health worker shortages, a model with broad implications for sub-Saharan Africa and other low-resource regions.",
-      "caveats": "observational design, secondary analysis, self-reported outcomes",
+      "summary": "Researchers conducted a cross-sectional study with retrospective modeling using the Lives Saved Tool and qualitative interviews with 385 stakeholders across five regions of Mali to assess the 2010\u20132024 impact of community health workers on maternal and child health. Infant and child mortality fell by an average of 42 deaths per 1,000 live births nationally, and maternal mortality declined from 121.88 to 101.28 per 100,000 live births; community acceptance of the program reached 97.9%. However, neonatal mortality barely changed, declining by only 2.52 per 1,000 live births, revealing a persistent gap in the program's reach during the first 28 days of life.",
+      "why_it_matters": "As global health agencies weigh community health worker models as scalable solutions for under-resourced health systems, Mali's experience reveals both the power and the ceiling of this approach \u2014 particularly for the most vulnerable newborns.",
+      "caveats": "observational design, self-reported outcomes, retrospective modeling, single-country study, qualitative interviews relied on verbal consent",
       "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Strong public health hook and global health relevance, but modeling-based and Mali-specific limits pitch breadth.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Global health relevance; WHO benchmark context strong; modeling-based limits causal claims.",
       "pitch_angles": [
         {
-          "publication_type": "National Geographic / General science",
-          "headline": "Training Villagers as Health Workers Cut Child Deaths by Tens of Thousands in Mali",
-          "hook": "Over 14 years, a program that deployed community health workers in rural Mali was associated with a drop of more than 42 child deaths per 1,000 live births\u2014even as the country faced severe shortages of formal medical staff.",
-          "pitch_angle": "With just six health workers per 10,000 people against a WHO-recommended 23, Mali turned to trained community members to fill the gap\u2014and the data suggest it worked for children and mothers, if not yet for newborns. The model is being watched as a template for overstretched health systems across sub-Saharan Africa."
+          "publication_type": "The Atlantic / General science",
+          "headline": "Community Health Workers Saved Tens of Thousands of African Children \u2014 and Barely Touched Newborn Deaths",
+          "hook": "In Mali, a 14-year program placing community health workers in underserved villages cut childhood mortality dramatically \u2014 but the first 28 days of life remained stubbornly out of reach.",
+          "pitch_angle": "The findings suggest community health worker programs can serve as powerful bridges over the gap left by chronic healthcare worker shortages, but that neonatal survival requires a different, more clinically intensive intervention strategy. The split outcome challenges the narrative that community-based models alone can close global maternal-child health gaps."
         }
       ],
-      "run_date": "2026-08-25",
+      "run_date": "2026-08-26",
       "category": "Public Health & Epidemiology",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42633926",
-      "headline": "Japan cancer center builds one of the world's largest outpatient biobanks \u2014 with an 85% consent rate",
+      "headline": "Japan builds a 29,000-person cancer biobank capturing blood and lifestyle data before diagnosis is even confirmed",
       "journal": "Journal of Epidemiology",
       "pubdate": "2026 Aug 22",
       "doi": "10.2188/jea.JE20260203",
       "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers describe the Cancer Biobank Aichi (CBBA), a hospital-based prospective biobank launched in 2017 at Aichi Cancer Center in Japan that collects blood biospecimens and structured lifestyle questionnaires from first-visit outpatients. Of 34,574 patients approached, 29,470 (85.2%) participated, including 10,075 non-cancer controls, with 25,105 providing biospecimens. The biobank's design \u2014 capturing lifestyle data from the year before diagnosis and linking samples to a cancer registry \u2014 enables a rare window into pre-diagnosis biology.",
-      "why_it_matters": "A biobank this large with pre-diagnosis samples and a built-in non-cancer comparison group could help researchers untangle lifestyle and biological factors that precede cancer onset \u2014 a notoriously difficult problem in cancer epidemiology.",
-      "caveats": "single-center, observational design",
+      "summary": "Researchers describe the Cancer Biobank Aichi (CBBA), a hospital-based prospective biobank established in 2017 at Aichi Cancer Center in Japan that enrolls first-visit outpatients before their diagnoses are finalized. Among 34,574 patients approached, 29,470 (85.2%) contributed biospecimens and/or questionnaire data, including 10,075 non-cancer participants who serve as an internal comparison group. The biobank links blood samples \u2014 stored at -80\u00b0C with 2D-barcoded aliquots \u2014 to structured lifestyle questionnaires and annual cancer registry updates, enabling pre-diagnostic exposure studies.",
+      "why_it_matters": "A biobank that captures blood and lifestyle data before cancer diagnosis could help scientists identify early biological markers and exposures that precede disease, strengthening causal inference in cancer epidemiology.",
+      "caveats": "single-center, observational design, self-reported outcomes",
       "fact_check_note": "",
       "relevance_score": 5,
-      "relevance_score_reason": "Infrastructure paper; strong design and scale but narrow regional scope limits pitch appeal.",
+      "relevance_score_reason": "Infrastructure/methods paper; cancer genetics hook but no new scientific finding.",
       "pitch_angles": [
         {
-          "publication_type": "Scientific American / General science",
-          "headline": "Why Getting Blood From Cancer Patients Before Diagnosis Changes Everything",
-          "hook": "Most cancer biobanks collect samples after diagnosis \u2014 a Japanese center is doing it differently, and the results could rewrite how we study the disease.",
-          "pitch_angle": "The Cancer Biobank Aichi enrolled nearly 30,000 outpatients before they received a diagnosis, capturing lifestyle and biological data in a pre-disease window that most studies miss. With an 85% consent rate and a built-in healthy comparison group, it offers a model for how cancer biobanks worldwide might be redesigned."
+          "publication_type": "Scientific American",
+          "headline": "The Power of Drawing Blood Before Anyone Knows You Have Cancer",
+          "hook": "Most cancer biobanks collect samples after diagnosis \u2014 a Japanese center is doing it differently, banking blood the moment patients walk through the door.",
+          "pitch_angle": "The Cancer Biobank Aichi enrolled nearly 30,000 first-visit outpatients before their diagnoses were confirmed, creating a rare pre-diagnostic biological record linked to lifestyle data and cancer registries. This design could help scientists finally distinguish what comes before cancer from what cancer causes in the body."
         }
       ],
-      "run_date": "2026-08-25",
+      "run_date": "2026-08-26",
       "category": "Public Health & Epidemiology",
       "chunk": "1/2",
       "status": "new"
     },
     {
+      "pmid": "42636537",
+      "headline": "Japan's foodborne E. coli outbreaks are driven by a toxin gene with variants that most standard tests miss",
+      "journal": "International Journal of Food Microbiology",
+      "pubdate": "2026 Aug 22",
+      "doi": "10.1016/j.ijfoodmicro.2026.112018",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Japanese researchers analyzed astA gene variants in E. coli strains isolated from 12 foodborne outbreaks, finding that outbreak strains typically carried multiple copies of intact, functional astA variants \u2014 while strains from non-outbreak sources often carried incomplete, non-functional variants. They developed a new duplex real-time PCR assay (astArtPCR) that specifically detects only intact, toxin-producing astA variants in food samples, with a detection limit below 2.6 log CFU/mL in enriched food cultures. Four existing PCR assays tested in parallel failed to distinguish intact from non-functional variants.",
+      "why_it_matters": "A more precise test for toxin-producing E. coli in food could improve outbreak investigations and food surveillance, reducing the risk of misattributing foodborne illness to non-virulent strains.",
+      "caveats": "observational design, Japan-specific outbreak context",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Food safety hook; Japan-specific context limits generalizability for US audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "General science / food safety trade",
+          "headline": "Standard Food Safety Tests Can't Tell Dangerous E. Coli Toxin Genes From Harmless Ones \u2014 This New Test Can",
+          "hook": "Most PCR tests used in food surveillance can't distinguish between a functional E. coli toxin gene and a broken, non-dangerous version \u2014 a gap that may be muddying outbreak investigations worldwide.",
+          "pitch_angle": "Japanese researchers developed a new rapid test that specifically flags only intact, toxin-producing variants of the astA gene in food samples, after finding that outbreak-linked E. coli strains consistently carried multiple functional copies while non-outbreak strains often harbored only non-functional gene fragments. The tool could sharpen food safety surveillance and help regulators trace the right culprit in diarrheal outbreaks."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
       "pmid": "42623292",
-      "headline": "The strange split signal in water's structure is explained \u2014 and it comes down to ring-shaped hydrogen-bond networks",
+      "headline": "Machine-learning simulations reveal why water's molecular structure has puzzled scientists for decades",
       "journal": "The Journal of Chemical Physics",
       "pubdate": "2026 Aug 21",
       "doi": "10.1063/5.0337533",
       "groundbreaking": "Counterintuitive finding / Overturns prior research",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Using machine-learning-based atomistic simulations with the MACE potential, researchers decomposed liquid water's X-ray scattering signal into contributions from hydrogen-bonded rings of different sizes, finding that 5- to 8-membered rings explain a long-debated anomalous splitting in water's diffraction pattern. Previously, the split peak was widely interpreted as evidence for two competing local molecular environments; this work suggests instead it reflects medium-range topological features of the hydrogen-bond network. Five-membered rings proved especially persistent, retaining their structural signatures even above room temperature.",
-      "why_it_matters": "A clearer picture of liquid water's molecular architecture has downstream implications for understanding biological processes, climate modeling, and the design of water-based industrial systems.",
-      "caveats": "None identified",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Counterintuitive finding overturning prior interpretation; computational with no direct human application.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American / General science",
-          "headline": "Scientists Finally Have a Better Explanation for One of Water's Weirdest Quirks",
-          "hook": "A subtle anomaly in water's X-ray scattering pattern \u2014 debated for decades \u2014 turns out to be a fingerprint of the ring-shaped geometry of its hydrogen-bond network, not two competing molecular states as previously believed.",
-          "pitch_angle": "Using AI-powered simulations, researchers resolved a longstanding puzzle about water's molecular structure, finding that networks of five- to eight-atom rings explain an experimental signal that has puzzled physicists since it was first observed \u2014 with implications for how we model water in everything from climate systems to living cells."
-        }
-      ],
-      "run_date": "2026-08-25",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42625097",
-      "headline": "A new class of molecular labels could let doctors detect cancer biomarkers with unprecedented precision using light",
-      "journal": "Mikrochimica Acta",
-      "pubdate": "2026 Aug 21",
-      "doi": "10.1007/s00604-026-08257-3",
-      "groundbreaking": "None identified",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This review systematically examines Raman reporter molecules \u2014 the signal-generating components of surface-enhanced Raman scattering (SERS) nanotags used in biosensing and biomedical imaging. The authors categorize reporter types (conventional, aromatic thiol, near-infrared resonant, responsive, and library-based), discuss design principles for spectral stability and multiplexing, and address translational barriers including safety and quantitative reliability. No new experimental data are presented.",
-      "why_it_matters": "SERS-based diagnostics capable of detecting multiple disease biomarkers simultaneously at very low concentrations could improve early cancer detection and guide treatment decisions without invasive procedures.",
-      "caveats": "None identified",
+      "summary": "Using machine-learning atomistic simulations with the MACE potential, researchers decomposed the structure factor of liquid water into contributions from hydrogen-bonded rings of different sizes. They found that 5-to-8-membered rings in water's hydrogen-bond network \u2014 not competition between two distinct liquid phases \u2014 can directly account for a well-known but poorly explained feature of water's diffraction pattern called the split first peak. Five-membered rings were particularly persistent, retaining their structural signature above room temperature.",
+      "why_it_matters": "Water's anomalous physical properties underpin everything from climate modeling to drug design, and a clearer molecular picture of its structure could improve scientific models across multiple fields.",
+      "caveats": "purely computational with no validation",
       "fact_check_note": "",
       "relevance_score": 4,
-      "relevance_score_reason": "Review article, no new experimental data; niche analytical chemistry topic.",
+      "relevance_score_reason": "Intellectually elegant but purely computational physics finding; limited direct public health or environmental hook.",
       "pitch_angles": [
         {
-          "publication_type": "Wired / Scientific American",
-          "headline": "The Molecular Barcodes That Could Make Cancer Tests Dramatically More Sensitive",
-          "hook": "Tiny molecules that emit unique light signatures when hit with a laser could let a single blood test simultaneously detect dozens of cancer markers \u2014 if researchers can solve the design challenges holding them back.",
-          "pitch_angle": "A new review maps the frontier of so-called Raman reporter molecules, which serve as precision light-emitting labels in next-generation biosensors, outlining what it would take to move these highly sensitive tools from the lab into clinical diagnostics."
+          "publication_type": "Scientific American",
+          "headline": "Scientists Finally Have an Explanation for One of Water's Strangest Mysteries",
+          "hook": "For decades, a puzzling quirk in water's molecular diffraction pattern has fueled debates about whether water exists in two distinct forms \u2014 but machine-learning simulations now point to a simpler geometric answer.",
+          "pitch_angle": "By mapping the ring-shaped scaffolding of water's hydrogen-bond network, researchers found that the arrangement of 5-to-8-atom rings can explain a long-mysterious feature of water's structure without invoking two competing liquid phases. The finding, while computational, offers a new framework for understanding water's many anomalous properties \u2014 relevant to fields from atmospheric science to pharmaceutical formulation."
         }
       ],
-      "run_date": "2026-08-25",
+      "run_date": "2026-08-26",
       "category": "Genetics & Molecular Biology",
       "chunk": "1/3",
       "status": "new"
     },
     {
       "pmid": "42627869",
-      "headline": "A stomach bug that surged across Europe in 2024 wins by fooling the immune system \u2014 not by latching onto new cell targets",
+      "headline": "A new norovirus variant swept Europe in 2024 by dodging immunity, not by binding gut cells differently",
       "journal": "PLoS Pathogens",
       "pubdate": "2026 Aug 21",
       "doi": "10.1371/journal.ppat.1014522",
       "groundbreaking": "Counterintuitive finding / Major public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Erasmus MC compared a 2024 GII.17 norovirus variant that dominated European outbreaks against historical GII.17 strains from 2005, 2014, and 2015, using virus-like particles, human saliva and intestinal tissue binding assays, and serum blocking assays from 75 healthy adults. The 2024 variant showed antigenic drift \u2014 it evaded immunity from prior GII.17 exposures \u2014 but its receptor-binding (HBGA) profile was not substantially different from post-2005 strains. This suggests the virus's resurgence was driven by immune escape rather than the acquisition of a new cellular entry strategy, overturning a common assumption that emerging norovirus variants succeed primarily by binding new host cell targets.",
-      "why_it_matters": "Understanding that norovirus surges can be driven by immune evasion rather than receptor-binding changes has direct implications for how scientists design and evaluate norovirus vaccines, which are still in development.",
-      "caveats": "small sample (N<100 for serum cohort), observational design, single-center",
+      "summary": "Researchers at Erasmus MC compared virus-like particles from GII.17 norovirus strains collected between 2005 and 2024, testing binding to human gut tissue and blocking assays with 75 adult sera from different circulation periods. The 2024 variant that drove a surge in European outbreaks showed antigenic drift \u2014 it evaded pre-existing immunity from earlier GII.17 strains \u2014 but did not acquire meaningfully new gut-cell binding properties compared to post-2005 strains. The findings suggest immune evasion, not altered host-cell entry, is the primary driver of the variant's competitive success.",
+      "why_it_matters": "Understanding that immune escape \u2014 not new binding capability \u2014 can drive norovirus resurgence has direct implications for designing vaccines that keep pace with antigenic drift, similar to influenza surveillance strategies.",
+      "caveats": "small sample (N<100 sera per time period), single-center, cell/VLP study with no in vivo infection model",
       "fact_check_note": "",
       "relevance_score": 7,
-      "relevance_score_reason": "Pandemic preparedness angle, counterintuitive mechanism finding, human sera used but small N.",
+      "relevance_score_reason": "Pandemic preparedness hook, counterintuitive mechanism finding; lab/VLP study limits score.",
       "pitch_angles": [
         {
           "publication_type": "Scientific American",
-          "headline": "The Norovirus Variant That Swept Europe Won by Tricking the Immune System \u2014 Not by Changing Its Lock-and-Key",
-          "hook": "Scientists assumed a resurgent norovirus strain succeeded by binding to new cell-surface receptors \u2014 they were wrong.",
-          "pitch_angle": "A 2024 GII.17 norovirus that became Europe's dominant stomach-bug strain did so by evading existing immunity through antigenic drift, not by acquiring new ways to enter cells. The finding reframes how researchers think about norovirus emergence and what a future vaccine needs to target."
+          "headline": "The Stomach Bug That Beat Your Immune System \u2014 Without Changing How It Infects You",
+          "hook": "A norovirus variant that caused a wave of outbreaks across Europe in 2024 succeeded not by evolving a new way into gut cells, but by quietly reshaping its outer coat to slip past immune memory.",
+          "pitch_angle": "New lab work shows the GII.17 norovirus variant spread via antigenic drift \u2014 the same evasion strategy flu uses \u2014 rather than by expanding its range of gut targets. The finding reframes how scientists should monitor norovirus evolution and what a future vaccine would need to guard against."
         },
         {
           "publication_type": "The Atlantic",
-          "headline": "Why Norovirus Keeps Coming Back \u2014 and What That Means for a Vaccine",
-          "hook": "Each time a new norovirus wave hits, scientists scramble to explain why \u2014 and a new study suggests the answer lies in immune evasion, not viral shape-shifting.",
-          "pitch_angle": "A study of a 2024 European norovirus outbreak found the dominant strain succeeded by dodging pre-existing immunity rather than binding to new host cell targets, a distinction that matters enormously for vaccine design. With norovirus vaccines still in development, knowing what the virus is actually doing to outcompete our defenses could reshape the whole research agenda."
+          "headline": "Your Old Immunity to Stomach Flu May Be Useless Against the Latest Strain",
+          "hook": "A 2024 norovirus outbreak wave in Europe offers a cautionary lesson: surviving one strain of the virus doesn't reliably protect you from the next one.",
+          "pitch_angle": "Scientists found that a newly dominant norovirus variant evades antibodies from earlier infections through antigenic drift, a strategy more commonly associated with influenza. If noroviruses routinely cycle through immune escape \u2014 as this evidence suggests \u2014 the case for a norovirus vaccine grows considerably stronger."
         }
       ],
-      "run_date": "2026-08-25",
+      "run_date": "2026-08-26",
       "category": "Infectious Disease",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42628851",
-      "headline": "A superbug in Italy resists every last-resort antibiotic \u2014 even the newest ones",
+      "headline": "A superbug in Italy has defeated every last-resort antibiotic \u2014 doctors were left with only one option",
       "journal": "International Journal of Antimicrobial Agents",
       "pubdate": "2026 Aug 21",
       "doi": "10.1016/j.ijantimicag.2026.107977",
-      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "groundbreaking": "Major public health implication / Counterintuitive finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers in Northern Italy identified a single Klebsiella pneumoniae strain (ST6668) simultaneously carrying three distinct carbapenemase genes \u2014 NDM-1, VIM-1, and OXA-48 \u2014 from an elderly hospitalized patient. Whole-genome sequencing confirmed the strain is resistant to all tested beta-lactams, including recently approved 'last-resort' combinations and cefiderocol, with only colistin retaining activity. Phylogenetic analysis suggested this strain was introduced independently rather than spreading from other local ST6668 isolates.",
-      "why_it_matters": "A bacterium that defeats every modern antibiotic except one ancient, toxic drug represents a worst-case scenario in antimicrobial resistance and signals how quickly resistance architecture can accumulate in healthcare settings.",
+      "summary": "Researchers in Northern Italy identified a single Klebsiella pneumoniae strain (ST6668) from a hospitalized elderly patient that simultaneously produces three different carbapenemase enzymes (NDM-1, VIM-1, and OXA-48), carried on multiple large plasmids. The strain was resistant to all tested beta-lactams including newly approved last-resort combinations and cefiderocol, leaving colistin as the only active drug. Whole-genome sequencing suggested the strain arose from an independent introduction event rather than spreading from locally circulating ST6668 clones.",
+      "why_it_matters": "The convergence of three carbapenemase families in a single transferable clone suggests antibiotic resistance is outpacing the pipeline of novel drugs designed to counter it.",
       "caveats": "small sample (N<100), single-center, observational design",
       "fact_check_note": "",
       "relevance_score": 8,
-      "relevance_score_reason": "Antibiotic resistance hook; counterintuitive triple-resistance convergence; clear public health threat.",
+      "relevance_score_reason": "Antibiotic resistance topic bonus; counterintuitive pan-resistance finding; strong public health hook.",
       "pitch_angles": [
         {
-          "publication_type": "Scientific American",
-          "headline": "A Triple-Threat Superbug Defeated Every New Antibiotic Doctors Tried",
-          "hook": "A single bacterium collected from a hospitalized patient in Italy had accumulated three separate resistance engines \u2014 rendering every modern antibiotic useless except a decades-old drug with serious toxicity risks.",
-          "pitch_angle": "The convergence of NDM-1, VIM-1, and OXA-48 carbapenemases in one Klebsiella strain shows how mobile genetic elements can stack resistance mechanisms faster than drug pipelines can respond. This case illustrates why the antibiotic pipeline crisis is not just about developing new drugs but about how quickly bacteria can nullify them."
+          "publication_type": "The Atlantic",
+          "headline": "We Built New Antibiotics to Fight Superbugs. One Pathogen Just Defeated All of Them.",
+          "hook": "A single bacterial strain in Italy has rendered every newly approved last-resort antibiotic useless, leaving physicians with only colistin \u2014 a toxic drug from the 1950s.",
+          "pitch_angle": "A Klebsiella pneumoniae strain found in a Northern Italian hospital has accumulated three distinct antibiotic-destroying enzymes simultaneously, shrugging off drugs specifically engineered to overcome such resistance. This case tests the limits of the antibiotic pipeline and raises urgent questions about whether we can keep ahead of bacterial evolution."
         },
         {
-          "publication_type": "The Atlantic",
-          "headline": "We Built New Last-Resort Antibiotics. This Superbug Already Resists All of Them.",
-          "hook": "Within years of their approval, a new class of antibiotics designed to defeat drug-resistant bacteria has met a strain that shrugs them all off.",
-          "pitch_angle": "The discovery of a Klebsiella strain in an Italian hospital resistant to cefiderocol and all novel beta-lactam/beta-lactamase inhibitor combinations \u2014 drugs approved specifically to address the resistance crisis \u2014 raises urgent questions about whether the pharmaceutical response to superbugs can ever keep pace with bacterial evolution."
+          "publication_type": "Scientific American",
+          "headline": "Triple-Enzyme Superbug Shows How Bacteria Stack Resistance Mechanisms Against Newest Antibiotics",
+          "hook": "By collecting three separate carbapenemase genes on multiple megaplasmids, a single K. pneumoniae clone found a way to neutralize drug combinations that each target a different resistance pathway.",
+          "pitch_angle": "The ST6668 strain's plasmid architecture reveals how bacteria can assemble a layered molecular defense faster than drug developers can respond, undermining the combinatorial strategy behind new beta-lactam/beta-lactamase inhibitor drugs. Understanding the genomic plumbing of such strains is now critical to designing the next generation of treatments."
         }
       ],
-      "run_date": "2026-08-25",
+      "run_date": "2026-08-26",
       "category": "Infectious Disease",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42627159",
-      "headline": "Strep throat bacterium found carrying a resistance gene that could eventually make linezolid useless",
+      "headline": "Strep throat bacteria in a US child were carrying a silent gene that could one day render linezolid \u2014 our backup antibiotic \u2014 useless",
       "journal": "mSphere",
       "pubdate": "2026 Aug 21",
       "doi": "10.1128/msphere.00277-26",
-      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "groundbreaking": "Counterintuitive finding / Major public health implication / First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Northwestern University identified a Streptococcus pyogenes isolate from a child with pharyngitis in the U.S. that carries cfr(C), a multi-drug resistance gene known to confer resistance to linezolid and several other antibiotic classes in other bacterial species. Whole-genome sequencing showed the gene arrived on a novel mobile genetic element (ICESpy390756) alongside erm(B); the isolate currently remains susceptible to linezolid because the cfr(C) promoter appears to have been lost during transfer. This is the first documented instance of cfr(C) in S. pyogenes in published literature or public genome databases.",
-      "why_it_matters": "Linezolid has become a critical backup drug for severe strep infections as clindamycin resistance rises, so the arrival of a gene capable of disabling it \u2014 even silently \u2014 in a common childhood pathogen carried on a potentially mobile element warrants close surveillance.",
+      "summary": "Researchers at Northwestern University and collaborating pediatric centers identified a Streptococcus pyogenes isolate from a US child with strep throat that carried cfr(C), a gene known to cause resistance to multiple antibiotic classes \u2014 including linezolid \u2014 in other bacterial species; no prior report of cfr(C) in S. pyogenes existed in published literature or genomic databases. The gene was embedded in a novel integrative and conjugative element (ICESpy390756) capable of transferring between bacteria. Crucially, the strain remained susceptible to linezolid, suggesting the gene's promoter may have been disrupted \u2014 but the mobile element could allow cfr(C) to acquire a functional promoter in the future.",
+      "why_it_matters": "Linezolid is increasingly used as a fallback for severe strep infections when clindamycin fails, so a mobile resistance gene that could silence it represents a significant early warning for pediatric and invasive disease treatment.",
       "caveats": "small sample (N<100), single-center, observational design",
       "fact_check_note": "",
       "relevance_score": 8,
-      "relevance_score_reason": "Counterintuitive silent resistance gene in common pediatric pathogen; clear public health surveillance hook.",
+      "relevance_score_reason": "Antibiotic resistance topic bonus; counterintuitive silent-gene finding; clear pediatric public health hook.",
       "pitch_angles": [
         {
-          "publication_type": "Scientific American",
-          "headline": "Strep Throat Just Picked Up a Resistance Gene That Could Silence Our Last Good Backup Antibiotic",
-          "hook": "A resistance gene capable of defeating linezolid \u2014 currently the fallback drug for severe strep infections \u2014 has turned up in a child's throat swab for the first time ever, carried on a mobile element that could spread.",
-          "pitch_angle": "The gene, cfr(C), is currently silent in this isolate because it apparently lost its on-switch during transfer into S. pyogenes \u2014 but silent resistance genes can be reactivated under selective pressure. The finding underscores how antibiotic resistance genes can migrate into new bacterial hosts long before clinical resistance is detected, calling for expanded genomic surveillance of common pathogens."
+          "publication_type": "The Atlantic",
+          "headline": "A Child's Strep Throat Bacteria Were Hiding a Gene That Could One Day Beat Our Last-Resort Antibiotic",
+          "hook": "A routine strep culture from an American child contained a resistance gene never before seen in this pathogen \u2014 one that silences linezolid, the antibiotic doctors now reach for when standard treatments fail.",
+          "pitch_angle": "The gene isn't active yet, but it's sitting on a mobile element that can spread between bacteria, meaning the clock may be ticking on one of the last reliable drugs for severe strep infections. The case illustrates how antibiotic resistance can be hiding in plain sight, carried asymptomatically until conditions allow it to wake up."
         },
         {
-          "publication_type": "The Atlantic",
-          "headline": "A Common Childhood Infection Just Quietly Acquired a Resistance Gene. Scientists Are Worried.",
-          "hook": "The bacterium behind millions of strep throat cases each year has been found, for the first time, harboring a gene that disables one of our most important backup antibiotics \u2014 even though that gene isn't yet turned on.",
-          "pitch_angle": "As clindamycin resistance has pushed doctors toward linezolid for invasive strep infections, the discovery of cfr(C) in S. pyogenes on a potentially mobile genetic element suggests resistance could be one mutation away from expression. This raises difficult questions about how healthcare systems monitor for resistance threats before they become clinical crises."
+          "publication_type": "Scientific American",
+          "headline": "A Mobile Element Is Ferrying a Multi-Drug Resistance Gene Into Strep \u2014 and It's Currently Silent",
+          "hook": "A newly identified conjugative element in Streptococcus pyogenes carries cfr(C), a gene that confers resistance to five antibiotic classes in other species but appears dormant due to a probable promoter loss.",
+          "pitch_angle": "The finding raises the question of whether silent resistance genes can be reactivated once mobile elements shuffle them into new genomic contexts \u2014 a key mechanistic concern for infectious disease researchers tracking antibiotic resistance evolution. Surveillance of cfr(C)'s spread in S. pyogenes populations may be warranted before the gene finds a functional promoter."
         }
       ],
-      "run_date": "2026-08-25",
+      "run_date": "2026-08-26",
       "category": "Infectious Disease",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42632357",
-      "headline": "The quality of belly fat \u2014 not just how much you have \u2014 predicts survival in lung cancer immunotherapy patients",
+      "headline": "The density of belly fat visible on a CT scan predicts how long lung cancer patients survive on immunotherapy",
       "journal": "Cancer Treatment and Research Communications",
       "pubdate": "2026 Aug 21",
       "doi": "10.1016/j.ctarc.2026.101385",
-      "groundbreaking": "Counterintuitive finding",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a retrospective single-center cohort study of 140 advanced non-small cell lung cancer (NSCLC) patients with high PD-L1 expression treated with first-line single-agent immunotherapy (primarily pembrolizumab). Using automated CT-based volumetric analysis, they measured the radiodensity \u2014 a marker of fat quality \u2014 of visceral adipose tissue (VAT), subcutaneous fat, and skeletal muscle at baseline. Higher VAT radiodensity independently predicted worse overall survival (HR 1.02 per 1-HU increase) and progression-free survival, while muscle density was not prognostic.",
-      "why_it_matters": "If routinely collected CT scans can reveal a hidden fat-quality signal that predicts who will or won't respond to immunotherapy, oncologists may eventually use body composition data already in hand to better personalize treatment decisions for lung cancer patients.",
-      "caveats": "small sample (N<100 excluded \u2014 N=140), observational design, single-center, retrospective",
+      "summary": "Researchers conducted a retrospective single-center study of 140 patients with advanced non-small cell lung cancer (PD-L1 \u226550%) treated with first-line immunotherapy, analyzing baseline CT scans to quantify fat and muscle tissue. Higher visceral adipose tissue (VAT) radiodensity \u2014 a measure of fat quality, not quantity \u2014 was independently associated with worse overall and progression-free survival. Notably, skeletal muscle density showed no prognostic value, suggesting fat quality matters more than muscle mass for immunotherapy outcomes.",
+      "why_it_matters": "If fat tissue quality on a routine pre-treatment CT scan can independently predict immunotherapy survival, it could refine how oncologists identify patients most likely to benefit \u2014 without any additional testing.",
+      "caveats": "small sample (N<100 is not applicable here, N=140), observational design, single-center, retrospective",
       "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Counterintuitive fat-quality finding; limited by single-center retrospective design.",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding; human cohort; cancer and immunotherapy hook; single-center retrospective limits score.",
       "pitch_angles": [
         {
+          "publication_type": "Scientific American",
+          "headline": "The Quality of Your Belly Fat May Predict Whether Immunotherapy Will Save Your Life",
+          "hook": "It's not how much fat you carry, but what that fat looks like on a CT scan that may determine whether lung cancer immunotherapy works.",
+          "pitch_angle": "Researchers found that denser visceral fat \u2014 measured from routine pre-treatment scans \u2014 was independently linked to shorter survival in advanced lung cancer patients on immunotherapy, while muscle mass showed no such link. The finding suggests fat tissue biology, not body composition generally, may shape the immune environment that determines treatment response."
+        },
+        {
           "publication_type": "The Atlantic",
-          "headline": "Your CT Scan Already Knows If Your Cancer Treatment Will Work \u2014 Doctors Just Haven't Been Looking at the Right Thing",
-          "hook": "The survival odds of lung cancer patients on immunotherapy may be hiding in a CT measurement nobody typically checks: the density, not the size, of their belly fat.",
-          "pitch_angle": "A study of 140 advanced lung cancer patients found that the quality of visceral fat \u2014 measurable from scans already taken before treatment begins \u2014 predicted survival better than standard clinical variables alone. The finding suggests a largely untapped layer of biological information sitting in routine hospital imaging."
+          "headline": "Oncologists Have Been Looking at the Wrong Body Tissue to Predict Immunotherapy Success",
+          "hook": "A new study suggests the real survival signal hiding in lung cancer patients' CT scans isn't muscle wasting \u2014 it's the quality of their belly fat.",
+          "pitch_angle": "For years, muscle loss (cachexia) has been the focus of body-composition research in cancer outcomes, but this study finds visceral fat density is a stronger independent predictor of survival under immunotherapy. If validated, it could shift how pre-treatment imaging is read and how patient selection for immunotherapy is approached."
         }
       ],
-      "run_date": "2026-08-25",
+      "run_date": "2026-08-26",
       "category": "Pharmacology & Drug Therapy",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42619563",
-      "headline": "New hemophilia drugs promise near-zero bleeds \u2014 but come with hidden clotting dangers",
+      "headline": "A wave of new hemophilia A drugs promises near-zero bleeds \u2014 but introduces hidden clotting risks",
       "journal": "Expert Opinion on Pharmacotherapy",
       "pubdate": "2026 Aug 20",
       "doi": "10.1080/14656566.2026.2722319",
-      "groundbreaking": "Major public health implication",
+      "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "A narrative review synthesized evidence on recently approved and late-stage therapies for hemophilia A, covering replacement agents like efanesoctocog alfa and non-replacement 'rebalancing' therapies including anti-TFPI antibodies, an siRNA drug, and next-generation FVIII-mimetics. These emerging treatments promise weekly subcutaneous dosing and near-zero bleeding rates \u2014 a major leap from intravenous clotting factor infusions. However, the review warns that rebalancing therapies introduce thromboembolic risks, complicate emergency protocols, and interfere with standard lab assays used to monitor patients.",
-      "why_it_matters": "For the estimated 400,000 people worldwide with hemophilia A, the convenience gains of new therapies may come with underappreciated safety trade-offs that clinicians and patients urgently need to understand.",
+      "summary": "This narrative review synthesizes evidence on recently approved and late-stage pipeline therapies for hemophilia A, including the weekly subcutaneous factor VIII mimetic efanesoctocog alfa and 'rebalancing' agents such as the anti-TFPI antibodies concizumab and marstacimab, the siRNA fitusiran, and the next-generation FVIII-mimetic denecimig. While these agents offer subcutaneous dosing and near-zero bleeding rates compared with traditional intravenous factor replacement, the authors highlight serious trade-offs including thromboembolic risk, complex emergency protocols, and interference with standard laboratory coagulation assays. No new primary data were generated; the review covered literature from 2016 to present.",
+      "why_it_matters": "For the roughly 400,000 people worldwide living with hemophilia A, this new drug generation could eliminate the burden of frequent IV infusions \u2014 but the coagulation risks and monitoring complexities mean clinicians and patients will need new playbooks for managing bleeds and emergencies.",
       "caveats": "observational design, secondary analysis",
       "fact_check_note": "",
       "relevance_score": 6,
-      "relevance_score_reason": "Clinically significant pharmacology update; narrative review limits causal strength; no new primary data.",
+      "relevance_score_reason": "Important pharmacology update; broad patient relevance; narrative review limits evidence quality score.",
       "pitch_angles": [
         {
-          "publication_type": "Scientific American / STAT News",
-          "headline": "The New Hemophilia Drugs Are a Game-Changer \u2014 and a Puzzle for Emergency Rooms",
-          "hook": "A new class of hemophilia drugs can nearly eliminate bleeding episodes, but they also make it harder for doctors to tell when a patient is in danger of clotting to death.",
-          "pitch_angle": "Rebalancing therapies for hemophilia A shift the body's coagulation set-point in ways that standard hospital lab tests cannot reliably detect, creating a hidden risk in emergency settings. As these drugs move toward mainstream use, the review highlights an urgent need for new monitoring protocols and specialized assays before widespread adoption."
+          "publication_type": "Scientific American",
+          "headline": "The Drugs That Could Free Hemophilia Patients from Weekly IV Drips \u2014 and the New Risks They Carry",
+          "hook": "A new class of hemophilia A therapies works by rebalancing the entire clotting cascade rather than just replacing missing proteins \u2014 and that systemic approach comes with systemic risks.",
+          "pitch_angle": "Agents like fitusiran and concizumab promise near-zero bleeding rates and convenient subcutaneous injections, but they also suppress natural anticoagulant pathways, raising thromboembolic risk and confounding the standard lab tests clinicians rely on to manage bleeds. A new review argues that clinical protocols for hemophilia care urgently need updating to match the complexity of these novel mechanisms."
         }
       ],
-      "run_date": "2026-08-25",
+      "run_date": "2026-08-26",
       "category": "Pharmacology & Drug Therapy",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42615993",
-      "headline": "A new CMV diagnostic test matches the gold standard \u2014 but only barely clears the bar for transplant patients",
+      "headline": "A new CMV test for transplant patients performs nearly as well as the gold standard \u2014 at potentially lower cost",
       "journal": "Expert Review of Molecular Diagnostics",
       "pubdate": "2026 Aug 20",
       "doi": "10.1080/14737159.2026.2721430",
       "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers retrospectively compared the novel DiaRD CMV qPCR assay against the reference artus CMV RG PCR Kit using 180 plasma samples (47 CMV-positive, 133 CMV-negative) from transplant and oncology patients. The DiaRD assay achieved 95.7% sensitivity and 96.2% specificity, missing two positive cases, with strong quantitative correlation to the reference standard (R\u00b2=0.880). The assay showed no cross-reactivity with other pathogens and high precision, suggesting it could be a viable alternative for routine CMV monitoring.",
-      "why_it_matters": "Accurate CMV monitoring is critical for immunocompromised transplant patients, and access to validated alternative assays could reduce diagnostic bottlenecks in clinical labs worldwide.",
-      "caveats": "small sample (N<100 positives), observational design, single-center, retrospective analysis",
+      "summary": "Researchers in Turkey retrospectively compared the DiaRD CMV qPCR assay against the widely used artus CMV RG PCR Kit using 180 anonymized plasma samples from transplant recipients and patients with hematological malignancies (47 positive, 133 negative). The DiaRD assay achieved 95.7% sensitivity and 96.2% specificity, with strong quantitative correlation to the reference assay (R\u00b2=0.880) and no cross-reactivity with other pathogens. Results suggest the newer assay performs reliably for routine cytomegalovirus viral load monitoring in clinical labs.",
+      "why_it_matters": "For immunocompromised transplant patients, accurate CMV monitoring is critical to preventing life-threatening disease, and validating alternative assays could expand access to reliable diagnostics in resource-limited settings.",
+      "caveats": "small sample (N<100 positive), single-center, observational design, retrospective, secondary analysis",
       "fact_check_note": "",
       "relevance_score": 4,
-      "relevance_score_reason": "Narrow clinical diagnostics comparison; limited public or general science hook.",
+      "relevance_score_reason": "Clinically useful diagnostic comparison but narrow technical focus limits broad audience appeal.",
       "pitch_angles": [
         {
           "publication_type": "General science",
-          "headline": "A New Test for a Dangerous Virus in Transplant Patients Nearly Matches the Gold Standard \u2014 but Falls Just Short",
-          "hook": "For immunocompromised patients, a missed cytomegalovirus reading can be life-threatening \u2014 so how close is 'close enough' for a new diagnostic tool?",
-          "pitch_angle": "A new qPCR assay for cytomegalovirus matched the reference standard in 96% of cases but missed two positive patients, raising questions about acceptable error thresholds in high-stakes clinical diagnostics. The study highlights the tension between expanding diagnostic access and maintaining accuracy for vulnerable populations."
+          "headline": "Transplant Patients Need Precise Virus Monitoring \u2014 A New Test May Deliver It More Broadly",
+          "hook": "A newly validated CMV test matches the gold-standard assay's accuracy at detecting a virus that can be lethal in transplant recipients.",
+          "pitch_angle": "Cytomegalovirus is one of the leading infectious threats to organ transplant patients, and expanding the menu of reliable diagnostic tools could make monitoring more accessible globally. This validation study suggests a promising alternative is ready for routine clinical use."
         }
       ],
-      "run_date": "2026-08-25",
+      "run_date": "2026-08-26",
       "category": "Genetics & Molecular Biology",
       "chunk": "2/3",
       "status": "new"
     },
     {
       "pmid": "42550474",
-      "headline": "Forest fertilization leaves a hidden fungal legacy that persists for a decade after logging",
+      "headline": "After clear-cutting, fertilized forests release a hidden surge of soil fungi \u2014 then crash faster",
       "journal": "FEMS Microbiology Ecology",
       "pubdate": "2026 Aug 20",
       "doi": "10.1093/femsec/fiag091",
       "groundbreaking": "Counterintuitive finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used a space-for-time approach to analyze soil fungal communities across 48 Swedish clearcuts spanning 1\u201313 years post-harvest, comparing previously fertilized and unfertilized forests. After clearcutting, saprotrophic fungi surged\u2014especially in formerly fertilized stands\u2014while ectomycorrhizal fungi disappeared, then slowly recovered. The study found that fertilization's effects on decomposer fungi persisted long after logging, while tree-associated fungi appeared largely unaffected by prior fertilization history.",
-      "why_it_matters": "Intensive forest management practices may reshape underground fungal communities for over a decade, with potential ripple effects on carbon cycling and soil health in boreal forests managed for timber.",
-      "caveats": "observational design, secondary analysis, single-region (Sweden)",
+      "summary": "Using a space-for-time approach, researchers re-analyzed fungal community data from 48 Swedish boreal forest clearcuts spanning 1\u201313 years post-harvest, comparing previously fertilized and unfertilized stands. Ectomycorrhizal fungi collapsed after clearcutting while saprotrophic fungi surged \u2014 an effect amplified in formerly fertilized forests, where extra accumulated organic matter fueled an unusually large but short-lived saprotroph boom. Ectomycorrhizal communities, however, showed little lasting difference between fertilized and unfertilized plots during the first decade of recovery.",
+      "why_it_matters": "Understanding how intensive forest management alters soil fungal communities for years after harvest is essential for predicting carbon cycling and ecosystem recovery in boreal forests being pushed to produce more timber.",
+      "caveats": "observational design, secondary analysis",
       "fact_check_note": "",
       "relevance_score": 5,
-      "relevance_score_reason": "Ecologically interesting but niche; no direct public health hook; animal/field study.",
+      "relevance_score_reason": "Niche forestry ecology topic; limited everyday-life hook for target publications.",
       "pitch_angles": [
         {
-          "publication_type": "General science / Discover",
-          "headline": "The Fungi Beneath Clear-Cut Forests Remember What Humans Did Decades Ago",
-          "hook": "Even years after the chainsaws leave, the soil beneath logged forests carries a fungal imprint of the fertilizers that came before.",
-          "pitch_angle": "Researchers tracking Swedish forests found that fertilization leaves a decade-long signature in decomposer fungi communities that survives clearcutting\u2014a finding with implications for how we account for soil carbon dynamics in managed forests."
+          "publication_type": "General science",
+          "headline": "The Hidden Fungal Aftermath of Fertilizing a Forest Before You Cut It Down",
+          "hook": "Forests fertilized to grow faster don't just store more carbon \u2014 they set off an unexpected fungal cascade that plays out for a decade after the trees are gone.",
+          "pitch_angle": "A Swedish study found that clearcutting previously fertilized boreal forests triggers an outsized but short-lived explosion of decomposer fungi, suggesting the legacy of intensive forestry management lingers in the soil long after harvest and could affect how quickly these ecosystems recover and lock away carbon."
         }
       ],
-      "run_date": "2026-08-25",
+      "run_date": "2026-08-26",
       "category": "Environmental Health",
       "chunk": "1/1",
       "status": "new"
     },
     {
       "pmid": "42625381",
-      "headline": "A gene linked to gut paralysis turns up in a woman with only one symptom: a uterus that won't contract after birth",
+      "headline": "A rare muscle gene mutation caused only one unusual symptom in a patient \u2014 severe uterine atony during childbirth",
       "journal": "Clinical Genetics",
       "pubdate": "2026 Aug 20",
       "doi": "10.1111/cge.70234",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "groundbreaking": "Counterintuitive finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers report a single case of a woman carrying a known pathogenic variant in ACTG2 \u2014 a gene associated with multi-organ smooth muscle disease \u2014 whose only clinical manifestation was uterine atony (failure of the uterus to contract after delivery). The case study expands the recognized symptom spectrum of ACTG2-associated visceral myopathy, which typically presents with widespread gut and bladder dysfunction. This suggests the condition may be underdiagnosed in obstetric settings where isolated uterine atony is rarely linked to underlying genetic disease.",
-      "why_it_matters": "Women with unexplained postpartum hemorrhage from uterine atony may carry undetected genetic variants that could affect other family members and future pregnancies.",
+      "summary": "In a case report, clinicians at the University of Colorado described a single patient harboring a known pathogenic variant in ACTG2 \u2014 a gene linked to autosomal dominant visceral myopathy affecting smooth muscle \u2014 whose only clinical symptom was severe uterine atony (failure of the uterus to contract after delivery). This is the first reported case of isolated uterine involvement as the sole manifestation of ACTG2-associated visceral myopathy, expanding the known phenotypic spectrum of the condition.",
+      "why_it_matters": "Recognizing that a rare smooth muscle gene variant can present solely as uterine atony may help clinicians identify pregnant patients at risk for severe postpartum hemorrhage before delivery.",
       "caveats": "small sample (N<100), single-center, observational design",
       "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Intriguing rare disease case report but N=1 and very narrow clinical scope.",
+      "pitch_angles": [
+        {
+          "publication_type": "General science",
+          "headline": "A Rare Muscle Gene Mutation Hid Itself \u2014 Until Childbirth Revealed It",
+          "hook": "A patient with a known pathogenic mutation causing smooth-muscle disease had no symptoms at all \u2014 until her uterus failed to contract after delivery.",
+          "pitch_angle": "The case suggests that ACTG2, a gene associated with widespread visceral muscle dysfunction, can sometimes cause only a single, life-threatening symptom that emerges only during childbirth. It raises questions about how many cases of dangerous postpartum hemorrhage might have an undiagnosed genetic cause lurking beneath the surface."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42622944",
+      "headline": "Microplastics aren't just pollution \u2014 they're spreading antibiotic resistance genes across ecosystems",
+      "journal": "World Journal of Microbiology & Biotechnology",
+      "pubdate": "2026 Aug 20",
+      "doi": "10.1007/s11274-026-05164-w",
+      "groundbreaking": "Major public health implication / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers reviewed current evidence on the 'plastisphere' \u2014 the microbial biofilm communities that colonize microplastic surfaces in the environment. This narrative review synthesizes metagenomics and metatranscriptomics literature to show that microplastic biofilms serve as hotspots for horizontal gene transfer of antibiotic resistance genes (ARGs), co-selected by antibiotics, heavy metals, and biocides. A key paradox emerges: the same microbes that could be harnessed to biodegrade plastics also risk spreading ARGs and virulence factors if deployed in bioaugmentation strategies.",
+      "why_it_matters": "Microplastics may be functioning as a hidden global highway for antibiotic resistance \u2014 linking plastic pollution and the antimicrobial resistance crisis in ways that could complicate both cleanup efforts and public health strategies.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Microplastics plus antibiotic resistance \u2014 dual hot-button topics with strong public health and environmental hooks.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American",
+          "headline": "The Microplastic Paradox: The Same Bacteria That Could Save Us From Plastic May Be Spreading Antibiotic Resistance",
+          "hook": "Scientists hoping to use plastic-eating microbes to clean up pollution face an alarming catch: those same microbes carry antibiotic resistance genes they can pass to other organisms.",
+          "pitch_angle": "Microplastic surfaces in soil and water host dense microbial biofilms that swap antibiotic resistance genes at unusually high rates, driven by co-selection pressures from metals and biocides. This review argues that deploying plastisphere microbes for bioremediation without strict biosafety vetting could inadvertently accelerate the global AMR crisis."
+        },
+        {
+          "publication_type": "The Atlantic",
+          "headline": "We Made Plastic a Global Problem \u2014 Now It May Be Making Antibiotic Resistance Worse",
+          "hook": "Every piece of plastic in the ocean or soil is quietly hosting communities of bacteria that trade antibiotic resistance genes \u2014 adding a new dimension to two of the biggest environmental crises of our era.",
+          "pitch_angle": "A new review reveals that microplastics function as biological 'engines' that accelerate the spread of antibiotic resistance across ecosystems, connecting plastic pollution and drug-resistant infections in a feedback loop no cleanup strategy has fully accounted for. The finding raises urgent questions about whether bioremediation solutions to the plastic crisis could inadvertently fuel the next wave of untreatable infections."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42623063",
+      "headline": "Insects and worms are quietly harboring vast reservoirs of unknown enterococcal species \u2014 some may eventually threaten human health",
+      "journal": "mBio",
+      "pubdate": "2026 Aug 20",
+      "doi": "10.1128/mbio.01234-26",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "An international team systematically screened more than 100 invertebrate specimens from the Azorean island of Terceira and used whole-genome sequencing to characterize their enterococcal communities, finding that 40% of identified Enterococcus species were either previously undescribed (including four candidate new species) or only very recently discovered. Vertebrate control animals from the same island harbored only well-known enterococcal species, ruling out geographic isolation as the driver of novelty. The study suggests invertebrates represent a massive, largely untapped reservoir of enterococcal genetic diversity \u2014 including genes that could migrate into human-associated strains.",
+      "why_it_matters": "Because drug-resistant Enterococcus faecalis and E. faecium gained many of their resistance genes from environmental sources, identifying invertebrates as a major reservoir of uncharacterized enterococcal genetics could reshape how scientists track the origins of hospital-acquired infections.",
+      "caveats": "small sample (N<100), observational design, single geographic site (Azores)",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive reservoir finding; antibiotic resistance topic bonus; rigorous genomic design; small sample limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "National Geographic",
+          "headline": "The Bugs Beneath Our Feet Are Carrying Bacteria We've Never Seen \u2014 and Some Could End Up in Us",
+          "hook": "Scientists combing through the guts of island invertebrates found that nearly half the enterococcal species they encountered were previously unknown to science.",
+          "pitch_angle": "Enterococci are now among the most feared antibiotic-resistant pathogens in hospitals, yet most research has focused on the small slice of species that infect humans \u2014 a new study suggests the invertebrate world is teeming with undiscovered relatives carrying genetic material that could eventually arm those pathogens. The work opens a new front in understanding where antibiotic resistance genes come from."
+        },
+        {
+          "publication_type": "Scientific American",
+          "headline": "Invertebrates Are a Hidden Source of Enterococcal 'Dark Matter' \u2014 and It Could Shape Future Drug Resistance",
+          "hook": "Four candidate new Enterococcus species identified in Azorean invertebrates hint at a vast pool of uncharacterized genes positioned to flow into strains that infect humans.",
+          "pitch_angle": "By showing that invertebrate host selection \u2014 not geography \u2014 drives enterococcal novelty, the study suggests these organisms globally, not just on isolated islands, may be seeding human-associated lineages with new adaptive traits. The findings call for expanded environmental surveillance of enterococci beyond clinical and agricultural settings."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42624176",
+      "headline": "Whole-exome sequencing cracks the genetic cause of inherited blindness in Iranian families \u2014 including several never-seen-before variants",
+      "journal": "Molecular and Cellular Probes",
+      "pubdate": "2026 Aug 20",
+      "doi": "10.1016/j.mcp.2026.102084",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers applied whole-exome sequencing to 12 Iranian families affected by retinal dystrophies, a heterogeneous group of inherited disorders causing progressive vision loss. The study identified pathogenic variants in all 12 families, including several novel variants not previously reported, with key findings in genes such as EYS and syndromic retinal dystrophy genes. Results suggest WES can substantially improve molecular diagnosis and genetic counseling for families affected by these blinding conditions.",
+      "why_it_matters": "Identifying novel disease-causing variants in understudied populations could expand global understanding of inherited blindness and improve diagnostic accuracy for families worldwide.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Genetics hook but very small Iranian cohort limits generalizability; narrow regional scope.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American",
+          "headline": "Whole-Exome Sequencing Is Uncovering Hidden Causes of Inherited Blindness in Underrepresented Populations",
+          "hook": "A dozen Iranian families with untreatable vision loss finally have answers \u2014 and the genetic variants found in them have never been seen before.",
+          "pitch_angle": "Whole-exome sequencing identified the genetic cause of retinal dystrophy in every family studied, including multiple novel variants, suggesting that populations outside the traditional research mainstream harbor unique disease-causing mutations. As gene therapies for inherited blindness advance, knowing which variants exist in diverse populations will be critical to ensuring those treatments work globally."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42617808",
+      "headline": "CRISPR and aptamers are racing to replace antibodies in food safety testing \u2014 a new review maps who's winning",
+      "journal": "Journal of Food Protection",
+      "pubdate": "2026 Aug 19",
+      "doi": "10.1016/j.jfp.2026.100896",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This narrative review from researchers at the Guangzhou Institute for Food Inspection surveys emerging rapid-detection technologies for foodborne pathogens and chemical contaminants, covering immunofluorescence quantitative chromatography, flow cytometry immunophenotyping, aptamers, CRISPR/Cas systems, and phage-based methods. The review highlights that conventional colloidal gold lateral flow tests lack the sensitivity to detect trace pesticides, veterinary drug residues, or early-stage microbial contamination quantitatively, and that high antibody production costs limit commercial uptake. It identifies CRISPR/Cas and aptamer-based platforms as the most promising near-term alternatives for sensitive, low-cost, field-deployable food safety surveillance.",
+      "why_it_matters": "Faster, cheaper, and more sensitive field tests for pathogens and chemical residues in food could transform regulatory inspection and supply-chain safety globally.",
+      "caveats": "secondary analysis, single-center, observational design",
+      "fact_check_note": "",
       "relevance_score": 5,
-      "relevance_score_reason": "Rare single case; genetics angle but very narrow clinical scope.",
+      "relevance_score_reason": "Timely food safety technology review; CRISPR angle adds interest but no new empirical data.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired",
+          "headline": "CRISPR is coming for your food safety test kit",
+          "hook": "The lateral flow strips used to screen food for pathogens and pesticides are too crude for modern threats \u2014 and CRISPR-based sensors may be their replacement.",
+          "pitch_angle": "A comprehensive review of emerging food-testing biotechnologies finds that aptamers and CRISPR/Cas platforms can detect contaminants at trace levels without expensive antibodies, pointing toward a new generation of cheap, field-ready food safety tools. With foodborne illness affecting hundreds of millions globally each year, the race to replace colloidal gold with molecular biology has real stakes."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42616232",
+      "headline": "A genomics concept called the 'super-pangenome' could help breed crops that survive climate stress",
+      "journal": "Molecular Biotechnology",
+      "pubdate": "2026 Aug 19",
+      "doi": "10.1007/s12033-026-01604-y",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This review article surveys recent advances in plant super-pangenomics \u2014 an approach that integrates genomic data from both cultivated crops and their wild relatives across an entire genus to map genetic diversity unavailable in single reference genomes. The authors describe how super-pangenomes reveal structural variations and candidate genes invisible to traditional genomics, and how this could accelerate breeding of more resilient crops. No original experimental data are presented; the paper synthesizes existing literature and outlines future research directions.",
+      "why_it_matters": "With global food security increasingly threatened by climate change, super-pangenome tools that unlock hidden genetic diversity in wild crop relatives could help plant breeders develop varieties resilient to drought, disease, and heat.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Strong food security hook and clear societal relevance; review article with no original data limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "National Geographic",
+          "headline": "The Hidden Genomes of Wild Crop Relatives Could Save the World's Food Supply",
+          "hook": "Scientists are building a new kind of genetic atlas \u2014 one that maps not just cultivated crops but their wild cousins \u2014 and it may hold the keys to feeding a hotter, more chaotic planet.",
+          "pitch_angle": "Super-pangenomes capture the full spectrum of genetic diversity within a plant genus, including traits lost during domestication that could help crops withstand drought, disease, and extreme heat. As climate change accelerates threats to global agriculture, this genomic approach offers a promising new tool for breeders working to stay ahead of the crisis."
+        },
+        {
+          "publication_type": "Wired",
+          "headline": "The Next Agriculture Revolution Won't Come From a Lab \u2014 It'll Come From Wild Plants' Hidden DNA",
+          "hook": "A new genomic framework called the super-pangenome is giving scientists access to millions of genetic variants that domestication bred out of our food crops centuries ago.",
+          "pitch_angle": "By pooling genomic data from wild plant relatives alongside cultivated varieties, super-pangenomes expose a vast reservoir of untapped genetic tools \u2014 from disease resistance to climate resilience. The approach represents a fundamental shift in how plant breeders think about genetic resources in an era of accelerating food insecurity."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42615631",
+      "headline": "A urine sample could replace invasive vaginal swabs for microbiome testing \u2014 opening the door to at-home women's health research",
+      "journal": "Microbiology Spectrum",
+      "pubdate": "2026 Aug 19",
+      "doi": "10.1128/spectrum.00096-26",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at the University of Antwerp compared first-void urine (the initial urine stream) and cervicovaginal brush samples against standard vaginal swabs for profiling the vaginal microbiome in 10 women (N=10, 40 total samples). In 6 of 9 participants, urine and brush samples produced microbial profiles comparable in quality to traditional swabs. Room-temperature storage for 7 days degraded urine sample quality in 4 of 7 cases, a limitation the researchers flagged for future study design.",
+      "why_it_matters": "Non-invasive, at-home-compatible sampling methods could dramatically expand participation in vaginal microbiome research, especially among minors, marginalized communities, and people in low-resource settings where clinic-based swabbing is a barrier.",
+      "caveats": "small sample (N<100), single-center, proof-of-concept design",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Gut/vaginal microbiome topic bonus; small proof-of-concept limits score.",
       "pitch_angles": [
         {
           "publication_type": "Scientific American / General science",
-          "headline": "A Gene Tied to Gut Paralysis May Be Hiding Behind Some Cases of Postpartum Hemorrhage",
-          "hook": "A woman with a mutation linked to whole-body smooth-muscle failure had just one symptom: a uterus that wouldn't stop bleeding after birth.",
-          "pitch_angle": "A single case is expanding what doctors think they know about a rare genetic disorder, suggesting that ACTG2 mutations can lurk silently until childbirth \u2014 potentially explaining some mysterious cases of life-threatening postpartum hemorrhage."
+          "headline": "Could a Simple Urine Test Replace the Vaginal Swab for Microbiome Research?",
+          "hook": "Early evidence suggests the first few seconds of a urine stream carry enough microbial material to map the vaginal microbiome \u2014 no clinic visit required.",
+          "pitch_angle": "A small Belgian proof-of-concept study found that first-void urine samples matched the quality of standard vaginal swabs in most participants, suggesting a path toward scalable, at-home women's microbiome research. The implications extend to longitudinal studies that are currently nearly impossible to conduct due to sampling discomfort and cultural stigma."
+        },
+        {
+          "publication_type": "The Atlantic",
+          "headline": "Women's Health Research Has Always Relied on Uncomfortable Procedures. A Urine Test Could Change That.",
+          "hook": "Cultural stigma, privacy concerns, and sheer discomfort have long made vaginal microbiome research hard to scale \u2014 but a cup of urine might be the workaround scientists needed.",
+          "pitch_angle": "Researchers found that the first stream of urine carries enough cervicovaginal material to generate high-quality microbiome profiles, potentially enabling home-based sampling that sidesteps the barriers keeping many women \u2014 and children \u2014 out of reproductive health studies. The finding is preliminary, but points toward a broader rethinking of who gets to participate in women's health science."
         }
       ],
-      "run_date": "2026-08-25",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
+      "run_date": "2026-08-26",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42616343",
+      "headline": "China approves a new targeted lung cancer drug for a mutation that current therapies often miss",
+      "journal": "Drugs",
+      "pubdate": "2026 Aug 19",
+      "doi": "10.1007/s40265-026-02375-1",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Andamertinib, an EGFR tyrosine kinase inhibitor developed by Beijing Avistone Biotechnology, received conditional approval in China in April 2026 for adults with locally advanced or metastatic non-small cell lung cancer (NSCLC) harboring an EGFR exon 20 insertion mutation. The drug is approved for patients who progressed on or are intolerant to platinum-based chemotherapy. This summary article traces the key development milestones leading to approval.",
+      "why_it_matters": "EGFR exon 20 insertion mutations occur in roughly 2\u20133% of NSCLC cases and have historically been difficult to treat with existing EGFR-targeted drugs, leaving patients with limited options after chemotherapy.",
+      "caveats": "single-center, secondary analysis",
+      "fact_check_note": "The abstract does not describe clinical trial patient numbers or efficacy data; this is a regulatory milestone summary article, not a primary trial report.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Lung cancer drug approval with a hard-to-treat mutation angle; China-only approval limits US relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "General science",
+          "headline": "A New Lung Cancer Drug Targets a Mutation That Most Precision Therapies Miss",
+          "hook": "A newly approved Chinese drug zeroes in on an EGFR mutation that has long frustrated oncologists because existing targeted therapies often fail against it.",
+          "pitch_angle": "Andamertinib's approval for EGFR exon 20 insertion-positive NSCLC \u2014 a rare but notoriously treatment-resistant molecular subtype \u2014 marks a step forward in precision oncology's ongoing effort to match every cancer mutation with a targeted drug, though US approval has not yet been sought."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42616062",
+      "headline": "Most caregivers of young psychosis patients aren't in the highest-risk group \u2014 but parents who've been caregiving longest are",
+      "journal": "Social Psychiatry and Psychiatric Epidemiology",
+      "pubdate": "2026 Aug 19",
+      "doi": "10.1007/s00127-026-03202-4",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers applied latent profile analysis to survey data from 254 caregivers of people receiving early intervention services for psychosis in London, identifying three distinct caregiver profiles based on appraisals, beliefs, and avoidant coping styles. The majority (61.4%) fell into a 'high control' profile, while 17.3% were classified as 'avoidance and distressing' \u2014 the highest-risk group associated with worse outcomes. Caregivers in the distressed profile were significantly more likely to be parents of the service user and had been caregiving for longer on average.",
+      "why_it_matters": "Identifying which family members of people with early psychosis are at greatest risk of caregiver burnout could allow mental health services to target support before distress becomes entrenched.",
+      "caveats": "small sample (N=254), single-center, self-reported outcomes, observational design",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clinically relevant but narrow audience; single-center London study limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / General science",
+          "headline": "Parents Bearing the Longest Care Burden for Psychosis Patients Are Most at Risk of Burnout",
+          "hook": "A new study finds that among family members supporting someone through a first psychosis episode, parents who have been caregiving longest are most likely to fall into a pattern of avoidance and distress.",
+          "pitch_angle": "By mapping caregivers into three distinct psychological profiles, researchers identified a minority \u2014 but meaningful \u2014 group at high risk of burnout whose needs may currently go unmet by early intervention mental health services. The findings suggest routine profiling of caregiver coping styles could help services allocate support more precisely."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Public Health & Epidemiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42617760",
+      "headline": "A new open-access tool aims to make observational studies more rigorous by mimicking clinical trial design",
+      "journal": "Journal of Clinical Epidemiology",
+      "pubdate": "2026 Aug 19",
+      "doi": "10.1016/j.jclinepi.2026.112476",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers developed TITAN, a free, structured design-assistant tool to help researchers plan observational studies that emulate randomized controlled trials, reducing common methodological biases. The tool was built by a multidisciplinary committee through iterative pilot testing and guides users through defining a research question, designing a trial emulation, and identifying potential biases. TITAN focuses especially on aligning key study time points \u2014 eligibility, treatment assignment, and follow-up start \u2014 where errors most often introduce avoidable bias in real-world evidence studies.",
+      "why_it_matters": "As regulators and payers increasingly rely on observational data to evaluate drugs and health interventions, tools that reduce design flaws in such studies could meaningfully improve the quality of evidence informing health policy.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Methodological tool; limited public hook, no direct population health finding.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American",
+          "headline": "A New Tool Wants to Make Observational Studies as Trustworthy as Clinical Trials",
+          "hook": "Most of what we think we know about real-world drug effects comes from observational studies riddled with design flaws \u2014 a new free tool aims to fix that.",
+          "pitch_angle": "TITAN guides researchers through emulating a randomized trial using existing observational data, targeting the specific design errors that most often corrupt findings. As drug pricing and policy decisions increasingly rely on real-world evidence, improving the rigor of that evidence has outsized stakes."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Public Health & Epidemiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42623875",
+      "headline": "Microplastics have been found in groundwater on every continent \u2014 but no country has rules for how much is too much",
+      "journal": "Journal of Hazardous Materials",
+      "pubdate": "2026 Aug 19",
+      "doi": "10.1016/j.jhazmat.2026.143318",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A systematic review synthesized data from 82 field studies across 28 countries conducted between 2019 and 2026, examining microplastic contamination across eight distinct hydrogeological settings \u2014 including springs, karst aquifers, and alluvial systems. Every groundwater environment studied contained microplastics, with concentrations spanning six orders of magnitude (0.001 to 2,103 particles per liter), though the authors note that massive variability likely reflects methodological inconsistencies as much as real environmental differences. The review identifies ten regulatory gaps relative to EU groundwater policy and flags a 2029 EU Drinking Water Directive deadline by which standardized monitoring methods must be in place.",
+      "why_it_matters": "Groundwater supplies drinking water to roughly half the global population, and the absence of enforceable microplastic limits \u2014 combined with chaotic measurement standards \u2014 means most people have no way of knowing what they are drinking.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Microplastics topic bonus; global scope, major public health hook, large evidence base.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "Microplastics Are in the Water Beneath Our Feet \u2014 and No One Has Rules for How Much Is Too Much",
+          "hook": "A review of 82 studies from 28 countries found microplastics in every type of groundwater environment tested \u2014 and found that no government in the world has set a legal limit.",
+          "pitch_angle": "Groundwater feeds drinking wells and municipal supplies for billions of people, yet scientists still can't even agree on how to measure the plastic particles contaminating it \u2014 let alone how much is dangerous. With a European regulatory deadline looming in 2029, this review lays out just how far the science and policy need to travel before anyone can say what's in the water coming out of the tap."
+        },
+        {
+          "publication_type": "Scientific American",
+          "headline": "We Found Microplastics in Every Groundwater Setting Studied \u2014 Now Scientists Need to Figure Out What That Means",
+          "hook": "Concentrations of microplastics in groundwater vary by a factor of two million across studies \u2014 and much of that variation may be a measurement problem, not a real environmental difference.",
+          "pitch_angle": "A landmark systematic review finds that methodological chaos \u2014 wildly inconsistent sample volumes, rarely reported quality controls, and absent blank corrections \u2014 is making it nearly impossible to compare microplastic groundwater data across studies or set science-based safety thresholds. Fixing that measurement problem is now a prerequisite for any regulatory action before a key EU deadline."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42615933",
+      "headline": "A last-resort antibiotic for drug-resistant infections just lost ground \u2014 a bacterium evolved resistance in a single patient during treatment",
+      "journal": "Antimicrobial Agents and Chemotherapy",
+      "pubdate": "2026 Aug 19",
+      "doi": "10.1128/aac.00584-26",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers characterized two sequential Pseudomonas aeruginosa isolates from a single patient before and after ceftazidime/avibactam therapy, using whole-genome sequencing, antimicrobial susceptibility testing, and biochemical analyses. They identified a novel OXA-2 enzyme variant (OXA-1381) carrying a single amino acid substitution in the \u03a9-loop that dramatically boosted the bacterium's ability to break down ceftazidime and ceftolozane while reducing its resistance to carbapenems \u2014 a resistance trade-off that emerged during treatment. The findings suggest that 'silent' \u03b2-lactamase genes already present in bacteria can rapidly evolve under antibiotic pressure to defeat last-line agents.",
+      "why_it_matters": "The in-patient emergence of resistance to one of the few antibiotics still effective against multi-drug-resistant Pseudomonas aeruginosa underscores how quickly last-resort drugs can be undermined, with direct implications for treatment guidelines and antibiotic stewardship.",
+      "caveats": "small sample (N<100), single-center",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Antibiotic resistance topic bonus; in vivo emergence of last-resort drug resistance; strong mechanistic design.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "Inside One Patient, a Superbug Evolved to Defeat Our Last-Resort Antibiotic",
+          "hook": "During a single course of treatment with one of medicine's last effective antibiotics, a dangerous bacterium mutated just enough to render the drug useless \u2014 without doctors being able to stop it.",
+          "pitch_angle": "The case documents the real-time evolution of resistance to ceftazidime/avibactam in a single hospitalized patient, driven by a one-letter change in a bacterial enzyme that was hiding in the pathogen's genome all along. It illustrates the fragility of the antibiotic pipeline and the urgency of stewardship, since dormant resistance genes can rapidly activate under treatment pressure."
+        },
+        {
+          "publication_type": "Scientific American",
+          "headline": "A Single Amino Acid Swap Turned a Harmless Bacterial Enzyme Into a Last-Resort Antibiotic Destroyer",
+          "hook": "One substitution in the \u03a9-loop of a bacterial enzyme was all it took for Pseudomonas aeruginosa to neutralize ceftazidime/avibactam \u2014 a drug considered among the last options for resistant infections.",
+          "pitch_angle": "Biochemical analyses revealed how the mutation enhanced the enzyme's catalytic grip on the antibiotic while simultaneously reducing carbapenem resistance, a trade-off that allowed the pathogen to survive treatment. The finding highlights how integron-borne 'silent' resistance genes pose an underappreciated evolutionary reservoir that antibiotics can rapidly unlock."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42616758",
+      "headline": "The vaginal microbiome may determine whether HPV becomes cervical cancer \u2014 and scientists are only beginning to understand why",
+      "journal": "PLoS Pathogens",
+      "pubdate": "2026 Aug 19",
+      "doi": "10.1371/journal.ppat.1014517",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This review synthesizes emerging evidence on how cross-kingdom interactions between human papillomavirus (HPV) and the bacterial, fungal, and viral communities of the female reproductive tract may influence whether HPV infection persists or progresses to cervical cancer. The authors identify critical gaps \u2014 including lack of mechanistic data, inconsistent microbiome profiling methods, and sparse longitudinal studies \u2014 and outline future research directions. No new original data are presented; the work is a narrative synthesis of the field.",
+      "why_it_matters": "Cervical cancer kills more than 300,000 people annually, and if the vaginal microbiome substantially modulates HPV cancer risk, it could open microbiome-based prevention or monitoring strategies for the most common sexually transmitted infection globally.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Gut/reproductive microbiome + HPV + cancer prevention; strong public health hook; matches saved HPV item.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Scientific American",
+          "headline": "Your Vaginal Microbiome Might Decide Whether HPV Turns Into Cancer",
+          "hook": "Most HPV infections clear on their own \u2014 but something determines which ones don't, and a growing body of evidence points to the microbial community living in the reproductive tract.",
+          "pitch_angle": "Researchers are uncovering a complex relationship between HPV and the bacteria, fungi, and other microbes of the female reproductive tract that may tip the balance between viral clearance and cancer progression. The field is still riddled with methodological gaps and lacks longitudinal data, but the implication is significant: the microbiome could eventually become a target for preventing the world's fourth most common cancer in women."
+        },
+        {
+          "publication_type": "National Geographic / General science",
+          "headline": "HPV Doesn't Act Alone \u2014 the Microbes Around It May Seal Your Fate",
+          "hook": "New thinking in cervical cancer research is shifting focus from the virus itself to the invisible microbial ecosystem that surrounds it.",
+          "pitch_angle": "A sweeping review finds that bacteria, fungi, and viruses cohabiting the female reproductive tract appear to interact with HPV in ways that could influence whether the infection resolves or becomes cancer \u2014 a finding that reframes HPV risk as an ecological problem, not just a viral one. If confirmed in longitudinal studies, the discovery could reshape how clinicians think about screening and prevention for the infection that causes virtually all cervical cancers."
+        }
+      ],
+      "run_date": "2026-08-26",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -506,294 +1106,6 @@
           "headline": "A Quarter of Pet Parrots in Vietnam Carry a Deadly Feather Disease Virus \u2014 and the Exotic Bird Trade Could Spread It",
           "hook": "Surveillance of 193 domesticated parrots in northern Vietnam found nearly one in four infected with a virus that strips feathers, deforms beaks, and suppresses the immune system \u2014 with no prior data from the region.",
           "pitch_angle": "As the global exotic pet trade moves millions of birds across borders each year, PBFDV is a largely unmonitored hitchhiker; this first molecular survey from Vietnam reveals both high prevalence and genetic diversity, suggesting the virus has been spreading undetected. The findings call for routine screening at borders and within parrot breeding operations worldwide."
-        }
-      ],
-      "run_date": "2026-08-25",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42624176",
-      "headline": "Whole-exome sequencing identifies multiple novel blindness-causing gene variants in Iranian families \u2014 including in the understudied EYS gene",
-      "journal": "Molecular and Cellular Probes",
-      "pubdate": "2026 Aug 20",
-      "doi": "10.1016/j.mcp.2026.102084",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used whole exome sequencing (WES) to investigate the genetic causes of retinal dystrophies in 12 Iranian families experiencing progressive vision loss. Pathogenic variants were identified in all 12 families, including novel variants in genes such as EYS, with findings validated by Sanger sequencing at 100% concordance. The study expands the known genetic landscape of retinal dystrophies and highlights that comprehensive sequencing \u2014 rather than targeted gene panels \u2014 is needed for accurate molecular diagnosis.",
-      "why_it_matters": "As gene therapies for inherited retinal diseases advance, identifying the precise causative variants in affected families becomes essential for determining eligibility and guiding genetic counseling.",
-      "caveats": "small sample (N<100), single-center, observational design, limited to Iranian consanguineous families which may not generalize broadly",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Small single-center study; limited generalizability; narrow clinical genetics audience.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "Full genome scans are finding the hidden causes of hereditary blindness that standard tests miss",
-          "hook": "In a dozen families with progressive vision loss, whole-exome sequencing found a genetic culprit in every single case \u2014 including variants that existing diagnostic panels would have overlooked.",
-          "pitch_angle": "The study underscores a growing consensus that targeted gene panels are insufficient for diagnosing the genetically complex condition of retinal dystrophy, and that broader sequencing approaches are needed. With multiple gene therapies for inherited retinal diseases now in trials, knowing the exact variant matters more than ever for matching patients to the right treatment."
-        }
-      ],
-      "run_date": "2026-08-25",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42617808",
-      "headline": "CRISPR and aptamers are poised to replace traditional antibody tests for detecting food contamination \u2014 but hurdles remain",
-      "journal": "Journal of Food Protection",
-      "pubdate": "2026 Aug 19",
-      "doi": "10.1016/j.jfp.2026.100896",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers reviewed the state of modern immunoassay and alternative biotechnology platforms \u2014 including CRISPR/Cas systems, aptamers, and phage-based technologies \u2014 for rapid detection of foodborne pathogens, pesticides, veterinary drug residues, heavy metals, and other contaminants. The review synthesizes technical principles, performance benchmarks, and practical limitations of each approach compared to conventional colloidal gold lateral flow tests. Key findings indicate that while emerging methods offer superior sensitivity and quantitative capability, high antibody costs, reproducibility issues, and lack of regulatory pathways remain barriers to widespread adoption.",
-      "why_it_matters": "Faster, cheaper, and more sensitive food safety testing technologies could allow regulators and producers to catch dangerous contamination events \u2014 including pesticide residues and microbial outbreaks \u2014 before food reaches consumers.",
-      "caveats": "secondary analysis, observational design",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "CRISPR and food safety hooks; review-only with no new data; limited societal urgency for general audience.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired",
-          "headline": "CRISPR Is Coming for Your Food Safety Tests \u2014 and It Might Actually Work",
-          "hook": "The humble lateral flow strip that dominates food safety testing is meeting its match in CRISPR-based detection systems that can find trace contamination far faster and more accurately.",
-          "pitch_angle": "A comprehensive review finds that CRISPR/Cas systems, synthetic aptamers, and phage technologies are outperforming conventional immunoassays for detecting pathogens and chemical contaminants in food \u2014 but commercialization is stalled by reproducibility problems and the absence of regulatory approval pathways. The piece can explore what it would take to get these tools into actual food inspection labs."
-        }
-      ],
-      "run_date": "2026-08-25",
-      "category": "Environmental Health",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42618798",
-      "headline": "Scientists pinpoint a wheat gene that could be bred to boost gut-healthy fiber content in grain",
-      "journal": "TAG. Theoretical and Applied Genetics",
-      "pubdate": "2026 Aug 19",
-      "doi": "10.1007/s00122-026-05345-z",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Using genome-wide association study (GWAS) and linkage mapping across 243 wheat cultivars and 164 recombinant inbred lines, researchers identified a candidate gene \u2014 TaGLK-A1, a G2-like transcription factor \u2014 linked to grain fructan content in wheat. A single SNP difference between high- and low-fructan wheat lines caused an amino acid change in TaGLK-A1, and the favorable allele was associated with a 10.5% increase in grain fructan levels. Fructans are prebiotic dietary fibers with established benefits for human gut health, and the locus explained up to 24.6% of phenotypic variance in fructan content.",
-      "why_it_matters": "Identifying the genetic basis of fructan content in wheat could enable breeders to develop higher-fiber varieties that support gut health in populations where wheat is a dietary staple.",
-      "caveats": "observational design, single-center, no functional knockout validation reported",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Gut microbiome and food science hook; association study, no causal mechanism confirmed.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American / General science",
-          "headline": "One gene tweak could make wheat bread significantly better for your gut",
-          "hook": "A single DNA letter change in one wheat gene is associated with a 10% boost in gut-healthy prebiotic fiber \u2014 and breeders could now select for it.",
-          "pitch_angle": "Researchers pinpointed a transcription factor gene, TaGLK-A1, that helps regulate fructan levels in wheat grain, with one natural variant consistently linked to higher fiber content across multiple growing environments. As interest in gut microbiome health surges, engineering or selecting for higher-fructan wheat varieties could be a straightforward path to more nutritious staple grains."
-        }
-      ],
-      "run_date": "2026-08-25",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42616232",
-      "headline": "A new genomic framework could help breeders tap wild crop relatives to build more resilient food plants",
-      "journal": "Molecular Biotechnology",
-      "pubdate": "2026 Aug 19",
-      "doi": "10.1007/s12033-026-01604-y",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This review describes the emerging concept of 'super-pangenomes' in plant genomics \u2014 databases that integrate genomic information from both domesticated crops and their wild relatives across an entire genus, going beyond standard pangenomes that cover only a single species. The authors argue that super-pangenomes can reveal structural genetic variations, stress-tolerance genes, and evolutionary adaptations that single-reference genomes miss entirely. They outline current strategies for building these databases and their potential applications in breeding crops resilient to climate change and food security threats.",
-      "why_it_matters": "As climate change disrupts global agriculture, super-pangenomes could give breeders access to previously hidden genetic diversity in wild plants \u2014 potentially accelerating the development of drought- or disease-resistant crops.",
-      "caveats": "secondary analysis, purely computational with no validation",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Food security and genomics hook; review paper limits novelty and pitch specificity.",
-      "pitch_angles": [
-        {
-          "publication_type": "National Geographic",
-          "headline": "Scientists Are Mapping the Hidden Genes of Wild Plants \u2014 to Future-Proof the Crops We Eat",
-          "hook": "Buried in the genomes of wild, uncultivated plants are traits that could help crops survive drought, disease, and a warming planet \u2014 but scientists have only recently developed the tools to find them.",
-          "pitch_angle": "A new genomic framework called the 'super-pangenome' aggregates genetic data from both cultivated crops and their wild relatives across entire plant genera, revealing structural variations and adaptive genes that conventional breeding has never had access to. With global food security increasingly threatened by climate extremes, this approach could unlock a genetic library that conventional crop science has barely begun to explore."
-        }
-      ],
-      "run_date": "2026-08-25",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "2/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42615631",
-      "headline": "First-morning urine could replace vaginal swabs for mapping women's microbiome \u2014 no clinic visit required",
-      "journal": "Microbiology Spectrum",
-      "pubdate": "2026 Aug 19",
-      "doi": "10.1128/spectrum.00096-26",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at the University of Antwerp tested whether first-void urine (FVU) and cervicovaginal brush samples could produce reliable vaginal microbiome profiles comparable to standard vaginal swabs in 10 women (40 total samples). In six of nine participants, high-quality microbial profiles from FVU and brushes matched those from swabs, though storing FVU at room temperature for seven days altered microbial composition in four of seven samples. The study suggests FVU is a practical self-sampling method that could enable microbiome research in populations where invasive swabbing is culturally or physically difficult.",
-      "why_it_matters": "A non-invasive urine-based method for vaginal microbiome profiling could expand research access to children, adolescents, and communities where internal genital sampling faces cultural or privacy barriers.",
-      "caveats": "small sample (N<100), observational design, single-center, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Aligns with journalist's saved HPV urine-test story; women's health and accessibility hook strong.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / National Geographic",
-          "headline": "Your First Morning Urine Could Reveal the Hidden World of Your Vaginal Microbiome",
-          "hook": "The most intimate diagnostic \u2014 a vaginal swab \u2014 may no longer be necessary to understand one of the body's most consequential microbial communities.",
-          "pitch_angle": "A proof-of-concept study found that first-void urine, the initial stream that flushes cervicovaginal secretions, can generate microbiome profiles nearly as detailed as clinic-administered swabs, at least in most participants tested. If validated at scale, the approach could transform research on vaginal health, reproductive outcomes, and infection risk \u2014 especially in populations where internal sampling is culturally unacceptable or physically off-limits."
-        },
-        {
-          "publication_type": "Scientific American",
-          "headline": "Vaginal Microbiome Research Has a Sampling Problem \u2014 Urine Might Fix It",
-          "hook": "The vaginal microbiome shapes pregnancy outcomes, infection risk, and STI susceptibility \u2014 but studying it has always required an invasive step.",
-          "pitch_angle": "First-void urine captures cervicovaginal secretions at the urethral opening, potentially serving as a window into microbial communities that are otherwise difficult to sample non-invasively. This proof-of-concept study in 10 women suggests the method is technically feasible, though room-temperature storage degrades sample quality \u2014 a key challenge to solve before population-scale studies are possible."
-        }
-      ],
-      "run_date": "2026-08-25",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42616343",
-      "headline": "China approves a new targeted lung cancer drug for a hard-to-treat mutation \u2014 the West hasn't followed",
-      "journal": "Drugs",
-      "pubdate": "2026 Aug 19",
-      "doi": "10.1007/s40265-026-02375-1",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Andamertinib, a tyrosine kinase inhibitor targeting EGFR exon 20 insertion mutations in non-small cell lung cancer (NSCLC), received conditional approval in China in April 2026 for adult patients whose disease progressed on or after platinum-based chemotherapy. The drug, developed by Beijing Avistone Biotechnology, is specifically indicated for a mutation subtype historically resistant to earlier-generation EGFR inhibitors. This summary article reviews the regulatory milestones and clinical development pathway leading to approval.",
-      "why_it_matters": "EGFR exon 20 insertions account for roughly 2\u20133% of all NSCLC cases and have long lacked effective targeted options, so a new approved agent \u2014 even in one country \u2014 signals progress for a patient population with limited alternatives.",
-      "caveats": "single-center, secondary analysis",
-      "fact_check_note": "This is a regulatory summary article, not a primary trial report; no trial N is provided in the abstract. Approval is conditional and limited to China as of the publication date.",
-      "relevance_score": 5,
-      "relevance_score_reason": "Relevant cancer drug approval but China-only conditional approval limits US audience immediacy; review article, no primary data.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "A New Lung Cancer Drug Targets a Mutation That Resists Standard Therapy \u2014 But Only China Has Approved It So Far",
-          "hook": "Patients with a rare EGFR mutation in lung cancer have had few targeted options \u2014 a new drug just conditionally approved in China may change that, at least for now.",
-          "pitch_angle": "Andamertinib joins a small but growing class of drugs targeting EGFR exon 20 insertions, a mutation subtype that earlier precision therapies largely missed and that carries a poor prognosis. Its China-only conditional approval raises questions about global regulatory timelines and equitable access to targeted oncology treatments."
-        }
-      ],
-      "run_date": "2026-08-25",
-      "category": "Pharmacology & Drug Therapy",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42616062",
-      "headline": "Most caregivers of people with first-episode psychosis fall into a 'high control' pattern\u2014and parents are hardest hit",
-      "journal": "Social Psychiatry and Psychiatric Epidemiology",
-      "pubdate": "2026 Aug 19",
-      "doi": "10.1007/s00127-026-03202-4",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed self-report data from 254 caregivers enrolled in a London-based Early Intervention in Psychosis service, using latent profile analysis to identify distinct caregiving patterns. Three profiles emerged: 'Engagement and Rewarding' (21%), 'Avoidance and Distressing' (17%), and 'High Control' (61%). Caregivers in the distress-prone 'Avoidance and Distressing' profile were significantly more likely to be parents and had been caregiving for longer.",
-      "why_it_matters": "Identifying which caregivers are most at risk of burnout and distress could allow mental health services to target support earlier, potentially improving outcomes for both families and patients with psychosis.",
-      "caveats": "small sample (N=254), single-center, self-reported outcomes, observational design",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Clinically useful framing but small single-center sample and niche psychiatric caregiving topic.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / General science",
-          "headline": "The Hidden Toll on Parents Who Care for Children With Psychosis",
-          "hook": "A new study finds that parents\u2014more than spouses or siblings\u2014are most likely to fall into the most distressed and avoidant pattern of caregiving when a loved one experiences a first psychotic episode.",
-          "pitch_angle": "Researchers identified three distinct caregiver profiles among families navigating early psychosis, with the most at-risk group dominated by parents who had been caregiving the longest. The findings suggest mental health services could do more to screen and support family members before burnout takes hold."
-        }
-      ],
-      "run_date": "2026-08-25",
-      "category": "Public Health & Epidemiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42617760",
-      "headline": "A free AI-assisted tool aims to fix the design flaws quietly corrupting observational health research",
-      "journal": "Journal of Clinical Epidemiology",
-      "pubdate": "2026 Aug 19",
-      "doi": "10.1016/j.jclinepi.2026.112476",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "A French multidisciplinary team developed TITAN (Tool for Implementing TArget Trial emulatioN), an open-access design assistant to help researchers correctly apply the target trial emulation framework when analyzing observational health data. The tool guides users through defining a research question and hypothetical randomized trial, then emulating it using real-world data \u2014 flagging common biases such as misaligned eligibility criteria, treatment assignment, and follow-up start times. Developed through two rounds of pilot testing and iterative refinement, TITAN aims to reduce the inconsistent and often flawed application of a method increasingly used to evaluate drug effectiveness and public health interventions.",
-      "why_it_matters": "Poorly designed observational studies routinely produce misleading findings that influence prescribing guidelines and health policy; tools that systematically reduce those biases could improve the reliability of real-world evidence used in medical decision-making.",
-      "caveats": "observational design, single-center",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Methodological tool with indirect public health relevance; limited narrative hook for general audience.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American",
-          "headline": "Bad Study Design Is Corrupting Medical Research \u2014 This Free Tool Wants to Fix That",
-          "hook": "A new open-access tool systematically guides researchers away from the design flaws that make observational health studies mislead doctors and policymakers.",
-          "pitch_angle": "Target trial emulation is one of epidemiology's most promising methods for extracting reliable drug-effectiveness signals from real-world patient data \u2014 but it's widely misapplied. TITAN, developed by French epidemiologists, provides structured warnings and checklists to prevent the biases that have historically made observational findings unreproducible."
-        }
-      ],
-      "run_date": "2026-08-25",
-      "category": "Public Health & Epidemiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42623875",
-      "headline": "Microplastics are in every type of groundwater ever tested \u2014 and regulators have no standard way to measure them",
-      "journal": "Journal of Hazardous Materials",
-      "pubdate": "2026 Aug 19",
-      "doi": "10.1016/j.jhazmat.2026.143318",
-      "groundbreaking": "Major public health implication / Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a systematic review of 82 field studies from 28 countries (2019\u20132026) examining microplastic contamination across eight distinct hydrogeological settings. Every groundwater environment studied contained microplastics, with concentrations spanning six orders of magnitude \u2014 from 0.001 to 2,103 particles per liter. The review also found severe methodological inconsistencies between studies and identified ten key regulatory gaps blocking enforceable monitoring standards before the EU's 2029 Drinking Water Directive deadline.",
-      "why_it_matters": "Groundwater supplies drinking water to billions of people worldwide, and the absence of standardized monitoring methods means regulators cannot yet set or enforce safe limits for microplastic contamination.",
-      "caveats": "observational design, secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Microplastics topic bonus; global scope; strong public health hook; systematic review design.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic",
-          "headline": "There Is No Clean Groundwater Left \u2014 and We Have No Way to Measure How Bad It's Gotten",
-          "hook": "Every single type of groundwater environment ever studied now contains microplastics \u2014 and the science isn't even solid enough yet to tell us what that means for our drinking water.",
-          "pitch_angle": "A sweeping review of 82 studies across 28 countries found microplastics in every hydrogeological setting tested, with concentrations varying wildly due to inconsistent methods. The real story is a regulatory vacuum: without standardized testing, governments cannot set enforceable limits before a key EU deadline in 2029."
-        },
-        {
-          "publication_type": "Scientific American",
-          "headline": "Scientists Can't Agree on How to Measure Microplastics in Groundwater \u2014 and That's a Crisis",
-          "hook": "Microplastic concentrations reported in groundwater vary by a factor of a million, and a new review suggests much of that variation is a measurement problem, not a real environmental one.",
-          "pitch_angle": "A systematic review of 82 global field studies found that methodological chaos \u2014 sample volumes ranging from 0.1 to 15,000 liters, blank-correction failures, and inconsistent purging protocols \u2014 makes it nearly impossible to compare findings or set regulatory thresholds. The review lays out ten specific gaps blocking the EU from regulating groundwater microplastics by 2029."
-        }
-      ],
-      "run_date": "2026-08-25",
-      "category": "Environmental Health",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42615933",
-      "headline": "A last-resort antibiotic is failing a drug-resistant superbug \u2014 and a newly discovered enzyme mutation is to blame",
-      "journal": "Antimicrobial Agents and Chemotherapy",
-      "pubdate": "2026 Aug 19",
-      "doi": "10.1128/aac.00584-26",
-      "groundbreaking": "First-in-class human study / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers in Spain documented a Pseudomonas aeruginosa infection in which resistance to ceftazidime/avibactam \u2014 a last-resort antibiotic combination \u2014 emerged during treatment, characterizing the before-and-after bacterial isolates through whole-genome sequencing and biochemical analysis. They identified a previously undescribed enzyme variant, OXA-1381, carrying a single amino acid substitution (W157L) in the \u03a9-loop of OXA-2, which dramatically increased the bacterium's ability to break down ceftazidime and ceftolozane while paradoxically reducing carbapenem resistance. The findings show that so-called 'silent' beta-lactamase genes lurking in bacterial plasmids can rapidly evolve under antibiotic pressure to defeat last-line treatments.",
-      "why_it_matters": "The in-vivo evolution of resistance to a last-resort antibiotic in a single patient \u2014 driven by a previously unknown enzyme variant \u2014 illustrates how quickly the pipeline of effective drugs against drug-resistant bacteria can be undermined.",
-      "caveats": "small sample (N<100), single-center, single patient case",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Antibiotic resistance topic bonus, counterintuitive resistance-susceptibility trade-off, rigorous mechanistic lab work.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American",
-          "headline": "One Mutation Turned a Last-Resort Antibiotic Into a Sitting Duck",
-          "hook": "A bacterium evolved resistance to a last-resort drug combination mid-treatment \u2014 and the mechanism was a single amino acid swap in an enzyme scientists had largely ignored.",
-          "pitch_angle": "Researchers traced how Pseudomonas aeruginosa developed resistance to ceftazidime/avibactam in a real patient by mutating an enzyme called OXA-2, transforming it from a narrow-spectrum threat into one that can dismantle last-line antibiotics. The case reveals that 'silent' resistance genes already present in bacteria can be rapidly activated by the very drugs meant to fight them."
-        },
-        {
-          "publication_type": "The Atlantic",
-          "headline": "The Antibiotic of Last Resort Just Stopped Working \u2014 in Real Time, Inside a Patient",
-          "hook": "Scientists watched, in a single patient, as a dangerous bacterium evolved to defeat one of medicine's most powerful remaining antibiotics.",
-          "pitch_angle": "A case study from Spain documents the real-world emergence of resistance to ceftazidime/avibactam \u2014 a drug reserved for the worst drug-resistant infections \u2014 driven by a new enzyme variant that evolved during treatment itself. The finding raises urgent questions about how long last-resort antibiotics can remain effective when bacteria are evolving resistance before doctors' eyes."
         }
       ],
       "run_date": "2026-08-25",
@@ -1027,33 +1339,6 @@
       "run_date": "2026-08-25",
       "category": "Genetics & Molecular Biology",
       "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42616758",
-      "headline": "The vaginal microbiome may determine whether HPV infection progresses to cervical cancer \u2014 and scientists are just beginning to understand how",
-      "journal": "PLoS Pathogens",
-      "pubdate": "2026 Aug",
-      "doi": "10.1371/journal.ppat.1014517",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This review synthesizes emerging evidence on how interactions between human papillomavirus (HPV) and the female reproductive tract microbiome \u2014 including bacteria, fungi, and viruses \u2014 may influence whether HPV infection persists, clears, or progresses toward cervical cancer. Authors identify key gaps, including limited understanding of how non-bacterial microbiome members and host immune responses interact with HPV across different microbial community states. The review calls for more integrative, longitudinal research that moves beyond bacterial composition to examine functional and transkingdom microbial dynamics in cervical carcinogenesis.",
-      "why_it_matters": "Cervical cancer kills more than 340,000 people annually worldwide, and identifying microbiome-based risk or protective factors could eventually inform prevention and screening strategies beyond HPV vaccination.",
-      "caveats": "observational design, secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Gut/microbiome topic bonus; major public health hook; review limits score slightly.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / Scientific American",
-          "headline": "Your Vaginal Microbiome Might Decide Whether an HPV Infection Becomes Cancer",
-          "hook": "Most people with HPV clear it naturally \u2014 and the microbial community living in the female reproductive tract may be a key reason why some do not.",
-          "pitch_angle": "A new review synthesizes evidence that bacteria, fungi, and even other viruses in the vaginal microbiome interact with HPV in ways that could tip the balance toward cancer or clearance \u2014 a finding that reframes cervical cancer risk as partly ecological, not just viral. As HPV vaccination rates plateau in many countries, understanding these transkingdom interactions could point toward new, microbiome-informed prevention strategies."
-        }
-      ],
-      "run_date": "2026-08-25",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
       "status": "new"
     },
     {
