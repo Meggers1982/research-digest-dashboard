@@ -1,33 +1,387 @@
 {
-  "last_updated": "2026-08-26T11:47:34.377107+00:00",
-  "total_studies": 281,
-  "new_this_run": 4,
+  "last_updated": "2026-08-27T21:09:32.693805+00:00",
+  "total_studies": 289,
+  "new_this_run": 9,
   "studies": [
     {
-      "pmid": "42640938",
-      "headline": "A common genetic calcium disorder may be three times more prevalent than doctors thought \u2014 and easier to miss",
-      "journal": "Journal of Bone and Mineral Research",
-      "pubdate": "2026 Aug 25",
-      "doi": "10.1093/jbmr/zjag129",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study / Relevant aging or longevity finding",
+      "pmid": "42657754",
+      "headline": "Fat around the heart may trigger atrial fibrillation through inflammation and nerve damage, new cellular atlas reveals",
+      "journal": "Journal of the American Heart Association",
+      "pubdate": "2026 Aug 27",
+      "doi": "10.1161/JAHA.126.049221",
+      "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used UK Biobank whole-exome and whole-genome sequencing data linked to health records (N=454,787\u2013490,640) to estimate the prevalence and clinical profile of familial hypocalciuric hypercalcemia type 1 (FHH1), a genetic calcium disorder. They identified 162 carriers, suggesting a prevalence of roughly 1 in 3,000 \u2014 higher than previously believed \u2014 and found that FHH1 calcium levels overlap substantially with normal ranges, explaining frequent misdiagnosis. Contrary to prior smaller reports, the large-scale analysis found no population-level evidence linking FHH1 to pancreatitis or diabetes.",
-      "why_it_matters": "This finding suggests that a benign inherited calcium condition may be routinely mistaken for more serious hyperparathyroidism in older adults, potentially leading to unnecessary interventions.",
-      "caveats": "observational design, missing urinary calcium and parathyroid hormone data limiting full characterization, UK Biobank population (predominantly European ancestry)",
+      "summary": "Researchers built the first single-nucleus RNA-sequencing atlas of epicardial adipose tissue (the fat layer directly surrounding the heart) in patients with and without atrial fibrillation, drawing on population data from NHANES, UK Biobank genetic analyses, and a clinical cohort from Fuwai Hospital. In AF patients, this heart fat showed signs of nerve-function impairment, profibrotic changes, and chronic inflammation \u2014 and elevated interleukin-17 levels in blood were independently associated with AF risk in the UK Biobank. The findings suggest that the fat pad around the heart is not passive but actively remodels in ways that may promote dangerous heart rhythm problems.",
+      "why_it_matters": "Atrial fibrillation risk rises sharply with age, and this research suggests that visceral fat around the heart \u2014 not just overall obesity \u2014 may be a key driver, pointing toward inflammation and nerve health as potential targets.",
+      "caveats": "small sample (N<100 for single-nucleus sequencing: 9 patients), observational design, single-center for tissue data, secondary analysis of biobank data",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive AF-fat-inflammation link; cardiovascular aging relevance; partially large cohort.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Eating Well",
+          "headline": "The Fat Around Your Heart May Be Quietly Fueling Dangerous Arrhythmias",
+          "hook": "A new cellular map of heart fat reveals it's not just sitting there \u2014 in people with atrial fibrillation, it's inflamed, scarred, and damaging nearby nerves.",
+          "pitch_angle": "Scientists have created the first detailed atlas of the fat layer that wraps directly around the human heart, finding it undergoes dramatic inflammatory and structural changes in people with AFib. The discovery that a blood marker of this inflammation \u2014 interleukin-17 \u2014 is independently associated with AFib risk in a large UK population suggests that managing visceral fat and inflammation may matter for heart rhythm health, not just heart disease."
+        },
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Why the Fat Surrounding Your Heart May Raise Your AFib Risk as You Age",
+          "hook": "Atrial fibrillation becomes more common with age, and new research suggests a little-discussed culprit: inflammatory fat tissue wrapped around the heart itself.",
+          "pitch_angle": "A landmark cellular study finds that epicardial fat \u2014 the visceral fat depot directly touching the heart \u2014 shows extensive inflammation and nerve damage in AFib patients, along with elevated levels of an immune protein in the blood that predicts AF onset. For older adults, the findings add to evidence that reducing visceral fat may help protect heart rhythm, not just heart muscle."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42648391",
+      "headline": "AI heart-risk tools beat old calculators \u2014 but researchers warn they're not ready for your doctor's office yet",
+      "journal": "Progress in Cardiovascular Diseases",
+      "pubdate": "2026 Aug 26",
+      "doi": "10.1016/j.pcad.2026.08.012",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A structured narrative review mapped 126 studies published between 2020 and 2026 examining AI-based tools for predicting atherosclerotic cardiovascular disease risk, extracting detailed data from 93 of them. Traditional machine learning dominated (89% of studies), with deep learning and multimodal fusion approaches still rare. AI models showed modest but potentially meaningful improvements over conventional risk equations, yet major gaps remain \u2014 including limited external validation, algorithmic bias, and almost no prospective evidence that the tools actually improve patient outcomes.",
+      "why_it_matters": "As AI-powered heart-risk calculators edge toward clinical use, understanding their real-world limitations helps older adults and their doctors ask better questions before relying on these tools.",
+      "caveats": "observational design, narrative review (not systematic meta-analysis), heterogeneous endpoint definitions across included studies",
       "fact_check_note": "",
       "relevance_score": 6,
-      "relevance_score_reason": "Large human cohort, calcium/bone health angle, but narrow clinical audience fit.",
+      "relevance_score_reason": "Cardiovascular health relevance, large review, but no direct human outcomes data.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "AI Says You're at Risk for Heart Disease \u2014 But Should You Trust It?",
+          "hook": "Artificial intelligence is increasingly being used to predict who will have a heart attack, but a sweeping new review finds these tools have major blind spots.",
+          "pitch_angle": "A review of 126 studies finds AI heart-risk models may outperform older calculators, yet almost none have been tested in real-world clinical settings or proven to change patient outcomes. For older adults whose doctors may soon use these tools, the message is clear: AI risk scores are promising but not yet ready to replace a thorough conversation with your physician."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42644273",
+      "headline": "A mechanical clot-removal device achieved 97% technical success and 5% mortality in high-risk pulmonary embolism patients",
+      "journal": "Acta Cardiologica",
+      "pubdate": "2026 Aug 26",
+      "doi": "10.1080/00015385.2026.2698745",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers retrospectively analyzed 60 patients (mean age 61.9 years) treated with large-bore mechanical thrombectomy using the FlowTriever\u00ae device for acute pulmonary embolism at two Belgian centers between 2022 and 2024. Technical success was achieved in 96.7% of cases, mean pulmonary artery pressure dropped 27%, and 30-day mortality was 5%. Major complications occurred in 5% of patients, with no major bleeding events observed.",
+      "why_it_matters": "For older adults who cannot receive clot-dissolving drugs, early evidence suggests a catheter-based mechanical option may offer a potentially life-saving alternative for dangerous blood clots in the lungs.",
+      "caveats": "small sample (N<100), observational design, single-center, retrospective, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Procedural study; small retrospective cohort; limited lifestyle/wellness hook for aging audience.",
       "pitch_angles": [
         {
           "publication_type": "AARP / General health",
-          "headline": "Your 'High Calcium' Lab Result Might Be a Harmless Genetic Quirk \u2014 Not a Sign of Disease",
-          "hook": "A large genetic study finds that a benign inherited calcium condition is far more common than doctors realized \u2014 and its blood levels look a lot like a more serious disorder.",
-          "pitch_angle": "Researchers analyzing nearly half a million genetic profiles found that familial hypocalciuric hypercalcemia type 1 affects roughly 1 in 3,000 people, three times more than thought, and its calcium readings overlap with normal ranges \u2014 raising concerns about misdiagnosis and unnecessary parathyroid workups in older adults."
+          "headline": "A New Clot-Removal Approach Could Help Older Adults Who Can't Take Blood Thinners",
+          "hook": "A catheter-based device that physically sucks out dangerous lung clots showed high success rates in patients who couldn't safely receive standard clot-dissolving drugs.",
+          "pitch_angle": "Early Belgian data on 60 patients found the FlowTriever device achieved technical success in nearly all cases with low mortality \u2014 offering a potential option for the growing number of older adults for whom standard thrombolysis is too risky."
         }
       ],
-      "run_date": "2026-08-26",
+      "run_date": "2026-08-27",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42647152",
+      "headline": "AI facial analysis challenges a 350-year-old diagnosis painted into art history",
+      "journal": "The Journal of Clinical Endocrinology and Metabolism",
+      "pubdate": "2026 Aug 26",
+      "doi": "10.1210/clinem/dgag287",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers reanalyzed the centuries-old case of Eugenia Mart\u00ednez Vallejo, a 17th-century Spanish child long cited in over 20 publications as a historical example of Prader-Willi syndrome, using historical records, growth analysis from a life-size portrait, and AI-based facial phenotyping. Historical documents describing extreme weight gain from birth and estimated height at the 95th percentile for age contradicted the typical infant feeding difficulties and short stature of Prader-Willi syndrome. The team proposes that a defect in the melanocortin-4 receptor pathway \u2014 causing severe early-onset obesity without other syndromic features \u2014 better fits the available evidence.",
+      "why_it_matters": "This study illustrates how AI-assisted diagnosis tools are being applied beyond the clinic to challenge long-accepted medical assumptions, with implications for how rare obesity-related genetic conditions are recognized and understood today.",
+      "caveats": "single historical case, no genetic confirmation possible, retrospective analysis, speculative diagnosis",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Intriguing AI-history hook but no aging/longevity relevance; no living subjects or lifestyle angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Science journalism",
+          "headline": "AI Is Rewriting a 350-Year-Old Medical Diagnosis \u2014 and It Started With a Painting",
+          "hook": "A portrait of a severely obese 17th-century child has been cited for decades as proof of a rare genetic syndrome \u2014 but AI facial analysis and a close reading of historical records now suggest the diagnosis was wrong all along.",
+          "pitch_angle": "Researchers used AI-powered facial phenotyping and auxological data extracted from a life-size court portrait to challenge a diagnosis that has appeared in more than 20 scientific publications, pointing instead to a different genetic obesity pathway. The case is a vivid example of how AI diagnostic tools are being turned on the past \u2014 and raising questions about assumptions baked into medical history."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42647189",
+      "headline": "Losing bone and muscle at the same time may quietly accelerate memory loss in older adults",
+      "journal": "The Journals of Gerontology: Series A",
+      "pubdate": "2026 Aug 26",
+      "doi": "10.1093/gerona/glag211",
+      "groundbreaking": "Relevant aging or longevity finding / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers followed 2,291 older adults in Singapore from a national household survey, examining whether having both low bone density and low muscle mass \u2014 a condition called osteosarcopenia \u2014 was linked to cognitive decline. About half the cohort showed signs of possible osteosarcopenia, and those individuals scored lower on measures of overall functional capacity at baseline and showed worse cognitive function, particularly in delayed recall and orientation, at six-month follow-up. Higher education, stronger social networks, and resilience were associated with better cognitive outcomes even in this group.",
+      "why_it_matters": "The finding suggests that treating bone and muscle loss together \u2014 not just as physical problems \u2014 may also matter for protecting brain health as people age.",
+      "caveats": "observational design, short follow-up, single-center, study population is Singapore-based (findings may not fully generalize to Western populations with different dietary and lifestyle patterns)",
+      "fact_check_note": "The abstract title contains what appears to be a typo ('floss' likely means 'loss' in intrinsic capacity) \u2014 this should be verified against the published article before reporting.",
+      "relevance_score": 8,
+      "relevance_score_reason": "Large N, aging population, counterintuitive muscle-brain-bone link, strong lifestyle hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Eating Well",
+          "headline": "Weak Muscles and Brittle Bones Together May Signal Earlier Memory Trouble \u2014 Here's What May Help",
+          "hook": "Half of older adults in a large study had signs of both muscle and bone loss simultaneously \u2014 and those individuals showed noticeably worse memory just six months later.",
+          "pitch_angle": "The research found that the combination of low muscle mass and low bone density was linked to declines in recall and orientation \u2014 early warning signs of cognitive impairment \u2014 while factors like social connection, education, and resilience were associated with protection."
+        },
+        {
+          "publication_type": "AARP",
+          "headline": "Why Your Doctor Should Be Treating Your Muscles, Bones, and Brain Together",
+          "hook": "A large study found that older adults with simultaneous muscle and bone loss were significantly more likely to show early memory deficits within just six months.",
+          "pitch_angle": "The research, involving more than 2,000 older adults, suggests that the physical decline most people associate with aging may also be quietly affecting the brain \u2014 and that social ties and resilience may offer some protection."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Geriatrics",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42640938",
+      "headline": "A Hidden Genetic Condition That Mimics a Common Calcium Disorder May Be Far More Common Than Doctors Thought",
+      "journal": "Journal of Bone and Mineral Research",
+      "pubdate": "2026 Aug 25",
+      "doi": "10.1093/jbmr/zjag129",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using whole-exome and whole-genome sequencing data from the UK Biobank linked to health records, researchers identified 162 individuals carrying genetic variants associated with familial hypocalciuric hypercalcemia type 1 (FHH1), estimating its prevalence at roughly 1 in 3,000 people \u2014 higher than previously thought. FHH1 causes lifelong elevated blood calcium and is often mistaken for primary hyperparathyroidism, a condition treated very differently (sometimes with surgery). Importantly, the study found no population-level evidence supporting previously suspected complications of FHH1 such as pancreatitis or diabetes, and calcium levels in FHH1 carriers overlapped substantially with the general population, explaining why it is so often missed or misdiagnosed.",
+      "why_it_matters": "For older adults who receive a diagnosis of high blood calcium \u2014 a common incidental lab finding \u2014 this research suggests that a misdiagnosed genetic variant could be sending some people toward unnecessary treatment.",
+      "caveats": "observational design, secondary analysis, self-reported outcomes",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive prevalence finding; large biobank cohort; metabolic/diagnostic relevance for aging adults.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Your High Calcium Lab Result Might Be a Genetic Quirk \u2014 Not a Disease That Needs Surgery",
+          "hook": "A large genetic study suggests that a condition mimicking a common calcium disorder is far more prevalent than doctors realized \u2014 and may be routinely misdiagnosed, potentially leading older adults toward unnecessary procedures.",
+          "pitch_angle": "Researchers analyzing data from nearly half a million people found that a genetic condition called FHH1 \u2014 which causes elevated blood calcium \u2014 appears in roughly 1 in 3,000 people and is regularly confused with a disorder that is sometimes treated with surgery. Because calcium levels in FHH1 carriers overlap with the general population, experts say the condition is easy to miss, making it a meaningful consideration for anyone told their blood calcium is high."
+        },
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "If You've Been Told Your Calcium Is High, There's a Genetic Reason Doctors Often Miss",
+          "hook": "New genomic research finds that a benign inherited calcium condition is three times more common than previously estimated \u2014 and is frequently mistaken for a disorder requiring medical intervention.",
+          "pitch_angle": "A UK Biobank study of nearly half a million people found that familial hypocalciuric hypercalcemia type 1, a genetic variant that raises blood calcium without causing harm, may affect as many as 1 in 3,000 adults \u2014 and is often confused with primary hyperparathyroidism, which can lead to surgery. The study also found no evidence that FHH1 raises the risk of pancreatitis or diabetes, overturning some earlier concerns."
+        }
+      ],
+      "run_date": "2026-08-27",
       "category": "Endocrinology & Metabolism",
       "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42641861",
+      "headline": "Preservatives Found in Nearly All Breast Milk Samples \u2014 But at Levels Far Below Safety Limits",
+      "journal": "Food and Chemical Toxicology",
+      "pubdate": "2026 Aug 25",
+      "doi": "10.1016/j.fct.2026.116354",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers measured methylparaben and ethylparaben levels in 63 breast milk samples from 54 Taiwanese mothers over the first six months of lactation. Ethylparaben was detected in 100% of samples and methylparaben in 81%, with both preservatives significantly higher in early colostrum than in later milk. Estimated daily infant intake was roughly 28,000-fold below the European Food Safety Authority's acceptable daily limit, though body-weight-adjusted ethylparaben exposure was modestly elevated in the colostrum period.",
+      "why_it_matters": "Findings suggest that common cosmetic and food preservatives do transfer into breast milk, but at levels current safety guidelines consider well within safe limits \u2014 relevant context for parents and clinicians navigating infant feeding decisions.",
+      "caveats": "small sample (N<100), single-center, observational design, Taiwan-specific population (results may not generalize to US/Western dietary and cosmetic-use patterns)",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Infant/maternal focus, not aging audience; small Taiwanese cohort limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Everyday Health",
+          "headline": "Parabens Show Up in Nearly Every Breast Milk Sample \u2014 Here's What Safety Data Actually Says",
+          "hook": "A Taiwanese study found common preservatives in virtually all breast milk tested \u2014 but at levels tens of thousands of times below safety thresholds.",
+          "pitch_angle": "Researchers detected parabens in nearly every breast milk sample from 54 mothers, with the highest levels in early colostrum. Despite near-universal detection, estimated infant intake was a tiny fraction of established safety limits, offering reassurance alongside a reminder that environmental chemical exposures are ongoing."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Nutritional Sciences",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42636502",
+      "headline": "A New Medicare Care Model for Nursing Home Residents May Cut Hospitalizations \u2014 But Getting Facilities to Adopt It Is Hard",
+      "journal": "Geriatric Nursing",
+      "pubdate": "2026 Aug 24",
+      "doi": "10.1016/j.gerinurse.2026.104247",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted qualitative interviews with seven nurse practitioners and primary care physicians involved in launching the first Institutional Special Needs Plan (I-SNP) in a southern U.S. state. The I-SNP model is a Medicare program designed to reduce hospitalizations and improve care coordination for nursing home residents. Providers reported that the model improved personalized care and staff skills, but faced significant resistance from entrenched nursing home practices.",
+      "why_it_matters": "As the U.S. nursing home population grows, care models that keep older adults out of the hospital could meaningfully improve quality of life in long-term care settings.",
+      "caveats": "small sample (N<100), qualitative design, single-center, self-reported outcomes, industry funding [Dignity Healthcare \u2014 one author]",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Policy/care-model study; very small qualitative sample limits generalizable health insight.",
+      "pitch_angles": [
+        {
+          "publication_type": "Next Avenue",
+          "headline": "A Medicare Care Model Promises Better Nursing Home Care \u2014 So Why Is It So Hard to Implement?",
+          "hook": "A new Medicare plan design may keep nursing home residents out of the hospital more often \u2014 but changing how facilities operate is the real challenge.",
+          "pitch_angle": "Early evidence from the first I-SNP launched in a southern state suggests relationship-based, nurse-practitioner-led care improves coordination for nursing home residents. The findings highlight a policy gap between what Medicare envisions and what nursing homes are prepared to deliver."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Seniors & Aging",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42627550",
+      "headline": "Standard bone density scans predict hip screw strength just as well as cutting-edge 3D imaging",
+      "journal": "Archives of Osteoporosis",
+      "pubdate": "2026 Aug 21",
+      "doi": "10.1007/s11657-026-01763-0",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers tested how well four imaging methods \u2014 including standard DXA scans and newer 3D bone-mapping tools \u2014 predicted how firmly surgical screws held in the hip bones of 20 cadaveric femur specimens. Standard hip-specific DXA bone mineral density matched the predictive accuracy of more advanced modalities, all showing strong correlations with screw pullout strength. The study also found that a simple measurement taken during surgery (insertional torque) was a strong predictor, potentially useful when pre-op bone data aren't available.",
+      "why_it_matters": "For older adults facing hip fracture surgery, this suggests the widely available DXA scan already in use for osteoporosis screening may provide surgeons with reliable information about bone quality without requiring costly additional imaging.",
+      "caveats": "small sample (N<100), cadaveric specimens (not living patients), single-center, industry-adjacent funding (Arthrex, Enovis grants to co-author)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Bone health in aging context, but cadaveric N=20 and surgical/clinical focus limits lifestyle angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / General health",
+          "headline": "The Bone Scan Already in Your Doctor's Office May Be All Surgeons Need Before Hip Surgery",
+          "hook": "A newer generation of 3D bone imaging tools didn't outperform the standard DXA scan at predicting how well hip screws hold \u2014 suggesting older adults may not need additional costly tests before fracture repair.",
+          "pitch_angle": "When hip fractures strike, surgeons need to know if bones are strong enough to hold hardware \u2014 and it turns out the familiar DXA scan does that job as well as expensive new imaging. For the millions of older adults already getting DXA scans for osteoporosis, this finding hints that their existing bone data could directly inform surgical care."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42654316",
+      "headline": "Vitamin D Supplements May Not Help Healthy Older Adults the Way We Thought \u2014 Targeted Repletion Is the New Thinking",
+      "journal": "Nutrients",
+      "pubdate": "2026 Aug 21",
+      "doi": "10.3390/nu18162736",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A narrative review synthesized evidence from PubMed, Scopus, Web of Science, and the Cochrane Library on vitamin D supplementation in aging, pollution-exposed, and UVB-limited populations. Researchers found the strongest evidence for vitamin D repletion remains musculoskeletal \u2014 supporting bone and muscle health in people with documented deficiency \u2014 while routine supplementation in generally healthy older adults is no longer recommended by recent guidelines. Extra-skeletal benefits (such as immunity or cognitive effects) remain insufficiently supported by clinical trial evidence.",
+      "why_it_matters": "For the many older adults taking vitamin D supplements 'just in case,' this review suggests that blanket supplementation without confirmed deficiency may not deliver the broad protective benefits once hoped \u2014 and that targeted testing and repletion in high-risk individuals is the evidence-based path forward.",
+      "caveats": "observational design, narrative review (no formal meta-analysis or risk-of-bias assessment), no systematic evidence grading",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive; directly addresses supplements and bone/muscle aging in older adults.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Should You Stop Taking Vitamin D? New Review Says 'It Depends' \u2014 and Most Healthy Older Adults May Not Need It",
+          "hook": "Decades of enthusiasm for vitamin D supplements may have outrun the science, according to a sweeping new review \u2014 and experts now say routine supplementation without a confirmed deficiency is hard to justify.",
+          "pitch_angle": "A new narrative review found that vitamin D's clearest benefits are for older adults with documented deficiency, particularly for bone and muscle health \u2014 not as a broad anti-aging supplement. For the millions taking it 'just in case,' the evidence suggests getting tested first may matter more than taking more."
+        },
+        {
+          "publication_type": "Prevention / Eating Well",
+          "headline": "Vitamin D Supplements Are Everywhere \u2014 But Experts Say Most People Are Taking Them the Wrong Way",
+          "hook": "A new review argues that vitamin D works best as a targeted treatment for deficiency, not a routine supplement for healthy adults \u2014 a shift that could reshape how millions approach their daily pill routine.",
+          "pitch_angle": "Researchers reviewed decades of evidence and found that while vitamin D is critical for bones and muscles in people who are deficient, there's little trial support for the extra-skeletal benefits \u2014 like immunity or mood \u2014 that have made it one of America's most popular supplements. The takeaway: know your levels before you supplement."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Nutritional Sciences",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42622203",
+      "headline": "Adding AI and new biomarkers to heart risk calculators barely moves the needle, review finds",
+      "journal": "Journal of the American Heart Association",
+      "pubdate": "2026 Aug 20",
+      "doi": "10.1161/JAHA.125.050232",
+      "groundbreaking": "Counterintuitive finding / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A narrative review synthesized epidemiological and health-systems evidence published between 2000 and 2025 on cardiovascular risk prediction models. The author found that adding novel biomarkers or AI-based methods to standard risk calculators improved discrimination only minimally (\u0394C-statistic \u2248 0.004\u20130.007), and that better risk prediction has not translated into meaningful reductions in cardiovascular disease burden. Socioeconomic and environmental factors remain largely absent from most models, limiting their accuracy across diverse populations.",
+      "why_it_matters": "This suggests that simply refining heart-risk scores \u2014 without fixing how they're applied in real-world care \u2014 may do little to help people actually live longer or healthier.",
+      "caveats": "observational design, single-center, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive finding on AI/biomarkers; review design limits score; cardiovascular aging hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "Your Heart Risk Score May Be Less Useful Than Your Doctor Thinks",
+          "hook": "Decades of refinements to heart disease risk calculators \u2014 including AI \u2014 have barely improved their ability to predict who will actually have a heart attack.",
+          "pitch_angle": "A sweeping review of 25 years of cardiovascular prediction research found that fancy new tools move the accuracy needle almost imperceptibly, and better scores haven't translated into fewer heart attacks \u2014 raising questions about where prevention efforts should really focus."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42625098",
+      "headline": "A New Brain-Scan Framework May Help Predict Which Older Adults Will Benefit Most From Memory-Boosting Interventions",
+      "journal": "GeroScience",
+      "pubdate": "2026 Aug 20",
+      "doi": "10.1007/s11357-026-02471-w",
+      "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Stanford researchers developed BRAIN-DISC, an analytical framework that matches large-cohort brain connectivity patterns to small intervention trials to identify who responds to cognitive or neuropsychiatric treatments. Across three demonstrations involving adults with mild cognitive impairment or neuropsychiatric symptoms (trial samples ranging from N=26 to N=208 in the cohort), the framework successfully identified brain subtypes that predicted greater memory and executive function gains from cognitive training or brain stimulation. The approach suggests that resting-state brain scans could one day be used to match older adults with the interventions most likely to help them.",
+      "why_it_matters": "If brain connectivity profiles can reliably predict who benefits from cognitive training, this could move memory-loss interventions from one-size-fits-all toward truly personalized approaches for aging adults.",
+      "caveats": "small sample (N<100), single-center, short follow-up, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Cognitive aging relevance strong; methodology-focused study with very small trial samples limits accessibility.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP",
+          "headline": "Your Brain Scan Could Soon Tell Doctors Which Memory Exercise Will Actually Work for You",
+          "hook": "Not all brain-training programs help everyone \u2014 but a new framework using brain scans suggests scientists are getting closer to knowing who will benefit.",
+          "pitch_angle": "Researchers found that resting-state brain connectivity patterns, measured by fMRI, could predict which older adults with early memory problems improved most from cognitive training or brain stimulation. The work is early but points toward a future where memory interventions are matched to individual brain profiles rather than applied uniformly."
+        },
+        {
+          "publication_type": "Prevention",
+          "headline": "Scientists May Have Found a Way to Match People With the Memory-Boosting Strategy That Works for Their Brain",
+          "hook": "A new analytical tool could help personalize cognitive interventions for people at risk of memory decline \u2014 by reading their brain's connectivity patterns.",
+          "pitch_angle": "The BRAIN-DISC framework links large-scale brain imaging data to small clinical trials, identifying subtypes of older adults who respond differently to memory training and brain stimulation. Early demonstrations suggest that one day, brain scans could guide which cognitive intervention a person should try \u2014 a potential game-changer for aging brain health."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Seniors & Aging",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42625414",
+      "headline": "HIV clinics may be an untapped front line for catching dementia early in older adults",
+      "journal": "Aging & Mental Health",
+      "pubdate": "2026 Aug 20",
+      "doi": "10.1080/13607863.2026.2717574",
+      "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers adapted Scotland's National Dementia Champions Programme for HIV clinics in the US, training HIV clinic staff to recognize and address dementia in older adults living with HIV, who face elevated dementia risk. Only four trainees completed this feasibility pilot; surveys showed high acceptability and appropriateness, though educational gains were modest. The program suggests that HIV care settings could serve as an underutilized venue for expanding dementia detection and support.",
+      "why_it_matters": "As more people with HIV age into their 60s and beyond, integrating dementia awareness into HIV care could help catch cognitive decline earlier in a high-risk group that often falls through the cracks.",
+      "caveats": "small sample (N<100), single-center, self-reported outcomes",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Niche population, very small N, limited lifestyle/wellness hook for general audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "Next Avenue",
+          "headline": "Older Adults With HIV Face a Hidden Dementia Risk \u2014 and Their Doctors May Not Be Trained to Spot It",
+          "hook": "A small but promising pilot program is training HIV clinic staff to recognize dementia in aging patients \u2014 a group with significantly elevated risk that's often overlooked.",
+          "pitch_angle": "With hundreds of thousands of Americans over 50 now living with HIV, researchers found that adapting dementia training for HIV clinics is feasible and well-received, pointing to an underserved opportunity in aging care."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Geriatrics",
+      "chunk": "1/1",
       "status": "new"
     },
     {
@@ -50,33 +404,6 @@
           "headline": "The Hidden Reason Your Loved One's Nursing Home Keeps Losing Staff",
           "hook": "Burnout \u2014 not pay alone \u2014 is pushing eldercare workers out the door, and a surprising new study finds that even coworker support can backfire.",
           "pitch_angle": "A study of nearly 350 nursing home caregivers found that emotional exhaustion and a loss of personal purpose were the strongest drivers of turnover intent, with job satisfaction acting as the critical bridge between stress and quitting. In a counterintuitive twist, colleague support actually intensified the harm of depersonalization \u2014 a finding that challenges assumptions about what workplace interventions actually help retain caregivers."
-        }
-      ],
-      "run_date": "2026-08-26",
-      "category": "Seniors & Aging",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42636502",
-      "headline": "Nurse-led insurance model cuts nursing home hospitalizations \u2014 but old habits die hard",
-      "journal": "Geriatric Nursing",
-      "pubdate": "2026 Aug 24",
-      "doi": "10.1016/j.gerinurse.2026.104247",
-      "groundbreaking": "Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used qualitative interviews with seven nurse practitioners and primary care physicians involved in launching the first Institutional Special Needs Plan (I-SNP) in a southern U.S. state to understand how the model affects care quality versus traditional fee-for-service. The I-SNP model was associated with more personalized care, improved nursing staff assessment skills, and better care coordination, though entrenched nursing home practices posed significant barriers to adoption. Findings suggest that sustained nurse practitioner involvement in relationship-based care models may improve outcomes for older adults in long-term care.",
-      "why_it_matters": "For older adults and their families navigating nursing home care, this suggests that insurance-model reforms centered on nurse practitioners could mean fewer unnecessary hospitalizations and more coordinated day-to-day care.",
-      "caveats": "small sample (N<100), qualitative design, single-center, industry funding [Dignity Healthcare \u2014 one author]",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Long-term care policy angle; very small qualitative sample limits broad applicability.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP",
-          "headline": "A New Medicare Insurance Model Is Keeping Nursing Home Residents Out of the Hospital",
-          "hook": "A little-known Medicare insurance structure \u2014 managed by nurse practitioners \u2014 is showing early signs of reducing unnecessary hospitalizations for nursing home residents.",
-          "pitch_angle": "Early qualitative evidence suggests that I-SNPs, a Medicare Special Needs Plan with on-site nurse practitioner oversight, may improve care coordination and reduce hospital transfers for nursing home residents. For families choosing long-term care, understanding whether a facility participates in this model could matter."
         }
       ],
       "run_date": "2026-08-26",
@@ -118,33 +445,6 @@
       "status": "new"
     },
     {
-      "pmid": "42627550",
-      "headline": "A standard bone density scan predicts hip screw stability as well as costly new imaging \u2014 a finding that could matter for fracture surgery",
-      "journal": "Archives of Osteoporosis",
-      "pubdate": "2026 Aug 21",
-      "doi": "10.1007/s11657-026-01763-0",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a biomechanical study using 20 cadaveric femurs, imaging each with DXA, trabecular bone score, 3D-Shaper, and quantitative CT, then mechanically testing how well screws held in the femoral neck. Standard DXA bone mineral density correlated as strongly with screw pullout strength (r=0.95) as the newer, more complex imaging modalities. The findings suggest the widely available DXA scan may be sufficient to guide surgical bone-fixation decisions in older adults with hip fractures.",
-      "why_it_matters": "For older adults facing hip fracture surgery, this finding suggests that the bone imaging most hospitals already have on hand may be all that's needed to predict whether surgical hardware will hold.",
-      "caveats": "small sample (N<100), cadaveric/ex vivo study (not living patients), single-center",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Clinically relevant aging topic but cadaveric sample, very small N, no living participants.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health / Next Avenue",
-          "headline": "The Bone Scan You've Already Had May Predict How Well Hip Surgery Will Hold",
-          "hook": "A lab study found that a standard DXA scan \u2014 the same test used to screen for osteoporosis \u2014 predicts hip screw stability just as well as newer, more expensive imaging tools.",
-          "pitch_angle": "Researchers tested 20 cadaveric hip bones with four different imaging methods, then mechanically pulled screws out to measure holding strength \u2014 and found the familiar DEXA scan matched the performance of cutting-edge techniques. For the millions of older adults who fracture a hip each year, this early-stage finding suggests that the imaging tool already in most hospitals may be enough to guide better surgical decisions."
-        }
-      ],
-      "run_date": "2026-08-26",
-      "category": "Endocrinology & Metabolism",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42628644",
       "headline": "High-intensity interval training is safe and well-liked among people with type 2 diabetes in cardiac rehab \u2014 even for older patients",
       "journal": "Canadian Journal of Diabetes",
@@ -169,66 +469,6 @@
       "run_date": "2026-08-26",
       "category": "Endocrinology & Metabolism",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42622203",
-      "headline": "Adding New Biomarkers to Heart Risk Calculators Barely Moves the Needle \u2014 and May Not Save Lives",
-      "journal": "Journal of the American Heart Association",
-      "pubdate": "2026 Aug 20",
-      "doi": "10.1161/JAHA.125.050232",
-      "groundbreaking": "Counterintuitive finding / Overturns prior research / Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a comprehensive review of cardiovascular risk prediction models published between 2000 and 2025, synthesizing epidemiological, methodological, and health-systems evidence. The review found that adding novel biomarkers or variables to standard risk calculators produced only marginal improvements in predictive accuracy (change in C-statistic of roughly 0.004\u20130.007), and AI-based models have not consistently delivered meaningful clinical gains. Critically, better risk prediction has not translated into proportional reductions in cardiovascular disease burden, pointing to deep gaps between knowing who is at risk and actually helping them.",
-      "why_it_matters": "For older adults hoping their doctor's risk calculations reflect the full picture of their heart health, this review suggests that even the most sophisticated new tools may not yet improve real-world outcomes \u2014 and that social and environmental factors remain dangerously underweighted.",
-      "caveats": "observational design, single-center (single author/institution review), secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive cardiovascular finding; broad aging relevance; review design limits strength.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP / Next Avenue",
-          "headline": "Your Doctor's Heart Risk Calculator May Be Less Accurate Than You Think",
-          "hook": "Decades of new biomarkers and AI tools have barely improved the ability to predict \u2014 or prevent \u2014 heart disease in older adults.",
-          "pitch_angle": "A sweeping 25-year review finds that even cutting-edge additions to standard cardiovascular risk models improve predictive accuracy by only a fraction of a percent. For readers over 50 who assume sophisticated testing means better protection, this suggests that knowing your 'risk score' is only the first step \u2014 and the system hasn't caught up to translating that number into action."
-        },
-        {
-          "publication_type": "Prevention / Everyday Health",
-          "headline": "Why Smarter Heart Risk Tools Haven't Lowered Heart Disease Rates",
-          "hook": "Scientists have built increasingly complex models to predict who will have a heart attack \u2014 but cardiovascular disease rates haven't fallen in proportion.",
-          "pitch_angle": "A review of 25 years of cardiovascular risk research found that novel biomarkers and AI algorithms add surprisingly little predictive power over basic traditional risk factors, and that social and environmental determinants of heart health are still routinely ignored. The takeaway: lifestyle factors your doctor may not be measuring \u2014 like neighborhood stress or economic pressure \u2014 could matter as much as any blood test."
-        }
-      ],
-      "run_date": "2026-08-26",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42625098",
-      "headline": "Brain scan patterns may predict who benefits from cognitive training \u2014 and who doesn't",
-      "journal": "GeroScience",
-      "pubdate": "2026 Aug 20",
-      "doi": "10.1007/s11357-026-02471-w",
-      "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Stanford developed BRAIN-DISC, an analytical framework that matches resting-state brain connectivity patterns derived from large cohorts to individuals in small brain modulation intervention trials. Across three demonstrations \u2014 including a cognitive training trial in mild cognitive impairment (MCI) participants (n=74) and a breathwork trial (n=56) \u2014 the framework identified brain connectivity subtypes that predicted who improved most in memory and executive function. The approach suggests that pre-treatment brain scan signatures could help personalize interventions like cognitive training or transcranial stimulation for older adults at risk of cognitive decline.",
-      "why_it_matters": "Early evidence suggests that resting-state brain scans could one day help clinicians identify which older adults are most likely to benefit from specific cognitive or brain stimulation therapies \u2014 potentially making these interventions far more effective.",
-      "caveats": "small sample (N<100), short follow-up, secondary analysis, observational design in cohort components",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Cognitive aging relevance strong; methodology-heavy framing limits consumer media appeal.",
-      "pitch_angles": [
-        {
-          "publication_type": "Prevention / Everyday Health",
-          "headline": "Your Brain Scan May Predict Whether Cognitive Training Will Actually Work for You",
-          "hook": "Not everyone responds the same way to brain training or stimulation therapies \u2014 and new research suggests a resting-state brain scan could reveal who will benefit most.",
-          "pitch_angle": "A Stanford-developed analytical framework found that specific patterns in brain connectivity scans predicted which people with mild cognitive impairment showed the greatest memory gains from cognitive training. The finding hints at a future where brain-based 'subtypes' \u2014 not one-size-fits-all programs \u2014 guide cognitive health interventions for aging adults."
-        }
-      ],
-      "run_date": "2026-08-26",
-      "category": "Seniors & Aging",
-      "chunk": "1/1",
       "status": "new"
     },
     {
