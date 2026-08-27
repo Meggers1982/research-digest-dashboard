@@ -1,8 +1,443 @@
 {
-  "last_updated": "2026-08-26T11:30:49.708534+00:00",
-  "total_studies": 333,
-  "new_this_run": 1,
+  "last_updated": "2026-08-27T21:06:05.166762+00:00",
+  "total_studies": 341,
+  "new_this_run": 9,
   "studies": [
+    {
+      "pmid": "42657754",
+      "headline": "The fat around your heart may trigger atrial fibrillation through inflammation \u2014 and a simple blood protein could warn you first",
+      "journal": "Journal of the American Heart Association",
+      "pubdate": "2026 Aug 27",
+      "doi": "10.1161/JAHA.126.049221",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers built the first single-nucleus gene-expression atlas of epicardial adipose tissue (EAT) \u2014 the fat pad directly surrounding the heart \u2014 in patients with coronary artery disease, comparing those with and without atrial fibrillation (AF), then validated findings in UK Biobank and Fuwai Hospital cohorts. Genetic analyses using Mendelian randomization supported a potential causal link between visceral fat and AF risk. Higher circulating interleukin-17 levels were independently associated with both postoperative and incident AF, suggesting this inflammatory protein may serve as a predictive biomarker.",
+      "why_it_matters": "The finding suggests that the fat depot wrapped around the heart may actively rewire its electrical environment through inflammation \u2014 and that a blood test for interleukin-17 could one day help identify people at highest risk of developing AFib.",
+      "caveats": "small sample (EAT sequencing N=9), observational design, surrogate endpoints only, single-center (EAT biopsy component)",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "AFib topic bonus; novel biomarker; Mendelian randomization + UK Biobank validation; small biopsy sample limits.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "The fat wrapped around your heart could be quietly triggering an irregular heartbeat",
+          "hook": "A new study found that epicardial fat \u2014 the visceral fat depot sitting directly on the heart \u2014 shows signs of chronic inflammation and electrical disruption in people with atrial fibrillation.",
+          "pitch_angle": "Researchers mapped gene activity in heart-surrounding fat for the first time and found extensive inflammatory remodeling in AFib patients, with elevated levels of interleukin-17 predicting both postoperative and new-onset AFib in large separate cohorts. The findings suggest that managing visceral fat may matter not just for heart attack risk but for heart rhythm health."
+        },
+        {
+          "publication_type": "STAT News / Medscape Cardiology",
+          "headline": "First transcriptomic atlas of epicardial fat implicates IL-17 inflammation pathway in AFib arrhythmogenesis",
+          "hook": "Single-nucleus RNA sequencing of heart-surrounding fat reveals a profibrotic, immune-activated tissue state in AFib patients \u2014 and points to interleukin-17 as a potential circulating biomarker.",
+          "pitch_angle": "The study combined snRNA-seq of epicardial adipose tissue biopsies with Mendelian randomization and UK Biobank validation to link visceral fat remodeling to atrial fibrillation via inflammatory and neuroprotective pathways, identifying PTPRN2 as a candidate susceptibility gene. Elevated plasma IL-17 independently predicted postoperative and incident AF, offering a translatable biomarker target for clinical investigation."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42648460",
+      "headline": "A new mapping technique may help pinpoint the exact origin of life-threatening heart rhythm chaos",
+      "journal": "Heart Rhythm",
+      "pubdate": "2026 Aug 26",
+      "doi": "10.1016/j.hrthm.2026.08.032",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Tohoku University in Japan used a novel electroanatomical mapping approach \u2014 first deflection annotation combined with an emphasis function \u2014 to identify target sites for catheter ablation of ventricular fibrillation. The abstract does not report participant numbers or full outcomes, as this appears to be a technical methods report published online ahead of print. The approach suggests early electrical activation sites can be highlighted more precisely, potentially improving ablation targeting for this lethal arrhythmia.",
+      "why_it_matters": "More precise mapping of ventricular fibrillation's origin could eventually improve survival rates for patients who experience this sudden, life-threatening heart rhythm disorder.",
+      "caveats": "small sample (N<100), single-center, surrogate endpoints only, abstract does not report N or hard clinical outcomes",
+      "fact_check_note": "Abstract does not include participant count or clinical outcome data; summary reflects available information only.",
+      "relevance_score": 4,
+      "relevance_score_reason": "Highly technical ablation mapping tool; insufficient outcome data reported; niche procedural focus.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "First-Deflection Mapping May Sharpen Ablation Targets in Ventricular Fibrillation",
+          "hook": "A Japanese center's novel electroanatomical mapping method claims to highlight VF ablation targets with greater spatial precision than standard approaches.",
+          "pitch_angle": "The technique uses first deflection annotation and an emphasis function within existing mapping systems to spotlight early activation sites \u2014 a potentially valuable refinement for electrophysiologists attempting to eliminate the triggers of one of cardiology's most difficult-to-treat arrhythmias."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42648391",
+      "headline": "AI heart-risk models beat older calculators \u2014 but researchers warn most still can't be trusted in the real world",
+      "journal": "Progress in Cardiovascular Diseases",
+      "pubdate": "2026 Aug 26",
+      "doi": "10.1016/j.pcad.2026.08.012",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A structured narrative review synthesized 126 studies (2020\u20132026) on AI models for predicting atherosclerotic cardiovascular disease (ASCVD) risk, with 93 providing enough detail for systematic extraction. Traditional machine learning dominated (89% of studies), while deep learning and multimodal fusion remained rare; no study used large language models. AI models showed modest but potentially meaningful improvements over conventional risk scores, but reviewers flagged pervasive problems with limited external validation, algorithmic bias, poor calibration reporting, and almost no prospective evidence of real-world clinical benefit.",
+      "why_it_matters": "Before AI-driven cardiovascular risk scores reach clinical practice, this review finds that most current models have not been rigorously tested outside their original data sets \u2014 meaning a tool that looks accurate in a lab study could perform differently for patients in different health systems.",
+      "caveats": "observational design, narrative review, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "High-prevalence condition; review design limits novelty; no hard endpoints; AI-in-cardiology angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "AI promises better heart-attack prediction \u2014 but a sweeping review finds most models aren't ready for the clinic",
+          "hook": "A review of 126 AI cardiovascular risk studies found that despite promising accuracy metrics, almost none have been rigorously validated outside their training data or tested prospectively in real patients.",
+          "pitch_angle": "Researchers at Mayo Clinic and collaborating institutions mapped the landscape of AI-based ASCVD risk prediction from 2020 to 2026 and found that traditional machine learning still dominates, calibration is rarely reported, and algorithmic bias and transportability remain largely unaddressed. The authors argue the field must shift from asking whether AI can detect patterns to whether it can be trusted, implemented, and shown to actually improve preventive care."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42644273",
+      "headline": "A mechanical clot-removal device cleared dangerous lung clots with 93% survival and no major bleeding in Belgian study",
+      "journal": "Acta Cardiologica",
+      "pubdate": "2026 Aug 26",
+      "doi": "10.1080/00015385.2026.2698745",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers retrospectively analyzed 60 patients (mean age 61.9 years; 51.7% male) treated with the FlowTriever\u00ae large-bore mechanical thrombectomy system for acute pulmonary embolism at two Belgian centers between February 2022 and November 2024. Technical success was achieved in 96.7% of cases, mean pulmonary artery pressure dropped by 27%, and 30-day mortality was 5% with 93.3% survival to discharge; no major bleeding events occurred. Elevated lactate on admission was significantly associated with adverse outcomes, and two pulmonary artery perforations occurred in patients with acute-on-chronic PE.",
+      "why_it_matters": "For patients with severe pulmonary embolism who cannot receive clot-dissolving drugs, mechanical thrombectomy associated with rapid hemodynamic improvement and low in-hospital mortality in this early European experience.",
+      "caveats": "small sample (N=60), observational design, retrospective, single-country, short follow-up, surrogate endpoints only (mPAP reduction), no comparative control group",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Acute high-mortality condition; limited by retrospective small single-country design.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology / STAT News",
+          "headline": "Mechanical clot removal in massive pulmonary embolism: new European data suggest rapid pressure relief with low bleeding risk",
+          "hook": "In 60 patients with high- and intermediate-high-risk pulmonary embolism, a large-bore thrombectomy device achieved near-universal technical success and 93% survival to discharge with no major bleeding.",
+          "pitch_angle": "The Belgian bi-center retrospective study adds to a growing body of real-world evidence for the FlowTriever system as an alternative for PE patients who can't receive thrombolytics, with a 27% reduction in pulmonary artery pressure and a 5% 30-day mortality rate. Elevated lactate emerged as a key marker of adverse outcomes, potentially useful for patient selection as prospective comparative trials are awaited."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42648737",
+      "headline": "A minimally invasive approach to blocked shoulder arteries works in three-quarters of cases \u2014 and avoids surgery complications",
+      "journal": "Journal of Endovascular Therapy",
+      "pubdate": "2026 Aug 26",
+      "doi": "10.1177/15266028261479519",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Fuwai Hospital in Beijing retrospectively analyzed 122 consecutive patients treated for proximal subclavian artery chronic total occlusion between 2020 and 2024, using an endovascular-first strategy with surgical bypass reserved for failures. Endovascular treatment succeeded in about 74% of attempted cases, and overall revascularization was achieved in 91.8% of patients; no strokes or TIAs were recorded during the procedure. At a median follow-up of 26 months, estimated restenosis was roughly 22% at 3 years, but clinically driven reintervention remained low at about 6%.",
+      "why_it_matters": "Subclavian artery blockage can cause arm pain, dizziness, and stroke risk, and this real-world data suggests a less invasive catheter-based approach is both safe and durable for most patients.",
+      "caveats": "single-center, observational design, retrospective, short follow-up, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Vascular procedure outcomes; single-center retrospective, surrogate-heavy, niche condition.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Endovascular-First Strategy for Subclavian CTO Achieves 74% Technical Success With No Stroke Events",
+          "hook": "Real-world data from 122 patients suggests a catheter-first approach to proximal subclavian artery total occlusion is safe and effective for most anatomies.",
+          "pitch_angle": "A new CTA-based scoring tool may help clinicians identify the roughly one-quarter of patients where endovascular escalation is anatomically unfavorable and bypass should be the primary strategy. The authors propose the tool to define procedural stopping boundaries and reduce complication risk."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42644287",
+      "headline": "Elderly patients with advanced Hodgkin lymphoma show 67% six-year survival on a chemo-free-ish combo \u2014 without the brutal toxicity of standard regimens",
+      "journal": "British Journal of Haematology",
+      "pubdate": "2026 Aug 26",
+      "doi": "10.1111/bjh.70763",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers tested a frontline combination of brentuximab vedotin and bendamustine in 57 elderly Hodgkin lymphoma patients (mean age 70.75, range 62\u201379) who had never received treatment \u2014 a population historically excluded from intensive regimens due to comorbidity burden. Most patients had advanced-stage disease (stage III\u2013IV), B-symptoms, and high comorbidity scores (75% had a CIRS-G score >3). After a median follow-up of six years, overall survival was 67% and progression-free survival was 45%, with the regimen deemed feasible at full dose.",
+      "why_it_matters": "This finding suggests that elderly patients with advanced Hodgkin lymphoma \u2014 a group often undertreated due to toxicity fears \u2014 may tolerate and benefit from this combination regimen, potentially expanding treatment options for an underserved population.",
+      "caveats": "small sample (N<100), single-arm phase I/II (no comparator), observational design, short follow-up relative to disease course, European single-region cohort (France/Italy)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Hematology-oncology focus; limited cardiovascular angle; small trial.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / General health",
+          "headline": "Older Adults With a Tough Blood Cancer Are Surviving Longer With a Gentler Treatment Approach",
+          "hook": "For elderly patients with advanced Hodgkin lymphoma \u2014 long considered too frail for aggressive chemotherapy \u2014 a targeted drug combination delivered six-year survival rates that rival more toxic standard regimens.",
+          "pitch_angle": "The HALO trial found that two-thirds of elderly patients with advanced Hodgkin lymphoma were still alive six years after treatment with brentuximab vedotin and bendamustine, a regimen designed to balance effectiveness with tolerability. For an aging population where treatment-related toxicity is often the deciding factor, these long-term results suggest the therapeutic window may be wider than previously assumed."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42461193",
+      "headline": "Surgeons remove a dangerous clot straddling the heart using full cerebral and aortic protection \u2014 a technical first",
+      "journal": "JACC: Cardiovascular Interventions",
+      "pubdate": "2026 Aug 24",
+      "doi": "10.1016/j.jcin.2026.03.014",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Clinicians at Northwell Health in New York reported a case of impending paradoxical embolism \u2014 a rare, life-threatening condition where a clot straddling a hole in the heart threatens simultaneous stroke and systemic embolism \u2014 treated via catheter-based thrombectomy with simultaneous complete cerebral and aortic embolic protection. This is a case report of a single patient. The procedure successfully removed the clot without neurological or embolic complications, illustrating a novel approach to a high-risk scenario.",
+      "why_it_matters": "Paradoxical embolism straddling a patent foramen ovale carries extreme stroke risk, and this case suggests that combined embolic protection during catheter-based clot removal may be a feasible strategy when surgical options are limited.",
+      "caveats": "small sample (N<100), single-center, surrogate endpoints only, observational design",
+      "fact_check_note": "Abstract is a brief case report letter with no structured data; summary accurately reflects case report nature and single-patient scope.",
+      "relevance_score": 4,
+      "relevance_score_reason": "Technically novel case report; single patient limits clinical generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Complete embolic protection during thrombectomy for impending paradoxical embolism: a case report",
+          "hook": "A clot straddling a patent foramen ovale poses simultaneous stroke and systemic embolism risk \u2014 this case demonstrates that catheter-based thrombectomy with full cerebral and aortic protection may be a viable rescue strategy.",
+          "pitch_angle": "Interventionalists at Northwell Health successfully removed a straddling thrombus using simultaneous cerebral and aortic embolic protection devices, avoiding neurological and embolic complications in a patient facing imminent paradoxical embolism. While a single case, the approach suggests a potential procedural framework for one of cardiology's most feared acute presentations."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42636151",
+      "headline": "Your blood type's 'secretor status' quietly shapes how fast your body clears a key clotting factor \u2014 and that may affect cardiovascular risk",
+      "journal": "Blood",
+      "pubdate": "2026 Aug 24",
+      "doi": "10.1182/blood.2026033717",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using whole genome sequencing, researchers studied 106 genetic variants across 43 loci in 52 hemophilia A patients to identify what drives variability in how quickly factor VIII (FVIII) \u2014 a protein central to blood clotting \u2014 is cleared from the body. Beyond known factors like VWF levels, ABO blood group, and age (which together explained less than 40% of variance), they found four new genetic signals, including one linked to 'secretor status' determined by the FUT2 gene. Non-secretor individuals had a prolonged FVIII half-life, and plasma FVIII levels were significantly elevated in FUT2 knockout mice \u2014 findings that matter because high plasma FVIII is an established dose-dependent cardiovascular risk factor.",
+      "why_it_matters": "Because elevated FVIII levels are a known risk factor for cardiovascular disease, identifying that a common genetic trait \u2014 secretor blood group status \u2014 influences FVIII clearance could eventually help explain why some people face higher clot and heart disease risk even without obvious risk factors.",
+      "caveats": "small sample (N<100), surrogate endpoints only, includes animal study (mouse model), single-center (Ireland-based cohort), hemophilia A population may not generalize to the broader public",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Novel cardiovascular clot-risk mechanism; secretor status hook is counterintuitive; limited by small N.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / Medscape Cardiology",
+          "headline": "A Hidden Blood Type Trait May Explain Why Some People Clear a Key Clotting Factor More Slowly \u2014 Raising Cardiovascular Risk Questions",
+          "hook": "A genome-wide study found that 'secretor status' \u2014 a little-known blood group trait determined by the FUT2 gene \u2014 significantly prolongs how long factor VIII stays in the bloodstream, with potential implications for cardiovascular risk beyond the hemophilia context.",
+          "pitch_angle": "Because plasma FVIII levels are a dose-dependent risk factor for thrombosis and cardiovascular disease, the discovery that secretor genotype modifies FVIII pharmacokinetics opens a new line of inquiry into why clot risk varies so dramatically between individuals. The findings, though preliminary and drawn from a hemophilia A cohort, suggest FUT2 genotyping could one day inform personalized cardiovascular risk stratification."
+        },
+        {
+          "publication_type": "Everyday Health / General health",
+          "headline": "The Obscure Blood Trait That May Quietly Raise Your Heart and Clot Risk",
+          "hook": "Scientists have found that a lesser-known blood group characteristic \u2014 your 'secretor status' \u2014 influences how long a key clotting protein lingers in your blood, which could matter for heart disease risk.",
+          "pitch_angle": "Researchers studying hemophilia patients found that people who are 'non-secretors' \u2014 a trait related to ABO blood group chemistry \u2014 clear factor VIII from their blood more slowly, leading to higher circulating levels of a protein already linked to cardiovascular risk. While the finding is early-stage and drawn from a specialized patient group, it raises questions about whether this common genetic variant could help explain hidden cardiovascular risk in the general population."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42637667",
+      "headline": "Scientists have discovered the 49th human blood group system \u2014 and it's found on a protein that guards cell junctions",
+      "journal": "Vox Sanguinis",
+      "pubdate": "2026 Aug 24",
+      "doi": "10.1111/vox.70352",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "NHS Blood and Transplant researchers investigated a female patient whose blood carried an unusual antibody reacting against virtually all donated red blood cells \u2014 a pattern suggesting she lacked a high-prevalence antigen present in almost everyone. Whole exome sequencing of the patient and her brother (the only two known individuals with this phenotype) revealed a homozygous variant in the F11R gene, which encodes junctional adhesion molecule-A (JAM-A), a protein previously known for roles in cell adhesion and platelet function. Laboratory expression studies confirmed that JAM-A carries a new blood group antigen, formally establishing a novel blood group system \u2014 the 49th recognized by the International Society of Blood Transfusion.",
+      "why_it_matters": "Identifying this new blood group system matters for transfusion safety, as people who lack this nearly universal antigen can develop antibodies that make finding compatible blood extremely difficult.",
+      "caveats": "small sample (N<100), observational design, single-center",
+      "fact_check_note": "The abstract does not explicitly state this is the 49th system; the manuscript describes it as a 'novel blood group system' \u2014 the numbering is inferred from the abstract's statement that 48 systems were previously known.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Novel blood group discovery with transfusion safety implications; very rare phenotype limits immediate impact.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / STAT News",
+          "headline": "Scientists Just Found a New Human Blood Group \u2014 and Almost Everyone Has It",
+          "hook": "A patient whose blood reacted against virtually every donated unit led scientists to discover an entirely new blood group system built on a protein found in almost every person on Earth.",
+          "pitch_angle": "The newly named system, based on junctional adhesion molecule-A (JAM-A), is the 49th recognized blood group and was uncovered because a rare individual lacked its signature antigen \u2014 making compatible blood nearly impossible to find. The discovery adds to a growing wave of blood group identification enabled by modern genomic sequencing."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42632793",
+      "headline": "A drug given to pregnant mothers may sharply cut the odds their CF baby needs emergency bowel surgery at birth",
+      "journal": "Journal of Cystic Fibrosis",
+      "pubdate": "2026 Aug 22",
+      "doi": "10.1016/j.jcf.2026.08.005",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a systematic review and individual patient data meta-analysis of 18 studies examining whether CFTR modulator (CFTRm) therapy given to pregnant mothers could prevent or treat meconium ileus (MI) \u2014 a serious bowel obstruction \u2014 in fetuses with cystic fibrosis. Among 42 fetuses prenatally diagnosed with MI and exposed to CFTRm, only 12% required surgical intervention after birth, compared with a historical cohort suggesting a possible 59.5% absolute risk reduction in surgery. Treatment started in the second trimester and lasting at least 5 weeks was associated with significantly better outcomes.",
+      "why_it_matters": "This early evidence suggests that a drug already used to treat cystic fibrosis in adults may also protect unborn babies from one of the disease's most dangerous newborn complications, potentially reducing the need for high-risk neonatal surgery.",
+      "caveats": "small sample (N<100), observational design, secondary analysis, short follow-up, single-arm comparison against historical cohort \u2014 no prospective controlled trial data",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Rare disease, novel prenatal intervention angle; limited by small observational data and no hard long-term endpoints.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Prenatal CFTR modulators may prevent dangerous bowel obstruction in cystic fibrosis newborns \u2014 early data suggest dramatic risk reduction",
+          "hook": "A drug given to pregnant mothers carrying a fetus with cystic fibrosis may slash the risk of a life-threatening bowel obstruction that previously required surgery in most affected newborns.",
+          "pitch_angle": "A meta-analysis of 18 studies found that prenatal CFTR modulator exposure was associated with a possible 59.5% absolute reduction in the need for neonatal surgery for meconium ileus. Experts say the finding, though limited by small observational data, could reshape how CF is managed before birth \u2014 and opens the door for urgently needed prospective trials."
+        },
+        {
+          "publication_type": "Everyday Health / General health",
+          "headline": "Could a drug taken during pregnancy spare CF babies from dangerous surgery? Early research says possibly yes",
+          "hook": "Babies born with cystic fibrosis sometimes face emergency bowel surgery within days of birth \u2014 but new research suggests a drug given to their mothers during pregnancy may dramatically reduce that risk.",
+          "pitch_angle": "A review of 18 studies found that among fetuses diagnosed with meconium ileus in the womb, those whose mothers took CFTR modulators were far less likely to need surgery after birth, with an estimated 59.5% absolute reduction in surgical risk. Researchers caution that data are still limited and controlled trials are needed, but the finding offers hope for one of cystic fibrosis's most dangerous newborn complications."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42629454",
+      "headline": "Cutting one day from an intensive Hodgkin lymphoma regimen didn't compromise outcomes \u2014 and every patient was alive at one year",
+      "journal": "British Journal of Haematology",
+      "pubdate": "2026 Aug 21",
+      "doi": "10.1111/bjh.70771",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at a German cancer center condensed the standard BrECADD chemotherapy regimen for advanced classic Hodgkin lymphoma from four intravenous administration days to three per cycle \u2014 a 25% reduction in infusion days \u2014 and tested it in 30 patients treated between January 2024 and July 2026. Grade 3 or higher adverse events occurred in 77% of patients, predominantly hematological, and 80% completed treatment in just four cycles rather than six. After a median follow-up of 18 months, one-year progression-free survival and overall survival were both 100%, with no treatment discontinuations.",
+      "why_it_matters": "Reducing the number of infusion days in an already-effective regimen \u2014 without apparent loss of efficacy or increase in treatment dropout \u2014 could meaningfully improve quality of life and healthcare resource use for patients with advanced Hodgkin lymphoma.",
+      "caveats": "small sample (N<100), single-center, short follow-up (median 18 months), no comparator arm, surrogate endpoints only for longer-term outcomes",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Oncology logistics study; limited cardiovascular relevance; very small, single-center.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology / General health",
+          "headline": "A Streamlined Hodgkin Lymphoma Regimen Cuts Infusion Days by 25% \u2014 With No Early Compromises in Survival",
+          "hook": "A German cancer center found that compressing an intensive Hodgkin lymphoma chemotherapy regimen from four infusion days to three per cycle was feasible and showed no early survival penalty, with all 30 patients alive and progression-free at one year.",
+          "pitch_angle": "The condensed 3-day BrECADD protocol maintained the efficacy profile of the standard regimen while reducing hospital burden for patients with advanced classic Hodgkin lymphoma. Though limited by small size and short follow-up, the findings suggest a practical efficiency gain worth testing in larger trials."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42628709",
+      "headline": "A simpler, low-cost breathing test using a bag of CO2 may open up cerebrovascular research to more labs",
+      "journal": "Respiratory Physiology & Neurobiology",
+      "pubdate": "2026 Aug 21",
+      "doi": "10.1016/j.resp.2026.104639",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at the University of Victoria tested whether a simplified Douglas bag protocol \u2014 in which participants briefly inhale 9% CO2 \u2014 could replicate a validated but equipment-heavy technique for measuring shear-mediated vasodilation in the internal carotid artery, a key marker of cerebrovascular health. Sixteen healthy participants (7 female) underwent the protocol while carotid artery diameter, blood flow, and shear rate were recorded via ultrasound. The protocol successfully induced significant vasodilation in the internal carotid artery, with results comparable to those from more complex end-tidal forcing machines.",
+      "why_it_matters": "A simpler, lower-cost method for testing how well brain-supplying arteries respond to stress could make cerebrovascular research more accessible to laboratories without specialized equipment, potentially accelerating studies into stroke and dementia risk.",
+      "caveats": "small sample (N<100), surrogate endpoints only, single-center, healthy participants only \u2014 no clinical cardiovascular outcomes measured",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Methodological tool study in 16 healthy subjects; surrogate endpoints only, limited clinical or media pitch value.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "A Douglas Bag and 9% CO2: A Simpler Way to Test Cerebrovascular Vasodilation in Clinical Research",
+          "hook": "A new simplified CO2-breathing protocol using a low-cost Douglas bag may replicate expensive end-tidal forcing machine results for assessing internal carotid artery vasodilation \u2014 potentially expanding access to cerebrovascular research.",
+          "pitch_angle": "In 16 healthy participants, a 30-second transient hypercapnic protocol with a Douglas bag successfully induced shear-mediated vasodilation in the internal carotid artery comparable to established techniques. While still requiring methodological refinement, the approach could lower barriers to studying cerebrovascular function in populations at risk for stroke."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42622203",
+      "headline": "Better heart risk prediction tools haven't actually reduced heart disease \u2014 and experts say they know why",
+      "journal": "Journal of the American Heart Association",
+      "pubdate": "2026 Aug 20",
+      "doi": "10.1161/JAHA.125.050232",
+      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A comprehensive review synthesized epidemiological and health systems evidence (2000\u20132025) on cardiovascular risk prediction models, finding that adding novel biomarkers or new variables to traditional models produced only marginal improvements in discrimination (\u0394C-statistic \u2248 0.004\u20130.007). AI-based and alternative approaches have expanded analytical capabilities but have not consistently translated into clinical utility. Critically, better risk estimation has not been accompanied by proportional reductions in cardiovascular burden, pointing to persistent gaps between prediction and implementation.",
+      "why_it_matters": "Decades of refinement in heart risk calculators appear to have done little to reduce actual heart disease rates, suggesting the field's focus may need to shift from prediction to action.",
+      "caveats": "narrative review, single author, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding with major public health implications; limited by review design.",
+      "pitch_angles": [
+        {
+          "publication_type": "NYT Health / Everyday Health",
+          "headline": "Smarter heart risk calculators haven't saved more lives \u2014 here's what researchers say is missing",
+          "hook": "A sweeping review of 25 years of cardiovascular risk science found that better prediction tools have barely moved the needle on actual heart disease rates.",
+          "pitch_angle": "Despite increasingly sophisticated models \u2014 including AI \u2014 that assess heart attack and stroke risk, researchers found the improvements in accuracy are statistically tiny and haven't translated into fewer deaths or events in the real world. The bottleneck isn't prediction, experts say \u2014 it's turning risk scores into action at the clinic and community level."
+        },
+        {
+          "publication_type": "Medscape Cardiology / STAT News",
+          "headline": "25 years of cardiovascular risk model advances: marginal discrimination gains, no clear population benefit",
+          "hook": "A review spanning 2000\u20132025 found that novel biomarkers and AI add almost nothing to the C-statistic \u2014 and that prediction improvements haven't reduced cardiovascular burden.",
+          "pitch_angle": "The review argues that the cardiovascular medicine field has over-invested in prediction refinement while under-investing in implementation: risk scores that don't change clinical decisions or patient behavior will never reduce events, no matter how accurate they become."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42624819",
+      "headline": "Prenatal blood type tests can misread fetal Rh status \u2014 a Swedish family's case reveals why",
+      "journal": "Vox Sanguinis",
+      "pubdate": "2026 Aug 20",
+      "doi": "10.1111/vox.70351",
+      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Karolinska University Hospital investigated a case where non-invasive prenatal testing (NIPT) predicted an RhD-positive fetus in an RhD-negative pregnant woman, but postnatal serology showed the newborn was actually RhD-negative. Using next-generation and Sanger sequencing in a small Swedish family cohort, they identified a novel frameshift deletion (c.540del) in the RHD gene that causes a non-functional RhD protein. The same variant was found in an unrelated RhD-negative Swedish woman, suggesting it may be a population-specific variant that current NIPT cannot detect.",
+      "why_it_matters": "Misidentifying fetal Rh status could lead to unnecessary or missed anti-D immunoglobulin treatment in pregnancy, with potential consequences for future pregnancies.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Hematology/transfusion medicine; very small case series, narrow clinical niche.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / STAT News",
+          "headline": "A Prenatal Blood Test Got the Baby's Blood Type Wrong \u2014 Here's Why That Matters",
+          "hook": "A routine prenatal test predicted one blood type, but the baby was born with another \u2014 and the reason is a genetic blind spot in current testing.",
+          "pitch_angle": "A novel genetic variant in Swedish families causes standard non-invasive prenatal RhD tests to give false results, potentially triggering unnecessary or missed anti-D treatment. The finding highlights a wider limitation: prenatal tests detect the presence of RHD gene sequences but cannot tell whether those genes actually work."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41894249",
+      "headline": "Scientists identify a new leukemia subtype that barely responds to standard chemotherapy \u2014 but immunotherapy may rescue it",
+      "journal": "Blood",
+      "pubdate": "2026 Aug 20",
+      "doi": "10.1182/blood.2025031102",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed genomic and transcriptomic data from 4,857 patients with B-cell precursor acute lymphoblastic leukemia (B-ALL) across three cohorts and identified 20 adults (ages 18\u201366) carrying a previously undescribed IGH::FENDRR gene rearrangement and specific KRAS mutations that define a novel molecular subtype. Among 13 patients treated with standard chemotherapy protocols, 8 experienced induction failure or persistent minimal residual disease \u2014 a very poor response rate. Adding the immunotherapy blinatumomab and/or allogeneic stem cell transplantation achieved ongoing molecular remission in 13 of 16 patients.",
+      "why_it_matters": "Identifying this new leukemia subtype early could allow clinicians to shift resistant adult patients to immunotherapy faster, potentially improving survival outcomes.",
+      "caveats": "small sample (N<100 for outcome analysis), observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Novel leukemia subtype with strong clinical signal; small outcome cohort limits confidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "A Hidden Leukemia Subtype Fails Standard Chemo \u2014 But Immunotherapy Looks Promising",
+          "hook": "A newly identified genetic subtype of adult leukemia resisted standard chemotherapy in the majority of patients, but most achieved remission when immunotherapy was added.",
+          "pitch_angle": "The IGH::FENDRR subtype, found in roughly 0.4% of B-ALL patients, carries specific KRAS mutations and a distinct molecular signature that a machine-learning classifier can now detect \u2014 potentially enabling earlier treatment escalation for a group that otherwise fares poorly."
+        },
+        {
+          "publication_type": "General health / Everyday Health",
+          "headline": "Doctors Found a New Type of Blood Cancer That Standard Treatment Often Can't Beat",
+          "hook": "A large genomic study uncovered a previously unknown leukemia subtype in adults that frequently defeats chemotherapy \u2014 but responds to a newer immune-based treatment.",
+          "pitch_angle": "The discovery, drawn from nearly 5,000 leukemia patients, suggests some adults labeled as 'chemo-resistant' may actually carry a specific genetic signature that could guide them toward more effective therapies sooner."
+        }
+      ],
+      "run_date": "2026-08-27",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
     {
       "pmid": "42641535",
       "headline": "A team-based hospital program more than halved the dropout rate for a key lung-scarring drug",
@@ -31,60 +466,6 @@
       "status": "new"
     },
     {
-      "pmid": "42461193",
-      "headline": "Surgeons remove a dangerous clot straddling the heart's divide \u2014 using full brain and aortic protection in a single procedure",
-      "journal": "JACC: Cardiovascular Interventions",
-      "pubdate": "2026 Aug 24",
-      "doi": "10.1016/j.jcin.2026.03.014",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Clinicians at Northwell Health described a case of impending paradoxical embolism \u2014 a clot positioned across a patent foramen ovale (PFO), threatening simultaneous arterial and venous stroke \u2014 in which thrombectomy was performed with concurrent cerebral and aortic embolic protection devices deployed. No sample size beyond the single case is reported; this is a procedural case report published as a brief communication. The approach aimed to minimize stroke and systemic embolization risk during clot removal in this rare but life-threatening scenario.",
-      "why_it_matters": "Impending paradoxical embolism is a rare cardiac emergency where a clot straddles the heart's dividing wall; this case demonstrates a strategy for simultaneous multi-site embolic protection during high-risk clot removal, which could inform how cardiologists approach similar emergencies.",
-      "caveats": "small sample (N<100), single-center, surrogate endpoints only, industry funding [Medtronic \u2014 consultant relationship disclosed]",
-      "fact_check_note": "No abstract text was provided; summary is based on title, author disclosures, and journal metadata only.",
-      "relevance_score": 4,
-      "relevance_score_reason": "Single procedural case report; niche clinical interest, limited generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Medscape Cardiology",
-          "headline": "Thrombectomy with simultaneous cerebral and aortic protection: a novel approach to impending paradoxical embolism",
-          "hook": "A clot straddling a patent foramen ovale \u2014 poised to cause simultaneous stroke and arterial embolism \u2014 was removed using a novel strategy that protected both the brain and aorta at the same time.",
-          "pitch_angle": "Clinicians at Northwell Health report a case of impending paradoxical embolism managed with thrombectomy under concurrent cerebral and aortic embolic protection, a technical approach designed to reduce the dual stroke risk this rare emergency carries. The case may offer procedural guidance for interventional cardiologists facing this uncommon but high-stakes scenario."
-        }
-      ],
-      "run_date": "2026-08-26",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42637667",
-      "headline": "Scientists discover a brand-new human blood group system \u2014 the 49th ever identified",
-      "journal": "Vox sanguinis",
-      "pubdate": "2026 Aug 24",
-      "doi": "10.1111/vox.70352",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers investigated a female patient whose blood carried an unrecognized antibody reacting against virtually all donor red blood cells except her own and her brother's, and used whole exome sequencing to identify a rare variant in the F11R gene encoding junctional adhesion molecule-A (JAM-A). Both siblings carried a homozygous mutation (c.644G>A) at an extremely low population frequency (allele frequency ~0.0000044), resulting in reduced JAM-A expression on their red blood cells. The findings establish JAM-A as the carrier of a new high-prevalence blood group antigen, defining the 49th recognized blood group system.",
-      "why_it_matters": "Identifying new blood group systems is critical for patients with rare phenotypes who may be impossible to match with compatible donor blood, putting them at serious transfusion risk.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Landmark blood group discovery; transfusion medicine relevance but limited cardiovascular hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health / Everyday Health",
-          "headline": "There's a new human blood type \u2014 and scientists only found it because of one woman's mysterious antibody",
-          "hook": "A patient whose blood attacked nearly every donor sample ever tested turned out to carry a vanishingly rare mutation that defines an entirely new blood group system.",
-          "pitch_angle": "A woman and her brother were found to lack a common protein on red blood cells called JAM-A, triggering antibodies that made compatible transfusion nearly impossible \u2014 and in doing so, revealed the 49th blood group system ever identified. The finding matters because patients with rare blood phenotypes can face life-threatening shortages of compatible donor blood during surgery or medical emergencies."
-        }
-      ],
-      "run_date": "2026-08-26",
-      "category": "Hematology & Vascular",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42619587",
       "headline": "Rare heart defect patient found to have two inferior vena cavas \u2014 a first documented by MRI",
       "journal": "Circulation: Cardiovascular Imaging",
@@ -109,66 +490,6 @@
       "run_date": "2026-08-26",
       "category": "Hematology & Vascular",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42622203",
-      "headline": "AI and new biomarkers barely move the needle on heart disease prediction \u2014 and better prediction isn't translating to fewer heart attacks anyway",
-      "journal": "Journal of the American Heart Association",
-      "pubdate": "2026 Aug 20",
-      "doi": "10.1161/JAHA.125.050232",
-      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "A narrative review synthesized 25 years of epidemiological and health systems evidence (2000\u20132025) on cardiovascular risk prediction models. The author found that adding novel biomarkers or AI methods to traditional risk calculators produced only marginal improvements in predictive accuracy (change in C-statistic of roughly 0.004\u20130.007). Critically, even where prediction has improved, cardiovascular disease burden has not declined proportionally \u2014 pointing to a deep gap between risk estimation and real-world prevention.",
-      "why_it_matters": "Decades of investment in smarter heart disease prediction tools may matter little if those tools aren't effectively wired into clinical care and don't account for socioeconomic and environmental factors that shape who actually gets sick.",
-      "caveats": "single-center (Brazil), review article (not original data), surrogate endpoints only",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive finding on AI/biomarker limits; high-prevalence topic; review only, no hard endpoints.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "We've spent decades building smarter heart disease risk calculators. They're barely better \u2014 and they're not saving more lives.",
-          "hook": "Adding AI and dozens of new biomarkers to heart disease risk models has produced improvements so small they're nearly undetectable \u2014 and even those tiny gains haven't translated into fewer heart attacks.",
-          "pitch_angle": "A sweeping 25-year review published in JAHA finds that the C-statistic \u2014 the gold standard measure of predictive accuracy \u2014 budges by only 0.004 to 0.007 when cutting-edge tools are layered onto traditional risk calculators. The bigger problem: even modest prediction gains have not been matched by reductions in cardiovascular burden, raising urgent questions about whether the field is solving the right problem."
-        },
-        {
-          "publication_type": "Everyday Health / General health",
-          "headline": "Your heart disease risk score may be less accurate than you think \u2014 and your zip code might matter more than your cholesterol",
-          "hook": "Sophisticated new tools for predicting heart attack risk \u2014 including AI \u2014 offer only marginally better accuracy than the old-fashioned calculators, and neither version accounts well for where you live or how much money you make.",
-          "pitch_angle": "A major review of heart disease prediction research found that socioeconomic and environmental factors \u2014 chronic stress, neighborhood pollution, income \u2014 are routinely left out of risk models, making them less reliable for many patients. The finding suggests that fixing cardiovascular prevention may require looking far beyond a patient's lab results."
-        }
-      ],
-      "run_date": "2026-08-26",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42624819",
-      "headline": "A rare genetic glitch fooled standard prenatal blood-type testing \u2014 and it's not the only known case",
-      "journal": "Vox Sanguinis",
-      "pubdate": "2026 Aug 20",
-      "doi": "10.1111/vox.70351",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Karolinska University Hospital investigated a case in which non-invasive prenatal RhD genotyping predicted an RhD-positive fetus in an RhD-negative pregnant woman, but postnatal blood typing revealed the newborn was actually RhD-negative. Using next-generation sequencing and Sanger sequencing, they identified a previously undescribed frameshift deletion in the RHD gene (c.540del) that creates a non-functional protein despite the gene being detectable. The same variant was found in an unrelated Swedish woman, and paternal inheritance was confirmed, suggesting this novel allele may circulate in the Swedish population.",
-      "why_it_matters": "If prenatal RhD testing incorrectly classifies a fetus as RhD-positive, RhD-negative mothers may receive unnecessary anti-D injections \u2014 or, more critically, a missed RhD-positive result could leave a mother unprotected from sensitization that threatens future pregnancies.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Relevant blood typing/prenatal hematology finding; very small case series limits broader impact.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "A Novel Gene Variant Is Tricking Prenatal Blood Tests \u2014 and Doctors May Be Missing It",
-          "hook": "A frameshift deletion in the RHD gene caused standard non-invasive prenatal testing to incorrectly predict a baby's blood type, raising questions about the limits of current screening.",
-          "pitch_angle": "Karolinska researchers identified a novel RHD variant that renders the gene non-functional even though standard prenatal genotyping detects its presence \u2014 producing a false RhD-positive result that could lead to incorrect management of Rh incompatibility in pregnancy. Finding the same variant in an unrelated Swedish individual suggests it may be more common than a single rare case, pointing to a gap in current NIPT approaches for RhD typing."
-        }
-      ],
-      "run_date": "2026-08-26",
-      "category": "Hematology & Vascular",
-      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -321,87 +642,6 @@
       ],
       "run_date": "2026-08-25",
       "category": "Pulmonary Medicine",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42629454",
-      "headline": "Cutting one day from an intensive Hodgkin lymphoma chemo regimen keeps survival rates at 100% while easing treatment burden",
-      "journal": "British Journal of Haematology",
-      "pubdate": "2026 Aug 21",
-      "doi": "10.1111/bjh.70771",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at the University of Cologne implemented a condensed 3-day version of the BrECADD chemotherapy regimen (standard: 4 days per 21-day cycle) for 30 patients with advanced-stage classical Hodgkin lymphoma, delivering 132 cycles between January 2024 and July 2026. Grade \u22653 adverse events occurred in 77% of patients, predominantly hematological, with no treatment discontinuations. After a median follow-up of 18 months, 1-year progression-free and overall survival were both 100%.",
-      "why_it_matters": "Reducing infusion days in one of the most effective Hodgkin lymphoma regimens could improve patient quality of life and healthcare logistics without apparent loss of efficacy, though longer follow-up is needed.",
-      "caveats": "small sample (N<100), single-center, short follow-up, observational design, surrogate endpoints only",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Oncology logistics study; minimal cardiovascular relevance; small single-center cohort.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health",
-          "headline": "One fewer day of chemo infusions may be just as effective for aggressive Hodgkin lymphoma",
-          "hook": "Dropping a full day of IV chemotherapy from one of the most powerful Hodgkin lymphoma regimens didn't appear to cost patients anything in survival \u2014 at least in the short term.",
-          "pitch_angle": "A German team condensed the BrECADD regimen from four to three infusion days per cycle in 30 patients, finding 100% one-year survival with manageable side effects and no one dropping out. While longer follow-up is needed, the finding raises the possibility that less time in the infusion chair doesn't have to mean worse outcomes."
-        }
-      ],
-      "run_date": "2026-08-25",
-      "category": "Hematology & Vascular",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42628709",
-      "headline": "A simpler CO2 breathing test could make it easier to measure brain artery health in everyday clinical settings",
-      "journal": "Respiratory Physiology & Neurobiology",
-      "pubdate": "2026 Aug 21",
-      "doi": "10.1016/j.resp.2026.104639",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Sixteen healthy participants (7 female) completed a novel 30-second transient hypercapnic Douglas bag (THCDB) protocol breathing 9% CO2, with vascular duplex ultrasound measuring internal carotid artery (ICA) diameter, blood flow velocity, and shear rate. The protocol successfully induced significant ICA dilation (from 4.9 mm to 5.2 mm peak) and shear-mediated vasodilation comparable to more complex end-tidal forcing machine protocols. The researchers conclude the simpler Douglas bag approach is a feasible alternative for assessing cerebrovascular vasodilation, though further methodological refinement is needed.",
-      "why_it_matters": "A simplified, lower-cost method to test how brain-supplying arteries respond to blood flow changes could eventually make cerebrovascular health screening more accessible outside specialized labs.",
-      "caveats": "small sample (N<100), surrogate endpoints only, healthy volunteers only (no cardiac or cerebrovascular history reported), single-center, short follow-up, early-stage methodology study",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Methodological study, tiny N, healthy volunteers only; limited immediate cardiovascular relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "A Bag of CO2 Could Simplify How Doctors Measure Brain Artery Health",
-          "hook": "Researchers replaced a complex lab machine with a simple breathing bag to test blood vessel function in the brain's main supplying artery \u2014 and got comparable results.",
-          "pitch_angle": "Assessing shear-mediated vasodilation in the internal carotid artery currently requires specialized equipment; this early-stage study suggests a Douglas bag protocol breathing high-concentration CO2 could replicate the measurement, potentially broadening access to cerebrovascular assessment research. The technique still needs refinement before clinical translation."
-        }
-      ],
-      "run_date": "2026-08-25",
-      "category": "Pulmonary Medicine",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "41894249",
-      "headline": "Scientists identify a new leukemia subtype that fails standard chemotherapy \u2014 but responds to immunotherapy escalation",
-      "journal": "Blood",
-      "pubdate": "2026 Aug 20",
-      "doi": "10.1182/blood.2025031102",
-      "groundbreaking": "First-in-class human study / Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed genomic and transcriptomic data from 4,857 patients with B-cell precursor acute lymphoblastic leukemia (B-ALL) across three cohorts and identified a novel molecular subtype defined by an IGH::FENDRR rearrangement and specific KRAS mutations. Among 20 identified patients (ages 18\u201366, median 34), 8 of 13 treated with standard protocols experienced induction failure or high residual disease. Adding immunotherapy (blinatumomab) and/or stem cell transplantation achieved ongoing molecular remission in 13 of 16 patients.",
-      "why_it_matters": "Identifying this treatment-resistant leukemia subtype early could spare patients futile standard chemotherapy and accelerate access to more effective immunotherapy-based regimens.",
-      "caveats": "small sample (N<100), observational design, industry funding [Amgen, Pfizer, AbbVie, Janssen, others], secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Hematologic oncology discovery; limited direct cardiovascular relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "A newly discovered leukemia subtype resists standard chemo \u2014 but immunotherapy may rescue patients",
-          "hook": "Buried in data from nearly 5,000 leukemia patients, researchers found 20 cases sharing a never-before-described genetic signature that predicts chemotherapy failure.",
-          "pitch_angle": "The FOXF1/FENDRR subtype of B-ALL, defined by a novel chromosomal rearrangement and specific KRAS mutations, showed strikingly poor responses to standard induction chemotherapy in a multi-cohort analysis. Escalating to immunotherapy with blinatumomab and stem cell transplant salvaged most patients, pointing toward a potential new diagnostic-and-treat pathway for this high-risk group."
-        }
-      ],
-      "run_date": "2026-08-25",
-      "category": "Hematology & Vascular",
       "chunk": "1/2",
       "status": "new"
     },
