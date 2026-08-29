@@ -1,120 +1,360 @@
 {
-  "last_updated": "2026-08-28T21:34:12.700088+00:00",
-  "total_studies": 293,
-  "new_this_run": 4,
+  "last_updated": "2026-08-29T15:46:48.434445+00:00",
+  "total_studies": 299,
+  "new_this_run": 6,
   "studies": [
     {
       "pmid": "42663358",
-      "headline": "A minimally invasive valve procedure outperforms medication alone for a tricky type of aortic stenosis \u2014 but the trial ended early",
+      "headline": "Minimally invasive valve replacement outperforms medication alone for a tricky, often-missed form of aortic stenosis in older adults",
       "journal": "Journal of the American College of Cardiology",
       "pubdate": "2026 Aug 28",
       "doi": "10.1016/j.jacc.2026.08.017",
       "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "The REBOOT-PARADOX trial randomly assigned 120 patients (median age 82, 53% women) with a difficult-to-treat subtype of aortic stenosis \u2014 called paradoxical low-flow, low-gradient aortic stenosis \u2014 to transcatheter aortic valve replacement (TAVR) plus optimal medical therapy or medical therapy alone. The trial was the first randomized study dedicated to this population but was stopped early due to slow recruitment, enrolling only 120 of a planned 783 patients. Despite the small sample, results trended toward lower all-cause mortality in the TAVR group, with 19 patients in the medication-only group eventually crossing over to TAVR due to symptom progression.",
-      "why_it_matters": "For the large number of older adults with this hard-to-diagnose valve condition, early findings suggest that the minimally invasive TAVR procedure may offer a survival advantage over medication alone \u2014 though the underpowered trial means results should be interpreted cautiously.",
-      "caveats": "small sample (N<100 per arm), single trial stopped prematurely, open-label, multicenter European population, high crossover rate in control arm",
-      "fact_check_note": "Primary endpoint data (mortality rates) were truncated in the abstract; specific outcome percentages could not be verified and were not included in the summary.",
-      "relevance_score": 6,
-      "relevance_score_reason": "Relevant aging cardiovascular finding but small N and early stoppage limit confidence.",
+      "summary": "In the first randomized trial dedicated to paradoxical low-flow, low-gradient aortic stenosis \u2014 a subtype that looks less severe on standard tests but carries a poor prognosis \u2014 researchers compared transcatheter aortic valve replacement (TAVR) plus optimal medical therapy against medication alone in 120 patients (median age 82; 53% women) across multiple European centers. Enrollment was stopped early due to slow recruitment, limiting statistical power. Despite the small sample, TAVR was associated with lower all-cause mortality at two years compared with medical therapy alone.",
+      "why_it_matters": "For the many older adults with this under-recognized heart valve condition, this early evidence suggests a catheter-based procedure may offer a meaningful survival advantage over medication alone.",
+      "caveats": "small sample (N<100 per arm), open-label design, early termination of enrollment, multicenter European population",
+      "fact_check_note": "Abstract confirms enrollment was stopped prematurely (120 of 783 planned patients); primary endpoint direction confirmed but full result data truncated in abstract \u2014 specific mortality rates not verified.",
+      "relevance_score": 7,
+      "relevance_score_reason": "RCT in adults 82 median age, cardiovascular longevity finding; small N and early termination limit confidence.",
       "pitch_angles": [
         {
           "publication_type": "AARP / General health",
-          "headline": "A Minimally Invasive Heart Valve Fix May Beat Medication for Older Adults With This Tricky Diagnosis",
-          "hook": "For older adults with a little-known but dangerous subtype of aortic stenosis, a catheter-based valve procedure may improve survival over drugs alone \u2014 even when traditional warning signs are absent.",
-          "pitch_angle": "The first randomized trial targeting 'paradoxical' aortic stenosis \u2014 a form that can fly under the radar because pressure gradients appear normal \u2014 found that a minimally invasive valve replacement procedure showed a trend toward better survival than medication in patients with a median age of 82. The trial was stopped early due to recruitment challenges, so findings are preliminary, but they point toward action over watchful waiting for this high-risk group."
+          "headline": "A Common Heart Valve Problem in Older Adults May Be Harder to Spot \u2014 and a Minimally Invasive Fix Could Save Lives",
+          "hook": "A form of aortic stenosis that often flies under the radar on standard heart tests may be more dangerous than it looks \u2014 and a catheter-based valve procedure may be the better answer.",
+          "pitch_angle": "Researchers ran the first randomized trial for a tricky subtype of aortic stenosis that mimics mild disease but carries a grim prognosis, finding that a minimally invasive valve replacement was associated with lower mortality than medication alone in patients averaging age 82. The finding is preliminary but raises important questions about how this condition is identified and treated in older adults."
+        },
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "Your Heart Valve Test Could Miss a Dangerous Condition \u2014 Here's What Doctors Are Learning",
+          "hook": "Standard heart tests can make a serious valve problem look deceptively mild \u2014 and a new trial suggests surgery-free valve replacement may be the better path for people who have it.",
+          "pitch_angle": "A randomized European trial found that transcatheter aortic valve replacement outperformed medication alone for a poorly understood aortic stenosis subtype, even though the condition often doesn't register as severe on routine echocardiograms. Though early and small, the study highlights a gap in how a potentially life-threatening valve disease in older adults is caught and managed."
         }
       ],
-      "run_date": "2026-08-28",
+      "run_date": "2026-08-29",
       "category": "Cardiology",
       "chunk": "1/2",
       "status": "new"
     },
     {
+      "pmid": "42665180",
+      "headline": "AI Can Now Map Bone Structure Automatically \u2014 and Nearly as Accurately as Expert Humans",
+      "journal": "Bone",
+      "pubdate": "2026 Aug 28",
+      "doi": "10.1016/j.bone.2026.118076",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers externally validated a deep-learning model that automatically maps the inner and outer bone boundaries in high-resolution peripheral CT scans of the wrist and ankle, without requiring manual correction. The study analyzed 939 second-generation and 300 first-generation HR-pQCT scans from multiple centers. The AI model produced contours nearly as accurate as expert-corrected scans, with small measurement differences and high correlations across bone structure parameters.",
+      "why_it_matters": "Faster, more consistent bone scanning could eventually make detailed bone quality assessments \u2014 beyond standard bone density tests \u2014 more accessible for older adults at fracture risk.",
+      "caveats": "observational design, single-center validation cohort, technical/methodological focus with limited direct clinical outcome data, industry funding [SCANCO Medical AG consultant relationship noted]",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Methodological imaging tool study; indirect aging relevance, no patient outcomes.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Next Avenue",
+          "headline": "A New AI Tool May Make Bone Scans Faster and More Precise for Older Adults",
+          "hook": "A deep-learning model can now map detailed bone structure automatically \u2014 with accuracy close to a trained specialist.",
+          "pitch_angle": "Researchers validated an AI that removes the need for tedious manual correction in advanced bone scans, a step that could eventually make more detailed bone quality assessments available at scale for people at fracture risk as they age."
+        }
+      ],
+      "run_date": "2026-08-29",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42663799",
+      "headline": "Scientists identify seven protein targets that may explain why some women's ovaries age too fast",
+      "journal": "GeroScience",
+      "pubdate": "2026 Aug 28",
+      "doi": "10.1007/s11357-026-02491-6",
+      "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using proteomic data from nearly 90,000 participants across two large biobanks (deCODE and UK Biobank), researchers applied Mendelian randomization and single-cell RNA sequencing to identify seven protein targets potentially driving premature ovarian insufficiency (POI). Three of the targets \u2014 EPHA4, FSTL3, and NUCB2 \u2014 showed strong diagnostic accuracy (AUC 0.92\u20130.96) and were dysregulated in both mouse and human cell models. The study also used computational docking to flag existing drugs that might be repurposed to target these proteins, linking ovarian aging to fibrosis, inflammation, and metabolic disruption.",
+      "why_it_matters": "Understanding the molecular drivers of premature ovarian aging could eventually inform earlier diagnosis and new treatments for a condition that affects roughly 1 in 100 women under 40.",
+      "caveats": "computational/computational pharmacology approach, animal model validation, no clinical trial, single-center (Jinzhou Medical University)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Ovarian aging angle is relevant, but primarily computational with no human clinical outcome data.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / General health",
+          "headline": "Why Do Some Women Hit Menopause Decades Too Early? New Research Points to Seven Proteins",
+          "hook": "For women who lose ovarian function before 40, a large-scale protein study may finally be pointing toward answers \u2014 and even repurposable drugs.",
+          "pitch_angle": "Researchers combed data from nearly 90,000 people to find protein signals tied to premature ovarian insufficiency, linking the condition to inflammation and metabolic changes already familiar in aging research. The findings suggest early ovarian aging may one day be predictable \u2014 and potentially treatable \u2014 long before symptoms appear."
+        }
+      ],
+      "run_date": "2026-08-29",
+      "category": "Seniors & Aging",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
       "pmid": "42657754",
-      "headline": "Fat surrounding the heart undergoes dramatic molecular changes in atrial fibrillation \u2014 and an inflammation signal in the blood may predict who's next",
+      "headline": "Belly Fat Around the Heart May Trigger Atrial Fibrillation Through Inflammation \u2014 Not Just Mechanical Pressure",
       "journal": "Journal of the American Heart Association",
       "pubdate": "2026 Aug 27",
       "doi": "10.1161/JAHA.126.049221",
-      "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding / Relevant aging or longevity finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers built the first single-nucleus gene-expression atlas of epicardial adipose tissue (the fat pad directly on the heart) in patients with atrial fibrillation, finding widespread remodeling including profibrotic activation, metabolic dysfunction, and chronic inflammation. Using UK Biobank data (N in the thousands) and a hospital cohort, they found that elevated circulating interleukin-17 levels were independently associated with both postoperative and incident AF. Mendelian randomization analysis provided genetic evidence consistent with a causal contribution of visceral fat to AF risk.",
-      "why_it_matters": "The finding that a measurable inflammation marker in the blood \u2014 interleukin-17 \u2014 is associated with future atrial fibrillation risk suggests that belly fat's danger to heart rhythm may eventually be trackable with a simple blood test.",
-      "caveats": "single-nucleus sequencing on very small tissue sample (N=9 EAT samples), observational design for biomarker associations, single-center tissue data, China-based hospital cohort for surgical AF endpoint",
+      "summary": "Researchers combined population data from NHANES, genetic evidence from the UK Biobank via Mendelian randomization, and single-nucleus RNA sequencing of fat tissue directly surrounding the heart (epicardial adipose tissue) from 9 patients (6 with atrial fibrillation, 3 without) to map how this fat depot may drive the most common heart arrhythmia. The analysis revealed extensive molecular remodeling in epicardial fat in AF patients \u2014 including nerve damage, metabolic dysfunction, scarring signals, and chronic immune activation \u2014 and identified elevated interleukin-17 as a potential blood biomarker for AF risk, validated in separate UK Biobank and Fuwai Hospital cohorts. Mendelian randomization provided genetic evidence consistent with visceral fat being a contributing factor to AF development.",
+      "why_it_matters": "Findings suggest that the fat pad surrounding the heart may promote atrial fibrillation through inflammation and immune activation \u2014 not just size or pressure \u2014 opening a potential new window for earlier detection and prevention in people managing visceral obesity.",
+      "caveats": "small sample (N=9 for tissue sequencing), single-center tissue cohort, observational design for population analyses, study population includes China-based center",
       "fact_check_note": "",
       "relevance_score": 7,
-      "relevance_score_reason": "Novel AF mechanism, large UK Biobank validation, cardiovascular aging relevance; small tissue sample caveat.",
+      "relevance_score_reason": "Strong AF-aging-obesity hook; Mendelian randomization adds rigor; tiny tissue N is a key caveat.",
       "pitch_angles": [
         {
-          "publication_type": "AARP / Next Avenue",
-          "headline": "The Fat Around Your Heart May Predict Atrial Fibrillation \u2014 and a Blood Test Could Catch It Early",
-          "hook": "Scientists have mapped, for the first time, the molecular chaos inside the fat that wraps directly around the heart in people with atrial fibrillation.",
-          "pitch_angle": "A new study found that epicardial fat \u2014 the visceral fat depot closest to the heart \u2014 undergoes extensive inflammatory and fibrotic changes in AF patients, and that a specific inflammation protein in the blood is associated with who develops the arrhythmia. For older adults already concerned about AF risk, the research hints that visceral fat may be more than a bystander."
+          "publication_type": "Prevention / Eating Well",
+          "headline": "The Fat Around Your Heart May Be Fueling Afib \u2014 and Inflammation Is the Culprit",
+          "hook": "A new study found that fat directly surrounding the heart doesn't just crowd the organ \u2014 it may actively inflame it in ways that trigger atrial fibrillation.",
+          "pitch_angle": "Researchers mapped the molecular activity inside epicardial fat tissue and found signs of immune activation and scarring in AF patients, suggesting that reducing visceral fat through diet and lifestyle could matter beyond what the scale or BMI captures."
         },
         {
-          "publication_type": "Prevention / Eating Well",
-          "headline": "Belly Fat and Irregular Heartbeat: Scientists Find the Molecular Link \u2014 and a Possible Warning Signal",
-          "hook": "A landmark molecular map of heart fat reveals why carrying excess visceral weight may raise your risk of the most common heart rhythm disorder.",
-          "pitch_angle": "Researchers found that fat directly surrounding the heart is riddled with inflammation and scarring signals in people with atrial fibrillation, and that an inflammatory protein measurable in the blood was linked to AF risk in a large UK population study. The research adds biological detail to the already-known connection between visceral fat and heart rhythm problems."
+          "publication_type": "AARP / General health",
+          "headline": "A Blood Marker Tied to Heart Fat Could One Day Flag Your Afib Risk Before Symptoms Start",
+          "hook": "Scientists have identified an inflammation signal in the blood \u2014 interleukin-17 \u2014 that may predict who is heading toward atrial fibrillation.",
+          "pitch_angle": "Early research combining genetic analysis and tissue profiling found that people with higher levels of a specific immune protein were more likely to develop afib, suggesting that future screening tools may go beyond EKGs to catch the most common serious heart rhythm problem before it strikes."
         }
       ],
-      "run_date": "2026-08-28",
+      "run_date": "2026-08-29",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42660314",
+      "headline": "Cancer Treatments That Save Lives Can Also Trigger Dangerous Heart Rhythms",
+      "journal": "The Canadian Journal of Cardiology",
+      "pubdate": "2026 Aug 27",
+      "doi": "10.1016/j.cjca.2026.08.011",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This review from University of Toronto cardiologists examines how newer cancer therapies \u2014 including immunotherapies and targeted agents \u2014 can cause arrhythmias (irregular heart rhythms) as a side effect. The paper does not report original trial data or a defined study population. It synthesizes existing evidence on the cardiac risks posed by novel oncology drugs, an increasingly important concern as more cancer survivors age into long-term follow-up.",
+      "why_it_matters": "As cancer survival rates rise, understanding how modern treatments affect heart rhythm is critical for the growing population of older adults managing both cancer and cardiovascular health.",
+      "caveats": "review article (no original data), no defined study population",
+      "fact_check_note": "Abstract provides no sample size, study design, or original findings \u2014 this is a review/commentary piece. Summary reflects that accurately.",
+      "relevance_score": 4,
+      "relevance_score_reason": "Review only, no original data; cardiovascular-aging hook limited by design.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / General health",
+          "headline": "Your Cancer Drug May Be Affecting Your Heart Rhythm \u2014 Here's What to Ask Your Doctor",
+          "hook": "Newer cancer therapies that are saving lives may come with an under-discussed cardiac side effect: arrhythmias.",
+          "pitch_angle": "As more older adults survive cancer thanks to next-generation drugs, cardiologists are flagging a growing concern \u2014 some of these treatments can disrupt heart rhythm in ways that require monitoring and management, underscoring why cardio-oncology check-ins matter."
+        }
+      ],
+      "run_date": "2026-08-29",
       "category": "Cardiology",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42648391",
-      "headline": "AI models for heart disease risk are getting better \u2014 but researchers warn they're still not ready for the clinic",
+      "headline": "AI models for predicting heart attack risk are proliferating fast \u2014 but most still can't prove they actually help patients",
       "journal": "Progress in Cardiovascular Diseases",
       "pubdate": "2026 Aug 26",
       "doi": "10.1016/j.pcad.2026.08.012",
-      "groundbreaking": "None identified",
+      "groundbreaking": "Relevant aging or longevity finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "A structured narrative review of 126 studies (2020\u20132026) assessed AI-based models for predicting atherosclerotic cardiovascular disease risk, finding modest but potentially meaningful improvements over conventional risk calculators, especially when using multimodal or longitudinal data. The majority of models relied on traditional machine learning rather than deep learning, and endpoint definitions varied widely across studies. Major barriers identified included limited external validation, algorithmic bias, poor calibration reporting, and a lack of prospective evidence that AI guidance actually improves patient outcomes.",
-      "why_it_matters": "For readers curious about AI-powered health tools, this review suggests that while AI heart-risk scores are improving, none have yet been proven to change real-world outcomes \u2014 and hype may be outrunning the evidence.",
-      "caveats": "narrative review (not systematic meta-analysis), heterogeneous study endpoints, no new primary data",
+      "summary": "A structured narrative review synthesized 126 studies (2020\u20132026) examining AI-based models for predicting atherosclerotic cardiovascular disease (ASCVD) risk. Researchers found that AI models offer modest but potentially meaningful improvements over conventional risk calculators, especially when combining multiple data types \u2014 but 89% of models relied on traditional machine learning, and none used large language models or federated learning. Major barriers identified include limited external validation, algorithmic bias, poor calibration reporting, and an almost total absence of prospective evidence that these tools actually improve patient outcomes.",
+      "why_it_matters": "As AI heart-risk tools edge toward clinical use, this review suggests most are not yet validated well enough to be trusted for real-world decisions about who needs preventive treatment.",
+      "caveats": "narrative review, no direct patient data, heterogeneous endpoint definitions across included studies",
       "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Timely AI-in-health topic; review design limits impact, no primary aging data.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Timely AI-cardiology topic with clear aging relevance; review design limits actionability.",
       "pitch_angles": [
         {
           "publication_type": "General health / AARP",
-          "headline": "AI Says You're at Risk for Heart Disease \u2014 But Should You Trust It?",
-          "hook": "A sweeping review of six years of AI heart-risk research finds the tools are improving \u2014 but warns they're not ready to replace your doctor's judgment.",
-          "pitch_angle": "Researchers analyzed 126 studies and found that AI models offer only modest gains over standard risk calculators, with major gaps in real-world validation, bias, and proof that the predictions actually help patients. For older adults increasingly seeing AI mentioned in health apps and clinical settings, the message is: promising, but not yet proven."
+          "headline": "AI Says It Can Predict Your Heart Attack Risk \u2014 But Can Doctors Actually Trust It?",
+          "hook": "Hundreds of AI models now claim to predict cardiovascular disease risk better than your doctor's standard calculator \u2014 but a sweeping review finds most can't prove they make outcomes any better.",
+          "pitch_angle": "A review of 126 studies found AI-based heart-risk tools show modest gains over traditional equations but face major hurdles: poor external validation, algorithmic bias, and almost no prospective proof they help patients live longer or avoid heart attacks. For older adults navigating preventive cardiology decisions, the takeaway is that AI tools in this space are promising but not yet ready to replace established risk assessment."
+        },
+        {
+          "publication_type": "Next Avenue",
+          "headline": "Your Doctor May Soon Use AI to Gauge Your Heart Risk \u2014 Here's Why Experts Urge Caution",
+          "hook": "AI-powered cardiovascular risk tools are multiplying rapidly, but a new review finds the evidence they actually help patients is nearly nonexistent.",
+          "pitch_angle": "Researchers reviewed six years of AI heart-risk research and found that while the models are technically impressive, most have never been tested in the real world or shown to change patient outcomes for the better. For people in their 50s and 60s managing heart disease risk, understanding what AI tools can and can't yet do may matter as these systems move into clinical practice."
         }
       ],
-      "run_date": "2026-08-28",
+      "run_date": "2026-08-29",
       "category": "Cardiology",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42644273",
-      "headline": "A catheter-based clot-removal device cleared dangerous pulmonary emboli in 97% of cases \u2014 without the bleeding risk of clot-busting drugs",
+      "headline": "A catheter-based clot-removal device saved 93% of high-risk pulmonary embolism patients who couldn't receive standard clot-busting drugs",
       "journal": "Acta Cardiologica",
       "pubdate": "2026 Aug 26",
       "doi": "10.1080/00015385.2026.2698745",
       "groundbreaking": "Relevant aging or longevity finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Belgian researchers retrospectively analyzed 60 patients (mean age ~62) treated with the FlowTriever large-bore mechanical thrombectomy device for acute pulmonary embolism at two centers between 2022 and 2024. Technical success was achieved in 96.7% of cases, mean pulmonary artery pressure dropped by 27%, and 30-day mortality was 5% with no major bleeding events. The findings suggest the device offers a viable option for patients who cannot receive standard thrombolytic (clot-dissolving) therapy.",
-      "why_it_matters": "For older adults \u2014 who face higher bleeding risks from clot-busting drugs \u2014 this device-based approach to life-threatening pulmonary embolism could represent an important alternative treatment option.",
-      "caveats": "small sample (N=60), observational design, retrospective, single-region (Belgium), short follow-up, no comparator arm, industry conflict of interest (consulting fees from device manufacturer)",
+      "summary": "Researchers retrospectively analyzed 60 patients (mean age 61.9 years) treated with the FlowTriever mechanical thrombectomy system for acute pulmonary embolism at two Belgian centers between 2022 and 2024. The procedure achieved technical success in 96.7% of cases and reduced mean pulmonary artery pressure by 27%; 30-day mortality was 5% and survival to discharge was 93.3%. Major complications occurred in 5% of cases, and elevated lactate on admission was significantly linked to worse outcomes.",
+      "why_it_matters": "For older adults with life-threatening pulmonary embolism who cannot safely receive thrombolytic drugs, mechanical clot removal appears to offer a high-success alternative with relatively low complication rates.",
+      "caveats": "small sample (N<100), observational design, retrospective, single-region (Belgium), short follow-up",
       "fact_check_note": "",
       "relevance_score": 5,
-      "relevance_score_reason": "Relevant age group, cardiovascular urgency; small retrospective sample, device-specific, industry COI.",
+      "relevance_score_reason": "Relevant cardiovascular finding in older adults but small retrospective sample limits generalizability.",
       "pitch_angles": [
         {
           "publication_type": "AARP / General health",
-          "headline": "A New Device Removes Deadly Lung Clots Without the Bleeding Risk of Standard Treatment",
-          "hook": "For people who can't safely receive clot-dissolving drugs \u2014 a common concern in older patients \u2014 a catheter-based device cleared dangerous pulmonary clots in nearly all patients treated.",
-          "pitch_angle": "A retrospective study of 60 patients found that mechanical thrombectomy using the FlowTriever device rapidly reduced dangerous pressure in the lungs with a 5% mortality rate and no major bleeding. The early findings are promising for older adults who are often excluded from standard thrombolysis due to bleeding risk, though larger trials are needed."
+          "headline": "When Blood Clot Drugs Are Too Risky, a New Device Is Pulling Dangerous Clots Directly From the Lungs",
+          "hook": "For patients too fragile for standard clot-busting treatment, a catheter-based device removed dangerous pulmonary blood clots with a 93% survival-to-discharge rate.",
+          "pitch_angle": "Belgian researchers found that mechanical thrombectomy \u2014 physically extracting clots from the lungs via catheter \u2014 achieved technical success in nearly all treated patients and cut lung artery pressure by more than a quarter. The approach may be especially valuable for older adults who face the highest pulmonary embolism risk but are often ineligible for aggressive drug therapy."
         }
       ],
-      "run_date": "2026-08-28",
+      "run_date": "2026-08-29",
       "category": "Cardiology",
       "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42664615",
+      "headline": "A forgotten signaling protein may explain why 1 in 7 young women lose ovarian function without explanation",
+      "journal": "Maturitas",
+      "pubdate": "2026 Aug 26",
+      "doi": "10.1016/j.maturitas.2026.109093",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Italian researchers stimulated human ovarian granulosa cells with the protein BMP15 and profiled the resulting gene activity, then sequenced those genes in 64 women with early-onset primary ovarian insufficiency (POI). The study found novel rare genetic variants in five BMP15-downstream genes \u2014 including SMAD6 and ID1 \u2014 in 9 of the 64 women (14%), suggesting these variants may help explain cases of POI that currently have no identifiable cause. The findings implicate TGF-beta signaling and stem cell regulation pathways in premature ovarian aging.",
+      "why_it_matters": "For the roughly half of premature ovarian insufficiency cases currently labeled 'unexplained,' identifying new genetic candidates could eventually lead to earlier diagnosis and more targeted care.",
+      "caveats": "small sample (N=64), single-center, observational design, sample is women with early POI onset only \u2014 not a general aging population",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Niche genetic/cellular study; small N, limited lifestyle hook, narrow clinical audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Everyday Health",
+          "headline": "Why Do So Many Cases of Early Menopause Go Unexplained? Researchers Found New Genetic Clues",
+          "hook": "About half of all cases of premature ovarian insufficiency have no known cause \u2014 a new study found rare gene variants that may account for 14% of those mystery cases.",
+          "pitch_angle": "By mapping what happens in ovarian cells when a key fertility protein is activated, Italian researchers uncovered five genes that may quietly drive early ovarian failure. The work is preliminary, but it opens a door to genetic testing that could one day give women answers far earlier in their reproductive health journey."
+        }
+      ],
+      "run_date": "2026-08-29",
+      "category": "Seniors & Aging",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42645708",
+      "headline": "Ultra-Processed Foods Disrupt Metabolism Through at Least Six Distinct Biological Pathways, Expert Panel Concludes",
+      "journal": "Current Nutrition Reports",
+      "pubdate": "2026 Aug 26",
+      "doi": "10.1007/s13668-026-00790-0",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "The Italian Association of Dietetics and Clinical Nutrition reviewed current evidence on ultra-processed foods (UPFs) and metabolic health in a formal position paper, synthesizing findings across observational studies and mechanistic research. High UPF consumption has been associated with obesity, insulin resistance, cardiovascular disease, fatty liver disease, cancer, and neuroinflammation. Proposed biological mechanisms include gut microbiota disruption, mitochondrial dysfunction, oxidative stress, impaired metabolic flexibility, and endocrine-disrupting chemicals from packaging.",
+      "why_it_matters": "Understanding the multiple biological routes by which ultra-processed foods may harm metabolic health reinforces their role as a key modifiable risk factor for chronic diseases that accelerate aging.",
+      "caveats": "observational design, secondary analysis, no original human data collected",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Strong metabolic health hook but is a review/position paper with no new human data.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Eating Well",
+          "headline": "Ultra-Processed Foods Harm Your Body in More Ways Than You Think",
+          "hook": "It's not just empty calories \u2014 ultra-processed foods may be damaging your metabolism through at least six distinct biological mechanisms, a new expert review concludes.",
+          "pitch_angle": "A position paper from Italian clinical nutrition experts lays out how UPFs disrupt gut bacteria, mitochondria, hormone signaling, and immune function simultaneously, making them one of the most consequential dietary risks for chronic disease and unhealthy aging."
+        },
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Why Ultra-Processed Foods May Age You Faster \u2014 and What to Eat Instead",
+          "hook": "New expert analysis finds ultra-processed foods trigger inflammation and metabolic breakdown through pathways that mirror the biology of accelerated aging.",
+          "pitch_angle": "A major Italian nutrition society position paper identifies UPF consumption as a top modifiable risk factor for the chronic diseases most likely to cut healthy years short \u2014 from heart disease to fatty liver to neuroinflammation \u2014 offering a compelling case for whole-food dietary shifts at midlife and beyond."
+        }
+      ],
+      "run_date": "2026-08-29",
+      "category": "Nutritional Sciences",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42640938",
+      "headline": "A common-seeming calcium problem is far more prevalent than doctors thought \u2014 and less dangerous than feared",
+      "journal": "Journal of Bone and Mineral Research",
+      "pubdate": "2026 Aug 25",
+      "doi": "10.1093/jbmr/zjag129",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used UK Biobank whole-exome and whole-genome sequencing data from over 450,000 individuals to estimate the prevalence of familial hypocalciuric hypercalcemia type 1 (FHH1), a genetic condition causing chronically elevated blood calcium. They identified 162 carriers, suggesting a prevalence of roughly 1 in 3,000 \u2014 higher than previously estimated \u2014 and found no population-level evidence supporting previously suspected complications like pancreatitis or diabetes. The study's key practical message is that FHH1's calcium levels overlap with the general population, making it easy to misdiagnose as the more common \u2014 and differently treated \u2014 primary hyperparathyroidism.",
+      "why_it_matters": "Older adults found to have high calcium levels on routine blood tests may be unnecessarily investigated or treated for hyperparathyroidism when they actually have a benign inherited condition that requires no intervention.",
+      "caveats": "observational design, secondary analysis, missing urinary calcium and parathyroid hormone data limiting full biochemical characterization",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Large human cohort, clinically relevant calcium finding, but niche genetic condition limits broad aging wellness hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / AARP",
+          "headline": "High Calcium on Your Blood Test? It Might Not Mean What Your Doctor Thinks",
+          "hook": "A genetic condition that raises blood calcium levels turns out to be three times more common than previously thought \u2014 and far less dangerous than the condition it's often mistaken for.",
+          "pitch_angle": "New analysis of 450,000 people's genetic data suggests that many older adults flagged for high calcium may have an inherited, largely benign condition rather than a parathyroid problem requiring surgery. Understanding the difference could spare thousands from unnecessary procedures."
+        }
+      ],
+      "run_date": "2026-08-29",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42641106",
+      "headline": "Regular Dark Chocolate Consumption Is Linked to Faster Thinking and Better Executive Function in RCT Meta-Analysis",
+      "journal": "Nutrition Reviews",
+      "pubdate": "2026 Aug 25",
+      "doi": "10.1093/nutrit/nuaf286",
+      "groundbreaking": "Relevant aging or longevity finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a GRADE-assessed systematic review and meta-analysis of 16 randomized controlled trials involving 2,847 participants to examine the effect of regular dark chocolate or cocoa intake on cognitive function. Chronic consumption significantly improved Trail Making Test scores (a measure of processing speed and executive function) and verbal fluency, with greater benefits at doses of \u2265500 mg cocoa flavanol per day and durations of \u22658 weeks. Effects on working memory and verbal memory were inconsistent, and no benefit was found on the Mini-Mental State Examination.",
+      "why_it_matters": "Findings suggest that a daily cocoa flavanol habit may support key cognitive abilities \u2014 particularly processing speed and executive function \u2014 that tend to decline with age.",
+      "caveats": "short follow-up, inconsistent results across memory outcomes, moderate-to-high GRADE evidence only for some domains",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "RCT meta-analysis, cognitive aging hook, strong lifestyle/diet angle, moderate-high evidence quality.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "A Daily Dark Chocolate Habit May Help Keep Your Brain Sharp as You Age",
+          "hook": "A rigorous new analysis of randomized trials finds that regularly eating dark chocolate or drinking cocoa is linked to faster thinking and better executive function.",
+          "pitch_angle": "A meta-analysis of 16 RCTs with nearly 2,900 participants found that consuming at least 500 mg of cocoa flavanols daily for eight or more weeks significantly improved processing speed and verbal fluency \u2014 cognitive abilities that commonly decline with age \u2014 making dark chocolate one of the more evidence-backed pleasure foods for brain health."
+        },
+        {
+          "publication_type": "Eating Well / Prevention",
+          "headline": "Science Says: Eat More Dark Chocolate for a Sharper Mind",
+          "hook": "Forget crossword puzzles alone \u2014 a new meta-analysis suggests regular dark chocolate consumption may meaningfully boost the kind of quick thinking and mental flexibility that fades as we get older.",
+          "pitch_angle": "Researchers pooling data from 16 randomized controlled trials found that daily cocoa flavanols improved Trail Making Test performance and verbal fluency, with the strongest effects at doses achievable through a few squares of high-percentage dark chocolate per day \u2014 and effects that grew stronger with longer use."
+        }
+      ],
+      "run_date": "2026-08-29",
+      "category": "Nutritional Sciences",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42636502",
+      "headline": "A new Medicare care model for nursing home residents shows promise \u2014 but changing entrenched habits is the hardest part",
+      "journal": "Geriatric Nursing",
+      "pubdate": "2026 Aug 24",
+      "doi": "10.1016/j.gerinurse.2026.104247",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted qualitative interviews with seven nurse practitioners and primary care physicians involved in launching the first Institutional Special Needs Plan (I-SNP) in a southern U.S. state, exploring how the model affects care for nursing home residents compared with traditional fee-for-service Medicare. Four themes emerged: the current nursing home environment, challenges to adoption, gaining acceptance, and model effectiveness. Providers reported that the I-SNP model improved personalized care, staff assessment skills, and care coordination, but that entrenched nursing home practices were a major barrier to implementation.",
+      "why_it_matters": "As Medicare Special Needs Plans expand nationally, understanding what makes relationship-based care models succeed or stall in nursing homes could shape better long-term care policy for older adults.",
+      "caveats": "small sample (N=7), qualitative design, self-reported outcomes, single-center, single U.S. state",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Relevant long-term care policy topic but very small qualitative sample limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "A New Medicare Plan Promises Better Nursing Home Care \u2014 If Providers Can Get Out of Their Own Way",
+          "hook": "Nurses and doctors piloting a specialized Medicare plan for nursing home residents say it delivers more personalized care \u2014 but decades of ingrained habits are slowing it down.",
+          "pitch_angle": "A qualitative study of providers in the first Institutional Special Needs Plan in a southern state found that the model improved coordination and reduced unnecessary hospitalizations, but cultural resistance within nursing homes was a stubborn obstacle. With I-SNPs expanding nationally, the findings suggest that changing care culture matters as much as changing care policy for America's most vulnerable older adults."
+        }
+      ],
+      "run_date": "2026-08-29",
+      "category": "Geriatrics",
+      "chunk": "1/1",
       "status": "new"
     },
     {
@@ -184,33 +424,6 @@
       "status": "new"
     },
     {
-      "pmid": "42640938",
-      "headline": "A common genetic calcium disorder may be far more widespread than doctors realize \u2014 and often mistaken for a condition requiring surgery",
-      "journal": "Journal of Bone and Mineral Research",
-      "pubdate": "2026 Aug 25",
-      "doi": "10.1093/jbmr/zjag129",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study / Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used UK Biobank whole-exome and whole-genome sequencing data linked to health records to estimate the prevalence of familial hypocalciuric hypercalcemia type 1 (FHH1), a genetic calcium disorder. Among nearly half a million individuals, they identified 162 carriers of FHH1-associated variants, suggesting a prevalence of roughly 1 in 3,000 \u2014 higher than previously thought. Critically, calcium levels in FHH1 carriers overlapped substantially with the general population, helping explain why the condition is frequently misdiagnosed as primary hyperparathyroidism, a condition that is typically treated with surgery.",
-      "why_it_matters": "Older adults with mildly elevated calcium levels may be undergoing unnecessary workups or surgery for a surgically-treated condition they don't actually have, suggesting that genetic testing could prevent harm.",
-      "caveats": "observational design, secondary analysis, urinary calcium and parathyroid hormone data unavailable in dataset",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Diagnostic misidentification angle relevant to older adults; limited lifestyle hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP / General health",
-          "headline": "Thousands May Have a Harmless Calcium Condition Being Mistaken for One That Needs Surgery",
-          "hook": "A genetic study of nearly half a million people suggests a calcium disorder that requires no treatment is being confused far too often with one that leads to surgery.",
-          "pitch_angle": "Researchers found that familial hypocalciuric hypercalcemia type 1, a benign inherited condition, may affect roughly 1 in 3,000 people \u2014 more than previously estimated \u2014 and its calcium levels overlap enough with primary hyperparathyroidism to cause misdiagnosis. For older adults whose elevated calcium is flagged on routine bloodwork, this finding suggests a genetic test could spare them from unnecessary intervention."
-        }
-      ],
-      "run_date": "2026-08-28",
-      "category": "Endocrinology & Metabolism",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42648109",
       "headline": "How caregivers think about their role \u2014 not just how hard the work is \u2014 shapes whether caring for a frail parent leads to depression",
       "journal": "Geriatric Nursing",
@@ -236,33 +449,6 @@
           "headline": "The Hidden Factor That Determines Whether Caring for a Loved One Hurts Your Mental Health",
           "hook": "It's not how much you do as a caregiver \u2014 it's how you think about what you're doing, a study of nearly 500 family caregivers suggests.",
           "pitch_angle": "Caregivers who felt a sense of mastery and competence were less likely to develop depressive symptoms, even when their loved one's frailty was severe. Programs that build caregivers' confidence and teach positive coping strategies may be as important as any practical support service."
-        }
-      ],
-      "run_date": "2026-08-28",
-      "category": "Seniors & Aging",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42636502",
-      "headline": "Nurse practitioners embedded in nursing homes may cut hospitalizations and improve care \u2014 early adopters share what worked",
-      "journal": "Geriatric Nursing",
-      "pubdate": "2026 Aug 24",
-      "doi": "10.1016/j.gerinurse.2026.104247",
-      "groundbreaking": "Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used a qualitative descriptive design to explore provider experiences implementing the first Institutional Special Needs Plan (I-SNP) in a southern U.S. state, conducting semi-structured interviews with seven nurse practitioners and primary care physicians. The I-SNP model is a Medicare program designed to improve care coordination and reduce hospitalizations for nursing home residents. Providers reported that sustained nurse practitioner involvement, shared decision-making, and improved care coordination addressed gaps left by the traditional fee-for-service model, though entrenched nursing home practices posed adoption challenges.",
-      "why_it_matters": "For the millions of older adults in long-term care, relationship-based care models that keep nurse practitioners closely involved may meaningfully reduce unnecessary hospitalizations and improve daily quality of care.",
-      "caveats": "small sample (N<100), qualitative design, single-center, industry funding [Dignity Healthcare \u2014 one author]",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Long-term care policy angle; very small qualitative sample limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP",
-          "headline": "A New Medicare Model Is Keeping Nursing Home Residents Out of the Hospital \u2014 Here's How",
-          "hook": "A specialized Medicare plan that embeds nurse practitioners directly in nursing homes may be quietly reshaping care for older adults.",
-          "pitch_angle": "Early providers implementing the Institutional Special Needs Plan found that close, ongoing nurse practitioner involvement improved coordination and reduced unnecessary hospitalizations. For families navigating nursing home choices, understanding which facilities use relationship-based models like I-SNPs could matter."
         }
       ],
       "run_date": "2026-08-28",
