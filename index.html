@@ -340,6 +340,15 @@
     font-size: 0.78rem;
   }
   .delete-btn:hover { background: #fee4e2; color: var(--red); border-radius: 4px; }
+  .export-btn {
+    min-height: 28px;
+    border: 0;
+    color: #9aa3a0;
+    background: transparent;
+    padding: 4px 8px;
+    font-size: 0.78rem;
+  }
+  .export-btn:hover { background: #eaf2ff; color: var(--blue); border-radius: 4px; }
   #undo-toast {
     position: fixed;
     bottom: 24px;
@@ -951,6 +960,7 @@ function renderCard(study) {
     <div class="links">
       ${study.pmid ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${escAttr(study.pmid)}/" target="_blank" rel="noreferrer">PubMed ${esc(study.pmid)}</a>` : ""}
       ${study.doi ? `<a href="https://doi.org/${escAttr(study.doi)}" target="_blank" rel="noreferrer">DOI</a>` : ""}
+      <button class="export-btn" title="Download this study as a .docx" onclick="exportCardDocx('${escAttr(id)}')">Export .docx</button>
       <button class="delete-btn" title="Delete — hides permanently" onclick="deleteStudy('${escAttr(id)}')">Delete</button>
     </div>
   </div>
@@ -1012,6 +1022,28 @@ function exportStatus() {
   a.download = "digest-status-" + new Date().toISOString().slice(0, 10) + ".json";
   a.click();
   URL.revokeObjectURL(url);
+}
+
+async function exportCardDocx(id) {
+  const study = ALL_STUDIES.find(s => statusId(s) === id);
+  if (!study) return;
+  try {
+    const response = await fetch("/api/export-docx", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(study)
+    });
+    if (!response.ok) throw new Error("Export failed");
+    const blob = await response.blob();
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = (study.headline || "study").replace(/[^a-z0-9]+/gi, "-").replace(/^-+|-+$/g, "").slice(0, 80) + ".docx";
+    a.click();
+    URL.revokeObjectURL(url);
+  } catch {
+    alert("Could not export this study to .docx.");
+  }
 }
 
 function importStatus(event) {
