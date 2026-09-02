@@ -87,62 +87,6 @@
     align-items: center;
     flex-wrap: wrap;
   }
-  .db-banner {
-    max-width: 1180px;
-    margin: 10px auto 0;
-    background: #fff8e1;
-    border: 1px solid #ffe082;
-    border-radius: 8px;
-    padding: 12px 16px;
-    font: 0.83rem system-ui, -apple-system, sans-serif;
-    color: #5a4000;
-    display: flex;
-    gap: 12px;
-    align-items: flex-start;
-    flex-wrap: wrap;
-  }
-  .db-banner.connected {
-    background: #f0faf5;
-    border-color: #c7eadb;
-    color: #145233;
-  }
-  .db-banner p { flex: 1; min-width: 200px; margin: 0; line-height: 1.5; }
-  .db-form {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-    align-items: center;
-    flex: 2;
-    min-width: 280px;
-  }
-  .db-form input {
-    flex: 1;
-    min-width: 160px;
-    min-height: 32px;
-    padding: 5px 9px;
-    font-size: 0.8rem;
-    border: 1px solid #ffe082;
-    border-radius: 5px;
-    background: #fff;
-    color: var(--ink);
-    width: auto;
-  }
-  .db-form button, .db-btn {
-    min-height: 32px;
-    padding: 5px 12px;
-    border-radius: 5px;
-    font-size: 0.8rem;
-    cursor: pointer;
-    border: 1px solid #cfd8d3;
-    background: #fff;
-    color: var(--ink);
-  }
-  .db-btn-primary {
-    background: var(--green);
-    color: #fff;
-    border-color: var(--green);
-  }
-  .db-btn-primary:hover { background: #0f2e26; }
   input, select, button {
     min-height: 36px;
     border: 1px solid #cfd8d3;
@@ -545,7 +489,6 @@
       <input type="file" id="import-file" accept=".json" style="display:none" onchange="importStatus(event)">
     </label>
   </div>
-  <div id="db-banner" class="db-banner" style="display:none"></div>
 </section>
 
 <main>
@@ -566,7 +509,6 @@
 
 <script>
 const STATUS_KEY = "research-digest-dashboard-status";
-const CONFIG_KEY = "research-digest-db-config";
 
 let SOURCES = [];
 let ALL_STUDIES = [];
@@ -577,89 +519,53 @@ let DB_READY = false;
 let pendingDelete = null;
 let DASHBOARD_LAST_UPDATED = null;
 
-// ── Supabase config ──────────────────────────────────────────────────────────
+// ── Status API (Neon) ────────────────────────────────────────────────────────
 
-function getDbConfig() {
-  try { return JSON.parse(localStorage.getItem(CONFIG_KEY) || "null"); }
-  catch { return null; }
-}
-
-function saveDbConfig(url, key) {
-  localStorage.setItem(CONFIG_KEY, JSON.stringify({ url: url.replace(/\/$/, ""), key }));
-}
-
-function clearDbConfig() {
-  localStorage.removeItem(CONFIG_KEY);
-  DB_READY = false;
-  renderDbBanner();
-}
-
-async function dbRequest(method, path, body) {
-  const config = getDbConfig();
-  if (!config) return null;
-  const headers = {
-    "apikey": config.key,
-    "Authorization": "Bearer " + config.key,
-    "Content-Type": "application/json"
-  };
-  if (method === "POST") headers["Prefer"] = "resolution=merge-duplicates,return=minimal";
+async function apiRequest(method, body) {
   try {
-    const res = await fetch(config.url + "/rest/v1/" + path, {
+    const res = await fetch("/api/status", {
       method,
-      headers,
+      headers: { "Content-Type": "application/json" },
       body: body ? JSON.stringify(body) : undefined
     });
     if (!res.ok) {
-      console.warn("DB error", res.status, await res.text());
+      console.warn("Status API error", res.status, await res.text());
       return null;
     }
     return method === "GET" ? res.json() : true;
   } catch (err) {
-    console.warn("DB fetch failed", err);
+    console.warn("Status API fetch failed", err);
     return null;
   }
 }
 
 async function loadStatuses() {
-  const rows = await dbRequest("GET", "study_status?select=study_id,status");
+  const rows = await apiRequest("GET");
   if (rows === null) return false;
   STATUSES_CACHE = {};
   for (const row of rows) STATUSES_CACHE[row.study_id] = row.status;
+
+  // One-time migration: push any pre-existing localStorage labels into the DB
+  const local = getLocalStatuses();
+  const toMigrate = Object.entries(local).filter(([id, v]) => v !== "new" && !(id in STATUSES_CACHE));
+  if (toMigrate.length > 0) {
+    await apiRequest("POST", toMigrate.map(([study_id, status]) => ({
+      study_id, status, updated_at: new Date().toISOString()
+    })));
+    for (const [id, status] of toMigrate) STATUSES_CACHE[id] = status;
+    localStorage.removeItem(STATUS_KEY);
+  }
   return true;
 }
 
 async function persistStatus(id, status) {
-  const ok = await dbRequest("POST", "study_status", {
-    study_id: id, status, updated_at: new Date().toISOString()
-  });
+  const ok = await apiRequest("POST", { study_id: id, status, updated_at: new Date().toISOString() });
   if (!ok) {
-    // Fallback: write to localStorage
+    // Fallback: write to localStorage if the API is unreachable
     const local = getLocalStatuses();
     local[id] = status;
     localStorage.setItem(STATUS_KEY, JSON.stringify(local));
   }
-}
-
-async function connectDb(url, key) {
-  saveDbConfig(url, key);
-  const rows = await dbRequest("GET", "study_status?select=study_id,status");
-  if (rows === null) {
-    clearDbConfig();
-    return false;
-  }
-  // Migrate any existing localStorage statuses on first connect
-  const local = getLocalStatuses();
-  const toMigrate = Object.entries(local).filter(([, v]) => v !== "new");
-  if (toMigrate.length > 0) {
-    await dbRequest("POST", "study_status", toMigrate.map(([study_id, status]) => ({
-      study_id, status, updated_at: new Date().toISOString()
-    })));
-    for (const [id, status] of toMigrate) rows.push({ study_id: id, status });
-  }
-  STATUSES_CACHE = {};
-  for (const row of rows) STATUSES_CACHE[row.study_id] = row.status;
-  DB_READY = true;
-  return true;
 }
 
 // ── Status persistence ───────────────────────────────────────────────────────
@@ -742,66 +648,6 @@ function hideUndoToast() {
   document.getElementById("undo-toast").classList.remove("visible");
 }
 
-// ── DB banner UI ─────────────────────────────────────────────────────────────
-
-function renderDbBanner() {
-  const banner = document.getElementById("db-banner");
-  const config = getDbConfig();
-
-  if (DB_READY) {
-    banner.className = "db-banner connected";
-    banner.style.display = "";
-    banner.innerHTML = `
-      <p>&#10003; Database connected &mdash; statuses sync across devices.</p>
-      <button class="db-btn" onclick="clearDbConfig()">Disconnect</button>`;
-    return;
-  }
-
-  banner.className = "db-banner";
-  banner.style.display = "";
-  banner.innerHTML = `
-    <p><strong>Connect a database</strong> to sync saved/pitched/passed labels across devices.
-    Create a free <a href="https://supabase.com" target="_blank" rel="noreferrer">Supabase</a> project,
-    run the SQL below, then paste your Project URL and anon key.</p>
-    <details style="flex:1;min-width:260px">
-      <summary style="cursor:pointer;font-weight:700;margin-bottom:6px">Setup SQL (click to expand)</summary>
-      <pre style="background:#fff;border:1px solid #ffe082;border-radius:5px;padding:10px;font-size:0.75rem;overflow:auto;white-space:pre-wrap">create table study_status (
-  study_id  text primary key,
-  status    text not null,
-  updated_at timestamptz default now()
-);
-alter table study_status enable row level security;
-create policy "personal use" on study_status
-  for all to anon using (true) with check (true);</pre>
-    </details>
-    <div class="db-form">
-      <input type="url" id="db-url" placeholder="https://xxxx.supabase.co" autocomplete="off">
-      <input type="password" id="db-key" placeholder="anon key" autocomplete="off">
-      <button class="db-btn db-btn-primary" onclick="handleDbConnect()">Connect</button>
-      <button class="db-btn" onclick="document.getElementById('db-banner').style.display='none'">Skip</button>
-    </div>`;
-}
-
-async function handleDbConnect() {
-  const url = document.getElementById("db-url").value.trim();
-  const key = document.getElementById("db-key").value.trim();
-  if (!url || !key) { alert("Please enter both the project URL and anon key."); return; }
-  const btn = document.querySelector(".db-btn-primary");
-  btn.textContent = "Connecting...";
-  btn.disabled = true;
-  const ok = await connectDb(url, key);
-  if (ok) {
-    DB_READY = true;
-    renderDbBanner();
-    applyFilters();
-    renderStats();
-  } else {
-    btn.textContent = "Connect";
-    btn.disabled = false;
-    alert("Could not connect. Check that the URL and key are correct and the study_status table exists.");
-  }
-}
-
 // ── Data loading ─────────────────────────────────────────────────────────────
 
 async function fetchJson(path) {
@@ -812,16 +658,12 @@ async function fetchJson(path) {
 
 async function init() {
   // Load DB statuses first so we can exclude deleted studies on load
-  const config = getDbConfig();
-  if (config) {
-    const ok = await loadStatuses();
-    DB_READY = ok;
-  } else {
-    // Seed cache from localStorage so getStatus() works before DB is set up
+  const ok = await loadStatuses();
+  DB_READY = ok;
+  if (!ok) {
+    // API unreachable — fall back to whatever is cached locally
     STATUSES_CACHE = getLocalStatuses();
   }
-
-  renderDbBanner();
 
   try {
     SOURCES = await fetchJson("data/sources.json");

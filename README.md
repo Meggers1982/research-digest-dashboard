@@ -10,6 +10,8 @@ https://research-digest-dashboard.vercel.app
 
 ```text
 index.html
+api/
+  status.js
 data/
   sources.json
   aging-longevity.json
@@ -65,6 +67,33 @@ workflow are involved.
 GitHub Pages previously served a second copy of this dashboard at
 `meggers1982.github.io/research-digest-dashboard`. It was retired in favor of the
 Vercel deployment, and `.github/workflows/pages.yml` was removed along with it.
+
+## Status Sync
+
+Saved/pitched/passed labels on studies sync through a single shared Neon Postgres
+database (Vercel Marketplace project `neon-green-book`), so labels are the same
+on every device. `api/status.js` is a Vercel Function backed by
+`@neondatabase/serverless`:
+
+- `GET /api/status` &mdash; returns every `{study_id, status}` row.
+- `POST /api/status` &mdash; upserts one record (or an array of records).
+
+`DATABASE_URL` is provisioned automatically by the Neon integration and lives in
+the Vercel project's environment variables (also pulled into `.env.local` for
+local dev). The `study_status` table:
+
+```sql
+create table study_status (
+  study_id   text primary key,
+  status     text not null,
+  updated_at timestamptz default now()
+);
+```
+
+If the API is unreachable, the page falls back to `localStorage` for that
+browser and retries the shared DB on the next load. This replaced an earlier
+per-visitor "paste your own Supabase URL/key" setup &mdash; since this dashboard
+has one real user, one shared database is simpler.
 
 ## Digest Repo Publishing
 
@@ -148,10 +177,16 @@ Change `DASHBOARD_FILE`, `SOURCE_ID`, and `SOURCE_LABEL` for each digest repo.
 
 ## Local Preview
 
-From this directory:
+Static preview only (status labels fall back to `localStorage`, no `/api/status`):
 
 ```bash
 python3 -m http.server 8123
 ```
 
-Then open `http://localhost:8123`.
+Full preview including the status API:
+
+```bash
+vercel dev
+```
+
+Then open the printed `http://localhost:3000`.
