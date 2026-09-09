@@ -1,10 +1,565 @@
 {
-  "last_updated": "2026-09-08T15:47:59.790135+00:00",
+  "last_updated": "2026-09-09T15:41:26.283004+00:00",
   "source_id": "new-scientist-mh",
   "source_label": "New Scientist \u2014 Mental Health",
-  "total_studies": 1091,
-  "new_this_run": 22,
+  "total_studies": 1106,
+  "new_this_run": 15,
   "studies": [
+    {
+      "pmid": "42691276",
+      "headline": "People feel less judged when comfort comes from a machine than from another human",
+      "journal": "Journal of Personality and Social Psychology",
+      "pubdate": "3 September 2026",
+      "doi": "10.1037/pspa0000494",
+      "category": "Psychology",
+      "groundbreaking": "Counterintuitive",
+      "media_coverage": "Not widely covered \u2713 (2 news hits)",
+      "summary": "Across a pilot and six studies (five preregistered; total N=3,341), participants who had just experienced a minor social sting \u2014 rudeness, a slight \u2014 received support either from a human or from an AI, in both simulated and real interactions. Because people expect AI to have little capacity for experience, they reported lower fear of negative evaluation after AI support, which improved well-being outcomes; separately, they judged the AI as exceeding their low expectations for empathy, which drove perceptions that the support worked.",
+      "why_it_matters": "It reframes the appeal of AI comfort as being about the absence of a judging mind rather than the presence of a caring one \u2014 which means the effect could evaporate as people's expectations of AI empathy rise.",
+      "caveats": "Focuses on minor aversive events, not clinical distress; largely self-reported well-being outcomes; short-term single-encounter designs with no follow-up.",
+      "fact_check_note": "\u2705 Accurate",
+      "excluded": false,
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist Mind",
+          "headline": "People feel less judged when comfort comes from a machine than from another human",
+          "hook": "It reframes the appeal of AI comfort as being about the absence of a judging mind rather than the presence of a caring one \u2014 which means the effect could evaporate as people's expectations of AI empathy rise.",
+          "pitch_angle": "Open on someone venting to a chatbot after a humiliating work meeting and feeling oddly better than after telling a friend. The surprise: the machine helps *because* we assume it can't really feel anything, so there is nobody there to think less of us. Worth calling Roshni Raveendhran at UVA's Darden School on whether the benefit is self-cancelling once chatbots are marketed as empathetic.",
+          "why_it_fits": "six studies, mostly preregistered, N=3,341, with a result that flips the usual \"AI can't really care\" assumption; limited by minor stressors rather than serious distress.",
+          "caveats_to_flag": "Focuses on minor aversive events, not clinical distress; largely self-reported well-being outcomes; short-term single-encounter designs with no follow-up."
+        },
+        {
+          "publication_type": "Wider angle \u2014 elsewhere",
+          "headline": "People feel less judged when comfort comes from a machine than from another human (wider angle)",
+          "hook": "",
+          "pitch_angle": "A feature for a business or workplace outlet on the \"expectation economy\" of AI support tools \u2014 why HR chatbots and AI wellness apps may be exploiting a psychological loophole that vendors' own hype is closing.",
+          "why_it_fits": "",
+          "caveats_to_flag": "Focuses on minor aversive events, not clinical distress; largely self-reported well-being outcomes; short-term single-encounter designs with no follow-up."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "status": "new",
+      "relevance_score": 8,
+      "relevance_score_reason": "six studies, mostly preregistered, N=3,341, with a result that flips the usual \"AI can't really care\" assumption; limited by minor stressors rather than serious distress."
+    },
+    {
+      "pmid": "42068161",
+      "headline": "ChatGPT spots eating disorders that human clinicians miss in higher-weight patients",
+      "journal": "International Journal of Eating Disorders",
+      "pubdate": "September 2026 (epub 2 May 2026)",
+      "doi": "10.1002/eat.70128",
+      "category": "Behavioral Sciences",
+      "groundbreaking": "Counterintuitive",
+      "media_coverage": "Not widely covered \u2713 (0 news hits)",
+      "summary": "Researchers gave ChatGPT-5.4 two clinical vignettes \u2014 one restrictive eating disorder presentation with body weight varied across low, average and higher conditions, one binge-eating disorder \u2014 repeating each prompt 20 times, and compared responses with published benchmark data from clinicians and community samples. ChatGPT identified an eating disorder in 90\u2013100% of cases regardless of the patient's weight and recommended specialist treatment every time; clinicians identified a disorder in 47%, 21% and 16% of the low-, average- and higher-weight versions and recommended specialist care 35%, 19% and 17% of the time. Gemini-3 and Claude-4.5 behaved similarly to ChatGPT.",
+      "why_it_matters": "The weight bias that stops eating disorders being diagnosed in people who are not visibly underweight is a documented clinical failure, and here the language models simply did not show it \u2014 a rare case of AI looking less prejudiced than the professionals.",
+      "caveats": "Vignette study, not real patients; human comparison data came from previously published samples rather than a head-to-head design; structured prompts may flatter AI performance; author is an associate editor of the publishing journal (recused from decisions).",
+      "fact_check_note": "\u26a0\ufe0f Minor issues",
+      "excluded": false,
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist Mind",
+          "headline": "ChatGPT spots eating disorders that human clinicians miss in higher-weight patients",
+          "hook": "The weight bias that stops eating disorders being diagnosed in people who are not visibly underweight is a documented clinical failure, and here the language models simply did not show it \u2014 a rare case of AI looking less prejudiced than the professionals.",
+          "pitch_angle": "Lead with the numbers: a chatbot flagged anorexia-type presentations in higher-weight patients five times more often than clinicians did. Open on the classic patient who is told she is \"not thin enough\" to be ill. Call Jake Linardon at Deakin University, and pair it with a clinician who can explain why vignette performance is not the same as recognizing a disorder in a real consultation.",
+          "why_it_fits": "a clean benchmark against published human data showing AI lacked the weight bias clinicians displayed; limited by vignettes rather than real patients.",
+          "caveats_to_flag": "Vignette study, not real patients; human comparison data came from previously published samples rather than a head-to-head design; structured prompts may flatter AI performance; author is an associate editor of the publishing journal (recused from decisions)."
+        },
+        {
+          "publication_type": "Wider angle \u2014 elsewhere",
+          "headline": "ChatGPT spots eating disorders that human clinicians miss in higher-weight patients (wider angle)",
+          "hook": "",
+          "pitch_angle": "A specialist health-policy or medical-education piece on using AI outputs as a mirror for clinician bias \u2014 auditing where human decisions diverge from an unbiased-by-default baseline, and what that reveals about training.",
+          "why_it_fits": "",
+          "caveats_to_flag": "Vignette study, not real patients; human comparison data came from previously published samples rather than a head-to-head design; structured prompts may flatter AI performance; author is an associate editor of the publishing journal (recused from decisions)."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "status": "new",
+      "relevance_score": 8,
+      "relevance_score_reason": "a clean benchmark against published human data showing AI lacked the weight bias clinicians displayed; limited by vignettes rather than real patients."
+    },
+    {
+      "pmid": "41549774",
+      "headline": "The people most likely to accept an AI therapist are the ones who struggle most with human relationships",
+      "journal": "Psychotherapy Research",
+      "pubdate": "September 2026 (epub 19 January 2026)",
+      "doi": "10.1080/10503307.2026.2615388",
+      "category": "Psychiatry",
+      "groundbreaking": "Counterintuitive",
+      "media_coverage": "Not widely covered \u2713 (1 news hits)",
+      "summary": "Survey data from 1,612 potential patients and clinicians recruited via Prolific were clustered into three psychological profiles: \"Avoidant-not trusting,\" \"Secure-trusting-healthy,\" and \"Young-anxious-ambivalent-symptomatic.\" The two more vulnerable clusters \u2014 higher symptoms, insecure attachment, lower epistemic trust \u2014 showed significantly greater acceptance of AI avatars and chatbots, while the securest, healthiest group most preferred human teletherapy. Having experience of therapy, as patient or provider, predicted lower AI acceptance overall.",
+      "why_it_matters": "AI therapy tools may reach exactly the people who avoid human help \u2014 while denying them the relational repair that psychotherapy is partly thought to work through.",
+      "caveats": "Cross-sectional and observational \u2014 cannot establish causation; measures hypothetical acceptance, not uptake or outcomes; online convenience sample; self-reported symptoms.",
+      "fact_check_note": "\u26a0\ufe0f Minor issues",
+      "excluded": false,
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist Mind",
+          "headline": "The people most likely to accept an AI therapist are the ones who struggle most with human relationships",
+          "hook": "AI therapy tools may reach exactly the people who avoid human help \u2014 while denying them the relational repair that psychotherapy is partly thought to work through.",
+          "pitch_angle": "The hook is a double edge: the more your difficulties are about trusting other people, the more appealing a therapist that isn't a person becomes. Open on a young, anxiously attached user who has never booked a session but talks to a chatbot nightly. Call Vera B\u00e9k\u00e9s at McGill on whether AI is a bridge into care or a very comfortable dead end.",
+          "why_it_fits": "large sample and a genuinely paradoxical pattern; weakened by cross-sectional self-report and hypothetical acceptance rather than real treatment.",
+          "caveats_to_flag": "Cross-sectional and observational \u2014 cannot establish causation; measures hypothetical acceptance, not uptake or outcomes; online convenience sample; self-reported symptoms."
+        },
+        {
+          "publication_type": "Wider angle \u2014 elsewhere",
+          "headline": "The people most likely to accept an AI therapist are the ones who struggle most with human relationships (wider angle)",
+          "hook": "",
+          "pitch_angle": "A longer piece for a health or social-affairs outlet on triage: if commissioners deploy chatbots as the front door to mental health services, they are routing the hardest-to-reach patients away from the human contact that may be the active ingredient.",
+          "why_it_fits": "",
+          "caveats_to_flag": "Cross-sectional and observational \u2014 cannot establish causation; measures hypothetical acceptance, not uptake or outcomes; online convenience sample; self-reported symptoms."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "status": "new",
+      "relevance_score": 7,
+      "relevance_score_reason": "large sample and a genuinely paradoxical pattern; weakened by cross-sectional self-report and hypothetical acceptance rather than real treatment."
+    },
+    {
+      "pmid": "40974258",
+      "headline": "Describing your mood in your own words predicts sick leave better than a questionnaire does",
+      "journal": "Assessment",
+      "pubdate": "September 2026 (epub 20 September 2025)",
+      "doi": "10.1177/10731911251364022",
+      "category": "Psychology",
+      "groundbreaking": "First-in-class",
+      "media_coverage": "Not widely covered \u2713 (2 news hits)",
+      "summary": "Participants described their depression and worry using four response formats \u2014 selecting words from lists, writing descriptive words, phrases, or free text \u2014 alongside standard rating scales. Language was converted into word embeddings and machine-learning models trained on a development sample (N=963), then preregistered before testing on a prospective sample (N=145). All formats predicted rating-scale scores accurately (r = 0.60\u20130.79), and free text correlated with self-reported sick leave and healthcare visits as strongly as or more strongly than the rating scales in nine of 12 comparisons.",
+      "why_it_matters": "If a few sentences in someone's own words carry as much clinically relevant signal as a validated symptom scale, the tick-box questionnaire that underpins most mental health measurement stops being the obvious default.",
+      "caveats": "Prospective validation sample under 100 for some comparisons (N=145 overall); outcomes self-reported; two authors co-founded a company commercializing computational language assessment; validation against rating scales rather than clinical diagnosis.",
+      "fact_check_note": "\u26a0\ufe0f Minor issues",
+      "excluded": false,
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist Mind",
+          "headline": "Describing your mood in your own words predicts sick leave better than a questionnaire does",
+          "hook": "If a few sentences in someone's own words carry as much clinically relevant signal as a validated symptom scale, the tick-box questionnaire that underpins most mental health measurement stops being the obvious default.",
+          "pitch_angle": "Lead with the reversal \u2014 the free-text box, usually the bit clinicians ignore, outperformed the numbered scale on real-world outcomes. Open on the familiar \"on a scale of 0 to 3, how often have you felt hopeless?\" and ask why we ever thought that was the best available instrument. Call Oscar Kjell at Lund University, and flag his start-up interest in the piece.",
+          "why_it_fits": "preregistered models tested on a fresh prospective sample, and it challenges the primacy of the rating scale; small prospective N and a founder conflict of interest hold it back.",
+          "caveats_to_flag": "Prospective validation sample under 100 for some comparisons (N=145 overall); outcomes self-reported; two authors co-founded a company commercializing computational language assessment; validation against rating scales rather than clinical diagnosis."
+        },
+        {
+          "publication_type": "Wider angle \u2014 elsewhere",
+          "headline": "Describing your mood in your own words predicts sick leave better than a questionnaire does (wider angle)",
+          "hook": "",
+          "pitch_angle": "A cautionary feature for a technology or privacy outlet: once written language becomes a validated mental health measure, everything you type \u2014 in an app, an HR survey, a customer service chat \u2014 becomes potential psychometric data.",
+          "why_it_fits": "",
+          "caveats_to_flag": "Prospective validation sample under 100 for some comparisons (N=145 overall); outcomes self-reported; two authors co-founded a company commercializing computational language assessment; validation against rating scales rather than clinical diagnosis."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "status": "new",
+      "relevance_score": 7,
+      "relevance_score_reason": "preregistered models tested on a fresh prospective sample, and it challenges the primacy of the rating scale; small prospective N and a founder conflict of interest hold it back."
+    },
+    {
+      "pmid": "42671866",
+      "headline": "Asking an AI to summarize medical notes destroys the information needed to predict violence",
+      "journal": "The Canadian Journal of Psychiatry",
+      "pubdate": "31 August 2026",
+      "doi": "10.1177/07067437261479118",
+      "category": "Psychiatry",
+      "groundbreaking": "Counterintuitive",
+      "media_coverage": "Not widely covered \u2713 (0 news hits)",
+      "summary": "Using 277 documented inpatient violence events and 2,758 matched control encounters at Harborview Medical Center (2021\u20132023), researchers compared risk prediction from original clinical notes with prediction from AI-generated summaries of the same notes. Direct classification of raw notes performed best (F1 = 0.776, AUROC = 0.959); replacing them with general or clinician-guided summaries slashed performance (F1 = 0.465 and 0.510). Fine-tuned Llama-3.1-8B and MedGemma-27B underperformed the smaller purpose-built model, and zero-shot prompting was poor. Accuracy was lower for patients with a documented mental health flag.",
+      "why_it_matters": "Hospitals are enthusiastically inserting LLM summarization between clinicians and the record; this suggests summaries quietly strip out exactly the messy, repeated, contextual details that carry predictive signal.",
+      "caveats": "Retrospective, single-center; case-control design with matched controls; no prospective or external validation; ethically fraught outcome (violence risk labels) that the authors themselves warn against deploying.",
+      "fact_check_note": "\u26a0\ufe0f Minor issues",
+      "excluded": false,
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist Mind",
+          "headline": "Asking an AI to summarize medical notes destroys the information needed to predict violence",
+          "hook": "Hospitals are enthusiastically inserting LLM summarization between clinicians and the record; this suggests summaries quietly strip out exactly the messy, repeated, contextual details that carry predictive signal.",
+          "pitch_angle": "The surprise is that even summaries explicitly steered toward clinical risk factors made things worse \u2014 a bigger model was not a better model. Open on the ward round where nobody reads the notes any more, just the AI digest. Call Nicholas Dobbins or Trevor Black at the University of Washington on what a summary loses: timing of agitation, intoxication, social context.",
+          "why_it_fits": "a useful, well-quantified negative result about LLM summarization; the clinical framing is technical and the design retrospective.",
+          "caveats_to_flag": "Retrospective, single-center; case-control design with matched controls; no prospective or external validation; ethically fraught outcome (violence risk labels) that the authors themselves warn against deploying."
+        },
+        {
+          "publication_type": "Wider angle \u2014 elsewhere",
+          "headline": "Asking an AI to summarize medical notes destroys the information needed to predict violence (wider angle)",
+          "hook": "",
+          "pitch_angle": "A broader technology story on \"summarization debt\" across professions \u2014 law, insurance, journalism \u2014 where compressing documents with LLMs removes the low-salience details that decisions actually turn on.",
+          "why_it_fits": "",
+          "caveats_to_flag": "Retrospective, single-center; case-control design with matched controls; no prospective or external validation; ethically fraught outcome (violence risk labels) that the authors themselves warn against deploying."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "status": "new",
+      "relevance_score": 6,
+      "relevance_score_reason": "a useful, well-quantified negative result about LLM summarization; the clinical framing is technical and the design retrospective."
+    },
+    {
+      "pmid": "42374878",
+      "headline": "Psychopathy predicts who will use generative AI to bully people, six months in advance",
+      "journal": "Cyberpsychology, Behavior, and Social Networking",
+      "pubdate": "September 2026 (epub 30 June 2026)",
+      "doi": "10.1177/21522715261465484",
+      "category": "Behavioral Sciences",
+      "groundbreaking": "First-in-class",
+      "media_coverage": "Not widely covered \u2713 (1 news hits)",
+      "summary": "A two-wave study of 1,019 participants measured Dark Tetrad traits (Machiavellianism, narcissism, psychopathy, sadism) and generative-AI-involved cyberbullying six months apart. Psychopathy and being male predicted AI-involved cyberbullying at Time 2 even after controlling for the same behavior at baseline. Sadism predicted it in the baseline model but dropped out once prior behavior was accounted for; Machiavellianism, narcissism and age showed no effect.",
+      "why_it_matters": "It suggests the people weaponizing image generators and chatbots against others are not a new population created by the technology but a familiar one handed a more powerful tool \u2014 which shapes where prevention should aim.",
+      "caveats": "Self-reported perpetration (likely under-reported); two waves only, six-month interval; observational \u2014 cannot establish causation; sample composition and recruitment platform may not generalize.",
+      "fact_check_note": "\u2705 Accurate",
+      "excluded": false,
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist Mind",
+          "headline": "Psychopathy predicts who will use generative AI to bully people, six months in advance",
+          "hook": "It suggests the people weaponizing image generators and chatbots against others are not a new population created by the technology but a familiar one handed a more powerful tool \u2014 which shapes where prevention should aim.",
+          "pitch_angle": "Lead with the trait sorting: sadism looked like the culprit until prior behavior was controlled, and callous psychopathy was what actually persisted. Open on a school or workplace dealing with an AI-generated smear campaign. Call Ruoyu Sun at Texas A&M on whether AI lowers the effort threshold enough to pull in people who would never have bullied by hand.",
+          "why_it_fits": "first longitudinal look at an emerging harassment behavior with a decent sample; self-report and only two waves.",
+          "caveats_to_flag": "Self-reported perpetration (likely under-reported); two waves only, six-month interval; observational \u2014 cannot establish causation; sample composition and recruitment platform may not generalize."
+        },
+        {
+          "publication_type": "Wider angle \u2014 elsewhere",
+          "headline": "Psychopathy predicts who will use generative AI to bully people, six months in advance (wider angle)",
+          "hook": "",
+          "pitch_angle": "An investigative or education-focused piece on how schools detect and adjudicate AI-generated harassment \u2014 deepfaked images, fabricated chat logs \u2014 when the evidentiary rules were written for text messages.",
+          "why_it_fits": "",
+          "caveats_to_flag": "Self-reported perpetration (likely under-reported); two waves only, six-month interval; observational \u2014 cannot establish causation; sample composition and recruitment platform may not generalize."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "status": "new",
+      "relevance_score": 6,
+      "relevance_score_reason": "first longitudinal look at an emerging harassment behavior with a decent sample; self-report and only two waves."
+    },
+    {
+      "pmid": "42695515",
+      "headline": "A home video of a toddler at play, plus machine learning, flags autism with 91% accuracy",
+      "journal": "Autism",
+      "pubdate": "4 September 2026",
+      "doi": "10.1177/13623613261480732",
+      "category": "Psychiatry",
+      "groundbreaking": "First-in-class",
+      "media_coverage": "Not widely covered \u2713 (1 news hits)",
+      "summary": "Parents of 170 Chinese toddlers aged 16\u201330 months recorded ordinary parent-child play at home; trained coders scored the videos using the Social Communication Scale, and results were compared with ADOS-2 classifications of elevated versus low autism likelihood. Inter-rater reliability was good (ICC = 0.87). A random forest model using scale items plus demographic variables reached AUC 0.91 with 91% sensitivity and 91% specificity \u2014 better balanced than a simple total-score cutoff or logistic regression.",
+      "why_it_matters": "Most tele-assessment tools for autism were built and validated in Western settings; this is an attempt to show the approach transfers, and that machine learning adds real accuracy over a summed score.",
+      "caveats": "N=170, single research program; validated against ADOS-2 classification rather than confirmed clinical diagnosis; no independent replication sample; model performance likely optimistic without external validation; population-specific.",
+      "fact_check_note": "\u26a0\ufe0f Significant issues",
+      "excluded": false,
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist Mind",
+          "headline": "A home video of a toddler at play, plus machine learning, flags autism with 91% accuracy",
+          "hook": "Most tele-assessment tools for autism were built and validated in Western settings; this is an attempt to show the approach transfers, and that machine learning adds real accuracy over a summed score.",
+          "pitch_angle": "The hook is how little material is needed \u2014 a short phone video of a parent and child playing, no clinic, no specialist. Open on a family hundreds of kilometers from the nearest developmental pediatrician. Call Patrick C. M. Wong at the Chinese University of Hong Kong, and ask directly what a 91% specificity means for false positives at population scale.",
+          "why_it_fits": "a culturally-specific tele-screening validation with strong headline metrics, but modest N and no comparison against clinical diagnosis.",
+          "caveats_to_flag": "N=170, single research program; validated against ADOS-2 classification rather than confirmed clinical diagnosis; no independent replication sample; model performance likely optimistic without external validation; population-specific."
+        },
+        {
+          "publication_type": "Wider angle \u2014 elsewhere",
+          "headline": "A home video of a toddler at play, plus machine learning, flags autism with 91% accuracy (wider angle)",
+          "hook": "",
+          "pitch_angle": "A global-health feature on the diagnostic bottleneck in autism \u2014 years-long waiting lists in high-income countries, near-total absence of services in many others \u2014 and whether remote video screening genuinely widens access or just relocates the queue.",
+          "why_it_fits": "",
+          "caveats_to_flag": "N=170, single research program; validated against ADOS-2 classification rather than confirmed clinical diagnosis; no independent replication sample; model performance likely optimistic without external validation; population-specific."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "status": "new",
+      "relevance_score": 5,
+      "relevance_score_reason": "a culturally-specific tele-screening validation with strong headline metrics, but modest N and no comparison against clinical diagnosis."
+    },
+    {
+      "pmid": "42600450",
+      "headline": "Giving students an AI tutor does nothing much \u2014 unless you teach them how to study with it",
+      "journal": "Acta Psychologica",
+      "pubdate": "September 2026 (epub 14 August 2026)",
+      "doi": "10.1016/j.actpsy.2026.107642",
+      "category": "Psychology",
+      "groundbreaking": "Counterintuitive",
+      "media_coverage": "Not widely covered \u2713 (1 news hits)",
+      "summary": "In a seven-week quasi-experiment, 266 industrial engineering undergraduates at a Chinese university were assigned at class level either to a structured self-regulated learning program \u2014 goal setting before AI use, real-time self-monitoring, reflective evaluation afterwards \u2014 or to using the same AI tools autonomously. The scaffolded group significantly outperformed the control group on technical English vocabulary tests and reported a meaningful increase in enjoyment, while the autonomous-AI group showed no enjoyment change. The gap was largest among students who started out enjoying the subject least.",
+      "why_it_matters": "The active ingredient here is the routine wrapped around the AI, not the AI itself \u2014 which is awkward for the assumption that handing learners a chatbot is an intervention.",
+      "caveats": "Quasi-experimental with intact classes rather than individual randomization; single institution and single discipline; enjoyment self-reported; seven weeks with no follow-up; may not generalize beyond vocabulary learning.",
+      "fact_check_note": "\u26a0\ufe0f Significant issues",
+      "excluded": false,
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist Mind",
+          "headline": "Giving students an AI tutor does nothing much \u2014 unless you teach them how to study with it",
+          "hook": "The active ingredient here is the routine wrapped around the AI, not the AI itself \u2014 which is awkward for the assumption that handing learners a chatbot is an intervention.",
+          "pitch_angle": "Lead with the control group: students given free access to AI learned no more and enjoyed it no more than before. Open on the undergraduate who has \"studied\" for three hours by asking a chatbot to explain things. Call Guanyao Xu at Xihua University on whether the scaffolding transfers beyond vocabulary to reasoning-heavy tasks.",
+          "why_it_fits": "a decent-sized controlled comparison isolating the pedagogy rather than the tool; quasi-experimental with class-level assignment and a narrow outcome.",
+          "caveats_to_flag": "Quasi-experimental with intact classes rather than individual randomization; single institution and single discipline; enjoyment self-reported; seven weeks with no follow-up; may not generalize beyond vocabulary learning."
+        },
+        {
+          "publication_type": "Wider angle \u2014 elsewhere",
+          "headline": "Giving students an AI tutor does nothing much \u2014 unless you teach them how to study with it (wider angle)",
+          "hook": "",
+          "pitch_angle": "An education-policy feature for a general-interest or specialist education outlet on the AI procurement rush \u2014 schools and universities buying tools when the evidence points to teaching metacognition instead.",
+          "why_it_fits": "",
+          "caveats_to_flag": "Quasi-experimental with intact classes rather than individual randomization; single institution and single discipline; enjoyment self-reported; seven weeks with no follow-up; may not generalize beyond vocabulary learning."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "status": "new",
+      "relevance_score": 5,
+      "relevance_score_reason": "a decent-sized controlled comparison isolating the pedagogy rather than the tool; quasi-experimental with class-level assignment and a narrow outcome."
+    },
+    {
+      "pmid": "40550012",
+      "headline": "ChatGPT's abortion advice is usually acceptable and almost never complete",
+      "journal": "Culture, Health & Sexuality",
+      "pubdate": "September 2026 (epub 23 June 2025)",
+      "doi": "10.1080/13691058.2025.2517289",
+      "category": "Behavioral Sciences",
+      "groundbreaking": "Counterintuitive",
+      "media_coverage": "Not widely covered \u2713 (2 news hits)",
+      "summary": "Researchers put ten fact-based and ten clinical-scenario abortion questions to ChatGPT-3.5 and had three complex family planning physicians grade each response as acceptable or unacceptable and complete or incomplete, against ACOG and Society of Family Planning guidance and PubMed-indexed evidence. Some 65% of responses were rated acceptable, but only 8% were rated complete. Factual questions fared better than clinical scenarios.",
+      "why_it_matters": "The failure mode is not obvious falsehood but confident partial answers \u2014 the hardest kind for a frightened person navigating a shifting legal landscape to detect.",
+      "caveats": "Only 20 questions; three graders at a small number of centers; tested an outdated model version; qualitative judgment-based outcomes; no patient involvement.",
+      "fact_check_note": "\u2705 Accurate",
+      "excluded": false,
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist Mind",
+          "headline": "ChatGPT's abortion advice is usually acceptable and almost never complete",
+          "hook": "The failure mode is not obvious falsehood but confident partial answers \u2014 the hardest kind for a frightened person navigating a shifting legal landscape to detect.",
+          "pitch_angle": "The number to lead on is 8%: nearly two-thirds of answers were acceptable, but almost none were complete. Open on someone in a state with restrictive laws typing a question into a chatbot at 2am because there is no one else to ask. Call Melody Xu at Jersey Shore University Medical Center, and note this tested ChatGPT-3.5 \u2014 worth asking whether newer models close the completeness gap.",
+          "why_it_fits": "a striking accuracy-versus-completeness gap in a high-stakes information domain; small, qualitative, and tested on an older model.",
+          "caveats_to_flag": "Only 20 questions; three graders at a small number of centers; tested an outdated model version; qualitative judgment-based outcomes; no patient involvement."
+        },
+        {
+          "publication_type": "Wider angle \u2014 elsewhere",
+          "headline": "ChatGPT's abortion advice is usually acceptable and almost never complete (wider angle)",
+          "hook": "",
+          "pitch_angle": "A reported piece for a health or politics outlet on AI as the de facto reproductive health advice service in jurisdictions where clinical information has been legally restricted, and who bears liability for an incomplete answer.",
+          "why_it_fits": "",
+          "caveats_to_flag": "Only 20 questions; three graders at a small number of centers; tested an outdated model version; qualitative judgment-based outcomes; no patient involvement."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "status": "new",
+      "relevance_score": 5,
+      "relevance_score_reason": "a striking accuracy-versus-completeness gap in a high-stakes information domain; small, qualitative, and tested on an older model."
+    },
+    {
+      "pmid": "42664282",
+      "headline": "Chatbots are becoming part of how teenagers form an identity \u2014 and nobody is tracking it",
+      "journal": "Perspectives on Psychological Science",
+      "pubdate": "28 August 2026",
+      "doi": "10.1177/17456916261460771",
+      "category": "Psychology",
+      "groundbreaking": "New mechanism",
+      "media_coverage": "Not widely covered \u2713 (1 news hits)",
+      "summary": "An interdisciplinary synthesis argues that adolescence \u2014 with its sensitive-period work on social belonging, emotion regulation, autonomy and identity \u2014 is the life stage where generative AI chatbots matter most. The authors identify plausible benefits (low-stakes social rehearsal, scaffolded emotion regulation, safe identity exploration) alongside specific risks: displaced developmental experiences, eroded distress tolerance, distorted expectations of human relationships, and compromised identity and purpose formation. They call for longitudinal, use-case-specific research and youth-involved study design.",
+      "why_it_matters": "It shifts the adolescent-AI debate from screen time and content moderation to developmental tasks \u2014 a framework that generates testable predictions rather than moral panic.",
+      "caveats": "Review and theoretical agenda-setting, not primary research; no empirical test of the proposed mechanisms; longitudinal evidence the authors call for does not yet exist.",
+      "fact_check_note": "\u26a0\ufe0f Minor issues",
+      "excluded": false,
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist Mind",
+          "headline": "Chatbots are becoming part of how teenagers form an identity \u2014 and nobody is tracking it",
+          "hook": "It shifts the adolescent-AI debate from screen time and content moderation to developmental tasks \u2014 a framework that generates testable predictions rather than moral panic.",
+          "pitch_angle": "The reframe is the story: the question is not whether chatbots expose teenagers to bad content but whether they quietly do the developmental work \u2014 the awkward conversation, the tolerated rejection \u2014 that adolescents need to do themselves. Open on a 15-year-old rehearsing a breakup message with an AI. Call Anna Maheux at UNC Chapel Hill on what the first good longitudinal study would need to measure.",
+          "why_it_fits": "a strong, well-argued developmental framing of a live public worry, but it is a synthesis with no new data.",
+          "caveats_to_flag": "Review and theoretical agenda-setting, not primary research; no empirical test of the proposed mechanisms; longitudinal evidence the authors call for does not yet exist."
+        },
+        {
+          "publication_type": "Wider angle \u2014 elsewhere",
+          "headline": "Chatbots are becoming part of how teenagers form an identity \u2014 and nobody is tracking it (wider angle)",
+          "hook": "",
+          "pitch_angle": "A policy and regulation feature for a general-interest outlet on why age-verification and content filters are the wrong instruments if the harm is developmental displacement, and what a design standard grounded in developmental science would look like.",
+          "why_it_fits": "",
+          "caveats_to_flag": "Review and theoretical agenda-setting, not primary research; no empirical test of the proposed mechanisms; longitudinal evidence the authors call for does not yet exist."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "status": "new",
+      "relevance_score": 5,
+      "relevance_score_reason": "a strong, well-argued developmental framing of a live public worry, but it is a synthesis with no new data."
+    },
+    {
+      "pmid": "42705114",
+      "headline": "AI helps you generate more ideas \u2014 and makes everyone's ideas look the same",
+      "journal": "Current Opinion in Psychology",
+      "pubdate": "7 September 2026",
+      "doi": "10.1016/j.copsyc.2026.102425",
+      "category": "Psychology",
+      "groundbreaking": "Counterintuitive",
+      "media_coverage": "Not widely covered \u2713 (0 news hits)",
+      "summary": "A review of experimental work on human-AI creative collaboration across writing, design and product ideation separates outcome effects from process effects. Generative AI reliably increases the number of ideas, can raise their rated quality, speeds up generation and lowers cognitive load \u2014 but is also associated with idea homogenization across people, reduced feelings of authenticity and ownership, less independent creative effort, and weaker team collaboration. Four factors determine which way it goes: when in the process AI enters, how the interaction is designed, what the task is, and how expert the user is.",
+      "why_it_matters": "Individual creative output goes up while collective diversity goes down \u2014 an aggregation effect that no single user experiences and that most productivity studies are not designed to detect.",
+      "caveats": "Narrative review, not new data or meta-analysis; underlying studies are mostly short lab tasks; no evidence yet on long-term effects on creative skill development.",
+      "fact_check_note": "\u26a0\ufe0f Minor issues",
+      "excluded": false,
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist Mind",
+          "headline": "AI helps you generate more ideas \u2014 and makes everyone's ideas look the same",
+          "hook": "Individual creative output goes up while collective diversity goes down \u2014 an aggregation effect that no single user experiences and that most productivity studies are not designed to detect.",
+          "pitch_angle": "Lead on the paradox: every writer gets better ideas, and the pool of ideas gets narrower. Open on two strangers using the same tool for the same brief and producing near-identical work. Call Sara Caprioli at TUM School of Management on the timing finding \u2014 whether bringing AI in after your own first draft protects originality.",
+          "why_it_fits": "homogenization is the counterintuitive cost readers can feel in their own work; review-level evidence only.",
+          "caveats_to_flag": "Narrative review, not new data or meta-analysis; underlying studies are mostly short lab tasks; no evidence yet on long-term effects on creative skill development."
+        },
+        {
+          "publication_type": "Wider angle \u2014 elsewhere",
+          "headline": "AI helps you generate more ideas \u2014 and makes everyone's ideas look the same (wider angle)",
+          "hook": "",
+          "pitch_angle": "A media and culture feature on cultural convergence: measuring homogenization across advertising, pop songwriting or academic prose as AI assistance saturates creative industries, for an arts or business outlet.",
+          "why_it_fits": "",
+          "caveats_to_flag": "Narrative review, not new data or meta-analysis; underlying studies are mostly short lab tasks; no evidence yet on long-term effects on creative skill development."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "status": "new",
+      "relevance_score": 5,
+      "relevance_score_reason": "homogenization is the counterintuitive cost readers can feel in their own work; review-level evidence only."
+    },
+    {
+      "pmid": "42673770",
+      "headline": "Telling epilepsy patients about the risk of sudden death does not appear to harm them",
+      "journal": "Epilepsy & Behavior",
+      "pubdate": "31 August 2026",
+      "doi": "10.1016/j.yebeh.2026.111276",
+      "category": "Behavioral Sciences",
+      "groundbreaking": "Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (0 news hits)",
+      "summary": "Using AI and natural language processing to analyze online epilepsy communities from September 2020 to November 2024, researchers screened posts from 23,584 authors and closely examined 1,381 posts by 789 people who explicitly mentioned Sudden Unexpected Death in Epilepsy. Most had learned about SUDEP through their own online searching, often years after diagnosis, and described fear, shock and \u2014 where clinicians had never raised it \u2014 betrayal and mistrust. Knowing about SUDEP was associated with better medication adherence, lifestyle changes and use of seizure alarms and anti-suffocation pillows, with no sign of lasting psychological harm.",
+      "why_it_matters": "Clinicians commonly withhold SUDEP information to avoid frightening patients; the patients' own accounts suggest the withholding is what damages trust, while the knowledge drives protective behavior.",
+      "caveats": "Retrospective and observational; unsolicited online posts, so self-selected and skewed toward the engaged and distressed; psychological harm inferred from text, not measured; three authors are employed by Semalytix GmbH, which sells the social-listening tools used, and the analysis relies on their proprietary platforms.",
+      "fact_check_note": "\u26a0\ufe0f Minor issues",
+      "excluded": false,
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist Mind",
+          "headline": "Telling epilepsy patients about the risk of sudden death does not appear to harm them",
+          "hook": "Clinicians commonly withhold SUDEP information to avoid frightening patients; the patients' own accounts suggest the withholding is what damages trust, while the knowledge drives protective behavior.",
+          "pitch_angle": "The hook is the reversal of protective silence: people found out anyway, alone, at 3am, from a search engine \u2014 and wished a doctor had told them at diagnosis. Open on that moment of discovery. Call Christian Brandt at the Bethel Epilepsy Center, and be explicit that this reads patients' public words rather than measuring anxiety.",
+          "why_it_fits": "directly contradicts the clinical rationale for silence, using an unusually large trawl of patient voices; the data are unsolicited social media posts analyzed with proprietary tools.",
+          "caveats_to_flag": "Retrospective and observational; unsolicited online posts, so self-selected and skewed toward the engaged and distressed; psychological harm inferred from text, not measured; three authors are employed by Semalytix GmbH, which sells the social-listening tools used, and the analysis relies on their proprietary platforms."
+        },
+        {
+          "publication_type": "Wider angle \u2014 elsewhere",
+          "headline": "Telling epilepsy patients about the risk of sudden death does not appear to harm them (wider angle)",
+          "hook": "",
+          "pitch_angle": "A methods-forward feature for a health or technology outlet on \"social media listening\" as pharmaceutical and clinical research infrastructure \u2014 who consents, who profits, and what happens when patient forum posts become industry evidence.",
+          "why_it_fits": "",
+          "caveats_to_flag": "Retrospective and observational; unsolicited online posts, so self-selected and skewed toward the engaged and distressed; psychological harm inferred from text, not measured; three authors are employed by Semalytix GmbH, which sells the social-listening tools used, and the analysis relies on their proprietary platforms."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "status": "new",
+      "relevance_score": 5,
+      "relevance_score_reason": "directly contradicts the clinical rationale for silence, using an unusually large trawl of patient voices; the data are unsolicited social media posts analyzed with proprietary tools."
+    },
+    {
+      "pmid": "42117565",
+      "headline": "Machine learning can guess who will still be depressed after eating disorder treatment \u2014 but not who will fail to improve",
+      "journal": "International Journal of Eating Disorders",
+      "pubdate": "September 2026 (epub 12 May 2026)",
+      "doi": "10.1002/eat.70129",
+      "category": "Behavioral Sciences",
+      "groundbreaking": "Counterintuitive",
+      "media_coverage": "Not widely covered \u2713 (0 news hits)",
+      "summary": "Routine electronic health record data from 1,412 people in inpatient or day-hospital eating disorder treatment were used to build preregistered machine-learning models (elastic net and extreme gradient boosting) predicting two outcomes at admission. Nonimprovement of depressive symptoms was predicted poorly (AUC 0.64\u20130.65); residual depression at discharge was predicted adequately (AUC 0.73\u20130.77). Important predictors were phobic anxiety, resilience, life satisfaction and baseline depression \u2014 and a substantial share of patients left treatment still notably depressed.",
+      "why_it_matters": "It draws a useful line between predicting a state (who will still be unwell) and predicting a change (who will not respond) \u2014 the second is what personalized care actually needs, and it is the one the models could not do.",
+      "caveats": "Retrospective analysis of routinely collected records from a single clinic group; no external validation; observational design; moderate performance by the authors' own account; self-reported symptom measures.",
+      "fact_check_note": "\u26a0\ufe0f Minor issues",
+      "excluded": false,
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist Mind",
+          "headline": "Machine learning can guess who will still be depressed after eating disorder treatment \u2014 but not who will fail to improve",
+          "hook": "It draws a useful line between predicting a state (who will still be unwell) and predicting a change (who will not respond) \u2014 the second is what personalized care actually needs, and it is the one the models could not do.",
+          "pitch_angle": "Lead with the asymmetry that keeps tripping up clinical AI: models look impressive when they are largely restating how ill someone already is, and collapse when asked who will change. Open on a patient discharged as \"recovered\" from an eating disorder who is still profoundly depressed. Call Nicolas Leenaerts at KU Leuven on why preregistering prediction models matters.",
+          "why_it_fits": "a preregistered, transparently reported partial failure in a field prone to overclaiming; the story is technical and the sample is single-provider.",
+          "caveats_to_flag": "Retrospective analysis of routinely collected records from a single clinic group; no external validation; observational design; moderate performance by the authors' own account; self-reported symptom measures."
+        },
+        {
+          "publication_type": "Wider angle \u2014 elsewhere",
+          "headline": "Machine learning can guess who will still be depressed after eating disorder treatment \u2014 but not who will fail to improve (wider angle)",
+          "hook": "",
+          "pitch_angle": "A critical feature for a specialist medical or data-science outlet on prediction-model inflation in psychiatry: how many published AUCs are essentially baseline severity in disguise, and what reporting standards would expose that.",
+          "why_it_fits": "",
+          "caveats_to_flag": "Retrospective analysis of routinely collected records from a single clinic group; no external validation; observational design; moderate performance by the authors' own account; self-reported symptom measures."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "status": "new",
+      "relevance_score": 4,
+      "relevance_score_reason": "a preregistered, transparently reported partial failure in a field prone to overclaiming; the story is technical and the sample is single-provider."
+    },
+    {
+      "pmid": "42705481",
+      "headline": "When AI helps you choose dinner, the values being optimized may not be yours",
+      "journal": "Appetite",
+      "pubdate": "7 September 2026",
+      "doi": "10.1016/j.appet.2026.108784",
+      "category": "Behavioral Sciences",
+      "groundbreaking": "New mechanism",
+      "media_coverage": "Not widely covered \u2713 (0 news hits)",
+      "summary": "This review argues that research on AI and food has been stuck on one question \u2014 does AI give better recommendations? \u2014 while AI has moved along a continuum from advisor, to decision partner that helps construct the choice, to ambient influence shaping what looks desirable before deliberation starts. Drawing on consumer psychology, automation research and cognitive science, the authors specify four process mechanisms: preference offloading, responsibility reallocation, confidence calibration, and food-decision skill erosion. Because eating decisions are frequent and habitual, they argue these effects compound.",
+      "why_it_matters": "It moves the debate about AI and diet from recommendation accuracy to loss of agency \u2014 and points out that food-decision skills, like navigation skills, may atrophy with delegation.",
+      "caveats": "Conceptual review and research agenda; the authors note key boundary conditions are untested in food contexts; no empirical results.",
+      "fact_check_note": "\u2705 Accurate",
+      "excluded": false,
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist Mind",
+          "headline": "When AI helps you choose dinner, the values being optimized may not be yours",
+          "hook": "It moves the debate about AI and diet from recommendation accuracy to loss of agency \u2014 and points out that food-decision skills, like navigation skills, may atrophy with delegation.",
+          "pitch_angle": "The hook is skill erosion: we already know GPS blunted our sense of direction, so what happens when an assistant decides what you eat several times a day for a decade? Open on a person who no longer knows what they feel like eating without asking. Call Isaac Cheah at Curtin University on which of the four mechanisms is most testable first.",
+          "why_it_fits": "a sharp conceptual reframing with named mechanisms and a domain everyone lives in daily; no new data.",
+          "caveats_to_flag": "Conceptual review and research agenda; the authors note key boundary conditions are untested in food contexts; no empirical results."
+        },
+        {
+          "publication_type": "Wider angle \u2014 elsewhere",
+          "headline": "When AI helps you choose dinner, the values being optimized may not be yours (wider angle)",
+          "hook": "",
+          "pitch_angle": "A consumer-affairs investigation for a food or business outlet into who pays for placement in AI meal recommendations \u2014 the ambient-influence end of the continuum, where retailers and delivery platforms set the option set before a \"choice\" is made.",
+          "why_it_fits": "",
+          "caveats_to_flag": "Conceptual review and research agenda; the authors note key boundary conditions are untested in food contexts; no empirical results."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "status": "new",
+      "relevance_score": 4,
+      "relevance_score_reason": "a sharp conceptual reframing with named mechanisms and a domain everyone lives in daily; no new data."
+    },
+    {
+      "pmid": "42697057",
+      "headline": "Negotiating through a screen \u2014 or an AI \u2014 makes it easier not to notice you are behaving badly",
+      "journal": "Current Opinion in Psychology",
+      "pubdate": "25 August 2026",
+      "doi": "10.1016/j.copsyc.2026.102415",
+      "category": "Psychology",
+      "groundbreaking": "New mechanism",
+      "media_coverage": "Not widely covered \u2713 (0 news hits)",
+      "summary": "The authors review evidence on \"ethical fading\" \u2014 the process by which situational features stop people recognizing the moral dimension of what they are doing \u2014 and apply it to technology-mediated negotiation. They propose that email, video conferencing and AI each amplify three cognitive processes: psychological distance from the counterpart, cognitive offloading of the reasoning to the tool, and displaced accountability for the outcome. Together, these are argued to make misrepresentation and hardball tactics feel like technical choices rather than ethical ones.",
+      "why_it_matters": "If AI delegation reliably dulls moral awareness rather than just improving analysis, then \"the model recommended it\" becomes a general-purpose excuse across hiring, pricing and pay negotiations.",
+      "caveats": "Conceptual review with no new data; the authors state that research linking technology to unethical negotiating behavior remains limited; mechanisms are proposed rather than demonstrated for AI specifically.",
+      "fact_check_note": "\u26a0\ufe0f Minor issues",
+      "excluded": false,
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist Mind",
+          "headline": "Negotiating through a screen \u2014 or an AI \u2014 makes it easier not to notice you are behaving badly",
+          "hook": "If AI delegation reliably dulls moral awareness rather than just improving analysis, then \"the model recommended it\" becomes a general-purpose excuse across hiring, pricing and pay negotiations.",
+          "pitch_angle": "Lead with displaced accountability \u2014 the person who would never lie to a landlord's face but lets an AI agent do the haggling and never asks what it said. Open on an AI negotiation agent closing a deal on someone's behalf. Call McKenzie Rees at Brigham Young University on the experiments needed to show ethical fading actually happens with AI counterparts, not just email.",
+          "why_it_fits": "a coherent psychological account of why AI-mediated deals may go crooked, but explicitly acknowledges the evidence base is thin.",
+          "caveats_to_flag": "Conceptual review with no new data; the authors state that research linking technology to unethical negotiating behavior remains limited; mechanisms are proposed rather than demonstrated for AI specifically."
+        },
+        {
+          "publication_type": "Wider angle \u2014 elsewhere",
+          "headline": "Negotiating through a screen \u2014 or an AI \u2014 makes it easier not to notice you are behaving badly (wider angle)",
+          "hook": "",
+          "pitch_angle": "A legal and governance feature for a business or law-focused outlet on accountability gaps as AI agents start transacting autonomously: who is liable when the misrepresentation was made by a model acting on your instructions?",
+          "why_it_fits": "",
+          "caveats_to_flag": "Conceptual review with no new data; the authors state that research linking technology to unethical negotiating behavior remains limited; mechanisms are proposed rather than demonstrated for AI specifically."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "status": "new",
+      "relevance_score": 4,
+      "relevance_score_reason": "a coherent psychological account of why AI-mediated deals may go crooked, but explicitly acknowledges the evidence base is thin."
+    },
     {
       "pmid": "42693580",
       "headline": "Distracting yourself from something upsetting makes it hit harder the next time you see it",
