@@ -1,8 +1,893 @@
 {
-  "last_updated": "2026-09-08T16:01:48.270230+00:00",
-  "total_studies": 966,
-  "new_this_run": 8,
+  "last_updated": "2026-09-09T15:31:45.791472+00:00",
+  "total_studies": 977,
+  "new_this_run": 19,
   "studies": [
+    {
+      "pmid": "42710565",
+      "headline": "Living near green space during a specific six-month window of pregnancy is associated with nearly halved odds of autism in children",
+      "journal": "Environmental Pollution",
+      "pubdate": "2026 Sep 8",
+      "doi": "10.1016/j.envpol.2026.129118",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a 1:3 matched case-control study of 207 children with ASD and 621 healthy controls in central China, estimating monthly residential green space exposure (via satellite-derived NDVI) and PM2.5 levels from 10 months before to 3 months after birth. Using distributed lag nonlinear models, they identified a critical window from 6 to 1 month before birth during which higher green space exposure was associated with a 46.6% reduction in the odds of ASD (OR = 0.534, 95% CI: 0.415\u20130.688). The protective association was independent of PM2.5, which neither mediated nor significantly modified the relationship.",
+      "why_it_matters": "Identifying a specific, time-delimited prenatal window during which residential green space may meaningfully reduce ASD risk could reshape both urban planning priorities and prenatal care guidance \u2014 though the observational design means causation cannot yet be established.",
+      "caveats": "observational design, single-center, small sample (N<100 ASD cases per matched window), self-reported outcomes",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive timing window; ASD public health relevance; observational and single-region caveats.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "There May Be a Six-Month Window During Pregnancy When Green Space Matters Most for a Child's Brain",
+          "hook": "A new study found that pregnant women's proximity to parks and vegetation during a specific six-month stretch of pregnancy was associated with dramatically lower odds that their child would develop autism.",
+          "pitch_angle": "The research, conducted in central China, used satellite data to track residential greenery month by month and found the association was strongest \u2014 and statistically robust \u2014 only during mid-to-late pregnancy, not in early pregnancy or after birth, suggesting a biologically sensitive window that hasn't been previously identified. While observational and requiring replication in diverse populations, the finding has potential implications for how cities prioritize green space and how prenatal providers counsel patients."
+        },
+        {
+          "publication_type": "Scientific American",
+          "headline": "Satellite Data Links Greenery Near Home to Lower Autism Risk \u2014 but Only During a Narrow Prenatal Window",
+          "hook": "By tracking vegetation levels month by month using satellite imagery, researchers found that the protective association between green space and autism risk was concentrated in just the last six months before birth.",
+          "pitch_angle": "The study's use of distributed lag nonlinear models allowed researchers to pinpoint a biologically plausible timing window \u2014 mid-to-late fetal brain development \u2014 rather than relying on averaged exposure across pregnancy, a methodological advance that could sharpen future environmental neurodevelopmental research. Whether the mechanism involves stress reduction, microbiome exposure, physical activity, or something else entirely remains an open question."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42710263",
+      "headline": "A new blur metric for heart imaging finally agrees with what cardiologists actually see",
+      "journal": "Physica Medica",
+      "pubdate": "2026 Sep 8",
+      "doi": "10.1016/j.ejmp.2026.107181",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers retrospectively analyzed coronary angiography sequences from 29 patients to test whether AI-generated interpolated video frames \u2014 proposed as a way to cut radiation doses \u2014 could be reliably assessed for image quality. They found that traditional image-quality metrics often favor over-smoothed images that cardiologists actually rate as inferior, while a new spatio-temporal blur metric called BM3D aligned closely with expert clinical assessments. The RIFE interpolation algorithm performed best among the tested methods, producing image quality not significantly different from original sequences.",
+      "why_it_matters": "As AI-generated imaging frames are increasingly proposed to lower radiation exposure during cardiac procedures, having a quality metric that actually matches clinical judgment could determine which approaches are safe to adopt.",
+      "caveats": "small sample (N<100), single-center, retrospective design, three-reader observer study only",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Technical imaging physics study; narrow specialist audience, limited general public hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "General science / Wired",
+          "headline": "AI Can Fake Heart Scan Frames to Cut Radiation \u2014 But Only If We Can Tell Good Fakes from Bad Ones",
+          "hook": "The metrics doctors use to judge AI-generated cardiac images were quietly disagreeing with what cardiologists could actually see \u2014 until now.",
+          "pitch_angle": "A new spatio-temporal blur metric finally tracks with expert cardiologist judgment on interpolated coronary angiography frames, resolving a mismatch that could have let over-smoothed, clinically inferior AI images slip through quality checks. As AI frame interpolation moves toward clinical use to reduce patient radiation doses, getting the quality assessment right is a prerequisite for safe adoption."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42709048",
+      "headline": "India's HIV epidemic looks like a success story \u2014 the data say otherwise",
+      "journal": "International Journal of STD & AIDS",
+      "pubdate": "2026 Sep 8",
+      "doi": "10.1177/09564624261487929",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "An opinion piece drawing on India's 2024 Government HIV Estimation Technical Report and recent peer-reviewed evidence argues that national-level declines in HIV prevalence, incidence, and mortality obscure a fragmented and worsening residual epidemic. The authors identify hidden gaps including pregnant and breastfeeding women acquiring HIV after a negative antenatal test, states where HIV mortality is rising despite national declines, and patients reaching antiretroviral therapy only after advanced immunosuppression. They argue India's response infrastructure, built for the 1992 epidemic, is poorly matched to today's concentrated, geographically uneven burden.",
+      "why_it_matters": "The finding that public health success metrics can mask a deepening epidemic in specific subpopulations is a cautionary lesson relevant to HIV programs worldwide \u2014 and to any disease where aggregate statistics substitute for disaggregated surveillance.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Strong public health policy angle but India-specific context and opinion-piece format limit broad scoring.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "India's HIV Victory Is Real \u2014 and It's Hiding a Quiet Crisis",
+          "hook": "Forty years after India's first HIV case, the national numbers look like a triumph \u2014 but beneath the headline figures, the epidemic has quietly shifted into places the public health system wasn't built to reach.",
+          "pitch_angle": "Falling prevalence and mortality statistics have allowed India to declare progress on HIV, but a new analysis finds rising mortality in some states, women acquiring HIV after negative prenatal tests, and patients arriving at clinics only in the terminal stages of disease. The piece raises a universal question: when does declaring victory become the enemy of finishing the job?"
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42709188",
+      "headline": "A plastic-industry chemical causes DNA damage in workers at levels already deemed 'safe' by current regulations",
+      "journal": "Archives of Toxicology",
+      "pubdate": "2026 Sep 8",
+      "doi": "10.1007/s00204-026-04539-0",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers measured genetic damage in 45 workers exposed to methyl methacrylate (MMA) \u2014 a monomer used in plastics, dental materials, and medical devices \u2014 and 26 workers also exposed to toluene/xylene, compared to 31 unexposed controls in a Shanghai manufacturing plant. Workers exposed to MMA showed significantly higher rates of DNA mutations and chromosomal abnormalities than controls, and the threshold for detectable genetic harm fell well below current occupational exposure limits. Cell culture experiments identified a mutation pattern resembling formaldehyde, suggesting MMA's genotoxicity may stem from this metabolite.",
+      "why_it_matters": "Methyl methacrylate is used globally in construction, dentistry, and medical implants, and this study suggests current workplace safety limits may leave millions of workers exposed to cumulative DNA damage.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive finding challenging regulatory limits; occupational health hook; human subjects.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The 'Safe' Level of This Plastic Chemical May Not Be Safe at All",
+          "hook": "Workers exposed to methyl methacrylate \u2014 a chemical in dental fillings, contact lenses, and building materials \u2014 showed measurable DNA damage even at concentrations regulators consider acceptable.",
+          "pitch_angle": "The study challenges the premise that current occupational exposure limits are sufficient to prevent genetic harm, joining a growing body of evidence that 'safe' industrial thresholds are often set before genotoxicity data exist \u2014 with implications for workers in plastics, construction, and healthcare manufacturing worldwide."
+        },
+        {
+          "publication_type": "Scientific American",
+          "headline": "A Common Industrial Monomer Damages DNA at Levels Below Regulatory Limits \u2014 and It May Work Like Formaldehyde",
+          "hook": "New evidence from Chinese factory workers suggests methyl methacrylate causes DNA mutations at a dose far lower than what safety agencies currently allow, and cell studies point to a formaldehyde-like mechanism.",
+          "pitch_angle": "Using a sensitive new mutation assay alongside classic chromosomal damage tests, researchers calculated a genotoxicity threshold 30 times lower than current occupational exposure limits, raising urgent questions about how chemical safety standards are derived and enforced globally."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42705032",
+      "headline": "Banned pesticides keep turning up in Mediterranean stormwater \u2014 suggesting illegal use or chemicals that simply won't disappear",
+      "journal": "Journal of Environmental Management",
+      "pubdate": "2026 Sep 7",
+      "doi": "10.1016/j.jenvman.2026.130865",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers sampled water from 25 stations across the 1,100 km\u00b2 Kishon River basin in Israel during the first major winter storms of 2020 and 2021, screening for 110 pesticide compounds using LC-MS/MS. Pesticides were detected at 100% of sampling stations, and banned legacy compounds such as Simazine were found at more than half of all sites, suggesting either environmental persistence or ongoing illegal application. Four sub-basins were identified as hotspots, consistently exceeding the 75th percentile across multiple pollution metrics, with field crop agriculture driving greater chemical diversity than orchards.",
+      "why_it_matters": "The finding that banned pesticides are still surfacing in waterways \u2014 potentially from illegal use or near-permanent soil contamination \u2014 points to a systemic failure in agricultural chemical monitoring that likely extends well beyond Israel to other Mediterranean and semi-arid farming regions globally.",
+      "caveats": "observational design, single-center, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Environmental health hook; geographically specific Israeli watershed; no human health data.",
+      "pitch_angles": [
+        {
+          "publication_type": "General science",
+          "headline": "Pesticides Banned Decades Ago Are Still Flooding Waterways Every Time It Rains",
+          "hook": "In a Mediterranean river basin, every single water sampling station tested positive for pesticides during the first winter storms \u2014 including chemicals that were officially banned years ago.",
+          "pitch_angle": "A new synchronized watershed-scale sampling approach in Israel found banned compounds like Simazine at more than half of monitoring sites, suggesting these chemicals either persist indefinitely in soil or are still being applied illegally \u2014 and routine monitoring programs miss nearly all of it. Researchers argue that storm-triggered sampling protocols, not standard scheduled checks, are needed to capture the true scale of agricultural runoff pollution."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42706591",
+      "headline": "A gene's position in the genome \u2014 not just the mutation \u2014 determines whether it causes severe childhood epilepsy",
+      "journal": "Clinical Genetics",
+      "pubdate": "2026 Sep 7",
+      "doi": "10.1111/cge.70244",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers identified two children with de novo mutations in the NUSAP1 gene who presented with early-onset refractory epilepsy, severe developmental delay, and congenital microcephaly. RNA sequencing showed the disease-causing mutations escape the cell's normal mRNA surveillance system (nonsense-mediated decay), producing abnormal truncated proteins rather than triggering protective gene silencing. Analysis of large population databases confirmed that only mutations in a specific 3' region of NUSAP1 escape this surveillance and are absent from healthy individuals, establishing a position-dependent model for disease risk.",
+      "why_it_matters": "The finding that mutation location within a gene \u2014 not just mutation type \u2014 determines pathogenicity could reshape how clinical geneticists interpret variants of uncertain significance in thousands of patients with unexplained neurological conditions.",
+      "caveats": "small sample (N<100), observational design",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive genetics mechanism with clinical diagnostic implications; very small case series limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American",
+          "headline": "Why the same type of mutation can be harmless in one spot and devastating in another",
+          "hook": "Two children with severe epilepsy and microcephaly share mutations in a gene where the cellular quality-control system fails to kick in \u2014 revealing that a mutation's zip code within DNA matters as much as its type.",
+          "pitch_angle": "Researchers found that nonsense mutations in the tail end of NUSAP1 escape the cell's mRNA destruction machinery, producing toxic truncated proteins instead of being silenced \u2014 a mechanism that flips standard genetic logic. The position-dependent model could help reclassify thousands of 'variants of uncertain significance' in patients with unexplained neurological disease."
+        },
+        {
+          "publication_type": "The Atlantic",
+          "headline": "Genetic diagnosis is broken for rare diseases \u2014 this finding shows why location matters",
+          "hook": "A child's devastating epilepsy was traced not just to a harmful mutation, but to exactly where in the gene that mutation landed \u2014 a nuance most clinical tests currently miss.",
+          "pitch_angle": "The study exposes a blind spot in genetic medicine: the same class of mutation can be benign or catastrophic depending on its position in a gene, because the cell's quality-control system responds differently based on location. For the estimated 300 million people worldwide living with a rare disease, more position-aware variant interpretation could mean the difference between a diagnosis and years of uncertainty."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42706486",
+      "headline": "Air pollution may trigger sudden unexpected infant deaths within days of exposure, large French registry study finds",
+      "journal": "Paediatric and Perinatal Epidemiology",
+      "pubdate": "2026 Sep 7",
+      "doi": "10.1111/ppe.70196",
+      "groundbreaking": "First-in-class human study / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used a time-stratified case-crossover design to analyze 1,078 cases from France's national sudden unexpected death in infancy (SUDI) registry (2015\u20132022), linking daily ambient air pollution data to each infant's residence. Exposure to particulate matter (PM10 and PM2.5) was consistently associated with higher odds of SUDI, with a lag effect of 3\u20135 days before death, and nitrogen dioxide showed a trend toward association. The findings suggest air pollution may act as a short-term environmental trigger for SUDI, with seasonal variation showing stronger effects in spring.",
+      "why_it_matters": "If air pollution contributes to sudden infant death even days before the event, environmental exposures may be a modifiable \u2014 and largely overlooked \u2014 risk factor in one of the most devastating and poorly understood causes of infant mortality.",
+      "caveats": "observational design, single-center",
+      "fact_check_note": "",
+      "relevance_score": 9,
+      "relevance_score_reason": "Air quality and infant mortality: strong public health hook, rigorous registry-based design, large N.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American",
+          "headline": "Dirty Air May Be a Hidden Trigger for Sudden Infant Death \u2014 Days Before It Happens",
+          "hook": "A large French registry study found that spikes in fine particulate air pollution were associated with higher odds of sudden unexpected infant death within 3 to 5 days of exposure.",
+          "pitch_angle": "The study is among the first to systematically link short-term ambient air pollution to SUDI timing using a national dataset of more than 1,000 cases. It opens a new avenue for prevention research in a condition that has long resisted explanation."
+        },
+        {
+          "publication_type": "The Atlantic",
+          "headline": "We Still Don't Know Why Babies Die Suddenly. New Research Suggests the Air They Breathe May Play a Role.",
+          "hook": "For decades, SIDS and related sudden infant deaths have been attributed almost entirely to sleep environment \u2014 but a sweeping French study suggests the outdoor air quality in the days before death may also matter.",
+          "pitch_angle": "The finding forces a rethink of infant death prevention, which has focused heavily on sleep position and bedding, by implicating a factor parents largely cannot control \u2014 and one that falls disproportionately on families in polluted urban environments."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Public Health & Epidemiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42705257",
+      "headline": "A single HIV pill for infants as young as four weeks old shows safe drug levels and early virus control in African trial",
+      "journal": "The Lancet HIV",
+      "pubdate": "2026 Sep 7",
+      "doi": "10.1016/S2352-3018(26)00168-2",
+      "groundbreaking": "First-in-class human study / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "The UNIVERSAL1 phase 1-2 trial enrolled 50 children with HIV aged 28 days to 10 years (weighing 3\u201325 kg) across three sites in Zimbabwe and Uganda to evaluate a novel fixed-dose combination of dolutegravir, emtricitabine, and tenofovir alafenamide given in weight-adjusted doses over 24 weeks. The trial assessed pharmacokinetics, short-term safety, and antiviral activity across five bodyweight bands. Early results indicate the regimen achieved pharmacokinetic targets with an acceptable safety profile and antiviral activity, representing a significant step toward a universal simplified first-line HIV regimen for the youngest and smallest children.",
+      "why_it_matters": "Simplified fixed-dose antiretroviral combinations for very young children remain a critical unmet need in sub-Saharan Africa, where pediatric HIV burden is highest and drug formulation options are most limited.",
+      "caveats": "small sample (N<100), single-arm (no comparator), short follow-up, open-label",
+      "fact_check_note": "Abstract was truncated; pharmacokinetic and safety outcome results were not fully available. Summary reflects confirmed trial design and stated aims only.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Important global health advance for pediatric HIV; phase 1-2 small-N limits scoring.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / General science",
+          "headline": "Scientists Test a Single HIV Pill for Babies as Young as One Month Old",
+          "hook": "For the youngest children with HIV \u2014 some barely a month old \u2014 treatment has meant complex multi-drug regimens in difficult liquid formulations; a new African trial suggests one small tablet may be enough.",
+          "pitch_angle": "The UNIVERSAL1 trial tested weight-adjusted fixed-dose dolutegravir combinations in 50 infants and toddlers with HIV in Zimbabwe and Uganda, finding early evidence of safe drug levels and viral suppression. If confirmed in larger trials, the approach could dramatically simplify pediatric HIV treatment in the regions where it is needed most."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42706562",
+      "headline": "Regulators are loosening rules on cannabis while tightening them on nicotine alternatives \u2014 a toxicologist says the science doesn't support the double standard",
+      "journal": "Harm Reduction Journal",
+      "pubdate": "2026 Sep 7",
+      "doi": "10.1186/s12954-026-01517-8",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A single-author analysis argues that current drug policy creates a toxicological paradox: cannabis is being progressively legalized and mainstreamed, including flavored products, while non-combustible nicotine products like e-cigarettes and nicotine pouches face tightening restrictions. The author contends that by standard harm-reduction metrics \u2014 combustion risk, cognitive effects, and addiction severity \u2014 nicotine alternatives compare favorably to smokeable cannabis, yet face harsher regulatory treatment. The paper argues this asymmetry reflects ideological and political pressures rather than evidence-based risk assessment.",
+      "why_it_matters": "If harm-reduction principles are applied selectively, smokers seeking lower-risk nicotine alternatives may be pushed toward unregulated black markets while cannabis markets are allowed to expand, with measurable public health consequences.",
+      "caveats": "observational design, industry funding [nicotine pouch manufacturer]",
+      "fact_check_note": "The author discloses consulting fees from a nicotine pouch manufacturer during 2025, which is a significant conflict of interest given the paper's pro-nicotine-alternative framing that should be prominently noted in any coverage.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Provocative policy argument; conflict of interest limits credibility; no new empirical data.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "We're Legalizing Cannabis While Banning Vapes \u2014 Is That Backwards?",
+          "hook": "A toxicologist argues that regulators are applying opposite logic to cannabis and nicotine: loosening rules on a drug with known cognitive risks while cracking down on lower-risk nicotine alternatives.",
+          "pitch_angle": "The analysis forces an uncomfortable question: if harm reduction is the goal, why do the same youth-protection and gateway-drug arguments applied to flavored e-cigarettes not apply to flavored cannabis gummies? The author's industry ties complicate the picture, but the underlying regulatory asymmetry is real and underexamined."
+        },
+        {
+          "publication_type": "Wired",
+          "headline": "The Policy Paradox at the Heart of America's Drug Regulation",
+          "hook": "As states race to legalize recreational cannabis, the FDA is simultaneously restricting the nicotine products that tobacco researchers say pose far less cognitive risk.",
+          "pitch_angle": "This commentary maps the collision between cannabis liberalization and nicotine prohibition, arguing that the 'Iron Law of Prohibition' \u2014 which policymakers accept for cannabis \u2014 is being ignored for vaping, with predictable black-market consequences; though the author's nicotine-industry funding warrants scrutiny."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42670175",
+      "headline": "A localized vaginal drug delivery approach could reshape how PCOS is treated \u2014 if it can clear major hurdles",
+      "journal": "Expert Opinion on Drug Delivery",
+      "pubdate": "2026 Sep 6",
+      "doi": "10.1080/17425247.2026.2727678",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers reviewed emerging vaginal drug delivery (VDD) systems as a precision medicine strategy for Polyendocrine Metabolic Ovarian Syndrome (PMOS), a condition overlapping with PCOS characterized by hormonal imbalance and metabolic dysfunction. The review synthesized literature on nanoscale carriers, bioresponsive formulations, microbiome-informed strategies, 3D-printed devices, and AI-assisted diagnostics. Authors found VDD offers potential to reduce systemic drug side effects and improve therapeutic targeting, but clinical translation is hampered by vaginal microenvironment variability, limited safety evidence, and inadequate clinical validation.",
+      "why_it_matters": "Tens of millions of people with PCOS-related conditions face limited, often poorly tolerated systemic treatments, and a localized delivery alternative could meaningfully improve quality of life and adherence.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Review article, no new data; niche pharmacology angle with limited immediate pitch hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American",
+          "headline": "Could Delivering PCOS Drugs Locally \u2014 Rather Than Systemically \u2014 Finally Solve the Medication Tolerance Problem?",
+          "hook": "Standard PCOS treatments come with a long list of side effects partly because the drugs flood the entire body when only the reproductive system needs targeting.",
+          "pitch_angle": "A new review maps the landscape of vaginal drug delivery technologies \u2014 from nanoparticles to 3D-printed devices \u2014 as a precision alternative for a condition affecting an estimated 1 in 10 women. The approach remains unproven in clinical trials, but the science behind it is advancing rapidly."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42702701",
+      "headline": "Only half of older Americans consistently take their hepatitis B medication \u2014 and which drug they're prescribed makes a big difference",
+      "journal": "Drugs & Aging",
+      "pubdate": "2026 Sep 6",
+      "doi": "10.1007/s40266-026-01332-7",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed Medicare claims data from 3,317 adults aged 65 and older with chronic hepatitis B who were prescribed first-line antiviral drugs (entecavir, TDF, or TAF) between 2014 and 2019. Using trajectory modeling, they found that only 56.9% of patients remained consistently adherent over 12 months, while nearly 43% showed gradual or rapid declines in adherence. Patients prescribed tenofovir alafenamide (TAF) were significantly less likely to fall into either declining group compared to those on entecavir.",
+      "why_it_matters": "Chronic hepatitis B affects an estimated 2 million Americans, mostly in older and immigrant populations, and poor medication adherence raises the risk of liver cirrhosis, liver failure, and hepatocellular carcinoma.",
+      "caveats": "observational design, secondary analysis, industry funding [Gilead \u2014 TAF manufacturer]",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Large Medicare cohort; public health relevance; adherence gap finding; industry funding caveat.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "Nearly Half of Older Hepatitis B Patients Stop Taking Their Medication Within a Year \u2014 and the Drug Matters",
+          "hook": "A large Medicare study found that almost half of older Americans with chronic hepatitis B drifted off their antiviral medication within 12 months, with adherence rates varying substantially depending on which drug was prescribed.",
+          "pitch_angle": "Hepatitis B disproportionately affects older Asian American immigrants who may face additional barriers to care, and the finding that one drug (TAF) was associated with significantly better adherence raises questions about whether prescribing patterns are optimized for this vulnerable population \u2014 and whether industry ties influenced which drugs got tested."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42700198",
+      "headline": "Scientists warn that nanoplastics aren't ready for routine environmental monitoring \u2014 the tools to detect them are still too unreliable",
+      "journal": "Environmental Monitoring and Assessment",
+      "pubdate": "2026 Sep 5",
+      "doi": "10.1007/s10661-026-15891-0",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a critical review of nanoplastic detection methods in biological organisms, examining evidence for tissue uptake and early biological effect biomarkers across species. They found that while experimental studies suggest nanoplastics can reach internal tissues, quantitative confirmation of intact-particle translocation remains limited, and fluorescence-based detection methods are prone to significant artifacts. The review concludes that nanoplastics cannot yet be reliably incorporated into routine environmental biomonitoring and proposes a tiered framework to guide future validation efforts.",
+      "why_it_matters": "If the tools used to detect nanoplastics in wildlife and potentially humans are fundamentally unreliable, our understanding of how widely these particles have infiltrated living tissues may be significantly overstated or understated \u2014 with consequences for environmental regulation and public health policy.",
+      "caveats": "observational design",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Microplastics topic bonus; rigorous review challenging field consensus; no human subjects.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American",
+          "headline": "We Can't Properly Track Nanoplastics in Living Things \u2014 and That's a Big Problem",
+          "hook": "The field of nanoplastic biomonitoring has a dirty secret: the most widely used detection methods are riddled with artifacts that could make results meaningless.",
+          "pitch_angle": "A new review finds that fluorescence-based techniques for tracking nanoplastics in biological tissues are plagued by dye leaching, autofluorescence, and poor chemical confirmation \u2014 meaning much of what researchers think they're seeing may not be real intact particles. Until standardized, validated methods exist, regulators and the public are flying blind on one of the fastest-growing environmental contamination concerns."
+        },
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The Nanoplastics Panic May Be Running Ahead of the Science",
+          "hook": "Scientists say they still lack the tools to reliably confirm that nanoplastics are actually getting inside the tissues of animals \u2014 let alone people.",
+          "pitch_angle": "A critical review of nanoplastic biomonitoring research finds that foundational detection methods may produce widespread false or uninterpretable results, undermining confidence in alarming studies about plastic particles infiltrating living organisms. The finding raises uncomfortable questions about how much environmental health policy and public concern should rest on data that the scientific community itself cannot yet verify."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42700864",
+      "headline": "Pharmaceutical scientists build a digital model that predicts pill strength from pre-granulation data alone \u2014 slashing batch sizes 25-fold",
+      "journal": "Journal of Pharmaceutical Sciences",
+      "pubdate": "2026 Sep 5",
+      "doi": "10.1016/j.xphs.2026.104494",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Boehringer Ingelheim developed a modified unified compaction curve (UCC) model to predict how well roller-compacted drug granules will form into tablets, using only pre-granulation blend data. The study tested the model on multicomponent pharmaceutical formulations and found the original UCC model consistently overestimated tablet strength, a flaw corrected by introducing differentiated tabletability slopes and a correction factor. The improved model enabled virtual screening of formulations with at least a 25-fold reduction in batch size compared to conventional manufacturing experiments.",
+      "why_it_matters": "Faster, leaner drug formulation screening could meaningfully reduce the time and material cost of bringing new medicines to market.",
+      "caveats": "industry funding [Boehringer Ingelheim], single-center, no external validation cohort reported",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Highly technical pharmaceutical manufacturing topic; limited general audience appeal.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired",
+          "headline": "A Digital Twin for Drug Pills Could Shrink Lab Work by 96%",
+          "hook": "A new computational model can predict whether a pharmaceutical tablet will hold together \u2014 before a single large batch is ever mixed.",
+          "pitch_angle": "Researchers built a corrected mathematical model that forecasts tablet strength from upstream powder data alone, cutting experimental batch sizes 25-fold. The advance points toward a future where much of drug manufacturing is stress-tested in software before it ever reaches a factory floor."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42696873",
+      "headline": "AI model predicts tunnel blast dust with 95% accuracy \u2014 offering new tool to protect construction workers",
+      "journal": "Journal of Occupational and Environmental Hygiene",
+      "pubdate": "2026 Sep 4",
+      "doi": "10.1080/15459624.2026.2703500",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers developed a machine-learning model combining numerical inversion and a Whale Optimization Algorithm\u2013Deep Extreme Learning Machine (WOA-DELM) neural network to predict the amount of dust generated by tunnel blasting. The study used on-site dust measurements from a Chinese railway tunnel construction site to validate the model. The approach achieved an average prediction error of just 4.6%, and identified surrounding rock type as the single most influential factor affecting dust yield.",
+      "why_it_matters": "Tunnel construction workers face serious respiratory hazards from blasting dust, and better dust-yield prediction could enable more targeted engineering controls before workers are exposed.",
+      "caveats": "single-center, observational design, purely computational with limited field validation, narrow to single-region construction context",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Occupational health angle is real but highly technical, single-site, and China-specific with limited general-audience hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "General science / occupational health trade press",
+          "headline": "A Whale-Inspired Algorithm Could Help Keep Tunnel Workers Breathing Easier",
+          "hook": "Blasting through rock to build tunnels generates clouds of hazardous dust \u2014 and until now, engineers had no reliable way to predict how much.",
+          "pitch_angle": "A new AI model draws on whale-foraging math to forecast tunnel blast dust within 5% accuracy, potentially enabling smarter ventilation and dust-control strategies before workers ever set foot inside. As global tunnel infrastructure expands, tools that predict \u2014 rather than react to \u2014 occupational dust hazards could shift how construction sites protect respiratory health."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42696167",
+      "headline": "Very-low-nicotine cigarettes significantly boost quit rates \u2014 even among menthol smokers, reanalysis finds",
+      "journal": "Nicotine & Tobacco Research",
+      "pubdate": "2026 Sep 4",
+      "doi": "10.1093/ntr/ntag200",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers reanalyzed data from a randomized trial of very low nicotine content (VLNC) cigarettes, applying two novel statistical methods to overcome the original study's limited power to detect effects in subgroups. Among 206 people who smoked menthol cigarettes, VLNC cigarettes were associated with an estimated 11\u201318 percentage point increase in abstinence probability; among 232 non-menthol smokers, the increase was estimated at 8\u201310 percentage points, though confidence intervals for one method crossed zero. The findings suggest VLNC cigarettes may support quitting even when alternative nicotine delivery systems are available, and that menthol smokers \u2014 a group facing proposed federal bans \u2014 respond meaningfully to nicotine reduction.",
+      "why_it_matters": "With U.S. regulators weighing both a menthol cigarette ban and a nicotine reduction standard, evidence that VLNC cigarettes can raise quit rates specifically in menthol smokers carries direct policy relevance for one of tobacco's most targeted and vulnerable populations.",
+      "caveats": "small sample (N<100 per subgroup by standard threshold, though total N=438), secondary analysis, short follow-up",
+      "fact_check_note": "One SL-SEM confidence interval for non-menthol smokers crossed zero (\u22121.0 to 13.2), meaning the effect for that subgroup using that method was not statistically significant \u2014 this nuance should be preserved in reporting.",
+      "relevance_score": 7,
+      "relevance_score_reason": "Tobacco policy relevance and menthol equity angle; secondary analysis limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The FDA Has Been Debating Menthol Cigarettes for Years. New Data Suggests Low-Nicotine Versions Could Help Menthol Smokers Quit.",
+          "hook": "A reanalysis of randomized trial data found that very low nicotine cigarettes raised abstinence rates by up to 18 percentage points among people who smoke menthol cigarettes \u2014 a group at the center of long-stalled federal tobacco regulation.",
+          "pitch_angle": "The study arrives as the FDA continues to weigh a menthol ban and a possible nicotine reduction standard, and suggests these policies could work in tandem rather than at odds \u2014 with particular implications for Black smokers, who are more likely to use menthol products."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Public Health & Epidemiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42687628",
+      "headline": "A 9-year-old boy with a rare corneal gene variant shows two eye conditions doctors thought were mutually exclusive",
+      "journal": "Ophthalmic Genetics",
+      "pubdate": "2026 Sep 3",
+      "doi": "10.1080/13816810.2026.2725829",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Clinicians report a case of a 9-year-old boy presenting with simultaneous corneal ectasia and endothelial dystrophy \u2014 features typically considered incompatible \u2014 associated with a novel heterozygous splice-site variant in the ZEB1 gene identified by whole-exome sequencing. The variant was confirmed to be inherited paternally and represents a previously unreported mutation causing type 3 posterior polymorphous corneal dystrophy (PPCD3). The case adds to emerging evidence linking ZEB1 mutations to corneal ectasia, a structural condition distinct from the endothelial disease classically associated with PPCD3.",
+      "why_it_matters": "Recognizing that a single gene variant can drive two seemingly contradictory corneal conditions simultaneously may prevent misdiagnosis and alter surgical planning for patients with rare corneal dystrophies.",
+      "caveats": "small sample (N<100), single-center, observational design \u2014 single case report",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Rare disease single case report; limited generalizability and narrow specialist audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "General science",
+          "headline": "One Gene Mutation, Two Contradictory Eye Diseases in a Child \u2014 and a Diagnostic Puzzle",
+          "hook": "A single novel mutation in a gene called ZEB1 appears to have given a 9-year-old boy two corneal conditions that doctors had assumed couldn't co-exist.",
+          "pitch_angle": "The case, documented by Indian ophthalmologists using whole-exome sequencing, suggests ZEB1 variants can simultaneously damage both the structural and cellular layers of the cornea, challenging how clinicians classify these rare dystrophies. For the small population with similar mutations, the finding could change diagnostic workups and surgical decisions."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42691106",
+      "headline": "Standard epidemic models carry a built-in paradox: they underestimate how contagious a pathogen is while overestimating how many people it will infect",
+      "journal": "PLoS Computational Biology",
+      "pubdate": "2026 Sep 3",
+      "doi": "10.1371/journal.pcbi.1014746",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers fitted standard compartmental epidemic models and three behavioral variants \u2014 which allow transmission rates to fall as mortality rises \u2014 to COVID-19 mortality data from 20 geographically diverse US locations during the first pandemic wave. Behavioral models outperformed the standard model in at least 18 of 20 locations by Bayesian model selection, and the team analytically proved that ignoring behavior change causes a systematic dual bias: underestimating how contagious a pathogen is (R\u2080) while simultaneously overestimating how many people will ultimately be infected. The bias arises from model misspecification, not data noise, and holds regardless of the functional form used to model behavioral response.",
+      "why_it_matters": "If epidemic models routinely underestimate R\u2080 while overestimating final case burden, public health officials may be too slow to intervene early and then misallocate resources during later phases of an outbreak.",
+      "caveats": "purely computational with no validation, observational design, COVID-19 first-wave data may not generalize to other pathogens or later pandemic phases",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive dual-bias finding with direct pandemic preparedness implications; computational only.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The Epidemic Models That Guided COVID Policy Had a Fundamental Flaw \u2014 and It Cut Both Ways",
+          "hook": "The standard mathematical models used to guide pandemic response were simultaneously underestimating how contagious the virus was and overestimating how many people it would ultimately infect \u2014 a paradox with real consequences for when and how governments acted.",
+          "pitch_angle": "A new study analyzing COVID-19 data from 20 US locations finds that classic epidemic models, which assume people don't change their behavior as deaths mount, are systematically miscalibrated in two opposing directions at once. The finding suggests pandemic planners may need to retire a modeling assumption that has shaped outbreak response for decades."
+        },
+        {
+          "publication_type": "Scientific American",
+          "headline": "Epidemic Models Ignore Human Behavior \u2014 and the Math Proves That's a Problem",
+          "hook": "Researchers have analytically proven that any epidemic model assuming constant contact rates will underestimate a pathogen's contagiousness while paradoxically overestimating final outbreak size.",
+          "pitch_angle": "By fitting standard and behavior-adaptive models to first-wave COVID-19 mortality data across 20 US sites, the team showed behavioral feedbacks \u2014 people avoiding contact as deaths rise \u2014 are not a refinement but a necessity for accurate parameter estimation. The dual bias they identified could affect how future outbreak responses are timed and resourced."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42690578",
+      "headline": "Women say 3D-printed vaginal rings that prevent both pregnancy and HIV need to feel smoother and look calmer \u2014 and designers are listening",
+      "journal": "AIDS and Behavior",
+      "pubdate": "2026 Sep 3",
+      "doi": "10.1007/s10461-026-05198-z",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted nine virtual focus groups and 25 in-person interviews with women aged 18\u201345 (N=34 qualitative participants) from a large U.S. statewide health system to iteratively guide the design of 3D-printed multipurpose intravaginal rings intended to deliver both contraception and HIV prevention. Women prioritized smooth surface texture for ease of insertion and hygiene, lighter hues for psychological comfort, and appropriate size and pliability. Findings will directly inform design modifications before clinical efficacy testing.",
+      "why_it_matters": "Women-controlled dual-prevention devices could reduce both unintended pregnancy and HIV transmission, particularly in settings where negotiating condom use is difficult, but only if devices are designed around user preferences from the start.",
+      "caveats": "small sample (N<100), observational design, self-reported outcomes, single-center",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "HIV prevention and reproductive health hook; very small qualitative sample limits weight.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired",
+          "headline": "3D-printed rings could prevent both pregnancy and HIV \u2014 if designers get the texture right",
+          "hook": "A team of UNC researchers is using user feedback in real time to redesign a 3D-printed vaginal ring that could simultaneously block HIV and prevent pregnancy \u2014 and women have opinions about the details.",
+          "pitch_angle": "By running iterative focus groups and tactile interviews before the device ever enters a clinical trial, scientists are baking user preferences \u2014 smoother surfaces, lighter colors, better flexibility \u2014 directly into the manufacturing process via 3D printing. The approach represents a shift in how biomedical devices are developed, treating patient experience as a design variable from day one rather than an afterthought."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42693397",
+      "headline": "Emergency rooms can pull HIV patients back into care \u2014 but substance use disorder cuts the success rate nearly in half",
+      "journal": "International Journal of STD & AIDS",
+      "pubdate": "2026 Sep 3",
+      "doi": "10.1177/09564624261483246",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Johns Hopkins analyzed a Baltimore emergency department HIV re-linkage program using electronic health record alerts to identify patients disengaged from HIV care between January 2023 and July 2024. Of 892 people with HIV who presented to the ED, 113 were classified as disengaged from care, and 66 received re-linkage services; 61% attended their scheduled follow-up appointment. In adjusted analyses, patients with a history of substance use disorder had 4.5 times greater odds of missing that appointment (aOR=4.50, 95% CI 1.57\u201314.88), while all patients who did attend subsequently refilled their antiretroviral therapy.",
+      "why_it_matters": "Emergency departments increasingly serve as a safety net for people with HIV lost to care, but this study suggests that without integrated substance use disorder services, re-linkage programs will consistently fail the patients who need them most.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up, self-reported outcomes",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clear public health hook but very small sample and single-center design limit confidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "General science / Health policy",
+          "headline": "The ER Can Get HIV Patients Back on Treatment \u2014 Unless They Also Have an Addiction",
+          "hook": "A Johns Hopkins program that uses electronic health records to flag HIV patients who've dropped out of care works surprisingly well \u2014 except for the one group most likely to need it.",
+          "pitch_angle": "Emergency department re-linkage programs can reconnect disengaged HIV patients to antiretroviral therapy, but new data from Baltimore show that a history of substance use disorder makes patients four and a half times more likely to miss the critical follow-up appointment \u2014 suggesting that HIV care and addiction treatment need to be offered as a single package."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42690284",
+      "headline": "A five-year pregnancy safety registry for a severe asthma biologic collapsed \u2014 and its failure reveals a systemic gap in drug safety science",
+      "journal": "Drug Safety",
+      "pubdate": "2026 Sep 3",
+      "doi": "10.1007/s40264-026-01724-z",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "GSK and academic collaborators launched a post-authorization pregnancy safety registry in 2016 to monitor outcomes for women exposed to mepolizumab (Nucala), a biologic approved for severe eosinophilic asthma, after finding almost no pregnancy safety data at the time of marketing. Despite five years of recruitment efforts across the U.S. and EU, the mepolizumab-exposed cohort remained too small to analyze, and the registry was closed in 2024. The authors present a decision-making framework for future post-marketing pregnancy studies and recommend enhanced worldwide pharmacovigilance when drug exposure in pregnancy is inherently low.",
+      "why_it_matters": "Millions of people with chronic conditions requiring biologics may become pregnant, yet the systemic exclusion of pregnant women from clinical trials leaves critical safety questions unanswered even years after drugs reach the market.",
+      "caveats": "industry funding [GSK], observational design, registry closed without conclusions on fetal safety, low enrollment limits generalizability",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Reveals structural gap in drug safety surveillance for pregnant patients; strong public health hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "Pregnant Women Are Still Being Left Out of Drug Safety Science \u2014 and a Failed Registry Shows Why That's So Hard to Fix",
+          "hook": "A five-year effort to track the safety of a widely used asthma biologic in pregnant women collapsed because too few pregnant patients were ever prescribed it \u2014 exposing a catch-22 at the heart of post-market drug surveillance.",
+          "pitch_angle": "When mepolizumab was approved in 2015, almost nothing was known about its effects on pregnancy, so regulators required a safety registry \u2014 but the registry failed because pregnant women rarely received the drug, leaving the safety question unanswered. The case illustrates a broader systemic problem: the drugs least studied in pregnancy may be the ones least likely to generate the post-market data needed to fill that gap."
+        },
+        {
+          "publication_type": "Scientific American",
+          "headline": "Drug Regulators Have a Pregnancy Data Problem \u2014 and One Failed Registry Lays It Bare",
+          "hook": "A post-authorization pregnancy safety study for a leading asthma biologic shut down after five years without enough data to draw a single conclusion.",
+          "pitch_angle": "The mepolizumab registry failure suggests that requiring pregnancy registries for drugs with inherently low use in that population may be a structurally flawed strategy, and the authors propose enhanced global pharmacovigilance as a more realistic alternative. The findings suggest regulators may need to rethink how post-market pregnancy safety obligations are designed from the outset."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42700587",
+      "headline": "Nigeria's COVID first wave may have burned through far fewer people than models assumed \u2014 because individuals vary so much in their susceptibility",
+      "journal": "Epidemics",
+      "pubdate": "2026 Sep 3",
+      "doi": "10.1016/j.epidem.2026.100944",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at the University of Glasgow applied a Bayesian SIR model that accounts for individual variation in susceptibility to COVID-19 incidence data from ten Nigerian states, correcting for severe under-reporting (estimated reporting probability: 0.5%). They estimated that population heterogeneity reduced the effective herd immunity threshold from 26% to just 4%, and that only about 8% of individuals were infected in the first wave \u2014 not the 20%-plus that homogeneous models would predict. The model with heterogeneity outperformed the standard homogeneous model by information criteria.",
+      "why_it_matters": "If population heterogeneity routinely lowers herd immunity thresholds in low-income settings with limited surveillance, public health planners may be systematically overestimating how many people need to be vaccinated or exposed before outbreaks self-limit.",
+      "caveats": "observational design, computational modeling with limited empirical validation, under-reported incidence data, single-country context (Nigeria)",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive pandemic-preparedness finding; purely computational with Africa-specific data limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / Wired",
+          "headline": "A Hidden Force May Have Slowed COVID in Nigeria \u2014 and It Changes How We Think About Herd Immunity",
+          "hook": "New modeling suggests that because people vary so dramatically in how susceptible they are to COVID-19, Nigeria's first wave may have fizzled out after infecting only 8% of the population \u2014 not the 26% standard models predict.",
+          "pitch_angle": "When researchers accounted for individual differences in susceptibility rather than treating everyone as equally at risk, the estimated herd immunity threshold for COVID dropped by more than 80% in Nigerian data. The finding suggests that conventional epidemic models may systematically overestimate the scale of interventions needed to control outbreaks in highly heterogeneous populations \u2014 with implications for how health agencies design vaccination campaigns worldwide."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Public Health & Epidemiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42682206",
+      "headline": "RSV vaccines protect babies against ear infections too \u2014 but the full picture may take more than one season to emerge",
+      "journal": "Clinical Infectious Diseases",
+      "pubdate": "2026 Sep 2",
+      "doi": "10.1093/cid/ciag526",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This commentary from French pediatric infectious disease researchers examines the relationship between RSV immunization and acute otitis media (middle ear infections) in infants, arguing that evidence from a single RSV season may be insufficient to capture the full protective effect. The authors note that RSV is a major driver of ear infections in young children, and that immunization programs could have broader benefits beyond preventing respiratory illness. They call for longer-term, multi-season surveillance to properly assess the indirect impact of RSV vaccines on ear infection burden.",
+      "why_it_matters": "Acute otitis media is one of the most common childhood infections and a leading driver of antibiotic prescriptions in young children, so any reduction linked to RSV immunization could have meaningful implications for antibiotic stewardship.",
+      "caveats": "observational design, short follow-up, secondary analysis",
+      "fact_check_note": "Abstract is a commentary/perspective with no primary data reported; summary reflects the authors' stated arguments rather than original trial results.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Strong public health hook linking RSV vaccines to antibiotic use, but commentary with no new primary data.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "RSV Shots Might Do More Than Protect Babies' Lungs \u2014 They Could Reduce Ear Infections Too",
+          "hook": "RSV vaccines for infants are already cutting hospitalizations, but researchers now suggest the shots may also reduce one of the most antibiotic-overloaded conditions in pediatric medicine: ear infections.",
+          "pitch_angle": "French infectious disease researchers argue that a single RSV season of data isn't enough to see the full ripple effects of immunization on acute otitis media, a condition that drives millions of antibiotic prescriptions each year. If multi-season data confirm a protective link, RSV vaccines could quietly become a tool in the fight against antibiotic resistance in children."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42413025",
+      "headline": "Grass genetics study reveals that the jump from polyploidy back to diploidy is not random \u2014 some gene combinations are filtered out",
+      "journal": "G3 (Bethesda)",
+      "pubdate": "2026 Sep 2",
+      "doi": "10.1093/g3journal/jkag165",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed genome-wide SNP markers in four interspecific sorghum populations \u2014 two diploid and two tetraploid families \u2014 derived from crosses between diploid Sorghum bicolor and tetraploid hybrids of Sorghum halepense. They found that ploidy level alone predicted genomic inheritance patterns with complete accuracy, and that diploid offspring showed nonrandom retention of parental haplotypes, suggesting selective pressure during the return to diploidy. Flowering time was also governed by different genomic regions depending on ploidy level.",
+      "why_it_matters": "Understanding how polyploid-derived genomes reorganize during diploidization could inform breeding strategies for sorghum \u2014 a critical drought-tolerant crop \u2014 by identifying which genetic variants from wild relatives can be stably inherited.",
+      "caveats": "observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Niche crop genetics; limited public health hook but has agriculture relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / General science",
+          "headline": "When a plant goes from four gene copies back to two, it doesn't pick randomly \u2014 and that could change crop breeding",
+          "hook": "Sorghum offspring that reverted from polyploidy to diploidy showed striking non-random patterns of gene retention, suggesting the genome actively filters out certain inherited combinations.",
+          "pitch_angle": "The finding offers a rare window into one of evolution's most common \u2014 yet poorly understood \u2014 genetic transitions, and could help plant breeders tap into the genetic diversity locked inside wild polyploid grass relatives of key food crops."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "3/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42318600",
+      "headline": "Parents of snakebite victims can't reliably ID the snake \u2014 and social media is filling the deadly knowledge gap",
+      "journal": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+      "pubdate": "2026 Sep 2",
+      "doi": "10.1093/trstmh/trag069",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted 64 in-depth interviews with parents of children admitted for snakebite at three high-incidence hospitals in Sri Lanka between August 2024 and July 2025. Parents consistently reported poor ability to identify the biting snake, hampered by darkness, panic, rapid snake movement, and conflicting witness accounts. In the absence of formal education resources, families relied on village elders and informal social media groups \u2014 a gap the authors say contributes to misidentification, delayed care, and unnecessary killing of non-venomous snakes.",
+      "why_it_matters": "Snakebite kills an estimated 138,000 people globally each year, and correct species identification can determine which antivenom is used; this study suggests community education tools could be a low-cost intervention with life-saving potential.",
+      "caveats": "small sample (N<100), single-center, observational design, self-reported outcomes, narrow to Sri Lanka pediatric context",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Qualitative, small sample, Sri Lanka-specific context limits generalizability despite global snakebite burden hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / General science",
+          "headline": "When a Snake Bites Your Child, You Probably Can't Tell Which One It Was \u2014 and That's a Medical Crisis",
+          "hook": "In a country where snakebite is a leading cause of childhood death, parents are turning to Facebook groups to identify the snake that just bit their child.",
+          "pitch_angle": "A qualitative study from Sri Lanka found that fear, darkness, and a lack of public education leave parents unable to identify the snake species responsible for biting their children \u2014 a gap that complicates antivenom decisions. The findings point to a scalable fix: visual identification tools woven into community child-health programs, at a time when snakebite kills more than 100,000 people globally each year."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Public Health & Epidemiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42685041",
+      "headline": "The U.S. military has quietly built the largest nutrition-and-brain-injury database ever assembled \u2014 covering 430,000 patients",
+      "journal": "Military Medicine",
+      "pubdate": "2026 Sep 2",
+      "doi": "10.1093/milmed/usag416",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Madigan Army Medical Center established the first data repository linking nutrition care records with traumatic brain injury (TBI) outcomes in the U.S. Military Health System, drawing on 12 data sources from 2017\u20132024. The repository includes clinical data for 431,673 TBI patients and a matched control cohort. Initial analysis found that TBI patients had higher rates of chronic health conditions, sleep disorders, mental health diagnoses, and nutrition counseling than controls.",
+      "why_it_matters": "With TBI a leading cause of disability among service members, this dataset could reveal whether dietary interventions meaningfully shape recovery outcomes \u2014 a question with implications beyond the military.",
+      "caveats": "observational design, single health system (Military Health System), secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Large dataset and public health hook, but infrastructure/methods paper with no new clinical findings yet.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / General science",
+          "headline": "The Pentagon Is Mining 430,000 Brain Injury Records to Find Out If Food Can Help Soldiers Heal",
+          "hook": "A new military database links what troops eat to how they recover from traumatic brain injury \u2014 at a scale never attempted before.",
+          "pitch_angle": "The U.S. Army has assembled the largest nutrition-and-TBI dataset in history, covering nearly half a million patients across seven years. If researchers can crack what dietary patterns aid recovery, the findings could reshape rehabilitation medicine well beyond the battlefield."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Public Health & Epidemiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42170906",
+      "headline": "The pathogen behind Q fever has been found in livestock ticks in Kashmir for the first time \u2014 and its genetic fingerprint matches strains from the U.S. and Germany",
+      "journal": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+      "pubdate": "2026 Sep 2",
+      "doi": "10.1093/trstmh/trag056",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers collected 1,800 ticks from 4,965 cattle, sheep, and goats across eight districts of Kashmir and screened them for Coxiella burnetii \u2014 the bacterium that causes Q fever \u2014 using PCR and phylogenetic sequencing. The pathogen was detected in 10 ticks (0.55%), primarily Haemaphysalis and Rhipicephalus species, with peak prevalence in July. Phylogenetic analysis showed the Kashmir isolates cluster closely with C. burnetii strains from the United States, Germany, and Indian goat-associated lineages, suggesting possible intercontinental spread or shared ancestry.",
+      "why_it_matters": "Q fever is a globally underdiagnosed zoonosis that can cause severe pneumonia and chronic heart valve disease; the unexpected genetic similarity of Kashmir strains to those in North America and Europe raises questions about how the pathogen moves across borders through livestock trade.",
+      "caveats": "small sample (N<100 positive ticks), observational design, single-region study (Kashmir), animal study",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "First regional detection with surprising intercontinental genetic link; animal/tick study limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "National Geographic / General science",
+          "headline": "A Livestock Tick in Kashmir Is Carrying a Pathogen That Looks Genetically Like One From the American Midwest",
+          "hook": "The bacterium behind Q fever has been detected in Himalayan livestock ticks for the first time \u2014 and its DNA is a near-match for strains found in the United States and Germany.",
+          "pitch_angle": "Researchers screening nearly 2,000 ticks from sheep, goats, and cattle across Kashmir found Coxiella burnetii \u2014 an underdiagnosed cause of pneumonia and heart disease \u2014 circulating at low but measurable levels. The genetic surprise: the Kashmir isolates cluster with strains from North America and Europe, hinting that global livestock trade may be silently shuffling dangerous pathogens across continents."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Public Health & Epidemiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42684510",
+      "headline": "Scientists find a never-before-seen calicivirus in European gulls \u2014 with an unusually long genome and a structural quirk linked to coronaviruses",
+      "journal": "Archives of Virology",
+      "pubdate": "2026 Sep 2",
+      "doi": "10.1007/s00705-026-06733-y",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Hungarian researchers used next-generation sequencing to characterize a novel calicivirus found in fecal samples from black-headed gulls, representing a new taxonomic lineage with less than 26% amino acid identity to known calicivirus genera. The virus has an unusually long genome (8,845 nucleotides) and carries a stem-loop-II-like (s2m) motif at its 3' end \u2014 a structural element also found in some coronaviruses and other RNA viruses. The finding suggests caliciviruses are more widely distributed across bird species than previously appreciated.",
+      "why_it_matters": "Wild seabirds are mobile reservoirs that could spread novel viruses across geographic boundaries, and characterizing new caliciviruses in wildlife expands our understanding of where these pathogens can emerge.",
+      "caveats": "single-center, small sample (N<100), observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Virology surveillance finding; limited generalizability, no human health link established.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American",
+          "headline": "Gulls are hiding a mysterious new virus with a genome feature shared by coronaviruses",
+          "hook": "A novel calicivirus found in European seagulls carries a molecular motif \u2014 the s2m element \u2014 that has been spotted in SARS-CoV-2 and other RNA viruses, raising questions about convergent viral evolution.",
+          "pitch_angle": "Hungarian virologists discovered a taxonomically distinct calicivirus in black-headed gulls with an unusually long genome and a structural RNA element linked to coronaviruses, suggesting this feature may have evolved independently across distantly related virus families. The find highlights wild birds as an underexplored reservoir for novel RNA viruses with potentially shared molecular machinery."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42520186",
+      "headline": "A next-generation TB drug shows a cleaner safety profile than its predecessor in the first human trial \u2014 including no dangerous heart rhythm effects",
+      "journal": "Antimicrobial Agents and Chemotherapy",
+      "pubdate": "2026 Sep 2",
+      "doi": "10.1128/aac.01930-25",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a first-in-human Phase 1 trial (N=92 healthy adults), researchers tested TBAJ-587, a second-generation diarylquinoline designed to improve on bedaquiline for treating drug-susceptible and drug-resistant tuberculosis. The drug was safe and well tolerated across single doses of 25\u2013800 mg and multiple doses of 50\u2013200 mg daily for 28 days, with no serious adverse events and no clinically significant effects on the QTc interval \u2014 a key cardiac safety concern that limits bedaquiline use. High-fat meals substantially increased drug exposure, a pharmacokinetic factor that will need to be addressed in future dosing strategies.",
+      "why_it_matters": "Drug-resistant TB kills hundreds of thousands of people annually, and a safer successor to bedaquiline \u2014 free of the cardiac side effects that restrict its use \u2014 could meaningfully expand treatment options for the world's most lethal bacterial infection.",
+      "caveats": "small sample (N<100), short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "First-in-human TB drug trial, strong public health hook, but previously similar angle passed on.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The TB drug that could finally replace a lifesaver with a dangerous side effect",
+          "hook": "Bedaquiline transformed drug-resistant TB treatment but carries a cardiac risk that limits who can take it \u2014 now a successor drug has cleared its first human safety test without triggering those same heart rhythm concerns.",
+          "pitch_angle": "TBAJ-587, engineered to be more potent and safer than bedaquiline, showed no clinically significant cardiac effects in 92 healthy volunteers \u2014 a promising early sign for patients with drug-resistant TB who currently have few options. With TB still killing over a million people a year, a cleaner next-generation drug could reshape global treatment guidelines if further trials confirm the results."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42586073",
+      "headline": "The gene payload inside self-amplifying RNA vaccines unexpectedly shapes how well those vaccines replicate",
+      "journal": "Molecular Therapy",
+      "pubdate": "2026 Sep 2",
+      "doi": "10.1016/j.ymthe.2026.07.053",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers report that the transgene cargo carried within self-amplifying RNA (saRNA) constructs \u2014 previously assumed to be a passive passenger \u2014 plays an unexpected functional role in driving or shaping saRNA replication itself. The study is a brief communication rather than a primary experimental paper, and the abstract does not report sample sizes or experimental models. The finding suggests that vaccine designers cannot treat the transgene insert as biologically neutral when optimizing saRNA platforms.",
+      "why_it_matters": "Self-amplifying RNA is a next-generation vaccine technology intended to deliver more immune response at lower doses, and this finding suggests current design assumptions may need revision.",
+      "caveats": "small sample (N<100), secondary analysis, abstract provides minimal experimental detail \u2014 appears to be a commentary or brief communication",
+      "fact_check_note": "The abstract is a brief communication with no experimental data reported; summary reflects the limited information available.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Interesting mechanistic finding but commentary format limits experimental depth and story.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American",
+          "headline": "Next-Gen Vaccines Carry a Hidden Variable: The Gene Payload Itself",
+          "hook": "Scientists designing self-amplifying RNA vaccines assumed the gene insert was just cargo \u2014 new evidence suggests it actively shapes how well the vaccine replicates.",
+          "pitch_angle": "A report in Molecular Therapy challenges a core assumption in saRNA vaccine design, finding that the transgene isn't biologically inert. If confirmed in larger studies, this could reshape how researchers engineer the next generation of low-dose RNA vaccines."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42097583",
+      "headline": "CDC researchers warn that flu vaccine studies may be systematically undercounting the shot's benefits \u2014 here's why that matters as coverage drops",
+      "journal": "Clinical Infectious Diseases",
+      "pubdate": "2026 Sep 2",
+      "doi": "10.1093/cid/ciag304",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a CDC-authored commentary, researchers argue that inconsistent and non-standardized definitions of 'severe' and 'critical' influenza outcomes in observational studies make it difficult to accurately measure and communicate the full benefits of influenza vaccination, including its ability to reduce disease severity among breakthrough cases. The authors draw on lessons from COVID-19 pandemic research methodology to propose more standardized outcome definitions. The commentary is motivated by declining flu vaccination coverage since the pandemic.",
+      "why_it_matters": "If the metrics used to evaluate flu vaccines systematically underestimate their benefits, public health messaging may be less persuasive than it could be \u2014 at precisely the moment when vaccine hesitancy is rising.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Public health relevance and vaccine communication hook; commentary format limits novelty.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "We might be measuring flu vaccine benefits wrong \u2014 and it's making the shots look weaker than they are",
+          "hook": "CDC scientists say that because researchers define 'severe flu' in wildly inconsistent ways, studies may be systematically underestimating how much flu shots reduce serious illness.",
+          "pitch_angle": "A commentary from the CDC's influenza division argues that the observational studies used to demonstrate flu vaccine benefits are hampered by a lack of standardized definitions for severe outcomes \u2014 meaning different studies aren't measuring the same thing, and the aggregate picture is muddier than it should be. With flu vaccination coverage still below pre-pandemic levels, fixing the measurement problem could be as important as developing better vaccines."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42637723",
+      "headline": "Magnets could guide inhaled drugs directly into hard-to-reach sinuses \u2014 a computer model shows striking gains",
+      "journal": "Expert Opinion on Drug Delivery",
+      "pubdate": "2026 Sep 2",
+      "doi": "10.1080/17425247.2026.2724067",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Australian researchers used computational fluid dynamics modeling to simulate magnetic drug targeting (MDT) in the post-operative nasal sinuses of two patients who had undergone different levels of sinus surgery for chronic rhinosinusitis. Sixty-six simulations tested how varying magnetic field strength, nanoparticle concentration, and magnet placement affected where aerosolized drug particles landed. A magnetic field of approximately 0.22 T improved drug deposition in the frontal sinuses by up to 36-fold compared with non-magnetic delivery, though stronger fields caused particles to deposit prematurely in the nasal cavity.",
+      "why_it_matters": "Chronic rhinosinusitis affects roughly 11% of adults in Western countries, and post-surgical patients often still struggle to get topical drugs into affected sinus cavities; a magnetically guided delivery approach could make a meaningful difference in treatment outcomes.",
+      "caveats": "observational design, small sample (N<100), purely computational with no validation",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Purely computational, two patient geometries only; no in vivo or clinical validation.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired",
+          "headline": "What If a Magnet Could Steer Your Sinus Medication Exactly Where It Needs to Go?",
+          "hook": "Getting drugs into the deep recesses of the sinuses is one of medicine's more quietly frustrating delivery problems \u2014 and a magnet might be the unlikely fix.",
+          "pitch_angle": "Researchers simulated using external magnets to guide nanoparticle-based drugs into post-surgical sinus cavities, finding up to a 36-fold improvement in delivery efficiency in computer models. The findings are purely computational so far, but they illustrate how precision physics could eventually overhaul treatment for the tens of millions of people with chronic sinus disease."
+        }
+      ],
+      "run_date": "2026-09-09",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "2/2",
+      "status": "new"
+    },
     {
       "pmid": "42224644",
       "headline": "Fossil fungi on 10-million-year-old leaves show sooty molds had already mastered complex communities in the Miocene",
@@ -112,186 +997,6 @@
       "status": "new"
     },
     {
-      "pmid": "42705032",
-      "headline": "Banned pesticides are still flooding Mediterranean waterways every time it rains \u2014 and routine monitoring completely misses it",
-      "journal": "Journal of Environmental Management",
-      "pubdate": "2026 Sep 7",
-      "doi": "10.1016/j.jenvman.2026.130865",
-      "groundbreaking": "Major public health implication / Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers sampled water at 25 stations across a 1,100 km\u00b2 river basin in Israel during the first major rainstorms of 2020 and 2021, screening for 110 pesticide compounds using high-sensitivity mass spectrometry. Pesticides were detected at 100% of sampling stations, and banned legacy chemicals like simazine appeared at more than half of all sites \u2014 suggesting either environmental persistence or continued illegal use. Four sub-basins were flagged as hotspots, with field crops driving greater chemical diversity in runoff than orchards.",
-      "why_it_matters": "Standard water monitoring programs are designed for routine conditions and routinely miss the intense first-flush storm events that flush the highest concentrations of agricultural chemicals into rivers \u2014 a gap this synchronized approach is designed to close.",
-      "caveats": "observational design, single-center, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Pesticide/water contamination hook; transferable methodology; regional study limits global score.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic",
-          "headline": "Every Time It Rains, a Wave of Banned Pesticides Washes Into Rivers. We've Been Measuring at the Wrong Time.",
-          "hook": "A study sampling Mediterranean waterways at the exact moment of first winter rainfall found pesticides at every single site \u2014 including chemicals that have been banned for years.",
-          "pitch_angle": "Conventional water monitoring, designed around average conditions, systematically underestimates the pesticide pulses that flow from farm fields during intense storms \u2014 the moments of highest contamination. The authors propose a storm-triggered monitoring protocol that could be applied to agricultural watersheds globally, including in the U.S. and Europe."
-        }
-      ],
-      "run_date": "2026-09-08",
-      "category": "Environmental Health",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42706591",
-      "headline": "A quirk in how cells destroy faulty RNA may explain an underdiagnosed cause of childhood epilepsy",
-      "journal": "Clinical Genetics",
-      "pubdate": "2026 Sep 7",
-      "doi": "10.1111/cge.70244",
-      "groundbreaking": "Counterintuitive finding / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers identified two children with de novo mutations in the NUSAP1 gene who presented with early-onset refractory epilepsy, global developmental delay, and microcephaly. Using RNA sequencing and population-level gnomAD data, they found that disease-causing variants in the gene's final exons escape the cell's normal RNA quality-control mechanism (nonsense-mediated mRNA decay), producing aberrant truncated proteins rather than being silently eliminated. This position-dependent escape rule \u2014 absent in healthy controls \u2014 offers a diagnostic framework for correctly classifying previously ambiguous genetic variants.",
-      "why_it_matters": "Identifying which NUSAP1 mutations are truly disease-causing versus benign could help end diagnostic odysseys for families of children with unexplained epilepsy and developmental disabilities.",
-      "caveats": "small sample (N<100), observational design",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Niche clinical genetics finding; small N; limited general audience hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American",
-          "headline": "Why Some Genetic Mutations Slip Past the Cell's Own Error-Correction System \u2014 and Cause Rare Childhood Epilepsy",
-          "hook": "The cell has a built-in surveillance system that destroys faulty RNA \u2014 but in children with a newly described epilepsy syndrome, the culprit mutation cleverly evades it.",
-          "pitch_angle": "New research shows that harmful variants in the NUSAP1 gene escape the cell's nonsense-mediated mRNA decay pathway because of where they sit in the gene, producing toxic truncated proteins instead of being silently deleted. The finding reframes how geneticists should interpret variants in this gene and illustrates a broader, underappreciated mechanism behind Mendelian diseases."
-        }
-      ],
-      "run_date": "2026-09-08",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42706486",
-      "headline": "Air pollution exposure in the days before death is linked to higher odds of sudden unexpected infant death",
-      "journal": "Paediatric and Perinatal Epidemiology",
-      "pubdate": "2026 Sep 7",
-      "doi": "10.1111/ppe.70196",
-      "groundbreaking": "First-in-class human study / Major public health implication / Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Using France's national SUDI registry (2015\u20132022), researchers conducted a time-stratified case-crossover study of 1,078 sudden unexpected infant deaths, comparing daily air pollution concentrations at each infant's home on the day of death to matched control days. Exposure to particulate matter (PM10 and PM2.5) was consistently associated with higher odds of SUDI, with a lag of 3\u20135 days before death; nitrogen dioxide showed a trend toward association. Effects were stronger with cumulative exposure and showed seasonal variation, with higher odds ratios in spring for PM and ozone.",
-      "why_it_matters": "Sudden unexpected infant death remains one of the leading causes of post-neonatal mortality with few modifiable risk factors identified, so evidence linking ambient air pollution as a short-term trigger could reframe SUDI prevention toward environmental policy.",
-      "caveats": "observational design, single-center",
-      "fact_check_note": "",
-      "relevance_score": 9,
-      "relevance_score_reason": "Counterintuitive, major public health hook, large national registry, clean design.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic",
-          "headline": "SIDS Has Baffled Scientists for Decades. Air Pollution May Be Part of the Answer.",
-          "hook": "In the days before a baby dies suddenly and unexpectedly, something in the air may be silently raising the risk \u2014 and it's the same pollution we've been warned about for other reasons.",
-          "pitch_angle": "A study of more than 1,000 sudden unexpected infant deaths in France found that spikes in particulate matter in the days preceding death were associated with higher odds of SUDI \u2014 a finding that suggests air quality may be an underappreciated environmental trigger. If confirmed, it could add an urgent new dimension to the case for cleaner air in neighborhoods where infants live."
-        },
-        {
-          "publication_type": "National Geographic / Environmental science",
-          "headline": "Dirty Air May Be a Hidden Trigger for Sudden Infant Death",
-          "hook": "Babies exposed to higher particulate matter concentrations in the 3\u20135 days before death were more likely to die suddenly and unexpectedly, according to France's national SUDI registry.",
-          "pitch_angle": "The case-crossover study is among the first to rigorously link short-term ambient air pollution to sudden unexpected infant death using a national dataset, pointing to PM2.5 and PM10 as plausible environmental triggers. The findings open a new avenue in SUDI research that connects infant mortality to the broader public health crisis of urban air quality."
-        }
-      ],
-      "run_date": "2026-09-08",
-      "category": "Public Health & Epidemiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42700198",
-      "headline": "Scientists say nanoplastics aren't ready to be monitored \u2014 we still can't reliably detect them inside living things",
-      "journal": "Environmental Monitoring and Assessment",
-      "pubdate": "2026 Sep 5",
-      "doi": "10.1007/s10661-026-15891-0",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This review critically evaluated the scientific literature on nanoplastic detection in biological tissues, finding that current methods for confirming intact nanoplastic particles inside organisms are unreliable \u2014 fluorescence-based studies in particular may be confounded by dye leaching and tissue autofluorescence. The authors argue that reported biological effects like oxidative stress and genotoxicity are too non-specific to serve as nanoplastic biomarkers on their own. They propose a tiered monitoring framework requiring polymer-specific confirmation, multiple measurement metrics, and mechanism-linked biomarker panels before nanoplastics can be incorporated into routine environmental monitoring.",
-      "why_it_matters": "With nanoplastics now detected in human blood, placentas, and organs, the absence of validated detection methods means scientists may not yet be able to accurately assess the true scale of human exposure or biological harm.",
-      "caveats": "secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Microplastics topic bonus; counterintuitive 'we can't measure this yet' angle; review design limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American",
-          "headline": "Nanoplastics Are Everywhere \u2014 But Scientists Still Can't Reliably Prove They're Inside Us",
-          "hook": "A critical review finds that the most common methods for detecting nanoplastics in living tissue are riddled with false signals \u2014 meaning much of what researchers think they're seeing may be a measurement artifact.",
-          "pitch_angle": "Despite growing alarm about nanoplastics in human blood and organs, the analytical tools scientists rely on to confirm internal exposure are not yet validated \u2014 a problem that undermines risk assessments and public health conclusions. The review calls for a more rigorous tiered framework before nanoplastics can be incorporated into environmental health monitoring."
-        },
-        {
-          "publication_type": "Wired",
-          "headline": "We Keep Finding Nanoplastics in the Human Body. The Problem Is We Can't Trust the Data.",
-          "hook": "The instruments scientists use to detect nanoplastics inside animals and humans may be generating false positives \u2014 calling into question a field of research that has driven widespread public concern.",
-          "pitch_angle": "A systematic review exposes deep methodological flaws in nanoplastic biomonitoring, from dye leaching that mimics particle signals to biomarkers too generic to mean anything specific. Until those tools are validated, scientists say, the science of nanoplastic harm is still built on uncertain ground."
-        }
-      ],
-      "run_date": "2026-09-08",
-      "category": "Environmental Health",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42696873",
-      "headline": "A whale-inspired AI model can predict how much dust a tunnel blast will produce \u2014 before workers breathe it",
-      "journal": "Journal of Occupational and Environmental Hygiene",
-      "pubdate": "2026 Sep 4",
-      "doi": "10.1080/15459624.2026.2703500",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used on-site dust measurements from a railway tunnel construction site in China, combined with numerical modeling and a machine-learning algorithm (WOA-DELM), to build a predictive formula for how much dust a tunnel blast generates. They found dust disperses in two waves \u2014 one driven by the blast shock and a second by ventilation fans \u2014 and that rock type is the biggest driver of dust yield (up to 8 kg variation). The model achieved an average prediction error of just 4.6%.",
-      "why_it_matters": "Tunnel construction workers face serious respiratory disease risk from blast dust, and a tool that accurately predicts dust yield before a blast could allow targeted protective measures before exposure occurs.",
-      "caveats": "single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Occupational health hook but narrow engineering focus; single-site study limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "An AI Borrowed from Whale Behavior Is Now Protecting Tunnel Workers from Toxic Dust",
-          "hook": "A machine-learning algorithm modeled on how humpback whales hunt was repurposed to predict \u2014 with 95% accuracy \u2014 how much lung-damaging dust a tunnel blast will generate.",
-          "pitch_angle": "By combining real-world blast measurements with a nature-inspired neural network, engineers developed the first formula tailored to underground tunnel conditions rather than open-pit mining. The tool could give construction managers a way to design dust controls before workers are ever exposed."
-        }
-      ],
-      "run_date": "2026-09-08",
-      "category": "Environmental Health",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42696167",
-      "headline": "Ultra-low-nicotine cigarettes may help menthol smokers quit \u2014 a finding with major FDA policy implications",
-      "journal": "Nicotine & Tobacco Research",
-      "pubdate": "2026 Sep 4",
-      "doi": "10.1093/ntr/ntag200",
-      "groundbreaking": "Major public health implication / Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers reanalyzed data from a randomized trial of very low nicotine content (VLNC) cigarettes available within an experimental marketplace that also offered alternative nicotine delivery systems, using two novel statistical approaches to overcome prior power limitations. Among 206 people who smoked menthol cigarettes, VLNC cigarettes were associated with an 11\u201318 percentage point increase in abstinence probability depending on the statistical model used. Among 232 non-menthol smokers, the effect was smaller and less certain, ranging from 8\u201310 percentage points with overlapping confidence intervals.",
-      "why_it_matters": "With the FDA having long considered a nicotine reduction mandate for cigarettes, these findings suggest the policy could meaningfully increase quit rates \u2014 particularly among menthol smokers, a group disproportionately represented by Black Americans who have faced targeted tobacco industry marketing.",
-      "caveats": "small sample (N<100 per subgroup is borderline \u2014 N=206 and N=232), secondary analysis, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Policy-relevant nicotine regulation finding; secondary analysis limits certainty; clear public health hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / General interest",
-          "headline": "The Cigarette That's Barely a Cigarette Might Actually Help People Quit",
-          "hook": "A reanalysis of randomized trial data finds that cigarettes engineered to contain almost no nicotine boosted quit rates \u2014 especially among menthol smokers.",
-          "pitch_angle": "The FDA has debated mandating very low nicotine cigarettes for years, arguing it could break the addiction cycle without banning smoking outright. This study, using novel statistical tools to squeeze signal from underpowered data, suggests the policy could have real bite \u2014 and might matter most for the menthol smokers who have been most aggressively targeted by the tobacco industry."
-        },
-        {
-          "publication_type": "Scientific American",
-          "headline": "New Statistical Methods Reveal That Near-Nicotine-Free Cigarettes May Drive Abstinence in Hard-to-Reach Smokers",
-          "hook": "Two novel statistical approaches uncovered a significant abstinence benefit of very low nicotine cigarettes in menthol smokers that conventional methods lacked the power to detect.",
-          "pitch_angle": "The study's methodological innovation \u2014 leveraging biological secondary endpoints like nicotine metabolites to improve statistical efficiency \u2014 may be as significant as the clinical finding itself, offering a template for future underpowered tobacco trials. The results add empirical weight to FDA nicotine reduction proposals and highlight how study design limitations may have previously obscured meaningful treatment effects."
-        }
-      ],
-      "run_date": "2026-09-08",
-      "category": "Public Health & Epidemiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42696084",
       "headline": "A rare environmental bacterium never before seen in human urinary tract infections turned up in a teenager with a catheter-dependent bladder",
       "journal": "European Journal of Clinical Microbiology & Infectious Diseases",
@@ -319,93 +1024,6 @@
       "status": "new"
     },
     {
-      "pmid": "42687628",
-      "headline": "A child's rare eye condition reveals a new genetic glitch that may reshape how doctors diagnose corneal disease",
-      "journal": "Ophthalmic Genetics",
-      "pubdate": "2026 Sep 3",
-      "doi": "10.1080/13816810.2026.2725829",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at a tertiary eye care center in India reported a 9-year-old boy with a newly identified ZEB1 splice-site variant causing a rare corneal endothelial dystrophy (PPCD3) alongside features of corneal ectasia \u2014 a combination not typically seen together. Whole-exome sequencing confirmed the novel heterozygous variant, inherited from his father. The finding adds rare genetic evidence that ZEB1 mutations may drive both endothelial and structural corneal abnormalities simultaneously.",
-      "why_it_matters": "Identifying this genetic overlap could help prevent misdiagnosis in children presenting with unusual combinations of corneal thinning and endothelial disease.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Rare single case report; strong genetics angle but very narrow clinical audience.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "One Genetic Typo Wreaks Havoc on a Child's Cornea in Two Different Ways at Once",
-          "hook": "A single misspelling in the ZEB1 gene caused a 9-year-old's eye to show two usually separate corneal diseases at the same time.",
-          "pitch_angle": "Researchers found a novel gene variant that appears to simultaneously damage the cornea's structural integrity and its inner cell layer \u2014 a combination previously thought unrelated. The case suggests the ZEB1 gene may play a broader architectural role in the eye than currently recognized."
-        }
-      ],
-      "run_date": "2026-09-08",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "2/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42691106",
-      "headline": "Standard epidemic models get COVID transmissibility and outbreak size both wrong \u2014 in opposite directions",
-      "journal": "PLoS Computational Biology",
-      "pubdate": "2026 Sep 3",
-      "doi": "10.1371/journal.pcbi.1014746",
-      "groundbreaking": "Counterintuitive finding / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers fitted standard and behavior-incorporating epidemic models to COVID-19 mortality data from 20 US locations during the first pandemic wave (March\u2013July 2020), finding that conventional models ignoring behavioral change systematically underestimate how contagious a pathogen is while simultaneously overestimating total infections. All three behavioral model variants outperformed the baseline in at least 18 of 20 locations, and analytical proofs confirmed the dual bias is a structural flaw, not a data artifact. The finding suggests that the models most widely used for pandemic planning may simultaneously trigger delayed early responses and overprepare for later outbreak phases.",
-      "why_it_matters": "If pandemic models are wired to underestimate contagiousness and overestimate final case counts, public health agencies may consistently intervene too late and then plan for a surge that never fully arrives.",
-      "caveats": "purely computational with no validation, observational design",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Pandemic preparedness hook; counterintuitive dual-bias finding; computational with real-data fitting.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American",
-          "headline": "Our Pandemic Models Have a Built-In Paradox That Gets Contagion Wrong Twice",
-          "hook": "The epidemic models governments relied on during COVID were systematically biased in two opposite directions at once \u2014 underestimating how contagious the virus was while overestimating how many people would ultimately get sick.",
-          "pitch_angle": "By ignoring the fact that people change their behavior as death tolls rise, standard compartmental models misread both the pathogen's transmissibility and the outbreak's ceiling. The structural flaw \u2014 confirmed analytically and across 20 U.S. locations \u2014 suggests pandemic preparedness planning may need a fundamental rethink."
-        },
-        {
-          "publication_type": "The Atlantic",
-          "headline": "The Math Behind Pandemic Policy Was Broken in a Way Nobody Caught",
-          "hook": "When governments modeled COVID to decide when to lock down and how many hospital beds to stock, the equations they used contained a hidden, self-contradicting error.",
-          "pitch_angle": "A new analysis shows that by assuming people don't change their behavior during an outbreak, standard models both underestimated the virus's spread potential \u2014 possibly delaying early action \u2014 and overestimated total infections, potentially distorting later planning. The finding raises hard questions about whether the next pandemic response will repeat the same miscalculations."
-        }
-      ],
-      "run_date": "2026-09-08",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "2/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42690578",
-      "headline": "Women want their HIV-prevention vaginal ring smooth, pliable, and light-colored \u2014 and those details could determine whether they use it",
-      "journal": "AIDS and Behavior",
-      "pubdate": "2026 Sep 3",
-      "doi": "10.1007/s10461-026-05198-z",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted nine virtual focus groups and 25 in-person interviews with a convenience sample of women aged 18\u201345 from a large US statewide health system to assess preferences for 3D-printed intravaginal rings (IVRs) designed for simultaneous HIV prevention and contraception. Women consistently prioritized smooth surface texture (for hygiene confidence and ease of insertion), lighter hues (perceived as calming), and appropriate size and pliability for comfort. The findings are intended to iteratively guide design of a novel multipurpose prevention technology before clinical trials.",
-      "why_it_matters": "User-centered design data gathered before clinical testing could improve real-world uptake of a device that would give women autonomous, dual protection against pregnancy and HIV \u2014 addressing a longstanding gap in prevention tools for cisgender women.",
-      "caveats": "small sample (N<100), qualitative design, convenience sample, self-reported outcomes, single-center, industry funding [AnelleO Inc. \u2014 co-founders are co-authors]",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Women's health and HIV prevention hook; qualitative design and small sample limit impact.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "The Color and Texture of an HIV-Prevention Ring Might Decide Whether Women Actually Use It",
-          "hook": "Before a novel 3D-printed vaginal ring reaches clinical trials, researchers asked women what they actually want \u2014 and found that surface smoothness, flexibility, and even hue matter as much as efficacy.",
-          "pitch_angle": "The study is an early-stage effort to let user preferences shape device design rather than retrofit acceptance after the fact, a shift in how contraceptive and HIV-prevention technologies are developed. If the approach works, it could offer a model for building uptake into the design process for other women-controlled prevention tools."
-        }
-      ],
-      "run_date": "2026-09-08",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42690492",
       "headline": "A poorly known soft tick species has been found across five Mexican states \u2014 and its DNA has been sequenced for the first time",
       "journal": "Experimental & Applied Acarology",
@@ -425,234 +1043,6 @@
           "headline": "A Mysterious Soft Tick Has Been Quietly Spreading Across Mexico \u2014 and Scientists Are Only Now Getting Its DNA",
           "hook": "A species of soft tick whose relatives transmit relapsing fever has turned up across five Mexican states, and researchers have finally sequenced its genome for the first time.",
           "pitch_angle": "Ornithodoros nicollei was barely known to science, with almost no molecular data and an uncertain geographic range \u2014 but a new survey across Mexico suggests it is far more widespread than previously recognized. As climate and land-use changes expand tick habitats, establishing baseline molecular and distributional data for understudied species is increasingly seen as essential early-warning science."
-        }
-      ],
-      "run_date": "2026-09-08",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42693397",
-      "headline": "Emergency departments can re-link HIV patients to care \u2014 but substance use disorder cuts follow-through nearly in half",
-      "journal": "International Journal of STD & AIDS",
-      "pubdate": "2026 Sep 3",
-      "doi": "10.1177/09564624261483246",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Johns Hopkins analyzed programmatic data from an ED-based HIV linkage-to-care program in Baltimore (January 2023\u2013July 2024), identifying 113 patients disengaged from HIV care among 892 PLWH presenting to the ED; 66 received re-linkage services (N=66). Overall, 61% attended their scheduled HIV care appointment, but patients with a history of substance use disorder had 4.5 times greater odds of missing that appointment. All patients who did attend subsequently refilled their antiretroviral therapy.",
-      "why_it_matters": "Emergency departments are increasingly a front line for re-engaging people with HIV who have fallen out of care, but the findings suggest that without co-located or integrated substance use disorder support, these programs may fail the patients who need them most.",
-      "caveats": "small sample (N<100), single-center, observational design, cross-sectional analysis",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Clear public health hook; HIV care engagement; small single-center sample limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / General science",
-          "headline": "ERs Are Trying to Pull HIV Patients Back Into Care. Addiction Is Getting in the Way.",
-          "hook": "An emergency department program successfully re-engaged the majority of HIV patients who had dropped out of care \u2014 but those with substance use disorders were nearly five times as likely to miss the follow-up appointment that would get them back on medication.",
-          "pitch_angle": "A Johns Hopkins study of a Baltimore ED-based re-linkage program found that while 61% of disengaged HIV patients attended their rescheduled care appointments, substance use disorder was the single strongest predictor of not showing up. The finding points to a structural gap: re-linking patients to HIV care without simultaneously addressing addiction may be setting a significant portion of them up to fail."
-        }
-      ],
-      "run_date": "2026-09-08",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42690284",
-      "headline": "A pregnancy safety registry for a severe asthma biologic failed to enroll enough patients \u2014 and its collapse reveals a systemic gap in drug safety surveillance",
-      "journal": "Drug Safety",
-      "pubdate": "2026 Sep 3",
-      "doi": "10.1007/s40264-026-01724-z",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers describe the failure of a post-marketing pregnancy safety registry for mepolizumab (Nucala), a biologic approved for severe eosinophilic asthma, which enrolled too few exposed pregnancies over five years to generate safety conclusions and was closed in 2024. The commentary proposes a decision-making framework for future post-marketing pregnancy studies when treatment exposure in the target population is low. The case highlights a broader systemic problem: pregnant people are routinely excluded from clinical trials, leaving critical safety data gaps that post-market studies often fail to fill.",
-      "why_it_matters": "Millions of people with chronic conditions requiring long-term biologics may become pregnant, yet the system designed to detect fetal harm after drug approval is often too underpowered to deliver answers.",
-      "caveats": "observational design, small sample (N<100), industry funding [GSK], secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Strong drug safety and public health hook; journalist has saved similar drug-labeling and pharmacovigilance stories.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic",
-          "headline": "The System Meant to Protect Pregnant People From Drug Risks Keeps Failing Them",
-          "hook": "A pregnancy safety registry for a widely used asthma biologic enrolled so few patients over five years that it had to be shut down \u2014 leaving millions of people who might become pregnant with no safety data.",
-          "pitch_angle": "Pregnant people are excluded from clinical trials, and the post-market registries meant to fill that gap are chronically underpowered. This case study of mepolizumab's failed registry exposes a structural flaw in how drug safety is monitored for an entire class of patients."
-        },
-        {
-          "publication_type": "Scientific American",
-          "headline": "Why Drug Safety Studies for Pregnant Patients Keep Collapsing \u2014 and What Could Replace Them",
-          "hook": "A five-year, multi-site pregnancy registry for a first-in-class asthma biologic closed without enough data to draw any safety conclusions, prompting researchers to rethink how post-market surveillance works.",
-          "pitch_angle": "The mepolizumab registry failure reveals how low treatment exposure rates in pregnancy can doom even well-designed pharmacovigilance studies, and spurs a proposal for enhanced worldwide surveillance as a stopgap. The story opens a window into the under-discussed science of post-authorization drug safety."
-        }
-      ],
-      "run_date": "2026-09-08",
-      "category": "Pharmacology & Drug Therapy",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42682206",
-      "headline": "RSV vaccines may cut more than respiratory illness \u2014 ear infections could be next",
-      "journal": "Clinical Infectious Diseases",
-      "pubdate": "2026 Sep 2",
-      "doi": "10.1093/cid/ciag526",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This perspectives piece by French pediatric infectious disease researchers examines evidence linking RSV immunization to reductions in acute otitis media (ear infections) in infants beyond the first RSV season. The authors argue that RSV's role as a co-pathogen in ear infections has been underappreciated, and that the benefits of RSV immunization may extend well beyond preventing lower respiratory tract disease. No primary data or sample size is reported as this is a commentary.",
-      "why_it_matters": "Acute otitis media is the leading cause of antibiotic prescriptions in children, so if RSV immunization meaningfully reduces ear infections, it could have significant downstream effects on antibiotic overuse and resistance.",
-      "caveats": "observational design, secondary analysis, preprint",
-      "fact_check_note": "Abstract is not available in full \u2014 only citation metadata provided; summary is based on title and partial metadata. Claims should be verified against full text before pitching.",
-      "relevance_score": 6,
-      "relevance_score_reason": "Strong public health and antibiotic resistance hook; limited abstract data available.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / General science",
-          "headline": "The RSV Shot May Also Be Quietly Slashing Kids' Ear Infections",
-          "hook": "Ear infections are the single biggest driver of childhood antibiotic prescriptions \u2014 and new evidence suggests RSV vaccines may be cutting them too.",
-          "pitch_angle": "French researchers argue that RSV's underrecognized role as a trigger for acute otitis media means the wave of new RSV immunizations could deliver a surprise benefit: fewer ear infections, fewer antibiotic prescriptions, and a small but meaningful dent in antimicrobial resistance. The finding reframes RSV vaccines as potentially broader tools for child health than their respiratory label suggests."
-        }
-      ],
-      "run_date": "2026-09-08",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42413025",
-      "headline": "When a grass goes from four sets of chromosomes back to two, its genome doesn't just shrink \u2014 it reorganizes in unexpected ways",
-      "journal": "G3 (Bethesda)",
-      "pubdate": "2026 Sep 2",
-      "doi": "10.1093/g3journal/jkag165",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "University of Georgia researchers crossed diploid sorghum with tetraploid hybrid descendants of an invasive sorghum relative to produce progeny at mixed ploidy levels, then tracked genome-wide SNP inheritance in four families. When plants returned to diploidy, specific genomic regions showed nonrandom retention of one parent's DNA and recurring distortions in which alleles were passed on \u2014 patterns not seen in tetraploid siblings. Flowering-time genetics also shifted, with major genetic drivers mapping to entirely different chromosomal locations depending on ploidy level.",
-      "why_it_matters": "Understanding how genomes reorganize during ploidy shifts could help breeders harness wild grass relatives \u2014 including invasive species \u2014 as sources of stress-tolerance traits for food security crops.",
-      "caveats": "small sample (4 families), plant study, early-stage genetic characterization",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Interesting evolutionary genomics but plant-only, niche audience, weak public hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American / General science",
-          "headline": "Shrinking a Grass Genome From Four Copies to Two Reshuffles Which Genes Get Passed On",
-          "hook": "When sorghum plants engineered to return from tetraploidy to normal diploidy, their genomes didn't just lose chromosomes \u2014 they reorganized in ways that change which traits offspring inherit.",
-          "pitch_angle": "The findings offer a rare real-time window into a genomic process that shaped the evolution of most of the world's major grain crops, including wheat, maize, and sugarcane. Breeders may eventually use these insights to unlock useful traits from wild or invasive grass relatives without the fertility problems that plague wide crosses."
-        }
-      ],
-      "run_date": "2026-09-08",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "3/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42318600",
-      "headline": "Parents can't identify the snake that bit their child \u2014 and it's derailing emergency care",
-      "journal": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
-      "pubdate": "2026 Sep 2",
-      "doi": "10.1093/trstmh/trag069",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted 64 in-depth interviews with parents of children admitted for snakebites at three high-incidence hospitals in Sri Lanka between August 2024 and July 2025. Parents consistently failed to accurately identify the offending snake due to poor visibility, panic, conflicting eyewitness accounts, and reliance on informal sources like social media. Misidentification was frequent, contributed to unnecessary snake killing, and complicated clinical decision-making in settings lacking venom detection technology.",
-      "why_it_matters": "In regions without venom detection facilities, accurate snake identification by bystanders can be life-or-death information for clinicians choosing treatment \u2014 and this study suggests the system is failing children at the most critical moment.",
-      "caveats": "small sample (N<100), observational design, single-center, self-reported outcomes",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Regionally specific Sri Lanka context; qualitative design limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science / Public health",
-          "headline": "When a Child Is Bitten by a Snake, Parents Can't Tell Doctors What Bit Them",
-          "hook": "In a country where snakebite kills thousands annually, panicked parents consistently misidentify the culprit \u2014 leaving doctors to guess at treatment.",
-          "pitch_angle": "A qualitative study in Sri Lanka found that fear, darkness, and misinformation from social media routinely prevent parents from accurately identifying the snake that bit their child. Without that information \u2014 and without venom detection tools \u2014 clinicians are flying blind, and the study suggests visual community education tools could close a deadly gap."
-        }
-      ],
-      "run_date": "2026-09-08",
-      "category": "Public Health & Epidemiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42685041",
-      "headline": "The U.S. military just built the first database linking nutrition to brain injury recovery in 430,000 patients",
-      "journal": "Military Medicine",
-      "pubdate": "2026 Sep 2",
-      "doi": "10.1093/milmed/usag416",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Madigan Army Medical Center constructed a novel data repository integrating nutrition care records with traumatic brain injury (TBI) outcomes from the Military Health System, covering 431,673 TBI patients and an age- and sex-matched control cohort from 2017 to 2024. The repository draws on 12 data sources including clinical encounters, labs, radiology, and pharmacy records. Initial analysis found that TBI patients had higher rates of chronic health conditions, adverse lifestyle factors, and nutrition counseling than matched controls, suggesting nutritional care is already being used more frequently in this population.",
-      "why_it_matters": "With mild TBI representing the most common brain injury in military personnel, this database could accelerate research into whether dietary interventions meaningfully improve recovery \u2014 a question that has been largely unanswerable due to data fragmentation.",
-      "caveats": "observational design, secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Large-scale human data, novel infrastructure; niche military audience limits broad pitch.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American / Wired",
-          "headline": "Can What You Eat After a Brain Injury Change How Well You Recover? The Military Is Building the Data to Find Out",
-          "hook": "The U.S. military has assembled a database of 430,000 brain-injured patients \u2014 the first to link nutrition care directly to TBI outcomes \u2014 and it could reshape how we think about recovery.",
-          "pitch_angle": "Traumatic brain injury affects hundreds of thousands of service members, but research on whether nutrition interventions help recovery has been stymied by fragmented records; this new repository integrates longitudinal nutrition and TBI data at unprecedented scale. The database's findings could eventually inform civilian TBI care, where nutritional support is similarly understudied."
-        }
-      ],
-      "run_date": "2026-09-08",
-      "category": "Public Health & Epidemiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42170906",
-      "headline": "Q fever pathogen found in Kashmir ticks for the first time \u2014 and it genetically matches strains from the US and Germany",
-      "journal": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
-      "pubdate": "2026 Sep 2",
-      "doi": "10.1093/trstmh/trag056",
-      "groundbreaking": "First-in-class human study / Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers screened 1,800 ticks collected from 4,965 cattle, sheep, and goats across eight districts of Kashmir, testing for Coxiella burnetii \u2014 the bacterium that causes Q fever \u2014 using PCR targeting the IS1111 insertion sequence. C. burnetii DNA was detected in 10 ticks (0.55%), primarily from Haemaphysalis and Rhipicephalus genera in Srinagar and Kupwara districts, with peak prevalence in July. Phylogenetic analysis found Kashmir isolates clustered closely with reference strains from the United States, Germany, and Indian goat-associated strains, suggesting transboundary circulation of the pathogen.",
-      "why_it_matters": "Q fever is an underdiagnosed zoonosis with pandemic potential, and detecting its reservoir in a previously undocumented South Asian livestock region \u2014 with genetic links to Western strains \u2014 underscores the need for integrated global tick-borne disease surveillance.",
-      "caveats": "observational design, single-center",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "First molecular evidence in region; global phylogenetic links boost relevance; livestock zoonosis hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American / General science",
-          "headline": "A Tick Pathogen Found in Kashmir Looks Genetically Identical to Strains Circulating in the U.S. and Europe",
-          "hook": "For the first time, the bacterium behind Q fever has been detected in ticks on Kashmir livestock \u2014 and its genetic fingerprint matches strains thousands of miles away.",
-          "pitch_angle": "The discovery suggests C. burnetii is circulating more broadly across South Asia than previously recognized, with phylogenetic ties to North American and European strains that hint at transboundary spread through livestock trade or migratory animals. Q fever is notoriously underdiagnosed in humans and can cause chronic disease; finding new tick reservoirs in densely populated agricultural regions raises surveillance urgency."
-        }
-      ],
-      "run_date": "2026-09-08",
-      "category": "Public Health & Epidemiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42520186",
-      "headline": "A next-generation TB drug candidate cleared its first human safety trial \u2014 and eating a fatty meal more than doubles its absorption",
-      "journal": "Antimicrobial Agents and Chemotherapy",
-      "pubdate": "2026 Sep 2",
-      "doi": "10.1128/aac.01930-25",
-      "groundbreaking": "First-in-class human study / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a first-in-human phase I trial of TBAJ-587, a second-generation diarylquinoline designed to improve on the TB drug bedaquiline, 92 healthy adults received single or multiple ascending oral doses over 28 days. The drug was generally safe and well-tolerated with no serious adverse events or clinically significant effects on heart rhythm (QTc interval), a key concern with bedaquiline. A high-fat meal increased peak drug exposure by 3.46-fold, and the drug's long terminal half-life (80\u2013111 days) suggests it could support less frequent dosing regimens in future TB treatment strategies.",
-      "why_it_matters": "Tuberculosis kills over a million people annually, and drug-resistant strains are outpacing available treatments, making the safety validation of next-generation TB drugs a critical step toward new therapeutic options for one of the world's deadliest infectious diseases.",
-      "caveats": "small sample (N<100), short follow-up, healthy volunteers only (not TB patients)",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "First-in-human TB drug trial; pandemic preparedness-adjacent; antibiotic resistance topic bonus.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American",
-          "headline": "A More Powerful TB Drug Just Passed Its First Human Safety Test \u2014 With a Surprising Food Interaction",
-          "hook": "A next-generation tuberculosis drug designed to fix bedaquiline's shortcomings sailed through its first human trial \u2014 but researchers found that eating a high-fat meal more than triples how much of the drug reaches the bloodstream.",
-          "pitch_angle": "TBAJ-587 showed a clean safety profile in 92 healthy adults, including no dangerous heart rhythm effects that have complicated its predecessor, suggesting it could be a meaningful advance for drug-resistant TB treatment. The dramatic food effect \u2014 a 3.46-fold spike in peak drug levels after a high-fat meal \u2014 will need careful management in clinical protocols for patients in low-resource settings where meal composition varies widely."
-        },
-        {
-          "publication_type": "The Atlantic",
-          "headline": "The Race to Fix TB's Best Drug Has Produced a Promising Successor",
-          "hook": "Bedaquiline transformed TB treatment but came with heart risk warnings \u2014 now its successor has cleared a key safety hurdle in humans.",
-          "pitch_angle": "With over a million TB deaths annually and drug resistance spreading, a new compound called TBAJ-587 has passed its first human trial without the cardiac side effects that shadow bedaquiline, offering hope for safer regimens against drug-resistant strains. The drug's unusually long half-life could eventually allow patients to take it less frequently \u2014 a potential game-changer for treatment adherence in high-burden countries."
         }
       ],
       "run_date": "2026-09-08",
@@ -2088,60 +2478,6 @@
       "status": "new"
     },
     {
-      "pmid": "42702289",
-      "headline": "A fast new genetic fingerprinting tool could help dairy farms track a drug-resistant algal udder infection",
-      "journal": "Journal of Microbiological Methods",
-      "pubdate": "2026 Sep 6",
-      "doi": "10.1016/j.mimet.2026.107685",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Japanese researchers developed a SNV-based genotyping method for Prototheca bovis, an achlorophyllous alga that causes bovine mastitis, using PCR amplification of five genomic regions targeting six informative single nucleotide variants. The method achieved a Simpson's D discrimination value of 0.927 across field isolates, indicating strong discriminatory power. This provides a simpler and more practical epidemiological typing tool than whole-genome sequencing for tracking outbreak strains on dairy farms.",
-      "why_it_matters": "Protothecal mastitis is untreatable with standard antibiotics and leads to culling of dairy cows, so a rapid strain-tracking tool could help farms identify and contain outbreaks before they spread.",
-      "caveats": "small sample (N<100), single-center, observational design, limited geographic scope",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Narrow diagnostic methods paper; limited general-audience or environmental health hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science / agriculture",
-          "headline": "Dairy Farms Have No Good Way to Track a Mysterious Algal Infection That Kills Cows \u2014 Until Now",
-          "hook": "A new genetic fingerprinting method can distinguish between strains of an untreatable algal pathogen that destroys dairy cow udders, giving farmers their first real tool to trace outbreaks.",
-          "pitch_angle": "Prototheca bovis, an alga resistant to all standard antibiotics, silently spreads through herds and forces farmers to cull infected animals; the new SNV typing tool achieved 92.7% discriminatory accuracy in field isolates, potentially enabling farms to map transmission chains and intervene earlier."
-        }
-      ],
-      "run_date": "2026-09-07",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42702701",
-      "headline": "Among older Americans with hepatitis B, only one antiviral drug consistently keeps patients on track",
-      "journal": "Drugs & Aging",
-      "pubdate": "2026 Sep 6",
-      "doi": "10.1007/s40266-026-01332-7",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Using Medicare claims data from 3,317 adults aged 65 and older with chronic hepatitis B (2014\u20132019), researchers used group-based trajectory modeling to track 12-month adherence to three first-line antiviral drugs. Three distinct adherence patterns emerged: consistently adherent (57%), gradual decline (25%), and rapid decline (18%), with tenofovir alafenamide (TAF) significantly outperforming both entecavir and tenofovir disoproxil fumarate \u2014 patients on TAF had 59% lower odds of rapid adherence decline. The study suggests choice of antiviral drug may itself shape long-term treatment success in older hepatitis B patients.",
-      "why_it_matters": "Chronic hepatitis B affects an estimated 2.4 million Americans, many of whom are older adults for whom medication adherence is especially challenging, and poor adherence can lead to viral rebound, liver damage, and drug resistance.",
-      "caveats": "observational design, secondary analysis, industry funding [Gilead \u2014 note TAF is a Gilead product]",
-      "fact_check_note": "The conflict of interest statement notes Dr. Aparasu received research funding from Gilead for unrelated projects. TAF is manufactured by Gilead. This relationship warrants prominent disclosure in any coverage, as TAF is the study's favored drug.",
-      "relevance_score": 6,
-      "relevance_score_reason": "Large Medicare cohort, public health relevance, but observational with notable industry-adjacent funding.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic",
-          "headline": "Which Hepatitis B Drug Actually Keeps Older Patients Taking It? Medicare Data Has a Clear Answer.",
-          "hook": "A study of more than 3,000 Medicare patients found that choice of antiviral drug \u2014 not just patient behavior \u2014 may be the strongest predictor of whether older adults with hepatitis B stay on treatment.",
-          "pitch_angle": "Analyzing five years of Medicare pharmacy claims, researchers found that patients on tenofovir alafenamide were far less likely to abandon or reduce their hepatitis B medication than those on older antivirals \u2014 a finding that could reshape prescribing guidelines for a largely overlooked older population. The results raise questions about whether drug access policies and formulary decisions are inadvertently pushing vulnerable patients toward medications they're less likely to stick with."
-        }
-      ],
-      "run_date": "2026-09-07",
-      "category": "Pharmacology & Drug Therapy",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42339879",
       "headline": "A newly identified gene mutation may explain some cases of early menopause in women \u2014 and it was found in a single Chinese family",
       "journal": "Annals of Human Genetics",
@@ -2481,39 +2817,6 @@
       "run_date": "2026-09-06",
       "category": "Genetics & Molecular Biology",
       "chunk": "2/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42700587",
-      "headline": "COVID spread far less than models predicted in Nigeria \u2014 and population diversity may explain why",
-      "journal": "Epidemics",
-      "pubdate": "2026 Sep 3",
-      "doi": "10.1016/j.epidem.2026.100944",
-      "groundbreaking": "Counterintuitive finding / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used Bayesian modeling on COVID-19 incidence data from ten Nigerian states to estimate how population-level variation in susceptibility and social connectivity shaped the first wave. They found that when heterogeneity is accounted for, the herd immunity threshold drops dramatically \u2014 from 26% to just 4% \u2014 and the estimated share of the population infected in the first wave falls from over 20% to roughly 8%. The findings suggest that standard homogeneous epidemic models may substantially overestimate how much intervention is needed to control outbreaks in highly diverse populations.",
-      "why_it_matters": "Overestimating the scale of COVID spread could lead public health agencies to design unnecessarily intensive \u2014 and costly \u2014 interventions in future outbreaks across Africa and other high-heterogeneity settings.",
-      "caveats": "observational design, single-country (Nigeria), very low reported case detection rate (0.5%), computational modeling with limited ground-truth validation",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Pandemic preparedness hook; counterintuitive threshold finding; modeling-only with limited validation.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American",
-          "headline": "Why Herd Immunity Thresholds May Be Way Off \u2014 and What Nigeria's COVID Wave Reveals",
-          "hook": "A new model suggests only 4% of Nigeria's population needed to gain immunity to blunt COVID's first wave \u2014 not the 26% standard models predicted.",
-          "pitch_angle": "When researchers accounted for how differently individuals connect and resist infection, the math of epidemic control changed dramatically. The finding challenges a core assumption of outbreak modeling and has implications for how health agencies plan pandemic responses in diverse, low-surveillance populations worldwide."
-        },
-        {
-          "publication_type": "The Atlantic",
-          "headline": "Our Pandemic Models Keep Getting Africa Wrong",
-          "hook": "Standard epidemic models predicted COVID would tear through Nigeria far more widely than it apparently did \u2014 and a new study points to why.",
-          "pitch_angle": "By treating every person as equally likely to catch and spread a disease, conventional models may have led to overblown intervention targets in countries where population diversity is high and data is scarce. Getting the math right matters enormously when public health resources are stretched thin."
-        }
-      ],
-      "run_date": "2026-09-06",
-      "category": "Public Health & Epidemiology",
-      "chunk": "2/2",
       "status": "new"
     },
     {
