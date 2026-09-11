@@ -1,33 +1,327 @@
 {
-  "last_updated": "2026-09-10T14:49:18.232093+00:00",
-  "total_studies": 201,
-  "new_this_run": 4,
+  "last_updated": "2026-09-11T14:49:10.796032+00:00",
+  "total_studies": 209,
+  "new_this_run": 8,
   "studies": [
     {
       "pmid": "42717184",
-      "headline": "Teen Drivers' Eyes Don't Always Search the Road the Same Way \u2014 AI Now Can Tell the Difference",
+      "headline": "A Machine Learning Tool May Finally Crack the Code on How Teen Drivers Scan the Road",
       "journal": "Behavior Research Methods",
       "pubdate": "2026 Sep 9",
       "doi": "10.3758/s13428-026-03154-2",
       "groundbreaking": "First-in-class human study / Major child health or parenting implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Children's Hospital of Philadelphia applied a machine-learning time-series clustering method to eye-tracking data collected during a simulated driving task to identify distinct visual search strategies among young drivers (N=36, ages 16\u201324). The study demonstrated that the approach \u2014 called dynamic localized coordinate aligned warping plus k-medoids clustering \u2014 could automatically categorize how drivers scan their environment during a curved-road scenario without labor-intensive manual video coding. The findings suggest that scalable automated analysis of eye movements could help identify which young drivers have insufficient visual search habits that raise crash risk.",
-      "why_it_matters": "This tool could one day help researchers \u2014 and potentially driver education programs \u2014 identify teen drivers whose eye-scanning habits put them at greater risk of missing road hazards before a crash happens.",
-      "caveats": "small sample (N<100), narrow age range, single-center, short follow-up, simulated driving environment (not real-world), industry conflict of interest (lead author has financial interest in Diagnostic Driving Inc.)",
+      "summary": "Researchers at Children's Hospital of Philadelphia applied a machine learning time-series clustering method to raw eye-tracking data collected from 36 young drivers ages 16\u201324 during a simulated driving assessment, bypassing the traditional labor-intensive video-coding approach. The method successfully identified distinct visual search strategies during a curved-road scenario. The finding suggests this scalable approach could enable much larger studies of how novice teen drivers scan for hazards \u2014 a key factor in crash risk.",
+      "why_it_matters": "Understanding how teen drivers visually search their environment could eventually inform better driver training programs aimed at reducing the leading cause of death in adolescents.",
+      "caveats": "small sample (N<100), single-center, narrow age range, simulated driving environment (not real-world), industry conflict of interest (Diagnostic Driving, Inc.)",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Teen safety angle is strong, but methodology paper limits practical parenting takeaway.",
+      "pitch_angles": [
+        {
+          "publication_type": "NPR Health / General health",
+          "headline": "Why Teen Drivers Miss Hazards \u2014 And a New AI Tool That Could Help Us Understand It",
+          "hook": "A new machine learning approach can automatically analyze how teen drivers scan the road, opening the door to larger studies of why young drivers crash.",
+          "pitch_angle": "Researchers developed a scalable AI method to study visual search patterns in drivers ages 16\u201324 during simulated drives. If applied to larger cohorts, it could reshape how driver education programs teach hazard detection to new teen drivers."
+        }
+      ],
+      "run_date": "2026-09-11",
+      "category": "Behavioral Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42713659",
+      "headline": "A Premature Newborn Survived Drug-Resistant TB With No Brain Damage \u2014 Only the Second Time This Has Been Documented",
+      "journal": "Paediatrics and International Child Health",
+      "pubdate": "2026 Sep 9",
+      "doi": "10.1080/20469047.2026.2731528",
+      "groundbreaking": "First-in-class human study / Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers report a single case of congenital disseminated multidrug-resistant tuberculosis (MDR-TB) in an extremely premature neonate born in India, accompanied by a narrative review of eight prior neonatal drug-resistant TB cases worldwide. The infant, born to a mother later confirmed to have isoniazid- and rifampicin-resistant TB, received tailored second-line antibiotic treatment. At age two, the child was developmentally normal \u2014 only the second preterm infant with MDR-TB reported to survive without neurological deficits.",
+      "why_it_matters": "This case suggests that early repeat molecular testing and tailored antibiotic regimens may improve survival in one of neonatology's rarest and most lethal diagnoses.",
+      "caveats": "small sample (N<100), single-center, narrow age range, observational design",
       "fact_check_note": "",
       "relevance_score": 5,
-      "relevance_score_reason": "Teen safety angle relevant; small N, methodological study limits direct parenting pitch.",
+      "relevance_score_reason": "Rare neonatal case report; limited generalizability; narrow specialist audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "A Premature Baby Got Drug-Resistant TB at Birth \u2014 and Survived With No Brain Damage",
+          "hook": "Congenital MDR-TB is so rare and so lethal that only one other premature infant has ever survived it without neurological damage.",
+          "pitch_angle": "This Indian case report, paired with a global review of eight similar cases, found that early repeated molecular testing and customized antibiotic therapy were associated with survival in a condition that carries near-universal mortality. For clinicians and global health journalists, it offers the first consolidated guidance on a near-impossible neonatal scenario."
+        }
+      ],
+      "run_date": "2026-09-11",
+      "category": "Pediatrics",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42722352",
+      "headline": "Elite Youth Soccer Players Are Faster and Stronger Than Recreational Peers \u2014 Even at the Same Biological Age",
+      "journal": "Pediatric Exercise Science",
+      "pubdate": "2026 Sep 9",
+      "doi": "10.1123/pes.2026-0012",
+      "groundbreaking": "Counterintuitive finding / Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Moscow compared physical fitness across 89 elite academy soccer players and 93 subelite youth players, all aged 11\u201312 years and matched for chronological age, skeletal (biological) age, and training experience. Players completed sprint, jump, agility, and dribbling tests; elite players outperformed subelite peers on every measure even after statistical adjustment for maturity and training years. Notably, training experience explained less than 4% of the performance difference, suggesting that early athletic superiority at the elite level reflects something beyond practice hours alone.",
+      "why_it_matters": "For parents navigating youth sports selection and early specialization decisions, this study suggests that elite athletic performance differences in early adolescence are not simply a product of more training time \u2014 raising questions about what actually drives youth talent identification.",
+      "caveats": "observational design, single-center, narrow age range (11\u201312 years only), Russian/Moscow population, cross-sectional design",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive finding on youth sport and talent; narrow age range and single-country sample limit broad parenting relevance.",
       "pitch_angles": [
         {
           "publication_type": "Parents Magazine / Today's Parent",
-          "headline": "New AI Tool May Reveal Which Teen Drivers Have Dangerous Eye-Scanning Habits",
-          "hook": "A new machine-learning method can automatically detect how \u2014 and how well \u2014 young drivers visually scan the road, potentially flagging risky habits before a crash occurs.",
-          "pitch_angle": "Researchers found that teen and young adult drivers (ages 16\u201324) fall into distinct groups based on how their eyes move while driving, and a new AI approach can identify those groups automatically. For parents of new drivers, the research points toward a future where driver training could be personalized based on a teen's actual visual search patterns."
+          "headline": "More Practice Doesn't Explain Why Some 12-Year-Olds Are Already Soccer Stars",
+          "hook": "A new study found that elite young soccer players outperform recreational peers in speed and strength even when they've trained for the same number of years \u2014 so what does explain the gap?",
+          "pitch_angle": "Russian researchers matched 11- and 12-year-old elite and subelite soccer players on both biological maturity and training experience, then found elite boys still dominated on every fitness test \u2014 with training history explaining less than 4% of the difference. The findings add fuel to the ongoing debate about early sports specialization and whether youth talent selection is picking up on something innate rather than developed."
+        },
+        {
+          "publication_type": "NPR Health / General health",
+          "headline": "Youth Sports Talent Identification May Have Less to Do With Practice Than We Think",
+          "hook": "Even when young soccer players are matched for biological age and years of training, elite-level kids show dramatically better athletic performance \u2014 suggesting the 'more practice equals better results' narrative may be more complicated in youth sports.",
+          "pitch_angle": "A cross-sectional study of 182 Russian boys aged 11\u201312 found that elite academy soccer players outperformed subelite peers across all physical fitness tests even after controlling for puberty timing and training experience. The findings raise broader questions about what youth sports programs are actually selecting for \u2014 and whether early talent identification systems favor children with innate physical advantages over those who might develop later."
         }
       ],
-      "run_date": "2026-09-10",
+      "run_date": "2026-09-11",
+      "category": "Pediatrics",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42709217",
+      "headline": "Eating More Fish Before and During Pregnancy May Lower the Risk of a Dangerous Blood Pressure Complication",
+      "journal": "European Journal of Nutrition",
+      "pubdate": "2026 Sep 8",
+      "doi": "10.1007/s00394-026-04103-7",
+      "groundbreaking": "Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed dietary data from 86,009 pregnant women in Japan's nationwide JECS birth cohort to examine whether fish and omega-3 fatty acid intake before and during pregnancy were associated with hypertensive disorders of pregnancy (HDP). Higher fish consumption before pregnancy was associated with reduced risk of early-onset HDP, while higher intake during pregnancy was linked to lower risk of late-onset HDP \u2014 with the strongest associations seen in first-time mothers. The findings suggest that sustained fish intake from preconception through pregnancy may help reduce the risk of a leading cause of maternal and perinatal illness.",
+      "why_it_matters": "Because hypertensive disorders of pregnancy are a leading cause of preterm birth and infant complications, understanding how pre-pregnancy diet may influence risk could inform preconception nutrition guidance for families planning a pregnancy.",
+      "caveats": "observational design, self-reported (parent-reported) outcomes, single-country (Japan) population with high baseline fish consumption, industry funding [KH received lecture honoraria from multiple pharmaceutical/supplement companies related to n-3 PUFAs]",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Large cohort, major perinatal health implication; observational design and Japan-specific diet limit generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Parents Magazine / Today's Parent",
+          "headline": "Planning a Pregnancy? Eating More Fish Could Protect You From a Dangerous Complication",
+          "hook": "A massive study of 86,000 pregnant women found that eating more fish before and during pregnancy was associated with lower rates of a blood pressure disorder that's a leading cause of preterm birth.",
+          "pitch_angle": "Hypertensive disorders of pregnancy can threaten both mother and baby \u2014 but a nationwide Japanese birth cohort study suggests fish consumption, even before conception, may be associated with meaningful protection. The finding adds to growing evidence that preconception nutrition matters not just for fertility, but for pregnancy outcomes."
+        },
+        {
+          "publication_type": "NPR Health / TIME Health",
+          "headline": "Your Diet Before You're Even Pregnant May Shape Your Risk of a Leading Pregnancy Complication",
+          "hook": "One of the largest birth cohort studies ever conducted on pregnancy diet finds that what women eat before conception \u2014 not just during pregnancy \u2014 may influence their risk of dangerous high blood pressure.",
+          "pitch_angle": "Using data from over 86,000 women, Japanese researchers found that higher fish intake before pregnancy was associated with lower risk of early-onset hypertensive disorders, while intake during pregnancy was linked to reduced late-onset risk \u2014 suggesting the protective window may begin before pregnancy is even confirmed. Experts say the findings support expanding preconception care guidelines to include dietary counseling."
+        }
+      ],
+      "run_date": "2026-09-11",
+      "category": "Nutritional Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42704460",
+      "headline": "A Simple Ultrasound Scan of Three Wrist Bones May Replace X-Rays for Checking Kids' Bone Age",
+      "journal": "Pediatric Radiology",
+      "pubdate": "2026 Sep 7",
+      "doi": "10.1007/s00247-026-06772-2",
+      "groundbreaking": "First-in-class human study / Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Wuhan, China tested a new ultrasound-based method for assessing bone age in 144 pediatric patients aged 0.1\u201318.0 years, measuring ossification ratios at seven bone sites and comparing results to the standard X-ray-based Greulich-Pyle atlas. They found that summing the ultrasound ossification ratios of just three arm bones \u2014 the distal radius, distal ulna, and proximal radius \u2014 correlated very strongly with X-ray bone age (r=0.98 in boys, r=0.97 in girls) with excellent reproducibility. The method requires no radiation, is easy to perform, and could serve as a practical alternative to X-ray for routine pediatric bone-age screening and developmental staging.",
+      "why_it_matters": "If validated more broadly, a radiation-free ultrasound method for bone-age assessment could reduce children's lifetime X-ray exposure during routine growth monitoring and puberty evaluations.",
+      "caveats": "small sample (N=144), single-center, narrow to Wuhan China population, short follow-up, observational design",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Practical pediatric clinical tool, radiation-free angle appeals broadly, but single-center Chinese sample limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / NPR Health",
+          "headline": "Could a Simple Wrist Ultrasound Replace X-Rays for Checking How Kids Are Growing?",
+          "hook": "A new ultrasound technique suggests doctors may soon be able to assess children's bone development without any radiation at all.",
+          "pitch_angle": "Chinese researchers found that measuring three wrist bones via ultrasound matched X-ray bone-age results with near-perfect accuracy in children from infancy through age 18. The finding suggests a potentially radiation-free path for the routine growth checks that millions of children receive each year \u2014 though the method needs validation in broader, more diverse populations."
+        }
+      ],
+      "run_date": "2026-09-11",
+      "category": "Pediatrics",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42702367",
+      "headline": "Kids Hospitalized With a Severe Skin-Peeling Infection May Not Need the Broadest Antibiotics \u2014 And Skipping Them Could Mean Shorter Stays",
+      "journal": "Hospital Pediatrics",
+      "pubdate": "2026 Sep 7",
+      "doi": "10.1542/hpeds.2025-009164",
+      "groundbreaking": "Counterintuitive finding / Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a retrospective cohort noninferiority analysis of 187 children hospitalized with staphylococcal scalded skin syndrome (SSSS) at a single quaternary children's hospital between 2014 and 2024, comparing outcomes for those who received empiric antibiotics with MRSA coverage versus those who did not. Children treated without MRSA coverage had a mean hospital stay of 2.51 days versus 2.98 days for those with MRSA coverage, and adjusted models found stays were 34% longer for the MRSA-coverage group, though the difference did not reach statistical significance (P=.11). Only two children were readmitted within two weeks of discharge, and bacteremia was observed only in four infants aged 0\u20132 months.",
+      "why_it_matters": "The findings suggest that routinely adding MRSA coverage for children hospitalized with SSSS may not improve outcomes and could be contributing to unnecessarily longer hospital stays, with implications for antibiotic stewardship in pediatric hospitals.",
+      "caveats": "small sample (N<100 per group), single-center, observational design, retrospective, short follow-up",
+      "fact_check_note": "The adjusted model showed 34% longer LOS for the MRSA-coverage group but did not reach statistical significance (P=.11); both the abstract and the summary above accurately reflect this as an association without implying statistical certainty.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Antibiotic stewardship; pediatric inpatient relevance; single-center retrospective limits strength.",
+      "pitch_angles": [
+        {
+          "publication_type": "HealthyChildren.org",
+          "headline": "For Kids With a Serious Staph Skin Infection, Broader Antibiotics May Not Be Better",
+          "hook": "A new study finds that children hospitalized with staphylococcal scalded skin syndrome who received narrower antibiotic treatment had similar \u2014 or slightly better \u2014 outcomes than those given broader MRSA-targeting drugs.",
+          "pitch_angle": "The retrospective analysis of 187 hospitalized children suggests that the standard practice of empirically adding MRSA coverage for SSSS may not be necessary for most patients, supporting antibiotic stewardship efforts and potentially reducing hospital length of stay \u2014 though the authors caution that larger studies are needed."
+        }
+      ],
+      "run_date": "2026-09-11",
+      "category": "Pediatrics",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42702196",
+      "headline": "Teen Epilepsy Patients Fall Through the Cracks When They Age Out of Pediatric Care \u2014 Doctors Admit They're Not Ready",
+      "journal": "Epilepsy & Behavior",
+      "pubdate": "2026 Sep 6",
+      "doi": "10.1016/j.yebeh.2026.111268",
+      "groundbreaking": "Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A mixed-methods study surveyed 60 neurologists and pediatric neurologists in Colombia about their knowledge and practices around transitioning adolescent epilepsy patients to adult care, and conducted focus groups (n=8) to explore structural barriers. Pediatric neurologists reported significantly higher training in transition care (52% vs. 21% of adult neurologists), but formal transition protocols were scarce in both groups. Qualitative findings revealed system fragmentation, lack of coordination, and no defined handoff processes as key gaps \u2014 themes likely relevant beyond Colombia.",
+      "why_it_matters": "For families of children and teens with epilepsy, the move from pediatric to adult neurology care is a high-risk period where treatment adherence and quality of life can suffer \u2014 and this study suggests the medical system is largely unprepared to manage it.",
+      "caveats": "small sample (N<100), observational design, single-center, convenience sampling, narrow to Colombia healthcare context, self-reported (provider-reported) outcomes",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Relevant pediatric epilepsy transition topic; limited by small sample and Colombia-specific system context.",
+      "pitch_angles": [
+        {
+          "publication_type": "HealthyChildren.org / General health",
+          "headline": "When Kids With Epilepsy Grow Up, Their Medical Care Often Falls Apart",
+          "hook": "A new study finds that most neurologists \u2014 on both the pediatric and adult sides \u2014 lack formal protocols to hand off teens with epilepsy to adult care.",
+          "pitch_angle": "Researchers in Colombia found that structured transition programs for adolescents with epilepsy are rare, and that adult neurologists feel far less prepared than their pediatric counterparts to manage the handoff. For families navigating this transition anywhere, the study highlights the need to ask providers directly about a transition plan before a teen ages out of pediatric care."
+        }
+      ],
+      "run_date": "2026-09-11",
       "category": "Behavioral Sciences",
       "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42701327",
+      "headline": "Parents and Kids Rate Obesity's Emotional Toll Differently \u2014 And the Gap Matters",
+      "journal": "Nutrition and health",
+      "pubdate": "2026 Sep 6",
+      "doi": "10.1177/02601060261484279",
+      "groundbreaking": "Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers validated French-language versions of two questionnaires \u2014 one completed by children, one by parents \u2014 that measure obesity-related quality of life in a clinical sample of 120 children and adolescents with obesity (ages 5\u201318). Both tools showed reliable structure across emotional, physical, and teasing/marginalization domains, and agreed most closely on physical functioning. Parent and child reports diverged most on the emotional domain, suggesting parents may underestimate their child's emotional distress related to obesity.",
+      "why_it_matters": "When assessing how obesity affects a child's daily life, clinicians and caregivers may need to actively solicit the child's own perspective \u2014 especially around emotional wellbeing \u2014 rather than relying solely on parental observations.",
+      "caveats": "small sample (N<100 per subgroup), single-center, observational design, narrow age range (5\u201318 spans broad developmental stages), self-reported (parent-reported) outcomes, French-speaking Swiss clinical population limits generalizability",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Pediatric obesity tool validation; moderate clinical relevance, Swiss sample limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "HealthyChildren.org / AAP",
+          "headline": "Kids With Obesity Report More Emotional Distress Than Their Parents Realize",
+          "hook": "A new validation study found that parents and children with obesity agree on physical impacts but diverge significantly on emotional wellbeing.",
+          "pitch_angle": "Researchers testing quality-of-life questionnaires in 120 children with obesity (ages 5\u201318) found that parent-child agreement was weakest in the emotional domain \u2014 suggesting clinicians should ask children directly about their emotional experience rather than relying on parent proxy reports alone."
+        },
+        {
+          "publication_type": "Parents Magazine / Today's Parent",
+          "headline": "Your Child's Emotional Struggle With Weight May Be Bigger Than You Think",
+          "hook": "Parents tend to notice the physical effects of obesity in their kids but consistently miss how much it hurts emotionally.",
+          "pitch_angle": "A Swiss study of children and adolescents with obesity found that while parents and kids largely agreed on physical quality-of-life impacts, parents underestimated the emotional toll \u2014 a finding that suggests open, child-led conversations about feelings around weight may be especially important."
+        }
+      ],
+      "run_date": "2026-09-11",
+      "category": "Nutritional Sciences",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42608005",
+      "headline": "A New Brain-Monitoring Approach May Predict Which Critically Ill Children Are at Greatest Risk \u2014 Before Outcomes Worsen",
+      "journal": "Jornal de Pediatria",
+      "pubdate": "2026 Sep 5",
+      "doi": "10.1016/j.jped.2026.101601",
+      "groundbreaking": "First-in-class human study / Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers prospectively enrolled 120 children aged 6 months to 12 years in a pediatric intensive care unit in China, using continuous multimodal brain function monitoring (MBFM) for 72 hours to simultaneously measure cerebral blood flow, intracranial pressure, and brain oxygen levels. A composite model combining four MBFM-derived metrics predicted adverse outcomes \u2014 including death and poor neurological recovery \u2014 with an AUC of 0.91. A single metric, the perturbation factor, alone achieved an AUC of 0.86, and children with elevated perturbation factors showed significantly reduced six-month survival.",
+      "why_it_matters": "A quantitative, bedside monitoring framework that predicts which critically ill children face the worst outcomes could help PICU teams prioritize interventions earlier in the course of illness.",
+      "caveats": "single-center, narrow age range, observational design",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Solid prospective pediatric design; PICU-specific; limited parenting audience reach.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "A Bedside Brain Monitor May Predict Which Critically Ill Kids Face the Worst Outcomes",
+          "hook": "A four-signal brain monitoring system predicted death or poor recovery in critically ill children with 91% accuracy in a new prospective study.",
+          "pitch_angle": "For the 120 children aged 6 months to 12 years enrolled in this Chinese PICU study, continuous real-time brain monitoring identified high-risk patients significantly earlier than standard care, suggesting a potential tool for prioritizing intensive interventions in pediatric neurocritical care."
+        }
+      ],
+      "run_date": "2026-09-11",
+      "category": "Pediatrics",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42722376",
+      "headline": "Kawasaki Disease Is Going Global \u2014 And Doctors Are Still Struggling to Understand Why",
+      "journal": "Pediatrics",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1542/peds.2026-076771",
+      "groundbreaking": "Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This commentary by a leading Kawasaki disease researcher reviews the evolving international epidemiology and ongoing diagnostic and treatment challenges of Kawasaki disease, a rare but serious inflammatory condition that can damage children's coronary arteries. The piece is a narrative/opinion piece rather than an original data study, with no reported participant sample. It highlights that while Kawasaki disease was once considered primarily a disease of Asian children, cases are increasingly recognized worldwide, yet the cause remains unknown and misdiagnosis is still common.",
+      "why_it_matters": "Kawasaki disease is the leading cause of acquired heart disease in children in developed countries, and broader awareness of its global rise could help parents and pediatricians recognize it sooner.",
+      "caveats": "commentary/opinion piece, no primary data, no participant sample reported, single author",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Important pediatric topic but commentary only, no new data or study sample.",
+      "pitch_angles": [
+        {
+          "publication_type": "HealthyChildren.org / General health",
+          "headline": "Kawasaki Disease Isn't Just an Asian Kids' Problem Anymore \u2014 Here's What Every Parent Should Know",
+          "hook": "A disease that can silently damage a child's heart is being diagnosed in children worldwide \u2014 and doctors still don't know what causes it.",
+          "pitch_angle": "Kawasaki disease, the leading cause of acquired heart disease in children in developed countries, is increasingly being seen across all ethnicities globally. Early recognition of its symptoms \u2014 prolonged fever, rash, red eyes \u2014 remains critical because delayed treatment raises the risk of coronary artery damage."
+        }
+      ],
+      "run_date": "2026-09-11",
+      "category": "Pediatrics",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42704839",
+      "headline": "Poverty Gets Under Children's Skin at the DNA Level \u2014 A New Review Explains How",
+      "journal": "Archivos Argentinos de Pediatr\u00eda",
+      "pubdate": "2026 Sep 10",
+      "doi": "10.5546/aap.2026-11116.eng",
+      "groundbreaking": "Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This narrative review, authored by a researcher from the Universidad Nacional de C\u00f3rdoba in Argentina, synthesizes current evidence on how social and environmental conditions during the first 1,000 days of life can alter developmental programming through epigenetic mechanisms \u2014 specifically changes in DNA methylation patterns. Drawing on the Developmental Origins of Health and Disease (DOHaD) framework, the review describes how socioeconomic disadvantage interacts with nutritional, toxic, and psychosocial exposures during periods of high biological plasticity. The authors argue that the well-documented social gradient in child health \u2014 where morbidity and mortality worsen as socioeconomic status declines \u2014 may be partly explained by these molecular changes.",
+      "why_it_matters": "The review reinforces that early-life poverty and adversity may shape children's long-term health trajectories through biological mechanisms, not just social circumstances \u2014 strengthening the scientific case for early childhood investment.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Relevant DOHaD framework; narrative review limits novelty; strong parenting policy angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "NPR Health",
+          "headline": "Poverty Leaves a Mark on Children's DNA \u2014 And It Starts in the Womb",
+          "hook": "A new review finds that economic hardship during the first 1,000 days of life may rewrite children's gene expression in ways that shape health for decades.",
+          "pitch_angle": "By synthesizing evidence on epigenetics and the social gradient in health, this Argentine review argues that socioeconomic disadvantage doesn't just limit access to resources \u2014 it may alter the biological programming of developing children at the molecular level, providing a scientific basis for early childhood policy interventions."
+        },
+        {
+          "publication_type": "NYT Parenting",
+          "headline": "The Science of How Hardship Gets Into a Baby's Biology",
+          "hook": "Researchers are finding that the stress of poverty during pregnancy and infancy can leave measurable marks on children's DNA \u2014 before they're old enough to remember anything.",
+          "pitch_angle": "This review translates the DOHaD framework for a general audience, explaining how nutritional gaps, toxic exposures, and psychosocial stress during the first 1,000 days are associated with changes in DNA methylation that may influence a child's lifelong health trajectory \u2014 raising urgent questions about what society owes families in those earliest months."
+        }
+      ],
+      "run_date": "2026-09-11",
+      "category": "Pediatrics",
+      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -58,33 +352,6 @@
       "status": "new"
     },
     {
-      "pmid": "42713659",
-      "headline": "A Premature Newborn Survived Congenital Drug-Resistant TB With Brain Infection \u2014 Only the Second Known Case to Do So",
-      "journal": "Paediatrics and International Child Health",
-      "pubdate": "2026 Sep 9",
-      "doi": "10.1080/20469047.2026.2731528",
-      "groundbreaking": "First-in-class human study / Major child health or parenting implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at AIIMS Jodhpur, India, describe a single case of congenital multidrug-resistant tuberculosis (MDR-TB) with TB meningitis in an extremely low birth weight preterm neonate, accompanied by a narrative review of eight previously reported neonatal drug-resistant TB cases worldwide. The infant, born to a mother with confirmed rifampicin- and isoniazid-resistant TB, was treated with tailored second-line drug regimens and showed steady clinical recovery with no major drug toxicities. At 2 years of age, the child was reported to be developmentally well \u2014 making this only the second known preterm infant with MDR-TB to survive without neurological deficits, and the first reported case of disseminated congenital MDR-TB with TB meningitis to survive.",
-      "why_it_matters": "This rare survival case and accompanying review offer clinicians one of the few documented guides for managing an almost universally fatal neonatal condition, which may inform diagnostic and treatment approaches in high-TB-burden settings.",
-      "caveats": "small sample (N<100), single-center, single case report, India-specific clinical context, limited generalizability to low-TB-burden countries, self-reported (caregiver-reported) outcomes at 2-year follow-up",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Rare neonatal case; high clinical novelty but very narrow, low parenting relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health",
-          "headline": "A Premature Baby Survived a Nearly Always-Fatal Drug-Resistant TB Infection \u2014 Here's What Doctors Learned",
-          "hook": "In what may be only the second documented survival of its kind, a premature newborn in India survived multidrug-resistant tuberculosis with brain involvement \u2014 and was thriving at age 2.",
-          "pitch_angle": "The case, reported alongside a review of all known similar neonatal cases worldwide, found that early repeat molecular testing and customized drug regimens were key to the infant's survival. For clinicians in high-TB-burden countries, the report offers one of the few published roadmaps for a condition with almost no established treatment evidence in preterm newborns."
-        }
-      ],
-      "run_date": "2026-09-10",
-      "category": "Pediatrics",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42706995",
       "headline": "A Mother's Nervous System During Pregnancy May Shape Her Baby's Stress-Regulation Ability \u2014 Before Birth",
       "journal": "Child Development",
@@ -110,33 +377,6 @@
           "headline": "Babies May Inherit Their Capacity for Calm From Their Mothers \u2014 Before They're Even Born",
           "hook": "A mother's nervous system functioning during pregnancy appears directly linked to her baby's stress-regulation biology at 7 months \u2014 and postnatal parenting behavior didn't explain the connection.",
           "pitch_angle": "The registered report, tracking 385 mother-infant pairs, found that prenatal maternal autonomic regulation predicted infant RSA in a way that sensitive postbirth parenting could not \u2014 raising questions about how prenatal health interventions might benefit child development long before any parenting choices are made."
-        }
-      ],
-      "run_date": "2026-09-10",
-      "category": "Pediatrics",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42704460",
-      "headline": "Ultrasound Could Replace X-Rays for Checking Kids' Bone Age \u2014 No Radiation Required",
-      "journal": "Pediatric Radiology",
-      "pubdate": "2026 Sep 7",
-      "doi": "10.1007/s00247-026-06772-2",
-      "groundbreaking": "First-in-class human study / Major child health or parenting implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers in Wuhan, China used ultrasound to measure ossification ratios at three wrist sites in 144 patients aged 0.1\u201318 years, then compared results to the standard radiation-based Greulich-Pyle bone-age atlas. The summed ultrasound scores correlated almost perfectly with X-ray bone age (r=0.97\u20130.98) and showed excellent reproducibility between operators. The findings suggest a radiation-free ultrasound method could reliably replace X-rays for routine pediatric bone-age screening.",
-      "why_it_matters": "A validated radiation-free bone-age tool could reduce cumulative X-ray exposure in the millions of children screened each year for growth disorders and skeletal development.",
-      "caveats": "small sample (N<100 per sex subgroup), single-center, narrow age range applicability requires validation in non-Chinese populations, observational design",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Clinically useful pediatric imaging finding; limited parenting-facing story angle.",
-      "pitch_angles": [
-        {
-          "publication_type": "HealthyChildren.org / TIME Health",
-          "headline": "A Simple Ultrasound Could Soon Tell Doctors How Old a Child's Bones Are \u2014 Without Any Radiation",
-          "hook": "Checking whether a child's skeleton is developing on track currently requires an X-ray \u2014 but a new ultrasound technique may work just as well, with zero radiation.",
-          "pitch_angle": "Chinese researchers found that summing ultrasound measurements at three wrist sites in children ages 0\u201318 matched the gold-standard X-ray bone-age test almost perfectly. If validated more broadly, the approach could spare children routine radiation exposure during growth assessments."
         }
       ],
       "run_date": "2026-09-10",
