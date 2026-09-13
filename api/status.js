@@ -28,7 +28,10 @@ module.exports = async function handler(req, res) {
 
     res.status(405).json({ error: 'Method not allowed' });
   } catch (err) {
+    // The detail stays in the Vercel logs. This endpoint is public, and a Neon
+    // driver error can quote the whole DATABASE_URL, password included -- that
+    // is how Pawket's /api/health published one on 2026-09-08.
     console.error(err);
-    res.status(500).json({ error: String(err) });
+    res.status(500).json({ error: 'Status store unavailable' });
   }
 };
