@@ -1,0 +1,73 @@
+name: Sync Senior Living — New This Week
+
+# senior-research-digest's new-this-week run replaced elderly-geriatric-digest
+# (MEA-573). It writes its studies in this dashboard's shape to a file in its
+# own public repo, and this pulls them -- the same pattern as the New Scientist
+# sync, so the digest repo needs no token that can write here.
+#
+# Its daily run starts anywhere from 08:30 to 20:00 UTC (GitHub queues
+# scheduled workflows), so this checks twice. Both are idempotent: an unchanged
+# file commits nothing.
+
+on:
+  schedule:
+    - cron: '41 17 * * *'
+    - cron: '41 23 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout dashboard
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch senior-research-digest's shared file
+        run: |
+          python - <<'PY'
+          import json, urllib.request
+          from pathlib import Path
+
+          url = ("https://raw.githubusercontent.com/Meggers1982/"
+                 "senior-research-digest/main/docs/data/shared-dashboard.json")
+          with urllib.request.urlopen(url, timeout=30) as resp:
+              source = json.loads(resp.read())
+
+          studies = source.get("studies")
+          if not isinstance(studies, list):
+              raise SystemExit(f"No studies list in {url}; leaving the file alone.")
+
+          # The source is rebuilt from that repo's whole archive, so it only
+          # grows. A smaller file means something upstream broke -- keep what
+          # is here rather than publish the loss.
+          out = Path("data/senior-research.json")
+          if out.exists():
+              held = len(json.loads(out.read_text()).get("studies", []))
+              if len(studies) < held:
+                  raise SystemExit(f"Upstream has {len(studies)} studies, this file "
+                                   f"has {held}; refusing to shrink it.")
+
+          source["source_id"] = "senior-research"
+          source["source_label"] = "Senior Living — New This Week"
+          source["total_studies"] = len(studies)
+          out.write_text(json.dumps(source, indent=2, ensure_ascii=False) + "\n")
+          print(f"Wrote {len(studies)} studies")
+          PY
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/senior-research.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: sync Senior Living — New This Week digest"
+            git pull --rebase origin main && git push
+          fi

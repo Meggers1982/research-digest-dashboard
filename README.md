@@ -19,6 +19,7 @@ data/
   conditions-body.json
   dermatology-skin.json
   elderly-geriatric.json
+  senior-research.json
   fitness-exercise.json
   gut-digestive.json
   mental-health.json
@@ -28,6 +29,7 @@ data/
 .github/
   workflows/
     sync-new-scientist.yml
+    sync-senior-research.yml
 ```
 
 ## Data Shape
@@ -159,6 +161,22 @@ Then add a step after the digest repo has produced or merged `data/results.json`
 
 Change `DASHBOARD_FILE`, `SOURCE_ID`, and `SOURCE_LABEL` for each digest repo.
 
+### Pulled sources
+
+Two sources are pulled by a workflow here instead of pushed by their digest
+repo, so that repo needs no token that can write to this one:
+
+- `new-scientist-mh` — `.github/workflows/sync-new-scientist.yml`
+- `senior-research` — `.github/workflows/sync-senior-research.yml`, from
+  `docs/data/shared-dashboard.json` in `senior-research-digest`. That repo's
+  new-this-week run replaced `elderly-geriatric-digest` on 2026-09-13 (MEA-573).
+  The sync refuses to shrink the file, since upstream is rebuilt from the whole
+  archive and should only grow.
+
+When `elderly-geriatric-digest` stops running, `data/elderly-geriatric.json` stays
+as it is — its studies, and the saved/passed marks keyed `elderly-geriatric:<pmid>`,
+keep showing. New studies arrive under `senior-research`.
+
 ## Source Map
 
 | Digest repo | Dashboard file | Source ID |
@@ -167,7 +185,8 @@ Change `DASHBOARD_FILE`, `SOURCE_ID`, and `SOURCE_LABEL` for each digest repo.
 | `cardiology-heart-digest` | `data/cardiology-heart.json` | `cardiology-heart` |
 | `conditions-body-digest` | `data/conditions-body.json` | `conditions-body` |
 | `dermatology-skin-digest` | `data/dermatology-skin.json` | `dermatology-skin` |
-| `elderly-geriatric-digest` | `data/elderly-geriatric.json` | `elderly-geriatric` |
+| `elderly-geriatric-digest` (retiring, MEA-573) | `data/elderly-geriatric.json` | `elderly-geriatric` |
+| `senior-research-digest` (pulled, not pushed) | `data/senior-research.json` | `senior-research` |
 | `fitness-exercise-digest` | `data/fitness-exercise.json` | `fitness-exercise` |
 | `gut-digestive-digest` | `data/gut-digestive.json` | `gut-digestive` |
 | `mental-health-digest` | `data/mental-health.json` | `mental-health` |
