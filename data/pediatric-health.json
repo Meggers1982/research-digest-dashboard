@@ -1,60 +1,261 @@
 {
-  "last_updated": "2026-09-12T13:56:51.444839+00:00",
-  "total_studies": 216,
-  "new_this_run": 7,
+  "last_updated": "2026-09-13T14:51:21.631860+00:00",
+  "total_studies": 220,
+  "new_this_run": 4,
   "studies": [
     {
       "pmid": "42717184",
-      "headline": "A New AI Tool Can Read Teen Drivers' Eye Movements to Spot Dangerous Scanning Habits",
+      "headline": "AI Eye-Tracking Tool May Reveal Why Teen Drivers Miss Road Hazards",
       "journal": "Behavior Research Methods",
       "pubdate": "2026 Sep 9",
       "doi": "10.3758/s13428-026-03154-2",
       "groundbreaking": "First-in-class human study / Major child health or parenting implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Children's Hospital of Philadelphia applied machine-learning time-series clustering to raw eye-tracking data from 36 young drivers ages 16\u201324 during a simulated driving assessment, eliminating the need for labor-intensive manual video coding. The method successfully identified distinct visual search strategy patterns during a curved-road driving scenario. Early evidence suggests this scalable approach could make it feasible to study hazard-detection behavior in large cohorts of novice teen drivers.",
-      "why_it_matters": "Understanding how newly licensed teen drivers scan the road for hazards \u2014 a leading cause of crash risk \u2014 could one day inform driver education programs designed to teach safer visual habits.",
-      "caveats": "small sample (N<100), single-center, narrow age range, simulated driving environment (not real-world), industry funding [Diagnostic Driving Inc. \u2014 co-author conflict of interest noted]",
+      "summary": "Researchers at Children's Hospital of Philadelphia developed a machine-learning method using time-series clustering to automatically identify how young drivers scan the road during simulated driving, replacing slow manual video analysis. The study included 36 young drivers ages 16\u201324 in a virtual driving assessment. The approach successfully distinguished different visual search strategies, suggesting it could scale up the study of why novice teen drivers miss hazards like pedestrians at crosswalks.",
+      "why_it_matters": "A scalable tool for measuring teen drivers' visual scanning habits could eventually help identify which young drivers are at highest crash risk before they encounter real-world hazards.",
+      "caveats": "small sample (N<100), single-center, narrow age range, simulated (not real-world) driving environment, conflict of interest (lead author has financial interest in Diagnostic Driving, Inc.)",
       "fact_check_note": "",
       "relevance_score": 5,
-      "relevance_score_reason": "Teen safety angle is relevant; methodology paper limits practical parenting takeaway.",
+      "relevance_score_reason": "Methodological study; teen safety angle relevant but small sample and no direct parenting takeaway.",
       "pitch_angles": [
         {
-          "publication_type": "NPR Health / General health",
-          "headline": "AI Eye-Tracking Could Reveal Why Teen Drivers Miss Hazards \u2014 Before a Crash Happens",
-          "hook": "A new machine-learning method can automatically map how young drivers' eyes move \u2014 and flag the risky patterns that human coders used to miss.",
-          "pitch_angle": "Researchers developed a scalable AI tool that clusters raw eye-tracking data to identify how 16-to-24-year-old drivers visually search the road, a key factor in crash risk. If validated in larger studies, the approach could reshape how driver education programs train teens to spot dangers before they react."
+          "publication_type": "NPR Health",
+          "headline": "A New AI Tool Could Pinpoint Why Teen Drivers Miss Pedestrians \u2014 Before a Crash Happens",
+          "hook": "Teen driving deaths remain a leading cause of adolescent mortality, and a new AI-powered eye-tracking method may finally reveal the visual habits that put young drivers at risk.",
+          "pitch_angle": "Researchers developed a machine-learning approach that automatically maps how 16-to-24-year-olds scan the road in a driving simulator, identifying distinct search strategies linked to hazard detection. If scaled to larger studies, the tool could help researchers and driving instructors pinpoint the scanning blind spots most dangerous for new drivers."
         }
       ],
-      "run_date": "2026-09-12",
+      "run_date": "2026-09-13",
       "category": "Behavioral Sciences",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42713659",
-      "headline": "A Premature Baby Survived Drug-Resistant TB With No Brain Damage \u2014 A Near-First in Medical History",
+      "headline": "A Premature Newborn Survived Drug-Resistant TB Passed From Mother at Birth \u2014 Only the Second Ever Reported",
       "journal": "Paediatrics and International Child Health",
       "pubdate": "2026 Sep 9",
       "doi": "10.1080/20469047.2026.2731528",
       "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at AIIMS Jodhpur (India) describe a single case of congenital disseminated multidrug-resistant tuberculosis (MDR-TB) with TB meningitis in an extremely premature, extremely low birth weight neonate, accompanied by a narrative review of all eight previously reported neonatal drug-resistant TB cases worldwide. The infant was born to a mother later confirmed to carry katG-mediated rifampicin and isoniazid resistance. Treated with tailored second-line MDR regimens, the infant survived without neurological deficits \u2014 reportedly only the second preterm infant with MDR-TB to do so and the first with confirmed TB meningitis.",
-      "why_it_matters": "This case and review suggest that early, repeated molecular testing and prompt tailored drug regimens may improve survival outcomes even in the most vulnerable newborns with drug-resistant TB, an area with almost no prior evidence.",
-      "caveats": "small sample (N<100), single-center, narrow age range, observational design",
+      "summary": "Researchers in India report a single case of congenital disseminated multidrug-resistant tuberculosis (MDR-TB) in an extremely low birth weight preterm neonate born to a mother with confirmed MDR-TB, accompanied by a narrative review of eight previously published neonatal drug-resistant TB cases worldwide. The infant was treated with tailored second-line drug regimens and showed clinical recovery without major toxicities; at 2 years of age, the child was reported developmentally normal. The case is described as only the second preterm infant with MDR-TB known to survive without neurological deficits, and the first reported case of disseminated congenital MDR-TB with TB meningitis.",
+      "why_it_matters": "This rare case, combined with its review of prior cases, offers clinicians one of the only evidence bases for diagnosing and treating MDR-TB in extremely premature newborns \u2014 a scenario where delays in diagnosis have historically led to death.",
+      "caveats": "small sample (N<100), single-center, observational design, narrow age range",
       "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Rare neonatal case report; limited generalizability; high clinical but low parenting-media relevance.",
+      "relevance_score": 4,
+      "relevance_score_reason": "Rare neonatal case; limited generalizability to US/global parenting audience, highly clinical.",
       "pitch_angles": [
         {
           "publication_type": "General health",
-          "headline": "A Preemie Born With Drug-Resistant TB Beat the Odds \u2014 Here's What Doctors Learned",
-          "hook": "In one of only a handful of cases ever recorded worldwide, a premature newborn survived a form of tuberculosis resistant to frontline drugs \u2014 and is now developing normally.",
-          "pitch_angle": "Doctors in India describe the diagnostic detective work and experimental treatment that saved a premature infant with a nearly always-fatal condition, offering the first roadmap for clinicians who may face similar cases. The case underscores how rare but deadly congenital MDR-TB is, and why early molecular testing matters."
+          "headline": "A Preemie Born With Drug-Resistant TB Is One of Only Two Ever Known to Survive Without Brain Damage",
+          "hook": "Congenital MDR-TB in a premature newborn is so rare that only a handful of cases have ever been reported \u2014 and most have ended in death.",
+          "pitch_angle": "This case from India, paired with a review of all known neonatal drug-resistant TB cases worldwide, suggests that early repeat testing and tailored treatment can improve survival even in the most vulnerable newborns \u2014 offering rare clinical guidance where almost none existed before."
         }
       ],
-      "run_date": "2026-09-12",
+      "run_date": "2026-09-13",
       "category": "Pediatrics",
       "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42716544",
+      "headline": "In Nearly Half the Countries Surveyed, Parents Are Never Told Their Child's Death Was Formally Reviewed",
+      "journal": "BMJ Paediatrics Open",
+      "pubdate": "2026 Sep 8",
+      "doi": "10.1136/bmjpo-2026-005019",
+      "groundbreaking": "Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted an international survey of professionals working in child death review (CDR) systems across 13 countries, collecting data from 20 regional respondents on legal frameworks, family involvement, and review criteria. They found that while all CDR programs shared a common goal of preventing future child deaths, practice varied widely: six regions required parental consent for reviews, while nine did not inform parents that a review was occurring at all. Countries without legislative mandates for CDR reported significant challenges in conducting reviews consistently.",
+      "why_it_matters": "The finding that many families are never told their child's death was reviewed raises important questions about transparency, parental rights, and whether bereaved families are being denied information that could improve care for other children.",
+      "caveats": "small sample (N<100), observational design, self-reported outcomes",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Compelling parental rights angle; small expert sample limits generalizability, policy-heavy framing.",
+      "pitch_angles": [
+        {
+          "publication_type": "NPR Health / General health",
+          "headline": "When a Child Dies, Many Countries Review What Went Wrong \u2014 But Often Don't Tell the Parents",
+          "hook": "A new international survey found that in nine of the regions studied, parents are not even informed that a formal review of their child's death has taken place.",
+          "pitch_angle": "Child death review systems exist in at least 13 countries with the goal of preventing future deaths, but their approaches to family involvement vary dramatically \u2014 and the gap between countries that require parental consent and those that don't inform families at all raises urgent questions about transparency and grief support in pediatric care."
+        }
+      ],
+      "run_date": "2026-09-13",
+      "category": "Pediatrics",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42704460",
+      "headline": "A Simple Ultrasound Scan Could Replace X-Rays for Checking Kids' Bone Age",
+      "journal": "Pediatric Radiology",
+      "pubdate": "2026 Sep 7",
+      "doi": "10.1007/s00247-026-06772-2",
+      "groundbreaking": "First-in-class human study / Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Wuhan, China tested whether ultrasound measurements of bone ossification at three wrist sites could accurately estimate skeletal age in 144 children aged 0.1\u201318 years, comparing results to the standard X-ray-based Greulich-Pyle atlas. The summed ultrasound ossification ratio of the distal radius, distal ulna, and proximal radius correlated very highly with X-ray bone age (r=0.97\u20130.98 for both sexes) with near-perfect reliability within and between observers. The method is radiation-free and may offer a practical alternative to X-ray for routine pediatric bone age screening and developmental staging.",
+      "why_it_matters": "If validated more broadly, this technique could allow clinicians to assess children's skeletal development and catch growth disorders without exposing them to any radiation.",
+      "caveats": "small sample (N=144), single-center, narrow geographic population (Wuhan, China), single-arm observational design, no clinical outcome validation",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Clinically relevant radiation-free method; limited by single-center small Chinese sample.",
+      "pitch_angles": [
+        {
+          "publication_type": "NPR Health / TIME Health",
+          "headline": "Could Ultrasound Replace X-Rays for Checking How Kids Are Growing?",
+          "hook": "Doctors may soon be able to assess whether a child's bones are developing on track \u2014 with no radiation whatsoever.",
+          "pitch_angle": "A new study suggests that a simple ultrasound measurement at the wrist can estimate a child's bone age nearly as accurately as the standard radiation-based X-ray method. The finding, from a Chinese pediatric hospital, is preliminary but points toward a safer screening tool for the millions of children evaluated each year for growth disorders or delayed puberty."
+        }
+      ],
+      "run_date": "2026-09-13",
+      "category": "Pediatrics",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42705868",
+      "headline": "A Drug Given to Pregnant Women May Protect Their Babies From a Serious Blood Disorder \u2014 With No Developmental Harm at Two Years",
+      "journal": "Archives of Disease in Childhood. Fetal and Neonatal Edition",
+      "pubdate": "2026 Sep 7",
+      "doi": "10.1136/archdischild-2026-331009",
+      "groundbreaking": "First-in-class human study / Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a multicentre open-label single-arm trial, 13 high-risk pregnancies were treated with weekly maternal nipocalimab (an antibody-blocking drug) to prevent early-onset severe haemolytic disease of the fetus and newborn (HDFN); 12 resulted in live births. Infants delivered after a full nipocalimab course without intrauterine transfusions showed markedly lower cord-blood antibody levels and needed far fewer transfusions than those whose treatment was discontinued early. Critically, no neurodevelopmental delays were identified in infant follow-up through 24 months, and growth patterns were normal through 6 months.",
+      "why_it_matters": "For families facing pregnancies at high risk of severe fetal blood disease \u2014 which can cause stillbirth, brain injury, or need for risky intrauterine transfusions \u2014 early evidence suggests nipocalimab may reduce disease severity without harming infant brain development.",
+      "caveats": "small sample (N=12 live births), single-arm study (no control group), industry funding [Johnson & Johnson], open-label design, short follow-up (24 months), caregiver-reported neurodevelopmental outcomes (ASQ-3), rare disease population limits generalizability",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Rare but devastating neonatal condition; very small N and industry funding limit confidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "NPR Health / TIME Health",
+          "headline": "A Drug That Protects Babies From a Rare Blood Disease Before Birth Shows No Harm to Development at Age 2",
+          "hook": "Haemolytic disease of the newborn can cause stillbirth or brain damage \u2014 and a new treatment given to mothers during pregnancy may reduce its severity without harming infants' developing brains.",
+          "pitch_angle": "A small but significant multinational trial found that weekly infusions of nipocalimab during high-risk pregnancies dramatically lowered the dangerous antibody levels that cause haemolytic disease, and infant follow-up through two years showed normal growth and neurodevelopment. The findings are preliminary \u2014 just 12 live births \u2014 but offer early reassurance for a drug being studied as an alternative to risky intrauterine transfusions."
+        }
+      ],
+      "run_date": "2026-09-13",
+      "category": "Pediatrics",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42726181",
+      "headline": "First Responders Gain Confidence in Autism Situations After Training \u2014 Even Without Personal Ties to Autism",
+      "journal": "Journal of Autism and Developmental Disorders",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1007/s10803-026-07520-z",
+      "groundbreaking": "Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers examined pre- and post-training measures from first responders \u2014 including law enforcement, EMTs, and other professionals \u2014 who completed an autism response training program, comparing confidence, self-efficacy, and knowledge gains across professional roles and personal relationships to autism. Participants without any personal connection to autism showed the greatest confidence gains, while law enforcement entered with higher baseline self-efficacy and improved less overall. Regardless of background or prior relationship to autism, all participants improved across all outcomes after training.",
+      "why_it_matters": "For families of autistic children, this suggests that broad, mandatory autism training for all first responders \u2014 not just those with personal connections \u2014 could meaningfully reduce the risk of harmful encounters during emergencies.",
+      "caveats": "small sample (N<100), observational design, self-reported outcomes, single-center, short follow-up, narrow age range",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Autism child safety angle is strong; no pediatric participant data, indirect parenting relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "Parents Magazine / Today's Parent",
+          "headline": "What Happens When First Responders Get Autism Training \u2014 Even If They've Never Met an Autistic Person",
+          "hook": "A new study finds that first responders with zero personal connection to autism gain the most confidence after autism response training.",
+          "pitch_angle": "For parents of autistic children, a 911 call can carry extra fear \u2014 but new research suggests training works for all first responders, not just those who already 'get it,' pointing toward universal training as a potential safety net for autistic kids and their families."
+        },
+        {
+          "publication_type": "HealthyChildren.org / General health",
+          "headline": "Autism Training for First Responders Works \u2014 And Prior Experience Isn't Required",
+          "hook": "Officers and EMTs with no personal ties to autism showed the biggest gains in confidence after a structured autism response training.",
+          "pitch_angle": "The study, which assessed first responders before and after training, found universal improvement regardless of professional role or personal relationship to autism \u2014 suggesting that advocacy for community-wide first responder training could directly benefit autistic children in emergencies."
+        }
+      ],
+      "run_date": "2026-09-13",
+      "category": "Pediatrics",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42722376",
+      "headline": "Kawasaki Disease Is Going Global \u2014 And Doctors Are Still Struggling to Explain Why",
+      "journal": "Pediatrics",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1542/peds.2026-076771",
+      "groundbreaking": "Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This commentary by a leading Kawasaki disease researcher reviews progress and ongoing challenges in understanding and managing Kawasaki disease as its epidemiology shifts internationally. No new primary data or participant cohort is presented; the piece synthesizes the evolving global picture of the condition. The author highlights that while diagnosis and treatment have improved, the underlying cause remains unknown and international variation in incidence continues to raise questions.",
+      "why_it_matters": "Kawasaki disease is the leading cause of acquired heart disease in children in developed countries, and its expanding global reach means pediatricians and parents worldwide need greater awareness of its signs.",
+      "caveats": "commentary or review piece (no primary data), no study population or N reported, single author",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Important pediatric topic but commentary only; no new data or findings.",
+      "pitch_angles": [
+        {
+          "publication_type": "HealthyChildren.org / General health",
+          "headline": "Kawasaki Disease Is More Common Than Many Parents Realize \u2014 And It's Spreading Globally",
+          "hook": "Kawasaki disease \u2014 a mysterious inflammatory illness that can permanently damage a child's heart \u2014 is being diagnosed in more countries than ever before.",
+          "pitch_angle": "A leading researcher reviews what medicine has learned about Kawasaki disease and what remains dangerously unknown, including its cause. For parents and pediatricians, the key message is that awareness and early recognition remain critical as the disease appears in populations where it was once rarely seen."
+        }
+      ],
+      "run_date": "2026-09-13",
+      "category": "Pediatrics",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42727989",
+      "headline": "Most Children Who Die From Sepsis Don't Make It to Intensive Care \u2014 Doctors Are Racing to Change That",
+      "journal": "Archives of Disease in Childhood",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1136/archdischild-2026-331272",
+      "groundbreaking": "Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This narrative review examines two decades of progress and persistent gaps in pediatric sepsis recognition and management, with no new primary data or child participant cohort. The authors highlight that the revised Phoenix Sepsis Criteria have shifted focus to organ dysfunction rather than inflammation, and that vaccines have changed which children present with invasive bacterial infection. A critical finding: many pediatric sepsis deaths still occur within the first 24 hours of ICU referral, suggesting outcomes are often decided before children reach specialist care.",
+      "why_it_matters": "For parents and emergency clinicians, the review underscores that early recognition of sepsis in febrile children \u2014 before hospital admission \u2014 remains the hardest and most important challenge in saving young lives.",
+      "caveats": "commentary or review piece (no primary data), no study population or N reported",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "High-prevalence, high-stakes child health topic; narrative review limits new-finding strength.",
+      "pitch_angles": [
+        {
+          "publication_type": "NPR Health / TIME Health",
+          "headline": "Children Are Still Dying of Sepsis Before They Even Reach Intensive Care",
+          "hook": "Despite two decades of progress, most children who die from sepsis don't survive long enough to reach a pediatric ICU \u2014 and doctors still struggle to spot it early.",
+          "pitch_angle": "A review in Archives of Disease in Childhood finds that early recognition of sepsis in children with fever remains deeply imperfect, with screening tools unreliable and clinicians still relying on intuition and parental concern. The authors say the next frontier is smarter risk stratification \u2014 including AI tools \u2014 to catch the sickest children before it's too late."
+        }
+      ],
+      "run_date": "2026-09-13",
+      "category": "Pediatrics",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42720532",
+      "headline": "There's Finally a Validated Tool to Screen Kids for Needle Fear \u2014 and It Takes Under a Minute",
+      "journal": "Journal of Pediatric Psychology",
+      "pubdate": "2026 Sep 10",
+      "doi": "10.1093/jpepsy/jsag061",
+      "groundbreaking": "First-in-class human study / Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers developed and validated a 7-item caregiver-reported questionnaire \u2014 the Pediatric Needle Worry (PNW) scale \u2014 to screen children ages 6\u201318 for needle fear, testing it with 234 caregivers. The tool showed excellent internal consistency (\u03b1=.90), strong convergent validity with an adult needle fear measure (r=.70), and moderate correlation with general anxiety (r=.36). No validated pediatric needle fear screening measure previously existed, leaving clinicians without a standardized way to identify children who need targeted support.",
+      "why_it_matters": "Unrecognized needle fear is a leading reason children and teens avoid vaccines and routine medical care, and this new tool could help clinicians identify and refer at-risk youth before avoidance becomes entrenched.",
+      "caveats": "small sample (N=234), self-reported (parent-reported) outcomes, cross-sectional design, not yet tested in clinical settings, narrow age range (6\u201318 years only)",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "First validated tool for common pediatric issue; practical parent and clinician relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "Parents Magazine / Today's Parent",
+          "headline": "Does Your Child Dread Shots? A New 7-Question Tool Can Tell You If It's More Than Just Nerves",
+          "hook": "Needle fear affects up to two-thirds of children and is one of the top reasons kids skip vaccines \u2014 but until now, there was no standard way to screen for it.",
+          "pitch_angle": "Researchers have developed the first validated caregiver questionnaire for pediatric needle fear, covering anxiety, avoidance, and impairment in children ages 6\u201318. The tool could help parents and pediatricians identify kids who need evidence-based support before fear leads to healthcare avoidance."
+        },
+        {
+          "publication_type": "HealthyChildren.org / General health",
+          "headline": "Needle Phobia in Kids Is Underdiagnosed \u2014 A New Screening Tool Aims to Fix That",
+          "hook": "Pediatric needle fear is common, clinically significant, and largely unscreened \u2014 until now.",
+          "pitch_angle": "A newly validated 7-item questionnaire allows caregivers to flag children ages 6\u201318 whose needle fear may warrant a clinical referral, filling a gap that researchers say contributes to inequitable access to care. The tool distinguishes needle worry from general anxiety and could be integrated into routine well-child visits."
+        }
+      ],
+      "run_date": "2026-09-13",
+      "category": "Pediatrics",
+      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -157,33 +358,6 @@
       "status": "new"
     },
     {
-      "pmid": "42704460",
-      "headline": "A Simple Ultrasound Wrist Scan May Replace X-Rays for Checking Kids' Bone Age",
-      "journal": "Pediatric Radiology",
-      "pubdate": "2026 Sep 7",
-      "doi": "10.1007/s00247-026-06772-2",
-      "groundbreaking": "First-in-class human study / Major child health or parenting implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Wuhan Children's Hospital used ultrasound to measure ossification ratios at three wrist sites in 144 patients aged 0.1\u201318.0 years and compared results to standard X-ray bone age readings. The sum of ossification ratios at the distal radius, distal ulna, and proximal radius correlated nearly perfectly with X-ray bone age (r=0.97\u20130.98), with excellent reproducibility between observers. The findings suggest this ultrasound approach could serve as a radiation-free alternative to the standard Greulich-Pyle X-ray atlas used in pediatric growth and developmental assessment.",
-      "why_it_matters": "If validated in broader populations, this approach could allow clinicians to assess children's skeletal development without exposing them to radiation during routine growth screening.",
-      "caveats": "small sample (N<100 per sex subgroup), single-center, narrow age range (Chinese pediatric population \u2014 Wuhan), secondary analysis not applicable, observational design",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Clinically useful radiation-free finding; small single-center Chinese sample limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "HealthyChildren.org / General health",
-          "headline": "Could an Ultrasound Replace X-Rays for Checking Your Child's Bone Development?",
-          "hook": "A new study suggests a simple wrist ultrasound \u2014 with no radiation \u2014 may be just as accurate as X-rays for assessing how a child's skeleton is maturing.",
-          "pitch_angle": "Researchers found that measuring bone ossification at three wrist sites with ultrasound correlated almost perfectly with standard X-ray bone age readings in children from infancy through age 18. If confirmed in larger and more diverse populations, this radiation-free method could eventually change how pediatricians and orthopedists monitor children's skeletal growth."
-        }
-      ],
-      "run_date": "2026-09-12",
-      "category": "Pediatrics",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42702100",
       "headline": "Six-Year-Olds Are Less Eager to Punish Bad Behavior Than We Thought \u2014 and More Strategic About It",
       "journal": "Journal of Experimental Child Psychology",
@@ -268,39 +442,6 @@
       "run_date": "2026-09-12",
       "category": "Nutritional Sciences",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42726181",
-      "headline": "Even First Responders Who Know Autistic People Personally Still Benefit From Autism Training",
-      "journal": "Journal of Autism and Developmental Disorders",
-      "pubdate": "2026 Sep 11",
-      "doi": "10.1007/s10803-026-07520-z",
-      "groundbreaking": "Major child health or parenting implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at the University of Virginia examined pre- and post-training measures from first responders (including law enforcement, EMS, and fire personnel) who completed an autism-specific response training program, comparing outcomes across professional roles and personal relationships to autistic individuals. Participants across all groups showed improved confidence, self-efficacy, and knowledge after training, regardless of whether they had a close, distant, or no personal relationship to an autistic person. Notably, law enforcement officers entered with higher baseline self-efficacy but showed the smallest gains, while those with no prior personal relationship to autism saw the largest confidence gains.",
-      "why_it_matters": "For families of autistic children, this research suggests that systematic autism training for all first responders \u2014 not just those without prior exposure \u2014 may help ensure safer and more effective emergency encounters.",
-      "caveats": "observational design, self-reported (parent-reported) outcomes, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "High-prevalence autism angle; practical safety implication for families; observational limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Parents Magazine / Today's Parent",
-          "headline": "Police and Paramedics Can Learn to Better Help Autistic Kids \u2014 Even If They Think They Already Know How",
-          "hook": "Even first responders who have an autistic family member or friend still improve their skills after formal autism training \u2014 and that could matter enormously when your child needs emergency help.",
-          "pitch_angle": "A new study finds that autism response training boosts confidence and knowledge in all first responders, not just those unfamiliar with autism \u2014 challenging the assumption that personal experience is enough. For parents of autistic children, it's a reminder to advocate for universal training in their communities."
-        },
-        {
-          "publication_type": "NPR Health / TIME Health",
-          "headline": "First Responders With Autistic Family Members Still Have Gaps \u2014 Formal Training Closes Them",
-          "hook": "Having a personal connection to autism doesn't make a police officer or paramedic fully prepared to respond to an autistic child in crisis, new research suggests.",
-          "pitch_angle": "Researchers found that while personal relationships to autism raised baseline confidence among first responders, structured training still produced measurable gains in all groups \u2014 pointing to a public health case for mandatory, universal autism training rather than relying on lived experience alone."
-        }
-      ],
-      "run_date": "2026-09-12",
-      "category": "Pediatrics",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -481,33 +622,6 @@
       "run_date": "2026-09-11",
       "category": "Pediatrics",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42722376",
-      "headline": "Kawasaki Disease Is Going Global \u2014 And Doctors Are Still Struggling to Understand Why",
-      "journal": "Pediatrics",
-      "pubdate": "2026 Sep 11",
-      "doi": "10.1542/peds.2026-076771",
-      "groundbreaking": "Major child health or parenting implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This commentary by a leading Kawasaki disease researcher reviews the evolving international epidemiology and ongoing diagnostic and treatment challenges of Kawasaki disease, a rare but serious inflammatory condition that can damage children's coronary arteries. The piece is a narrative/opinion piece rather than an original data study, with no reported participant sample. It highlights that while Kawasaki disease was once considered primarily a disease of Asian children, cases are increasingly recognized worldwide, yet the cause remains unknown and misdiagnosis is still common.",
-      "why_it_matters": "Kawasaki disease is the leading cause of acquired heart disease in children in developed countries, and broader awareness of its global rise could help parents and pediatricians recognize it sooner.",
-      "caveats": "commentary/opinion piece, no primary data, no participant sample reported, single author",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Important pediatric topic but commentary only, no new data or study sample.",
-      "pitch_angles": [
-        {
-          "publication_type": "HealthyChildren.org / General health",
-          "headline": "Kawasaki Disease Isn't Just an Asian Kids' Problem Anymore \u2014 Here's What Every Parent Should Know",
-          "hook": "A disease that can silently damage a child's heart is being diagnosed in children worldwide \u2014 and doctors still don't know what causes it.",
-          "pitch_angle": "Kawasaki disease, the leading cause of acquired heart disease in children in developed countries, is increasingly being seen across all ethnicities globally. Early recognition of its symptoms \u2014 prolonged fever, rash, red eyes \u2014 remains critical because delayed treatment raises the risk of coronary artery damage."
-        }
-      ],
-      "run_date": "2026-09-11",
-      "category": "Pediatrics",
-      "chunk": "1/2",
       "status": "new"
     },
     {
