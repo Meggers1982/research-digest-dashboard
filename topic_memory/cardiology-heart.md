@@ -1,0 +1,19 @@
+# Topic Memory: Cardiology & Heart Health
+_Last updated: 2026-09-14 · source_id: cardiology-heart · covers studies through 2026-09-13_
+
+## Established findings
+- **cv-risk-prediction-models-marginal-gain** — Conventional, biomarker-enhanced, AI-based and digital prediction tools in cardiopulmonary care show marginal or surrogate-only performance, frequent accuracy problems, and no evidence that deployment improves patient outcomes. (PMIDs 42622203, 42648391, 42674218, 42701782)
+- **underuse-indicated-cv-care** — Indicated cardiovascular diagnostics and therapies are underused, and access is further limited by country income, rural geography, race and ethnicity, and missing specialist training. (PMIDs 42618427, 42680576, 42727843, 42683814, 42689328)
+- **type2-biologics-airway-disease** — Biologics for type 2 airway disease give comparable benefit across agents and reduce steroid burden, with earlier initiation in severe asthma raising the chance of clinical remission. (PMIDs 42612655, 42546934, 42617837, 42716466)
+- **blood-markers-copd-exacerbation-risk** — Routine blood-derived markers — irisin with immune-inflammation index, iNOS/eNOS ratio, and neutrophil-dominant clusters — stratify exacerbation frequency, pulmonary hypertension, and in-hospital outcomes in hospitalized COPD patients. (PMIDs 42631219, 42611378, 42337860)
+- **rare-blood-group-variants-transfusion** — Rare blood group and hemoglobin variants, plus engineered therapeutic antibodies, repeatedly confound standard pretransfusion typing and routine hematology testing. (PMIDs 42678021, 42624819, 42687636, 42687589, 42671022)
+- **new-ablation-hardware-single-arm** — New interventional hardware and techniques across electrophysiology, vascular access, and thoracic surgery are reported only in small single-arm, single-center series with surrogate endpoints. (PMIDs 42648460, 42663338, 42155627, 42210756, 42687085, 42702207)
+- **older-hodgkin-chemo-sparing** — For elderly or comorbid classical Hodgkin lymphoma, chemo-sparing single-arm regimens report acceptable outcomes, and a geriatric risk score improves survival prediction. (PMIDs 42618897, 42644287, 42629454, 42590970)
+
+## Emerging threads
+- **noninvasive-ph-assessment** — Bedside VExUS ultrasound, pulmonary artery stiffness with right ventricular interplay, and serum NOS levels show promise for detecting and prognosticating pulmonary hypertension without catheterization. (PMIDs 42668061, 42648467, 42611378; first seen 2026-08-25)
+- **early-phase-pah-therapeutics** — Emerging pulmonary arterial hypertension therapies rest on small, open-label, nonrandomized studies with surrogate endpoints, and controlled trials of adjunct exercise training remain methodologically contested. (PMIDs 42728065, 42463617; first seen 2026-09-08)
+- **platelet-thromboinflammation-copd** — Platelet activation measured by urinary thromboxane metabolites predicts COPD exacerbations and death in smokers, supporting platelets as a thromboinflammatory target in chronic lung disease. (PMIDs 42690694, 42696427; first seen 2026-09-10)
+- **central-aortic-bp-phenotypes** — Ambulatory central aortic pressure and cuff-derived arterial stiffness indices identify cardiovascular risk phenotypes that standard brachial readings miss, so far against surrogate endpoints only. (PMIDs 42299866, 42307071; first seen 2026-09-08)
+- **cardio-oncology-risk-tools** — Arrhythmic complications of immunotherapies, targeted agents, and CAR-T are poorly characterized, and standard cardiovascular health scores may mislead when applied to cancer survivors. (PMIDs 42660314, 42366762; first seen 2026-08-28)
+- **chemo-free-immunotherapy-bcell** — Chemotherapy-free immunotherapy regimens for B-cell and plasma cell malignancies produce high response rates in early-phase studies and may let some patients avoid transplant. (PMIDs 42446920, 42660129, 42463941, 42275247; first seen 2026-09-06)

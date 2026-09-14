@@ -1,0 +1,1245 @@
+{
+  "generated_at": "2026-09-14T20:44:33+00:00",
+  "week_start": "2026-09-07",
+  "week_end": "2026-09-13",
+  "model": "claude-opus-5",
+  "verify_model": "claude-opus-5",
+  "effort": {
+    "main": "high",
+    "verify": "low"
+  },
+  "guardrails": {
+    "min_pmids": 3,
+    "min_journals": 2
+  },
+  "topics": {
+    "cardiology-heart": {
+      "label": "Cardiology & Heart Health",
+      "status": "ok",
+      "study_count": 51,
+      "threads": [
+        {
+          "id": "new-ablation-hardware-single-arm",
+          "title": "Novel vascular and thoracic techniques reported only as uncontrolled series",
+          "claim": "Several new minimally invasive vascular and thoracic techniques are reported only as small single-center, single-arm series demonstrating feasibility rather than comparative benefit.",
+          "direction": "extends",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "new-ablation-hardware-single-arm",
+          "original_claim": "New minimally invasive vascular and thoracic techniques — short-graft bypass, ulnar fistula access, CMOS angioscopy, single-port robotic surgery — are reported as small single-center single-arm series showing feasibility, not comparative benefit.",
+          "verification_note": "Kept studies consistently show new vascular/thoracic techniques reported as small uncontrolled feasibility series; the multicenter ablation catheter trial is a poorer fit and dropped.",
+          "pmids": [
+            "42155627",
+            "42210756",
+            "42687085",
+            "42702207"
+          ],
+          "first_seen": "2026-08-28",
+          "design_mix": {
+            "case report or series": 3,
+            "cohort": 1
+          },
+          "journal_count": 4,
+          "this_week_count": 4,
+          "studies": [
+            {
+              "pmid": "42155627",
+              "headline": "A minimally invasive bypass approach saves limbs in high-risk diabetic patients with near-zero wound complications",
+              "journal": "Annals of Vascular Surgery",
+              "pubdate": "2026 Sep",
+              "doi": "10.1016/j.avsg.2026.05.066",
+              "relevance_score": 6,
+              "run_date": "2026-09-08",
+              "summary": "Surgeons at King's College Hospital in London prospectively tracked 73 patients (63% with diabetes) who underwent 81 limb bypass procedures using the MINOR (Minimally Invasive Novel Open Revascularization) approach over 18 months, mostly for chronic limb-threatening ischemia. The technique combines shorter bypass grafts, endoscopic vein harvesting, and minimal incisions. Limb salvage reached 94% and amputation-free survival 86.4% at 18 months, with no significant wound complications and a 4% one-year mortality rate.",
+              "caveats": "small sample (N<100), single-center, observational design, short follow-up, no control arm",
+              "design": "cohort",
+              "this_week": true
+            },
+            {
+              "pmid": "42210756",
+              "headline": "A neglected arm artery may be a reliable 'hidden gem' for dialysis access when standard options fail",
+              "journal": "Journal of Vascular Access",
+              "pubdate": "2026 Sep",
+              "doi": "10.1177/11297298261451028",
+              "relevance_score": 4,
+              "run_date": "2026-09-08",
+              "summary": "A single surgeon in India performed a novel ulnar cephalic fistula (UCF) technique for dialysis vascular access in 20 kidney failure patients between January 2023 and December 2024. The UCF uses the ulnar artery — typically overlooked — when the more common radial and brachial artery options are unavailable. Immediate technical success was 100%, with 83% primary patency and 100% assisted primary patency over 18 months of follow-up.",
+              "caveats": "small sample (N<100), single-center, short follow-up, observational design",
+              "design": "case report or series",
+              "this_week": true
+            },
+            {
+              "pmid": "42687085",
+              "headline": "A new type of tiny camera may help doctors see inside leg arteries more clearly during surgery",
+              "journal": "Cardiovascular Intervention and Therapeutics",
+              "pubdate": "2026 Sep 2",
+              "doi": "10.1007/s12928-026-01345-4",
+              "relevance_score": 4,
+              "run_date": "2026-09-09",
+              "summary": "Researchers at the University of Yamanashi in Japan evaluated a novel CMOS-based angioscope — a miniature camera inserted into blood vessels — to guide endovascular (minimally invasive) artery procedures. The abstract does not specify sample size, participant demographics, or cardiac history. Early findings suggest the device may improve visualization during endovascular treatment, but no outcome data are reported in the abstract.",
+              "caveats": "small sample (N<100), single-center, surrogate endpoints only, no clinical outcome data reported in abstract",
+              "design": "case report or series",
+              "this_week": true
+            },
+            {
+              "pmid": "42702207",
+              "headline": "Single-port robotic chest surgery through one small incision appears feasible — in a 10-patient pilot",
+              "journal": "The Thoracic and Cardiovascular Surgeon",
+              "pubdate": "2026 Sep 6",
+              "doi": "10.1055/a-2948-5012",
+              "relevance_score": 4,
+              "run_date": "2026-09-13",
+              "summary": "Turkish surgeons report the first 10 consecutive patients to undergo single-port robotic thoracic surgery via an intercostal approach using the da Vinci SP system, covering lung resections, esophageal surgery, and mediastinal mass removal between March and April 2026. All procedures were completed through a single 2–4 cm incision with no conversions, no additional incisions, and no 30-day complications or mortality; mean length of stay was 2.8 days. The authors explicitly characterize this as a technical feasibility report, not a comparative outcomes study.",
+              "caveats": "small sample (N<100), single-center, observational design, short follow-up, surrogate endpoints only, no comparative arm",
+              "design": "case report or series",
+              "this_week": true
+            }
+          ]
+        }
+      ],
+      "bootstrapped": {
+        "from": "2026-08-10",
+        "to": "2026-09-06",
+        "studies": 103
+      },
+      "proposed": 5
+    },
+    "mental-health": {
+      "label": "Mental Health & Psychiatry",
+      "status": "ok",
+      "study_count": 75,
+      "threads": [
+        {
+          "id": "drug-naive-first-episode-biology",
+          "title": "Biological abnormalities precede treatment in first-episode psychiatric illness",
+          "claim": "In drug-naive first-episode psychosis, mania and depression, peripheral immune, metabolic and neural measures differ from controls in small cross-sectional studies, suggesting abnormalities present before medication exposure.",
+          "direction": "extends",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "insulin-resistance-drug-naive-schizophrenia",
+          "original_claim": "In first-episode, medication-naive patients with psychosis, mania, or depression, peripheral immune, metabolic and neural measures already differ from controls, indicating abnormalities that precede any drug exposure.",
+          "verification_note": "Multiple independent case-control samples across countries show pre-treatment biological differences from controls; two studies (42686075 BMI-moderation, 42696132 prolactin-glucose sex difference) examine within-patient associations rather than patient-control differences.",
+          "pmids": [
+            "42112712",
+            "42692293",
+            "42579964",
+            "42686075",
+            "42691514"
+          ],
+          "first_seen": "2026-09-06",
+          "design_mix": {
+            "case-control": 4,
+            "cohort": 1
+          },
+          "journal_count": 4,
+          "this_week_count": 4,
+          "studies": [
+            {
+              "pmid": "42112712",
+              "headline": "Blood drawn on the day of a first psychotic episode may already reveal biological differences between bipolar disorder and schizophrenia",
+              "journal": "International Journal of Psychiatry in Clinical Practice",
+              "pubdate": "2026 Sep",
+              "doi": "10.1080/13651501.2026.2669132",
+              "relevance_score": 6,
+              "run_date": "2026-09-08",
+              "summary": "Researchers compared routine blood counts taken within 48 hours of hospitalization in 55 first-episode schizophrenia spectrum patients, 68 first-episode bipolar disorder patients with psychotic features, and 61 healthy controls in Istanbul, Turkey. Both psychosis groups showed elevated white blood cells, neutrophils, monocytes, and monocyte-to-lymphocyte ratios compared to controls, consistent with low-grade inflammation. Condition-specific differences emerged: bipolar patients had lower red blood cell counts while schizophrenia patients had lower eosinophil levels, suggesting subtly distinct early inflammatory profiles.",
+              "caveats": "small sample (N<100 per group), single-center, observational design, cross-sectional, no longitudinal follow-up, WEIRD sample (Turkey, single hospital), secondary analysis of medical records",
+              "design": "case-control",
+              "this_week": true
+            },
+            {
+              "pmid": "42692293",
+              "headline": "Brain wave patterns and immune markers are both altered in people experiencing their first manic episode — before any medication",
+              "journal": "Journal of Affective Disorders",
+              "pubdate": "2026 Sep 3",
+              "doi": "10.1016/j.jad.2026.122466",
+              "relevance_score": 6,
+              "run_date": "2026-09-10",
+              "summary": "Researchers enrolled 60 drug-naïve inpatients experiencing a first manic episode (DSM-5 criteria) and 60 matched healthy controls, measuring peripheral inflammatory markers and resting-state quantitative EEG. Patients showed elevated monocyte counts and monocyte-to-lymphocyte ratio, lower albumin levels, and significantly higher cortical oscillatory power across multiple brain regions and frequency bands compared to controls. An exploratory finding suggested that lower albumin — a potential indicator of inflammation — was associated with higher frontal and central beta-wave power within the patient group, though this did not survive correction for multiple comparisons.",
+              "caveats": "small sample (N<100), single-center, observational design, cross-sectional design, inflammatory panel restricted to routine measures, exploratory albumin-beta association did not survive multiple-comparison correction, WEIRD sample",
+              "design": "case-control",
+              "this_week": true
+            },
+            {
+              "pmid": "42579964",
+              "headline": "Brain's internal clock runs too slow in some regions and too fast in others in early schizophrenia — before medication even starts",
+              "journal": "Asian Journal of Psychiatry",
+              "pubdate": "2026 Sep",
+              "doi": "10.1016/j.ajp.2026.105112",
+              "relevance_score": 6,
+              "run_date": "2026-09-08",
+              "summary": "Researchers used resting-state fMRI to measure intrinsic neural timescales (INT) — how long brain regions sustain their own activity — in 123 first-episode, drug-naïve or minimally treated schizophrenia patients and 102 healthy controls. They found a striking divergent pattern: cortical regions (especially the default mode network) showed abnormally shortened timescales, while subcortical regions showed prolonged ones. These abnormalities were linked to synapse-related gene expression and cerebral blood flow, suggesting they may reflect early, pre-medication biological markers of the disorder.",
+              "caveats": "single-center, WEIRD sample (Chinese clinical population — limited global generalizability), purely neuroimaging with no behavioral outcome beyond symptom correlation, observational design",
+              "design": "case-control",
+              "this_week": true
+            },
+            {
+              "pmid": "42686075",
+              "headline": "Body weight reshapes how the brain handles stress chemistry in depression — and low BMI may trigger a compensatory response",
+              "journal": "Journal of Affective Disorders",
+              "pubdate": "2026 Sep 2",
+              "doi": "10.1016/j.jad.2026.122465",
+              "relevance_score": 5,
+              "run_date": "2026-09-09",
+              "summary": "Researchers used magnetic resonance spectroscopy to measure neurochemical levels in the prefrontal cortex of 66 drug-naïve, first-episode depression patients and 79 healthy controls in China, stratifying patients by BMI. They found that in normal-BMI patients, higher glutamate in the dorsolateral prefrontal cortex was associated with greater depression severity — but in low-BMI patients, the relationship reversed. The pattern suggests that BMI may fundamentally alter how the brain's excitatory chemistry relates to depressive symptoms, possibly reflecting a compensatory neurobiological response in lower-weight individuals.",
+              "caveats": "small sample (N<100), observational design, single-center, WEIRD sample (Han Chinese clinical sample, limited generalizability), cross-sectional design, key neurometabolite differences did not survive FDR correction",
+              "design": "case-control",
+              "this_week": true
+            },
+            {
+              "pmid": "42691514",
+              "headline": "High fasting insulin — not blood sugar — may be an early signal of cognitive trouble in schizophrenia",
+              "journal": "Journal of Psychiatric Research",
+              "pubdate": "2026 Aug 31",
+              "doi": "10.1016/j.jpsychires.2026.08.022",
+              "relevance_score": 7,
+              "run_date": "2026-09-06",
+              "summary": "Researchers conducted a large-scale cross-sectional study of 466 first-episode, drug-naïve schizophrenia patients in China to examine whether fasting insulin levels were associated with cognitive impairment, independent of blood glucose. Despite normal fasting blood glucose levels, patients showed significantly elevated fasting insulin — and higher insulin levels were associated with worse performance on immediate memory, attention, delayed memory, and overall cognitive scores. The finding suggests insulin resistance in early schizophrenia may be driven primarily by hyperinsulinemia rather than elevated glucose.",
+              "caveats": "observational design, single-center, WEIRD sample (Western, Educated, Industrialized, Rich, Democratic), short follow-up",
+              "design": "cohort",
+              "this_week": false
+            }
+          ]
+        },
+        {
+          "id": "sgm-disparities-despite-supportive-context",
+          "title": "Gender and sexual minority disparities persist in protective settings",
+          "claim": "Transgender and sexual minority adults show higher mental health and economic burden and persistent care barriers even in legally protective or well-resourced settings.",
+          "direction": "extends",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "structural-barriers-persist-despite-policy",
+          "original_claim": "Transgender and sexual minority adults carry substantially higher mental health and economic burden than peers even in legally protective jurisdictions and well-resourced or affirming health systems.",
+          "verification_note": "Three independent studies in different settings show disparities persisting in protective/affirming contexts, though the Japan study is not about a protective jurisdiction and the qualitative study addresses access rather than mental health burden.",
+          "pmids": [
+            "42658622",
+            "42693312",
+            "41553871"
+          ],
+          "first_seen": "2026-09-03",
+          "design_mix": {
+            "cohort": 1,
+            "cross-sectional": 1,
+            "qualitative": 1
+          },
+          "journal_count": 3,
+          "this_week_count": 2,
+          "studies": [
+            {
+              "pmid": "42658622",
+              "headline": "Trans patients in a supportive health system still face twice the mental health burden of cisgender patients",
+              "journal": "The American Psychologist",
+              "pubdate": "2026 Sep",
+              "doi": "10.1037/amp0001706",
+              "relevance_score": 8,
+              "run_date": "2026-09-08",
+              "summary": "Researchers used electronic health records (2015–2023) from a large safety-net health system in the Bronx, NY — a relatively trans-protective legislative environment — to compare mental health outcomes between 2,898 transgender/nonbinary adults and 29,818 cisgender patients. Despite greater health care engagement, trans patients had more than twice the prevalence of mood and anxiety disorders, higher rates of suicide-related visits, and more emergency department and inpatient mental health stays. The findings suggest that even in supportive legislative contexts, greater utilization of care does not translate into better mental health outcomes for trans patients.",
+              "caveats": "observational design, single-center, retrospective design, WEIRD sample (urban Bronx safety-net system), secondary analysis",
+              "design": "cohort",
+              "this_week": true
+            },
+            {
+              "pmid": "42693312",
+              "headline": "Nearly 1 in 11 people in Japan identify as a sexual or gender minority — and they face measurable health and economic disparities",
+              "journal": "Archives of Sexual Behavior",
+              "pubdate": "2026 Sep 3",
+              "doi": "10.1007/s10508-026-03515-0",
+              "relevance_score": 7,
+              "run_date": "2026-09-09",
+              "summary": "Researchers analyzed a nationally calibrated web survey of 27,690 people aged 15 and older in Japan to estimate the prevalence and characteristics of sexual and gender minorities (SGM). Using inverse probability weighting, they estimated that 8.6% of the Japanese population identifies as SGM, with gay/lesbian (4.9%) and gender-diverse (1.6%) being the largest subgroups. SGM respondents showed notable disparities in psychological distress, household income, and employment compared to cisgender heterosexual respondents, with patterns that differed from Western reports.",
+              "caveats": "observational design, self-reported outcomes, internet survey (may underrepresent older or less digitally connected adults)",
+              "design": "cross-sectional",
+              "this_week": true
+            },
+            {
+              "pmid": "41553871",
+              "headline": "Living in a 'trans-affirming' state doesn't protect rural transgender adults from healthcare discrimination",
+              "journal": "Culture, Health & Sexuality",
+              "pubdate": "2026 Sep",
+              "doi": "10.1080/13691058.2026.2616282",
+              "relevance_score": 7,
+              "run_date": "2026-09-03",
+              "summary": "Researchers conducted in-depth interviews with 15 transgender and gender diverse adults living in rural areas of US states with legal protections for gender-affirming care, exploring their real-world healthcare experiences. Participants reported persistent barriers including lack of local services, long travel distances, inconsistent care, and discrimination — despite their state's affirming legal framework. Only some participants found local support services or affirming providers, suggesting state-level policy protections do not reliably translate into accessible, equitable care for rural transgender adults.",
+              "caveats": "small sample (N<100), single-center, self-reported outcomes, WEIRD sample (Western, Educated, Industrialized, Rich, Democratic), observational design",
+              "design": "qualitative",
+              "this_week": false
+            }
+          ]
+        },
+        {
+          "id": "eeg-biomarkers-preliminary",
+          "title": "Candidate psychiatric biomarkers rest on small unvalidated samples",
+          "claim": "Candidate diagnostic markers for ADHD, autism and depression are reported from small single-center samples without independent validation cohorts.",
+          "direction": "extends",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "eeg-biomarkers-preliminary",
+          "original_claim": "New diagnostic markers for ADHD, autism and depression — EEG attention signatures, an eye-gaze task, and PET synaptic density — report strong signals from small single-center samples without external validation.",
+          "verification_note": "Studies consistently illustrate candidate markers derived from small single-center samples lacking external validation; the claim is about methodological limits rather than a biological effect.",
+          "pmids": [
+            "40350038",
+            "42684535",
+            "42698280"
+          ],
+          "first_seen": "2026-09-06",
+          "design_mix": {
+            "case-control": 3
+          },
+          "journal_count": 3,
+          "this_week_count": 3,
+          "studies": [
+            {
+              "pmid": "40350038",
+              "headline": "ADHD's brain signature may be in the wrong place: attention circuitry, not frontal control regions, shows the biggest differences",
+              "journal": "Biological Psychiatry: Cognitive Neuroscience and Neuroimaging",
+              "pubdate": "2026 Sep",
+              "doi": "10.1016/j.bpsc.2025.05.001",
+              "relevance_score": 7,
+              "run_date": "2026-09-08",
+              "summary": "Researchers used EEG tensor decomposition — an advanced method that captures spectral, temporal, spatial, and trial-level brain signal features simultaneously — in 59 individuals with ADHD and 63 neurotypical participants performing a Go/NoGo response-inhibition task. Contrary to the prevailing view that frontocentral theta activity is the hallmark neural signature of ADHD, the analysis found that posterior alpha and theta band activity during attentional selection and response control windows were the most distinguishing features between groups. The findings suggest ADHD-related deficits emerge during early attentional processing, not just at the point of response inhibition.",
+              "caveats": "small sample (N=122 total, <100 per group for ADHD), single-center, WEIRD sample (German), observational design, lab-based task may not reflect real-world behavior",
+              "design": "case-control",
+              "this_week": true
+            },
+            {
+              "pmid": "42684535",
+              "headline": "A brief eye-gaze task correctly identified autism in nearly 95% of young children — but it needs a much larger test",
+              "journal": "Research on Child and Adolescent Psychopathology",
+              "pubdate": "2026 Sep 2",
+              "doi": "10.1007/s10802-026-01498-z",
+              "relevance_score": 6,
+              "run_date": "2026-09-09",
+              "summary": "Researchers developed a brief, standardized Eye Gaze Shift Task (EGST) and tested it in 58 children (29 with ASD, 29 without) as a complement to existing autism assessments. The task, which measures how children respond to ambiguous social cues with eye gaze, was scored independently during comprehensive clinical evaluations. The EGST showed 100% sensitivity, 89.7% specificity, and an overall diagnostic accuracy of 94.8%, with near-perfect area under the ROC curve (AUC = 0.989).",
+              "caveats": "small sample (N<100), single-center, WEIRD sample (Western, Educated, Industrialized, Rich, Democratic), pilot study with no independent validation cohort",
+              "design": "case-control",
+              "this_week": true
+            },
+            {
+              "pmid": "42698280",
+              "headline": "A specific brain disconnect — between the cerebellum and frontal lobe — shows up in women with new-onset depression",
+              "journal": "CNS Neuroscience & Therapeutics",
+              "pubdate": "2026 Sep",
+              "doi": "10.1002/cns.71144",
+              "relevance_score": 5,
+              "run_date": "2026-09-08",
+              "summary": "Using a specialized PET tracer that measures synaptic density, researchers scanned 7 female patients with first-episode major depressive disorder and 9 healthy female controls, finding significantly reduced synaptic protein signal in the left cerebellum that correlated with depression and anxiety severity. Functional connectivity between the left cerebellum and right frontal lobe was also weakened in the depression group, suggesting a breakdown in a brain circuit rarely implicated in depression research. A parallel mouse model of chronic stress showed similar reductions in brain tracer uptake, adding a cross-species signal.",
+              "caveats": "small sample (N<100), observational design, single-center, purely neuroimaging with no behavioral outcome, WEIRD sample (Western, Educated, Industrialized, Rich, Democratic), female-only sample limits generalizability",
+              "design": "case-control",
+              "this_week": true
+            }
+          ]
+        },
+        {
+          "id": "relational-context-perinatal-distress",
+          "title": "Partner and family context drives perinatal anxiety and burnout",
+          "claim": "Cross-sectional and qualitative studies link perinatal anxiety and parental burnout to relational context, including parenting alliance, a partner's ADHD, and family blame after pregnancy loss.",
+          "direction": "new",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "",
+          "original_claim": "Perinatal anxiety and parental burnout track relational context — parenting alliance, a partner's ADHD, and family blame after pregnancy loss — rather than the parent's own symptom severity alone.",
+          "verification_note": "Studies converge on partner/family context predicting perinatal distress, but designs are cross-sectional/qualitative and none directly tested relational factors against the parent's own symptom severity.",
+          "pmids": [
+            "39773292",
+            "41982066",
+            "42693223"
+          ],
+          "first_seen": "2026-09-08",
+          "design_mix": {
+            "cross-sectional": 2,
+            "qualitative": 1
+          },
+          "journal_count": 3,
+          "this_week_count": 3,
+          "studies": [
+            {
+              "pmid": "39773292",
+              "headline": "Feeling like a good partner protects new parents from burnout — but mothers carry far more of the risk",
+              "journal": "Journal of Reproductive and Infant Psychology",
+              "pubdate": "2026 Sep",
+              "doi": "10.1080/02646838.2025.2451379",
+              "relevance_score": 7,
+              "run_date": "2026-09-08",
+              "summary": "In a cross-sectional study of 434 first-time parents in Italy (345 primary caregiving mothers, 89 secondary caregiving fathers) with infants under 12 months, researchers examined how personality functioning and parenting alliance predicted parental burnout. Impairments in self-functioning — how people relate to their own identity and self-regulation — were associated with higher burnout, especially in mothers, while stronger perceived parenting alliance buffered against this risk for both parents. Fathers reported lower burnout and higher parenting alliance overall, but were not immune when alliance was weak.",
+              "caveats": "observational design, single-center, self-reported outcomes, cross-sectional design, WEIRD sample (Italian sample), unequal group sizes (mothers vs. fathers), cisgender heterosexual couples only",
+              "design": "cross-sectional",
+              "this_week": true
+            },
+            {
+              "pmid": "41982066",
+              "headline": "Having a partner with ADHD nearly quintuples your odds of postpartum anxiety — even if you don't have ADHD yourself",
+              "journal": "Journal of Attention Disorders",
+              "pubdate": "2026 Sep",
+              "doi": "10.1177/10870547261438170",
+              "relevance_score": 8,
+              "run_date": "2026-09-08",
+              "summary": "Researchers recruited 117 mother-father dyads (half with at least one parent with ADHD) when their infants were 6–10 months old, using both self-report questionnaires and clinician-administered semi-structured interviews to assess ADHD, depression, anxiety, and social support. Parents with ADHD had 2.7 times the odds of moderate-to-severe postpartum depression and 4.6 times the odds of moderate-to-severe postpartum anxiety compared to parents without ADHD. Critically, a coparent's ADHD symptoms were also significantly associated with the other partner's postpartum mood symptoms, and higher perceived social support was linked to fewer depressive symptoms.",
+              "caveats": "small sample (N<100 per group), observational design, self-reported outcomes, single-center (Pittsburgh), cross-sectional at one time point, higher rates of prior mood disorder in ADHD group may confound results",
+              "design": "cross-sectional",
+              "this_week": true
+            },
+            {
+              "pmid": "42693223",
+              "headline": "After miscarriage or stillbirth in Pakistan, women are blamed by family and left unsupported through the next pregnancy",
+              "journal": "Culture, Medicine and Psychiatry",
+              "pubdate": "2026 Sep 3",
+              "doi": "10.1007/s11013-026-10019-y",
+              "relevance_score": 5,
+              "run_date": "2026-09-10",
+              "summary": "Researchers conducted in-depth interviews with 18 pregnant women in Rawalpindi, Pakistan, who had experienced at least one prior pregnancy loss and had current anxiety symptoms, exploring their postpartum and interpregnancy psychosocial experiences. Women commonly blamed themselves for their losses — attributing them to diet, travel, or heavy chores — while family and provider responses frequently reinforced this self-blame or withheld information about the deceased fetus. The study found that stigma, spiritual attribution (fate or evil eye), and lack of supportive care between pregnancies together compounded women's distress.",
+              "caveats": "small sample (N<100), single-center, qualitative design, WEIRD sample does not apply but findings are specific to Pakistan/South Asian cultural context, observational design",
+              "design": "qualitative",
+              "this_week": true
+            }
+          ]
+        }
+      ],
+      "bootstrapped": {
+        "from": "2026-08-10",
+        "to": "2026-09-06",
+        "studies": 68
+      },
+      "proposed": 6
+    },
+    "science-environment": {
+      "label": "Science & Environment",
+      "status": "ok",
+      "study_count": 97,
+      "threads": [
+        {
+          "id": "arbovirus-vector-expansion",
+          "title": "Vector-borne pathogens and vectors recorded in new places and hosts",
+          "claim": "Field surveillance keeps recording vector-borne pathogens and their vectors in new territory or settings, including a Chagas vector colonizing an urban brick house, a tick-borne flavivirus in Mexican cattle, and Q fever bacteria in Kashmiri livestock ticks.",
+          "direction": "extends",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "arbovirus-vector-expansion",
+          "verification_note": "Three cited studies are first-detection/new-setting records of vector-borne pathogens or vectors; the soft tick paper reports range expansion but no pathogen and is weaker but still a vector-range record — however it lacks pathogen relevance and is dropped.",
+          "pmids": [
+            "42690390",
+            "42486427",
+            "42170906"
+          ],
+          "first_seen": "2026-09-07",
+          "design_mix": {
+            "cross-sectional": 2,
+            "case report or series": 1
+          },
+          "journal_count": 3,
+          "this_week_count": 3,
+          "studies": [
+            {
+              "pmid": "42690390",
+              "headline": "A Chagas disease vector has colonized a brick house in an urban Brazilian neighborhood — and half the bugs had fed on human blood",
+              "journal": "Memorias do Instituto Oswaldo Cruz",
+              "pubdate": "2026",
+              "doi": "10.1590/0074-02760260038",
+              "relevance_score": 6,
+              "run_date": "2026-09-07",
+              "summary": "Brazilian researchers recorded the first confirmed indoor colonization of a brick dwelling by Triatoma vitticeps, a sylvatic (wild-habitat) triatomine bug and vector of Trypanosoma cruzi, the parasite causing Chagas disease, in the municipality of São José do Vale do Rio Preto, Rio de Janeiro State. Inside the home, investigators found 15 eggs, 11 nymphs, and 19 adult specimens; T. cruzi infection was confirmed in 13 bugs, and DNA analysis found human blood in seven of them. The finding is attributed to ongoing destruction of Atlantic Forest habitat forcing the insects into urban spaces.",
+              "caveats": "small sample (N<100), observational design, single-center",
+              "design": "case report or series",
+              "this_week": true
+            },
+            {
+              "pmid": "42486427",
+              "headline": "A tick virus linked to human illness just turned up in Mexican cattle for the first time",
+              "journal": "Acta Tropica",
+              "pubdate": "2026 Sep",
+              "doi": "10.1016/j.actatropica.2026.108247",
+              "relevance_score": 5,
+              "run_date": "2026-09-08",
+              "summary": "Researchers collected 2,033 ticks from 215 domestic animals (cattle, dogs, and horses) on ranches in Yucatan, Mexico, and screened them for flavivirus RNA using RT-PCR. Jingmenvirus rhipicephali — a tick-borne virus in the Flaviviridae family known to infect vertebrates including humans — was detected and confirmed in one tick pool from cattle. This is the first documented detection of the virus in Mexico, extending the known geographic range of a pathogen with global public health implications.",
+              "caveats": "small sample (N<100 positive pools), observational design, single-center, single confirmed positive pool",
+              "design": "cross-sectional",
+              "this_week": true
+            },
+            {
+              "pmid": "42170906",
+              "headline": "The pathogen behind Q fever has been found in livestock ticks in Kashmir for the first time — and its genetic fingerprint matches strains from the U.S. and Germany",
+              "journal": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+              "pubdate": "2026 Sep 2",
+              "doi": "10.1093/trstmh/trag056",
+              "relevance_score": 6,
+              "run_date": "2026-09-09",
+              "summary": "Researchers collected 1,800 ticks from 4,965 cattle, sheep, and goats across eight districts of Kashmir and screened them for Coxiella burnetii — the bacterium that causes Q fever — using PCR and phylogenetic sequencing. The pathogen was detected in 10 ticks (0.55%), primarily Haemaphysalis and Rhipicephalus species, with peak prevalence in July. Phylogenetic analysis showed the Kashmir isolates cluster closely with C. burnetii strains from the United States, Germany, and Indian goat-associated lineages, suggesting possible intercontinental spread or shared ancestry.",
+              "caveats": "small sample (N<100 positive ticks), observational design, single-region study (Kashmir), animal study",
+              "design": "cross-sectional",
+              "this_week": true
+            }
+          ]
+        },
+        {
+          "id": "amr-novel-determinants",
+          "title": "Small isolate genomics keeps finding new resistance and lineages",
+          "claim": "Whole-genome sequencing of small clinical isolate sets keeps uncovering newly acquired or newly combined resistance traits and unrecognized bloodstream lineages, including a ceftriaxone- and azithromycin-resistant gonococcus and KPC-2 plus NDM co-producing Klebsiella.",
+          "direction": "confirms",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "two of three isolate sets come from Chinese hospitals",
+          "relates_to": "amr-novel-determinants",
+          "verification_note": "All three are small-set genomic studies revealing novel resistance determinants or unrecognized lineages, matching the claim.",
+          "pmids": [
+            "42191003",
+            "42593125",
+            "42672081"
+          ],
+          "first_seen": "2026-09-07",
+          "design_mix": {
+            "case report or series": 2,
+            "cross-sectional": 1
+          },
+          "journal_count": 3,
+          "this_week_count": 3,
+          "studies": [
+            {
+              "pmid": "42191003",
+              "headline": "Drug-resistant gonorrhea acquires a new stealth weapon — borrowed from a meningitis bacterium",
+              "journal": "International Journal of Antimicrobial Agents",
+              "pubdate": "2026 Sep",
+              "doi": "10.1016/j.ijantimicag.2026.107858",
+              "relevance_score": 7,
+              "run_date": "2026-09-08",
+              "summary": "Researchers used whole-genome sequencing and comparative genomics to characterize a dual-resistant Neisseria gonorrhoeae strain (ST7363, isolate GX21-687) resistant to both ceftriaxone and azithromycin, collected in China between 2020 and 2021. The strain harbors a novel mosaic-like mtr operon structure derived from Neisseria meningitidis — a pathogenic species — rather than the commensal Neisseria species that typically donate resistance genes, representing an independent evolutionary origin of azithromycin resistance. Phylogenetic analysis found genomically clustered isolates in geographically distant Chinese provinces, suggesting silent inter-regional spread of this dual-resistant lineage.",
+              "caveats": "small sample (N<100), observational design, single-center",
+              "design": "case report or series",
+              "this_week": true
+            },
+            {
+              "pmid": "42593125",
+              "headline": "A superbug resistant to virtually every antibiotic is quietly evolving new ways to swap resistance genes in Chinese hospitals",
+              "journal": "Microbiology Spectrum",
+              "pubdate": "2026 Sep",
+              "doi": "10.1128/spectrum.04195-25",
+              "relevance_score": 6,
+              "run_date": "2026-09-08",
+              "summary": "Researchers genomically characterized five isolates of carbapenem-resistant Klebsiella pneumoniae (CRKP) co-producing both KPC-2 and NDM carbapenemases from a hospital in South China, using both Illumina and Oxford Nanopore sequencing. They identified a previously unreported bacterial clone (ST1869), a novel hybrid plasmid fusing two incompatibility groups (IncI1/X3) carrying NDM-5 and CMY-42 resistance genes, and a rare genetic structure around the KPC-2 gene. The findings reveal expanding plasmid diversity in strains resistant to virtually all beta-lactam antibiotics, including last-resort carbapenems.",
+              "caveats": "small sample (N<100), single-center, observational design",
+              "design": "case report or series",
+              "this_week": true
+            },
+            {
+              "pmid": "42672081",
+              "headline": "A bloodstream Salmonella lineage spreading across India — and into Europe — went unrecognized for over two centuries",
+              "journal": "PLoS Neglected Tropical Diseases",
+              "pubdate": "2026 Aug 31",
+              "doi": "10.1371/journal.pntd.0013113",
+              "relevance_score": 7,
+              "run_date": "2026-09-07",
+              "summary": "Researchers performed whole-genome sequencing and comparative genomic analyses on Salmonella Enteritidis isolates from 101 patients with bloodstream infections at a South Indian hospital between 2012 and 2022, plus additional isolates from other clinical sites and poultry. Most bloodstream isolates belonged to a previously unrecognized phylogenetic lineage — the Global Intermediate Clade — whose common ancestor was dated to approximately 1789 AD, with isolates confirmed in Europe and Asia. A lineage-specific mosaic prophage assembled from elements found across diverse Enterobacterales was identified in this clade, and the clade showed the second-highest genomic invasiveness index after the West African lineage.",
+              "caveats": "single-center, observational design",
+              "design": "cross-sectional",
+              "this_week": true
+            }
+          ]
+        },
+        {
+          "id": "model-assumptions-inflate-burden",
+          "title": "Standard models misestimate infectious disease burden without heterogeneity",
+          "claim": "Conventional attributable-fraction and compartmental models overestimate infection burden and epidemic size when they ignore behavioral change or individual heterogeneity, with one study also showing underestimated transmissibility.",
+          "direction": "new",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "",
+          "original_claim": "Conventional attributable-fraction and compartmental epidemic models overestimate infection burden and epidemic size when they ignore behavioral change and individual heterogeneity, while underestimating transmissibility.",
+          "verification_note": "Three independent modeling studies show conventional methods overestimate burden/epidemic size when ignoring behavior or heterogeneity; the underestimated-transmissibility part rests on one study, so the claim is narrowed.",
+          "pmids": [
+            "42149607",
+            "42691106",
+            "42700587"
+          ],
+          "first_seen": "2026-09-08",
+          "design_mix": {
+            "modeling or simulation": 3
+          },
+          "journal_count": 3,
+          "this_week_count": 3,
+          "studies": [
+            {
+              "pmid": "42149607",
+              "headline": "A widely used method for measuring diarrhea burden from norovirus and rotavirus is consistently overestimating it",
+              "journal": "Epidemiology (Cambridge, Mass.)",
+              "pubdate": "2026 Sep 1",
+              "doi": "10.1097/EDE.0000000000002004",
+              "relevance_score": 6,
+              "run_date": "2026-09-08",
+              "summary": "Researchers compared three conventional statistical methods for estimating what fraction of diarrhea cases are attributable to norovirus or rotavirus, benchmarking them against a mechanistic transmission model fitted to qPCR data from an eight-country birth cohort (MAL-ED). The 'detection-as-etiology' method — the most straightforward and frequently used approach — consistently overestimated disease burden at all sites. The odds-ratio and risk-ratio methods performed much better, deviating from the model-based reference by only −5% to +3%.",
+              "caveats": "observational design, secondary analysis",
+              "design": "modeling or simulation",
+              "this_week": true
+            },
+            {
+              "pmid": "42691106",
+              "headline": "Standard epidemic models have a hidden double error: they underestimate how contagious a virus is while overestimating how many people it will infect",
+              "journal": "PLOS Computational Biology",
+              "pubdate": "2026 Sep 3",
+              "doi": "10.1371/journal.pcbi.1014746",
+              "relevance_score": 8,
+              "run_date": "2026-09-10",
+              "summary": "Researchers fitted standard SEIRD epidemic models and three behavior-incorporating variants to COVID-19 mortality data from 20 U.S. locations during the first pandemic wave (March–July 2020), finding that models ignoring behavioral change systematically underestimated the basic reproduction number (R₀) while simultaneously overestimating final epidemic size. Behavioral models — where rising mortality reduced transmission — outperformed the standard model in at least 18 of 20 locations by Bayesian model selection, and analytical proofs confirmed the dual bias is a structural consequence of model misspecification, not data noise. The findings suggest that ignoring human behavioral adaptation produces two compounding errors that could contribute to both delayed early interventions and miscalibrated longer-term planning.",
+              "caveats": "observational design, secondary analysis",
+              "design": "modeling or simulation",
+              "this_week": true
+            },
+            {
+              "pmid": "42700587",
+              "headline": "Nigeria's COVID wave may have burned out far faster than models predicted — because people are not interchangeable",
+              "journal": "Epidemics",
+              "pubdate": "2026 Sep 3",
+              "doi": "10.1016/j.epidem.2026.100944",
+              "relevance_score": 7,
+              "run_date": "2026-09-10",
+              "summary": "Researchers developed a Bayesian modeling framework to estimate individual-level heterogeneity in COVID-19 susceptibility and transmission from severely under-reported case data across ten Nigerian states during the first wave. The model estimated that when real-world variation in susceptibility is accounted for, the herd immunity threshold dropped from 26% to just 4% of the population, and the estimated share of people infected fell from over 20% to about 8%. The findings suggest that standard homogeneous epidemic models substantially overestimate the interventions needed to suppress an outbreak when population heterogeneity is high.",
+              "caveats": "observational design, secondary analysis, single-center",
+              "design": "modeling or simulation",
+              "this_week": true
+            }
+          ]
+        },
+        {
+          "id": "broad-sequencing-beyond-panels",
+          "title": "Exome and RNA analysis resolve diagnoses targeted testing missed",
+          "claim": "Exome sequencing plus RNA-level analysis of accessible cells resolves rare disease diagnoses that targeted panels missed or misassigned, including novel splice-site and deep intronic variants with unexpected phenotypes.",
+          "direction": "extends",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "broad-sequencing-beyond-panels",
+          "verification_note": "Three case reports where exome and/or RNA analysis resolved diagnoses that targeted testing missed or misassigned.",
+          "pmids": [
+            "42675022",
+            "42687628",
+            "42411594"
+          ],
+          "first_seen": "2026-09-07",
+          "design_mix": {
+            "case report or series": 3
+          },
+          "journal_count": 2,
+          "this_week_count": 3,
+          "studies": [
+            {
+              "pmid": "42675022",
+              "headline": "A rare eye disease finally diagnosed in a Black patient — decades of genetic databases may have made it nearly invisible",
+              "journal": "Ophthalmic Genetics",
+              "pubdate": "2026 Aug 31",
+              "doi": "10.1080/13816810.2026.2716313",
+              "relevance_score": 5,
+              "run_date": "2026-09-07",
+              "summary": "Researchers at Duke University report what they describe as the first published case of CDH3-related hypotrichosis with juvenile macular dystrophy (HJMD) in a Black patient (N=1). Initial genetic testing pointed to a different diagnosis; whole-exome sequencing ultimately identified two CDH3 variants, one a novel deletion and one a rare missense variant. The case highlights how underrepresentation of African ancestry individuals in genomic databases can delay or misdirect diagnosis of inherited retinal diseases.",
+              "caveats": "small sample (N<100), single-center, observational design",
+              "design": "case report or series",
+              "this_week": true
+            },
+            {
+              "pmid": "42687628",
+              "headline": "A single gene variant is causing a child's cornea to simultaneously thicken and distort — a pattern doctors thought was impossible",
+              "journal": "Ophthalmic Genetics",
+              "pubdate": "2026 Sep 3",
+              "doi": "10.1080/13816810.2026.2725829",
+              "relevance_score": 4,
+              "run_date": "2026-09-10",
+              "summary": "Researchers report a novel ZEB1 splice-site variant in a 9-year-old boy presenting with both corneal ectasia (steepening) and endothelial dystrophy — features typically considered contradictory, since ectasia usually involves corneal thinning while this patient showed increased corneal thickness. Whole-exome sequencing identified a heterozygous splice-site variant (c.485-2A>T) confirmed by paternal inheritance. The case adds evidence that ZEB1-related PPCD3 can co-occur with suspected corneal ectasia, expanding the known phenotypic spectrum of this rare disease.",
+              "caveats": "small sample (N<100), single-center, observational design",
+              "design": "case report or series",
+              "this_week": true
+            },
+            {
+              "pmid": "42411594",
+              "headline": "A urine test — not a biopsy — can now reveal hidden genetic errors deep inside a disease gene",
+              "journal": "Annals of Human Genetics",
+              "pubdate": "2026 Sep",
+              "doi": "10.1111/ahg.70046",
+              "relevance_score": 5,
+              "run_date": "2026-09-08",
+              "summary": "Researchers used cells shed naturally into urine — avoiding invasive tissue biopsies — to study a rare, deeply buried mutation in the L1CAM gene linked to severe brain malformations in two brothers. RNA analysis of urine-derived cells confirmed the mutation creates a faulty splice site that triggers nonsense-mediated decay, destroying the gene's messenger RNA. A minigene lab assay independently corroborated the finding, validating urine-based RNA testing as a practical tool for diagnosing cryptic genetic variants.",
+              "caveats": "small sample (N<100), single-center, observational design",
+              "design": "case report or series",
+              "this_week": true
+            }
+          ]
+        },
+        {
+          "id": "ancestry-gaps-variant-databases",
+          "title": "Underrepresented ancestries yield novel rare-disease variants",
+          "claim": "Sequencing patients from underrepresented African and Asian populations repeatedly yields novel or first-in-population pathogenic variants in known rare-disease genes, and in one case initial testing misdirected diagnosis.",
+          "direction": "new",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "",
+          "original_claim": "Sequencing patients from African and Asian populations underrepresented in genetic databases repeatedly yields novel or first-in-population pathogenic variants for already-described rare diseases, delaying or misdirecting diagnosis.",
+          "verification_note": "Three cases from underrepresented populations yielding novel or first-in-population variants; the delay/misdirection element is supported only by one case, so narrow.",
+          "pmids": [
+            "42706666",
+            "42339879",
+            "42675022"
+          ],
+          "first_seen": "2026-09-07",
+          "design_mix": {
+            "case report or series": 3
+          },
+          "journal_count": 3,
+          "this_week_count": 3,
+          "studies": [
+            {
+              "pmid": "42706666",
+              "headline": "A rare facial birth defect looks the same across populations — but the genetic mutations causing it differ by ancestry",
+              "journal": "Molecular Genetics & Genomic Medicine",
+              "pubdate": "2026 Sep",
+              "doi": "10.1002/mgg3.70295",
+              "relevance_score": 5,
+              "run_date": "2026-09-08",
+              "summary": "Researchers at the University of the Witwatersrand sequenced a targeted gene panel in 10 South African patients with suspected Treacher Collins syndrome (TCS), a rare craniofacial disorder, and identified disease-causing variants in 6 of 10. Five of the six variants had never been reported before, and a recurrent TCOF1 deletion was identified in an African family for the first time. The study expands the known mutation spectrum of TCS and provides rare population-specific data from an underrepresented African cohort.",
+              "caveats": "small sample (N=10), single-center, observational design",
+              "design": "case report or series",
+              "this_week": true
+            },
+            {
+              "pmid": "42339879",
+              "headline": "A newly identified gene mutation may explain some cases of early menopause in women — and it was found in a single Chinese family",
+              "journal": "Annals of Human Genetics",
+              "pubdate": "2026 Sep",
+              "doi": "10.1111/ahg.70043",
+              "relevance_score": 4,
+              "run_date": "2026-09-07",
+              "summary": "Researchers used whole exome sequencing and minigene assays to identify a novel intronic variant in the FIGLA gene (c.385-9G>A) in a Chinese Miao pedigree, finding that the mutation causes aberrant RNA splicing — specifically, retention of a 7-base-pair intronic sequence in mature mRNA. The FIGLA gene is known to play a role in ovarian follicle development, and the variant was identified in a woman with premature ovarian insufficiency (POI), a condition that causes early menopause and infertility. The findings expand the known variant spectrum of FIGLA and suggest splicing disruption as a mechanism contributing to POI.",
+              "caveats": "small sample (N<100), single-center, observational design",
+              "design": "case report or series",
+              "this_week": true
+            },
+            {
+              "pmid": "42675022",
+              "headline": "A rare eye disease finally diagnosed in a Black patient — decades of genetic databases may have made it nearly invisible",
+              "journal": "Ophthalmic Genetics",
+              "pubdate": "2026 Aug 31",
+              "doi": "10.1080/13816810.2026.2716313",
+              "relevance_score": 5,
+              "run_date": "2026-09-07",
+              "summary": "Researchers at Duke University report what they describe as the first published case of CDH3-related hypotrichosis with juvenile macular dystrophy (HJMD) in a Black patient (N=1). Initial genetic testing pointed to a different diagnosis; whole-exome sequencing ultimately identified two CDH3 variants, one a novel deletion and one a rare missense variant. The case highlights how underrepresentation of African ancestry individuals in genomic databases can delay or misdirect diagnosis of inherited retinal diseases.",
+              "caveats": "small sample (N<100), single-center, observational design",
+              "design": "case report or series",
+              "this_week": true
+            }
+          ]
+        },
+        {
+          "id": "microplastics-ubiquitous-unregulated",
+          "title": "Monitoring methods miss or misquantify persistent pollutants",
+          "claim": "Routine environmental monitoring understates persistent pollutant exposure: storm-driven pesticide pulses escape scheduled sampling, nanoplastic tissue detection methods are unreliable, and microplastic measurement lacks agreed methods or thresholds.",
+          "direction": "extends",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "microplastics-ubiquitous-unregulated",
+          "verification_note": "All three bear on the single question of whether monitoring methods capture persistent pollutant exposure reliably.",
+          "pmids": [
+            "42705032",
+            "42700198",
+            "42623875"
+          ],
+          "first_seen": "2026-08-26",
+          "design_mix": {
+            "systematic review or meta-analysis": 2,
+            "cross-sectional": 1
+          },
+          "journal_count": 3,
+          "this_week_count": 2,
+          "studies": [
+            {
+              "pmid": "42705032",
+              "headline": "Banned pesticides still flood Mediterranean waterways every time it rains — and routine monitoring keeps missing it",
+              "journal": "Journal of Environmental Management",
+              "pubdate": "2026 Sep 7",
+              "doi": "10.1016/j.jenvman.2026.130865",
+              "relevance_score": 6,
+              "run_date": "2026-09-10",
+              "summary": "Researchers conducted synchronized grab sampling at 25 stations across Israel's 1,100 km² Kishon River basin during the first winter storms of 2020 and 2021, screening for 110 pesticide compounds using LC-MS/MS. Pesticides were detected at 100% of monitoring stations, with agricultural intensity strongly associated with both pesticide concentration and chemical richness (p<0.001); banned legacy compounds including Simazine appeared at more than 50% of sites. Four sub-basins were flagged as hotspots consistently exceeding the 75th percentile across multiple pollution metrics, and the authors argue conventional monitoring protocols systematically undercount these episodic first-flush pollution pulses.",
+              "caveats": "observational design, single region (Israel), small number of storm events (two seasons), grab sampling limitations",
+              "design": "cross-sectional",
+              "this_week": true
+            },
+            {
+              "pmid": "42700198",
+              "headline": "The science of nanoplastics in living organisms is more uncertain than headlines suggest — a new review explains why",
+              "journal": "Environmental Monitoring and Assessment",
+              "pubdate": "2026 Sep 5",
+              "doi": "10.1007/s10661-026-15891-0",
+              "relevance_score": 7,
+              "run_date": "2026-09-12",
+              "summary": "Researchers conducted a critical review of existing studies on nanoplastic detection in biological tissues, examining evidence for particle uptake, tissue translocation, and biological harm markers across animal taxa. They found that many fluorescence-based detection methods — commonly used to track nanoplastics inside organisms — may produce false positives due to dye leaching and tissue autofluorescence, and that biomarkers like oxidative stress are too nonspecific to be attributed to nanoplastics alone. The authors conclude that nanoplastics are not yet ready for routine environmental biomonitoring and propose a tiered, multi-method framework for future validation.",
+              "caveats": "secondary analysis, observational design",
+              "design": "systematic review or meta-analysis",
+              "this_week": true
+            },
+            {
+              "pmid": "42623875",
+              "headline": "Microplastics have been found in groundwater on every continent — but no country has rules for how much is too much",
+              "journal": "Journal of Hazardous Materials",
+              "pubdate": "2026 Aug 19",
+              "doi": "10.1016/j.jhazmat.2026.143318",
+              "relevance_score": 8,
+              "run_date": "2026-08-26",
+              "summary": "A systematic review synthesized data from 82 field studies across 28 countries conducted between 2019 and 2026, examining microplastic contamination across eight distinct hydrogeological settings — including springs, karst aquifers, and alluvial systems. Every groundwater environment studied contained microplastics, with concentrations spanning six orders of magnitude (0.001 to 2,103 particles per liter), though the authors note that massive variability likely reflects methodological inconsistencies as much as real environmental differences. The review identifies ten regulatory gaps relative to EU groundwater policy and flags a 2029 EU Drinking Water Directive deadline by which standardized monitoring methods must be in place.",
+              "caveats": "observational design, secondary analysis",
+              "design": "systematic review or meta-analysis",
+              "this_week": false
+            }
+          ]
+        }
+      ],
+      "bootstrapped": {
+        "from": "2026-08-10",
+        "to": "2026-09-06",
+        "studies": 294
+      },
+      "proposed": 8
+    }
+  },
+  "cross_topic": [],
+  "cross_topic_meta": {
+    "status": "ok",
+    "proposed": 2,
+    "context_sources": [
+      "senior-research"
+    ]
+  },
+  "dropped": [
+    {
+      "scope": "memory",
+      "source_id": "mental-health",
+      "thread_id": "schizophrenia-specific-cognitive-decline",
+      "title": "In long-term first-episode psychosis cohorts and population-based reviews, cogni",
+      "stage": "memory",
+      "reason": "demoted to emerging: all its studies were added in the same week"
+    },
+    {
+      "scope": "memory",
+      "source_id": "mental-health",
+      "thread_id": "structural-barriers-persist-despite-policy",
+      "title": "Qualitative work with rural transgender adults, rural addiction clinicians, refu",
+      "stage": "memory",
+      "reason": "demoted to emerging: all its studies were added in the same week"
+    },
+    {
+      "scope": "memory",
+      "source_id": "mental-health",
+      "thread_id": "personalized-digital-tools-no-objective-gain",
+      "title": "Randomized trials of a digital ADHD cognitive training app and of tailored menta",
+      "stage": "memory",
+      "reason": "demoted to emerging: all its studies were added in the same week"
+    },
+    {
+      "scope": "memory",
+      "source_id": "mental-health",
+      "thread_id": "eeg-biomarkers-preliminary",
+      "title": "Novel EEG-derived psychiatric markers — alpha-envelope derivatives for depressio",
+      "stage": "memory",
+      "reason": "demoted to emerging: all its studies were added in the same week"
+    },
+    {
+      "scope": "memory",
+      "source_id": "science-environment",
+      "thread_id": "structural-determinants-outcomes",
+      "title": "Area-level and policy exposures track with health outcomes in US populations: hi",
+      "stage": "memory",
+      "reason": "demoted to emerging: all its studies were added in the same week"
+    },
+    {
+      "scope": "topic",
+      "source_id": "cardiology-heart",
+      "thread_id": "underuse-indicated-cv-care",
+      "title": "Geographic and racial gaps block access to proven cardiopulmonary care",
+      "stage": "verification",
+      "reason": "verifier: Undertreatment relates to recurrent MI status, not country income, rural location, or race.",
+      "pmid": "42669324"
+    },
+    {
+      "scope": "topic",
+      "source_id": "cardiology-heart",
+      "thread_id": "underuse-indicated-cv-care",
+      "title": "Geographic and racial gaps block access to proven cardiopulmonary care",
+      "stage": "verification",
+      "reason": "verifier: Theme, not pattern: unrelated topics (antiarrhythmic drug supply, drone AED modeling, sleep apnea disparities, African interventional pulmonology training, Danish recurrent MI treatment) grouped by broad 'access' category; they do not bear on one question, and the MI study involves clinical-history-based, not geographic/racial, gaps."
+    },
+    {
+      "scope": "topic",
+      "source_id": "cardiology-heart",
+      "thread_id": "cv-risk-prediction-models-marginal-gain",
+      "title": "AI and digital cardiopulmonary tools stop at surrogate performance",
+      "stage": "verification",
+      "reason": "verifier: Diabetic foot ulcer chatbot accuracy is off-topic for cardiopulmonary care.",
+      "pmid": "42637490"
+    },
+    {
+      "scope": "topic",
+      "source_id": "cardiology-heart",
+      "thread_id": "cv-risk-prediction-models-marginal-gain",
+      "title": "AI and digital cardiopulmonary tools stop at surrogate performance",
+      "stage": "verification",
+      "reason": "verifier: Editorial with no data; abstract insufficient to verify claim.",
+      "pmid": "42690761"
+    },
+    {
+      "scope": "topic",
+      "source_id": "cardiology-heart",
+      "thread_id": "cv-risk-prediction-models-marginal-gain",
+      "title": "AI and digital cardiopulmonary tools stop at surrogate performance",
+      "stage": "verification",
+      "reason": "verifier: Loose theme spanning unrelated technologies and diseases (diabetic foot ulcer chatbot, COPD CT reconstruction, smart inhaler, VTE AI, an uninformative editorial); not one question, and the wound-care study is outside cardiopulmonary scope."
+    },
+    {
+      "scope": "topic",
+      "source_id": "cardiology-heart",
+      "thread_id": "rare-blood-group-variants-transfusion",
+      "title": "Rare variants and new drugs confound standard blood testing",
+      "stage": "verification",
+      "reason": "verifier: Describes a new blood group system, not misleading standard test results from variants or drugs.",
+      "pmid": "42637667"
+    },
+    {
+      "scope": "topic",
+      "source_id": "cardiology-heart",
+      "thread_id": "rare-blood-group-variants-transfusion",
+      "title": "Rare variants and new drugs confound standard blood testing",
+      "stage": "verification",
+      "reason": "verifier: Hematology/transfusion topic outside cardiology scope and a thematic grouping of unrelated one-off cases; the new blood group system paper does not concern misleading standard testing from variants or drugs in the claimed sense."
+    },
+    {
+      "scope": "topic",
+      "source_id": "cardiology-heart",
+      "thread_id": "new-ablation-hardware-single-arm",
+      "title": "Novel vascular and thoracic techniques reported only as uncontrolled series",
+      "stage": "verification",
+      "reason": "verifier: Multicenter global 180-patient study; not a small single-center series.",
+      "pmid": "42667242"
+    },
+    {
+      "scope": "topic",
+      "source_id": "cardiology-heart",
+      "thread_id": "early-phase-pah-therapeutics",
+      "title": "New pulmonary hypertension therapies rest on uncontrolled early-phase data",
+      "stage": "verification",
+      "reason": "verifier: Editorial with no original data on exercise training.",
+      "pmid": "42684059"
+    },
+    {
+      "scope": "topic",
+      "source_id": "cardiology-heart",
+      "thread_id": "early-phase-pah-therapeutics",
+      "title": "New pulmonary hypertension therapies rest on uncontrolled early-phase data",
+      "stage": "verification",
+      "reason": "only 2 distinct PMIDs (needs 3)"
+    },
+    {
+      "scope": "memory",
+      "source_id": "cardiology-heart",
+      "thread_id": "cv-risk-prediction-models-marginal-gain",
+      "title": "Conventional, biomarker-enhanced, AI-based and digital prediction tools in cardi",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42637490"
+    },
+    {
+      "scope": "memory",
+      "source_id": "cardiology-heart",
+      "thread_id": "cv-risk-prediction-models-marginal-gain",
+      "title": "Conventional, biomarker-enhanced, AI-based and digital prediction tools in cardi",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42690761"
+    },
+    {
+      "scope": "memory",
+      "source_id": "cardiology-heart",
+      "thread_id": "underuse-indicated-cv-care",
+      "title": "Indicated cardiovascular diagnostics and therapies are underused, and access is ",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42669324"
+    },
+    {
+      "scope": "memory",
+      "source_id": "cardiology-heart",
+      "thread_id": "rare-blood-group-variants-transfusion",
+      "title": "Rare blood group and hemoglobin variants, plus engineered therapeutic antibodies",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42637667"
+    },
+    {
+      "scope": "memory",
+      "source_id": "cardiology-heart",
+      "thread_id": "new-ablation-hardware-single-arm",
+      "title": "New interventional hardware and techniques across electrophysiology, vascular ac",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42667242"
+    },
+    {
+      "scope": "memory",
+      "source_id": "cardiology-heart",
+      "thread_id": "early-phase-pah-therapeutics",
+      "title": "Emerging pulmonary arterial hypertension therapies rest on small, open-label, no",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42684059"
+    },
+    {
+      "scope": "topic",
+      "source_id": "mental-health",
+      "thread_id": "drug-naive-first-episode-biology",
+      "title": "Biological abnormalities precede treatment in first-episode psychiatric illness",
+      "stage": "verification",
+      "reason": "verifier: No healthy control comparison; within-patient sex differences in prolactin-glucose association, not a case-control abnormality.",
+      "pmid": "42696132"
+    },
+    {
+      "scope": "topic",
+      "source_id": "mental-health",
+      "thread_id": "shame-stigma-blocks-care",
+      "title": "Shame and blame, not symptom severity, gate care access",
+      "stage": "verification",
+      "reason": "verifier: Racism and service gaps in autism caregiving; different domain, does not bear on stigma vs symptom severity in care-seeking.",
+      "pmid": "42517456"
+    },
+    {
+      "scope": "topic",
+      "source_id": "mental-health",
+      "thread_id": "shame-stigma-blocks-care",
+      "title": "Shame and blame, not symptom severity, gate care access",
+      "stage": "verification",
+      "reason": "verifier: Thematic grouping rather than a pattern: unrelated conditions (orthopedic outpatients, Parkinson's, pregnancy loss, autism caregiving) and different constructs (self-stigma, cultural norms, racism); only one study actually compared stigma against symptom severity, so the 'outweighing symptom severity' claim is unsupported."
+    },
+    {
+      "scope": "topic",
+      "source_id": "mental-health",
+      "thread_id": "personalized-digital-tools-no-objective-gain",
+      "title": "Structured psychological interventions fail to beat simpler comparators",
+      "stage": "verification",
+      "reason": "verifier: Theme, not pattern: three unrelated interventions for different populations and outcomes grouped only by null between-group results; one trial in fact showed harm rather than mere non-superiority, and the writing trial showed benefit in all arms."
+    },
+    {
+      "scope": "topic",
+      "source_id": "mental-health",
+      "thread_id": "eeg-biomarkers-preliminary",
+      "title": "Candidate psychiatric biomarkers rest on small unvalidated samples",
+      "stage": "verification",
+      "reason": "verifier: Not among the three named markers; weak correlations in nonclinical college sample, not a diagnostic marker study.",
+      "pmid": "41232082"
+    },
+    {
+      "scope": "memory",
+      "source_id": "mental-health",
+      "thread_id": "personalized-digital-tools-no-objective-gain",
+      "title": "Structured psychological and digital interventions repeatedly fail to outperform",
+      "stage": "memory",
+      "reason": "demoted to emerging: the verifier rejected this week's matching thread"
+    },
+    {
+      "scope": "memory",
+      "source_id": "mental-health",
+      "thread_id": "eeg-biomarkers-preliminary",
+      "title": "Candidate EEG, eye-tracking and PET markers for depression, ADHD, autism and dem",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "41232082"
+    },
+    {
+      "scope": "memory",
+      "source_id": "mental-health",
+      "thread_id": "shame-stigma-blocks-care",
+      "title": "Shame, family blame, racism and cultural norms around help-seeking predict acces",
+      "stage": "memory",
+      "reason": "new bullet for a thread the verifier rejected"
+    },
+    {
+      "scope": "topic",
+      "source_id": "science-environment",
+      "thread_id": "arbovirus-vector-expansion",
+      "title": "Vector-borne pathogens and vectors recorded in new places and hosts",
+      "stage": "verification",
+      "reason": "verifier: Soft tick range/molecular description with no pathogen testing; does not support a vector-borne pathogen claim.",
+      "pmid": "42690492"
+    },
+    {
+      "scope": "topic",
+      "source_id": "science-environment",
+      "thread_id": "pharmacovigilance-secondary-data",
+      "title": "Post-market safety leans on repurposed secondary data",
+      "stage": "verification",
+      "reason": "verifier: A congenital anomaly registry drug-safety result; does not address registry failure or the sufficiency of secondary sources.",
+      "pmid": "42230530"
+    },
+    {
+      "scope": "topic",
+      "source_id": "science-environment",
+      "thread_id": "pharmacovigilance-secondary-data",
+      "title": "Post-market safety leans on repurposed secondary data",
+      "stage": "verification",
+      "reason": "verifier: A FAERS disproportionality study on an unrelated drug; illustrates a method, not the claimed pattern.",
+      "pmid": "39960262"
+    },
+    {
+      "scope": "topic",
+      "source_id": "science-environment",
+      "thread_id": "pharmacovigilance-secondary-data",
+      "title": "Post-market safety leans on repurposed secondary data",
+      "stage": "verification",
+      "reason": "verifier: HIE feasibility pilot for diabetes drugs; unrelated to registry enrollment failure.",
+      "pmid": "41975169"
+    },
+    {
+      "scope": "topic",
+      "source_id": "science-environment",
+      "thread_id": "pharmacovigilance-secondary-data",
+      "title": "Post-market safety leans on repurposed secondary data",
+      "stage": "verification",
+      "reason": "verifier: A theme, not a pattern: one registry failure plus three unrelated secondary-data analyses of different drugs and outcomes; no study links registry failure to the use of repurposed sources, so the causal claim is unsupported."
+    },
+    {
+      "scope": "topic",
+      "source_id": "science-environment",
+      "thread_id": "design-flaws-inflate-efficacy",
+      "title": "Influential recommendations rest on single or conflicted sources",
+      "stage": "verification",
+      "reason": "verifier: Historical archival critique of 1956 radiation panel; different domain and not an evidence appraisal of efficacy claims.",
+      "pmid": "41665528"
+    },
+    {
+      "scope": "topic",
+      "source_id": "science-environment",
+      "thread_id": "design-flaws-inflate-efficacy",
+      "title": "Influential recommendations rest on single or conflicted sources",
+      "stage": "verification",
+      "reason": "verifier: Is itself an industry-funded review, not an appraisal finding fragile evidence.",
+      "pmid": "42410139"
+    },
+    {
+      "scope": "topic",
+      "source_id": "science-environment",
+      "thread_id": "design-flaws-inflate-efficacy",
+      "title": "Influential recommendations rest on single or conflicted sources",
+      "stage": "verification",
+      "reason": "verifier: Theme rather than pattern: an e-cigarette meta-analysis method demo, a historical radiation-genetics critique, and an industry consensus statement span unrelated fields and do not bear on one question; only one is an appraisal finding fragility in efficacy evidence."
+    },
+    {
+      "scope": "memory",
+      "source_id": "science-environment",
+      "thread_id": "arbovirus-vector-expansion",
+      "title": "Surveillance keeps documenting vector-borne pathogens and their vectors in new t",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42690492"
+    },
+    {
+      "scope": "memory",
+      "source_id": "science-environment",
+      "thread_id": "design-flaws-inflate-efficacy",
+      "title": "Meta-research finds treatment and policy conclusions inflated or fragile — biase",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "41665528"
+    },
+    {
+      "scope": "memory",
+      "source_id": "science-environment",
+      "thread_id": "design-flaws-inflate-efficacy",
+      "title": "Meta-research finds treatment and policy conclusions inflated or fragile — biase",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42410139"
+    },
+    {
+      "scope": "memory",
+      "source_id": "science-environment",
+      "thread_id": "pharmacovigilance-secondary-data",
+      "title": "Prospective drug safety registries fail to enroll, shifting post-market surveill",
+      "stage": "memory",
+      "reason": "new bullet for a thread the verifier rejected"
+    },
+    {
+      "scope": "cross_topic",
+      "source_id": "cross_topic",
+      "thread_id": "small-single-center-evidence",
+      "title": "Promising results across fields rest on small single-center studies",
+      "stage": "verification",
+      "reason": "verifier: Meta-research on power and prior plausibility across 463 COVID trials; not a small single-center or single-arm study, so it supports a different claim.",
+      "pmid": "42600710"
+    },
+    {
+      "scope": "cross_topic",
+      "source_id": "cross_topic",
+      "thread_id": "small-single-center-evidence",
+      "title": "Promising results across fields rest on small single-center studies",
+      "stage": "verification",
+      "reason": "verifier: This is a theme, not a pattern: an angioscope case series, a robotic surgery pilot, an autism gaze task, a depression PET study, and a meta-research analysis of COVID trials bear on entirely different questions and are grouped only by the broad label 'weak evidence'. The COVID trial analysis concerns statistical power and prior plausibility in multicenter trials, not small single-center studies, and the claim's blanket 'none supports patient benefit' overreaches."
+    },
+    {
+      "scope": "cross_topic",
+      "source_id": "cross_topic",
+      "thread_id": "minoritized-populations-persistent-gaps",
+      "title": "Minority group membership still predicts worse care and later diagnosis",
+      "stage": "verification",
+      "reason": "verifier: Narrative review of sleep-disordered breathing disparities; off-topic for psychiatry, genetics, or cardiovascular care as claimed.",
+      "pmid": "42683814"
+    },
+    {
+      "scope": "cross_topic",
+      "source_id": "cross_topic",
+      "thread_id": "minoritized-populations-persistent-gaps",
+      "title": "Minority group membership still predicts worse care and later diagnosis",
+      "stage": "verification",
+      "reason": "verifier: Grouped by the broad category 'minoritized populations' rather than one question: outcomes range from mental health prevalence to qualitative access barriers to genetic diagnostic delay to CPAP adherence, across different minority definitions. The claim also asserts cardiovascular care, which none of the cited studies addresses."
+    }
+  ],
+  "usage": {
+    "calls": 11,
+    "input_tokens": 211473,
+    "output_tokens": 74397,
+    "cache_creation_input_tokens": 9468,
+    "cache_read_input_tokens": 7460,
+    "estimated_cost_usd": 2.9802,
+    "fallback_calls": 0
+  }
+}
