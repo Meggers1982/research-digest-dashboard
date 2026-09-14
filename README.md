@@ -28,7 +28,6 @@ data/
   womens-health.json
 .github/
   workflows/
-    sync-new-scientist.yml
     sync-senior-research.yml
 ```
 
@@ -163,10 +162,9 @@ Change `DASHBOARD_FILE`, `SOURCE_ID`, and `SOURCE_LABEL` for each digest repo.
 
 ### Pulled sources
 
-Two sources are pulled by a workflow here instead of pushed by their digest
-repo, so that repo needs no token that can write to this one:
+One source is pulled by a workflow here instead of pushed by its digest repo,
+so that repo needs no token that can write to this one:
 
-- `new-scientist-mh` — `.github/workflows/sync-new-scientist.yml`
 - `senior-research` — `.github/workflows/sync-senior-research.yml`, from
   `docs/data/shared-dashboard.json` in `senior-research-digest`. That repo's
   new-this-week run replaced `elderly-geriatric-digest` on 2026-09-13 (MEA-573).
@@ -176,6 +174,14 @@ repo, so that repo needs no token that can write to this one:
 When `elderly-geriatric-digest` stops running, `data/elderly-geriatric.json` stays
 as it is — its studies, and the saved/passed marks keyed `elderly-geriatric:<pmid>`,
 keep showing. New studies arrive under `senior-research`.
+
+### Retired sources
+
+- `new-scientist-mh` ("New Scientist — Mental Health") was removed on
+  2026-09-14. `new-scientist-story-ideas` keeps running and publishes only to
+  its own dashboard, https://new-scientist-story-ideas.vercel.app. Its sync
+  workflow and `data/new-scientist-mh.json` are in git history before that
+  date; no saved or passed marks were keyed to it.
 
 ## Source Map
 
