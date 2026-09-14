@@ -75,7 +75,7 @@
     max-width: 1180px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: minmax(220px, 1.3fr) repeat(6, minmax(135px, auto));
+    grid-template-columns: minmax(220px, 1.3fr) repeat(4, minmax(135px, 1fr));
     gap: 10px;
     align-items: center;
   }
@@ -164,6 +164,15 @@
   .result-count {
     color: var(--muted);
     font: 0.84rem system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  .show-all-btn {
+    min-height: 26px;
+    margin-left: 6px;
+    padding: 2px 10px;
+    border-color: #b8c2bd;
+    border-radius: 999px;
+    color: var(--green);
+    font-size: 0.78rem;
   }
   .source-status {
     color: var(--muted);
@@ -483,6 +492,18 @@
       <option value="14">Past 14 days</option>
       <option value="30">Past 30 days</option>
     </select>
+    <select id="filter-min-score" onchange="onTopPicksChange()" title="Hide new studies below this relevance score. Saved, pitched and passed studies always show.">
+      <option value="0">Any score</option>
+      <option value="7" selected>Score 7+</option>
+      <option value="8">Score 8+</option>
+      <option value="9">Score 9+</option>
+    </select>
+    <select id="filter-topic-cap" onchange="onTopPicksChange()" title="Show at most this many new studies per digest per run date, highest score first. Saved, pitched and passed studies always show.">
+      <option value="0">No daily cap</option>
+      <option value="1">Max 1 per digest/day</option>
+      <option value="3" selected>Max 3 per digest/day</option>
+      <option value="5">Max 5 per digest/day</option>
+    </select>
     <select id="sort-by" onchange="applyFilters()">
       <option value="score" selected>Sort: relevance score</option>
       <option value="date">Sort: newest first</option>
@@ -516,6 +537,7 @@
 
 <button id="back-to-top" aria-label="Scroll to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#8593;</button>
 
+<script src="top-picks.js"></script>
 <script>
 const STATUS_KEY = "research-digest-dashboard-status";
 
@@ -874,6 +896,11 @@ function applyFilters() {
     return true;
   });
 
+  // Top picks run last, on what the other filters left, in default order
+  const matched = filtered.length;
+  filtered = applyTopPicks(filtered, { ...currentTopPicks(), getStatus });
+  const hidden = matched - filtered.length;
+
   if (sortBy === "score") {
     filtered.sort((a, b) => Number(b.relevance_score || 0) - Number(a.relevance_score || 0));
   } else if (sortBy === "date") {
@@ -884,13 +911,53 @@ function applyFilters() {
     filtered.sort((a, b) => String(a.source_label || "").localeCompare(String(b.source_label || "")));
   }
 
+  const showAll = '<button type="button" class="show-all-btn" onclick="showAllStudies()">Show all</button>';
   document.getElementById("result-count").style.display = "block";
-  document.getElementById("result-count").textContent =
-    filtered.length + " of " + ALL_STUDIES.length + " studies";
+  document.getElementById("result-count").innerHTML =
+    "Showing " + filtered.length + " of " + matched + " studies" +
+    (hidden ? " &middot; " + hidden + " new below the top-picks cut" + showAll : "");
 
   document.getElementById("cards").innerHTML = filtered.length
     ? filtered.map(renderCard).join("")
-    : '<div class="empty"><h2>No studies match your filters</h2><p>Try broadening the filters or search.</p></div>';
+    : hidden
+      ? '<div class="empty"><h2>No new studies clear the top-picks cut</h2><p>' + hidden + " match your other filters. " + showAll + "</p></div>"
+      : '<div class="empty"><h2>No studies match your filters</h2><p>Try broadening the filters or search.</p></div>';
+}
+
+// ── Top picks: score threshold + per-digest daily cap (top-picks.js) ─────────
+
+const TOP_PICKS_KEY = "research-digest-dashboard-top-picks";
+
+function currentTopPicks() {
+  return {
+    minScore: Number(document.getElementById("filter-min-score").value) || 0,
+    capPerTopic: Number(document.getElementById("filter-topic-cap").value) || 0
+  };
+}
+
+function setTopPicksControls({ minScore, capPerTopic }) {
+  for (const [id, value] of [["filter-min-score", minScore], ["filter-topic-cap", capPerTopic]]) {
+    const select = document.getElementById(id);
+    if ([...select.options].some(o => o.value === String(value))) select.value = String(value);
+  }
+}
+
+function restoreTopPicks() {
+  setTopPicksControls(TOP_PICKS_DEFAULTS);
+  try {
+    const saved = JSON.parse(localStorage.getItem(TOP_PICKS_KEY) || "null");
+    if (saved && typeof saved === "object") setTopPicksControls(saved);
+  } catch {}
+}
+
+function onTopPicksChange() {
+  try { localStorage.setItem(TOP_PICKS_KEY, JSON.stringify(currentTopPicks())); } catch {}
+  applyFilters();
+}
+
+function showAllStudies() {
+  setTopPicksControls({ minScore: 0, capPerTopic: 0 });
+  onTopPicksChange();
 }
 
 function searchText(study) {
@@ -909,7 +976,8 @@ function clearFilters() {
   document.getElementById("filter-status").value = "";
   document.getElementById("filter-days").value = "7";
   document.getElementById("sort-by").value = "score";
-  applyFilters();
+  setTopPicksControls(TOP_PICKS_DEFAULTS);
+  onTopPicksChange();
 }
 
 // ── Card rendering ───────────────────────────────────────────────────────────
@@ -1107,6 +1175,7 @@ window.addEventListener("scroll", () => {
   document.getElementById("back-to-top").classList.toggle("visible", window.scrollY > 400);
 }, { passive: true });
 
+restoreTopPicks();
 init();
 </script>
 </body>

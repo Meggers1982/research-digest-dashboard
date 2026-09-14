@@ -10,6 +10,9 @@ https://research-digest-dashboard.vercel.app
 
 ```text
 index.html
+top-picks.js          # score threshold + daily cap (pure function, see "Top picks")
+tests/
+  top-picks.test.mjs
 api/
   status.js
 data/
@@ -56,6 +59,76 @@ The dashboard also tolerates older source files shaped like:
 ```
 
 When a source does not include `source_id` or `source_label`, the dashboard fills them from `data/sources.json`.
+
+## Top picks (score threshold + daily cap)
+
+About 90 merged studies arrive a day (125 before cross-digest duplicates are
+merged), so the "new" queue is trimmed by two controls in the filter bar (MEA-721):
+
+| Control | Options | Default |
+|---|---|---|
+| Minimum score | Any score / 7+ / 8+ / 9+ | **7+** |
+| Daily cap | No cap / 1 / 3 / 5 per digest per day | **3** |
+
+Rules, all in `applyTopPicks()` in `top-picks.js`:
+
+- **Acted-on studies are never hidden.** Anything saved, pitched or passed shows
+  whatever its score and takes no cap slot. The threshold and cap only trim
+  studies still marked new.
+- **The cap is per digest per `run_date`.** Within each digest-and-day group, the
+  top N new studies by `relevance_score` are kept. Ties go to the dashboard's
+  default order (the merge order the relevance sort already uses).
+- **A study merged from several digests counts once**, under its `source_id`.
+  That is the digest whose copy the merge kept (highest score, then latest run
+  date). The digest filter and the saved/pitched status key use the same
+  `source_id`, so the cap and the digest filter always agree. The study's other
+  digests don't spend a slot on it.
+- **Top picks run last**, on whatever the search, digest, category, type, status
+  and date filters leave. Searching "sleep" shows the best 3 sleep studies per
+  digest per day.
+- **Nothing is lost.** The summary line reads "Showing X of Y studies · Z new below
+  the top-picks cut" with a **Show all** button that sets both controls to Any
+  score / No cap. **Clear** puts them back to the defaults.
+- **View-only.** No study is deleted or changed, and `data/*.json` is never touched.
+- The two settings persist in `localStorage` (`research-digest-dashboard-top-picks`),
+  and every read and write is wrapped in try/catch. They are not put in the URL,
+  since no other filter is.
+
+**Why 7+ and not 8+.** Over the 7 run dates ending 2026-09-14, 8+ with a cap of 3
+leaves about 7 studies a day (2 on several days), and the cap barely does anything
+because few digests reach 8. 7+ with a cap of 3 leaves about 17 a day
+(32, 19, 15, 11, 11, 6, 25), and the cap does real work on heavy run days. Some
+digests almost never score 8+:
+
+| Digest | 8+ | 7+ |
+|---|---|---|
+| senior-research (1 run so far) | 14.8% | 48.1% |
+| aging-longevity | 10.5% | 25.1% |
+| mental-health | 10.4% | 29.1% |
+| pediatric-health | 10.4% | 26.1% |
+| science-environment | 10.3% | 28.5% |
+| elderly-geriatric | 9.6% | 24.3% |
+| womens-health | 7.0% | 21.2% |
+| fitness-exercise | 6.9% | 21.7% |
+| cardiology-heart | 6.1% | 22.3% |
+| gut-digestive | 5.1% | 14.4% |
+| conditions-body | 4.4% | 15.5% |
+| dermatology-skin | 4.3% | 23.2% |
+
+The defaults live in one place, `TOP_PICKS_DEFAULTS` in `top-picks.js`.
+
+### Test
+
+```bash
+node tests/top-picks.test.mjs
+```
+
+No dependencies. It loads the real `data/*.json`, merges them the way `index.html`
+does, and runs `applyTopPicks()` with the defaults. It checks that acted-on
+studies survive, that no digest goes over the cap on any day, that the result
+isn't empty, and that the daily queue over the last 7 run dates averages roughly
+10–20 (the check allows 8–25, so a heavy week doesn't fail it). It prints the
+per-day counts. It exits 1 on failure.
 
 ## Hosting
 
