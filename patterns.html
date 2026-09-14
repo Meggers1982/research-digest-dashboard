@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evidence Patterns · Research Digest Dashboard</title>
+<style>
+  /* Palette and type are copied from index.html so the two pages read as one
+     site. index.html is light-only, so this page is too. */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --ink: #1d2522;
+    --muted: #66706c;
+    --line: #dde3df;
+    --paper: #ffffff;
+    --wash: #f6f3ed;
+    --green: #173f35;
+    --green-2: #e5f4ee;
+    --blue: #245a92;
+    --gold: #a56a14;
+    --red: #b42318;
+    --ui: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  body {
+    min-height: 100vh;
+    background: var(--wash);
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.55;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: var(--green);
+    color: #fff;
+    padding: 20px 28px;
+    box-shadow: 0 2px 14px rgba(0,0,0,0.22);
+  }
+  .header-row {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  h1 { font-size: 1.35rem; font-weight: 600; line-height: 1.2; }
+  .meta {
+    margin-top: 3px;
+    font: 0.8rem/1.4 var(--ui);
+    color: rgba(255,255,255,0.72);
+  }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 28px;
+    padding: 4px 11px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.13);
+    color: #fff;
+    font: 0.75rem/1 var(--ui);
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  a.chip:hover { background: rgba(255,255,255,0.24); }
+  .toc {
+    background: var(--paper);
+    border-bottom: 1px solid var(--line);
+    padding: 10px 28px;
+  }
+  .toc-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    gap: 6px 14px;
+    flex-wrap: wrap;
+    font: 0.8rem var(--ui);
+  }
+  .toc a { color: var(--blue); text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+  .toc .count { color: var(--muted); }
+  main { max-width: 1180px; margin: 0 auto; padding: 24px 20px 48px; }
+  .intro {
+    margin-bottom: 22px;
+    color: var(--muted);
+    font: 0.84rem/1.5 var(--ui);
+    max-width: 760px;
+  }
+  .topic-section { margin-bottom: 34px; scroll-margin-top: 96px; }
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid var(--line);
+  }
+  .section-head h2 { color: var(--green); font-size: 1.15rem; font-weight: 700; }
+  .section-note { color: var(--muted); font: 0.78rem var(--ui); }
+  .grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  .card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-left: 4px solid #d2d9d5;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .card.dir-new { border-left-color: var(--blue); }
+  .card.dir-confirms { border-left-color: #16864f; }
+  .card.dir-extends { border-left-color: var(--gold); }
+  .card.dir-contradicts { border-left-color: var(--red); }
+  .card-header { padding: 18px 20px 12px; }
+  .headline {
+    color: var(--green);
+    font-size: 1.08rem;
+    font-weight: 700;
+    line-height: 1.38;
+    margin-bottom: 6px;
+  }
+  .claim { font-size: 0.97rem; margin-bottom: 10px; }
+  .card-meta {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    flex-wrap: wrap;
+    color: var(--muted);
+    font: 0.74rem var(--ui);
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    min-height: 22px;
+    max-width: 100%;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font: 700 0.68rem/1.1 var(--ui);
+    text-transform: uppercase;
+    overflow-wrap: anywhere;
+  }
+  .badge-dir.new { background: #dbeafe; color: #1e3a8a; }
+  .badge-dir.confirms { background: #dcfce7; color: #166534; }
+  .badge-dir.extends { background: #fff1c7; color: #794600; }
+  .badge-dir.contradicts { background: #fee4e2; color: var(--red); }
+  .badge-flag { background: #fff7df; color: #60420f; border: 1px solid #e7a92f; }
+  .badge-source { background: #dbeafe; color: #1e3a8a; }
+  .badge-link { background: var(--green-2); color: #14543e; }
+  .score { border: 1px solid #cfd8d3; background: #f7faf8; color: #30413a; }
+  .score.high { background: #dcfce7; color: #14532d; border-color: #86efac; }
+  .score.mid { background: #fef9c3; color: #713f12; border-color: #fde047; }
+  .note {
+    margin-top: 10px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    background: #f7f8f7;
+    color: #59645f;
+    font: 0.8rem/1.45 var(--ui);
+  }
+  .note.flag-note { background: #fff7df; color: #60420f; border-left: 3px solid #e7a92f; }
+  .note.draft summary { cursor: pointer; }
+  .note.draft p { margin-top: 6px; }
+  .designs { margin-top: 8px; color: var(--muted); font: 0.76rem var(--ui); }
+  .studies { border-top: 1px solid #eef1ef; }
+  .study { border-bottom: 1px solid #eef1ef; }
+  .study:last-child { border-bottom: 0; }
+  .study summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: 16px minmax(0, 1fr);
+    gap: 4px 6px;
+  }
+  .study summary::-webkit-details-marker { display: none; }
+  .study summary::before {
+    content: "▸";
+    color: var(--muted);
+    transition: transform 0.18s;
+    display: inline-block;
+  }
+  .study[open] summary::before { transform: rotate(90deg); }
+  .study summary:hover { background: #fafbfa; }
+  .study-headline { font-size: 0.92rem; font-weight: 700; color: #0e1714; line-height: 1.4; }
+  .study-meta {
+    grid-column: 2;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    flex-wrap: wrap;
+    color: var(--muted);
+    font: 0.74rem var(--ui);
+  }
+  .study-meta a { color: var(--blue); text-decoration: none; }
+  .study-meta a:hover { text-decoration: underline; }
+  .study-body { padding: 0 20px 14px 42px; font-size: 0.9rem; }
+  .study-body p { margin: 6px 0; }
+  .study-body .caveats { color: var(--muted); font: 0.8rem/1.45 var(--ui); }
+  .empty-topic {
+    padding: 14px 16px;
+    border: 1px dashed #cfd8d3;
+    border-radius: 8px;
+    color: var(--muted);
+    font: 0.84rem var(--ui);
+    background: rgba(255,255,255,0.5);
+  }
+  .dropped {
+    margin-top: 10px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    font: 0.8rem/1.5 var(--ui);
+  }
+  .dropped summary { cursor: pointer; padding: 12px 16px; color: #39453f; font-weight: 600; }
+  .dropped ul { list-style: none; padding: 0 16px 14px; }
+  .dropped li { padding: 5px 0; border-top: 1px solid #eef1ef; color: #4d5954; }
+  .dropped code { font-size: 0.76rem; color: var(--ink); }
+  .empty, #loading {
+    text-align: center;
+    padding: 70px 20px;
+    color: var(--muted);
+    font: 0.92rem var(--ui);
+  }
+  .empty h2, #loading h2 { font-size: 1.05rem; font-weight: 600; margin-bottom: 5px; color: #39453f; }
+  @media (max-width: 620px) {
+    header, .toc { padding-left: 16px; padding-right: 16px; }
+    main { padding-left: 16px; padding-right: 16px; }
+    .card-header { padding-left: 14px; padding-right: 14px; }
+    .study summary { padding-left: 14px; padding-right: 14px; }
+    .study-body { padding-left: 36px; padding-right: 14px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="header-row">
+    <div>
+      <h1>Evidence Patterns</h1>
+      <div class="meta" id="week-meta">Loading patterns...</div>
+    </div>
+    <div class="chips">
+      <a class="chip" href="index.html">&larr; All studies</a>
+    </div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sections"><div class="toc-inner" id="toc"></div></nav>
+
+<main>
+  <p class="intro">
+    Each thread links studies that point the same way. A thread needs at least 3 studies from at
+    least 2 journals, with at least one added this week, and every study of every score counts.
+    A second pass checks each claim against the cited summaries, and anything suspected of
+    reusing one cohort is dropped. Single-country and single-group flags stay on the thread.
+  </p>
+  <div id="content"><div id="loading"><h2>Loading patterns...</h2></div></div>
+</main>
+
+<script>
+const DIRECTION_LABELS = {
+  new: "New",
+  confirms: "Confirms earlier findings",
+  extends: "Extends earlier findings",
+  contradicts: "Contradicts earlier findings"
+};
+const FLAG_LABELS = {
+  single_country: "Single country",
+  single_group: "Single group"
+};
+const STATUS_NOTES = {
+  failed: "The job could not process this topic this week.",
+  skipped: "Skipped: this week was already folded into the topic memory.",
+  no_studies: "No studies were added this week.",
+  carried_over: ""
+};
+
+async function init() {
+  let data;
+  try {
+    const response = await fetch("data/patterns.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(response.status);
+    data = await response.json();
+  } catch {
+    document.getElementById("week-meta").textContent = "No patterns yet";
+    document.getElementById("content").innerHTML = `<div class="empty"><h2>No patterns yet</h2>
+      The weekly patterns job writes <code>data/patterns.json</code> every Monday.</div>`;
+    return;
+  }
+  render(data);
+}
+
+function render(data) {
+  const topics = Object.entries(data.topics || {});
+  const cross = data.cross_topic || [];
+  const threadCount = topics.reduce((n, [, t]) => n + (t.threads || []).length, 0) + cross.length;
+
+  document.getElementById("week-meta").textContent =
+    `Week of ${formatRange(data.week_start, data.week_end)} · ${threadCount} thread${threadCount === 1 ? "" : "s"} · generated ${formatStamp(data.generated_at)}`;
+
+  const toc = [`<a href="#cross-topic">Cross-topic</a> <span class="count">${cross.length}</span>`];
+  for (const [id, topic] of topics) {
+    toc.push(`<a href="#topic-${escAttr(id)}">${esc(topic.label || id)}</a> <span class="count">${(topic.threads || []).length}</span>`);
+  }
+  document.getElementById("toc").innerHTML = toc.join("");
+
+  const sections = [];
+  const crossMeta = data.cross_topic_meta || {};
+  let crossNote = "Same exposure, drug, population or mechanism across more than one topic.";
+  if (crossMeta.status === "skipped") crossNote = "Not run this week: fewer than two topics had memory or threads.";
+  if (crossMeta.status === "failed") crossNote = "The cross-topic pass could not run this week.";
+  sections.push(section("cross-topic", "Cross-topic", crossNote, cross, true, labelMap(data)));
+
+  for (const [id, topic] of topics) {
+    const parts = [];
+    if (topic.study_count) parts.push(`${topic.study_count} studies this week`);
+    if (STATUS_NOTES[topic.status]) parts.push(STATUS_NOTES[topic.status]);
+    if (topic.status === "carried_over") parts.push("From an earlier run this week");
+    sections.push(section(`topic-${id}`, topic.label || id, parts.join(" · "), topic.threads || [], false));
+  }
+
+  sections.push(droppedBlock(data.dropped || [], labelMap(data)));
+  document.getElementById("content").innerHTML = sections.join("");
+}
+
+function labelMap(data) {
+  const map = { cross_topic: "Cross-topic" };
+  for (const [id, topic] of Object.entries(data.topics || {})) map[id] = topic.label || id;
+  return map;
+}
+
+function section(anchor, title, note, threads, isCross, labels) {
+  const body = threads.length
+    ? `<div class="grid">${threads.map(t => threadCard(t, isCross, labels)).join("")}</div>`
+    : `<div class="empty-topic">No thread met the bar this week.</div>`;
+  return `<section class="topic-section" id="${escAttr(anchor)}">
+    <div class="section-head"><h2>${esc(title)}</h2><span class="section-note">${esc(note)}</span></div>
+    ${body}
+  </section>`;
+}
+
+function threadCard(t, isCross, labels) {
+  const direction = DIRECTION_LABELS[t.direction] ? t.direction : "new";
+  const flags = Object.entries(t.flags || {})
+    .filter(([key, on]) => on && FLAG_LABELS[key])
+    .map(([key]) => `<span class="badge badge-flag">${FLAG_LABELS[key]}</span>`)
+    .join("");
+  const studies = t.studies || [];
+  const counts = [
+    `${studies.length} studies`,
+    `${t.journal_count ?? "?"} journals`,
+    `${t.this_week_count ?? 0} added this week`
+  ];
+  if (t.first_seen) counts.push(`first seen ${formatDay(t.first_seen)}`);
+
+  const crossBits = isCross
+    ? `${t.link ? `<span class="badge badge-link">${esc(t.link_type || "link")}: ${esc(t.link)}</span>` : ""}
+       ${(t.topics || []).map(id => `<span class="badge badge-source">${esc(labels[id] || id)}</span>`).join("")}`
+    : "";
+
+  const designs = Object.entries(t.design_mix || {})
+    .map(([design, n]) => `${esc(design)} &times;${n}`)
+    .join(" · ");
+
+  const notes = [];
+  if (t.flag_note) notes.push(`<div class="note flag-note">${esc(t.flag_note)}</div>`);
+  if (t.original_claim) notes.push(`<details class="note draft"><summary>Claim narrowed by the verification pass</summary><p>First draft: ${esc(t.original_claim)}</p></details>`);
+
+  return `<article class="card dir-${direction}">
+    <div class="card-header">
+      <div class="headline">${esc(t.title)}</div>
+      <p class="claim">${esc(t.claim)}</p>
+      <div class="card-meta">
+        <span class="badge badge-dir ${direction}">${DIRECTION_LABELS[direction]}</span>
+        ${flags}${crossBits}
+        <span>${counts.join(" · ")}</span>
+      </div>
+      ${designs ? `<div class="designs">Design mix: ${designs}</div>` : ""}
+      ${notes.join("")}
+    </div>
+    <div class="studies">${studies.map(s => studyRow(s, isCross, labels)).join("")}</div>
+  </article>`;
+}
+
+function studyRow(s, isCross, labels) {
+  const pubmed = s.pmid
+    ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${escAttr(s.pmid)}/" target="_blank" rel="noreferrer">PubMed ${esc(s.pmid)}</a>`
+    : "";
+  const sources = isCross
+    ? (s.sources || []).map(id => `<span class="badge badge-source">${esc(labels[id] || id)}</span>`).join("")
+    : "";
+  const doi = s.doi
+    ? ` · <a href="https://doi.org/${escAttr(s.doi)}" target="_blank" rel="noreferrer">DOI</a>`
+    : "";
+  return `<details class="study">
+    <summary>
+      <span class="study-headline">${esc(s.headline)}</span>
+      <span class="study-meta">
+        <span>${esc(s.journal)}</span>
+        ${scoreBadge(s.relevance_score)}
+        <span>${esc(s.design || "")}</span>
+        ${s.this_week ? "<span>added this week</span>" : (s.run_date ? `<span>added ${formatDay(s.run_date)}</span>` : "")}
+        ${sources}
+        ${pubmed}
+      </span>
+    </summary>
+    <div class="study-body">
+      <p>${esc(s.summary)}</p>
+      ${s.caveats ? `<p class="caveats"><strong>Caveats:</strong> ${esc(s.caveats)}${doi}</p>` : (doi ? `<p class="caveats">${doi.slice(3)}</p>` : "")}
+    </div>
+  </details>`;
+}
+
+function droppedBlock(dropped, labels) {
+  if (!dropped.length) return "";
+  const rows = dropped.map(d => {
+    const where = labels[d.source_id] || d.source_id;
+    const pmid = d.pmid ? ` (PMID ${esc(d.pmid)})` : "";
+    const scope = d.scope === "memory" ? "memory" : d.stage;
+    return `<li>${esc(where)} · <code>${esc(d.thread_id)}</code>${pmid} · ${esc(scope)}: ${esc(d.reason)}</li>`;
+  }).join("");
+  return `<details class="dropped">
+    <summary>Guardrail log: ${dropped.length} item${dropped.length === 1 ? "" : "s"} dropped or demoted this week</summary>
+    <ul>${rows}</ul>
+  </details>`;
+}
+
+function scoreBadge(value) {
+  const score = Number(value);
+  if (value === null || value === undefined || Number.isNaN(score)) return "";
+  const cls = score >= 8 ? " high" : score >= 6 ? " mid" : "";
+  return `<span class="badge score${cls}">Relevance ${score}/10</span>`;
+}
+
+function parseDay(iso) {
+  const [y, m, d] = String(iso || "").split("-").map(Number);
+  return y ? new Date(y, (m || 1) - 1, d || 1) : null;
+}
+
+function formatDay(iso) {
+  const day = parseDay(iso);
+  return day ? day.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }) : "";
+}
+
+function formatRange(start, end) {
+  const a = parseDay(start), b = parseDay(end);
+  if (!a || !b) return "";
+  const sameMonth = a.getMonth() === b.getMonth() && a.getFullYear() === b.getFullYear();
+  const left = a.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+  const right = sameMonth
+    ? `${b.getDate()}, ${b.getFullYear()}`
+    : b.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+  return `${left}–${right}`;
+}
+
+function formatStamp(iso) {
+  const when = new Date(iso);
+  return Number.isNaN(when.getTime())
+    ? ""
+    : when.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" });
+}
+
+function esc(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function escAttr(value) {
+  return esc(value).replace(/'/g, "&#39;");
+}
+
+init();
+</script>
+</body>
+</html>

@@ -10,13 +10,13 @@ https://research-digest-dashboard.vercel.app
 
 ```text
 index.html
-top-picks.js          # score threshold + daily cap (pure function, see "Top picks")
-tests/
-  top-picks.test.mjs
+top-picks.js             # score threshold + daily cap (pure function, see "Top picks")
+patterns.html            # Evidence Patterns page (weekly job output)
 api/
   status.js
 data/
   sources.json
+  patterns.json          # written by the weekly patterns job
   aging-longevity.json
   cardiology-heart.json
   conditions-body.json
@@ -29,9 +29,17 @@ data/
   pediatric-health.json
   science-environment.json
   womens-health.json
+topic_memory/            # one running memory per topic, <source_id>.md
+scripts/
+  patterns/              # weekly patterns job (Python)
+tests/
+  top-picks.test.mjs     # node tests/top-picks.test.mjs
+  patterns/              # pytest suite for the patterns job
+requirements.txt
 .github/
   workflows/
     sync-senior-research.yml
+    weekly-patterns.yml
 ```
 
 ## Data Shape
@@ -272,6 +280,148 @@ keep showing. New studies arrive under `senior-research`.
 | `pediatric-health-digest` | `data/pediatric-health.json` | `pediatric-health` |
 | `science-environment-digest` | `data/science-environment.json` | `science-environment` |
 | `womens-health-digest` | `data/womens-health.json` | `womens-health` |
+
+## Weekly Evidence Patterns
+
+The dashboard shows single studies. The patterns job connects them: once a
+week it reads every topic's new studies, keeps a running memory per topic, and
+finds evidence threads, meaning 3 or more studies from 2 or more journals that
+point the same way, within a topic and across topics. `patterns.html` renders
+the result, and the dashboard header links to it.
+
+It follows the model in senior-research-digest (`scripts/trends.py`,
+`scripts/llm.py`, `topic_memory/`), with memory keyed by `source_id` so a
+renamed digest keeps its history.
+
+### What runs
+
+For each topic (every source except `pitch-ideas`, which is empty, and
+`senior-research`, which keeps its own memory upstream):
+
+1. **Topic pass** (`claude-opus-5`, effort `high`). Input: compact records of
+   the week's studies (PMID, headline, journal, dates, score, trimmed summary,
+   caveats) plus `topic_memory/<source_id>.md`. Output, as structured JSON: the
+   revised memory and a list of threads. Each thread has a stable slug id, a
+   title, a one-sentence claim, its PMIDs, a direction (new, confirms, extends
+   or contradicts earlier findings), the design of each study, and flags
+   (`single_country`, `single_group`, `same_cohort_suspected`). Studies of every
+   score are included.
+2. **Code guardrails** (below).
+3. **Verification pass** (`claude-opus-5`, effort `low`, a much smaller input).
+   It sees each surviving thread plus the full summary and caveats of every
+   study it cites. It returns keep or drop for each PMID and each thread, can
+   narrow an overstated claim, and can add flags. The guardrails then run again.
+
+Then one **cross-topic pass** over every topic's memory and the week's verified
+threads looks for the same exposure, drug, population or mechanism in more than
+one topic. `senior-research`'s studies for the week are included as read-only
+context and can be cited. Cross-topic threads get the same guardrails and their
+own verification call.
+
+A week is the 7 days ending `--week-ending` (default: the Sunday before the
+run), matched on each study's `run_date`. A study that appears in several
+sources is counted once per pass (deduped by PMID). Within a source, a repeat of
+the same PMID keeps its earliest `run_date`, so a repeat never counts as new.
+
+### Guardrails (enforced in code)
+
+`scripts/patterns/guardrails.py`. Every drop is printed and logged in
+`patterns.json` under `dropped`, with its stage and reason. The page lists them
+at the bottom.
+
+- Every cited PMID must exist in the loaded data and not be excluded. A topic
+  thread may only cite that topic's own studies. A PMID marked `excluded` in
+  any source counts as excluded everywhere.
+- A thread needs at least 3 distinct PMIDs and 2 distinct journals (journal
+  names are normalized, so "The Lancet (London, England)" and "Lancet" are one
+  journal), and at least one study added this week.
+- `same_cohort_suspected` drops the thread.
+- A cross-topic thread also needs two different PMIDs carried by two different
+  sources. One paper that appears in two digests is one piece of evidence.
+- The verifier's PMID and thread drops are applied, then all of the above runs
+  again. A thread or PMID the verifier skipped counts as dropped, and if the
+  verification call fails, that scope's threads are not published.
+- `single_country` and `single_group` never drop a thread. They show on it.
+- Memory bullets follow the same PMID rules. An "established" bullet needs 3
+  PMIDs from 2 journals, added in at least 2 different weeks; one that falls
+  short is demoted to "emerging," not deleted, and a bullet can't be promoted
+  in a week the verifier rejected its thread. A new bullet for a rejected thread
+  is removed.
+
+### Outputs
+
+- `topic_memory/<source_id>.md`: "Established findings" and "Emerging
+  threads," one bullet per finding with its slug id and PMIDs. The header line
+  records the last week folded in. A re-run for a week that is already folded in
+  skips that topic and carries its threads over, unless you pass `--force`.
+- `data/patterns.json`: `{generated_at, week_start, week_end, model,
+  verify_model, topics: {<source_id>: {label, status, study_count, threads}},
+  cross_topic, dropped, usage}`. Each thread embeds its studies' headline,
+  journal, dates, score, summary, caveats and DOI, so `patterns.html` loads this
+  one file and never the source files.
+
+Nothing is written until every pass has finished. A topic whose pass fails is
+marked `failed` and its memory is left as it was.
+
+### Bootstrap
+
+A new topic has no memory, so its first week would be compared against
+nothing. `--bootstrap-weeks N` builds the memory first, for topics that have
+none, from the N weeks before the review week: **one call per topic**, with the
+whole history in a single prompt, rather than one call per past week. That
+keeps the one-time cost to 11 extra calls (one per topic) whatever N is. N is capped at
+8; 4 weeks is the largest prompt at about 47K input tokens
+(science-environment). Topics that already have memory ignore the flag, so the
+workflow passes 4 on every run and only the first run pays for it.
+
+### Cost
+
+A normal week is at most 24 calls: 11 topic passes, up to 11 verifications,
+and 1 cross-topic pass plus its verification (verification is skipped when no
+thread survives the code checks). The first run adds up to 11 bootstrap calls,
+so about 35 in total. The system prompts are prompt-cached across topics. Every
+call streams and uses `fallbacks: "default"`, so a safety-classifier decline is
+retried on Anthropic's recommended fallback model instead of failing the topic.
+
+Measured on the smallest topic (dermatology-skin, 28 studies, 2-week
+bootstrap), two runs: 3 calls each, 18–25K input and 16–22K output tokens
+(mostly thinking), $0.51–$0.71. Scaled to every topic, expect roughly $5 a week and
+about $8 for the first, bootstrapped run. The job prints its own call count,
+tokens and estimated cost, and records them under `usage` in `patterns.json`.
+
+### Running it
+
+Prerequisite: an `ANTHROPIC_API_KEY` **repository secret**. It does not exist
+in this repo yet, and the workflow fails with a clear error until it's added.
+
+Locally (Python 3.11+):
+
+```bash
+pip install -r requirements-dev.txt
+export ANTHROPIC_API_KEY=...
+
+# See what would be sent, with no calls and no writes:
+python -m scripts.patterns.run --dry-run --bootstrap-weeks 4
+
+# One topic into a scratch folder, leaving data/ and topic_memory/ alone:
+python -m scripts.patterns.run --sources dermatology-skin --bootstrap-weeks 2 --out /tmp/patterns
+
+# The real thing for a given week:
+python -m scripts.patterns.run --week-ending 2026-09-13 --bootstrap-weeks 4
+
+python -m pytest   # no network; uses a fake client
+```
+
+Other flags: `--force` re-runs a week already folded in, `--model`,
+`--verify-model`, `--effort` and `--verify-effort` override the defaults, and
+`--workers` sets how many topics run at once (default 3).
+
+In GitHub Actions, `.github/workflows/weekly-patterns.yml` runs Mondays at
+13:23 UTC and on demand (Actions → Weekly Evidence Patterns → Run workflow),
+with inputs for `bootstrap_weeks` (default 4), `sources`, `week_ending` and
+`force`. It commits `data/patterns.json` and `topic_memory/` as
+github-actions[bot] with `git pull --rebase` and one retry, like the other
+sync workflows.
 
 ## Local Preview
 

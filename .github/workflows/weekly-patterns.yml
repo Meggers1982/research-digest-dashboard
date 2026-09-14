@@ -1,0 +1,97 @@
+name: Weekly Evidence Patterns
+
+# MEA-722. Reads every digest's studies from data/, folds the week into
+# topic_memory/<source_id>.md, finds evidence threads within and across
+# topics, and writes data/patterns.json for patterns.html.
+#
+# Needs the ANTHROPIC_API_KEY repository secret.
+#
+# bootstrap_weeks only acts on a topic that has no memory file yet, so the
+# scheduled default of 4 bootstraps each topic once and is a no-op after that.
+
+on:
+  schedule:
+    # Mondays 13:23 UTC (8:23 CDT). The digests' Sunday runs have landed by then.
+    - cron: '23 13 * * 1'
+  workflow_dispatch:
+    inputs:
+      bootstrap_weeks:
+        description: "Weeks of history to build memory from, for topics with none yet (0-8)"
+        required: false
+        default: "4"
+      sources:
+        description: "Comma-separated source ids (blank = every topic)"
+        required: false
+        default: ""
+      week_ending:
+        description: "Last day of the week to review, YYYY-MM-DD (blank = last Sunday)"
+        required: false
+        default: ""
+      force:
+        description: "Re-run topics whose memory already covers this week"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-patterns
+  cancel-in-progress: false
+
+jobs:
+  patterns:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout dashboard
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run patterns job
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Inputs pass through env, never straight into the script.
+          BOOTSTRAP_WEEKS: ${{ inputs.bootstrap_weeks }}
+          SOURCES: ${{ inputs.sources || '' }}
+          WEEK_ENDING: ${{ inputs.week_ending || '' }}
+          FORCE: ${{ inputs.force && 'true' || '' }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::error::The ANTHROPIC_API_KEY repository secret is not set."
+            exit 1
+          fi
+          # Scheduled runs have no inputs; they get the same default of 4.
+          args=(--bootstrap-weeks "${BOOTSTRAP_WEEKS:-4}")
+          if [ -n "$SOURCES" ]; then args+=(--sources "$SOURCES"); fi
+          if [ -n "$WEEK_ENDING" ]; then args+=(--week-ending "$WEEK_ENDING"); fi
+          if [ -n "$FORCE" ]; then args+=(--force); fi
+          python -m scripts.patterns.run "${args[@]}"
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/patterns.json
+          if [ -d topic_memory ]; then git add topic_memory; fi
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: weekly evidence patterns"
+            # Digest bots push data files here often; retry once if one lands first.
+            if ! (git pull --rebase origin main && git push); then
+              sleep 15
+              git pull --rebase origin main && git push
+            fi
+          fi
