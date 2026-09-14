@@ -1,60 +1,414 @@
 {
-  "last_updated": "2026-09-13T14:54:15.532767+00:00",
-  "total_studies": 456,
-  "new_this_run": 2,
+  "last_updated": "2026-09-14T16:54:46.591902+00:00",
+  "total_studies": 462,
+  "new_this_run": 8,
   "studies": [
     {
       "pmid": "42714369",
-      "headline": "A new AFib ablation technique completes each energy delivery in under a second \u2014 and early results match existing methods",
+      "headline": "A new AFib ablation catheter completes each energy delivery in under a second \u2014 and early human data look promising",
       "journal": "JACC Clinical Electrophysiology",
       "pubdate": "2026 Sep 9",
       "doi": "10.1016/j.jacep.2026.09.001",
-      "groundbreaking": "First-in-class human study",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "The FIELD-PULSE trial was a first-in-human study of 35 patients with atrial fibrillation testing a focal pulsed-field ablation (PFA) catheter that delivers a single high-voltage (<200 ms) energy application per point, enabling near-instantaneous point-by-point ablation without the need for prolonged catheter contact. All 35 patients achieved acute pulmonary vein isolation, and the most refined waveform (C) achieved 94.2% per-vein durability at remapping around 90 days. Twelve-month freedom from atrial arrhythmia was 73.9%, with no primary safety events, no kidney injury, and no brain MRI lesions meeting the combined DWI+/FLAIR+ threshold.",
-      "why_it_matters": "For the millions living with atrial fibrillation, a faster and more flexible ablation technique that can target individual heart tissue points in milliseconds could one day shorten procedures and improve outcomes.",
-      "caveats": "small sample (N<100), single-center, short follow-up, industry funding [Field Medical Inc], surrogate endpoints only",
+      "summary": "In the first-in-human FIELD-PULSE trial (N=35, sites in Prague and New York), researchers tested a focal pulsed-field ablation (PFA) catheter that delivers high-voltage energy in under 200 milliseconds per lesion for point-by-point pulmonary vein isolation in atrial fibrillation patients. The final waveform (Waveform C) achieved 94.2% per-vein pulmonary vein isolation durability at ~90-day remapping, with no primary safety events, no hemolysis, and no acute kidney injury. At 12 months, 73.9% of patients were free from atrial arrhythmia, and brain MRI in 14 patients found no established embolic lesions.",
+      "why_it_matters": "Subsecond focal ablation with high durability and an apparently clean safety profile could eventually make AFib catheter procedures faster and more precisely tailored to individual patients' anatomy.",
+      "caveats": "small sample (N=35), single-center (primary site), industry funding [Field Medical Inc.], short follow-up for some cohorts, first-in-human pilot",
       "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "First-in-human AFib ablation data; small N=35, industry-funded, no comparative arm limits score.",
+      "relevance_score": 7,
+      "relevance_score_reason": "First-in-human AFib ablation technology; high-prevalence condition; hard safety endpoints; small N and industry funding caveat.",
       "pitch_angles": [
         {
+          "publication_type": "STAT News",
+          "headline": "An AFib Ablation Catheter That Fires in a Blink \u2014 First Human Data Are In",
+          "hook": "A new catheter that delivers each ablation pulse in under 200 milliseconds completed pulmonary vein isolation in all 35 patients tested, with no strokes, hemolysis, or kidney injury detected.",
+          "pitch_angle": "The FIELD-PULSE trial's first-in-human data suggest subsecond focal pulsed-field ablation could combine the flexibility of point-by-point catheter work with the speed advantage of single-shot devices \u2014 though with only 35 patients and full industry funding, much larger trials will be needed to confirm the promise."
+        },
+        {
           "publication_type": "Medscape Cardiology",
-          "headline": "First-in-Human Focal PFA Catheter Delivers Sub-Second AFib Ablation With Promising Durability",
-          "hook": "A new pulsed-field ablation catheter completes each energy delivery in under 200 milliseconds \u2014 and early human data suggest it can isolate pulmonary veins with durability comparable to established approaches.",
-          "pitch_angle": "In 35 AFib patients, the FieldForce catheter achieved 100% acute pulmonary vein isolation and 94.2% per-vein durability at 90 days with its optimized waveform, with no safety events and no qualifying brain MRI lesions. Industry-funded and single-centre, the FIELD-PULSE results support further development of an instantaneous focal PFA workflow for more individualized ablation lesion sets."
+          "headline": "First-In-Human Data: Subsecond Focal PFA Achieves 94% PVI Durability and 74% 12-Month Arrhythmia Freedom in AFib",
+          "hook": "A novel high-voltage focal PFA catheter delivering instantaneous point-by-point lesions achieved durable pulmonary vein isolation and a clean brain MRI profile in the first 35 human patients treated.",
+          "pitch_angle": "Waveform C of the FieldForce system reached 94.2% per-vein PVI durability at remapping and 73.9% freedom from atrial arrhythmia at 12 months, with no haptoglobin depletion or primary safety events \u2014 early signals that warrant a larger, controlled trial."
         }
       ],
-      "run_date": "2026-09-13",
+      "run_date": "2026-09-14",
       "category": "Cardiology",
       "chunk": "2/2",
       "status": "new"
     },
     {
+      "pmid": "42712169",
+      "headline": "A hidden clotting gene mutation derailed a kidney transplant \u2014 and genetic testing caught it in time",
+      "journal": "Blood Coagulation & Fibrinolysis",
+      "pubdate": "2026 Sep 9",
+      "doi": "10.1097/MBC.0000000000001452",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Clinicians in China report the case of a 42-year-old woman with end-stage renal disease and recurrent dialysis access thrombosis whose standard coagulation tests were normal, but whole-exome sequencing revealed a previously unreported frameshift mutation in the histidine-rich glycoprotein (HRG) gene \u2014 a rare cause of hereditary thrombophilia. The genetic finding prompted a multidisciplinary decision to defer her planned kidney transplant due to the elevated risk of graft thrombosis. The case illustrates how conventional clotting tests can miss genetic thrombophilias that only advanced sequencing can uncover.",
+      "why_it_matters": "For patients with unexplained recurrent blood clots and normal routine lab results, this case suggests that genetic testing could reveal rare but high-stakes clotting disorders that change major treatment decisions.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clinically interesting rare thrombophilia case; single patient limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "A Rare Clotting Gene Mutation That Normal Blood Tests Miss Nearly Led to a Failed Kidney Transplant",
+          "hook": "Standard coagulation panels showed nothing wrong \u2014 but a gene sequencing test revealed a mutation that would likely have destroyed a transplanted kidney.",
+          "pitch_angle": "A 42-year-old woman with recurring dialysis clots had a frameshift mutation in the HRG gene, a rare hereditary thrombophilia invisible to routine testing, identified only through whole-exome sequencing. The case raises questions about when genetic workup should be standard in transplant candidates with unexplained thrombosis \u2014 and how many patients may be missing a diagnosis that changes everything."
+        }
+      ],
+      "run_date": "2026-09-14",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42715138",
+      "headline": "In interstitial lung disease, the patients whose breathing tests look stable are often the ones dying fastest",
+      "journal": "Respiration; international review of thoracic diseases",
+      "pubdate": "2026 Sep 9",
+      "doi": "10.1159/res/aepag007",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In 371 adults from a multinational European ILD registry, researchers compared deterioration across eight clinical measures \u2014 including lung function (FVC, DLCO), frailty, and patient-reported outcomes \u2014 and found that decline on one measure rarely identified the same patients as decline on another, with agreement no better than chance for most pairs. A subgroup of patients (22%) whose quality-of-life scores worsened while spirometry remained stable carried the highest event rate for death or lung transplantation (13.3%). The findings challenge the common clinical practice of using spirometry alone \u2014 particularly FVC \u2014 as the primary marker of ILD progression.",
+      "why_it_matters": "For patients with interstitial lung disease, relying on breathing tests alone to track disease progression may miss the patients deteriorating fastest \u2014 and those patients' own reports of worsening symptoms may be the most important warning sign.",
+      "caveats": "observational design, small number of hard endpoints (24 events in 312 patients), heterogeneous ILD diagnoses (though finding persisted in IPF subgroup), variable instrument follow-up windows",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive finding with hard endpoints; large multinational cohort; high clinical and patient relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / Medscape Cardiology",
+          "headline": "Spirometry is missing the sickest ILD patients \u2014 and their own symptom reports are the better warning signal",
+          "hook": "In a multinational European registry, patients with interstitial lung disease whose breathing test scores stayed stable but who reported worsening quality of life had the highest rate of death or lung transplant \u2014 higher than those flagged by spirometry alone.",
+          "pitch_angle": "The study found that deterioration on lung function tests, frailty scales, and patient-reported outcome measures identified almost entirely different patients \u2014 with agreement no better than chance across most measure pairs. The results suggest that current progression criteria in ILD trials and clinical practice, which lean heavily on FVC decline, may systematically miss the patients at greatest risk."
+        },
+        {
+          "publication_type": "Everyday Health / General health",
+          "headline": "For people with scarring lung disease, 'normal' breathing tests can be dangerously misleading",
+          "hook": "A large European study found that people with interstitial lung disease who felt worse and had declining quality of life \u2014 even when their spirometry looked stable \u2014 faced the highest risk of death or needing a lung transplant.",
+          "pitch_angle": "The research shows that how patients feel and function may be a more sensitive early warning signal than standard breathing tests in ILD, a progressive and often fatal lung-scarring condition. Experts say the findings make a strong case for including patient-reported symptoms as a routine, formal part of monitoring \u2014 not just an afterthought."
+        }
+      ],
+      "run_date": "2026-09-14",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
       "pmid": "42144391",
-      "headline": "Combining palliative care with advanced nursing could reshape how heart failure is managed at home",
+      "headline": "Combining palliative care and advanced practice nursing in the community may reshape how heart failure is managed outside hospital",
       "journal": "European Journal of Cardiovascular Nursing",
       "pubdate": "2026 Sep 8",
       "doi": "10.1093/eurjcn/zvag118",
       "groundbreaking": "Major cardiovascular or public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This commentary from KU Leuven proposes integrating palliative care principles with advanced practice nursing to improve community-based heart failure management. No primary data or patient cohort is presented; the paper outlines a conceptual framework for delivering care outside hospital settings. The authors argue this combined approach could better address the complex symptom burden and end-of-life needs of heart failure patients living at home.",
-      "why_it_matters": "For the millions living with heart failure, a home-based model merging palliative and specialist nursing care could reduce hospitalizations and better align treatment with patients' quality-of-life priorities.",
-      "caveats": "small sample (N<100), observational design, single-center, surrogate endpoints only",
-      "fact_check_note": "This is a commentary/perspective piece, not an original research study \u2014 no patient data, N, or clinical endpoints are reported in the abstract.",
+      "summary": "This is a short opinion/commentary piece (not an original research study) from KU Leuven researchers proposing a novel community-based model that integrates palliative care with advanced practice nursing for heart failure management. No patient data, sample size, or study endpoints are reported. The authors describe the model as a conceptual framework for improving care quality and reducing hospitalisation in advanced heart failure.",
+      "why_it_matters": "Heart failure affects millions of people globally, and most patients cycle through repeated hospitalisations \u2014 a community model that integrates specialist palliative support earlier could meaningfully reduce that burden.",
+      "caveats": "No original data (commentary/opinion piece), small sample (N<100), observational design not applicable, editor-in-chief of publishing journal is a co-author",
+      "fact_check_note": "This is a commentary, not an original research study \u2014 the abstract contains no patient data, N, or outcome metrics. The summary reflects this accurately.",
       "relevance_score": 4,
-      "relevance_score_reason": "Commentary only, no primary data; heart failure topic relevant but limited empirical basis.",
+      "relevance_score_reason": "Commentary with no original data; heart failure topic fit; limited pitch value.",
       "pitch_angles": [
         {
-          "publication_type": "Everyday Health / General health",
-          "headline": "Could a Home-Based Palliative Care Approach Change How We Treat Heart Failure?",
-          "hook": "Most heart failure care happens in hospitals \u2014 but a new framework suggests combining palliative and advanced nursing care at home could be a better fit for many patients.",
-          "pitch_angle": "Researchers propose merging palliative care expertise with advanced practice nursing to manage heart failure in the community. If adopted, the model could reduce hospital stays and better address the quality-of-life concerns that standard cardiac care often overlooks."
+          "publication_type": "General health",
+          "headline": "Heart Failure Experts Say Palliative Care Shouldn't Wait for the End \u2014 It Should Start in the Community",
+          "hook": "A new model proposed in a European cardiology journal argues that blending palliative care with specialist nursing in the community could transform how advanced heart failure is managed \u2014 long before patients reach a crisis.",
+          "pitch_angle": "The commentary calls for integrating palliative support into routine community-based heart failure nursing, challenging the conventional view that palliative care is only for end-of-life \u2014 though the proposal is theoretical and not yet tested in a clinical trial."
         }
       ],
-      "run_date": "2026-09-13",
+      "run_date": "2026-09-14",
       "category": "Cardiology",
       "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42702591",
+      "headline": "A new angled X-ray technique may finally see blood flow hidden behind the heart in a deadly lung condition",
+      "journal": "European Heart Journal",
+      "pubdate": "2026 Sep 7",
+      "doi": "10.1093/eurheartj/ehag711",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers developed a novel oblique dynamic chest radiography technique designed to image pulmonary blood flow in regions obscured by the heart \u2014 a longstanding diagnostic blind spot \u2014 in patients with chronic thromboembolic pulmonary hypertension (CTEPH). The study is from a single Japanese institution. The technique aims to improve visualization of retrocardiac blood flow without more invasive imaging, potentially aiding diagnosis of this serious and often missed condition.",
+      "why_it_matters": "CTEPH is frequently underdiagnosed because standard imaging misses blood flow hidden behind the heart, and this approach could help close that diagnostic gap.",
+      "caveats": "small sample (N<100), single-center, surrogate endpoints only",
+      "fact_check_note": "Abstract contains no sample size or outcome data \u2014 summary is based solely on study aims and design as described; clinical validation data not available in the abstract.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Niche imaging technique for rare condition; limited clinical outcome data in abstract.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Oblique Dynamic Chest X-Ray May Unmask Hidden Blood Flow in CTEPH",
+          "hook": "A retrocardiac blind spot has long hampered CTEPH diagnosis \u2014 a novel angled chest X-ray technique may finally see around it.",
+          "pitch_angle": "Researchers in Japan tested a dynamic oblique radiography approach to image pulmonary blood flow obscured by cardiac silhouette in CTEPH patients. If validated in larger studies, the technique could offer a lower-burden imaging option to catch a condition that is chronically underdiagnosed."
+        }
+      ],
+      "run_date": "2026-09-14",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42733242",
+      "headline": "AI can fill in missing frames during heart catheterization \u2014 cutting radiation exposure without losing diagnostic quality",
+      "journal": "Catheterization and Cardiovascular Interventions",
+      "pubdate": "2026 Sep 13",
+      "doi": "10.1002/ccd.70856",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Ireland applied two AI-based video frame interpolation (VFI) algorithms \u2014 RIFE and RRIN \u2014 to 60 retrospectively collected coronary angiography sequences, replacing every other frame with a synthesized AI-generated frame to simulate halved radiation dose acquisition. Blinded cardiologists rated the AI-reconstructed sequences against originals using a novel clinical scoring system, with RIFE showing good correlation for noise suppression and vessel evaluation. The study found that AI-synthesized frames preserved diagnostic image quality, suggesting VFI could reduce radiation exposure in the cath lab without sacrificing clinical information.",
+      "why_it_matters": "Reducing radiation exposure during cardiac catheterization matters for both patients and the clinical staff who perform thousands of these procedures annually.",
+      "caveats": "small sample (N<100), retrospective design, surrogate endpoints only, single-center",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Clinically relevant innovation; retrospective design with surrogate endpoints limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "AI Fills In the Gaps During Heart Procedures \u2014 and Could Mean Less Radiation for Patients",
+          "hook": "An AI algorithm that synthesizes missing video frames during coronary angiography could halve radiation dose without cardiologists losing the visual detail they need.",
+          "pitch_angle": "Irish researchers tested two AI-based video interpolation tools on 60 angiography sequences and found one \u2014 RIFE \u2014 maintained diagnostic image quality while effectively cutting frame acquisition in half, which translates directly to reduced radiation. The technology is computationally lightweight, raising real-world feasibility for cath lab adoption."
+        }
+      ],
+      "run_date": "2026-09-14",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42732570",
+      "headline": "A new energy-based heart rhythm ablation tool succeeds where drugs and prior procedures failed in high-risk patients",
+      "journal": "Journal of Cardiovascular Electrophysiology",
+      "pubdate": "2026 Sep 13",
+      "doi": "10.1111/jce.70498",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers retrospectively reviewed 10 consecutive patients (median age 77, mix of ischemic and nonischemic cardiomyopathy) with drug-refractory ventricular tachycardia who underwent ablation with the FARAPOINT focal pulsed-field ablation catheter at a single VA Medical Center \u2014 the first reported U.S. experience with this device. Six of ten had already failed at least one prior catheter ablation. Acute non-inducibility was achieved in all nine patients who underwent post-ablation testing, with no procedural complications, though sustained VT recurred in four of ten patients over a median follow-up of roughly three months.",
+      "why_it_matters": "For patients whose dangerous heart rhythm disorder has resisted both medications and prior ablation procedures, this early evidence suggests a newer energy-based catheter approach may offer a viable next option.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up, secondary analysis, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "First U.S. experience, refractory arrhythmia population, but very small single-center retrospective case series.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "First U.S. Data on Focal Pulsed-Field Ablation for Refractory VT: FARAPOINT Shows Acute Efficacy in High-Risk Veterans",
+          "hook": "When drugs and prior ablations have failed elderly patients with ventricular tachycardia, a new focal pulsed-field catheter achieved acute non-inducibility in all evaluable cases without procedural complications.",
+          "pitch_angle": "Ten patients at a Minneapolis VA center \u2014 median age 77, six with prior failed ablations \u2014 underwent VT ablation with the FARAPOINT catheter in the first reported U.S. experience with this device. While VT recurred in four patients over roughly three months, the absence of complications and 100% acute success rate in tested patients supports further prospective study of this platform in a notoriously difficult-to-treat population."
+        }
+      ],
+      "run_date": "2026-09-14",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42732805",
+      "headline": "Skipping clot-busting drugs in a rare arm vein condition may work just as well \u2014 with fewer risks",
+      "journal": "Journal of Vascular Surgery: Venous and Lymphatic Disorders",
+      "pubdate": "2026 Sep 13",
+      "doi": "10.1016/j.jvsv.2026.102622",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers retrospectively reviewed outcomes in 19 young patients (mean age 28.4 years; 13 male) with Paget-Schroetter syndrome \u2014 effort-induced axillosubclavian deep vein thrombosis \u2014 who received anticoagulation alone followed by delayed first rib resection at 3\u20136 months, with thrombolysis deliberately omitted. At a mean follow-up of 20.3 months, 16 of 19 patients showed complete DVT resolution on duplex ultrasound and 17 were symptom-free. The findings suggest that avoiding thrombolysis may simplify treatment without sacrificing outcomes in this condition, which disproportionately affects young, athletic individuals.",
+      "why_it_matters": "For young athletes who develop this rare but disabling clotting condition in the shoulder-arm vein, a simplified surgical approach that skips an aggressive clot-dissolving drug step may offer similar relief with potentially lower procedural risk.",
+      "caveats": "small sample (N=19), observational design, single-center, retrospective, short follow-up, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Rare DVT in young athletes; small retrospective single-center study limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Dropping Thrombolysis From Paget-Schroetter Treatment Protocol Shows Promise in Small Cohort",
+          "hook": "A French vascular surgery center achieved near-complete clot resolution in young athletes with upper-extremity DVT without using thrombolytic therapy \u2014 the standard first step in most protocols.",
+          "pitch_angle": "The simplified approach of anticoagulation followed by delayed first rib resection resulted in 17 of 19 patients becoming symptom-free at roughly 20 months, raising the question of whether thrombolysis \u2014 with its added cost, catheter risk, and bleeding concerns \u2014 is necessary in this condition. The findings are preliminary but could prompt a re-evaluation of treatment algorithms for Paget-Schroetter syndrome."
+        }
+      ],
+      "run_date": "2026-09-14",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42731859",
+      "headline": "Sending severe aortic stenosis patients home before valve replacement cuts hospital stays by nearly a week \u2014 without raising safety risks",
+      "journal": "Open Heart",
+      "pubdate": "2026 Sep 12",
+      "doi": "10.1136/openhrt-2026-004222",
+      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a single-centre cohort study at Oxford University Hospitals, researchers evaluated an ultra-rapid outpatient pathway for selected patients with acute decompensated aortic stenosis (acute valve syndrome) who were stabilised and sent home to await TAVI within two weeks, compared with standard inpatient management. Of 105 patients evaluated post-pathway introduction, 58 (55%) met criteria for outpatient treatment. Outpatients had significantly shorter total hospital stays (12 vs 20 days median), saving an estimated 210 bed-days, with no significant difference in death or acute decompensation rates before TAVI between pathways (6.9% vs 6.4%).",
+      "why_it_matters": "For the roughly 30% of TAVI patients who arrive in acute distress, early discharge for outpatient prep \u2014 when safe \u2014 may reduce hospital-acquired deconditioning and free critical cardiac beds without apparent added risk.",
+      "caveats": "single-center, observational design, short follow-up, industry funding [Edwards LifeSciences \u2014 honoraria to some authors, unrelated to study]",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive pathway finding; hard safety endpoints; high-prevalence valve disease; single-center caveat.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Going Home Before Heart Valve Surgery Cuts Hospital Time Without Adding Risk \u2014 Early Data Suggest",
+          "hook": "Cardiologists sent stabilised patients with life-threatening aortic stenosis home to await their valve replacement procedure \u2014 and it worked out just as safely as keeping them in hospital.",
+          "pitch_angle": "The Oxford study found selected patients discharged home spent eight fewer days in hospital on average before their TAVI procedure, with no significant increase in death or acute deterioration \u2014 raising questions about whether prolonged inpatient stays before elective valve procedures are always necessary."
+        },
+        {
+          "publication_type": "Everyday Health / General health",
+          "headline": "Heart Valve Patients May Not Need Long Hospital Stays Before a Major Procedure",
+          "hook": "A new study suggests that some people hospitalised with a dangerous narrowing of the aortic valve can safely go home and return within two weeks for a minimally invasive procedure \u2014 instead of waiting in hospital the entire time.",
+          "pitch_angle": "The approach cut total hospital time nearly in half for eligible patients, potentially reducing the physical decline that comes from extended bed rest, though researchers caution the findings need broader validation before becoming standard care."
+        }
+      ],
+      "run_date": "2026-09-14",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42728177",
+      "headline": "One lung test trial may be enough \u2014 cutting the burden on kids and adults with cystic fibrosis",
+      "journal": "Journal of Cystic Fibrosis",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1016/j.jcf.2026.09.002",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers pooled data from three multicenter cohorts (N=466 children and adults with CF and healthy controls, 1,960 test occasions) to assess whether a single acceptable multiple-breath washout (MBW) trial could replace the conventional average of two or three trials. Using intraclass correlation and Bland-Altman analysis, they found near-perfect agreement between the single-trial lung clearance index and the multi-trial mean (ICC 0.992). A single-trial approach also recovered 78 additional test occasions that would otherwise have been excluded.",
+      "why_it_matters": "For people with cystic fibrosis \u2014 especially children \u2014 this finding suggests lung function monitoring could become less exhausting without sacrificing accuracy.",
+      "caveats": "retrospective analysis, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Pulmonary/CF diagnostic methods study; no hard cardiovascular endpoints; surrogate measure only.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Everyday Health",
+          "headline": "A Single Breathing Test May Be Enough to Monitor Lung Disease in Cystic Fibrosis",
+          "hook": "Children and adults with cystic fibrosis may no longer need to repeat an exhausting lung test multiple times to get a reliable result.",
+          "pitch_angle": "A pooled analysis of nearly 2,000 test sessions found that the first acceptable trial of a sensitive lung-function test agreed almost perfectly with the average of multiple trials, suggesting the test burden on CF patients could be safely reduced."
+        }
+      ],
+      "run_date": "2026-09-14",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42726674",
+      "headline": "Most ventilator-dependent patients living outside hospitals in Germany are not actually on mechanical ventilation \u2014 and many could be weaned",
+      "journal": "Respiration; international review of thoracic diseases",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1159/res/aepag011",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Respiratory specialists in Baden-W\u00fcrttemberg, Germany, evaluated 148 consecutive adults (mean age 61.2 years, 75% male) receiving out-of-hospital intensive care under new national legislation. Despite being classified as intensive care patients, only 23% were invasively ventilated; neurological impairment \u2014 not pulmonary disease \u2014 was the leading cause of tracheostomy in 77% of cases. Notably, 34% of tracheostomized patients showed short- or long-term potential for decannulation, suggesting significant underutilization of weaning and rehabilitation resources.",
+      "why_it_matters": "A large proportion of people in long-term intensive care outside hospitals may have more recovery potential than their current care setting recognizes, pointing to systemic gaps in rehabilitation access.",
+      "caveats": "small sample (N<100 for invasively ventilated subgroup), observational design, single-center, retrospective analysis, German healthcare context may limit generalizability",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Chronic pulmonary/respiratory care policy; limited cardiovascular hook, single-region context.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Germany's new intensive care law is exposing a hidden population \u2014 and finding many patients who shouldn't be there",
+          "hook": "A first look at Germany's out-of-hospital intensive care reform finds that most patients classified as intensive care aren't actually on mechanical ventilators \u2014 and a third could potentially be weaned.",
+          "pitch_angle": "New legislation requiring specialist oversight of home and nursing-home intensive care patients in Germany revealed that neurological injury, not lung disease, drives most tracheostomies in this population. Early data suggest rehabilitation access is the key bottleneck preventing recovery for patients who may have been written off."
+        }
+      ],
+      "run_date": "2026-09-14",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42723617",
+      "headline": "Heart infection care teams now have a first-ever scorecard for measuring how well they make decisions together",
+      "journal": "Interdisciplinary Cardiovascular and Thoracic Surgery",
+      "pubdate": "2026 Sep 10",
+      "doi": "10.1093/icvts/ivag219",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Clinicians at a high-volume London center adapted a validated cancer-team decision-making tool to create MDT-MODIE, the first quality-assessment framework specifically designed for infective endocarditis multidisciplinary team (MDT) meetings. The tool was feasibility-tested across 152 patient case discussions between September 2024 and April 2025, and inter-rater reliability was confirmed across all domains. Higher MODIE scores correlated positively with better MDT decision-making outcomes, suggesting the framework can meaningfully track and support improvement in endocarditis care quality.",
+      "why_it_matters": "Infective endocarditis is rising in incidence and carries high mortality, and this first validated tool for measuring team decision-making quality could help cardiac centers close care gaps and drive more consistent, guideline-adherent outcomes.",
+      "caveats": "single-center, surrogate endpoints only, observational design, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "First validated quality tool for endocarditis MDTs; high-prevalence implication limited by single-center design.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "MDT-MODIE: First Validated Quality Metric for Endocarditis Multidisciplinary Team Meetings Clears Feasibility Testing",
+          "hook": "With infective endocarditis incidence rising and MDT meetings a core guideline requirement, cardiac centers have had no validated way to measure whether those meetings are actually working \u2014 until now.",
+          "pitch_angle": "Adapted from a well-established cancer-MDT tool, MDT-MODIE demonstrated strong inter-rater reliability across 152 patient discussions and correlated positively with decision outcomes in a single London center. The framework could give hospitals a standardized mechanism to benchmark and improve endocarditis team performance, a gap that existing guidelines have acknowledged but not addressed."
+        },
+        {
+          "publication_type": "STAT News",
+          "headline": "Heart Infection Deaths Are Rising. A New Scorecard Aims to Fix How Hospital Teams Make Life-or-Death Calls",
+          "hook": "Infective endocarditis kills roughly one in five patients in-hospital, yet until now there has been no validated tool to evaluate whether the specialist teams managing it are actually making good decisions together.",
+          "pitch_angle": "Researchers at St Bartholomew's Hospital borrowed a framework from oncology and adapted it for endocarditis care, testing it on 152 real patient discussions with promising reliability results. If adopted more broadly, the tool could expose variability in team-based cardiac care and create accountability where currently none exists."
+        }
+      ],
+      "run_date": "2026-09-14",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42730742",
+      "headline": "A wearable remote monitor may non-invasively track heart pressure buildup in heart failure patients \u2014 without a catheter",
+      "journal": "JACC Heart Failure",
+      "pubdate": "2026 Sep 10",
+      "doi": "10.1016/j.jchf.2026.103303",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers prospectively validated a noninvasive remote monitoring system (developed by Seerlinq Ltd.) designed to estimate left ventricular filling pressure \u2014 a key marker of heart failure decompensation \u2014 without invasive catheter-based measurement. The study enrolled patients across sites in Slovakia, Israel, and Northern Ireland. The abstract does not report full N, age range, or primary accuracy metrics, limiting independent verification of key claims.",
+      "why_it_matters": "If validated at scale, a noninvasive wearable that continuously tracks cardiac filling pressure could allow earlier intervention before heart failure patients deteriorate enough to require hospitalisation.",
+      "caveats": "industry funding [Seerlinq Ltd. \u2014 founders and shareholders among authors], surrogate endpoints only, abstract incomplete (N and primary accuracy metrics not reported in abstract), single-center not confirmed but multi-site",
+      "fact_check_note": "The abstract does not include sample size, patient demographics, or primary accuracy/validation statistics \u2014 key claims cannot be fully verified against the abstract alone.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Heart failure remote monitoring with clinical relevance; significant industry COI; incomplete abstract limits scoring.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "A Startup's Wearable Claims to Track Heart Failure Pressure Without a Catheter \u2014 JACC Just Published the Validation Study",
+          "hook": "A noninvasive remote monitor designed to estimate dangerous pressure buildup inside the heart has cleared a prospective validation study \u2014 but the device's founders are also the paper's authors.",
+          "pitch_angle": "Published in JACC Heart Failure, the Seerlinq system aims to replace invasive hemodynamic monitoring in heart failure patients, but the deep financial ties between the research team and the company warrant careful scrutiny of the validation data before clinical adoption is considered."
+        },
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Noninvasive LV Filling Pressure Monitor Clears Prospective Validation \u2014 With Important Caveats on Conflicts",
+          "hook": "A novel remote monitoring system for noninvasively estimating left ventricular filling pressure has been prospectively validated across three international sites, with results published in JACC Heart Failure.",
+          "pitch_angle": "The technology could offer an alternative to implantable hemodynamic sensors for heart failure management, but clinicians should note that the study was funded by the device maker and that several lead authors hold equity in the company."
+        }
+      ],
+      "run_date": "2026-09-14",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42722088",
+      "headline": "Three in four people with hypermobile Ehlers-Danlos syndrome report significant breathlessness \u2014 and it's quietly derailing their daily lives",
+      "journal": "Respiratory medicine",
+      "pubdate": "2026 Sep 10",
+      "doi": "10.1016/j.rmed.2026.109158",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at a specialized EDS clinic in Toronto used patient-reported outcomes, Fitbit-measured physical activity, and qualitative interviews to assess respiratory symptoms in 47 adults with hypermobile EDS or generalized hypermobility spectrum disorders. Moderate to severe dyspnea was reported by 74.5% of participants, and was associated with significantly lower physical function scores, greater fatigue, and reduced functional capacity. Over half of those with activity data (57%) were sedentary, with patients describing a self-reinforcing 'cycle of inactivity' driven by breathlessness.",
+      "why_it_matters": "Breathlessness is a common but poorly recognized burden in hypermobile EDS \u2014 a largely under-studied condition \u2014 and the findings suggest routine respiratory assessment should be part of multidisciplinary care for these patients.",
+      "caveats": "small sample (N<100), single-center, observational design, self-reported outcomes, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Underrecognized chronic condition with quality-of-life impact; small sample, limited cardiovascular endpoint data.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention",
+          "headline": "Most people with hypermobile EDS struggle to breathe \u2014 but their doctors rarely ask about it",
+          "hook": "Nearly three-quarters of people with hypermobile Ehlers-Danlos syndrome report significant breathlessness that limits their daily activity \u2014 yet respiratory symptoms remain routinely underassessed in this population.",
+          "pitch_angle": "A Toronto clinic study found that dyspnea in EDS patients was strongly linked to lower physical function, greater fatigue, and sedentary behavior, with patients describing a reinforcing cycle where breathlessness leads to inactivity, which worsens symptoms. Researchers say routine respiratory screening should become standard in multidisciplinary care for this underserved group."
+        }
+      ],
+      "run_date": "2026-09-14",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -91,33 +445,6 @@
       "status": "new"
     },
     {
-      "pmid": "42702591",
-      "headline": "A new X-ray technique may finally let doctors see pulmonary blood flow hidden behind the heart",
-      "journal": "European Heart Journal",
-      "pubdate": "2026 Sep 7",
-      "doi": "10.1093/eurheartj/ehag711",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers from Japan developed a novel oblique dynamic chest radiography technique aimed at imaging pulmonary blood flow in the retrocardiac region \u2014 an area typically obscured by the heart on standard chest X-rays \u2014 in patients with chronic thromboembolic pulmonary hypertension (CTEPH). The abstract does not provide participant numbers, study design details, or quantitative results beyond the technique description. The study was published in the European Heart Journal.",
-      "why_it_matters": "If validated, a low-cost X-ray-based method to visualize blood flow behind the heart could improve detection and monitoring of chronic thromboembolic pulmonary hypertension, a life-threatening and often under-diagnosed condition.",
-      "caveats": "single-center, abstract contains insufficient detail to verify sample size or quantitative outcomes",
-      "fact_check_note": "The abstract provided contains no participant data, sample size, or quantitative findings \u2014 only a description of the technique and its application context. Summary reflects only what the abstract states.",
-      "relevance_score": 5,
-      "relevance_score_reason": "Pulmonary hypertension topic fit; insufficient abstract data limits scoring.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "Doctors Can't See Behind the Heart on a Standard X-Ray \u2014 A New Imaging Technique Is Trying to Change That",
-          "hook": "A region of the lungs hidden behind the heart has long been a blind spot in diagnosing chronic thromboembolic pulmonary hypertension \u2014 a new oblique X-ray approach may open a window.",
-          "pitch_angle": "Japanese researchers have developed a dynamic chest radiography technique that captures pulmonary blood flow in the retrocardiac zone, which standard imaging misses. For CTEPH patients, earlier and more accessible visualization of obstructed blood flow could matter enormously given how frequently the condition goes undetected."
-        }
-      ],
-      "run_date": "2026-09-13",
-      "category": "Cardiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42702207",
       "headline": "Single-port robotic chest surgery through one small incision appears feasible \u2014 in a 10-patient pilot",
       "journal": "The Thoracic and Cardiovascular Surgeon",
@@ -142,39 +469,6 @@
       "run_date": "2026-09-13",
       "category": "Cardiology",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42731859",
-      "headline": "Sending severe aortic stenosis patients home before valve replacement cut hospital stays by 8 days \u2014 without raising safety risk",
-      "journal": "Open Heart",
-      "pubdate": "2026 Sep 12",
-      "doi": "10.1136/openhrt-2026-004222",
-      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This single-centre cohort study from Oxford evaluated an ultra-rapid outpatient pathway for selected patients with acute decompensated aortic stenosis (acute valve syndrome) awaiting transcatheter aortic valve implantation (TAVI), enrolling 183 patients over 18 months. Patients deemed stable enough were discharged home to complete pre-procedure workup and return for TAVI within two weeks, rather than remaining as inpatients. Outpatients had a significantly shorter median total hospital stay (12 vs. 20 days, p<0.0001), with no significant difference in the rate of death or acute deterioration before the procedure (6.9% vs. 6.4%).",
-      "why_it_matters": "For patients with dangerous aortic valve disease, early discharge before a scheduled valve procedure appears feasible without increasing the risk of deterioration, potentially freeing up scarce hospital beds and reducing patients' deconditioning.",
-      "caveats": "single-center, observational design, short follow-up, industry funding [Edwards LifeSciences \u2014 speaker/research fees for some authors, unrelated to study]",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive safety finding, human cohort N=183, high-prevalence valve disease, clear clinical hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "Sending Acute Aortic Stenosis Patients Home Before TAVI Saved 8 Hospital Days \u2014 and Didn't Raise Risk",
-          "hook": "Conventional wisdom says patients with acute aortic valve decompensation should stay in hospital until their valve procedure \u2014 a new Oxford study challenges that assumption.",
-          "pitch_angle": "A structured rapid-discharge pathway allowed selected acute aortic stenosis patients to go home and return for TAVI within two weeks, cutting median hospital stays from 20 to 12 days with no significant increase in pre-procedure death or deterioration. The findings suggest a rethink of inpatient-only management for stabilized TAVI candidates could free up hospital capacity without compromising safety."
-        },
-        {
-          "publication_type": "Medscape Cardiology",
-          "headline": "Ultra-Rapid Outpatient TAVI Pathway Reduces Hospital Stay by 8 Days Without Safety Signal",
-          "hook": "A novel discharge-before-TAVI pathway in Oxford found no significant difference in death or acute decompensation between outpatient and inpatient-managed acute valve syndrome patients.",
-          "pitch_angle": "In 183 consecutive patients with acute aortic stenosis, 55% met criteria for home discharge pending TAVI within two weeks; time-to-TAVI was equivalent but total hospital length of stay dropped significantly. Single-centre results warrant multicentre validation before broader adoption."
-        }
-      ],
-      "run_date": "2026-09-13",
-      "category": "Cardiology",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -207,87 +501,6 @@
       ],
       "run_date": "2026-09-13",
       "category": "Cardiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42723617",
-      "headline": "A borrowed cancer-care quality tool has been adapted to grade how well heart infection teams make decisions",
-      "journal": "Interdisciplinary Cardiovascular and Thoracic Surgery",
-      "pubdate": "2026 Sep 10",
-      "doi": "10.1093/icvts/ivag219",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at St Bartholomew's Hospital in London adapted a validated cancer multidisciplinary team (MDT) quality metric \u2014 MDT-MODe \u2014 to create MDT-MODIE, the first quality assessment framework specifically designed for endocarditis MDT meetings. The tool was tested across 152 patient discussions, with inter-rater reliability confirmed across all domains and internal validation showing a positive correlation between MODIE scores and MDT decision outcomes. The study addresses the lack of any standardized measure for assessing decision-making quality in endocarditis teams, which are now a core guideline recommendation.",
-      "why_it_matters": "Infective endocarditis carries high mortality and its management depends heavily on coordinated specialist teams \u2014 a validated quality metric could help hospitals identify where those teams fall short and track improvement over time.",
-      "caveats": "single-center, observational design, small sample (N<100 per rater pair \u2014 152 discussions total)",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Methodological/quality improvement tool; limited generalizability from single-centre UK setting.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / Medscape Cardiology",
-          "headline": "Heart Infection Teams Now Have Their First Quality Scorecard \u2014 Borrowed From Cancer Care",
-          "hook": "Hospitals have long used quality metrics to audit cancer multidisciplinary teams \u2014 now a version designed specifically for life-threatening heart valve infections has been validated for the first time.",
-          "pitch_angle": "MDT-MODIE, adapted from a cancer-care decision-making tool, was reliably tested across 152 endocarditis patient discussions at a high-volume London centre and showed a significant positive correlation between team quality scores and decision outcomes. With endocarditis incidence rising and MDT management now a guideline standard, a validated measurement framework could help cardiac centres systematically improve the care they deliver."
-        }
-      ],
-      "run_date": "2026-09-13",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42730742",
-      "headline": "A wearable remote monitor may detect rising heart pressure in heart failure patients \u2014 without a catheter",
-      "journal": "JACC Heart Failure",
-      "pubdate": "2026 Sep 10",
-      "doi": "10.1016/j.jchf.2026.103303",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers prospectively validated a noninvasive remote monitoring system designed to estimate left ventricular filling pressure \u2014 a key marker of heart failure decompensation \u2014 without requiring an implanted sensor or invasive catheterization. The study was funded by Seerlinq Ltd, the company developing the device, with several authors serving as founders, shareholders, or employees. Specific N, patient demographics, and key accuracy metrics are not reported in the available abstract.",
-      "why_it_matters": "If validated at scale, a noninvasive wearable that can detect rising cardiac pressures before symptoms worsen could help prevent heart failure hospitalizations \u2014 one of the costliest and most frequent events in cardiovascular medicine.",
-      "caveats": "industry funding [Seerlinq Ltd], surrogate endpoints only, single-center, short follow-up",
-      "fact_check_note": "Abstract does not report N, patient age range, or specific accuracy metrics \u2014 summary reflects what is available from the abstract text.",
-      "relevance_score": 6,
-      "relevance_score_reason": "Novel noninvasive monitoring concept for heart failure; limited by heavy industry funding and absent key data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Everyday Health / General health",
-          "headline": "Could a Remote Wearable Replace an Implanted Sensor for Heart Failure Monitoring?",
-          "hook": "Tracking dangerous pressure changes inside the heart typically requires an implanted device \u2014 researchers say a noninvasive monitor worn at home may do the same job.",
-          "pitch_angle": "A newly validated remote monitoring system aims to estimate left ventricular filling pressure in heart failure patients without surgery or a catheter. Early findings suggest it could one day help patients and doctors catch decompensation before it leads to a hospital stay \u2014 though the device was developed and funded by the company behind the study."
-        }
-      ],
-      "run_date": "2026-09-13",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42712169",
-      "headline": "A rare genetic clotting mutation found in a dialysis patient led doctors to cancel her kidney transplant",
-      "journal": "Blood Coagulation & Fibrinolysis",
-      "pubdate": "2026 Sep 9",
-      "doi": "10.1097/MBC.0000000000001452",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Clinicians in China used whole-exome sequencing in a 42-year-old woman with end-stage renal disease who had recurrent dialysis access clotting despite normal routine coagulation tests. They identified a previously unreported frameshift mutation in the histidine-rich glycoprotein (HRG) gene \u2014 a rare hereditary thrombophilia \u2014 that dramatically raised her risk of losing a transplanted kidney to clotting. A multidisciplinary team decided to defer the planned kidney transplant based on this genetic finding.",
-      "why_it_matters": "This case suggests that routine coagulation tests may miss hereditary clotting disorders in transplant candidates, and that genetic screening could prevent catastrophic graft loss in high-risk patients.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Rare case report; clotting disorder angle fits digest but N=1 limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / Medscape Cardiology",
-          "headline": "A negative transplant decision turned on a genetic test \u2014 and a clotting mutation no one had seen before",
-          "hook": "Standard coagulation tests came back normal, but a whole-exome screen revealed a never-before-documented hereditary clotting disorder that changed everything.",
-          "pitch_angle": "In a single case from China, whole-exome sequencing uncovered a novel HRG gene frameshift mutation in a dialysis patient whose recurrent thrombosis had stumped routine testing \u2014 prompting doctors to defer her kidney transplant. The case raises questions about whether genetic screening should be standard practice for transplant candidates with unexplained clotting histories."
-        }
-      ],
-      "run_date": "2026-09-12",
-      "category": "Hematology & Vascular",
       "chunk": "1/2",
       "status": "new"
     },
@@ -376,33 +589,6 @@
       "run_date": "2026-09-12",
       "category": "Pulmonary Medicine",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42728177",
-      "headline": "One lung clearance test may be just as reliable as three for kids and adults with cystic fibrosis",
-      "journal": "Journal of Cystic Fibrosis",
-      "pubdate": "2026 Sep 11",
-      "doi": "10.1016/j.jcf.2026.09.002",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers performed a retrospective pooled analysis of 1,960 multiple-breath washout (MBW) test occasions from 466 children and adults with cystic fibrosis and healthy controls across three multicenter cohorts. They compared lung clearance index (LCI) values from a single acceptable trial against the conventional mean of two or three trials. Agreement was very high (ICC 0.992), suggesting a single-trial approach could reduce testing burden without meaningfully compromising clinical accuracy.",
-      "why_it_matters": "For people with cystic fibrosis who undergo frequent lung monitoring, cutting the number of required breath tests could make an already taxing disease management routine significantly less burdensome.",
-      "caveats": "observational design, retrospective analysis, surrogate endpoints only, industry funding [Vertex Pharmaceuticals \u2014 Ratjen consultant]",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Pulmonary/CF focus; surrogate endpoints; no cardiovascular or hard outcomes.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health / Everyday Health",
-          "headline": "Cystic Fibrosis Patients May Only Need One Lung Test Instead of Three",
-          "hook": "A grueling multi-trial breathing test used to monitor cystic fibrosis lung disease may work just as well with a single attempt, new research suggests.",
-          "pitch_angle": "Researchers found that the first acceptable breath test gave results nearly identical to the average of three tests across nearly 500 patients. For a community that already faces relentless medical demands, streamlining monitoring could meaningfully reduce clinic time and fatigue."
-        }
-      ],
-      "run_date": "2026-09-12",
-      "category": "Pulmonary Medicine",
-      "chunk": "2/2",
       "status": "new"
     },
     {
