@@ -1,0 +1,16 @@
+# Topic Memory: Children's & Pediatric Health
+_Last updated: 2026-09-14 · source_id: pediatric-health · covers studies through 2026-09-13_
+
+## Established findings
+- **single-center-biomarkers-pediatric-disease** — Small single-center studies keep proposing biomarkers, bedside scores and monitoring indices to predict deterioration or disability in sick neonates and children, with modest discrimination and no external validation. (PMIDs 42684427, 42670982, 42608005, 42141974, 42665855, 42665783)
+- **guideline-discordant-pediatric-workup** — Practice reviews show wide gaps between standards and actual conduct in pediatric investigation, death review, child protection referral and nutritional monitoring during cancer treatment. (PMIDs 42716544, 42348992, 42135984, 42692799)
+
+## Emerging threads
+- **chemical-contaminants-in-infant-child-diet** — Measurement studies repeatedly detect chemical contaminants — parabens in breast milk, microplastics in sugar, mycotoxins in children's staple foods — with infants and young children receiving the highest per-body-weight doses. (PMIDs 42716241; first seen 2026-09-02)
+- **early-life-nutrition-long-term-outcomes** — Exposures in pregnancy and the first 1,000 days, including maternal autonomic regulation, infant feeding, sugar intake and socioeconomic adversity, track with children's regulation, body composition and disease risk years later. (PMIDs 42706995, 42066677; first seen 2026-09-02)
+- **early-markers-predict-later-development** — Early neural and behavioral measures forecast later outcomes: 1-month infant EEG predicted socioemotional problems at age 2, kindergarten attention predicted math skills, and machine learning predicted adolescent suicidal thoughts. (PMIDs 42671816, 42107140, 40681146; first seen 2026-09-05)
+- **low-yield-routine-testing** — Routine escalation adds little: neuroimaging and EEG rarely explained first-episode pediatric psychosis, and empiric MRSA coverage in staphylococcal scalded skin syndrome offered no benefit while lengthening stays. (PMIDs 42645338, 42702367; first seen 2026-09-02)
+- **new-pediatric-therapies-monitoring-gap** — Specialist commentaries argue pediatric services lack surveillance structures for new therapies, including GLP-1 receptor agonists in childhood obesity and AAV gene therapy hepatotoxicity. (PMIDs 42692883, 42697506; first seen 2026-09-05)
+- **implementation-barriers-child-services** — Program-level and provider reports place the bottleneck in implementation: resisted trauma-informed care, strained newborn screening programs, and neurologists unprepared to transition adolescents with epilepsy to adult care. (PMIDs 42641570, 42674592, 42674591, 42702196; first seen 2026-09-01)
+- **pediatric-screening-tools-single-sample-validation** — New pediatric screening and assessment instruments — an autism eye-gaze task, a needle-fear caregiver scale, and obesity quality-of-life questionnaires — report strong psychometrics but only single-sample, non-clinical validation. (PMIDs 42684535, 42720532, 42701327; first seen 2026-09-09)
+- **individual-factors-adolescent-eating-disorders** — Beyond shared genetics, individual and cultural factors distinguish adolescents who develop disordered eating, with traditional food practices appearing protective in American Indian youth. (PMIDs 42429700, 42683660; first seen 2026-09-08)

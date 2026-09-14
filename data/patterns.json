@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T20:44:33+00:00",
+  "generated_at": "2026-09-14T21:00:24+00:00",
   "week_start": "2026-09-07",
   "week_end": "2026-09-13",
   "model": "claude-opus-5",
@@ -13,9 +13,90 @@
     "min_journals": 2
   },
   "topics": {
+    "aging-longevity": {
+      "label": "Aging & Longevity",
+      "status": "ok",
+      "study_count": 38,
+      "threads": [
+        {
+          "id": "noninvasive-signals-diabetes-complications",
+          "title": "Unvalidated single-center biomarker models for diabetes complications",
+          "claim": "Lipid panels, ECG-based AI, and Raman spectroscopy detect diabetic neuropathy or estimate glucose with good accuracy in single-center diabetes cohorts, but lack external validation or evidence of clinical benefit.",
+          "direction": "extends",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "each model developed at a single center; countries differ (Denmark and others)",
+          "relates_to": "noninvasive-signals-diabetes-complications",
+          "original_claim": "Blood lipid panels and non-invasive signal models flag diabetic neuropathy and estimate glucose in single-center diabetes cohorts, but none has external validation or demonstrated clinical benefit.",
+          "verification_note": "All three are single-center diagnostic or estimation models in diabetes cohorts lacking external validation or outcome evidence, bearing on one methodological question.",
+          "pmids": [
+            "42677686",
+            "42618536",
+            "42610662"
+          ],
+          "first_seen": "2026-08-23",
+          "design_mix": {
+            "cross-sectional": 2,
+            "cohort": 1
+          },
+          "journal_count": 2,
+          "this_week_count": 1,
+          "studies": [
+            {
+              "pmid": "42677686",
+              "headline": "Blood fat patterns may reveal which people with type 1 diabetes are headed for nerve damage — before symptoms appear",
+              "journal": "Diabetes, Obesity & Metabolism",
+              "pubdate": "2026 Sep 1",
+              "doi": "10.1111/dom.71257",
+              "relevance_score": 7,
+              "run_date": "2026-09-08",
+              "summary": "Danish researchers used untargeted lipidomics — analyzing hundreds of fat molecules in blood — to identify a panel of six lipid biomarkers associated with distal symmetrical polyneuropathy (DSPN), a nerve-damaging complication of type 1 diabetes, in a discovery cohort of 153 people with T1D and 50 non-diabetic controls. A logistic regression model combining the lipid panel with HbA1c, blood pressure, and age detected DSPN with AUCs of 0.83 and 0.81 in discovery and validation cohorts respectively. The study also found 22 lipid species that differed between painful and painless forms of nerve damage, potentially pointing toward different underlying mechanisms.",
+              "caveats": "small sample (N<100 in validation), observational design, industry funding [Novo Nordisk — one author affiliated], single-center (Denmark)",
+              "design": "cohort",
+              "this_week": true
+            },
+            {
+              "pmid": "42618536",
+              "headline": "A standard heart test run through an AI may also screen for a painful diabetes complication — no extra equipment needed",
+              "journal": "Diabetes, Obesity and Metabolism",
+              "pubdate": "2026 Aug 19",
+              "doi": "10.1111/dom.71240",
+              "relevance_score": 6,
+              "run_date": "2026-08-23",
+              "summary": "Researchers trained AI models on standard 12-lead ECG recordings from 640 people with diabetes (mean age 54, 52% female) to see whether ECG signals could identify those with symptomatic diabetic peripheral neuropathy — a painful nerve complication affecting the feet and legs. The best-performing AI model detected highly symptomatic neuropathy with an AUC of 0.89 and sensitivity of 93.4%, suggesting the routine heart test already ordered for cardiac monitoring could do double duty as a neuropathy screen. The AI performed less well at detecting milder neuropathy symptoms, and the researchers say further validation is needed before clinical use.",
+              "caveats": "observational design, single-center, self-reported outcomes (symptom questionnaire), requires external validation",
+              "design": "cross-sectional",
+              "this_week": false
+            },
+            {
+              "pmid": "42610662",
+              "headline": "A laser-based skin scan checks blood sugar without a finger prick — and holds up across diverse patients",
+              "journal": "Journal of Diabetes Science and Technology",
+              "pubdate": "2026 Aug 18",
+              "doi": "10.1177/19322968261464571",
+              "relevance_score": 7,
+              "run_date": "2026-08-23",
+              "summary": "Researchers enrolled 200 adults with type 2 diabetes in China to test a non-invasive glucose monitor using depth-resolved Raman spectroscopy (mμSORS), which reads glucose levels by shining a laser through skin. A single prediction model achieved a mean absolute relative difference of 14.5% and placed 99.4% of readings in the clinically acceptable zones of the consensus error grid, with consistent accuracy across subgroups varying by skin tone, body composition, and serum markers. The study suggests a single calibration model — rather than subgroup-specific models — may be sufficient for broad clinical use.",
+              "caveats": "single-center, industry funding [Shanghai Photonic View Technology Co., Ltd — patent holder], regional Chinese population, short follow-up, sample skews toward type 2 diabetes patients in China (generalizability uncertain)",
+              "design": "cross-sectional",
+              "this_week": false
+            }
+          ]
+        }
+      ],
+      "bootstrapped": {
+        "from": "2026-08-10",
+        "to": "2026-09-06",
+        "studies": 101
+      },
+      "proposed": 3
+    },
     "cardiology-heart": {
       "label": "Cardiology & Heart Health",
-      "status": "ok",
+      "status": "carried_over",
       "study_count": 51,
       "threads": [
         {
@@ -108,9 +189,766 @@
       },
       "proposed": 5
     },
+    "conditions-body": {
+      "label": "Conditions & Body",
+      "status": "ok",
+      "study_count": 86,
+      "threads": [
+        {
+          "id": "paradoxical-inflammation-on-immune-targeted-drugs",
+          "title": "New or switched skin disease during immune-targeted therapy",
+          "claim": "Case reports and pooled case-report reviews describe new inflammatory disease or a switch in skin phenotype during cytokine-targeted biologic therapy, including cutaneous T-cell lymphoma repeatedly reported with dupilumab.",
+          "direction": "extends",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "All evidence is uncontrolled case reports or pooled case-report reviews, so causal attribution stays weak.",
+          "relates_to": "paradoxical-inflammation-on-immune-targeted-drugs",
+          "original_claim": "Immune-targeted biologics and checkpoint inhibitors are followed by new inflammatory disease or a switch in skin disease phenotype, with cutaneous T-cell lymphoma repeatedly reported during dupilumab treatment.",
+          "verification_note": "Four reports coherently address new or switched inflammatory skin/vascular disease during cytokine-targeted biologics, but no cited study involves checkpoint inhibitors, so the claim must be narrowed; all evidence is uncontrolled.",
+          "pmids": [
+            "42675660",
+            "42685682",
+            "42565330",
+            "42598823"
+          ],
+          "first_seen": "2026-08-14",
+          "design_mix": {
+            "case report or series": 3,
+            "other": 1
+          },
+          "journal_count": 4,
+          "this_week_count": 2,
+          "studies": [
+            {
+              "pmid": "42675660",
+              "headline": "A woman's skin condition flipped from pustular psoriasis to eczema after biologic treatments — and her genetics may explain why",
+              "journal": "The Journal of Dermatology",
+              "pubdate": "2026 Aug 31",
+              "doi": "10.1111/1346-8138.70478",
+              "relevance_score": 6,
+              "run_date": "2026-09-07",
+              "summary": "Researchers describe a 64-year-old woman with a newly identified IL36RN gene variant whose skin disease shifted from generalized pustular psoriasis to atopic dermatitis-like eczema after sequential biologic treatments. Each single-pathway biologic (risankizumab, adalimumab, dupilumab) paradoxically worsened one or the other condition, while methotrexate — which restrains both inflammatory pathways — achieved near-complete clearance at 12 months. The case suggests that blocking one immune pathway in patients with underlying genetic immune dysregulation may 'disinhibit' an alternative inflammatory arm, causing a phenotypic switch.",
+              "caveats": "small sample (N<100), single-center, observational design",
+              "design": "case report or series",
+              "this_week": true
+            },
+            {
+              "pmid": "42685682",
+              "headline": "The most popular eczema biologic has been linked to a rare skin lymphoma — but researchers say it may not be the drug's fault",
+              "journal": "The American Journal of Dermatopathology",
+              "pubdate": "2026 Sep 2",
+              "doi": "10.1097/DAD.0000000000003423",
+              "relevance_score": 7,
+              "run_date": "2026-09-09",
+              "summary": "Researchers reviewed published case reports and data linking dupilumab — widely used for moderate-to-severe atopic dermatitis — to 178 reported cases of cutaneous T-cell lymphomas (CTCLs), including mycosis fungoides, between 2017 and 2023. The analysis examined three competing explanations: misdiagnosis of CTCL as eczema before dupilumab, the drug unmasking or accelerating pre-existing lymphoma, and a benign drug-induced lymphoid reaction that can mimic lymphoma on biopsy. Researchers concluded the evidence does not support a direct cancer-causing effect of dupilumab, but emphasized the need for further investigation given the concerning association.",
+              "caveats": "observational design, small sample (N<100 per individual case series), secondary analysis, no sex-disaggregated data",
+              "design": "other",
+              "this_week": true
+            },
+            {
+              "pmid": "42565330",
+              "headline": "A popular psoriasis biologic can paradoxically trigger a painful hand-and-foot pustule condition it's not supposed to cause",
+              "journal": "Journal of Dermatological Treatment",
+              "pubdate": "2026 Dec",
+              "doi": "10.1080/09546634.2026.2712039",
+              "relevance_score": 5,
+              "run_date": "2026-08-14",
+              "summary": "Researchers conducted a retrospective case series at a single center in Inner Mongolia, China, identifying seven biologic-naïve adults with moderate-to-severe plaque psoriasis who developed new-onset palmoplantar pustulosis (PPP) — painful pustules on the palms and soles — after a median of 10 weeks on secukinumab, an IL-17A inhibitor. All patients showed elevated neutrophil counts without signs of infection. Secukinumab was stopped in all cases; six improved, and two achieved complete resolution after switching to tildrakizumab.",
+              "caveats": "small sample (N<100), observational design, single-center, retrospective, no sex-disaggregated data",
+              "design": "case report or series",
+              "this_week": false
+            },
+            {
+              "pmid": "42598823",
+              "headline": "A drug used to treat psoriasis may have triggered a rare blood vessel disease in one patient — raising questions about how the immune system compensates",
+              "journal": "Immunological Medicine",
+              "pubdate": "2026 Aug 14",
+              "doi": "10.1080/25785826.2026.2715180",
+              "relevance_score": 5,
+              "run_date": "2026-08-21",
+              "summary": "Japanese clinicians report a case of a 67-year-old woman with psoriasis who developed giant cell arteritis (GCA) — a serious inflammatory disease of large blood vessels — while on long-term risankizumab, a drug that blocks the immune signaling molecule IL-23. Despite IL-23 being implicated in GCA, the patient appeared to develop it as a paradoxical immune reaction to the drug. She was treated with high-dose steroids, and her GCA improved while she continued risankizumab for psoriasis control.",
+              "caveats": "small sample (N<100), single-center, observational design",
+              "design": "case report or series",
+              "this_week": false
+            }
+          ]
+        },
+        {
+          "id": "food-challenge-safety",
+          "title": "Structured food challenge and ladder protocols rarely cause anaphylaxis",
+          "claim": "In children and adults with IgE-mediated milk, egg or wheat allergy, supervised oral challenges and graded biscotti-based ladder protocols produced few or no severe reactions.",
+          "direction": "extends",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "food-challenge-safety",
+          "verification_note": "Three independent cohorts across different settings consistently report low rates of severe reactions during supervised challenges and a ladder protocol; claim matches the observational evidence.",
+          "pmids": [
+            "42698161",
+            "42663073",
+            "42671940"
+          ],
+          "first_seen": "2026-09-04",
+          "design_mix": {
+            "cohort": 3
+          },
+          "journal_count": 3,
+          "this_week_count": 1,
+          "studies": [
+            {
+              "pmid": "42698161",
+              "headline": "A Biscotti-Based Food Ladder Desensitized 100% of High-Risk Kids to Milk and Egg Allergies — With Zero Anaphylaxis",
+              "journal": "Allergy and Asthma Proceedings",
+              "pubdate": "2026 Sep 1",
+              "doi": "10.2500/aap.2026.47.260058",
+              "relevance_score": 6,
+              "run_date": "2026-09-08",
+              "summary": "In a single-center retrospective review, researchers evaluated a structured 'food ladder' protocol using biscotti (twice-baked cake) to gradually desensitize 33 high-risk children (median age 14–19 months) with IgE-mediated cow's milk or hen's egg allergy over 12 weeks. Each of the seven (milk) or six (egg) ladder steps involved an in-hospital oral food challenge progressing from heavily baked to less processed forms of the allergen. All 33 patients successfully tolerated the final step — pasteurized milk or boiled egg — and no anaphylaxis or epinephrine use occurred, with only mild adverse reactions reported.",
+              "caveats": "small sample (N<100), single-center, observational design, retrospective, short follow-up, no sex-disaggregated data",
+              "design": "cohort",
+              "this_week": true
+            },
+            {
+              "pmid": "42663073",
+              "headline": "Food allergy test chambers are safer than feared — severe anaphylaxis happened in fewer than 1 in 100 challenges",
+              "journal": "Journal of Investigational Allergology & Clinical Immunology",
+              "pubdate": "2026 Aug 28",
+              "doi": "10.18176/jiaci.1217",
+              "relevance_score": 6,
+              "run_date": "2026-09-04",
+              "summary": "Researchers analyzed 514 double-blind, placebo-controlled food challenges (DBPCFCs) across multiple European allergy clinics in the EuroPrevall study, involving patients reporting immediate reactions to common allergens including milk, egg, fish, shrimp, peanut, hazelnut, and others. While 37% of challenges produced systemic reactions, true severe anaphylaxis with hypotension occurred in only 2 of 514 cases (0.4%), and reactions during the controlled challenges were significantly less severe than patients had previously self-reported. Atopic dermatitis and food-specific IgE levels above 0.35 kUA/L were the strongest predictors of a positive challenge, while prior reaction severity and egg challenges predicted anaphylaxis risk.",
+              "caveats": "observational design, single-region population (Europe), excludes patients with prior life-threatening anaphylaxis, no sex-disaggregated data",
+              "design": "cohort",
+              "this_week": false
+            },
+            {
+              "pmid": "42671940",
+              "headline": "A common IgE blood test may reliably predict when wheat allergy testing is safe to do in a regular clinic — not just a hospital",
+              "journal": "International Archives of Allergy and Immunology",
+              "pubdate": "2026 Aug 31",
+              "doi": "10.1159/iaa/adfag014",
+              "relevance_score": 4,
+              "run_date": "2026-09-05",
+              "summary": "Researchers retrospectively analyzed 337 wheat oral food challenge (OFC) tests in patients with low ω-5 gliadin-specific IgE levels at two hospitals in Japan between 2017 and 2021. The reaction rate was roughly 23% in both low and high wheat-IgE subgroups, and anaphylaxis occurred in 1.8% of cases — none requiring epinephrine injection. Starting challenges at a very low dose (≤2g udon/≤52mg wheat protein) resulted in more than 90% negative results, suggesting a safer testing approach for lower-risk patients.",
+              "caveats": "observational design, single-center, self-reported outcomes, secondary analysis, no sex-disaggregated data",
+              "design": "cohort",
+              "this_week": false
+            }
+          ]
+        }
+      ],
+      "bootstrapped": {
+        "from": "2026-08-10",
+        "to": "2026-09-06",
+        "studies": 218
+      },
+      "proposed": 4
+    },
+    "dermatology-skin": {
+      "label": "Dermatology & Skin Science",
+      "status": "ok",
+      "study_count": 28,
+      "threads": [
+        {
+          "id": "supervised-food-challenge-safety",
+          "title": "Structured in-hospital food challenges and ladders stay safe",
+          "claim": "Across observational cohorts, supervised stepwise oral food challenges, including baked milk and egg ladders in high-risk toddlers, were completed with severe anaphylaxis occurring in under 2% of challenges.",
+          "direction": "extends",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "supervised-food-challenge-safety",
+          "original_claim": "Supervised stepwise oral food challenges, including baked milk and egg ladders in high-risk toddlers, achieve food introduction with rare severe anaphylaxis under standardized hospital protocols.",
+          "verification_note": "Three independent cohorts in different countries consistently report low rates of severe anaphylaxis during supervised, protocolized food challenges, including a baked-milk/egg ladder in high-risk toddlers.",
+          "pmids": [
+            "42698161",
+            "42663073",
+            "42671940"
+          ],
+          "first_seen": "2026-09-04",
+          "design_mix": {
+            "cohort": 3
+          },
+          "journal_count": 3,
+          "this_week_count": 1,
+          "studies": [
+            {
+              "pmid": "42698161",
+              "headline": "A twice-baked cookie may be the safest way to introduce milk and egg to highly allergic toddlers — and it worked for every child in this study",
+              "journal": "Allergy and Asthma Proceedings",
+              "pubdate": "2026 Sep 1",
+              "doi": "10.2500/aap.2026.47.260058",
+              "relevance_score": 6,
+              "run_date": "2026-09-08",
+              "summary": "Researchers retrospectively reviewed records of 33 high-risk children (median age 14–19 months) with IgE-mediated cow's milk or hen's egg allergy who underwent a structured biscotti-based food ladder involving stepwise in-hospital oral food challenges over 12 weeks. The protocol progressed from heavily baked forms (twice-baked biscotti) to progressively less cooked allergens, using yogurt rather than liquid milk as the dairy matrix. All 33 children reached full tolerance of pasteurized milk or boiled egg with only mild adverse reactions — no anaphylaxis and no epinephrine use — though the authors note the findings are hypothesis-generating and require randomized prospective validation.",
+              "caveats": "small sample (N<100), observational design, single-center, short follow-up, retrospective, limited skin tone diversity in sample",
+              "design": "cohort",
+              "this_week": true
+            },
+            {
+              "pmid": "42663073",
+              "headline": "Severe anaphylaxis during supervised food allergy testing is far rarer than patients fear — and atopic dermatitis is a key risk flag",
+              "journal": "Journal of Investigational Allergology & Clinical Immunology",
+              "pubdate": "2026 Aug 28",
+              "doi": "10.18176/jiaci.1217",
+              "relevance_score": 7,
+              "run_date": "2026-09-04",
+              "summary": "Researchers analyzed 514 double-blind placebo-controlled food challenges (DBPCFCs) across a multinational European outpatient study to evaluate reaction severity and identify risk predictors. Among positive challenges, only 2 of 514 (0.4%) resulted in anaphylaxis with hypotension, while patient-reported reactions prior to testing were significantly more severe than those elicited under clinical supervision. Atopic dermatitis and food-specific IgE >0.35 kUA/L emerged as predictors of a positive challenge, while prior reaction severity and egg challenge predicted anaphylaxis specifically.",
+              "caveats": "observational design, excluded prior life-threatening anaphylaxis history (limiting generalizability to highest-risk patients), limited skin tone diversity in sample",
+              "design": "cohort",
+              "this_week": false
+            },
+            {
+              "pmid": "42671940",
+              "headline": "Low wheat-allergy antibody levels don't make oral food challenges risk-free — but low starting doses may help",
+              "journal": "International Archives of Allergy and Immunology",
+              "pubdate": "2026 Aug 31",
+              "doi": "10.1159/iaa/adfag014",
+              "relevance_score": 5,
+              "run_date": "2026-09-06",
+              "summary": "Researchers retrospectively analyzed 337 wheat oral food challenge tests in patients with low ω-5 gliadin-specific IgE levels (<3.5 kU/L) conducted at two hospitals between 2017–2021. Despite low antibody levels — often assumed to indicate lower allergic risk — about 23% of patients still tested positive, and anaphylaxis occurred in 1.8% of cases. Importantly, starting challenges at very low doses (≤2 g udon; ≤52 mg wheat protein) resulted in more than 90% of cases being negative, suggesting a low-dose approach may improve safety.",
+              "caveats": "observational design, single-center, retrospective, study population likely Japan-based (limited generalizability)",
+              "design": "cohort",
+              "this_week": false
+            }
+          ]
+        }
+      ],
+      "bootstrapped": {
+        "from": "2026-08-10",
+        "to": "2026-09-06",
+        "studies": 22
+      },
+      "proposed": 4
+    },
+    "elderly-geriatric": {
+      "label": "Elderly & Geriatric",
+      "status": "ok",
+      "study_count": 88,
+      "threads": [
+        {
+          "id": "family-caregiver-needs-palliative",
+          "title": "Family caregivers' own needs go unmet in palliative care",
+          "claim": "Relatives in palliative care report their own needs go unvoiced, and a scoping review and uncontrolled caregiver education pilot suggest knowledge and emotional support are rarely delivered together.",
+          "direction": "new",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "",
+          "original_claim": "Relatives in palliative care describe their own needs as invisible in clinician-patient conversations, while reviews and a caregiver education trial show knowledge and emotional support reduce distress but are rarely delivered together.",
+          "verification_note": "Three studies coherently address unmet family caregiver needs; claim slightly overstates the single-arm NOVELA trial and scoping review.",
+          "pmids": [
+            "42685648",
+            "42693513",
+            "40938148"
+          ],
+          "first_seen": "2026-09-08",
+          "design_mix": {
+            "qualitative": 1,
+            "systematic review or meta-analysis": 1,
+            "other": 1
+          },
+          "journal_count": 3,
+          "this_week_count": 3,
+          "studies": [
+            {
+              "pmid": "42685648",
+              "headline": "Family members in palliative care conversations feel invisible — and stay silent about their own needs",
+              "journal": "Geriatric Nursing",
+              "pubdate": "2026 Sep 2",
+              "doi": "10.1016/j.gerinurse.2026.104296",
+              "relevance_score": 5,
+              "run_date": "2026-09-09",
+              "summary": "Researchers in the Netherlands conducted semi-structured qualitative interviews with 10 relatives of patients with COPD or chronic heart failure who had participated in triadic (clinician-patient-relative) palliative care conversations. Participants described four recurring challenges: articulating what daily life with the disease is like for their loved one, naming what had changed for themselves, voicing their own concerns, and identifying what they needed from the conversation. Relatives most often went silent when they felt unseen by healthcare professionals or sensed their participation was unwanted.",
+              "caveats": "small sample (N<100), qualitative design, single-center, single-region (Netherlands), no age breakdown reported",
+              "design": "qualitative",
+              "this_week": true
+            },
+            {
+              "pmid": "42693513",
+              "headline": "Family caregivers in palliative care need three things — and most programs only offer one",
+              "journal": "Journal of Palliative Care",
+              "pubdate": "2026 Sep 3",
+              "doi": "10.1177/08258597261474564",
+              "relevance_score": 6,
+              "run_date": "2026-09-10",
+              "summary": "Researchers conducted a scoping review of 22 studies using the Arksey and O'Malley framework to map what empowers family caregivers in palliative care settings. The review identified three core domains: knowledge empowerment (disease understanding, symptom management, end-of-life preparedness), caregiving empowerment (communication, decision-making, care planning), and psychological-emotional empowerment (mental health, self-care, grief readiness). The study found that all three domains must be integrated to sustain family caregiving roles, yet evidence mapping these domains has been limited.",
+              "caveats": "small sample (N<100), observational design, secondary analysis, no age breakdown reported, single-region institutional base (Indonesia/Malaysia)",
+              "design": "systematic review or meta-analysis",
+              "this_week": true
+            },
+            {
+              "pmid": "40938148",
+              "headline": "A hospice caregiver education program inspired by telenovelas reduced anxiety for most participants — but timing and prior experience mattered",
+              "journal": "The American Journal of Hospice & Palliative Care",
+              "pubdate": "2026 Sep",
+              "doi": "10.1177/10499091251371149",
+              "relevance_score": 6,
+              "run_date": "2026-09-08",
+              "summary": "Researchers conducted a single-group pretest-posttest trial of NOVELA, an intervention using guided viewing of a hospice-related telenovela to help hospice family caregivers manage distress, enrolling 50 caregivers (44 completing outcomes) from three hospices in the U.S. Mid-Atlantic region. Of completers, 32 showed improvement in anxiety and self-efficacy scores while 12 did not. Mixed-methods analysis found that those who did not improve were more likely to find the video content less relevant, had prior caregiving experience, and faced telehealth and scheduling barriers.",
+              "caveats": "small sample (N<100), single-group design (no control arm), observational design, self-reported outcomes, short follow-up, predominantly White well-educated female sample limits generalizability, no age breakdown reported, Mid-Atlantic region only",
+              "design": "other",
+              "this_week": true
+            }
+          ]
+        },
+        {
+          "id": "imaging-symptom-discordance-rheumatic",
+          "title": "Imaging finds damage that symptoms underestimate in rheumatic disease",
+          "claim": "Across rheumatic diseases, imaging detects structural or vascular damage that clinical symptoms understate, including asymptomatic radiographic osteoarthritis in older RA patients, gland damage in mild Sjögren's, and subclinical carotid plaque in systemic sclerosis.",
+          "direction": "new",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "",
+          "original_claim": "In older adults with rheumatic disease, imaging reveals structural or vascular damage that clinical symptoms understate: asymptomatic radiographic osteoarthritis in rheumatoid arthritis, heavy gland damage in mild Sjögren's, and subclinical carotid plaque in systemic sclerosis.",
+          "verification_note": "Three cross-sectional studies converge on imaging findings exceeding symptom-based assessment, but only the RA study is age-restricted to older adults.",
+          "pmids": [
+            "42709298",
+            "42605053",
+            "42703781"
+          ],
+          "first_seen": "2026-09-08",
+          "design_mix": {
+            "cross-sectional": 3
+          },
+          "journal_count": 3,
+          "this_week_count": 3,
+          "studies": [
+            {
+              "pmid": "42709298",
+              "headline": "X-rays show osteoarthritis in nearly two-thirds of older RA patients — but most of those joints cause no pain or disability",
+              "journal": "Clinical Rheumatology",
+              "pubdate": "2026 Sep 8",
+              "doi": "10.1007/s10067-026-08412-4",
+              "relevance_score": 8,
+              "run_date": "2026-09-10",
+              "summary": "In a single-center cross-sectional study, 230 Japanese patients with rheumatoid arthritis (RA) aged 60 or older underwent full-length lower extremity X-rays and functional assessment using the Lower Extremity Functional Scale (LEFS). Radiographic OA was found in 62.2% of patients, yet 72.4% of those affected joints showed no corresponding clinical symptoms. Critically, radiographic OA was not associated with functional impairment — only symptomatic OA at the hip, knee, or ankle predicted worse function and disability.",
+              "caveats": "observational design, single-center, cross-sectional design, Japan-specific population, no US or multinational comparator",
+              "design": "cross-sectional",
+              "this_week": true
+            },
+            {
+              "pmid": "42605053",
+              "headline": "Sjögren's disease patients with mild symptoms may have the most gland damage — ultrasound reveals a hidden mismatch",
+              "journal": "Rheumatology (Oxford)",
+              "pubdate": "2026 Sep 1",
+              "doi": "10.1093/rheumatology/keag423",
+              "relevance_score": 6,
+              "run_date": "2026-09-08",
+              "summary": "Researchers in China classified 120 Sjögren's disease patients into three clinical subgroups and combined salivary gland biopsies, ultrasound imaging, and shear wave elastography to compare immune cell infiltration and structural damage across groups. Counterintuitively, patients with B-cell-active disease but low symptom burden (BALS) showed greater glandular infiltration and more pronounced salivary gland stiffness than those with high symptom burden. The study suggests clinical symptoms alone may underestimate actual glandular damage in some Sjögren's patients.",
+              "caveats": "small sample (N=120), single-center, observational design, no age breakdown reported, China-only cohort",
+              "design": "cross-sectional",
+              "this_week": true
+            },
+            {
+              "pmid": "42703781",
+              "headline": "In systemic sclerosis, the most damaged small blood vessels predict artery plaque on both sides of the neck",
+              "journal": "Arthritis Care & Research",
+              "pubdate": "2026 Sep 7",
+              "doi": "10.1002/acr.80156",
+              "relevance_score": 5,
+              "run_date": "2026-09-11",
+              "summary": "In a cross-sectional observational study of 165 systemic sclerosis (SSc) patients in Italy, researchers used nailfold videocapillaroscopy and carotid ultrasound to examine whether microvascular damage severity correlates with subclinical atherosclerosis. Late-stage capillaroscopy patterns, avascular areas, and reduced capillary density were associated with bilateral carotid plaques, but not with carotid intima-media thickness (cIMT) overall. In multivariable models, traditional risk factors — particularly age and systolic blood pressure — remained the strongest predictors of cIMT and plaques at any single side.",
+              "caveats": "observational design, single-center, cross-sectional (no causal inference), no age breakdown reported",
+              "design": "cross-sectional",
+              "this_week": true
+            }
+          ]
+        },
+        {
+          "id": "virtual-remote-delivery-older-adults",
+          "title": "Remotely delivered programs are acceptable and scalable for older adults",
+          "claim": "Virtually delivered programs — group dance for older adults, outpatient palliative telehealth, and cancer pain coping skills training — were implemented across settings, valued for trust and access, and in one trial cost-effective.",
+          "direction": "new",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "",
+          "original_claim": "Virtually delivered programs for older and seriously ill adults — group dance, outpatient palliative telehealth, and pain coping skills training — were implemented across settings, valued for trust and access, and cost-effective.",
+          "verification_note": "Studies do support feasibility/acceptability/cost-effectiveness of remote programs, but only one involves older adults explicitly and cost-effectiveness comes from a single breast cancer trial.",
+          "pmids": [
+            "41166741",
+            "42099245",
+            "42713766"
+          ],
+          "first_seen": "2026-09-07",
+          "design_mix": {
+            "other": 1,
+            "qualitative": 1,
+            "randomized trial": 1
+          },
+          "journal_count": 3,
+          "this_week_count": 3,
+          "studies": [
+            {
+              "pmid": "41166741",
+              "headline": "Virtual dance classes for older adults scaled across care settings — and staff say they'd keep doing it",
+              "journal": "Journal of Applied Gerontology",
+              "pubdate": "2026 Sep",
+              "doi": "10.1177/07334648251387388",
+              "relevance_score": 5,
+              "run_date": "2026-09-07",
+              "summary": "Canadian researchers used the Consolidated Framework for Implementation Research to evaluate a virtual dance program (GERAS DANCE) implemented across 11 sites in five settings — community, hospital, and long-term care — gathering surveys and interviews from 22 healthcare professionals; 135 older adults participated. The program's evidence-based design, enjoyable music, and organizational readiness for virtual delivery were identified as key success factors. Rural Wi-Fi limitations were the primary barrier, and the intervention's low cost was cited as a significant facilitator.",
+              "caveats": "small sample (N<100 staff), observational design, single-center, no age breakdown reported, self-reported outcomes",
+              "design": "other",
+              "this_week": true
+            },
+            {
+              "pmid": "42099245",
+              "headline": "Seriously ill patients say telehealth works for trust-building — but Medicare policy keeps threatening to pull the plug",
+              "journal": "Journal of Palliative Medicine",
+              "pubdate": "2026 Sep",
+              "doi": "10.1177/10966218261449634",
+              "relevance_score": 6,
+              "run_date": "2026-09-07",
+              "summary": "Researchers at UCSF conducted semi-structured qualitative interviews with 32 outpatient palliative care patients and caregivers — including Spanish- and Cantonese-speaking participants — who had used telehealth in the prior year; participants were age 18 or older and no age range breakdown is reported. Participants found that video visits and in-person visits served distinct, complementary roles, and that trusting relationships could be established via video. High patient portal engagement was reported despite poor usability, and researchers call for a permanent Medicare telehealth extension.",
+              "caveats": "small sample (N<100), qualitative design, single-center, self-reported outcomes, no age breakdown reported",
+              "design": "qualitative",
+              "this_week": true
+            },
+            {
+              "pmid": "42713766",
+              "headline": "A $500 virtual pain program for underserved cancer patients clears the cost-effectiveness bar by a wide margin",
+              "journal": "Palliative & Supportive Care",
+              "pubdate": "2026 Sep 9",
+              "doi": "10.1017/S1478951526103393",
+              "relevance_score": 6,
+              "run_date": "2026-09-12",
+              "summary": "Researchers conducted a cost-effectiveness analysis alongside a randomized trial of a four-session virtual pain coping skills training program (mPCST) delivered to women with breast cancer living in medically underserved areas. Participants receiving mPCST showed an average EQ-5D-5L quality-of-life weight advantage of 0.066 (p=0.04), translating to an incremental gain of 0.04 quality-adjusted life years; no age range was reported for the study population. At a base-case program cost of $500, the incremental cost-effectiveness ratio was $12,725 per QALY — well below the conventional $50,000–$100,000 willingness-to-pay threshold.",
+              "caveats": "no age breakdown reported, short follow-up (6 months), women with breast cancer only (limits generalizability by sex and cancer type), hospitalizations trended higher in the intervention group, secondary analysis of trial data",
+              "design": "randomized trial",
+              "this_week": true
+            }
+          ]
+        },
+        {
+          "id": "acp-uptake-interventions",
+          "title": "Structural barriers, not culture, limit planning in minoritized elders",
+          "claim": "In minoritized populations, advance care planning completion is associated with income and family conflict, and nurse- or community health worker-led programs are linked to greater confidence and documentation in small uncontrolled studies.",
+          "direction": "extends",
+          "flags": {
+            "single_country": true,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "All three studies are US-based.",
+          "relates_to": "acp-uptake-interventions",
+          "original_claim": "Advance care planning engagement among minoritized older adults depends on structural supports — income, family conflict, and trusted messengers such as nurses or community health workers — with gains in confidence and documentation but not in acting.",
+          "verification_note": "Studies cohere on structural/relational drivers of ACP in minoritized groups, but the 'not acting' finding rests on one 15-person study and the CHW pilot had no control group; causal framing overstated.",
+          "pmids": [
+            "42699999",
+            "42198911",
+            "42681826"
+          ],
+          "first_seen": "2026-09-03",
+          "design_mix": {
+            "other": 2,
+            "cross-sectional": 1
+          },
+          "journal_count": 2,
+          "this_week_count": 2,
+          "studies": [
+            {
+              "pmid": "42699999",
+              "headline": "Family conflict and low income — not culture alone — predict whether older Asian Americans complete advance directives",
+              "journal": "Journal of Aging & Social Policy",
+              "pubdate": "2026 Sep 5",
+              "doi": "10.1080/08959420.2026.2729025",
+              "relevance_score": 7,
+              "run_date": "2026-09-09",
+              "summary": "Using cross-sectional survey data from 192 Vietnamese Americans and 140 Filipino Americans aged 55 and older, researchers examined factors associated with completing an advance directive (AD), guided by Andersen's Health Service Use Model. Older age was linked to higher odds of AD completion, while lower income and greater family conflict were linked to lower odds — across both groups. Notably, acculturation drove AD completion among Filipino Americans, whereas holding a favorable attitude toward ADs was the stronger predictor among Vietnamese Americans, revealing meaningful heterogeneity within the broad 'Asian American' category.",
+              "caveats": "observational design, cross-sectional design, small sample (N<100 per subgroup effectively, though combined N=332), self-reported outcomes, no age breakdown reported beyond 55+ threshold — population skews younger than typical geriatric studies",
+              "design": "cross-sectional",
+              "this_week": true
+            },
+            {
+              "pmid": "42198911",
+              "headline": "Nurse-led end-of-life conversations build confidence in marginalized patients — but not readiness to act",
+              "journal": "Journal of Palliative Medicine",
+              "pubdate": "2026 Sep",
+              "doi": "10.1177/10966218261451051",
+              "relevance_score": 6,
+              "run_date": "2026-09-08",
+              "summary": "Researchers conducted a mixed-methods study with 15 racially and ethnically marginalized patients (aged 18 and older) at a single U.S. health care system, using surveys and semi-structured interviews to assess their experiences of nurse-led serious illness conversations. Nearly half reported that these conversations increased their hopefulness about quality of life, sense of control, and understanding of their future health. However, while participants felt more confident discussing their goals, confidence did not translate into readiness to act on advance care planning, with researchers pointing to multifaceted distress as a key barrier.",
+              "caveats": "small sample (N<100), single-center, self-reported outcomes, no age breakdown reported",
+              "design": "other",
+              "this_week": true
+            },
+            {
+              "pmid": "42681826",
+              "headline": "Community health workers help pancreatic cancer patients get early palliative care — and 83% complete advance care planning",
+              "journal": "Journal of Palliative Medicine",
+              "pubdate": "2026 Sep 1",
+              "doi": "10.1177/10966218261485724",
+              "relevance_score": 6,
+              "run_date": "2026-09-05",
+              "summary": "Researchers at Loma Linda University Health conducted a single-center prospective pilot study of PAL-CHW-PDAC, a digitally enhanced community health worker-led intervention designed to facilitate stepped palliative care, enrolling 48 newly diagnosed pancreatic ductal adenocarcinoma (PDAC) patients (age range not reported in abstract). Over 12 weeks, patients' physical quality of life and symptom burden improved from baseline, and 83% completed advance care planning documents. Ninety-four percent of patients strongly agreed the intervention was acceptable.",
+              "caveats": "small sample (N<100), single-center, observational design, no age breakdown reported, short follow-up, no control group",
+              "design": "other",
+              "this_week": false
+            }
+          ]
+        }
+      ],
+      "bootstrapped": {
+        "from": "2026-08-10",
+        "to": "2026-09-06",
+        "studies": 97
+      },
+      "proposed": 6
+    },
+    "fitness-exercise": {
+      "label": "Fitness & Exercise",
+      "status": "ok",
+      "study_count": 66,
+      "threads": [
+        {
+          "id": "slower-return-to-sport-timelines",
+          "title": "Cleared ACL athletes still show deficits at return",
+          "claim": "In small, mostly elite cohorts, ACL-reconstructed athletes cleared for sport still show altered neuromuscular activation and take ~10-12 months for strength or high-demand sport return, suggesting standard timelines may be optimistic.",
+          "direction": "extends",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "slower-return-to-sport-timelines",
+          "original_claim": "Athletes cleared to return after ACL injury still show altered muscle activation and, in high-demand sports, need about a year, indicating current return-to-sport timelines run ahead of recovery.",
+          "verification_note": "Three studies each bear on the same question—whether clearance/standard timelines precede full recovery—with consistent findings, though all are observational and small/elite.",
+          "pmids": [
+            "42044292",
+            "42419036",
+            "41934354"
+          ],
+          "first_seen": "2026-09-01",
+          "design_mix": {
+            "cohort": 2,
+            "cross-sectional": 1
+          },
+          "journal_count": 3,
+          "this_week_count": 2,
+          "studies": [
+            {
+              "pmid": "42044292",
+              "headline": "AI muscle analysis reveals ACL-reconstructed athletes are still bracing for impact differently — even after being cleared to return to sport",
+              "journal": "Medicine and Science in Sports and Exercise",
+              "pubdate": "2026 Sep 1",
+              "doi": "10.1249/MSS.0000000000004010",
+              "relevance_score": 6,
+              "run_date": "2026-09-07",
+              "summary": "Italian researchers used a deep-learning AI tool to analyze EMG muscle activation patterns in 11 athletes who had undergone ACL reconstruction (all cleared for return to sport) and 18 uninjured control athletes during single-leg hop and cross drop landing tasks. ACL-reconstructed athletes showed significantly earlier hamstring pre-activation (up to ~40–80 ms earlier) and substantially longer muscle co-contraction durations during landing compared to controls, indicating altered and more guarded neuromuscular strategies. These differences persisted even after athletes had been medically cleared to return to sport, suggesting standard return-to-sport criteria may miss lingering neuromuscular deficits.",
+              "caveats": "small sample (N<100), single-center, elite athlete sample (may not generalize), cross-sectional design",
+              "design": "cross-sectional",
+              "this_week": true
+            },
+            {
+              "pmid": "42419036",
+              "headline": "Most ACL patients return to sport whether or not they have surgery — but high-demand sport athletes take a year longer",
+              "journal": "Physical Therapy in Sport",
+              "pubdate": "2026 Sep",
+              "doi": "10.1016/j.ptsp.2026.101952",
+              "relevance_score": 7,
+              "run_date": "2026-09-08",
+              "summary": "This prospective multicentre cohort study (NACOX) followed 270 patients (53% female) with ACL injuries treated in clinical practice, 66% of whom underwent ACL reconstruction within three years. Overall, 78% of patients returned to their pre-injury sport level regardless of whether they had surgery, but athletes in high-demand sports like football returned at lower rates (60%) and took roughly 12 months, compared to 2 months for lower-demand sports. Return-to-sport rates and self-reported knee function did not significantly differ between those who had surgery and those who did not.",
+              "caveats": "observational design, self-reported outcomes",
+              "design": "cohort",
+              "this_week": true
+            },
+            {
+              "pmid": "41934354",
+              "headline": "ACL-reconstructed athletes may need more than a year before their leg muscles fully recover — and the slowest metric surprises researchers",
+              "journal": "Sports Health",
+              "pubdate": "2026 Sep-Oct",
+              "doi": "10.1177/19417381261429467",
+              "relevance_score": 6,
+              "run_date": "2026-09-01",
+              "summary": "Researchers used Bayesian hierarchical modeling to forecast quadriceps recovery trajectories in 66 Division I collegiate athletes (35 female) over 14 months following ACL reconstruction. Serial isometric testing measured peak torque, rate of torque development (RTD), and torque steadiness. On average, athletes took at least 10 months to reach peak torque targets, but RTD — how explosively the muscle fires — took the longest at 12 months, suggesting standard return-to-sport timelines may underestimate true neuromuscular recovery.",
+              "caveats": "small sample (N<100), single-center, elite athlete sample (may not generalize), observational design",
+              "design": "cohort",
+              "this_week": false
+            }
+          ]
+        },
+        {
+          "id": "mvpa-shortfall-despite-supportive-settings",
+          "title": "Activity targets missed in clinical and supportive settings",
+          "claim": "Across clinical and program settings—epilepsy inpatients, older adults with HIV, and pupils in whole-school activity schools—most people fall well short of recommended physical activity levels in small, single-setting studies.",
+          "direction": "extends",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "mvpa-shortfall-despite-supportive-settings",
+          "original_claim": "Recommended physical activity levels are substantially unmet even in monitored or supportive settings, including inpatients with difficult-to-treat epilepsy, older adults with HIV, and pupils in whole-school activity programs.",
+          "verification_note": "Three independent populations all measured against activity guidelines and fell short, addressing one question; epilepsy data are self-reported and the setting is clinical rather than a program.",
+          "pmids": [
+            "42700754",
+            "42671694",
+            "41533689"
+          ],
+          "first_seen": "2026-09-02",
+          "design_mix": {
+            "cross-sectional": 3
+          },
+          "journal_count": 3,
+          "this_week_count": 1,
+          "studies": [
+            {
+              "pmid": "42700754",
+              "headline": "People With Hard-to-Treat Epilepsy Are Far Less Active Than They Should Be — New Data Reveal Just How Big the Gap Is",
+              "journal": "Epilepsy & Behavior",
+              "pubdate": "2026 Sep 5",
+              "doi": "10.1016/j.yebeh.2026.111255",
+              "relevance_score": 5,
+              "run_date": "2026-09-12",
+              "summary": "Researchers developed and validated a new physical activity questionnaire (QESA) tailored for patients with difficult-to-treat epilepsy and/or functional/dissociative seizures, then used it to assess baseline activity in 240 inpatients at a single German epilepsy center. The study found that physical activity levels were strikingly low: 60% of participants reported no physical activity at work and 41.3% reported none during leisure time, with epilepsy patients exercising less than those with functional/dissociative seizures. The findings highlight a substantial physical activity gap in a population that could benefit from structured exercise interventions.",
+              "caveats": "small sample (N<100 per subgroup), observational design, single-center, self-reported outcomes",
+              "design": "cross-sectional",
+              "this_week": true
+            },
+            {
+              "pmid": "42671694",
+              "headline": "Older adults living with HIV hit only half the recommended exercise target — and where they live may be part of why",
+              "journal": "AIDS and Behavior",
+              "pubdate": "2026 Aug 31",
+              "doi": "10.1007/s10461-026-05289-x",
+              "relevance_score": 5,
+              "run_date": "2026-09-02",
+              "summary": "A cross-sectional study of 198 people with HIV aged 50 and older across four U.S. sites objectively measured moderate-to-vigorous physical activity (MVPA) via ActiGraph accelerometers and assessed neighborhood social vulnerability and social support. Median MVPA was 110 minutes per week — well below the 150-minute guideline — though neither neighborhood social vulnerability nor social support was significantly associated with MVPA after adjustment, leaving the structural drivers of low activity unclear.",
+              "caveats": "small sample (N<100 per site), observational design, cross-sectional design, single time point, specific clinical population (may not generalize)",
+              "design": "cross-sectional",
+              "this_week": false
+            },
+            {
+              "pmid": "41533689",
+              "headline": "Schools That Go All-In on Physical Activity Still Fail to Get Most Kids Moving Enough",
+              "journal": "Research Quarterly for Exercise and Sport",
+              "pubdate": "2026 Sep",
+              "doi": "10.1080/02701367.2025.2599881",
+              "relevance_score": 6,
+              "run_date": "2026-09-06",
+              "summary": "Norwegian researchers used accelerometers to track moderate-to-vigorous physical activity (MVPA) over 10 school days in 57 pupils across two case schools that had implemented whole-school physical activity approaches for seven years, including daily organized recess, PE lessons, and physically active learning methods. Despite the sustained, multi-pronged program, pupils averaged only 23.4 minutes of in-school MVPA per day, and just 22.8% reached the recommended 30-minute in-school threshold. Older students (9th grade) accumulated significantly less MVPA than younger ones.",
+              "caveats": "small sample (N<100), observational design, single-center",
+              "design": "cross-sectional",
+              "this_week": false
+            }
+          ]
+        }
+      ],
+      "bootstrapped": {
+        "from": "2026-08-10",
+        "to": "2026-09-06",
+        "studies": 41
+      },
+      "proposed": 5
+    },
+    "gut-digestive": {
+      "label": "Gut & Digestive Health",
+      "status": "ok",
+      "study_count": 29,
+      "threads": [
+        {
+          "id": "masld-noninvasive-metrics-limits",
+          "title": "Routine non-invasive metrics misclassify MASLD prognosis and fibrosis",
+          "claim": "In MASLD, baseline BMI, FIB-4 and non-invasive imaging measures can misstate prognosis or fall short as trial-level surrogates, per cohort, meta-analytic and review evidence.",
+          "direction": "new",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "",
+          "original_claim": "In MASLD, simple non-invasive measures — baseline BMI, FIB-4, liver stiffness and MRI fat — misstate prognosis or fail as trial surrogates, so they cannot yet replace trajectory data or biopsy.",
+          "verification_note": "Two studies directly address non-invasive test limitations (surrogacy meta-analysis, FIB-4 unreliability in elderly); BMI trajectory study supports that baseline BMI misleads prognosis. Coherent question about simple metrics misleading in MASLD, though one is a narrative review.",
+          "pmids": [
+            "41643801",
+            "42710769",
+            "42684528"
+          ],
+          "first_seen": "2026-09-08",
+          "design_mix": {
+            "cohort": 1,
+            "systematic review or meta-analysis": 1,
+            "other": 1
+          },
+          "journal_count": 2,
+          "this_week_count": 3,
+          "studies": [
+            {
+              "pmid": "41643801",
+              "headline": "The 'obesity paradox' in fatty liver disease is a statistical illusion — timing of weight gain is what actually predicts survival",
+              "journal": "Clinical Gastroenterology and Hepatology",
+              "pubdate": "2026 Sep",
+              "doi": "10.1016/j.cgh.2026.01.033",
+              "relevance_score": 9,
+              "run_date": "2026-09-08",
+              "summary": "Researchers analyzed three large population-based cohorts — NHANES III (n=2,190), NHANES 1999–2018 (n=5,210), and UK Biobank (n=8,962) — using longitudinal BMI trajectory modeling to re-examine the so-called obesity-survival paradox in metabolic dysfunction-associated steatotic liver disease (MASLD). They found that while obesity in mid-to-late adulthood or after MASLD diagnosis appeared to confer a survival benefit in cross-sectional analyses, persistent obesity throughout adulthood (HR 1.79) and rapid BMI increase (HR 1.93) were both associated with significantly higher mortality. The key finding is that the paradox disappears when timing is accounted for: early-life weight gain is harmful, and the apparent survival advantage of later obesity likely reflects reverse causation — people who lost weight did so because they were already ill.",
+              "caveats": "observational design, self-reported dietary intake possible in NHANES, secondary analysis of existing cohorts",
+              "design": "cohort",
+              "this_week": true
+            },
+            {
+              "pmid": "42710769",
+              "headline": "Non-invasive liver scans may not be reliable enough to replace biopsies in fatty liver disease trials — yet",
+              "journal": "Clinical Gastroenterology and Hepatology",
+              "pubdate": "2026 Sep 8",
+              "doi": "10.1016/j.cgh.2026.08.030",
+              "relevance_score": 6,
+              "run_date": "2026-09-12",
+              "summary": "Researchers conducted a systematic review and Bayesian meta-analysis of 35 randomized controlled trials and 3 post-hoc analyses testing whether non-invasive tests (liver stiffness measurement, liver fat content by MRI, FIB-4, and ELF score) could substitute for liver biopsy as surrogate endpoints in MASH (metabolic dysfunction-associated steatohepatitis) trials. Liver fat content showed moderate trial-level surrogacy for MASH resolution (R²=62%), while liver stiffness measurement was strongly associated with fibrosis improvement at the outcome level but fell short as a reliable trial-level surrogate across biomarkers. The findings suggest that while these non-invasive tests carry contextual utility, none currently meets the bar to fully replace biopsy in clinical trial design.",
+              "caveats": "observational design, secondary analysis, trial-level (not patient-level) data, wide credible intervals on surrogacy estimates",
+              "design": "systematic review or meta-analysis",
+              "this_week": true
+            },
+            {
+              "pmid": "42684528",
+              "headline": "The Standard Liver-Fibrosis Test Is Unreliable in Older Adults — and Doctors May Be Missing 'Silent Cirrhosis'",
+              "journal": "Current Gastroenterology Reports",
+              "pubdate": "2026 Sep 2",
+              "doi": "10.1007/s11894-026-01055-0",
+              "relevance_score": 5,
+              "run_date": "2026-09-09",
+              "summary": "This narrative review synthesizes current evidence on metabolic dysfunction-associated steatotic liver disease (MASLD) in older adults, examining how aging-specific processes — including inflammaging, mitochondrial senescence, and muscle-liver axis deterioration — create distinct disease phenotypes not well captured by standard clinical tools. The authors find that the widely used Fibrosis-4 (FIB-4) index is unreliable in patients over 65, and that 'silent cirrhosis' with normal liver enzyme levels is common in this age group, posing serious diagnostic blind spots. The review calls for a paradigm shift toward age-adjusted fibrosis thresholds, management of circadian rhythm disruption, and preservation of muscle mass rather than purely liver-centric treatment targets.",
+              "caveats": "narrative review, no original data, no N reported, single-region author group (Japan)",
+              "design": "other",
+              "this_week": true
+            }
+          ]
+        }
+      ],
+      "bootstrapped": {
+        "from": "2026-08-10",
+        "to": "2026-09-06",
+        "studies": 28
+      },
+      "proposed": 4
+    },
     "mental-health": {
       "label": "Mental Health & Psychiatry",
-      "status": "ok",
+      "status": "carried_over",
       "study_count": 75,
       "threads": [
         {
@@ -421,9 +1259,170 @@
       },
       "proposed": 6
     },
+    "pediatric-health": {
+      "label": "Children's & Pediatric Health",
+      "status": "ok",
+      "study_count": 37,
+      "threads": [
+        {
+          "id": "single-center-biomarkers-pediatric-disease",
+          "title": "Single-center risk scores for deteriorating children lack external validation",
+          "claim": "Small single-center studies in critically ill or preterm children propose bedside scores, monitoring metrics and morbidity counts predicting deterioration or disability, none reporting external validation.",
+          "direction": "extends",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "single-center-biomarkers-pediatric-disease",
+          "original_claim": "Small single-center studies continue to propose bedside scores, monitoring markers and morbidity counts that predict deterioration or later disability in critically ill and preterm children, none externally validated.",
+          "verification_note": "All four are small single-center prognostic studies in critically ill or preterm children proposing scores/markers without external validation; a coherent methodological pattern across four countries.",
+          "pmids": [
+            "42684427",
+            "42670982",
+            "42608005",
+            "42141974"
+          ],
+          "first_seen": "2026-09-03",
+          "design_mix": {
+            "cohort": 4
+          },
+          "journal_count": 4,
+          "this_week_count": 4,
+          "studies": [
+            {
+              "pmid": "42684427",
+              "headline": "A New Bedside Score Predicts Which Newborns With Rare Lung Defect Will Need Life Support — Within 24 Hours",
+              "journal": "European Journal of Pediatrics",
+              "pubdate": "2026 Sep 2",
+              "doi": "10.1007/s00431-026-07369-5",
+              "relevance_score": 4,
+              "run_date": "2026-09-09",
+              "summary": "Researchers at the Medical University of Vienna developed a disease-specific bedside scoring tool (CDH-SAPS) for newborns and infants with congenital diaphragmatic hernia (CDH), a rare birth defect in which abdominal organs herniate into the chest cavity, in a retrospective single-center study of 95 patients treated between 2000 and 2025. The CDH-SAPS uses clinical and lab variables collected in the first 24 hours of ICU admission and demonstrated excellent discrimination for predicting ICU mortality (AUROC 0.925) and moderate-to-good prediction of which patients would require ECMO life support (AUROC 0.789). The tool outperformed existing general pediatric severity scores in reflecting CDH-specific physiology.",
+              "caveats": "small sample (N<100), single-center, retrospective design, narrow age range, rare condition limiting broad pediatric applicability",
+              "design": "cohort",
+              "this_week": true
+            },
+            {
+              "pmid": "42670982",
+              "headline": "A Common Breathing Aid Fails Nearly Half of Immunocompromised Children in the ICU — And a New Score May Predict Who's at Risk",
+              "journal": "Pediatric Pulmonology",
+              "pubdate": "2026 Sep",
+              "doi": "10.1002/ppul.71814",
+              "relevance_score": 5,
+              "run_date": "2026-09-08",
+              "summary": "Researchers at Riley Hospital for Children conducted a single-center retrospective study of 93 children and young adults (ages 0–26) with immunocompromising conditions who received high-flow nasal cannula (HFNC) oxygen therapy between 2021 and 2023. They found that 47% failed HFNC and required intubation, with PICU mortality of 14% among those who failed. The team developed a novel bedside score called FLOX that predicted HFNC failure as early as 2 hours into therapy, with children scoring ≥0.20 having more than four times the odds of failure at the 2-hour mark.",
+              "caveats": "small sample (N<100), single-center, observational design, short follow-up",
+              "design": "cohort",
+              "this_week": true
+            },
+            {
+              "pmid": "42608005",
+              "headline": "A New Brain-Monitoring Approach May Predict Which Critically Ill Children Are at Greatest Risk — Before Outcomes Worsen",
+              "journal": "Jornal de Pediatria",
+              "pubdate": "2026 Sep 5",
+              "doi": "10.1016/j.jped.2026.101601",
+              "relevance_score": 6,
+              "run_date": "2026-09-11",
+              "summary": "Researchers prospectively enrolled 120 children aged 6 months to 12 years in a pediatric intensive care unit in China, using continuous multimodal brain function monitoring (MBFM) for 72 hours to simultaneously measure cerebral blood flow, intracranial pressure, and brain oxygen levels. A composite model combining four MBFM-derived metrics predicted adverse outcomes — including death and poor neurological recovery — with an AUC of 0.91. A single metric, the perturbation factor, alone achieved an AUC of 0.86, and children with elevated perturbation factors showed significantly reduced six-month survival.",
+              "caveats": "single-center, narrow age range, observational design",
+              "design": "cohort",
+              "this_week": true
+            },
+            {
+              "pmid": "42141974",
+              "headline": "Each Additional Health Problem a Premature Baby Has Raises Later Disability Risk by 60 Percent",
+              "journal": "Acta Paediatrica",
+              "pubdate": "2026 Sep",
+              "doi": "10.1111/apa.70594",
+              "relevance_score": 6,
+              "run_date": "2026-09-08",
+              "summary": "Researchers conducted a retrospective cohort study of 318 children born before 32 weeks of gestation and/or weighing less than 1,000 grams, followed at a single Icelandic hospital from 2012 to 2020, tracking neonatal morbidities and motor development up to 24 months. Motor performance through 24 months was below test norms in the most extremely preterm group, though individual morbidities were not independently associated with motor scale scores. Crucially, cumulative neonatal morbidity burden independently predicted later disability diagnosis, with adjusted odds increasing by approximately 60% for each additional morbidity.",
+              "caveats": "observational design, single-center, retrospective cohort, narrow geographic population (Iceland)",
+              "design": "cohort",
+              "this_week": true
+            }
+          ]
+        },
+        {
+          "id": "guideline-discordant-pediatric-workup",
+          "title": "Child death review and protection systems miss their own standards",
+          "claim": "Reviews of practice show child death investigation and child protection systems frequently fail their own standards, with few deaths investigated per guideline, families often never informed of reviews, and exploited youth missed at referral.",
+          "direction": "extends",
+          "flags": {
+            "single_country": false,
+            "single_group": false,
+            "same_cohort_suspected": false
+          },
+          "flag_note": "",
+          "relates_to": "guideline-discordant-pediatric-workup",
+          "verification_note": "Three studies each document child death review or protection systems falling short of their own standards, matching the claim's three components.",
+          "pmids": [
+            "42716544",
+            "42348992",
+            "42135984"
+          ],
+          "first_seen": "2026-09-06",
+          "design_mix": {
+            "cross-sectional": 2,
+            "qualitative": 1
+          },
+          "journal_count": 3,
+          "this_week_count": 2,
+          "studies": [
+            {
+              "pmid": "42716544",
+              "headline": "In Nearly Half the Countries Surveyed, Parents Are Never Told Their Child's Death Was Formally Reviewed",
+              "journal": "BMJ Paediatrics Open",
+              "pubdate": "2026 Sep 8",
+              "doi": "10.1136/bmjpo-2026-005019",
+              "relevance_score": 5,
+              "run_date": "2026-09-13",
+              "summary": "Researchers conducted an international survey of professionals working in child death review (CDR) systems across 13 countries, collecting data from 20 regional respondents on legal frameworks, family involvement, and review criteria. They found that while all CDR programs shared a common goal of preventing future child deaths, practice varied widely: six regions required parental consent for reviews, while nine did not inform parents that a review was occurring at all. Countries without legislative mandates for CDR reported significant challenges in conducting reviews consistently.",
+              "caveats": "small sample (N<100), observational design, self-reported outcomes",
+              "design": "cross-sectional",
+              "this_week": true
+            },
+            {
+              "pmid": "42348992",
+              "headline": "Chile's Child Protection System May Sometimes Make Kids More Vulnerable to Sexual Exploitation, Not Less",
+              "journal": "Child Abuse & Neglect",
+              "pubdate": "2026 Sep",
+              "doi": "10.1016/j.chiabu.2026.108181",
+              "relevance_score": 5,
+              "run_date": "2026-09-08",
+              "summary": "Researchers in Chile reconstructed the intervention trajectories of 12 youths who experienced child sexual exploitation (CSE), reviewing case files and conducting 32 interviews with professionals involved in the cases. The study found critical failures in identification, referral, and attention within Chile's national child protection services. These systemic failures — described as 'systemic neglect' rather than individual professional error — were associated with increased vulnerability to further sexual exploitation.",
+              "caveats": "small sample (N<100), qualitative design, single-center, narrow to Chile's specific child protection context",
+              "design": "qualitative",
+              "this_week": true
+            },
+            {
+              "pmid": "42135984",
+              "headline": "Most Sudden Infant Deaths in France Are Not Investigated According to Safety Guidelines",
+              "journal": "Acta Paediatrica",
+              "pubdate": "2026 Sep",
+              "doi": "10.1111/apa.70587",
+              "relevance_score": 6,
+              "run_date": "2026-09-06",
+              "summary": "Researchers retrospectively reviewed postmortem investigation practices for 1,934 sudden unexpected infant death (SUDI) cases registered in France's national SUDI registry from 2015 to 2024. While the frequency of most investigations — including imaging, toxicology, and laboratory tests — improved over the decade, only 2.1% of cases were investigated in strict compliance with French national guidelines. Critically, only 13.2% of cases received the minimum non-invasive postmortem workup considered necessary to detect unnatural death.",
+              "caveats": "observational design, single-center (France only), retrospective",
+              "design": "cross-sectional",
+              "this_week": false
+            }
+          ]
+        }
+      ],
+      "bootstrapped": {
+        "from": "2026-08-10",
+        "to": "2026-09-06",
+        "studies": 22
+      },
+      "proposed": 4
+    },
     "science-environment": {
       "label": "Science & Environment",
-      "status": "ok",
+      "status": "carried_over",
       "study_count": 97,
       "threads": [
         {
@@ -834,12 +1833,504 @@
         "studies": 294
       },
       "proposed": 8
+    },
+    "womens-health": {
+      "label": "Women's Health",
+      "status": "ok",
+      "study_count": 62,
+      "threads": [],
+      "bootstrapped": {
+        "from": "2026-08-10",
+        "to": "2026-09-06",
+        "studies": 238
+      },
+      "proposed": 5
     }
   },
-  "cross_topic": [],
+  "cross_topic": [
+    {
+      "id": "unvalidated-single-center-prediction-models",
+      "title": "Accurate-looking prediction models across specialties share the same missing external validation",
+      "claim": "Recent diagnostic and prognostic models in diabetes, cardiovascular risk, neonatal care and autism report strong single-center accuracy without external validation or evidence that their use improves patient outcomes.",
+      "direction": "confirms",
+      "flags": {
+        "single_country": false,
+        "single_group": false,
+        "same_cohort_suspected": false
+      },
+      "flag_note": "",
+      "link_type": "other",
+      "link": "Single-center, internally validated prediction models proposed for clinical use",
+      "original_claim": "Across diabetes complications, cardiovascular risk, pediatric deterioration and psychiatric diagnosis, new biomarker, signal-processing and machine-learning models report strong in-sample accuracy from single centers or single samples, with no external validation and no evidence that use changes patient outcomes; this week's studies extend rather than break the pattern.",
+      "verification_note": "The cited studies consistently report single-center, small-sample prediction or classification models with internal performance only and no demonstrated effect on patient outcomes; the claim's blanket 'no external validation' slightly overstates one study that used a separate validation cohort.",
+      "pmids": [
+        "42677686",
+        "42618536",
+        "42610662",
+        "42622203",
+        "42684427",
+        "42684535"
+      ],
+      "first_seen": "2026-08-23",
+      "design_mix": {
+        "cohort": 3,
+        "cross-sectional": 3
+      },
+      "journal_count": 5,
+      "this_week_count": 3,
+      "topics": [
+        "aging-longevity",
+        "cardiology-heart",
+        "mental-health",
+        "pediatric-health",
+        "womens-health"
+      ],
+      "studies": [
+        {
+          "pmid": "42677686",
+          "headline": "Blood fat patterns may reveal which people with type 1 diabetes are headed for nerve damage — before symptoms appear",
+          "journal": "Diabetes, Obesity & Metabolism",
+          "pubdate": "2026 Sep 1",
+          "doi": "10.1111/dom.71257",
+          "relevance_score": 7,
+          "run_date": "2026-09-08",
+          "summary": "Danish researchers used untargeted lipidomics — analyzing hundreds of fat molecules in blood — to identify a panel of six lipid biomarkers associated with distal symmetrical polyneuropathy (DSPN), a nerve-damaging complication of type 1 diabetes, in a discovery cohort of 153 people with T1D and 50 non-diabetic controls. A logistic regression model combining the lipid panel with HbA1c, blood pressure, and age detected DSPN with AUCs of 0.83 and 0.81 in discovery and validation cohorts respectively. The study also found 22 lipid species that differed between painful and painless forms of nerve damage, potentially pointing toward different underlying mechanisms.",
+          "caveats": "small sample (N<100 in validation), observational design, industry funding [Novo Nordisk — one author affiliated], single-center (Denmark)",
+          "design": "cohort",
+          "this_week": true,
+          "sources": [
+            "aging-longevity",
+            "womens-health"
+          ]
+        },
+        {
+          "pmid": "42618536",
+          "headline": "A standard heart test run through an AI may also screen for a painful diabetes complication — no extra equipment needed",
+          "journal": "Diabetes, Obesity and Metabolism",
+          "pubdate": "2026 Aug 19",
+          "doi": "10.1111/dom.71240",
+          "relevance_score": 6,
+          "run_date": "2026-08-23",
+          "summary": "Researchers trained AI models on standard 12-lead ECG recordings from 640 people with diabetes (mean age 54, 52% female) to see whether ECG signals could identify those with symptomatic diabetic peripheral neuropathy — a painful nerve complication affecting the feet and legs. The best-performing AI model detected highly symptomatic neuropathy with an AUC of 0.89 and sensitivity of 93.4%, suggesting the routine heart test already ordered for cardiac monitoring could do double duty as a neuropathy screen. The AI performed less well at detecting milder neuropathy symptoms, and the researchers say further validation is needed before clinical use.",
+          "caveats": "observational design, single-center, self-reported outcomes (symptom questionnaire), requires external validation",
+          "design": "cross-sectional",
+          "this_week": false,
+          "sources": [
+            "aging-longevity"
+          ]
+        },
+        {
+          "pmid": "42610662",
+          "headline": "A laser-based skin scan checks blood sugar without a finger prick — and holds up across diverse patients",
+          "journal": "Journal of Diabetes Science and Technology",
+          "pubdate": "2026 Aug 18",
+          "doi": "10.1177/19322968261464571",
+          "relevance_score": 7,
+          "run_date": "2026-08-23",
+          "summary": "Researchers enrolled 200 adults with type 2 diabetes in China to test a non-invasive glucose monitor using depth-resolved Raman spectroscopy (mμSORS), which reads glucose levels by shining a laser through skin. A single prediction model achieved a mean absolute relative difference of 14.5% and placed 99.4% of readings in the clinically acceptable zones of the consensus error grid, with consistent accuracy across subgroups varying by skin tone, body composition, and serum markers. The study suggests a single calibration model — rather than subgroup-specific models — may be sufficient for broad clinical use.",
+          "caveats": "single-center, industry funding [Shanghai Photonic View Technology Co., Ltd — patent holder], regional Chinese population, short follow-up, sample skews toward type 2 diabetes patients in China (generalizability uncertain)",
+          "design": "cross-sectional",
+          "this_week": false,
+          "sources": [
+            "aging-longevity"
+          ]
+        },
+        {
+          "pmid": "42622203",
+          "headline": "Better heart risk prediction tools haven't actually reduced heart disease — and experts say they know why",
+          "journal": "Journal of the American Heart Association",
+          "pubdate": "2026 Aug 20",
+          "doi": "10.1161/JAHA.125.050232",
+          "relevance_score": 7,
+          "run_date": "2026-08-27",
+          "summary": "A comprehensive review synthesized epidemiological and health systems evidence (2000–2025) on cardiovascular risk prediction models, finding that adding novel biomarkers or new variables to traditional models produced only marginal improvements in discrimination (ΔC-statistic ≈ 0.004–0.007). AI-based and alternative approaches have expanded analytical capabilities but have not consistently translated into clinical utility. Critically, better risk estimation has not been accompanied by proportional reductions in cardiovascular burden, pointing to persistent gaps between prediction and implementation.",
+          "caveats": "narrative review, single author, surrogate endpoints only",
+          "design": "cohort",
+          "this_week": false,
+          "sources": [
+            "aging-longevity",
+            "cardiology-heart"
+          ]
+        },
+        {
+          "pmid": "42684427",
+          "headline": "A New Bedside Score Predicts Which Newborns With Rare Lung Defect Will Need Life Support — Within 24 Hours",
+          "journal": "European Journal of Pediatrics",
+          "pubdate": "2026 Sep 2",
+          "doi": "10.1007/s00431-026-07369-5",
+          "relevance_score": 4,
+          "run_date": "2026-09-09",
+          "summary": "Researchers at the Medical University of Vienna developed a disease-specific bedside scoring tool (CDH-SAPS) for newborns and infants with congenital diaphragmatic hernia (CDH), a rare birth defect in which abdominal organs herniate into the chest cavity, in a retrospective single-center study of 95 patients treated between 2000 and 2025. The CDH-SAPS uses clinical and lab variables collected in the first 24 hours of ICU admission and demonstrated excellent discrimination for predicting ICU mortality (AUROC 0.925) and moderate-to-good prediction of which patients would require ECMO life support (AUROC 0.789). The tool outperformed existing general pediatric severity scores in reflecting CDH-specific physiology.",
+          "caveats": "small sample (N<100), single-center, retrospective design, narrow age range, rare condition limiting broad pediatric applicability",
+          "design": "cohort",
+          "this_week": true,
+          "sources": [
+            "pediatric-health"
+          ]
+        },
+        {
+          "pmid": "42684535",
+          "headline": "A Simple Eye-Gaze Task May Help Identify Autism in Young Children With Near-Perfect Accuracy",
+          "journal": "Research on Child and Adolescent Psychopathology",
+          "pubdate": "2026 Sep 2",
+          "doi": "10.1007/s10802-026-01498-z",
+          "relevance_score": 6,
+          "run_date": "2026-09-09",
+          "summary": "Researchers piloted the Eye Gaze Shift Task (EGST), a brief standardized observational measure, as a complement to existing autism assessments in children over 31 months of age. The study analyzed data from 58 children (29 with ASD, 29 without ASD) who also completed the ADOS-2 Module 1 during comprehensive clinical evaluations. The EGST demonstrated 100% sensitivity, 89.7% specificity, and an overall classification accuracy of 94.8%, suggesting it may be a feasible tool for capturing eye-gaze-related social communication differences relevant to autism diagnosis.",
+          "caveats": "small sample (N<100), single-center, pilot study, narrow age range",
+          "design": "cross-sectional",
+          "this_week": true,
+          "sources": [
+            "mental-health",
+            "pediatric-health",
+            "womens-health"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-caregiver-needs-invisible",
+      "title": "Family caregivers of older and seriously ill adults carry unaddressed burden",
+      "claim": "Small qualitative studies, a scoping review and an uncontrolled education pilot suggest relatives of seriously ill or older adults carry substantial emotional burden, feel sidelined in care conversations, and seldom receive combined informational and emotional support.",
+      "direction": "confirms",
+      "flags": {
+        "single_country": false,
+        "single_group": false,
+        "same_cohort_suspected": false
+      },
+      "flag_note": "Two cited PMIDs appear in both topic memories, so the two topics partly draw on the same studies. Designs for the caregiver-burden reports in the aging memory could not be confirmed from the input.",
+      "link_type": "population",
+      "link": "Family caregivers and relatives of older or seriously ill adults",
+      "original_claim": "Qualitative work, a scoping review and an uncontrolled education pilot across the aging and geriatric palliative literature agree that relatives of older and seriously ill adults carry substantial emotional burden, are sidelined in care conversations, and rarely receive knowledge and emotional support together.",
+      "verification_note": "The qualitative studies, scoping review and uncontrolled pilot converge on unmet emotional and informational needs of caregivers; one cross-sectional mediation study addresses a different question and was dropped.",
+      "pmids": [
+        "42685648",
+        "42693513",
+        "40938148",
+        "41247831"
+      ],
+      "first_seen": "2026-09-06",
+      "design_mix": {
+        "qualitative": 2,
+        "systematic review or meta-analysis": 1,
+        "other": 1
+      },
+      "journal_count": 4,
+      "this_week_count": 3,
+      "topics": [
+        "aging-longevity",
+        "elderly-geriatric",
+        "science-environment"
+      ],
+      "studies": [
+        {
+          "pmid": "42685648",
+          "headline": "Family members feel invisible in end-of-life care conversations for heart and lung disease patients",
+          "journal": "Geriatric Nursing",
+          "pubdate": "2026 Sep 2",
+          "doi": "10.1016/j.gerinurse.2026.104296",
+          "relevance_score": 4,
+          "run_date": "2026-09-09",
+          "summary": "Researchers conducted semi-structured interviews with 10 relatives of patients with COPD or chronic heart failure in the Netherlands, exploring their experiences in three-way palliative care conversations involving providers, patients, and family. Relatives reported feeling unseen by healthcare professionals and uncertain whether their input was wanted, making it difficult to share their own needs or accurately represent their loved one's perspective. Four core challenges emerged: describing what life with the illness is like, communicating how they themselves had changed, voicing their own concerns, and stating what support they needed.",
+          "caveats": "small sample (N<100), single-center, observational design, qualitative only, Netherlands-based population",
+          "design": "qualitative",
+          "this_week": true,
+          "sources": [
+            "aging-longevity",
+            "elderly-geriatric"
+          ]
+        },
+        {
+          "pmid": "42693513",
+          "headline": "Family caregivers in palliative care need three things — and most programs only offer one",
+          "journal": "Journal of Palliative Care",
+          "pubdate": "2026 Sep 3",
+          "doi": "10.1177/08258597261474564",
+          "relevance_score": 6,
+          "run_date": "2026-09-10",
+          "summary": "Researchers conducted a scoping review of 22 studies using the Arksey and O'Malley framework to map what empowers family caregivers in palliative care settings. The review identified three core domains: knowledge empowerment (disease understanding, symptom management, end-of-life preparedness), caregiving empowerment (communication, decision-making, care planning), and psychological-emotional empowerment (mental health, self-care, grief readiness). The study found that all three domains must be integrated to sustain family caregiving roles, yet evidence mapping these domains has been limited.",
+          "caveats": "small sample (N<100), observational design, secondary analysis, no age breakdown reported, single-region institutional base (Indonesia/Malaysia)",
+          "design": "systematic review or meta-analysis",
+          "this_week": true,
+          "sources": [
+            "elderly-geriatric"
+          ]
+        },
+        {
+          "pmid": "40938148",
+          "headline": "A hospice caregiver education program inspired by telenovelas reduced anxiety for most participants — but timing and prior experience mattered",
+          "journal": "The American Journal of Hospice & Palliative Care",
+          "pubdate": "2026 Sep",
+          "doi": "10.1177/10499091251371149",
+          "relevance_score": 6,
+          "run_date": "2026-09-08",
+          "summary": "Researchers conducted a single-group pretest-posttest trial of NOVELA, an intervention using guided viewing of a hospice-related telenovela to help hospice family caregivers manage distress, enrolling 50 caregivers (44 completing outcomes) from three hospices in the U.S. Mid-Atlantic region. Of completers, 32 showed improvement in anxiety and self-efficacy scores while 12 did not. Mixed-methods analysis found that those who did not improve were more likely to find the video content less relevant, had prior caregiving experience, and faced telehealth and scheduling barriers.",
+          "caveats": "small sample (N<100), single-group design (no control arm), observational design, self-reported outcomes, short follow-up, predominantly White well-educated female sample limits generalizability, no age breakdown reported, Mid-Atlantic region only",
+          "design": "other",
+          "this_week": true,
+          "sources": [
+            "elderly-geriatric"
+          ]
+        },
+        {
+          "pmid": "41247831",
+          "headline": "Families navigating dementia hospitalizations say palliative care helps — but arrives too late and ends too abruptly",
+          "journal": "Journal of Applied Gerontology",
+          "pubdate": "2026 Sep",
+          "doi": "10.1177/07334648251389300",
+          "relevance_score": 5,
+          "run_date": "2026-09-06",
+          "summary": "Researchers used a mixed-methods design — interviews and surveys with 32 racially and ethnically diverse family caregivers recruited from two hospitals in Texas — to explore the challenges faced when hospitalized persons living with dementia (PLWD) received specialist palliative care consultations. Caregivers most commonly reported difficulties managing health issues (59%), emotional distress (56%), and medical decision-making (47%). Qualitative themes revealed that while palliative care was valued for emotional and decision-making support, care during hospitalization was frequently uncoordinated and reactive, and post-hospital transitions lacked adequate guidance.",
+          "caveats": "small sample (N<100), observational design, single-center, self-reported outcomes",
+          "design": "qualitative",
+          "this_week": false,
+          "sources": [
+            "aging-longevity",
+            "elderly-geriatric",
+            "science-environment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amr-determinants-beyond-hospital",
+      "title": "Small-set genomics keeps finding resistance determinants inside and outside hospitals",
+      "claim": "Small-scale genomic and culture surveys repeatedly recover clinically important resistance genes and previously unrecognized lineages in both hospital isolates and non-clinical reservoirs such as wildlife.",
+      "direction": "confirms",
+      "flags": {
+        "single_country": false,
+        "single_group": false,
+        "same_cohort_suspected": false
+      },
+      "flag_note": "One PMID (the Klebsiella co-producer survey) is indexed in both topics; designs are genomic surveillance studies without a standard epidemiologic label, so they are recorded as other.",
+      "link_type": "other",
+      "link": "Small-set genomic surveillance of antimicrobial resistance determinants across clinical and non-clinical reservoirs",
+      "original_claim": "Genomic and culture surveys of small isolate sets keep recovering clinically important resistance determinants and unrecognized lineages in both hospital isolates and non-clinical reservoirs such as wildlife and retail meat, indicating that current surveillance samples too little to bound the problem.",
+      "verification_note": "All cited genomic surveys recover clinically relevant resistance determinants or unrecognized lineages from small isolate sets in clinical and non-clinical reservoirs; the inference that surveillance is inadequate is an interpretation rather than a tested finding.",
+      "pmids": [
+        "42593125",
+        "42674221",
+        "40810498",
+        "42191003",
+        "42672081"
+      ],
+      "first_seen": "2026-09-06",
+      "design_mix": {
+        "other": 5
+      },
+      "journal_count": 5,
+      "this_week_count": 4,
+      "topics": [
+        "gut-digestive",
+        "science-environment"
+      ],
+      "studies": [
+        {
+          "pmid": "42593125",
+          "headline": "A superbug carrying two of the most feared resistance genes at once is evolving new tricks to spread through hospitals",
+          "journal": "Microbiology Spectrum",
+          "pubdate": "2026 Sep",
+          "doi": "10.1128/spectrum.04195-25",
+          "relevance_score": 5,
+          "run_date": "2026-09-06",
+          "summary": "Researchers genomically characterized five isolates of Klebsiella pneumoniae co-producing both KPC-2 and NDM carbapenemases — enzymes that together confer resistance to virtually all beta-lactam antibiotics — collected from a hospital in South China. Using Illumina and Nanopore sequencing, they identified a previously unknown bacterial clone (ST1869) and a novel hybrid plasmid (IncI1/X3) carrying the NDM-5 resistance gene alongside an additional resistance gene (blaCMY-42), with a conjugation-defective transfer system that may limit but not eliminate spread. The findings reveal that these pan-resistant bacteria are acquiring new genomic architectures that complicate surveillance and infection control.",
+          "caveats": "small sample (N<100), single-center, observational design",
+          "design": "other",
+          "this_week": true,
+          "sources": [
+            "gut-digestive",
+            "science-environment"
+          ]
+        },
+        {
+          "pmid": "42674221",
+          "headline": "A drug-resistant human superbug found in a sea turtle points to ocean pollution as a hidden antibiotic resistance reservoir",
+          "journal": "Journal of Global Antimicrobial Resistance",
+          "pubdate": "2026 Aug 31",
+          "doi": "10.1016/j.jgar.2026.08.022",
+          "relevance_score": 5,
+          "run_date": "2026-09-06",
+          "summary": "Brazilian researchers genomically characterized a multidrug-resistant Serratia nevei strain recovered from a loggerhead sea turtle admitted to a rehabilitation center, finding it carried the CTX-M-15 extended-spectrum beta-lactamase gene — the same resistance gene found in human clinical strains. Whole-genome sequencing showed the turtle's strain differed by only 27 single-nucleotide polymorphisms from a human urinary tract infection strain isolated in São Paulo in 2019, suggesting recent shared transmission. The finding demonstrates that clinically significant, human-associated antibiotic-resistant bacteria are circulating in marine wildlife, reinforcing One Health concerns about environmental AMR spread.",
+          "caveats": "small sample (N<100), single-center, single isolate, observational design, Brazil-specific context",
+          "design": "other",
+          "this_week": false,
+          "sources": [
+            "gut-digestive",
+            "science-environment"
+          ]
+        },
+        {
+          "pmid": "40810498",
+          "headline": "A rare Salmonella strain found in nearly 1 in 5 wild boars hints at a new animal reservoir for foodborne disease",
+          "journal": "Foodborne Pathogens and Disease",
+          "pubdate": "2026 Sep",
+          "doi": "10.1177/15353141251362297",
+          "relevance_score": 4,
+          "run_date": "2026-09-07",
+          "summary": "Researchers collected fecal and organ samples from 34 legally hunted wild boars in Türkiye's Southern Marmara Region and tested them for Salmonella. Salmonella enterica serovar Hofit — a strain never before reported in wild boars globally — was isolated from 17.6% of animals, with three isolates showing resistance to streptomycin. The study is the first worldwide report of S. Hofit in wild boars, suggesting a possible host adaptation to swine.",
+          "caveats": "small sample (N<100), single-center, animal study, observational design, single region (Türkiye)",
+          "design": "other",
+          "this_week": true,
+          "sources": [
+            "gut-digestive",
+            "science-environment"
+          ]
+        },
+        {
+          "pmid": "42191003",
+          "headline": "Drug-resistant gonorrhea acquires a new stealth weapon — borrowed from a meningitis bacterium",
+          "journal": "International Journal of Antimicrobial Agents",
+          "pubdate": "2026 Sep",
+          "doi": "10.1016/j.ijantimicag.2026.107858",
+          "relevance_score": 7,
+          "run_date": "2026-09-08",
+          "summary": "Researchers used whole-genome sequencing and comparative genomics to characterize a dual-resistant Neisseria gonorrhoeae strain (ST7363, isolate GX21-687) resistant to both ceftriaxone and azithromycin, collected in China between 2020 and 2021. The strain harbors a novel mosaic-like mtr operon structure derived from Neisseria meningitidis — a pathogenic species — rather than the commensal Neisseria species that typically donate resistance genes, representing an independent evolutionary origin of azithromycin resistance. Phylogenetic analysis found genomically clustered isolates in geographically distant Chinese provinces, suggesting silent inter-regional spread of this dual-resistant lineage.",
+          "caveats": "small sample (N<100), observational design, single-center",
+          "design": "other",
+          "this_week": true,
+          "sources": [
+            "science-environment"
+          ]
+        },
+        {
+          "pmid": "42672081",
+          "headline": "A bloodstream Salmonella lineage spreading across India — and into Europe — went unrecognized for over two centuries",
+          "journal": "PLoS Neglected Tropical Diseases",
+          "pubdate": "2026 Aug 31",
+          "doi": "10.1371/journal.pntd.0013113",
+          "relevance_score": 7,
+          "run_date": "2026-09-07",
+          "summary": "Researchers performed whole-genome sequencing and comparative genomic analyses on Salmonella Enteritidis isolates from 101 patients with bloodstream infections at a South Indian hospital between 2012 and 2022, plus additional isolates from other clinical sites and poultry. Most bloodstream isolates belonged to a previously unrecognized phylogenetic lineage — the Global Intermediate Clade — whose common ancestor was dated to approximately 1789 AD, with isolates confirmed in Europe and Asia. A lineage-specific mosaic prophage assembled from elements found across diverse Enterobacterales was identified in this clade, and the clade showed the second-highest genomic invasiveness index after the West African lineage.",
+          "caveats": "single-center, observational design",
+          "design": "other",
+          "this_week": true,
+          "sources": [
+            "science-environment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uncontrolled-feasibility-series-new-procedures",
+      "title": "New procedures enter practice as uncontrolled single-center feasibility series",
+      "claim": "Several new vascular, thoracic and cardiovascular procedures are being reported as small, single-arm, largely single-center series with technical success or surrogate endpoints, leaving comparative benefit untested.",
+      "direction": "confirms",
+      "flags": {
+        "single_country": false,
+        "single_group": false,
+        "same_cohort_suspected": false
+      },
+      "flag_note": "Each series comes from a different center, but sample sizes are very small and designs are inferred from headlines for the device and gastrointestinal reports.",
+      "link_type": "other",
+      "link": "Small single-arm, single-center series of novel interventional procedures",
+      "original_claim": "New vascular, thoracic, cardiovascular and gastrointestinal procedures continue to be reported as small single-arm, single-center series with technical success or surrogate endpoints, including a 10-patient robotic chest surgery pilot, so comparative benefit against existing options remains untested across all three topics.",
+      "verification_note": "Most cited reports are small single-arm series with technical success or surrogate endpoints and no comparator; one cited study is a multicenter randomized crossover trial that contradicts the claim and was dropped.",
+      "pmids": [
+        "42155627",
+        "42210756",
+        "42687085",
+        "42702207",
+        "42556510"
+      ],
+      "first_seen": "2026-08-08",
+      "design_mix": {
+        "case report or series": 4,
+        "cohort": 1
+      },
+      "journal_count": 5,
+      "this_week_count": 4,
+      "topics": [
+        "aging-longevity",
+        "cardiology-heart"
+      ],
+      "studies": [
+        {
+          "pmid": "42155627",
+          "headline": "A minimally invasive bypass approach saves limbs in high-risk diabetic patients with near-zero wound complications",
+          "journal": "Annals of Vascular Surgery",
+          "pubdate": "2026 Sep",
+          "doi": "10.1016/j.avsg.2026.05.066",
+          "relevance_score": 6,
+          "run_date": "2026-09-08",
+          "summary": "Surgeons at King's College Hospital in London prospectively tracked 73 patients (63% with diabetes) who underwent 81 limb bypass procedures using the MINOR (Minimally Invasive Novel Open Revascularization) approach over 18 months, mostly for chronic limb-threatening ischemia. The technique combines shorter bypass grafts, endoscopic vein harvesting, and minimal incisions. Limb salvage reached 94% and amputation-free survival 86.4% at 18 months, with no significant wound complications and a 4% one-year mortality rate.",
+          "caveats": "small sample (N<100), single-center, observational design, short follow-up, no control arm",
+          "design": "cohort",
+          "this_week": true,
+          "sources": [
+            "cardiology-heart"
+          ]
+        },
+        {
+          "pmid": "42210756",
+          "headline": "A neglected arm artery may be a reliable 'hidden gem' for dialysis access when standard options fail",
+          "journal": "Journal of Vascular Access",
+          "pubdate": "2026 Sep",
+          "doi": "10.1177/11297298261451028",
+          "relevance_score": 4,
+          "run_date": "2026-09-08",
+          "summary": "A single surgeon in India performed a novel ulnar cephalic fistula (UCF) technique for dialysis vascular access in 20 kidney failure patients between January 2023 and December 2024. The UCF uses the ulnar artery — typically overlooked — when the more common radial and brachial artery options are unavailable. Immediate technical success was 100%, with 83% primary patency and 100% assisted primary patency over 18 months of follow-up.",
+          "caveats": "small sample (N<100), single-center, short follow-up, observational design",
+          "design": "case report or series",
+          "this_week": true,
+          "sources": [
+            "cardiology-heart"
+          ]
+        },
+        {
+          "pmid": "42687085",
+          "headline": "A new type of tiny camera may help doctors see inside leg arteries more clearly during surgery",
+          "journal": "Cardiovascular Intervention and Therapeutics",
+          "pubdate": "2026 Sep 2",
+          "doi": "10.1007/s12928-026-01345-4",
+          "relevance_score": 4,
+          "run_date": "2026-09-09",
+          "summary": "Researchers at the University of Yamanashi in Japan evaluated a novel CMOS-based angioscope — a miniature camera inserted into blood vessels — to guide endovascular (minimally invasive) artery procedures. The abstract does not specify sample size, participant demographics, or cardiac history. Early findings suggest the device may improve visualization during endovascular treatment, but no outcome data are reported in the abstract.",
+          "caveats": "small sample (N<100), single-center, surrogate endpoints only, no clinical outcome data reported in abstract",
+          "design": "case report or series",
+          "this_week": true,
+          "sources": [
+            "cardiology-heart"
+          ]
+        },
+        {
+          "pmid": "42702207",
+          "headline": "Single-port robotic chest surgery through one small incision appears feasible — in a 10-patient pilot",
+          "journal": "The Thoracic and Cardiovascular Surgeon",
+          "pubdate": "2026 Sep 6",
+          "doi": "10.1055/a-2948-5012",
+          "relevance_score": 4,
+          "run_date": "2026-09-13",
+          "summary": "Turkish surgeons report the first 10 consecutive patients to undergo single-port robotic thoracic surgery via an intercostal approach using the da Vinci SP system, covering lung resections, esophageal surgery, and mediastinal mass removal between March and April 2026. All procedures were completed through a single 2–4 cm incision with no conversions, no additional incisions, and no 30-day complications or mortality; mean length of stay was 2.8 days. The authors explicitly characterize this as a technical feasibility report, not a comparative outcomes study.",
+          "caveats": "small sample (N<100), single-center, observational design, short follow-up, surrogate endpoints only, no comparative arm",
+          "design": "case report or series",
+          "this_week": true,
+          "sources": [
+            "cardiology-heart"
+          ]
+        },
+        {
+          "pmid": "42556510",
+          "headline": "A new pre-built graft with a built-in side opening makes complex aortic arch surgery safer and more standardized",
+          "journal": "The Canadian Journal of Cardiology",
+          "pubdate": "2026 Aug 5",
+          "doi": "10.1016/j.cjca.2026.07.376",
+          "relevance_score": 4,
+          "run_date": "2026-08-08",
+          "summary": "Canadian cardiac surgeons at two Quebec centers retrospectively analyzed outcomes in 48 consecutive patients who underwent total aortic arch replacement using the COOK FET-FEN device, a novel graft with an integrated fenestration to enable standardized stenting of the left subclavian artery. Technical success for left subclavian artery stenting was achieved in all patients, with a stroke rate of 2.1%, hospital mortality of 4.2%, and 18-month overall survival of 93.5%. Reinterventions were required in 19.2% of patients, including left subclavian artery-related procedures in 10.6%.",
+          "caveats": "small sample (N<100), observational design, retrospective analysis, short follow-up, single-center",
+          "design": "case report or series",
+          "this_week": false,
+          "sources": [
+            "aging-longevity",
+            "cardiology-heart"
+          ]
+        }
+      ]
+    }
+  ],
   "cross_topic_meta": {
     "status": "ok",
-    "proposed": 2,
+    "proposed": 8,
     "context_sources": [
       "senior-research"
     ]
@@ -847,399 +2338,1047 @@
   "dropped": [
     {
       "scope": "memory",
-      "source_id": "mental-health",
-      "thread_id": "schizophrenia-specific-cognitive-decline",
-      "title": "In long-term first-episode psychosis cohorts and population-based reviews, cogni",
-      "stage": "memory",
-      "reason": "demoted to emerging: all its studies were added in the same week"
-    },
-    {
-      "scope": "memory",
-      "source_id": "mental-health",
-      "thread_id": "structural-barriers-persist-despite-policy",
-      "title": "Qualitative work with rural transgender adults, rural addiction clinicians, refu",
-      "stage": "memory",
-      "reason": "demoted to emerging: all its studies were added in the same week"
-    },
-    {
-      "scope": "memory",
-      "source_id": "mental-health",
-      "thread_id": "personalized-digital-tools-no-objective-gain",
-      "title": "Randomized trials of a digital ADHD cognitive training app and of tailored menta",
-      "stage": "memory",
-      "reason": "demoted to emerging: all its studies were added in the same week"
-    },
-    {
-      "scope": "memory",
-      "source_id": "mental-health",
-      "thread_id": "eeg-biomarkers-preliminary",
-      "title": "Novel EEG-derived psychiatric markers — alpha-envelope derivatives for depressio",
-      "stage": "memory",
-      "reason": "demoted to emerging: all its studies were added in the same week"
-    },
-    {
-      "scope": "memory",
-      "source_id": "science-environment",
-      "thread_id": "structural-determinants-outcomes",
-      "title": "Area-level and policy exposures track with health outcomes in US populations: hi",
+      "source_id": "dermatology-skin",
+      "thread_id": "derm-treatment-adherence-barriers",
+      "title": "Multiple reports converge on adherence as a core dermatology problem: truncal ac",
       "stage": "memory",
       "reason": "demoted to emerging: all its studies were added in the same week"
     },
     {
       "scope": "topic",
-      "source_id": "cardiology-heart",
-      "thread_id": "underuse-indicated-cv-care",
-      "title": "Geographic and racial gaps block access to proven cardiopulmonary care",
+      "source_id": "dermatology-skin",
+      "thread_id": "derm-treatment-adherence-barriers",
+      "title": "Practical barriers drive nonadherence to dermatology treatment",
       "stage": "verification",
-      "reason": "verifier: Undertreatment relates to recurrent MI status, not country income, rural location, or race.",
-      "pmid": "42669324"
+      "reason": "verifier: Links truncal acne stigma to poorer adherence; stigma is not a practical/administrative barrier as claimed.",
+      "pmid": "42640063"
     },
     {
       "scope": "topic",
-      "source_id": "cardiology-heart",
-      "thread_id": "underuse-indicated-cv-care",
-      "title": "Geographic and racial gaps block access to proven cardiopulmonary care",
+      "source_id": "dermatology-skin",
+      "thread_id": "derm-treatment-adherence-barriers",
+      "title": "Practical barriers drive nonadherence to dermatology treatment",
       "stage": "verification",
-      "reason": "verifier: Theme, not pattern: unrelated topics (antiarrhythmic drug supply, drone AED modeling, sleep apnea disparities, African interventional pulmonology training, Danish recurrent MI treatment) grouped by broad 'access' category; they do not bear on one question, and the MI study involves clinical-history-based, not geographic/racial, gaps."
+      "reason": "verifier: Ethics/opinion paper with no patient data on adherence barriers.",
+      "pmid": "42669317"
     },
     {
       "scope": "topic",
-      "source_id": "cardiology-heart",
-      "thread_id": "cv-risk-prediction-models-marginal-gain",
-      "title": "AI and digital cardiopulmonary tools stop at surrogate performance",
+      "source_id": "dermatology-skin",
+      "thread_id": "derm-treatment-adherence-barriers",
+      "title": "Practical barriers drive nonadherence to dermatology treatment",
       "stage": "verification",
-      "reason": "verifier: Diabetic foot ulcer chatbot accuracy is off-topic for cardiopulmonary care.",
-      "pmid": "42637490"
+      "reason": "verifier: This is a theme, not a pattern: unrelated barriers (administrative red tape, injection pain, dose-measurement teaching, stigma, ethics commentary) across different diseases, with no shared question or comparable measure. Two citations do not address practical barriers at all."
     },
     {
       "scope": "topic",
-      "source_id": "cardiology-heart",
-      "thread_id": "cv-risk-prediction-models-marginal-gain",
-      "title": "AI and digital cardiopulmonary tools stop at surrogate performance",
+      "source_id": "dermatology-skin",
+      "thread_id": "benign-malignant-lesion-mimics",
+      "title": "Clinical misdiagnosis of skin disease delays care and harms",
       "stage": "verification",
-      "reason": "verifier: Editorial with no data; abstract insufficient to verify claim.",
-      "pmid": "42690761"
+      "reason": "verifier: Single case report; anecdote cannot support a claim of frequent misdiagnosis or harm.",
+      "pmid": "42704880"
     },
     {
       "scope": "topic",
-      "source_id": "cardiology-heart",
-      "thread_id": "cv-risk-prediction-models-marginal-gain",
-      "title": "AI and digital cardiopulmonary tools stop at surrogate performance",
+      "source_id": "dermatology-skin",
+      "thread_id": "benign-malignant-lesion-mimics",
+      "title": "Clinical misdiagnosis of skin disease delays care and harms",
       "stage": "verification",
-      "reason": "verifier: Loose theme spanning unrelated technologies and diseases (diabetic foot ulcer chatbot, COPD CT reconstruction, smart inhaler, VTE AI, an uninformative editorial); not one question, and the wound-care study is outside cardiopulmonary scope."
+      "reason": "verifier: Case report of a histologic mimic; off the claim about clinical misdiagnosis delaying care.",
+      "pmid": "41705796"
     },
     {
       "scope": "topic",
-      "source_id": "cardiology-heart",
-      "thread_id": "rare-blood-group-variants-transfusion",
-      "title": "Rare variants and new drugs confound standard blood testing",
+      "source_id": "dermatology-skin",
+      "thread_id": "benign-malignant-lesion-mimics",
+      "title": "Clinical misdiagnosis of skin disease delays care and harms",
       "stage": "verification",
-      "reason": "verifier: Describes a new blood group system, not misleading standard test results from variants or drugs.",
-      "pmid": "42637667"
+      "reason": "verifier: Single case report of a dermoscopic mimic; no bearing on frequency or outcomes.",
+      "pmid": "42667798"
     },
     {
       "scope": "topic",
-      "source_id": "cardiology-heart",
-      "thread_id": "rare-blood-group-variants-transfusion",
-      "title": "Rare variants and new drugs confound standard blood testing",
+      "source_id": "dermatology-skin",
+      "thread_id": "benign-malignant-lesion-mimics",
+      "title": "Clinical misdiagnosis of skin disease delays care and harms",
       "stage": "verification",
-      "reason": "verifier: Hematology/transfusion topic outside cardiology scope and a thematic grouping of unrelated one-off cases; the new blood group system paper does not concern misleading standard testing from variants or drugs in the claimed sense."
+      "reason": "verifier: Grouped by the broad theme of 'misdiagnosis': one scabies severity study, an AI benchmarking pilot, and three unrelated single case reports. Case reports cannot establish that misdiagnosis is frequent or harmful, and the AI element is a separate question."
     },
     {
       "scope": "topic",
-      "source_id": "cardiology-heart",
-      "thread_id": "new-ablation-hardware-single-arm",
-      "title": "Novel vascular and thoracic techniques reported only as uncontrolled series",
+      "source_id": "dermatology-skin",
+      "thread_id": "supervised-food-challenge-safety",
+      "title": "Structured in-hospital food challenges and ladders stay safe",
       "stage": "verification",
-      "reason": "verifier: Multicenter global 180-patient study; not a small single-center series.",
-      "pmid": "42667242"
+      "reason": "verifier: Guideline statement, not primary data on reaction rates.",
+      "pmid": "42529903"
     },
     {
       "scope": "topic",
-      "source_id": "cardiology-heart",
-      "thread_id": "early-phase-pah-therapeutics",
-      "title": "New pulmonary hypertension therapies rest on uncontrolled early-phase data",
+      "source_id": "dermatology-skin",
+      "thread_id": "itch-distinct-treatment-target",
+      "title": "Itch behaves as a dimension separate from lesions",
       "stage": "verification",
-      "reason": "verifier: Editorial with no original data on exercise training.",
-      "pmid": "42684059"
+      "reason": "verifier: MRGPRX2/PAR2 correlate with urticaria activity score, which includes wheals; does not show itch tracking independently of lesions.",
+      "pmid": "42698172"
     },
     {
       "scope": "topic",
-      "source_id": "cardiology-heart",
-      "thread_id": "early-phase-pah-therapeutics",
-      "title": "New pulmonary hypertension therapies rest on uncontrolled early-phase data",
+      "source_id": "dermatology-skin",
+      "thread_id": "itch-distinct-treatment-target",
+      "title": "Itch behaves as a dimension separate from lesions",
       "stage": "verification",
-      "reason": "only 2 distinct PMIDs (needs 3)"
+      "reason": "verifier: Uremic pruritus without skin lesions; cross-sectional associations with mood and cognition do not address lesion-independence in pruritic skin disease.",
+      "pmid": "41964296"
+    },
+    {
+      "scope": "topic",
+      "source_id": "dermatology-skin",
+      "thread_id": "itch-distinct-treatment-target",
+      "title": "Itch behaves as a dimension separate from lesions",
+      "stage": "verification",
+      "reason": "verifier: The cited studies address different questions and do not jointly support itch independence from lesions: the urticaria biomarkers correlate with overall urticaria activity (including wheals), and the hemodialysis study involves non-lesional uremic pruritus. Only one study shows itch–clearance dissociation."
     },
     {
       "scope": "memory",
-      "source_id": "cardiology-heart",
-      "thread_id": "cv-risk-prediction-models-marginal-gain",
-      "title": "Conventional, biomarker-enhanced, AI-based and digital prediction tools in cardi",
+      "source_id": "dermatology-skin",
+      "thread_id": "derm-treatment-adherence-barriers",
+      "title": "Nonadherence and discontinuation in dermatology are driven by concrete practical",
       "stage": "memory",
       "reason": "verifier rejected this PMID for the matching thread",
-      "pmid": "42637490"
+      "pmid": "42640063"
     },
     {
       "scope": "memory",
-      "source_id": "cardiology-heart",
-      "thread_id": "cv-risk-prediction-models-marginal-gain",
-      "title": "Conventional, biomarker-enhanced, AI-based and digital prediction tools in cardi",
+      "source_id": "dermatology-skin",
+      "thread_id": "derm-treatment-adherence-barriers",
+      "title": "Nonadherence and discontinuation in dermatology are driven by concrete practical",
       "stage": "memory",
       "reason": "verifier rejected this PMID for the matching thread",
-      "pmid": "42690761"
+      "pmid": "42669317"
     },
     {
       "scope": "memory",
-      "source_id": "cardiology-heart",
-      "thread_id": "underuse-indicated-cv-care",
-      "title": "Indicated cardiovascular diagnostics and therapies are underused, and access is ",
-      "stage": "memory",
-      "reason": "verifier rejected this PMID for the matching thread",
-      "pmid": "42669324"
-    },
-    {
-      "scope": "memory",
-      "source_id": "cardiology-heart",
-      "thread_id": "rare-blood-group-variants-transfusion",
-      "title": "Rare blood group and hemoglobin variants, plus engineered therapeutic antibodies",
-      "stage": "memory",
-      "reason": "verifier rejected this PMID for the matching thread",
-      "pmid": "42637667"
-    },
-    {
-      "scope": "memory",
-      "source_id": "cardiology-heart",
-      "thread_id": "new-ablation-hardware-single-arm",
-      "title": "New interventional hardware and techniques across electrophysiology, vascular ac",
-      "stage": "memory",
-      "reason": "verifier rejected this PMID for the matching thread",
-      "pmid": "42667242"
-    },
-    {
-      "scope": "memory",
-      "source_id": "cardiology-heart",
-      "thread_id": "early-phase-pah-therapeutics",
-      "title": "Emerging pulmonary arterial hypertension therapies rest on small, open-label, no",
-      "stage": "memory",
-      "reason": "verifier rejected this PMID for the matching thread",
-      "pmid": "42684059"
-    },
-    {
-      "scope": "topic",
-      "source_id": "mental-health",
-      "thread_id": "drug-naive-first-episode-biology",
-      "title": "Biological abnormalities precede treatment in first-episode psychiatric illness",
-      "stage": "verification",
-      "reason": "verifier: No healthy control comparison; within-patient sex differences in prolactin-glucose association, not a case-control abnormality.",
-      "pmid": "42696132"
-    },
-    {
-      "scope": "topic",
-      "source_id": "mental-health",
-      "thread_id": "shame-stigma-blocks-care",
-      "title": "Shame and blame, not symptom severity, gate care access",
-      "stage": "verification",
-      "reason": "verifier: Racism and service gaps in autism caregiving; different domain, does not bear on stigma vs symptom severity in care-seeking.",
-      "pmid": "42517456"
-    },
-    {
-      "scope": "topic",
-      "source_id": "mental-health",
-      "thread_id": "shame-stigma-blocks-care",
-      "title": "Shame and blame, not symptom severity, gate care access",
-      "stage": "verification",
-      "reason": "verifier: Thematic grouping rather than a pattern: unrelated conditions (orthopedic outpatients, Parkinson's, pregnancy loss, autism caregiving) and different constructs (self-stigma, cultural norms, racism); only one study actually compared stigma against symptom severity, so the 'outweighing symptom severity' claim is unsupported."
-    },
-    {
-      "scope": "topic",
-      "source_id": "mental-health",
-      "thread_id": "personalized-digital-tools-no-objective-gain",
-      "title": "Structured psychological interventions fail to beat simpler comparators",
-      "stage": "verification",
-      "reason": "verifier: Theme, not pattern: three unrelated interventions for different populations and outcomes grouped only by null between-group results; one trial in fact showed harm rather than mere non-superiority, and the writing trial showed benefit in all arms."
-    },
-    {
-      "scope": "topic",
-      "source_id": "mental-health",
-      "thread_id": "eeg-biomarkers-preliminary",
-      "title": "Candidate psychiatric biomarkers rest on small unvalidated samples",
-      "stage": "verification",
-      "reason": "verifier: Not among the three named markers; weak correlations in nonclinical college sample, not a diagnostic marker study.",
-      "pmid": "41232082"
-    },
-    {
-      "scope": "memory",
-      "source_id": "mental-health",
-      "thread_id": "personalized-digital-tools-no-objective-gain",
-      "title": "Structured psychological and digital interventions repeatedly fail to outperform",
+      "source_id": "dermatology-skin",
+      "thread_id": "derm-treatment-adherence-barriers",
+      "title": "Nonadherence and discontinuation in dermatology are driven by concrete practical",
       "stage": "memory",
       "reason": "demoted to emerging: the verifier rejected this week's matching thread"
     },
     {
       "scope": "memory",
-      "source_id": "mental-health",
-      "thread_id": "eeg-biomarkers-preliminary",
-      "title": "Candidate EEG, eye-tracking and PET markers for depression, ADHD, autism and dem",
+      "source_id": "dermatology-skin",
+      "thread_id": "supervised-food-challenge-safety",
+      "title": "Supervised hospital food challenges and structured baked-food ladders rarely cau",
       "stage": "memory",
       "reason": "verifier rejected this PMID for the matching thread",
-      "pmid": "41232082"
+      "pmid": "42529903"
     },
     {
       "scope": "memory",
-      "source_id": "mental-health",
-      "thread_id": "shame-stigma-blocks-care",
-      "title": "Shame, family blame, racism and cultural norms around help-seeking predict acces",
+      "source_id": "dermatology-skin",
+      "thread_id": "benign-malignant-lesion-mimics",
+      "title": "Clinical and histologic misdiagnosis of skin lesions and inflammatory dermatoses",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42704880"
+    },
+    {
+      "scope": "memory",
+      "source_id": "dermatology-skin",
+      "thread_id": "benign-malignant-lesion-mimics",
+      "title": "Clinical and histologic misdiagnosis of skin lesions and inflammatory dermatoses",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "41705796"
+    },
+    {
+      "scope": "memory",
+      "source_id": "dermatology-skin",
+      "thread_id": "benign-malignant-lesion-mimics",
+      "title": "Clinical and histologic misdiagnosis of skin lesions and inflammatory dermatoses",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42667798"
+    },
+    {
+      "scope": "memory",
+      "source_id": "dermatology-skin",
+      "thread_id": "itch-distinct-treatment-target",
+      "title": "Itch appears to be a partly separate dimension of skin disease, linked to non-hi",
       "stage": "memory",
       "reason": "new bullet for a thread the verifier rejected"
     },
     {
       "scope": "topic",
-      "source_id": "science-environment",
-      "thread_id": "arbovirus-vector-expansion",
-      "title": "Vector-borne pathogens and vectors recorded in new places and hosts",
+      "source_id": "aging-longevity",
+      "thread_id": "guideline-recommended-therapy-delivery-gaps",
+      "title": "Recommended therapies reach few eligible older patients",
       "stage": "verification",
-      "reason": "verifier: Soft tick range/molecular description with no pathogen testing; does not support a vector-borne pathogen claim.",
-      "pmid": "42690492"
+      "reason": "verifier: Physician-perceived national availability of antiarrhythmics, not prescribing to eligible older patients; no age-specific or patient-level data.",
+      "pmid": "42680576"
     },
     {
       "scope": "topic",
-      "source_id": "science-environment",
-      "thread_id": "pharmacovigilance-secondary-data",
-      "title": "Post-market safety leans on repurposed secondary data",
+      "source_id": "aging-longevity",
+      "thread_id": "guideline-recommended-therapy-delivery-gaps",
+      "title": "Recommended therapies reach few eligible older patients",
       "stage": "verification",
-      "reason": "verifier: A congenital anomaly registry drug-safety result; does not address registry failure or the sufficiency of secondary sources.",
-      "pmid": "42230530"
+      "reason": "verifier: Compares adherence trajectories between two antivirals; does not address whether eligible patients receive recommended therapy.",
+      "pmid": "42702701"
     },
     {
       "scope": "topic",
-      "source_id": "science-environment",
-      "thread_id": "pharmacovigilance-secondary-data",
-      "title": "Post-market safety leans on repurposed secondary data",
+      "source_id": "aging-longevity",
+      "thread_id": "guideline-recommended-therapy-delivery-gaps",
+      "title": "Recommended therapies reach few eligible older patients",
       "stage": "verification",
-      "reason": "verifier: A FAERS disproportionality study on an unrelated drug; illustrates a method, not the claimed pattern.",
-      "pmid": "39960262"
+      "reason": "verifier: The three studies address unrelated questions — SGLT2i prescribing in the UK, physician-perceived antiarrhythmic drug availability worldwide, and hepatitis B antiviral adherence in Medicare enrollees. They are grouped by the broad theme of 'therapy delivery gaps' rather than bearing on one question, and the adherence study is a drug-comparison finding, not a coverage estimate."
     },
     {
       "scope": "topic",
-      "source_id": "science-environment",
-      "thread_id": "pharmacovigilance-secondary-data",
-      "title": "Post-market safety leans on repurposed secondary data",
+      "source_id": "aging-longevity",
+      "thread_id": "family-caregiver-burden-older-adults",
+      "title": "Family carers of older adults strained and sidelined",
       "stage": "verification",
-      "reason": "verifier: HIE feasibility pilot for diabetes drugs; unrelated to registry enrollment failure.",
-      "pmid": "41975169"
+      "reason": "verifier: Outcome is digital inclusion among caregiving elders, not emotional strain or marginalization in care conversations.",
+      "pmid": "42705828"
     },
     {
       "scope": "topic",
-      "source_id": "science-environment",
-      "thread_id": "pharmacovigilance-secondary-data",
-      "title": "Post-market safety leans on repurposed secondary data",
+      "source_id": "aging-longevity",
+      "thread_id": "family-caregiver-burden-older-adults",
+      "title": "Family carers of older adults strained and sidelined",
       "stage": "verification",
-      "reason": "verifier: A theme, not a pattern: one registry failure plus three unrelated secondary-data analyses of different drugs and outcomes; no study links registry failure to the use of repurposed sources, so the causal claim is unsupported."
+      "reason": "verifier: Describes when adults enter caregiving by gender and ethnicity; says nothing about strain or outcomes.",
+      "pmid": "42610683"
     },
     {
       "scope": "topic",
-      "source_id": "science-environment",
-      "thread_id": "design-flaws-inflate-efficacy",
-      "title": "Influential recommendations rest on single or conflicted sources",
+      "source_id": "aging-longevity",
+      "thread_id": "family-caregiver-burden-older-adults",
+      "title": "Family carers of older adults strained and sidelined",
       "stage": "verification",
-      "reason": "verifier: Historical archival critique of 1956 radiation panel; different domain and not an evidence appraisal of efficacy claims.",
-      "pmid": "41665528"
-    },
-    {
-      "scope": "topic",
-      "source_id": "science-environment",
-      "thread_id": "design-flaws-inflate-efficacy",
-      "title": "Influential recommendations rest on single or conflicted sources",
-      "stage": "verification",
-      "reason": "verifier: Is itself an industry-funded review, not an appraisal finding fragile evidence.",
-      "pmid": "42410139"
-    },
-    {
-      "scope": "topic",
-      "source_id": "science-environment",
-      "thread_id": "design-flaws-inflate-efficacy",
-      "title": "Influential recommendations rest on single or conflicted sources",
-      "stage": "verification",
-      "reason": "verifier: Theme rather than pattern: an e-cigarette meta-analysis method demo, a historical radiation-genetics critique, and an industry consensus statement span unrelated fields and do not bear on one question; only one is an appraisal finding fragility in efficacy evidence."
+      "reason": "verifier: Only the small Dutch qualitative study speaks to emotional strain and marginalization; the Chinese panel study concerns grandchild care and internet use, and the HRS study concerns timing of caregiving entry by gender. The cited work does not converge on the claim as written."
     },
     {
       "scope": "memory",
-      "source_id": "science-environment",
-      "thread_id": "arbovirus-vector-expansion",
-      "title": "Surveillance keeps documenting vector-borne pathogens and their vectors in new t",
+      "source_id": "aging-longevity",
+      "thread_id": "family-caregiver-burden-older-adults",
+      "title": "Family caregivers and relatives of older adults carry heavy, often unaddressed e",
       "stage": "memory",
       "reason": "verifier rejected this PMID for the matching thread",
-      "pmid": "42690492"
+      "pmid": "42610683"
     },
     {
       "scope": "memory",
-      "source_id": "science-environment",
-      "thread_id": "design-flaws-inflate-efficacy",
-      "title": "Meta-research finds treatment and policy conclusions inflated or fragile — biase",
+      "source_id": "aging-longevity",
+      "thread_id": "family-caregiver-burden-older-adults",
+      "title": "Family caregivers and relatives of older adults carry heavy, often unaddressed e",
       "stage": "memory",
       "reason": "verifier rejected this PMID for the matching thread",
-      "pmid": "41665528"
+      "pmid": "42705828"
+    },
+    {
+      "scope": "topic",
+      "source_id": "conditions-body",
+      "thread_id": "ai-diagnostic-accuracy-vs-readiness",
+      "title": "AI models perform well but lack prospective validation",
+      "stage": "verification",
+      "reason": "verifier: Committee review of readiness and governance; reports no accuracy estimates.",
+      "pmid": "42585107"
+    },
+    {
+      "scope": "topic",
+      "source_id": "conditions-body",
+      "thread_id": "ai-diagnostic-accuracy-vs-readiness",
+      "title": "AI models perform well but lack prospective validation",
+      "stage": "verification",
+      "reason": "verifier: Mini-review of imaging modalities; speculative about AI, no performance data.",
+      "pmid": "42449562"
+    },
+    {
+      "scope": "topic",
+      "source_id": "conditions-body",
+      "thread_id": "ai-diagnostic-accuracy-vs-readiness",
+      "title": "AI models perform well but lack prospective validation",
+      "stage": "verification",
+      "reason": "verifier: Theme, not pattern: unrelated tools (LLMs in cytopathology, embryo imaging, liver cancer imaging score, EHR mortality model) grouped by a broad 'AI' category; two cited items are narrative reviews reporting no accuracy at all, so the joint claim of 'usable accuracy' is unsupported."
+    },
+    {
+      "scope": "topic",
+      "source_id": "conditions-body",
+      "thread_id": "trial-endpoints-miss-patient-benefit",
+      "title": "Standard endpoints understate treatment burden patients actually carry",
+      "stage": "verification",
+      "reason": "verifier: Describes unplanned attendances and protocol changes; does not address trial endpoints missing benefit.",
+      "pmid": "42690690"
+    },
+    {
+      "scope": "topic",
+      "source_id": "conditions-body",
+      "thread_id": "trial-endpoints-miss-patient-benefit",
+      "title": "Standard endpoints understate treatment burden patients actually carry",
+      "stage": "verification",
+      "reason": "verifier: Symptom-function gap in cannabis-induced psychosis, unrelated to trial endpoint adequacy in the other studies.",
+      "pmid": "42217403"
+    },
+    {
+      "scope": "topic",
+      "source_id": "conditions-body",
+      "thread_id": "trial-endpoints-miss-patient-benefit",
+      "title": "Standard endpoints understate treatment burden patients actually carry",
+      "stage": "verification",
+      "reason": "verifier: Theme rather than pattern: trial time-burden metrics, chemotherapy unplanned admissions, and symptom-function gap in cannabis-induced psychosis are unrelated populations and outcomes joined only by a broad framing; none compares standard endpoints against patient burden in a common question."
     },
     {
       "scope": "memory",
-      "source_id": "science-environment",
-      "thread_id": "design-flaws-inflate-efficacy",
-      "title": "Meta-research finds treatment and policy conclusions inflated or fragile — biase",
+      "source_id": "conditions-body",
+      "thread_id": "ai-diagnostic-accuracy-vs-readiness",
+      "title": "Across imaging, pathology, embryology and record-based prognosis, AI tools repor",
       "stage": "memory",
       "reason": "verifier rejected this PMID for the matching thread",
-      "pmid": "42410139"
+      "pmid": "42585107"
     },
     {
       "scope": "memory",
-      "source_id": "science-environment",
-      "thread_id": "pharmacovigilance-secondary-data",
-      "title": "Prospective drug safety registries fail to enroll, shifting post-market surveill",
+      "source_id": "conditions-body",
+      "thread_id": "ai-diagnostic-accuracy-vs-readiness",
+      "title": "Across imaging, pathology, embryology and record-based prognosis, AI tools repor",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42449562"
+    },
+    {
+      "scope": "memory",
+      "source_id": "conditions-body",
+      "thread_id": "trial-endpoints-miss-patient-benefit",
+      "title": "Conventional endpoints understate patient-relevant benefit and burden: quality o",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42690690"
+    },
+    {
+      "scope": "memory",
+      "source_id": "conditions-body",
+      "thread_id": "trial-endpoints-miss-patient-benefit",
+      "title": "Conventional endpoints understate patient-relevant benefit and burden: quality o",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42217403"
+    },
+    {
+      "scope": "memory",
+      "source_id": "elderly-geriatric",
+      "thread_id": "goals-of-care-conversations-late",
+      "title": "Across hip fracture admissions, malignant bowel obstruction, and hospitalized de",
+      "stage": "memory",
+      "reason": "demoted to emerging: all its studies were added in the same week"
+    },
+    {
+      "scope": "memory",
+      "source_id": "elderly-geriatric",
+      "thread_id": "cachexia-malnutrition-underaddressed",
+      "title": "In advanced cancer, cachexia and malnutrition carry eating-related distress and ",
+      "stage": "memory",
+      "reason": "demoted to emerging: all its studies were added in the same week"
+    },
+    {
+      "scope": "memory",
+      "source_id": "elderly-geriatric",
+      "thread_id": "simple-geriatric-screens-predict-outcomes",
+      "title": "Low-burden measures — a claims-based frailty index, ICOPE intrinsic-capacity scr",
+      "stage": "memory",
+      "reason": "demoted to emerging: all its studies were added in the same week"
+    },
+    {
+      "scope": "memory",
+      "source_id": "elderly-geriatric",
+      "thread_id": "ai-classification-routine-data",
+      "title": "Machine learning applied to routinely collected data — antinuclear antibody immu",
+      "stage": "memory",
+      "reason": "demoted to emerging: all its studies were added in the same week"
+    },
+    {
+      "scope": "topic",
+      "source_id": "fitness-exercise",
+      "thread_id": "measurement-validity-is-context-dependent",
+      "title": "Staple rehab exercises and tests miss their intended target",
+      "stage": "verification",
+      "reason": "verifier: Theme, not pattern: proprioception outcome surrogacy, hamstring test activation, and adductor exercise loading are three separate questions about different constructs, and each rests on one small biomechanics study or review."
+    },
+    {
+      "scope": "topic",
+      "source_id": "fitness-exercise",
+      "thread_id": "injury-beyond-index-site",
+      "title": "Musculoskeletal injury burden extends beyond the injured site",
+      "stage": "verification",
+      "reason": "verifier: Multisite pain and gait speed in amputees; different question, no index-site injury spread.",
+      "pmid": "42708836"
+    },
+    {
+      "scope": "topic",
+      "source_id": "fitness-exercise",
+      "thread_id": "injury-beyond-index-site",
+      "title": "Musculoskeletal injury burden extends beyond the injured site",
+      "stage": "verification",
+      "reason": "verifier: Post-surgical bursitis risk factors; not about injury burden beyond an index sport injury.",
+      "pmid": "42720505"
+    },
+    {
+      "scope": "topic",
+      "source_id": "fitness-exercise",
+      "thread_id": "injury-beyond-index-site",
+      "title": "Musculoskeletal injury burden extends beyond the injured site",
+      "stage": "verification",
+      "reason": "verifier: Broad theme: chronic ankle instability asymmetry, hamstring-lumbar association, amputee multisite pain, and post-fusion bursitis are unrelated populations and outcomes that do not address a single question."
+    },
+    {
+      "scope": "topic",
+      "source_id": "fitness-exercise",
+      "thread_id": "male-derived-guidance-sex-gaps",
+      "title": "Female athlete responses diverge from male-derived guidance",
+      "stage": "verification",
+      "reason": "verifier: Concludes it is premature to issue female-specific carbohydrate guidelines; points against the claim.",
+      "pmid": "41764997"
+    },
+    {
+      "scope": "topic",
+      "source_id": "fitness-exercise",
+      "thread_id": "male-derived-guidance-sex-gaps",
+      "title": "Female athlete responses diverge from male-derived guidance",
+      "stage": "verification",
+      "reason": "verifier: Caffeine side effects in a mostly male pool; not about female-specific responses.",
+      "pmid": "42033594"
+    },
+    {
+      "scope": "topic",
+      "source_id": "fitness-exercise",
+      "thread_id": "male-derived-guidance-sex-gaps",
+      "title": "Female athlete responses diverge from male-derived guidance",
+      "stage": "verification",
+      "reason": "verifier: Mixed and contradictory: the cited review concludes sex-specific carbohydrate guidance is premature, the caffeine meta-analysis is off-topic, and the remaining two studies (13 and 48 participants, different constructs) cannot support a divergence-from-male-guidance pattern."
+    },
+    {
+      "scope": "memory",
+      "source_id": "fitness-exercise",
+      "thread_id": "measurement-validity-is-context-dependent",
+      "title": "Common tests and exercises deliver on their claims only in narrow conditions, an",
+      "stage": "memory",
+      "reason": "demoted to emerging: the verifier rejected this week's matching thread"
+    },
+    {
+      "scope": "memory",
+      "source_id": "fitness-exercise",
+      "thread_id": "male-derived-guidance-sex-gaps",
+      "title": "Fueling and ergogenic guidance rests largely on male samples, and female-specifi",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "41764997"
+    },
+    {
+      "scope": "memory",
+      "source_id": "fitness-exercise",
+      "thread_id": "male-derived-guidance-sex-gaps",
+      "title": "Fueling and ergogenic guidance rests largely on male samples, and female-specifi",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42033594"
+    },
+    {
+      "scope": "memory",
+      "source_id": "fitness-exercise",
+      "thread_id": "male-derived-guidance-sex-gaps",
+      "title": "Fueling and ergogenic guidance rests largely on male samples, and female-specifi",
+      "stage": "memory",
+      "reason": "demoted to emerging: the verifier rejected this week's matching thread"
+    },
+    {
+      "scope": "memory",
+      "source_id": "fitness-exercise",
+      "thread_id": "injury-beyond-index-site",
+      "title": "Musculoskeletal injury and surgery are accompanied by deficits and pain at uninj",
+      "stage": "memory",
+      "reason": "new bullet for a thread the verifier rejected"
+    },
+    {
+      "scope": "topic",
+      "source_id": "gut-digestive",
+      "thread_id": "masld-therapy-landscape",
+      "title": "MASLD care shifting to approved and incretin-based drug therapy",
+      "stage": "verification",
+      "reason": "verifier: Commentary without data; heavy industry COI.",
+      "pmid": "42556358"
+    },
+    {
+      "scope": "topic",
+      "source_id": "gut-digestive",
+      "thread_id": "masld-therapy-landscape",
+      "title": "MASLD care shifting to approved and incretin-based drug therapy",
+      "stage": "verification",
+      "reason": "verifier: Broad conference summary spanning many liver diseases; not specific evidence for the claim.",
+      "pmid": "42613687"
+    },
+    {
+      "scope": "topic",
+      "source_id": "gut-digestive",
+      "thread_id": "masld-therapy-landscape",
+      "title": "MASLD care shifting to approved and incretin-based drug therapy",
+      "stage": "verification",
+      "reason": "verifier: All three citations are opinion/review/conference summaries with no original data; a convergence of narrative reviews is a theme, not an evidence pattern, and one carries extensive industry COI."
+    },
+    {
+      "scope": "topic",
+      "source_id": "gut-digestive",
+      "thread_id": "amr-genes-across-reservoirs",
+      "title": "Resistant enteric pathogens found in animal and food reservoirs",
+      "stage": "verification",
+      "reason": "verifier: Method-discordance study of E. coli O157 in meat; no resistance genes assessed.",
+      "pmid": "42102705"
+    },
+    {
+      "scope": "topic",
+      "source_id": "gut-digestive",
+      "thread_id": "amr-genes-across-reservoirs",
+      "title": "Resistant enteric pathogens found in animal and food reservoirs",
+      "stage": "verification",
+      "reason": "verifier: Studies are unrelated one-offs: a boar Salmonella survey, a meat E. coli O157 method-comparison with no resistance data, and a single sea-turtle isolate. Different organisms, settings and questions — a theme, not a pattern; the detection-method clause rests on one study."
+    },
+    {
+      "scope": "topic",
+      "source_id": "gut-digestive",
+      "thread_id": "sequencing-emerging-pathogens",
+      "title": "Metagenomic sequencing outpaces its regulatory and validation pathway",
+      "stage": "verification",
+      "reason": "verifier: Targeted enterovirus sequencing surveillance, not metagenomic discovery or regulation.",
+      "pmid": "42584091"
+    },
+    {
+      "scope": "topic",
+      "source_id": "gut-digestive",
+      "thread_id": "sequencing-emerging-pathogens",
+      "title": "Metagenomic sequencing outpaces its regulatory and validation pathway",
+      "stage": "verification",
+      "reason": "verifier: Mixes a US regulatory review, a taxonomy roundup, and a single-center enterovirus surveillance study; these address different questions and do not jointly test the claim about regulatory lag in diagnostics."
+    },
+    {
+      "scope": "memory",
+      "source_id": "gut-digestive",
+      "thread_id": "masld-therapy-landscape",
+      "title": "Reviews, commentaries and meeting summaries consistently describe MASLD care mov",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42613687"
+    },
+    {
+      "scope": "memory",
+      "source_id": "gut-digestive",
+      "thread_id": "masld-therapy-landscape",
+      "title": "Reviews, commentaries and meeting summaries consistently describe MASLD care mov",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42556358"
+    },
+    {
+      "scope": "memory",
+      "source_id": "gut-digestive",
+      "thread_id": "masld-therapy-landscape",
+      "title": "Reviews, commentaries and meeting summaries consistently describe MASLD care mov",
+      "stage": "memory",
+      "reason": "demoted to emerging: only 1 PMIDs (needs 3)"
+    },
+    {
+      "scope": "memory",
+      "source_id": "gut-digestive",
+      "thread_id": "amr-genes-across-reservoirs",
+      "title": "Small genomic and culture surveys keep recovering clinically important resistanc",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42102705"
+    },
+    {
+      "scope": "memory",
+      "source_id": "gut-digestive",
+      "thread_id": "amr-genes-across-reservoirs",
+      "title": "Small genomic and culture surveys keep recovering clinically important resistanc",
+      "stage": "memory",
+      "reason": "demoted to emerging: the verifier rejected this week's matching thread"
+    },
+    {
+      "scope": "memory",
+      "source_id": "gut-digestive",
+      "thread_id": "sequencing-emerging-pathogens",
+      "title": "Sequencing of clinical specimens repeatedly flags under-recognized pathogens and",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42584091"
+    },
+    {
+      "scope": "topic",
+      "source_id": "elderly-geriatric",
+      "thread_id": "goals-of-care-conversations-late",
+      "title": "Stated end-of-life preferences still fail to shape care",
+      "stage": "verification",
+      "reason": "verifier: About caregiver experiences of palliative care timing; does not address known preferences diverging from care.",
+      "pmid": "41247831"
+    },
+    {
+      "scope": "topic",
+      "source_id": "elderly-geriatric",
+      "thread_id": "goals-of-care-conversations-late",
+      "title": "Stated end-of-life preferences still fail to shape care",
+      "stage": "verification",
+      "reason": "verifier: Mixed bag: one administrative-claims study of DNR and regional analgesia (not a stated preference about analgesia), one single-case ethics report, and a caregiver qualitative study about palliative care timing that does not address stated preferences being overridden. Not one pattern."
+    },
+    {
+      "scope": "topic",
+      "source_id": "elderly-geriatric",
+      "thread_id": "ai-classification-routine-data",
+      "title": "Prediction models from routine data stay unvalidated in practice",
+      "stage": "verification",
+      "reason": "verifier: Theme, not pattern: unrelated clinical problems (thrombectomy reperfusion, wheelchair shear forces) grouped with a rehabilitation AI mapping review; no shared question and no geriatric relevance."
+    },
+    {
+      "scope": "memory",
+      "source_id": "elderly-geriatric",
+      "thread_id": "ai-classification-routine-data",
+      "title": "Machine learning on routinely collected data classifies or predicts disease stat",
+      "stage": "memory",
+      "reason": "demoted to emerging: the verifier rejected this week's matching thread"
+    },
+    {
+      "scope": "memory",
+      "source_id": "elderly-geriatric",
+      "thread_id": "goals-of-care-conversations-late",
+      "title": "Goals-of-care and prognosis conversations happen late or briefly, and even docum",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "41247831"
+    },
+    {
+      "scope": "memory",
+      "source_id": "elderly-geriatric",
+      "thread_id": "goals-of-care-conversations-late",
+      "title": "Goals-of-care and prognosis conversations happen late or briefly, and even docum",
+      "stage": "memory",
+      "reason": "demoted to emerging: the verifier rejected this week's matching thread"
+    },
+    {
+      "scope": "topic",
+      "source_id": "pediatric-health",
+      "thread_id": "chemical-contaminants-in-infant-child-diet",
+      "title": "Everyday foods carry measurable contaminant loads for young children",
+      "stage": "verification",
+      "reason": "verifier: Points the other way: paraben intake ~28,000-fold below ADI, i.e., not of concern.",
+      "pmid": "42641861"
+    },
+    {
+      "scope": "topic",
+      "source_id": "pediatric-health",
+      "thread_id": "chemical-contaminants-in-infant-child-diet",
+      "title": "Everyday foods carry measurable contaminant loads for young children",
+      "stage": "verification",
+      "reason": "verifier: No pediatric exposure data or toxicological outcomes; lab measurement in one regional market.",
+      "pmid": "42347576"
+    },
+    {
+      "scope": "topic",
+      "source_id": "pediatric-health",
+      "thread_id": "chemical-contaminants-in-infant-child-diet",
+      "title": "Everyday foods carry measurable contaminant loads for young children",
+      "stage": "verification",
+      "reason": "verifier: The paraben study explicitly found exposures ~28,000-fold below the acceptable daily intake, contradicting 'potential concern'; the sugar microplastic study measured no pediatric exposure and no toxicological outcome. Only the mycotoxin study supports the claim, and the three cover unrelated contaminants in different matrices and countries — a theme, not a pattern."
+    },
+    {
+      "scope": "topic",
+      "source_id": "pediatric-health",
+      "thread_id": "early-life-nutrition-long-term-outcomes",
+      "title": "Pregnancy and first-1,000-days conditions shape later child outcomes",
+      "stage": "verification",
+      "reason": "verifier: Narrative review, not primary evidence of an association.",
+      "pmid": "42704839"
+    },
+    {
+      "scope": "topic",
+      "source_id": "pediatric-health",
+      "thread_id": "early-life-nutrition-long-term-outcomes",
+      "title": "Pregnancy and first-1,000-days conditions shape later child outcomes",
+      "stage": "verification",
+      "reason": "verifier: Outcome is adult cancer before 50, not a child outcome; quasi-experimental historical cohort.",
+      "pmid": "42508576"
+    },
+    {
+      "scope": "topic",
+      "source_id": "pediatric-health",
+      "thread_id": "early-life-nutrition-long-term-outcomes",
+      "title": "Pregnancy and first-1,000-days conditions shape later child outcomes",
+      "stage": "verification",
+      "reason": "verifier: Grouped by the broad 'first 1,000 days' theme: prenatal maternal RSA, breastfeeding and body composition, historical sugar rationing and adult cancer, plus a narrative review — different exposures and outcomes that do not bear on one question. The sugar study also measures cancer before age 50, not a child outcome."
+    },
+    {
+      "scope": "memory",
+      "source_id": "pediatric-health",
+      "thread_id": "chemical-contaminants-in-infant-child-diet",
+      "title": "Measurement studies repeatedly detect chemical contaminants — parabens in breast",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42641861"
+    },
+    {
+      "scope": "memory",
+      "source_id": "pediatric-health",
+      "thread_id": "chemical-contaminants-in-infant-child-diet",
+      "title": "Measurement studies repeatedly detect chemical contaminants — parabens in breast",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42347576"
+    },
+    {
+      "scope": "memory",
+      "source_id": "pediatric-health",
+      "thread_id": "chemical-contaminants-in-infant-child-diet",
+      "title": "Measurement studies repeatedly detect chemical contaminants — parabens in breast",
+      "stage": "memory",
+      "reason": "demoted to emerging: only 1 PMIDs (needs 3)"
+    },
+    {
+      "scope": "memory",
+      "source_id": "pediatric-health",
+      "thread_id": "early-life-nutrition-long-term-outcomes",
+      "title": "Exposures in pregnancy and the first 1,000 days, including maternal autonomic re",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42704839"
+    },
+    {
+      "scope": "memory",
+      "source_id": "pediatric-health",
+      "thread_id": "early-life-nutrition-long-term-outcomes",
+      "title": "Exposures in pregnancy and the first 1,000 days, including maternal autonomic re",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42508576"
+    },
+    {
+      "scope": "memory",
+      "source_id": "pediatric-health",
+      "thread_id": "early-life-nutrition-long-term-outcomes",
+      "title": "Exposures in pregnancy and the first 1,000 days, including maternal autonomic re",
+      "stage": "memory",
+      "reason": "demoted to emerging: only 2 PMIDs (needs 3)"
+    },
+    {
+      "scope": "topic",
+      "source_id": "womens-health",
+      "thread_id": "metabolic-risk-before-antipsychotics",
+      "title": "Biological abnormalities precede antipsychotic exposure in first-episode psychosis",
+      "stage": "structural",
+      "reason": "same cohort suspected (Two of the three are single-center Istanbul samples of drug-naive first-episode inpatients that may overlap.)"
+    },
+    {
+      "scope": "topic",
+      "source_id": "womens-health",
+      "thread_id": "first-trimester-blood-markers-obstetric-risk",
+      "title": "First-trimester models predict preeclampsia but need external validation",
+      "stage": "verification",
+      "reason": "verifier: Mediation analysis of BMI and platelet indices at 16-19 weeks; not a first-trimester screening or prediction model.",
+      "pmid": "42575861"
+    },
+    {
+      "scope": "topic",
+      "source_id": "womens-health",
+      "thread_id": "autism-family-caregiver-strain",
+      "title": "Caregivers of autistic children report burnout and unmet support",
+      "stage": "verification",
+      "reason": "verifier: Examines psychological drivers of parenting stress, not burnout severity or unmet support needs.",
+      "pmid": "42549639"
+    },
+    {
+      "scope": "topic",
+      "source_id": "womens-health",
+      "thread_id": "autism-family-caregiver-strain",
+      "title": "Caregivers of autistic children report burnout and unmet support",
+      "stage": "verification",
+      "reason": "verifier: Single-case blog analysis of an adult son's residential transition; too weak and off-claim.",
+      "pmid": "42596819"
+    },
+    {
+      "scope": "topic",
+      "source_id": "womens-health",
+      "thread_id": "autism-family-caregiver-strain",
+      "title": "Caregivers of autistic children report burnout and unmet support",
+      "stage": "verification",
+      "reason": "verifier: Theme, not pattern: one qualitative study of First Nations caregivers, one Chinese network analysis of parenting stress drivers (not burnout or unmet support), and an N=1 blog case study about adult residential transition address different questions."
+    },
+    {
+      "scope": "topic",
+      "source_id": "womens-health",
+      "thread_id": "perinatal-care-trust-and-access-barriers",
+      "title": "System-level barriers erode women's trust in perinatal care",
+      "stage": "verification",
+      "reason": "verifier: Concerns family blame and provider silence after loss and anxiety, not access or trust-driven disengagement from care.",
+      "pmid": "42693223"
+    },
+    {
+      "scope": "topic",
+      "source_id": "womens-health",
+      "thread_id": "perinatal-care-trust-and-access-barriers",
+      "title": "System-level barriers erode women's trust in perinatal care",
+      "stage": "verification",
+      "reason": "verifier: About doulas' Medicaid participation, not women's trust in or exit from perinatal care.",
+      "pmid": "42706731"
+    },
+    {
+      "scope": "topic",
+      "source_id": "womens-health",
+      "thread_id": "perinatal-care-trust-and-access-barriers",
+      "title": "System-level barriers erode women's trust in perinatal care",
+      "stage": "verification",
+      "reason": "verifier: Three unrelated qualitative studies grouped by a broad theme (confidentiality breaches, pregnancy-loss stigma, doula Medicaid reimbursement) in different countries; they do not bear on one question and none measure women being pushed out of care."
+    },
+    {
+      "scope": "topic",
+      "source_id": "womens-health",
+      "thread_id": "diet-biomarkers-beat-self-report",
+      "title": "Blood diet signatures predict disease better than questionnaires",
+      "stage": "verification",
+      "reason": "verifier: Uses biomarkers to calibrate questionnaire data; does not show signatures outperform questionnaires or address genetic risk.",
+      "pmid": "42595119"
+    },
+    {
+      "scope": "topic",
+      "source_id": "womens-health",
+      "thread_id": "diet-biomarkers-beat-self-report",
+      "title": "Blood diet signatures predict disease better than questionnaires",
+      "stage": "verification",
+      "reason": "verifier: Points the other way: proteomic diet score association attenuated after adjustment, adding little independent predictive value.",
+      "pmid": "42617399"
+    },
+    {
+      "scope": "topic",
+      "source_id": "womens-health",
+      "thread_id": "diet-biomarkers-beat-self-report",
+      "title": "Blood diet signatures predict disease better than questionnaires",
+      "stage": "verification",
+      "reason": "verifier: Only one study compares a metabolomic diet signature with a questionnaire score and addresses genetic offset; the others use biomarkers to calibrate questionnaires or show attenuation, so the claim as written is unsupported across studies and spans unrelated outcomes."
+    },
+    {
+      "scope": "topic",
+      "source_id": "womens-health",
+      "thread_id": "first-trimester-blood-markers-obstetric-risk",
+      "title": "First-trimester models predict preeclampsia but need external validation",
+      "stage": "verification",
+      "reason": "only 2 distinct PMIDs (needs 3)"
+    },
+    {
+      "scope": "memory",
+      "source_id": "womens-health",
+      "thread_id": "first-trimester-blood-markers-obstetric-risk",
+      "title": "First-trimester screening using blood-count and hormonal markers, blood pressure",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42575861"
+    },
+    {
+      "scope": "memory",
+      "source_id": "womens-health",
+      "thread_id": "diet-biomarkers-beat-self-report",
+      "title": "Blood metabolomic and proteomic diet markers correct questionnaire error and pre",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42595119"
+    },
+    {
+      "scope": "memory",
+      "source_id": "womens-health",
+      "thread_id": "diet-biomarkers-beat-self-report",
+      "title": "Blood metabolomic and proteomic diet markers correct questionnaire error and pre",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42617399"
+    },
+    {
+      "scope": "memory",
+      "source_id": "womens-health",
+      "thread_id": "diet-biomarkers-beat-self-report",
+      "title": "Blood metabolomic and proteomic diet markers correct questionnaire error and pre",
+      "stage": "memory",
+      "reason": "demoted to emerging: only 2 PMIDs (needs 3)"
+    },
+    {
+      "scope": "memory",
+      "source_id": "womens-health",
+      "thread_id": "autism-family-caregiver-strain",
+      "title": "Caregivers of autistic children, mostly mothers, report heavy strain: stress dri",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42549639"
+    },
+    {
+      "scope": "memory",
+      "source_id": "womens-health",
+      "thread_id": "autism-family-caregiver-strain",
+      "title": "Caregivers of autistic children, mostly mothers, report heavy strain: stress dri",
+      "stage": "memory",
+      "reason": "verifier rejected this PMID for the matching thread",
+      "pmid": "42596819"
+    },
+    {
+      "scope": "memory",
+      "source_id": "womens-health",
+      "thread_id": "autism-family-caregiver-strain",
+      "title": "Caregivers of autistic children, mostly mothers, report heavy strain: stress dri",
+      "stage": "memory",
+      "reason": "demoted to emerging: only 2 PMIDs (needs 3)"
+    },
+    {
+      "scope": "memory",
+      "source_id": "womens-health",
+      "thread_id": "perinatal-care-trust-and-access-barriers",
+      "title": "Qualitative work in Argentina, Pakistan and Florida finds confidentiality breach",
       "stage": "memory",
       "reason": "new bullet for a thread the verifier rejected"
     },
     {
       "scope": "cross_topic",
       "source_id": "cross_topic",
-      "thread_id": "small-single-center-evidence",
-      "title": "Promising results across fields rest on small single-center studies",
-      "stage": "verification",
-      "reason": "verifier: Meta-research on power and prior plausibility across 463 COVID trials; not a small single-center or single-arm study, so it supports a different claim.",
-      "pmid": "42600710"
+      "thread_id": "drug-naive-first-episode-biology-crosstopic",
+      "title": "Peripheral metabolic and immune abnormalities in medication-naive first-episode psychiatric illness",
+      "stage": "structural",
+      "reason": "same cohort suspected (Evidence clusters into two national blocks: single-center Turkish samples for the immune and mania findings and Chinese samples for the insulin and prolactin findings, so overlapping recruitment within each block is plausible. The same PMIDs are indexed in all three topic memories, so the topics are not independent evidence streams.)"
     },
     {
       "scope": "cross_topic",
       "source_id": "cross_topic",
-      "thread_id": "small-single-center-evidence",
-      "title": "Promising results across fields rest on small single-center studies",
+      "thread_id": "family-caregiver-needs-invisible",
+      "title": "Family caregivers of older and seriously ill adults carry unaddressed burden",
       "stage": "verification",
-      "reason": "verifier: This is a theme, not a pattern: an angioscope case series, a robotic surgery pilot, an autism gaze task, a depression PET study, and a meta-research analysis of COVID trials bear on entirely different questions and are grouped only by the broad label 'weak evidence'. The COVID trial analysis concerns statistical power and prior plausibility in multicenter trials, not small single-center studies, and the claim's blanket 'none supports patient benefit' overreaches."
+      "reason": "verifier: Cross-sectional mediation study of coping style and depression; does not address exclusion from care conversations or unmet support provision.",
+      "pmid": "42648109"
     },
     {
       "scope": "cross_topic",
       "source_id": "cross_topic",
-      "thread_id": "minoritized-populations-persistent-gaps",
-      "title": "Minority group membership still predicts worse care and later diagnosis",
+      "thread_id": "postpartum-morbidity-physical-and-relational",
+      "title": "Postpartum morbidity is underrecognized in both body and relationship",
       "stage": "verification",
-      "reason": "verifier: Narrative review of sleep-disordered breathing disparities; off-topic for psychiatry, genetics, or cardiovascular care as claimed.",
-      "pmid": "42683814"
+      "reason": "verifier: Parental burnout and coparenting alliance; unrelated to underrecognized postpartum morbidity as a single question.",
+      "pmid": "39773292"
     },
     {
       "scope": "cross_topic",
       "source_id": "cross_topic",
-      "thread_id": "minoritized-populations-persistent-gaps",
-      "title": "Minority group membership still predicts worse care and later diagnosis",
+      "thread_id": "postpartum-morbidity-physical-and-relational",
+      "title": "Postpartum morbidity is underrecognized in both body and relationship",
       "stage": "verification",
-      "reason": "verifier: Grouped by the broad category 'minoritized populations' rather than one question: outcomes range from mental health prevalence to qualitative access barriers to genetic diagnostic delay to CPAP adherence, across different minority definitions. The claim also asserts cardiovascular care, which none of the cited studies addresses."
+      "reason": "verifier: Partner ADHD and postpartum mood symptoms; a separate question from recognition of postpartum burden.",
+      "pmid": "41982066"
+    },
+    {
+      "scope": "cross_topic",
+      "source_id": "cross_topic",
+      "thread_id": "postpartum-morbidity-physical-and-relational",
+      "title": "Postpartum morbidity is underrecognized in both body and relationship",
+      "stage": "verification",
+      "reason": "verifier: Qualitative study of blame after pregnancy loss in Pakistan; distinct topic and setting.",
+      "pmid": "42693223"
+    },
+    {
+      "scope": "cross_topic",
+      "source_id": "cross_topic",
+      "thread_id": "postpartum-morbidity-physical-and-relational",
+      "title": "Postpartum morbidity is underrecognized in both body and relationship",
+      "stage": "verification",
+      "reason": "verifier: Single-center perineal pain cohort; supports only a narrow physical-morbidity finding, not the combined claim.",
+      "pmid": "42686059"
+    },
+    {
+      "scope": "cross_topic",
+      "source_id": "cross_topic",
+      "thread_id": "postpartum-morbidity-physical-and-relational",
+      "title": "Postpartum morbidity is underrecognized in both body and relationship",
+      "stage": "verification",
+      "reason": "verifier: This is a theme, not a pattern: persistent perineal pain, parental burnout, partner ADHD and cultural blame after pregnancy loss are distinct outcomes in unrelated populations and designs that do not bear on one question; the proposer also notes the topics are not independent evidence streams."
+    },
+    {
+      "scope": "cross_topic",
+      "source_id": "cross_topic",
+      "thread_id": "paradoxical-inflammation-cytokine-biologics",
+      "title": "Cytokine-targeted biologics linked to new or switched inflammatory disease",
+      "stage": "verification",
+      "reason": "verifier: Concerns cutaneous T-cell lymphoma, not inflammatory phenotype switching, and concludes evidence does not support a drug effect.",
+      "pmid": "42685682"
+    },
+    {
+      "scope": "cross_topic",
+      "source_id": "cross_topic",
+      "thread_id": "paradoxical-inflammation-cytokine-biologics",
+      "title": "Cytokine-targeted biologics linked to new or switched inflammatory disease",
+      "stage": "verification",
+      "reason": "verifier: Commentary on the same secukinumab case series already cited; duplicate evidence.",
+      "pmid": "42730717"
+    },
+    {
+      "scope": "cross_topic",
+      "source_id": "cross_topic",
+      "thread_id": "uncontrolled-feasibility-series-new-procedures",
+      "title": "New procedures enter practice as uncontrolled single-center feasibility series",
+      "stage": "verification",
+      "reason": "verifier: Multicenter randomized crossover trial with a comparator; contradicts the uncontrolled single-center premise.",
+      "pmid": "42693590"
+    },
+    {
+      "scope": "cross_topic",
+      "source_id": "cross_topic",
+      "thread_id": "contaminant-detection-outpaces-measurement-rules",
+      "title": "Contaminants are detected almost everywhere while measurement standards lag",
+      "stage": "verification",
+      "reason": "verifier: Argues detections may be artifacts and biomarkers nonspecific; points against widespread confirmed detection.",
+      "pmid": "42700198"
+    },
+    {
+      "scope": "cross_topic",
+      "source_id": "cross_topic",
+      "thread_id": "contaminant-detection-outpaces-measurement-rules",
+      "title": "Contaminants are detected almost everywhere while measurement standards lag",
+      "stage": "verification",
+      "reason": "verifier: Found infant intake roughly 28,000-fold below the acceptable daily intake, contradicting the high-dose element of the claim.",
+      "pmid": "42641861"
+    },
+    {
+      "scope": "cross_topic",
+      "source_id": "cross_topic",
+      "thread_id": "contaminant-detection-outpaces-measurement-rules",
+      "title": "Contaminants are detected almost everywhere while measurement standards lag",
+      "stage": "verification",
+      "reason": "verifier: Estimates children's mycotoxin exposure but does not address measurement-standard gaps or comparative per-body-weight dosing versus adults.",
+      "pmid": "42716241"
+    },
+    {
+      "scope": "cross_topic",
+      "source_id": "cross_topic",
+      "thread_id": "contaminant-detection-outpaces-measurement-rules",
+      "title": "Contaminants are detected almost everywhere while measurement standards lag",
+      "stage": "verification",
+      "reason": "verifier: A broad theme rather than a pattern: unrelated contaminants (microplastics, nanoplastics, pesticides, parabens, mycotoxins) in unrelated matrices. The nanoplastics review argues detections may be false positives and the paraben study found intake far below safety limits, and the infant-dose element rests on a single study."
+    },
+    {
+      "scope": "cross_topic",
+      "source_id": "cross_topic",
+      "thread_id": "paradoxical-inflammation-cytokine-biologics",
+      "title": "Cytokine-targeted biologics linked to new or switched inflammatory disease",
+      "stage": "verification",
+      "reason": "same cohort suspected (Almost all evidence is single-patient reporting, and two PMIDs appear in both topic memories.; One cited item is a commentary on the same secukinumab case series also cited, so the same patients would have been counted twice.)"
     }
   ],
   "usage": {
-    "calls": 11,
-    "input_tokens": 211473,
-    "output_tokens": 74397,
-    "cache_creation_input_tokens": 9468,
-    "cache_read_input_tokens": 7460,
-    "estimated_cost_usd": 2.9802,
+    "calls": 26,
+    "input_tokens": 396663,
+    "output_tokens": 158524,
+    "cache_creation_input_tokens": 7224,
+    "cache_read_input_tokens": 33434,
+    "estimated_cost_usd": 6.0083,
     "fallback_calls": 0
   }
 }
