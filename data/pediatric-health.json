@@ -1,39 +1,153 @@
 {
-  "last_updated": "2026-09-15T15:27:23.403970+00:00",
-  "total_studies": 225,
-  "new_this_run": 3,
+  "last_updated": "2026-09-16T15:23:28.798721+00:00",
+  "total_studies": 227,
+  "new_this_run": 2,
   "studies": [
     {
       "pmid": "42717184",
-      "headline": "A New Eye-Tracking Algorithm Could Reveal Which Teen Drivers Are Missing Road Hazards Before They Crash",
+      "headline": "A New Eye-Tracking Algorithm Could Identify Teen Drivers Who Miss Hazards Before They Crash",
       "journal": "Behavior Research Methods",
       "pubdate": "2026 Sep 9",
       "doi": "10.3758/s13428-026-03154-2",
       "groundbreaking": "First-in-class human study / Major child health or parenting implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Children's Hospital of Philadelphia applied a machine-learning time-series clustering method to eye-tracking data collected from 36 young drivers (ages 16\u201324) during a simulated driving task. The new approach automatically identifies distinct visual search strategies \u2014 how drivers scan the road \u2014 without the labor-intensive manual video coding that has historically limited research to tiny samples. The method successfully distinguished generalizable patterns of visual scanning during a curved-road scenario, suggesting it could scale up research on why young drivers miss pedestrians and other hazards.",
-      "why_it_matters": "Understanding how teen drivers search for hazards on the road could help identify risky visual habits early and inform driver training programs aimed at reducing the leading cause of death among U.S. adolescents.",
-      "caveats": "small sample (N<100), single-center, narrow age range, simulated driving environment (not real-world), industry funding [Diagnostic Driving Inc. \u2014 co-author financial/IP interest]",
+      "summary": "Researchers at Children's Hospital of Philadelphia applied a machine-learning time-series clustering method to raw eye-tracking data collected from 36 young drivers (ages 16\u201324) in a simulated driving environment. The goal was to automatically characterize visual search strategies \u2014 how thoroughly drivers scan the road for hazards \u2014 without labor-intensive manual video coding. The approach successfully identified distinct visual search patterns, suggesting it could scale up teen-driver hazard-detection research significantly.",
+      "why_it_matters": "Understanding how teen drivers scan for road hazards could eventually inform driver education programs and screening tools aimed at reducing the leading cause of death among adolescents.",
+      "caveats": "small sample (N<100), single-center, simulated (not real-world) driving environment, narrow age range, industry conflict of interest (Flaura Winston, Diagnostic Driving Inc.)",
       "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Adolescent safety topic; methodology study limits direct parenting takeaway.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Teen safety angle relevant but small N, simulated setting, methods-focused study.",
       "pitch_angles": [
         {
           "publication_type": "Parents Magazine / Today's Parent",
-          "headline": "Scientists Are Using Eye-Tracking to Identify Teen Drivers Who May Miss Hazards on the Road",
-          "hook": "A new algorithm can pinpoint exactly how teen drivers scan the road \u2014 and whether they're missing the dangers that cause crashes.",
-          "pitch_angle": "Researchers developed a scalable eye-tracking method that identifies distinct visual search patterns in 16-to-24-year-old drivers, without hours of manual video review. The technology could eventually help driving instructors flag risky scanning habits in new teen drivers before a crash occurs."
+          "headline": "Could an Eye-Tracking Test Predict Whether Your Teen Will Crash?",
+          "hook": "A new machine-learning tool can automatically detect whether a young driver is scanning the road thoroughly enough to spot hazards \u2014 potentially before they ever get behind the wheel unsupervised.",
+          "pitch_angle": "Researchers developed a scalable algorithm that maps exactly how 16\u201324-year-old drivers move their eyes while navigating a simulated road, identifying risky scanning patterns that human coders used to have to label by hand. If validated in larger real-world studies, the technology could one day help driving instructors \u2014 and parents \u2014 pinpoint which teen drivers need more practice before going solo."
+        }
+      ],
+      "run_date": "2026-09-16",
+      "category": "Behavioral Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42723031",
+      "headline": "Combining Two Life-Support Machines Into One May Help Critically Ill Kids With Severe Lung and Kidney Failure",
+      "journal": "BMC Pediatrics",
+      "pubdate": "2026 Sep 9",
+      "doi": "10.1186/s12887-026-07656-y",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at a German university hospital retrospectively reviewed seven pediatric patients (median age 12 years, IQR 6\u201314) who had both severe acute respiratory distress syndrome (PARDS) and acute kidney injury and received a combined extracorporeal CO\u2082 removal and continuous renal replacement therapy circuit. The integrated approach was technically feasible and was associated with significant reductions in CO\u2082 levels and ventilator pressures within 24 hours, with no major bleeding, hemolysis, or device-related infections identified. The authors caution that these descriptive findings are hypothesis-generating only and prospective multicenter studies are needed.",
+      "why_it_matters": "For families of children in pediatric intensive care, early feasibility evidence suggests that combining two extracorporeal support systems into one circuit may reduce the complexity of life-saving treatment for the sickest kids \u2014 though far more research is needed before this becomes standard care.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up, retrospective, narrow age range",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Highly specialized PICU intervention; very small N=7; limited parenting/caregiver practical relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "A Single Machine to Treat Two Organ Failures at Once? Early Data in Critically Ill Kids Look Promising",
+          "hook": "For children whose lungs and kidneys are both failing, combining two life-support systems into one circuit may ease treatment \u2014 at least in a small early study.",
+          "pitch_angle": "German intensivists found that integrating an extracorporeal CO\u2082 removal device into an already-running kidney-support machine was feasible in seven critically ill children aged 6\u201314, and was associated with measurable improvements in lung function within 24 hours. While the sample is tiny and findings are preliminary, it points toward a potentially simpler approach for some of the sickest pediatric ICU patients."
+        }
+      ],
+      "run_date": "2026-09-16",
+      "category": "Pediatrics",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42741906",
+      "headline": "Kids With Long COVID Are More Likely to Come From Wealthy, High-Opportunity Neighborhoods \u2014 Not Underserved Ones",
+      "journal": "Clinical Pediatrics",
+      "pubdate": "2026 Sep 15",
+      "doi": "10.1177/00099228261487907",
+      "groundbreaking": "Counterintuitive finding / Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a retrospective cross-sectional study of 194 pediatric long COVID patients (mean age 12.8 years; 57% female, 63% non-Hispanic white) seen at a multidisciplinary tertiary care clinic in the Washington, DC/Maryland/Virginia region between May 2021 and January 2024. Using the Child Opportunity Index, they mapped patients' neighborhoods and found that most lived in very high-opportunity areas, while few came from low-opportunity communities \u2014 despite the fact that under-resourced communities bore a disproportionate burden of acute COVID-19. The findings suggest that clinic-based long COVID diagnoses in children reflect access to specialty care, not actual disease prevalence, meaning many affected children in lower-income communities may be going undetected.",
+      "why_it_matters": "Children from underserved communities who had higher COVID-19 exposure may be just as likely \u2014 or more likely \u2014 to have long COVID, but less likely to be diagnosed and treated, pointing to a significant gap in pediatric post-COVID care equity.",
+      "caveats": "small sample (N=194), observational design, retrospective cross-sectional, single-center (tertiary care clinic), narrow geographic region (DC/MD/VA), self-reported outcomes",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive pediatric long COVID equity finding; clear parenting and public health implication.",
+      "pitch_angles": [
+        {
+          "publication_type": "NYT Parenting / NPR Health",
+          "headline": "The Kids Being Diagnosed With Long COVID Are From Wealthy Neighborhoods. That's a Problem.",
+          "hook": "A new study found that children seen at a long COVID specialty clinic were overwhelmingly from high-opportunity zip codes \u2014 even though lower-income kids got sicker from COVID in the first place.",
+          "pitch_angle": "Researchers found that pediatric long COVID clinic patients were mostly white and from affluent neighborhoods, despite the fact that children in under-resourced communities faced greater COVID-19 exposure and severity. The findings suggest that long COVID in children from lower-income families is being systematically missed, not absent \u2014 and that community-based screening is urgently needed."
+        },
+        {
+          "publication_type": "Health.com / Verywell Health",
+          "headline": "Your Child Could Have Long COVID and Never Get Diagnosed \u2014 Here's Who's Falling Through the Cracks",
+          "hook": "Kids from lower-income communities had the highest COVID-19 burden, yet a new study finds they're largely absent from long COVID specialty clinics.",
+          "pitch_angle": "A study of nearly 200 pediatric long COVID patients found most came from wealthy, high-opportunity neighborhoods, raising concerns that children from under-resourced communities with the same condition are going unrecognized and untreated. Experts say broader, community-based screening \u2014 not just specialty clinic referrals \u2014 may be necessary to close the gap."
+        }
+      ],
+      "run_date": "2026-09-16",
+      "category": "Pediatrics",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42726181",
+      "headline": "First Responders With No Personal Ties to Autism Gain the Most From Training \u2014 Even More Than Those With Autistic Family Members",
+      "journal": "Journal of Autism and Developmental Disorders",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1007/s10803-026-07520-z",
+      "groundbreaking": "Counterintuitive finding / Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers examined how professional role and personal connection to autism affected gains in confidence, self-efficacy, and knowledge among first responders who completed an autism-specific training program. Participants across law enforcement, emergency medical, and other first-responder roles completed pre- and post-training assessments; sample size not specified in abstract. First responders with no personal relationship to autism showed the greatest improvement in confidence, while those with close personal ties entered training already more confident \u2014 suggesting that training is most transformative for those who come in with the least familiarity.",
+      "why_it_matters": "For families of autistic children, this suggests that broad, universal first-responder autism training \u2014 not just training targeted at those who volunteer or already have personal connections \u2014 may be the most effective way to improve safety outcomes during police or emergency interactions.",
+      "caveats": "observational design, self-reported outcomes, sample size not reported in abstract, single training program, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Autism safety topic with counterintuitive finding; sample size unclear limits confidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "Parents Magazine / Today's Parent",
+          "headline": "Your Child May Be Safer If ALL First Responders Get Autism Training \u2014 Not Just the Ones Who Ask For It",
+          "hook": "First responders with no personal connection to autism actually gained the most from training \u2014 and that has big implications for autistic kids' safety.",
+          "pitch_angle": "A new study found that first responders who had no family or personal ties to autism showed the biggest jumps in confidence and knowledge after training, suggesting that voluntary or self-selected training misses the people who need it most. For parents of autistic children, this is a case for mandating universal first-responder training rather than relying on good intentions."
         },
         {
           "publication_type": "NPR Health / General health",
-          "headline": "Machine Learning May Help Crack the Code on Why Teen Drivers Crash",
-          "hook": "Motor vehicle crashes are the leading killer of U.S. teenagers, and new research suggests the answer may be hiding in how their eyes move.",
-          "pitch_angle": "A Children's Hospital of Philadelphia team applied an AI clustering method to eye-tracking data from young drivers in a simulator, identifying distinct visual search strategies that could explain hazard-detection failures. If the approach scales, it could transform driver education and safety research for adolescents."
+          "headline": "Autism Training Works Best on First Responders Who Think They Don't Need It",
+          "hook": "The officers and paramedics with the least personal exposure to autism had the most to gain \u2014 and gained it \u2014 from a structured training program.",
+          "pitch_angle": "Researchers found that law enforcement officers entered autism training with higher baseline self-efficacy but saw smaller improvements, while first responders with no personal connection to autism showed the greatest change. The finding argues for mandatory, universal autism training across all first-responder roles to improve outcomes for autistic people during emergency encounters."
         }
       ],
-      "run_date": "2026-09-15",
-      "category": "Behavioral Sciences",
-      "chunk": "1/2",
+      "run_date": "2026-09-16",
+      "category": "Pediatrics",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42726395",
+      "headline": "Parents Navigating Teen Mental Health Care Describe It as a Labyrinth \u2014 And Many Hit Dead Ends",
+      "journal": "Child Psychiatry and Human Development",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1007/s10578-026-02088-2",
+      "groundbreaking": "Major child health or parenting implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted semi-structured interviews with 30 parents (23 mothers, 7 fathers) in Ireland who had sought mental health support for an adolescent, analyzing responses using reflexive thematic analysis. Four key themes emerged: the critical role of parental knowledge about mental health and available services, the function of various professionals as gatekeepers to care, frequent dead ends that forced families to restart their search, and the need for persistent advocacy. Findings suggest that parents \u2014 who serve as the primary gateway to adolescent mental health services \u2014 are largely left without reliable information or adequate support as they navigate a fragmented care system.",
+      "why_it_matters": "Parents trying to get mental health help for a struggling teenager often face a system so opaque and fragmented that persistence and insider knowledge, rather than need, determine who gets care.",
+      "caveats": "small sample (N=30), self-reported (parent-reported) outcomes, observational design, single-country (Ireland), qualitative only, mothers overrepresented",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Relatable parenting topic but small qualitative sample; Ireland-specific system limits US generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Parents Magazine / Today's Parent",
+          "headline": "Parents Say Getting Mental Health Help for a Struggling Teen Feels Like Being Lost in a Maze",
+          "hook": "Thirty parents who sought mental health care for their teenagers described the experience as navigating a labyrinth \u2014 full of dead ends, gatekeepers, and no map.",
+          "pitch_angle": "A new qualitative study found that parents are the primary gateway to adolescent mental health care but are routinely left without reliable information, adequate support, or a clear path forward. Families who succeeded often did so through sheer persistence \u2014 raising serious questions about who gets help and who gets lost."
+        }
+      ],
+      "run_date": "2026-09-16",
+      "category": "Pediatrics",
+      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -124,39 +238,6 @@
       "status": "new"
     },
     {
-      "pmid": "42726181",
-      "headline": "Police Officers Already Feel Confident Around Autistic People \u2014 But That May Mean They Learn Less From Training",
-      "journal": "Journal of Autism and Developmental Disorders",
-      "pubdate": "2026 Sep 11",
-      "doi": "10.1007/s10803-026-07520-z",
-      "groundbreaking": "Counterintuitive finding / Major child health or parenting implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at the University of Virginia examined pre- and post-training measures from first responders \u2014 including law enforcement, fire, and emergency medical personnel \u2014 who completed an autism-focused training program, analyzing how professional role and personal connection to autism shaped training outcomes. Law enforcement officers began training with higher self-efficacy scores than other responders and showed smaller gains overall, while participants with no personal relationship to autism showed the greatest improvement in confidence. Regardless of role or background, all participants improved across confidence, self-efficacy, and knowledge outcomes after completing the training.",
-      "why_it_matters": "For families of autistic children, this suggests that autism training for first responders works broadly \u2014 but that law enforcement, who may be most likely to respond in a crisis, may need specially tailored or more intensive training to close the gap.",
-      "caveats": "observational design, self-reported (parent-reported) outcomes, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive finding; strong autism and child safety relevance for parenting audience.",
-      "pitch_angles": [
-        {
-          "publication_type": "Parents Magazine / Today's Parent",
-          "headline": "Police Officers Are the Least Likely to Benefit From Autism Training \u2014 Here's Why That Matters for Your Child",
-          "hook": "When first responders get autism training, everyone improves \u2014 except law enforcement officers tend to improve the least, possibly because they already feel confident, whether or not that confidence is warranted.",
-          "pitch_angle": "A new study finds that police enter autism response training already feeling highly self-assured, which may limit how much they gain from the experience. For parents of autistic children who may one day have a police encounter, the finding raises important questions about whether standard training is enough to prepare officers for the real complexity of an autism-related crisis."
-        },
-        {
-          "publication_type": "NPR Health / General health",
-          "headline": "Autism Training for First Responders Works \u2014 But Not Equally for Everyone",
-          "hook": "A new study finds that police officers, who are often the first to arrive when an autistic person is in crisis, enter autism training with the highest self-confidence and gain the least from it.",
-          "pitch_angle": "Researchers found that first responders across all roles improved their knowledge and confidence after autism training, but law enforcement showed the smallest gains \u2014 likely because they started with high baseline self-efficacy that may not reflect actual readiness. The findings have implications for how agencies design, target, and assess autism response programs, particularly as autistic individuals are disproportionately likely to encounter police."
-        }
-      ],
-      "run_date": "2026-09-15",
-      "category": "Pediatrics",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42726140",
       "headline": "A Simple Blood Test May Tell Doctors Which Egg-Allergic Toddlers Can Safely Eat Baked Eggs",
       "journal": "European Journal of Pediatrics",
@@ -187,39 +268,6 @@
       "run_date": "2026-09-15",
       "category": "Pediatrics",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42726395",
-      "headline": "Parents Seeking Mental Health Help for Teenagers Describe the Process as Navigating a Labyrinth \u2014 With Dead Ends at Every Turn",
-      "journal": "Child Psychiatry and Human Development",
-      "pubdate": "2026 Sep 11",
-      "doi": "10.1007/s10578-026-02088-2",
-      "groundbreaking": "Major child health or parenting implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers in Ireland conducted semi-structured interviews with 30 parents (23 mothers, 7 fathers) who had sought mental health support for an adolescent, using reflexive thematic analysis to identify common experiences. Four major themes emerged: the critical role of knowledge about mental health and available services, the influence of gatekeepers such as GPs and school counselors, frequent encounters with dead-end referral pathways, and the need for persistent parental advocacy just to access care. Parents described the experience as emotionally devastating and systemically exhausting, with many feeling left without adequate guidance or support throughout the process.",
-      "why_it_matters": "The study highlights that parents \u2014 not just teens \u2014 urgently need reliable information and emotional support when navigating a fragmented adolescent mental health system, and that systemic barriers are causing harmful delays in care.",
-      "caveats": "small sample (N<100), observational design, self-reported (parent-reported) outcomes, single-center, narrow age range",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "High parenting relevance; youth mental health access topic; small qualitative sample limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Parents Magazine / Today's Parent",
-          "headline": "When Your Teen Needs Mental Health Help, Getting It Can Feel Impossible \u2014 and Parents Are Burning Out Trying",
-          "hook": "A new study finds that parents trying to get mental health care for a struggling teenager often describe the process as navigating a maze with no map \u2014 and hitting dead ends at almost every turn.",
-          "pitch_angle": "Interviews with 30 parents in Ireland reveal that seeking help for an adolescent with a mental health difficulty is a systemically exhausting experience: parents must become their own case managers, persistence is required just to access basic services, and many are left without any support for themselves along the way. Though the study is set in Ireland, the barriers parents describe \u2014 limited information, gatekeeping professionals, fragmented referral systems \u2014 will resonate with families across many countries."
-        },
-        {
-          "publication_type": "NPR Health / General health",
-          "headline": "The System Parents Must Navigate to Get a Teenager Mental Health Care Is Broken \u2014 and They Know It",
-          "hook": "A qualitative study finds that when parents seek mental health support for their adolescent children, they repeatedly encounter a system that demands persistence while offering little guidance \u2014 and even less emotional support for the parents themselves.",
-          "pitch_angle": "Irish researchers interviewed 30 parents about their experiences accessing adolescent mental health services and found a consistent pattern of inadequate information, gatekeepers who acted as barriers rather than guides, and referral dead-ends that delayed or blocked care. The findings add to growing evidence that reforming adolescent mental health systems requires as much attention to parent support and navigation infrastructure as to expanding clinical capacity."
-        }
-      ],
-      "run_date": "2026-09-15",
-      "category": "Pediatrics",
-      "chunk": "2/2",
       "status": "new"
     },
     {
