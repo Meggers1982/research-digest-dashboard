@@ -1,8 +1,941 @@
 {
-  "last_updated": "2026-09-17T15:50:46.283409+00:00",
-  "total_studies": 721,
-  "new_this_run": 19,
+  "last_updated": "2026-09-18T15:08:34.348339+00:00",
+  "total_studies": 736,
+  "new_this_run": 18,
   "studies": [
+    {
+      "pmid": "42755447",
+      "headline": "Data reveals two previously unrecognized disease patterns in a common but underdiagnosed crystal arthritis",
+      "journal": "Arthritis & Rheumatology",
+      "pubdate": "2026 Sep 18",
+      "doi": "10.1002/art.70345",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers applied data-driven cluster analysis to real-world data from two European datasets (N=134) to identify clinical phenotypes of calcium pyrophosphate deposition (CPPD) disease, a crystal arthritis that frequently affects older adults and is often misdiagnosed. While two clusters matched existing EULAR-recognized phenotypes, two additional disease patterns emerged that do not correspond to any current classification. The study suggests CPPD is more clinically diverse than current guidelines capture, with distinct profiles involving age of onset, joint pattern, inflammation levels, and flare frequency.",
+      "why_it_matters": "Identifying unrecognized CPPD phenotypes could eventually help clinicians better diagnose and differentiate a condition frequently confused with gout or osteoarthritis in older patients.",
+      "caveats": "small sample (N<100 effectively per cluster), observational design, European cohort only, no age breakdown reported per cluster beyond onset descriptors, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Geriatric rheumatology finding, but small N and European-only cohort limit US pitch.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Crystal Arthritis May Have More Subtypes Than Guidelines Recognize, New Analysis Finds",
+          "hook": "A data-driven analysis of CPPD patients found two disease patterns that don't fit any existing clinical classification \u2014 suggesting the condition is far more varied than current guidelines acknowledge.",
+          "pitch_angle": "CPPD is routinely misdiagnosed as gout or osteoarthritis in older adults, and this study suggests current phenotype frameworks may be missing significant subgroups. For clinicians managing elderly patients with unexplained inflammatory arthritis, the finding points toward a need for updated diagnostic categories."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Rheumatology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42751923",
+      "headline": "A new brain-scan metric predicts stroke recovery better than existing tools \u2014 and most patients in the study were over 65",
+      "journal": "Journal of Cerebral Blood Flow and Metabolism",
+      "pubdate": "2026 Sep 17",
+      "doi": "10.1177/0271678X261492523",
+      "groundbreaking": "First-in-class human study / Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers developed a new perfusion-imaging metric called the granular Hypoperfusion Intensity Ratio (gHIR), which uses CT scan data to estimate how quickly brain tissue is dying during an ischemic stroke. The study included 570 stroke patients (median age 77, IQR 67\u201383) and found that gHIR outperformed four established imaging metrics \u2014 including standard collateral scoring \u2014 in predicting whether patients would have good functional outcomes at 90 days. A gHIR score above 0.30 was associated with significantly worse outcomes, suggesting it could help clinicians rapidly triage stroke patients for treatment.",
+      "why_it_matters": "A more accurate, CT-based tool for predicting stroke trajectory in real time could reshape triage decisions for the older adults who make up the vast majority of stroke patients.",
+      "caveats": "observational design, single-center, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Human stroke study, median age 77, clean prognostic design; observational limits causal claims.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "A new stroke-imaging metric may beat every current tool at predicting who recovers \u2014 and it runs on a standard CT scan",
+          "hook": "A new formula applied to routine CT perfusion images outperformed four established stroke-severity metrics in predicting 90-day functional recovery.",
+          "pitch_angle": "The gHIR assigns a single number \u2014 from 0 to 1 \u2014 to how fast brain tissue is being lost during a stroke, and in a 570-patient study with a median age of 77, it predicted good outcomes more accurately than collateral scoring or standard perfusion ratios. If validated in larger, multicenter trials, it could become a faster, more objective triage tool at the exact moment clinical decisions matter most."
+        },
+        {
+          "publication_type": "MedPage Today",
+          "headline": "New CT-Based Metric Outperforms Standard Tools for Predicting Stroke Outcomes in Older Adults",
+          "hook": "In a 570-patient stroke cohort with a median age of 77, a novel perfusion-weighted score called gHIR predicted 90-day functional outcomes better than four competing methods.",
+          "pitch_angle": "The granular Hypoperfusion Intensity Ratio uses Tmax thresholds already embedded in standard CT perfusion software to estimate infarct growth rate, requiring no additional imaging. Clinicians treating an older, stroke-prone population may find a single validated cutoff (\u22640.30) useful for rapid decision-making, though prospective multicenter validation is needed before adoption."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Neurology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42750573",
+      "headline": "Steroids \u2014 not the drugs themselves \u2014 may drive serious infection risk in lupus patients, large study suggests",
+      "journal": "Arthritis & Rheumatology",
+      "pubdate": "2026 Sep 17",
+      "doi": "10.1002/art.70343",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research / Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used a target trial emulation approach with insurance claims data (N=6,168 non-renal SLE patients) to compare infection-related hospitalization risk across four common immunosuppressants \u2014 azathioprine, belimumab, methotrexate, and mycophenolic acid analogues (MPAA). Initial analyses found MPAA carried higher infection hospitalization risk than belimumab and methotrexate, but once researchers accounted for each patient's changing glucocorticoid (steroid) doses over time, the differences between drugs largely disappeared. The findings suggest that ongoing steroid exposure \u2014 not the immunosuppressant itself \u2014 is a primary driver of serious infection risk in SLE.",
+      "why_it_matters": "For older adults with lupus who are often prescribed long-term steroids alongside immunosuppressants, this finding suggests that reducing steroid burden may matter more for infection prevention than which immunosuppressant is chosen.",
+      "caveats": "observational design, claims-based data, no age breakdown reported, secondary analysis, population not described as 65+",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive steroid finding; large N; policy-relevant; no confirmed 65+ subgroup.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "It's the Steroids, Not the Drug: Lupus Infection Risk Tied to Glucocorticoid Exposure, Not Immunosuppressant Choice",
+          "hook": "A study of more than 6,000 lupus patients found that apparent differences in serious infection risk across four common immunosuppressants essentially vanished once researchers accounted for how much steroid each patient was taking over time.",
+          "pitch_angle": "The finding reframes a longstanding clinical assumption \u2014 that the immunosuppressant chosen drives infection risk \u2014 and points instead to glucocorticoid exposure as the more modifiable culprit. For rheumatologists and health systems managing lupus at scale, this could shift how treatment de-escalation decisions are prioritized."
+        },
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Lupus Drug Comparisons May Be Confounded by Steroid Use, Study Warns",
+          "hook": "When researchers accounted for time-varying steroid doses, previously significant differences in infection hospitalization risk among four lupus drugs disappeared \u2014 a methodological lesson as much as a clinical one.",
+          "pitch_angle": "The study used a sophisticated target trial emulation design to show that glucocorticoid exposure is a critical confounder in lupus treatment comparisons \u2014 and a likely mediator of infection risk. Clinicians may need to rethink how steroid tapestry, not drug choice, shapes patient outcomes."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Rheumatology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42745218",
+      "headline": "An older woman's depression remitted after ECT \u2014 then she began hearing voices that lasted for months",
+      "journal": "The Journal of ECT",
+      "pubdate": "2026 Sep 16",
+      "doi": "10.1097/YCT.0000000000001328",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Japanese clinicians at Chiba University report the case of a 71-year-old woman with major depressive disorder whose symptoms rapidly remitted after modified electroconvulsive therapy (ECT), but who simultaneously developed persistent de novo auditory hallucinations \u2014 classified as Schneiderian first-rank symptoms \u2014 that continued for several months despite olanzapine treatment. Neuroimaging showed restored cerebral blood flow in frontotemporal and parietal regions during the same period, though the authors explicitly state no causal or associative link between the perfusion changes and hallucinations can be inferred from a single case. The authors describe this as the first report of co-occurring ECT-induced cerebral blood flow changes and new-onset persistent auditory hallucinations in a late-life depression patient.",
+      "why_it_matters": "Clinicians treating older adults with ECT for late-life depression should be aware that persistent, treatment-resistant auditory hallucinations may rarely emerge even as depressive symptoms resolve, warranting closer post-ECT psychiatric monitoring in this age group.",
+      "caveats": "small sample (N<100), single-center, observational design, single-center, short follow-up, no causal inference possible",
+      "fact_check_note": "The abstract is careful to state the perfusion findings are descriptive only and no mechanistic link can be inferred \u2014 this must not be overstated in coverage.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Geriatric patient (71F), rare ECT side effect; single case limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "ECT Erased Her Depression \u2014 Then She Heard Voices for Months: A Rare Late-Life Case",
+          "hook": "A 71-year-old woman's late-life depression remitted after electroconvulsive therapy, but she then spent months hearing voices that standard antipsychotic treatment couldn't fully silence.",
+          "pitch_angle": "This rare case highlights that ECT-related auditory hallucinations can persist far longer than previously reported, and that clinicians should monitor older patients for new-onset psychotic symptoms even after successful depression remission \u2014 a caution especially relevant as ECT use in late-life depression grows."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Neurology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42749467",
+      "headline": "Nurse-led phone-based palliative care doesn't improve caregiver stress or grief any better than in-person specialty care",
+      "journal": "BMJ Supportive & Palliative Care",
+      "pubdate": "2026 Sep 16",
+      "doi": "10.1136/spcare-2026-006291",
+      "groundbreaking": "Counterintuitive finding / Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed caregiver data from EMPallA, a multicentre RCT enrolling patient-caregiver dyads across 18 US emergency departments between 2018 and 2022, comparing nurse-led telephonic palliative care to in-person specialty palliative care. Among 323 caregivers (mean age 56.9, 68% female, 24% Black), there were no statistically significant differences between the two models at 6 months in caregiver strain, physical or mental quality of life, or bereavement outcomes. The null finding suggests that expanding access through telephone-based care does not translate to improved caregiver wellbeing relative to the specialty care standard.",
+      "why_it_matters": "As health systems increasingly promote telehealth-based palliative care as a scalable, lower-cost alternative, this large RCT's null result for caregiver outcomes raises questions about whether phone-based models adequately support the people caring for seriously ill loved ones.",
+      "caveats": "no age breakdown reported for caregivers of older patients specifically, caregiver intervention was not separately designed (caregivers accompanied patients), short follow-up relative to bereavement timelines, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive RCT null finding; major telehealth and palliative care policy hook; large multicentre US study.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "A Large RCT Tested Whether Phone-Based Palliative Care Helps Caregivers. It Didn't.",
+          "hook": "Across 18 US emergency departments, nurse-led telephonic palliative care produced no measurable improvement in caregiver stress, quality of life, or grief compared with traditional specialty care.",
+          "pitch_angle": "The null finding from the EMPallA trial challenges the assumption that expanding palliative care access via telehealth automatically benefits family caregivers, and raises pointed questions for policymakers investing in virtual care models for serious illness."
+        },
+        {
+          "publication_type": "Next Avenue",
+          "headline": "Family Caregivers Got No Extra Benefit From Phone-Based Palliative Care in Major Study",
+          "hook": "Researchers hoped a nurse-staffed telephone palliative care model would ease the burden on family caregivers of seriously ill patients \u2014 but a randomized trial found it made no difference.",
+          "pitch_angle": "For the millions of Americans caring for loved ones with serious illness, the finding suggests that convenient phone-based services may not address the emotional and practical strain caregivers face, pointing to a need for caregiver-specific support that goes beyond patient-focused care models."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Palliative Care",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42747015",
+      "headline": "Difficulty chewing food ranks above high blood pressure as a frailty predictor in adults over 50 \u2014 and the pattern differs by sex",
+      "journal": "Journal of Applied Gerontology",
+      "pubdate": "2026 Sep 16",
+      "doi": "10.1177/07334648261488554",
+      "groundbreaking": "Counterintuitive finding / Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed cross-sectional data from 12,302 Korean adults aged 50 and older (KNHANES 2016\u20132019), developing sex-stratified machine-learning models to predict frailty using a modified Fried phenotype. Chewing and speaking difficulties ranked above hypertension as frailty predictors in both men and women, while unmet dental care need was more prominent for women and smoking and toothbrushing ranked higher for men. Model AUROCs ranged from 0.73\u20130.81 depending on sex and algorithm.",
+      "why_it_matters": "The finding that oral health indicators outrank hypertension in frailty prediction suggests that routine dental screening in primary care settings could flag high-risk older adults who are currently being missed.",
+      "caveats": "observational design, cross-sectional design, single-region (South Korea), no age breakdown reported within 50+ range \u2014 study includes adults as young as 50, well below typical geriatric threshold",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding; large sample; oral health-frailty link has clear clinical hook; Korean cohort limits US generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Trouble Chewing Outpredicts Hypertension for Frailty Risk \u2014 Oral Health Gets a Seat at the Geriatrics Table",
+          "hook": "A machine-learning analysis of more than 12,000 adults found that chewing difficulty was a stronger predictor of frailty than high blood pressure \u2014 flipping assumptions about which health signals matter most.",
+          "pitch_angle": "Sex-stratified models found oral health indicators consistently ranked above hypertension in frailty prediction, raising the question of whether dental screenings should become a standard part of frailty risk assessment in primary and geriatric care."
+        },
+        {
+          "publication_type": "Health.com",
+          "headline": "Can't Chew Comfortably? It May Signal Something Serious About Your Health as You Age",
+          "hook": "Researchers found that difficulty chewing was a better predictor of frailty than blood pressure \u2014 and the warning signs differed for men and women.",
+          "pitch_angle": "A large study of adults over 50 found that oral health problems, especially chewing difficulty and unmet dental care, were among the strongest predictors of frailty, suggesting that dental care access could matter far more for healthy aging than previously recognized."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Geriatrics",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42746919",
+      "headline": "Primary care doctors could be a major untapped resource for palliative care \u2014 but they need specialist backup and better tools to step up",
+      "journal": "Palliative Medicine",
+      "pubdate": "2026 Sep 16",
+      "doi": "10.1177/02692163261478445",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A scoping review of 55 studies published between 2000 and 2025 examined interventions designed to increase primary care clinician involvement in palliative care delivery. Researchers found that most successful interventions were multifaceted, combining specialist support, multidisciplinary teams, new clinical tools, and education and training. Coordinated collaboration between primary care and specialist palliative care teams was a consistent feature of effective approaches.",
+      "why_it_matters": "As palliative care demand outpaces specialist capacity \u2014 especially in rural and underserved areas \u2014 understanding what helps primary care clinicians deliver end-of-life care has direct implications for access and quality for aging patients.",
+      "caveats": "scoping review, heterogeneous study designs included, no meta-analysis, variable outcome measures across studies",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Clear policy and access hook; palliative care focus; scoping review limits strength.",
+      "pitch_angles": [
+        {
+          "publication_type": "KFF Health News",
+          "headline": "Primary Care Could Fill the Palliative Care Gap \u2014 If Given the Right Support",
+          "hook": "A review of 25 years of research finds that primary care doctors can deliver meaningful palliative care when paired with specialist backup, multidisciplinary teams, and better tools.",
+          "pitch_angle": "With palliative care specialists in short supply, especially outside major medical centers, the review suggests that investing in primary care infrastructure \u2014 not just specialist programs \u2014 could dramatically expand access to end-of-life care for older Americans."
+        },
+        {
+          "publication_type": "McKnight's Senior Living",
+          "headline": "Scoping Review IDs What It Actually Takes to Get Primary Care Into End-of-Life Care",
+          "hook": "Education alone isn't enough \u2014 primary care clinicians need specialist collaboration and systematic patient-identification tools to meaningfully deliver palliative care.",
+          "pitch_angle": "The review of 55 studies points to multidisciplinary team models and specialist partnerships as the most consistent ingredients in successful primary care palliative programs, with direct relevance for long-term care settings trying to expand in-house end-of-life services."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Palliative Care",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42750180",
+      "headline": "A key biologic drug for rare inflammatory disease holds up for two years \u2014 but secondary failure is the most common reason patients stop",
+      "journal": "Rheumatology (Oxford, England)",
+      "pubdate": "2026 Sep 16",
+      "doi": "10.1093/rheumatology/keag510",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a retrospective chart review of 335 adults with Beh\u00e7et's syndrome who started adalimumab between 2008 and 2023 at a specialist center in Istanbul, Turkey; mean follow-up was 26.6 months and no age breakdown was reported. Retention rates at 6, 12, and 24 months were 89%, 78%, and 67%, respectively, with secondary loss of efficacy \u2014 not primary failure or safety events \u2014 being the leading driver of discontinuation. Dose intensification restored remission in roughly half of patients who had lost response, and cautious dose de-escalation appeared feasible in those with sustained remission.",
+      "why_it_matters": "For clinicians managing the rare and often debilitating Beh\u00e7et's syndrome, real-world data on how long adalimumab keeps working \u2014 and what to do when it stops \u2014 can guide treatment sequencing decisions.",
+      "caveats": "single-center, observational design, retrospective chart review, no age breakdown reported, Turkey-specific population, no comparator arm",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Rare disease with limited elder care or policy hook; no age data; single-center retrospective.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Adalimumab Stays Effective for Two Years in Beh\u00e7et's Syndrome, But Secondary Failure Drives Most Stops",
+          "hook": "The largest real-world analysis of adalimumab in Beh\u00e7et's syndrome finds the drug works well early \u2014 but gradual loss of response, not safety concerns, is what ends treatment for most patients.",
+          "pitch_angle": "Data from 335 patients over a mean of more than two years suggest that clinicians may have room to intensify dosing before giving up on adalimumab, and to cautiously reduce it in patients who achieve stable remission. For a disease with few approved therapies, understanding where and why this drug fails is clinically actionable."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Rheumatology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42742822",
+      "headline": "Municipal health systems aren't ready to shift from reactive to preventive elder care, frontline workers say",
+      "journal": "Scandinavian Journal of Occupational Therapy",
+      "pubdate": "2026 Sep 15",
+      "doi": "10.1007/s44474-026-00008-0",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted five focus group discussions with 22 professionals \u2014 including occupational therapists, development managers, and case managers from seven Swedish municipalities \u2014 to explore barriers and opportunities for health-promoting interventions for older adults. Participants identified a central challenge: their organizations currently lack the structural readiness, shared focus, and new working methods needed to move from reactive to proactive elder care. The study found that building this 'organizational readiness' requires coordinated, long-term effort across all levels of municipal health and social care.",
+      "why_it_matters": "As populations age globally, this study suggests that even well-resourced municipal systems may be structurally ill-equipped to deliver the preventive care older adults need \u2014 a challenge relevant to elder care administrators and policymakers well beyond Scandinavia.",
+      "caveats": "small sample (N<100), qualitative design, single-country (Sweden), no age breakdown reported for participants, findings not directly generalizable to US systems",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Clear elder care policy hook; qualitative, small sample, Sweden-specific context limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "McKnight's Senior Living",
+          "headline": "Frontline workers say municipal elder care systems are structurally stuck in reactive mode \u2014 here's what it would take to change that",
+          "hook": "Even in Scandinavia \u2014 long held up as a model for elder care \u2014 health professionals say their organizations aren't built for prevention.",
+          "pitch_angle": "A focus group study with Swedish municipal care workers found that organizational structures, siloed departments, and entrenched reactive workflows are blocking the shift to health-promoting care for older adults. For US senior living administrators grappling with the same systemic inertia, the study maps out what 'organizational readiness' would actually require."
+        },
+        {
+          "publication_type": "Next Avenue",
+          "headline": "The elder care system was built to treat problems, not prevent them \u2014 and workers know it",
+          "hook": "Occupational therapists and care managers in seven municipalities said their organizations simply aren't set up to keep older adults healthy before a crisis hits.",
+          "pitch_angle": "A new qualitative study from Sweden found that frontline professionals want to deliver preventive, person-centered care to older adults but are stymied by fragmented structures and a deeply reactive institutional culture. The finding resonates in the US, where elder care systems face nearly identical barriers to proactive, community-based support."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Physical and Rehabilitation Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42744586",
+      "headline": "A simple imaging classification may finally predict who is most at risk from a dangerous brain-vessel treatment",
+      "journal": "AJNR: American Journal of Neuroradiology",
+      "pubdate": "2026 Sep 15",
+      "doi": "10.3174/ajnr.A9639",
+      "groundbreaking": "First-in-class human study / Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers retrospectively analyzed 59 consecutive patients with vertebrobasilar dolichoectasia \u2014 a rare, progressive cerebrovascular condition \u2014 who underwent flow-diverter implantation at a single Chinese center between 2018 and 2023, with complete 1-year clinical follow-up for all participants. The study identified two independent predictors of perioperative harm \u2014 intraluminal thrombus and a specific lesion location relative to the AICA \u2014 and proposed a three-subtype classification (Types A, B, C) based on these features. Type A lesions carried a 50% rate of perioperative unfavorable outcomes compared with 6.5% for Type C, suggesting the classification could meaningfully guide patient selection.",
+      "why_it_matters": "Vertebrobasilar dolichoectasia disproportionately affects older adults, and a validated imaging classification to stratify procedural risk could help clinicians and patients weigh the benefits and harms of an intervention that currently has unpredictable outcomes.",
+      "caveats": "small sample (N<100), observational design, single-center, secondary analysis, no age breakdown reported, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Rare cerebrovascular condition in likely older adults; single-center retrospective limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "A new risk-scoring system may reveal which patients shouldn't get a risky brain-vessel procedure",
+          "hook": "Half of patients with one subtype of a dangerous brain-vessel disorder had bad outcomes after a flow-diverter procedure \u2014 a new imaging classification may help clinicians avoid those cases.",
+          "pitch_angle": "The three-subtype classification, based on a clot's presence and location in the vertebrobasilar artery, found that perioperative harm rates ranged from 6.5% to 50% depending on lesion type \u2014 a striking gap that could reshape patient selection. If validated in larger, multicenter studies, the tool could spare high-risk patients \u2014 often older adults \u2014 from a procedure with limited benefit and serious complications."
+        },
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Imaging Features May Stratify Procedural Risk in Vertebrobasilar Dolichoectasia",
+          "hook": "A retrospective study of 59 patients found that intraluminal thrombus and lesion location relative to the AICA predicted perioperative harm after flow-diverter implantation \u2014 findings that could change how neurointerventionalists select candidates.",
+          "pitch_angle": "The proposed three-subtype classification assigned unfavorable 1-year outcome rates of 58.3% to Type A lesions versus 16.1% for Type C, offering clinicians a potential pre-procedural risk framework. Prospective multicenter validation is needed before routine adoption."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Neurology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42753277",
+      "headline": "Nearly 1 in 4 carpal tunnel surgery patients still has nerve pain three months later \u2014 and depression predicts who fares worst",
+      "journal": "Musculoskeletal Science & Practice",
+      "pubdate": "2026 Sep 15",
+      "doi": "10.1016/j.msksp.2026.103661",
+      "groundbreaking": "Counterintuitive finding / Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a prospective cohort of 100 adults (81 women, 19 men; age 18\u201375, median 40) undergoing open carpal tunnel release in Egypt, researchers assessed psychological, neurophysiological, and inflammatory factors before surgery and at three months. Twenty-three percent of patients remained dissatisfied at follow-up, reporting persistent neuropathic pain. Multivariate analysis identified preoperative depression, elevated white blood cell count, and poor nerve conduction recovery as independent predictors of residual pain \u2014 with depression carrying a stronger independent effect than neurophysiological severity.",
+      "why_it_matters": "The finding that depression independently predicts surgical failure in carpal tunnel release \u2014 above and beyond nerve damage severity \u2014 suggests that routine preoperative mental health screening could help identify patients who may need additional psychological support to achieve satisfactory outcomes.",
+      "caveats": "small sample (N<100 effectively for dissatisfied subgroup N=23), single-center, Egypt-based cohort (may not generalize broadly), short follow-up (3 months), no age breakdown reported for older adult subgroup, age range extends to 75 but median is 40",
+      "fact_check_note": "Abstract states N=100 with age range 18\u201375 and median 40; 23% dissatisfied = approximately 23 patients. Depression finding described accurately as independent predictor on multivariate analysis.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Pain management hook is relevant; median age 40 and single-center Egyptian cohort limit geriatric applicability.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Preoperative depression predicts carpal tunnel surgery failure more strongly than nerve damage severity",
+          "hook": "Nearly one in four patients still had neuropathic pain three months after carpal tunnel surgery \u2014 and those with preoperative depression fared the worst, even after controlling for how badly their nerve was damaged.",
+          "pitch_angle": "A prospective study found that psychological factors, specifically depression, independently predicted persistent pain after one of the most common nerve surgeries performed, suggesting that surgical candidacy evaluations may need to integrate mental health screening. For older adults, who carry higher rates of both carpal tunnel syndrome and depression, the implications could be particularly significant."
+        },
+        {
+          "publication_type": "Health.com",
+          "headline": "Carpal tunnel surgery doesn't work for 1 in 4 people \u2014 here's what predicts who will still be in pain",
+          "hook": "A new study found that depression before surgery was one of the strongest predictors of lingering nerve pain after carpal tunnel release \u2014 stronger even than how severely the nerve was damaged.",
+          "pitch_angle": "Researchers tracked 100 carpal tunnel patients for three months and found that psychological and inflammatory factors, not just nerve severity, determined who got relief. The finding challenges the assumption that carpal tunnel surgery is a straightforward fix."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Physical and Rehabilitation Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42735821",
+      "headline": "More than half of chronic disease clinicians have fielded assisted dying questions \u2014 but nearly half have never been trained to answer them",
+      "journal": "Journal of Pain and Symptom Management",
+      "pubdate": "2026 Sep 14",
+      "doi": "10.1016/j.jpainsymman.2026.09.010",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Australian researchers surveyed 189 clinicians (predominantly nurses, 70%; female, 88%; aged 40 or older; 10+ years' experience) working in chronic heart, lung, and kidney disease to explore readiness to engage with voluntary assisted dying (VAD) queries. Fifty-six percent reported that patients or families had raised VAD with them, yet 44% had received no VAD-specific training. Thematic analysis identified five interacting barriers \u2014 knowledge gaps, professional identity concerns, beliefs about consequences, workplace culture, and social pressures \u2014 that led many clinicians to avoid or defer these conversations.",
+      "why_it_matters": "As voluntary assisted dying becomes legal in more jurisdictions, the study suggests a major workforce gap: the nurses most likely to receive VAD questions from seriously ill patients are among the least prepared to respond, potentially leaving patients without critical end-of-life dialogue.",
+      "caveats": "observational design, self-reported outcomes, single-country (Australia), predominantly female and nurse sample limits generalizability, snowball sampling",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Strong policy and palliative care workforce hook; national survey with real-world training gap.",
+      "pitch_angles": [
+        {
+          "publication_type": "KFF Health News",
+          "headline": "Nurses Are Fielding Assisted Dying Questions From Dying Patients \u2014 Without Any Training",
+          "hook": "More than half of Australian chronic disease clinicians have been asked about voluntary assisted dying by patients or families, yet nearly half have received no training on how to respond.",
+          "pitch_angle": "The survey of 189 clinicians reveals a structural workforce gap as assisted dying laws expand globally, with nurses \u2014 who have the most patient contact \u2014 the least supported to handle these conversations; US policymakers and health systems may face similar shortfalls as more states consider aid-in-dying legislation."
+        },
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Chronic Disease Clinicians Unprepared for Assisted Dying Questions, Survey Finds",
+          "hook": "Despite being on the front lines of serious illness care, nearly half of clinicians surveyed had no training on voluntary assisted dying \u2014 even as more than half reported fielding such queries.",
+          "pitch_angle": "The qualitative findings point to a tangle of ethical discomfort, role confusion, and institutional silence that prevents clinicians from using VAD questions as an opening for broader end-of-life dialogue; targeted training and organizational support are flagged as key gaps."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Palliative Care",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42733099",
+      "headline": "A scan of fingernail blood vessels may offer a window into heart health in people over 80",
+      "journal": "GeroScience",
+      "pubdate": "2026 Sep 14",
+      "doi": "10.1007/s11357-026-02502-6",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Taiwan used optical coherence tomography angiography (OCTA) to image nailfold microvasculature in 104 healthy adults over age 80, pairing those findings with echocardiography, arterial tonometry, and blood tests. Using unsupervised machine learning to cluster vascular patterns, they found that octogenarians with denser, smaller, and less tortuous nailfold microvessels had better cardiovascular parameters including lower resting heart rate, better systolic function, smaller left ventricular size, and less arterial stiffness. The study suggests nailfold microvascular structure may serve as a non-invasive marker of subclinical cardiovascular health in the oldest old.",
+      "why_it_matters": "A non-invasive, low-burden vascular scan taken at the fingertip could eventually help clinicians identify cardiovascular risk in very elderly patients who may be too frail for standard cardiac testing.",
+      "caveats": "small sample (N=104), single-center, cross-sectional, observational design, Taiwan-based sample (generalizability to other populations uncertain)",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Novel octogenarian-focused method; single-center cross-sectional design limits confidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / Health.com",
+          "headline": "Scanning Fingernail Blood Vessels Could Reveal Heart Health in People Over 80",
+          "hook": "A non-invasive optical scan of tiny vessels at the base of the fingernail accurately sorted octogenarians by their underlying cardiovascular condition \u2014 no stress test required.",
+          "pitch_angle": "For the very elderly, standard cardiac assessments can be physically demanding or risky; a Taiwan-based study found that a painless fingertip scan using light-based imaging may distinguish those with healthier hearts from those with subclinical dysfunction. If validated in larger, more diverse populations, the technique could offer a practical screening tool for frail older adults."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Geriatrics",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42735210",
+      "headline": "For stroke survivors who were unemployed before their stroke, poor physical recovery hits psychological resilience the hardest",
+      "journal": "Topics in Stroke Rehabilitation",
+      "pubdate": "2026 Sep 14",
+      "doi": "10.1080/10749357.2026.2723405",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A cross-sectional study of 123 stroke inpatients in Taiwan used moderated mediation analysis to examine how physical dependence relates to psychological resilience, with self-efficacy as a mediator. The study found that lower self-efficacy partially explained why greater physical dependence was associated with lower resilience. Crucially, this pathway was significant only among patients receiving routine (not intensive) care who had been unemployed before their stroke \u2014 suggesting pre-stroke social role engagement buffers psychological decline after stroke.",
+      "why_it_matters": "The finding that pre-stroke employment status shapes psychological recovery suggests rehabilitation teams should routinely assess patients' prior social roles, not just current physical function, to identify who is most vulnerable to poor psychological outcomes.",
+      "caveats": "small sample (N<100 is borderline at 123), observational design, cross-sectional (no causality), single-center, Taiwan-specific healthcare context may limit generalizability, no explicit age breakdown for older adult subgroup reported",
+      "fact_check_note": "The abstract describes N=123; the sample is described as recruited from a single neurology ward, consistent with single-center caveat.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Stroke rehabilitation angle is relevant; cross-sectional Taiwanese sample limits generalizability and older adult specificity.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Stroke survivors who were jobless before their stroke face steeper psychological decline \u2014 and standard rehab may not be enough",
+          "hook": "A new study found that pre-stroke unemployment dramatically amplifies the psychological toll of physical disability after stroke, a risk factor clinicians rarely screen for.",
+          "pitch_angle": "Among hospitalized stroke patients receiving routine care, those who lacked employment before their stroke showed the sharpest drop in resilience tied to physical dependence \u2014 suggesting that social role history should be part of standard rehabilitation intake. The finding points to a gap in how rehab teams identify psychologically vulnerable patients."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Physical and Rehabilitation Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42732455",
+      "headline": "Walking faster temporarily spikes cartilage stress markers in blood \u2014 and speed makes a measurable difference",
+      "journal": "Connective Tissue Research",
+      "pubdate": "2026 Sep 13",
+      "doi": "10.1080/03008207.2026.2725705",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Duke University researchers measured blood levels of four biomarkers \u2014 COMP, MMP-3, IL-6, and lubricin \u2014 before, immediately after, and 45 minutes following 30-minute treadmill walks at slow, moderate, and brisk speeds in healthy participants. Both COMP and MMP-3, markers associated with cartilage mechanical loading, rose significantly after walking and returned toward baseline during recovery, with faster walking producing higher spikes. Age range of participants was not reported in the abstract, which is a key limitation for interpreting relevance to older adults.",
+      "why_it_matters": "Understanding how walking speed influences cartilage biomarker responses could eventually inform exercise recommendations for people at risk of osteoarthritis, including older adults.",
+      "caveats": "small sample (N<100), no age breakdown reported, healthy participants only, surrogate marker outcomes only, short follow-up, single-center",
+      "fact_check_note": "The abstract does not report participant N or age range, which are material limitations for a geriatric digest.",
+      "relevance_score": 5,
+      "relevance_score_reason": "OA-relevant biomarker finding; healthy young cohort likely; no age data reported.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com",
+          "headline": "Your Walking Speed May Leave a Mark on Your Joints \u2014 Even After a Short Stroll",
+          "hook": "A new study found that walking faster causes a measurable spike in blood markers linked to cartilage stress \u2014 and the effect scales with speed.",
+          "pitch_angle": "While the research was conducted in healthy individuals and used surrogate markers rather than clinical outcomes, it raises early questions about whether pace matters for joint health during exercise \u2014 a question particularly relevant for older adults managing or trying to prevent osteoarthritis."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Rheumatology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42731737",
+      "headline": "Younger palliative care patients carry heavier medication burdens than the oldest \u2014 and many drugs are stopped abruptly without recommended tapering",
+      "journal": "Journal of Pain and Symptom Management",
+      "pubdate": "2026 Sep 12",
+      "doi": "10.1016/j.jpainsymman.2026.09.009",
+      "groundbreaking": "Counterintuitive finding / Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a retrospective cohort study of 386 adults (median age 78, IQR 69\u201387) admitted to an Australian metropolitan palliative care unit in 2023, tracking medications at five timepoints from pre-admission through death or discharge. Polypharmacy was more common in younger patients and those admitted for symptom management, while patients aged 80 and older had significantly lower odds of polypharmacy. Notably, medications typically requiring gradual tapering \u2014 including proton pump inhibitors, beta-blockers, and antidepressants \u2014 were frequently stopped abruptly, raising concerns about deprescribing safety.",
+      "why_it_matters": "The finding that polypharmacy is more burdensome in younger palliative care patients, and that abrupt discontinuation of taper-required drugs is common, suggests clinicians may need structured medication review protocols earlier in the palliative trajectory.",
+      "caveats": "single-center, observational design, Australian setting may limit US generalizability, retrospective design",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Strong palliative care and polypharmacy hook; large cohort, geriatric population, counterintuitive age finding.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Younger Patients in Palliative Care Face Greater Pill Burden \u2014 and Abrupt Drug Stops Are Common",
+          "hook": "Contrary to assumptions, it's not the oldest palliative care patients who are over-medicated \u2014 it's the younger ones.",
+          "pitch_angle": "A 386-patient Australian cohort found polypharmacy odds were significantly lower in patients 80 and older, while drugs requiring careful tapering were routinely stopped cold turkey. Clinicians may need systematic deprescribing protocols that start earlier in serious illness."
+        },
+        {
+          "publication_type": "McKnight's Senior Living",
+          "headline": "Palliative Units Often Stop Meds Abruptly \u2014 Even Those That Need Tapering",
+          "hook": "Beta-blockers, antidepressants, and proton pump inhibitors were frequently discontinued without dose reduction in a real-world palliative care unit study.",
+          "pitch_angle": "The retrospective study of 386 patients highlights a gap in deprescribing practice that could affect symptom control and patient comfort in the final phase of life, with implications for care protocols in residential and palliative settings."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Palliative Care",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42742165",
+      "headline": "Who reports a loved one's memory problems may depend more on gender and culture than actual decline",
+      "journal": "The Journals of Gerontology: Series B, Psychological Sciences and Social Sciences",
+      "pubdate": "2026 Sep 12",
+      "doi": "10.1093/geronb/gbag186",
+      "groundbreaking": "Counterintuitive finding / Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed informant-reported cognitive decline using validated dementia screening tools (CSI-D) from two large population studies \u2014 the U.S. Health and Retirement Study HCAP (N=3,025) and Mexico's Mex-Cog (N=1,071) \u2014 examining how the gender of both the respondent and the informant shaped assessments. Female informants in the U.S. reported significantly more cognitive symptoms than male informants, while female informants in Mexico reported significantly fewer symptoms. The respondent's own gender was not associated with total CSI-D scores in either country.",
+      "why_it_matters": "Dementia screening tools that rely on family informants may be systematically skewed by who is doing the reporting and where they live, potentially leading to overdiagnosis in some populations and missed diagnoses in others.",
+      "caveats": "observational design, cross-sectional, self-reported outcomes, no age breakdown reported",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive; large N; direct dementia diagnosis and care equity implications.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "Dementia Screening Tools May Be Capturing Gender Bias as Much as Cognitive Decline",
+          "hook": "In the U.S., female caregivers flagged significantly more memory symptoms in loved ones than male caregivers did \u2014 but in Mexico, the pattern reversed completely.",
+          "pitch_angle": "A cross-national study suggests that widely used informant-based dementia screens may reflect cultural gender norms as much as actual cognitive status, raising questions about their validity across diverse populations. Clinicians relying on caregiver reports to diagnose or stage dementia may need to account for who is in the room \u2014 not just what they say."
+        },
+        {
+          "publication_type": "The Atlantic / Next Avenue",
+          "headline": "The Person You Ask About Mom's Memory Might Shape the Diagnosis She Gets",
+          "hook": "A new study finds that whether a daughter or a son reports on a parent's memory problems \u2014 and which country they live in \u2014 systematically changes what gets flagged as cognitive decline.",
+          "pitch_angle": "When sons and daughters evaluate the same loved one's memory, they may describe it very differently depending on cultural expectations about aging and caregiving \u2014 and that discrepancy may be baked into the dementia screening tools clinicians use worldwide. The finding raises equity concerns for older adults in minority communities whose primary caregivers may be systematically under- or over-reporting symptoms."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Geriatrics",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42725877",
+      "headline": "A tracking registry helped a VA clinic enroll Black and Hispanic Parkinson's patients at the same rate as White patients",
+      "journal": "Journal of Parkinson's Disease",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1177/1877718X261487914",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at a Bronx Veterans Affairs Medical Center developed a real-time clinical registry to track research eligibility and participation for all parkinsonism patients, paired with targeted outreach to reduce cultural and language barriers. Over 19 months, 192 eligible patients (ages 53\u201391, 96.4% male) were identified, and 87% were invited to participate, with acceptance rates statistically equivalent across Black (79.4%), Hispanic (87.5%), and White (80.2%) patients. The approach suggests that systematic, registry-based recruitment can substantially reduce racial and ethnic disparities in neurological research enrollment.",
+      "why_it_matters": "Demonstrating that a replicable registry-plus-outreach model can achieve racially equitable enrollment in a historically underrepresented population has direct implications for improving the evidence base guiding Parkinson's care for Black and Hispanic older adults.",
+      "caveats": "single-center, observational design, 96.4% male cohort (VA population limits generalizability to women), short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Strong policy and care equity hook; human adults 65+; clean registry design; single-center caveat.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "A simple registry fixed a stubborn problem: Black and Hispanic patients were missing from Parkinson's research",
+          "hook": "By systematically tracking every eligible patient and pairing that data with culturally targeted outreach, one VA clinic achieved equal enrollment rates across racial and ethnic groups in a Parkinson's study \u2014 something the field has long struggled to do.",
+          "pitch_angle": "The finding challenges the assumption that low minority participation in neurological research is inevitable, showing it can largely be attributed to who gets asked and how. With Parkinson's disease disproportionately affecting and underdiagnosing Black and Hispanic patients, closing this research gap has urgent implications for treatment equity."
+        },
+        {
+          "publication_type": "McKnight's Senior Living",
+          "headline": "VA clinic's real-time patient registry achieved equal Parkinson's research enrollment across races \u2014 here's how",
+          "hook": "A Veterans Affairs medical center eliminated racial disparities in Parkinson's research enrollment simply by making sure every eligible patient was tracked, invited, and supported \u2014 a model that long-term care facilities could adapt.",
+          "pitch_angle": "The registry-based approach required no specialized technology, only systematic tracking and culturally informed outreach, making it potentially scalable to nursing home and memory care settings where minority residents are similarly underrepresented in research. The results suggest that institutional will, not patient reluctance, is often the primary barrier."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Neurology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42725724",
+      "headline": "Surgeons used a radar beacon \u2014 the kind that guides breast biopsies \u2014 to find hidden nerves during surgery",
+      "journal": "Operative Neurosurgery",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1227/ons.0000000000002200",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A University of Pennsylvania surgical team adapted a radar reflector localization system \u2014 previously used in breast surgery \u2014 to guide intraoperative identification of deep or anatomically distorted peripheral nerves in 21 patients (14 male, 7 female; mean age 57 years). Reflectors were placed preoperatively under ultrasound guidance and successfully located and removed in all 21 cases with no device-related complications, across indications including nerve tumor removal, neurolysis, and nerve transfer. The authors describe this as a feasibility series, noting larger studies are needed to establish best practices.",
+      "why_it_matters": "For older patients with nerve tumors or scarring from prior surgeries, trauma, or radiation \u2014 who may be poor candidates for prolonged operations \u2014 a faster, more precise way to locate target nerves could reduce operative time and associated risks.",
+      "caveats": "small sample (N<100), single-center, observational design, short follow-up, no functional outcomes reported, mean age 57 (below standard geriatric threshold)",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Innovative technique, feasibility only; mean age 57 limits geriatric relevance; no functional outcomes.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Radar beacons borrowed from breast surgery help neurosurgeons find elusive nerves in the operating room",
+          "hook": "A technique already used to guide breast tumor removal has been successfully adapted to locate hard-to-find peripheral nerves during surgery \u2014 including in patients with heavy scarring from prior operations or radiation.",
+          "pitch_angle": "In a 21-patient feasibility series, radar reflectors placed preoperatively under ultrasound guidance were detected and retrieved without complications in every case, suggesting the approach is safe and practical. For older patients with complex anatomical histories who face elevated surgical risk, a navigation tool that shortens operative time could be clinically meaningful \u2014 though outcomes data are still lacking."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Neurology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42726432",
+      "headline": "Smoking is the one factor that predicts whether a TNF-blocker drug will cause psoriasis as a side effect",
+      "journal": "Clinical Rheumatology",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1007/s10067-026-08417-z",
+      "groundbreaking": "Counterintuitive finding / Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a single-center retrospective cohort study of 1,588 adults with axial spondyloarthritis or rheumatoid arthritis receiving biologic or targeted synthetic DMARDs in Istanbul, Turkey (2019\u20132024); age range not specified in the abstract. They found that paradoxical psoriasis \u2014 new-onset psoriasiform skin lesions triggered by the treatment itself \u2014 developed in 2% of patients, with 94% of cases linked to TNF inhibitors and none observed with JAK inhibitors, rituximab, or tocilizumab. Ever-smoking was the sole independent predictor of this adverse drug reaction, and stopping the causative drug led to complete remission in the majority of affected patients.",
+      "why_it_matters": "Clinicians may consider proactive skin monitoring and alternative drug classes for rheumatoid arthritis or axial spondyloarthritis patients who smoke before initiating TNF inhibitor therapy.",
+      "caveats": "single-center, observational design, no age breakdown reported, small event count (N=32 cases), retrospective chart review, Turkey-specific population",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Rheumatology topic fit; no older adult age breakdown; single-center observational design.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Smoking Predicts Psoriasis Side Effect From Common Arthritis Biologics, Study Finds",
+          "hook": "A drug meant to calm inflammation can paradoxically trigger a painful skin disease \u2014 and smokers appear to be at the highest risk.",
+          "pitch_angle": "Among nearly 1,600 patients on biologic therapies for axial spondyloarthritis or rheumatoid arthritis, ever-smoking was the only independent predictor of paradoxical psoriasis, almost exclusively tied to TNF inhibitors. The finding suggests a straightforward screening question \u2014 smoking history \u2014 could flag patients who may need closer skin monitoring or a different drug class from the start."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Rheumatology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42727982",
+      "headline": "A needle-placed nerve stimulator \u2014 not surgery \u2014 wiped out chronic pain and PTSD symptoms in one patient, doctors report",
+      "journal": "Regional Anesthesia and Pain Medicine",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1136/rapm-2026-108153",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Clinicians at MetroHealth Medical Center used ultrasound guidance to place a temporary percutaneous vagus nerve stimulator \u2014 the first reported use of this technique \u2014 in a woman in her late 20s with refractory chronic pain, PTSD, and post-traumatic headaches after domestic violence injuries. Over 60 days of stimulation, pain scores fell from 10/10 to 0/10, and gastrointestinal and fatigue symptoms resolved; pain relief held at 4-month follow-up, though PTSD scores at follow-up were elevated and no pre-procedure PTSD baseline was available for comparison. The case describes the implantation technique in detail but cannot support conclusions about efficacy given the absence of a control or validated pre-treatment PTSD measure.",
+      "why_it_matters": "For older adults with treatment-resistant chronic pain or PTSD \u2014 conditions that often co-occur after trauma \u2014 a temporary, non-surgical nerve stimulation approach could eventually offer an option when medications and standard therapies have failed.",
+      "caveats": "small sample (N<100), single-center, no baseline PTSD score, observational design, industry funding [SPR Therapeutics, Curonix \u2014 lead author equity in Neuronoff], short follow-up, no age breakdown reported (patient in late 20s, not geriatric population)",
+      "fact_check_note": "The abstract explicitly states PTSD symptom scores (PCL-5) increased during follow-up and that no pre-procedure baseline was available, making the overall PTSD magnitude of change indeterminate \u2014 this limitation must be preserved in any coverage.",
+      "relevance_score": 4,
+      "relevance_score_reason": "Novel technique; single young patient, not geriatric; heavy conflicts of interest.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "An ultrasound-guided nerve stimulator erased one patient's chronic pain \u2014 but the conflicts of interest are hard to miss",
+          "hook": "A doctor with equity in a neuromodulation company reports that a temporary vagus nerve stimulator he implanted brought a patient's pain from 10/10 to zero \u2014 and the technique has never been described before.",
+          "pitch_angle": "This first-ever case report of ultrasound-guided percutaneous vagus nerve stimulation raises genuine questions about whether the technique works or whether the conflicts of interest surrounding it demand independent replication before wider adoption."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Neurology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42726330",
+      "headline": "A wireless nerve-stimulation technique offers new hope for people with chronic headaches that don't respond to medication",
+      "journal": "Current Pain and Headache Reports",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1007/s11916-026-01562-9",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This technical review describes a peripheral nerve stimulation (PNS) procedure targeting the C2 and C3 cervical nerve branches for patients with refractory chronic headaches and occipital neuralgia, using two Tuohy needles placed in a caudal-to-cephalad trajectory. The authors highlight advances in wireless neuromodulation systems that eliminate implanted pulse generators, reducing infection risk and hardware complications. No original patient data or clinical trial results are reported; the paper is a technique description with a literature summary.",
+      "why_it_matters": "Refractory chronic headache and occipital neuralgia are significant sources of disability in older adults, and a less invasive, wireless nerve-stimulation approach could expand access to neuromodulation for patients who are poor surgical candidates.",
+      "caveats": "no original data, narrative/technique description only, no age breakdown reported, industry funding [Medtronic; Curonix; Avanos; Averitas \u2014 consultant disclosures for lead author]",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Pain management topic fits digest; technique description with no patient data limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Wireless Nerve Stimulator Targets Skull-Base Nerves in Patients Whose Chronic Headaches Resist All Other Treatment",
+          "hook": "A newly described technique uses wireless leads placed near C2 and C3 cervical nerves to treat headaches that have failed all standard therapies \u2014 no implanted battery required.",
+          "pitch_angle": "The approach eliminates the pulse generator that has historically driven infection rates and revision surgeries in occipital nerve stimulation, potentially making the procedure viable for older or medically fragile patients. Clinicians should note that the lead author has consultant relationships with device makers including Medtronic and Curonix, and no prospective clinical trial data accompany this technique description."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Neurology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42727770",
+      "headline": "A new dual-injection CT technique gives surgeons a clearer 3D map of rare brain vascular tangles",
+      "journal": "World Neurosurgery",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1016/j.wneu.2026.125325",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Neurosurgeons at multiple Japanese centers developed a contrast-density gradient cone-beam CT technique using sequential diluted and undiluted contrast injections to simultaneously visualize arterial and venous components of intracranial dural arteriovenous fistulas (dAVFs) in a single 3D image. The technique was applied in 55 imaging sessions across 45 consecutive patients, with no device-related adverse events and only two cases requiring repeat imaging due to timing issues. The approach provided clearer identification of shunt points and treatment targets compared with conventional angiography.",
+      "why_it_matters": "Improved visualization of these rare but potentially dangerous brain vascular lesions \u2014 which occur disproportionately in older adults \u2014 could reduce procedural complexity and improve surgical planning for a population with limited tolerance for prolonged intervention.",
+      "caveats": "small sample (N<100), single-center, observational design, no age breakdown reported, no comparative outcomes data",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Technically novel but narrow procedural scope; limited elder care policy hook; small single-center series.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Dual-injection CT technique sharpens surgical targeting of hard-to-map brain vascular lesions",
+          "hook": "A new cone-beam CT approach using two sequential contrast injections produced a single 3D image that simultaneously distinguishes arterial from venous flow in complex brain vascular fistulas \u2014 information surgeons previously had to piece together from multiple studies.",
+          "pitch_angle": "The technique was tested in 45 patients with intracranial dural arteriovenous fistulas, a condition that often presents in older adults and carries risk of stroke or hemorrhage if undertreated. Cleaner pre-procedural mapping could translate to more precise, less prolonged interventions for patients who tolerate surgical stress poorly."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Neurology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42727790",
+      "headline": "Ketamine slashes severe mouth pain from cancer treatment when opioids fail \u2014 and cuts opioid use at the same time",
+      "journal": "Journal of Pain and Symptom Management",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1016/j.jpainsymman.2026.09.003",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a prospective, double-blind, randomized phase 2 trial of 16 adults with moderate-to-severe oral and pharyngeal mucositis pain uncontrolled by opioids, randomizing them to subcutaneous ketamine (100\u2013300 mg/day escalating) or midazolam active placebo over 3\u20135 days. Ketamine produced clinically meaningful pain reduction in 77.8% of recipients versus 14.3% of controls, with average pain scores dropping 5.40 points compared to 0.72 in the placebo group. Opioid requirements fell significantly in the ketamine group while rising in the placebo group, and adverse effects were mild and similar between arms.",
+      "why_it_matters": "For cancer patients suffering from treatment-related mouth pain that opioids cannot control, early evidence suggests low-dose subcutaneous ketamine may offer meaningful relief while simultaneously reducing opioid requirements.",
+      "caveats": "small sample (N<100), single-center, short follow-up, no age breakdown reported, phase 2 only",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Important opioid-sparing pain management finding; very small trial limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Ketamine Beats Placebo for Opioid-Resistant Cancer Mouth Pain in Small Trial \u2014 and Cuts Opioid Use",
+          "hook": "In a randomized trial, patients with severe treatment-related mouth sores saw pain drop by more than five points on a ten-point scale when given low-dose ketamine \u2014 compared to less than one point in the placebo group.",
+          "pitch_angle": "The phase 2 study is among the first randomized evidence for ketamine in opioid-refractory mucositis, a common and debilitating side effect of cancer treatment; if confirmed in larger trials, it could reshape supportive care protocols for patients undergoing chemotherapy or bone marrow transplant."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Palliative Care",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42725636",
+      "headline": "Doctors admit they use 'gut instinct' and zip codes to decide which children get a life-changing spasticity treatment",
+      "journal": "Journal of Pediatric Rehabilitation Medicine",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1177/18758894261490635",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted qualitative interviews with 22 providers across five pediatric specialties to understand how caregiver reliability is assessed before children with severe cerebral palsy receive intrathecal baclofen therapy. Providers consistently used subjective proxies \u2014 including geographic distance, socioeconomic status, and 'gut instinct' \u2014 rather than standardized tools to judge caregiver fitness. The study found this approach raises significant concerns about bias and inequitable access to a treatment that can dramatically reduce spasticity.",
+      "why_it_matters": "The absence of standardized caregiver reliability assessments suggests that children from lower-income or geographically remote families may be systematically denied access to an effective therapy based on informal and potentially biased judgments.",
+      "caveats": "small sample (N<100), qualitative design, single-country, no age breakdown reported",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Pediatric focus, no older adult population; policy bias angle is notable but outside geriatric scope.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Doctors are using zip codes and gut feelings to decide which disabled kids get a key spasticity treatment",
+          "hook": "Providers admit they rely on 'gut instinct' and socioeconomic proxies \u2014 not objective criteria \u2014 when deciding if a family is reliable enough to manage a surgically implanted drug pump for their child.",
+          "pitch_angle": "A qualitative study of 22 pediatric specialists found no standardized process exists to assess caregiver readiness for intrathecal baclofen therapy, raising alarms about equity. The finding has implications for any high-maintenance therapy where caregiver capacity is a gatekeeper."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Physical and Rehabilitation Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42728769",
+      "headline": "Nearly half of family caregivers managing cancer patients in Gaza show severe anxiety \u2014 and unmet information needs are driving the distress",
+      "journal": "Palliative Medicine",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1177/02692163261485102",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A hospital-based cross-sectional survey of 388 family caregivers of adults with advanced cancer at a hospital in the Gaza Strip (conducted May\u2013August 2022, before the current conflict escalation) found that 44% reported severe or extremely severe anxiety and 33% reported severe depression. Unmet needs were widespread, with information support (81%) and practical support (78%) the most common gaps, and unmet needs were moderately correlated with psychological distress (r=0.54). Female caregivers reported significantly higher distress than male caregivers. No age range for caregivers was reported.",
+      "why_it_matters": "The findings suggest that even basic information provision and practical navigation support \u2014 not just mental health services \u2014 could meaningfully reduce caregiver distress in conflict-affected and resource-constrained settings, a lesson relevant far beyond Gaza.",
+      "caveats": "observational design, single-center, cross-sectional, no age breakdown reported, conflict-affected setting may limit generalizability, data collected pre-escalation (2022)",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Caregiver burden focus; palliative care hook; regional context limits US generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The Invisible Patients: Cancer Caregivers in Gaza Are Falling Apart \u2014 and Nobody Is Counting",
+          "hook": "Nearly half of family members caring for advanced cancer patients in Gaza reported severe anxiety, with the biggest driver not grief but the absence of basic information about their loved one's care.",
+          "pitch_angle": "The study offers a rare quantitative window into caregiver suffering in conflict zones, and its central finding \u2014 that unmet information needs are as damaging as unmet emotional needs \u2014 challenges how palliative care systems everywhere prioritize caregiver support."
+        },
+        {
+          "publication_type": "KFF Health News",
+          "headline": "Caregiver Crisis in Conflict: What Gaza's Cancer Families Reveal About Palliative Care's Blind Spots",
+          "hook": "In Gaza, four in ten family cancer caregivers showed severe anxiety \u2014 and the most common unmet need wasn't counseling, it was simply being told what was happening.",
+          "pitch_angle": "The research highlights how the absence of structured information and navigation support compounds caregiver distress in under-resourced settings, raising questions about whether US palliative care programs are doing enough to address the practical \u2014 not just emotional \u2014 needs of family caregivers."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Palliative Care",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42725797",
+      "headline": "Rural older adults in Spain use daily routines and social ties to fight loneliness \u2014 but gender shapes who gets left out",
+      "journal": "Journal of Gerontological Social Work",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1080/01634372.2026.2732216",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted focus groups and caregiver interviews with older adults (N=15 total: 10 older adults in focus groups, 5 caregiver interviews) in rural Castell\u00f3n, Spain, using thematic analysis through a biopsychosocial lens. Participants ranged in age from older adulthood (specific age range not reported). Social participation, daily routines, and hope protected against loneliness, but gendered patterns shaped who had access to caregiving and community engagement.",
+      "why_it_matters": "The findings suggest that rural aging policies may need to explicitly address gender disparities in social participation to reduce loneliness among older adults.",
+      "caveats": "small sample (N<100), qualitative design, single-center, single region with limited generalizability, no age breakdown reported",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Qualitative, very small sample in rural Spain; limited US policy generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Next Avenue",
+          "headline": "In Rural Spain, Routines and Neighbors Are the Real Medicine for Loneliness in Old Age",
+          "hook": "For older adults in rural Spain, a daily walk or a community gathering may matter more than any prescription for fighting loneliness.",
+          "pitch_angle": "A small qualitative study found that social participation and daily routines protected older rural adults against loneliness, but gendered patterns determined who could access those connections \u2014 a tension that resonates for rural aging communities worldwide."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Geriatrics",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42728658",
+      "headline": "Hearing loss dramatically amplifies the mortality risk that comes with multiple chronic conditions in adults over 70",
+      "journal": "Journal of the American Geriatrics Society",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1111/jgs.70703",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study / Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using nationally representative NHANES data linked to the National Death Index, researchers followed 874 U.S. adults aged 70 and older for a median of 9.3 years, assessing audiometric hearing loss, comorbidity count, and mortality. Hearing loss alone was associated with a 40% higher mortality risk, but adults with both hearing loss and three or more comorbidities faced a 2.3-fold higher mortality risk \u2014 significantly greater than either factor alone, with a statistically significant interaction effect.",
+      "why_it_matters": "This finding suggests that untreated hearing loss may be a previously overlooked amplifier of mortality risk in older adults who already carry the heaviest chronic disease burden \u2014 the very patients least likely to receive hearing care.",
+      "caveats": "observational design, only 27% of those with hearing loss used hearing aids limiting treatment analysis, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 9,
+      "relevance_score_reason": "Counterintuitive interaction effect; nationally representative; adults 70+; clear clinical and policy hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Hearing Loss Is Making Chronic Disease Far More Deadly in Older Adults, Study Finds",
+          "hook": "Older adults with three or more chronic conditions and untreated hearing loss face more than twice the mortality risk of their peers with good hearing \u2014 a finding that reframes hearing care as a survival issue.",
+          "pitch_angle": "A nationally representative study found hearing loss acts as a deadly multiplier of comorbidity-related mortality in adults over 70, raising urgent questions about why hearing treatment remains so underutilized in the highest-risk patients."
+        },
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Audiometric Hearing Loss Modifies Comorbidity-Mortality Risk in Older Adults \u2014 With Striking Interaction Effect",
+          "hook": "Clinicians managing older patients with multiple chronic conditions may be missing a critical, treatable risk factor: hearing loss, which more than doubles mortality risk when combined with high comorbidity burden.",
+          "pitch_angle": "New data from a longitudinal NHANES-linked cohort show a statistically significant interaction between hearing loss and comorbidity count on mortality, suggesting geriatric care teams should systematically screen and treat hearing loss alongside chronic disease management."
+        },
+        {
+          "publication_type": "AARP",
+          "headline": "Your Untreated Hearing Loss Could Be Making Your Other Health Problems Even More Dangerous",
+          "hook": "A new study found that older adults with hearing loss and multiple chronic illnesses face more than double the death risk of those without hearing problems \u2014 yet most aren't wearing hearing aids.",
+          "pitch_angle": "Only 27% of older adults with audiometric hearing loss in the study used hearing aids, leaving most without a potentially life-saving intervention that could reduce the compounding mortality risk of hearing loss on top of conditions like diabetes and heart disease."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Geriatrics",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42723482",
+      "headline": "Staff training for a widely used dementia comfort program in nursing homes rarely translates into lasting practice change, review finds",
+      "journal": "Dementia (London)",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1177/14713012261488574",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A scoping review following Joanna Briggs Institute methodology searched eight databases through May 2026, identifying 11 studies on Namaste Care staff training in long-term care settings for people with advanced dementia. Training commonly covered core Namaste Care principles, dementia knowledge, and palliative communication skills, with face-to-face workshops as the dominant format. While staff reported positive reactions and improved self-perceived skills, evidence linking training to actual practice change or resident outcomes was limited and mixed, with staffing constraints frequently disrupting intended program delivery.",
+      "why_it_matters": "The review suggests that nursing homes implementing Namaste Care may be investing in staff education without the organizational infrastructure needed to turn that training into consistent, measurable improvements in care for residents with advanced dementia.",
+      "caveats": "small evidence base (11 studies), mixed study designs, outcomes not attributable to training alone, no direct resident outcome data linkable to training",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Direct nursing home care quality hook; palliative dementia care; clear policy implication for long-term care administrators.",
+      "pitch_angles": [
+        {
+          "publication_type": "McKnight's Senior Living",
+          "headline": "Nursing Homes Are Training Staff on a Popular Dementia Comfort Program \u2014 But the Evidence It Changes Care Is Thin",
+          "hook": "A new scoping review found that staff training for Namaste Care, one of the most widely used comfort programs for advanced dementia, rarely produces verifiable changes in how care is actually delivered on the floor.",
+          "pitch_angle": "Across 11 studies, Namaste Care training improved staff attitudes and knowledge but failed to reliably translate into practice change, with staffing shortages and organizational barriers frequently undermining implementation \u2014 a finding with direct implications for how long-term care facilities budget and structure dementia care programs."
+        },
+        {
+          "publication_type": "The Atlantic",
+          "headline": "We've Built a Comfort Program for People Dying With Dementia \u2014 But We Can't Seem to Actually Deliver It",
+          "hook": "Namaste Care promises sensory comfort and human connection for nursing home residents with advanced dementia, but a new review finds that staff training for the program rarely leads to consistent, sustained care.",
+          "pitch_angle": "The gap between training and practice in Namaste Care programs reflects a broader crisis in long-term care staffing and organizational capacity \u2014 raising the question of whether person-centered dementia care can survive the structural realities of American nursing homes."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Geriatrics",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42723518",
+      "headline": "Eight weeks of mindfulness training slashes death anxiety in nursing students \u2014 and makes them far more willing to care for dying patients",
+      "journal": "Palliative & Supportive Care",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1017/S1478951526103447",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used a quasi-experimental pre-post design to test an 8-week Mindfulness-Based Stress Reduction (MBSR) program in 120 final-year nursing interns at a Saudi Arabian university during oncology and palliative care rotations. After the intervention, participants showed a large reduction in death anxiety (effect size d=3.05) and significantly improved attitudes toward caring for dying patients (d=1.55), with a smaller but significant reduction in perceived stress (d=0.39). No age range for participants was reported.",
+      "why_it_matters": "Clinician discomfort with death is a documented barrier to good end-of-life care; early evidence that structured mindfulness training during nursing education could reduce that discomfort has implications for how palliative care rotations are designed.",
+      "caveats": "quasi-experimental design, no control group, single-center, no age breakdown reported, self-reported outcomes, short follow-up, Saudi Arabia context may limit generalizability",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Palliative care workforce hook; no control group and self-reported outcomes reduce confidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "NPR Health",
+          "headline": "Teaching Nurses to Sit With Death: How Mindfulness Is Reshaping End-of-Life Training",
+          "hook": "Nursing students who completed an 8-week mindfulness program showed dramatically lower death anxiety and greater willingness to care for dying patients \u2014 a finding with potential implications for the chronic shortage of end-of-life caregivers.",
+          "pitch_angle": "The study adds early evidence that mindfulness training during clinical rotations can help address one of palliative care's most persistent workforce problems: clinicians who are too uncomfortable with death to engage fully with dying patients and their families."
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Palliative Care",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42732293",
+      "headline": "Training nursing home staff in 'death literacy' changed culture and practice \u2014 but a standard survey couldn't detect the shift",
+      "journal": "Palliative Care and Social Practice",
+      "pubdate": "2026",
+      "doi": "10.1177/26323524261488419",
+      "groundbreaking": "Counterintuitive finding / Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used a participatory action research design in three Swedish residential care facilities for older people, training staff in 'Death Literacy' through workshops to improve end-of-life communication with residents and families, comparing outcomes to three non-intervention facilities. The Death Literacy Index showed no statistically significant improvement over time, largely due to ceiling effects and baseline differences \u2014 but qualitative data from interviews, documents, and workshops revealed meaningful shifts in individual competence, team behavior, and organizational strategy. The study highlights a mismatch between quantitative measurement tools and the real-world impact of complex cultural interventions.",
+      "why_it_matters": "The disconnect between measurable survey scores and observable cultural change in end-of-life communication suggests that standard evaluation tools may be poorly suited to capture the true impact of staff training programs in elder care settings.",
+      "caveats": "small sample (N<100 facilities), single-region (Sweden), observational design, self-reported outcomes, qualitative findings not generalizable",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Relevant advance care planning angle; limited by small design and Swedish context.",
+      "pitch_angles": [
+        {
+          "publication_type": "McKnight's Senior Living",
+          "headline": "Death Literacy Training Reshapes Nursing Home Culture \u2014 Even When the Metrics Say Otherwise",
+          "hook": "Staff workshops on end-of-life communication produced real behavioral and cultural change in Swedish care homes, yet the standard measurement tool showed no improvement.",
+          "pitch_angle": "The study raises a practical question for elder care administrators: if the survey can't capture what's actually changing on the floor, are facilities using the wrong yardstick to evaluate staff training programs on death and dying?"
+        }
+      ],
+      "run_date": "2026-09-18",
+      "category": "Palliative Care",
+      "chunk": "2/2",
+      "status": "new"
+    },
     {
       "pmid": "42750547",
       "headline": "Joining a rheumatology data registry narrows quality gaps at underperforming practices \u2014 but mainly for clinics that started lowest",
@@ -28,33 +961,6 @@
       "run_date": "2026-09-17",
       "category": "Rheumatology",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42745218",
-      "headline": "A 71-year-old woman developed lasting hallucinations after ECT lifted her depression \u2014 doctors can't yet explain why",
-      "journal": "Journal of ECT",
-      "pubdate": "2026 Sep 16",
-      "doi": "10.1097/YCT.0000000000001328",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Clinicians in Japan report a single case of a 71-year-old woman with treatment-resistant major depressive disorder whose depression remitted rapidly after electroconvulsive therapy, but who then developed persistent new-onset auditory hallucinations \u2014 classified as Schneiderian first-rank symptoms \u2014 that lasted several months despite antipsychotic treatment. Neuroimaging showed concurrent changes in cerebral blood flow, though the authors explicitly state no causal or associative link between the perfusion findings and the hallucinations can be inferred. The report is described as the first to document coexisting ECT-induced cerebral perfusion changes alongside new-onset persistent hallucinations in a single patient.",
-      "why_it_matters": "This rare case raises awareness that ECT \u2014 an important treatment for severe late-life depression \u2014 can occasionally be followed by persistent psychotic symptoms in older adults, warranting vigilant post-treatment monitoring even after successful depression remission.",
-      "caveats": "small sample (N<100), single-center, short follow-up, no causal inference possible",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Late-life depression and ECT are relevant topics, but a single case report limits generalizability significantly.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today",
-          "headline": "ECT resolved her late-life depression \u2014 then she heard voices for months. A rare case raises monitoring questions.",
-          "hook": "A 71-year-old woman's depression lifted after ECT, only for her to develop persistent auditory hallucinations that proved resistant to antipsychotic treatment \u2014 a rare but clinically important outcome.",
-          "pitch_angle": "The case, reported from Japan, is believed to be the first to document persistent new-onset psychotic symptoms following ECT alongside neuroimaging perfusion changes, though no mechanistic link could be established; it underscores the need for prolonged psychiatric monitoring after ECT in older patients, even when the primary condition improves."
-        }
-      ],
-      "run_date": "2026-09-17",
-      "category": "Neurology",
-      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -118,39 +1024,6 @@
       "status": "new"
     },
     {
-      "pmid": "42749467",
-      "headline": "Phone-based palliative care works as well as specialist care \u2014 but neither relieves caregiver burden",
-      "journal": "BMJ Supportive & Palliative Care",
-      "pubdate": "2026 Sep 16",
-      "doi": "10.1136/spcare-2026-006291",
-      "groundbreaking": "Counterintuitive finding / Major elder care or policy implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a secondary analysis of the EMPallA multicentre RCT, recruiting 323 caregivers (mean age 56.9) across 18 U.S. emergency departments between 2018 and 2022. Caregivers were enrolled alongside seriously ill patients randomized to either nurse-led telephonic palliative care or traditional specialty palliative care. Neither model improved caregiver strain, quality of life, or bereavement outcomes at six months compared to the other.",
-      "why_it_matters": "The finding suggests that even well-designed palliative care interventions may not adequately address the psychological and emotional burden carried by caregivers of seriously ill older adults \u2014 pointing to a major gap in current care models.",
-      "caveats": "secondary analysis, caregiver age mean 56.9 (not exclusively 65+), no specific caregiver intervention was designed or tested, observational caregiving outcomes within RCT",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "RCT-embedded, caregiver burden focus, clear policy hook, U.S. multi-site.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "Neither phone-based nor specialist palliative care eased caregiver burden in major U.S. trial",
-          "hook": "A large multicentre randomized trial found that two of the most promoted palliative care delivery models left caregivers equally strained, depressed, and bereaved.",
-          "pitch_angle": "The EMPallA trial, spanning 18 U.S. emergency departments, found no measurable difference in caregiver strain or mental health outcomes between nurse-led telephonic and specialty palliative care \u2014 raising urgent questions about whether current palliative care models are designed to help patients at the expense of the people caring for them."
-        },
-        {
-          "publication_type": "KFF Health News",
-          "headline": "Palliative care's caregiving blind spot: Major trial finds neither model helps families cope",
-          "hook": "Despite the promise of telehealth-delivered palliative care, a study of 323 caregivers found no model reduced the stress, grief, or mental health toll of caring for a seriously ill loved one.",
-          "pitch_angle": "As policymakers expand nurse-led and telephonic palliative care to cut costs and broaden access, new evidence suggests these models are failing to address caregiver wellbeing \u2014 a critical and underfunded dimension of serious illness care with significant Medicaid and Medicare policy implications."
-        }
-      ],
-      "run_date": "2026-09-17",
-      "category": "Palliative Care",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42746915",
       "headline": "An RA drug may help older adults with a painful muscle condition cut their steroid use in half",
       "journal": "Scandinavian Journal of Rheumatology",
@@ -181,60 +1054,6 @@
       "run_date": "2026-09-17",
       "category": "Rheumatology",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42742822",
-      "headline": "Municipal health systems lack the organizational readiness to actually deliver health promotion for older adults, professionals say",
-      "journal": "Scandinavian Journal of Occupational Therapy",
-      "pubdate": "2026 Sep 15",
-      "doi": "10.1007/s44474-026-00008-0",
-      "groundbreaking": "Major elder care or policy implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted five focus group discussions with 22 professionals \u2014 including occupational therapists and managers from seven Swedish municipalities \u2014 to explore barriers to health-promoting interventions for older adults. Participants described insufficient organizational structures, fragmented collaboration, and reactive rather than proactive working methods as key obstacles. The overarching finding was that municipal health and social care systems currently lack the readiness to embed health promotion into routine practice, though participants identified concrete pathways to build it.",
-      "why_it_matters": "The gap between the policy aspiration of proactive elder care and the ground-level organizational capacity to deliver it has direct implications for aging populations worldwide, where prevention-focused community services are increasingly seen as essential to reducing institutionalization.",
-      "caveats": "small sample (N<100), qualitative design, single-country (Sweden), no age breakdown reported for study participants",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Policy-relevant elder care finding; qualitative, small sample, Sweden-specific context limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "McKnight's Senior Living",
-          "headline": "The Infrastructure Gap: Why Municipal Care Systems Aren't Ready to Prevent Decline in Older Adults",
-          "hook": "Frontline professionals say the systems meant to keep older adults healthy simply aren't built for it.",
-          "pitch_angle": "A qualitative study from Sweden found that municipal health and social care organizations lack the coordinated structures, shared focus, and proactive working methods needed to deliver health-promoting interventions for older adults. For elder care administrators, the findings offer a frank diagnostic of why prevention efforts stall \u2014 and a roadmap of what organizational change would be required."
-        }
-      ],
-      "run_date": "2026-09-17",
-      "category": "Physical and Rehabilitation Medicine",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42744586",
-      "headline": "A new three-type classification system may finally tell surgeons which rare brain vessel disorder patients are too risky to treat",
-      "journal": "AJNR. American Journal of Neuroradiology",
-      "pubdate": "2026 Sep 15",
-      "doi": "10.3174/ajnr.A9639",
-      "groundbreaking": "First-in-class human study / Major elder care or policy implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers retrospectively analyzed 59 consecutive patients with vertebrobasilar dolichoectasia \u2014 a rare, often fatal cerebrovascular disorder \u2014 who underwent flow-diverter implantation at a Beijing center between 2018 and 2023. Using imaging features including lesion location relative to the AICA and presence of intraluminal thrombus, they proposed a three-subtype classification (Types A, B, C). Perioperative unfavorable outcomes occurred in 50% of Type A patients versus just 6.5% of Type C patients, suggesting the classification may meaningfully stratify procedural risk.",
-      "why_it_matters": "Vertebrobasilar dolichoectasia predominantly affects older adults and has few reliable treatment predictors; a classification system that identifies which patients face the highest procedural risk could help clinicians and families weigh whether intervention is appropriate.",
-      "caveats": "small sample (N<100), single-center, observational design, retrospective, incomplete angiographic follow-up (57.6%), no age breakdown reported",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Novel risk classification for rare cerebrovascular condition; limited by small single-center sample.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today",
-          "headline": "Three-Subtype Classification May Predict Who Faces Highest Risk From Flow-Diverter Treatment of Rare Brain Vessel Disease",
-          "hook": "Half of patients with the highest-risk subtype of vertebrobasilar dolichoectasia experienced adverse perioperative outcomes \u2014 compared to just 6.5% of the lowest-risk subtype.",
-          "pitch_angle": "A retrospective study of 59 patients proposes a simple imaging-based classification that stratifies procedural risk, potentially helping neurologists counsel older patients and families before a procedure that carries substantial complication rates across all subtypes."
-        }
-      ],
-      "run_date": "2026-09-17",
-      "category": "Neurology",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -321,39 +1140,6 @@
       ],
       "run_date": "2026-09-17",
       "category": "Rheumatology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42735821",
-      "headline": "Patients with heart, lung, and kidney disease are asking about assisted dying \u2014 and most of their clinicians aren't ready to respond",
-      "journal": "Journal of Pain and Symptom Management",
-      "pubdate": "2026 Sep 14",
-      "doi": "10.1016/j.jpainsymman.2026.09.010",
-      "groundbreaking": "Major elder care or policy implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "An anonymous national survey of 189 Australian clinicians \u2014 predominantly nurses (70%) working in chronic heart, lung, and kidney disease \u2014 found that 56% had already been approached by patients or families about voluntary assisted dying (VAD), yet 44% had received no training on the topic. Thematic analysis identified five intersecting barriers to VAD conversations: knowledge gaps, uncertain professional identity, fears about consequences, organizational culture, and social influences. Researchers found that VAD queries represent missed opportunities for broader end-of-life dialogue in a patient population that rarely receives proactive palliative conversations.",
-      "why_it_matters": "As voluntary assisted dying becomes legal in more jurisdictions, the study suggests that chronic disease clinicians \u2014 who see some of the most burdened older patients \u2014 are being left without training or institutional support to handle one of the most sensitive conversations in medicine.",
-      "caveats": "single-country (Australia), self-reported outcomes, predominantly female nurse sample limiting generalizability to broader clinician workforce, observational design, snowball sampling",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Clear policy hook, end-of-life care focus, Australian context limits direct U.S. applicability.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "Most chronic disease clinicians are unprepared when seriously ill patients ask about assisted dying",
-          "hook": "More than half of Australian nurses and doctors caring for patients with heart, lung, and kidney disease have been asked about voluntary assisted dying \u2014 but nearly half have had zero training on how to respond.",
-          "pitch_angle": "As assisted dying laws expand globally and in U.S. states, a national Australian survey finds that the clinicians most likely to receive these queries \u2014 chronic disease nurses \u2014 are among the least prepared, raising urgent questions about how health systems are equipping frontline staff to handle end-of-life conversations in non-oncology settings."
-        },
-        {
-          "publication_type": "MedPage Today",
-          "headline": "VAD queries in cardiology, pulmonology, and nephrology: Clinicians say they're unprepared",
-          "hook": "Patients with serious chronic illness are raising voluntary assisted dying with their specialists \u2014 often catching clinicians off guard and without institutional guidance.",
-          "pitch_angle": "A qualitative analysis of 189 Australian clinicians finds that VAD conversations in non-oncology chronic disease settings are common but poorly supported, with training gaps, professional uncertainty, and organizational culture all discouraging open dialogue \u2014 suggesting a systemic failure to integrate end-of-life communication into chronic disease care."
-        }
-      ],
-      "run_date": "2026-09-17",
-      "category": "Palliative Care",
       "chunk": "2/2",
       "status": "new"
     },
@@ -559,147 +1345,6 @@
       "status": "new"
     },
     {
-      "pmid": "42725877",
-      "headline": "A simple clinic registry erased racial gaps in Parkinson's research enrollment \u2014 Black and Hispanic veterans signed up at the same rate as White patients",
-      "journal": "Journal of Parkinson's Disease",
-      "pubdate": "2026 Sep 11",
-      "doi": "10.1177/1877718X261487914",
-      "groundbreaking": "Major elder care or policy implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at a Bronx Veterans Affairs Medical Center developed a real-time clinical registry to track research eligibility and participation for all parkinsonism patients, combined with targeted outreach to reduce sociocultural and language barriers. Over 19 months, 192 eligible patients (ages 53\u201391; 96.4% male) were identified, 87% were invited to participate, and 80.5% of those who made a decision agreed to enroll. Crucially, acceptance rates were statistically equivalent across Black (79.4%), Hispanic (87.5%), and White (80.2%) patients.",
-      "why_it_matters": "The finding suggests that a structured, bias-aware registry \u2014 not elaborate interventions \u2014 may be sufficient to close longstanding racial enrollment gaps in neurological research, with direct implications for the quality and generalizability of future Parkinson's disease data.",
-      "caveats": "single-center, observational design, predominantly male sample (96.4%), short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Clear diversity/policy hook; strong enrollment design; elder age range included.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "A VA clinic ended racial disparities in Parkinson's research enrollment with a spreadsheet and intentional outreach \u2014 not a major intervention",
-          "hook": "For decades, Black and Hispanic patients have been systematically underrepresented in Parkinson's research \u2014 a new study suggests the fix may be simpler than anyone assumed.",
-          "pitch_angle": "By tracking every eligible patient in real time and addressing cultural and language barriers head-on, a Bronx VA team achieved statistically equal enrollment rates across racial and ethnic groups in a parkinsonism study. The approach challenges the assumption that closing research diversity gaps requires expensive or complex interventions."
-        },
-        {
-          "publication_type": "MedPage Today",
-          "headline": "Parkinsonism registry achieves racially equitable enrollment at VA \u2014 and the method is replicable",
-          "hook": "A real-time clinical registry that flagged every eligible parkinsonism patient \u2014 regardless of race \u2014 produced enrollment parity that most neurology trials never approach.",
-          "pitch_angle": "The 19-month single-center study found that 80%+ of Black, Hispanic, and White veterans with parkinsonism agreed to enroll when systematically approached, suggesting selection bias at the invitation stage \u2014 not patient reluctance \u2014 drives most diversity gaps in neurological research."
-        }
-      ],
-      "run_date": "2026-09-17",
-      "category": "Neurology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42725724",
-      "headline": "Surgeons used a radar reflector \u2014 the same technology that guides breast tumor removal \u2014 to find hidden nerve lesions during surgery",
-      "journal": "Operative Neurosurgery",
-      "pubdate": "2026 Sep 11",
-      "doi": "10.1227/ons.0000000000002200",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Surgeons at the University of Pennsylvania used implantable radar reflectors \u2014 placed preoperatively by radiologists \u2014 to guide intraoperative localization of deep or anatomically distorted peripheral nerves in 21 patients (mean age 57 years), including those with prior surgery, radiation, or high BMI. The technique was used for nerve tumor resection, neurolysis/repair, and nerve transfer procedures. Reflectors were successfully located and removed in all 21 cases with no device-related complications.",
-      "why_it_matters": "Peripheral nerve damage is common in older adults with cancer, diabetes, and trauma histories, and a navigation tool that works in scarred or obese tissue could improve surgical precision and outcomes in this population.",
-      "caveats": "small sample (N<100), single-center, retrospective, short follow-up, no age breakdown reported, no functional outcome data reported",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Novel surgical tool; small feasibility series; mean age 57, limited elder-specific data.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "The radar tech that finds breast tumors in surgery is now helping surgeons locate hidden nerve lesions \u2014 in a first small series",
-          "hook": "Finding a nerve buried in scar tissue or fat has always been one of surgery's hardest problems \u2014 a borrowed technology from oncology may now offer a solution.",
-          "pitch_angle": "In 21 patients, surgeons used preoperatively implanted radar reflectors and a handheld detector to pinpoint deep or distorted peripheral nerves in real time, with 100% technical success and no complications. If validated in larger studies, the approach could be especially valuable for older patients whose nerves are harder to locate due to prior cancer treatment, trauma, or obesity."
-        }
-      ],
-      "run_date": "2026-09-17",
-      "category": "Neurology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42726432",
-      "headline": "A common habit \u2014 smoking \u2014 predicts who develops a painful skin condition from widely used arthritis drugs",
-      "journal": "Clinical Rheumatology",
-      "pubdate": "2026 Sep 11",
-      "doi": "10.1007/s10067-026-08417-z",
-      "groundbreaking": "Counterintuitive finding / Major elder care or policy implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a single-center retrospective cohort study of 1,588 adult patients with axial spondyloarthritis or rheumatoid arthritis in Istanbul who were treated with biologic or targeted synthetic DMARDs between 2019 and 2024; no age range was reported. Paradoxical psoriasis \u2014 de novo skin lesions triggered by the drug meant to treat inflammation \u2014 developed in 2% of patients, with 93.8% of cases occurring in patients on TNF inhibitors and none observed with JAK inhibitors, rituximab, or tocilizumab. Ever-smoking was the sole independent predictor of this adverse reaction, and stopping the causative drug led to complete remission in about half of affected patients.",
-      "why_it_matters": "For older adults with rheumatoid arthritis or axial spondyloarthritis who smoke or have a smoking history, this finding suggests clinicians may want to monitor their skin proactively when prescribing TNF inhibitors \u2014 and that non-TNF alternatives may be preferable if the reaction occurs.",
-      "caveats": "single-center, observational design, retrospective design, no age breakdown reported",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Clinically useful rheumatology finding; no age breakdown limits geriatric relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today",
-          "headline": "Smokers on TNF Inhibitors Face Higher Risk of Paradoxical Psoriasis, Study Finds",
-          "hook": "Nearly all cases of paradoxical psoriasis in a 1,500-patient rheumatology cohort occurred on TNF inhibitors \u2014 and smoking was the only independent predictor.",
-          "pitch_angle": "A retrospective study found that ever-smoking more than doubled the odds of developing paradoxical psoriasis in RA and axial spondyloarthritis patients on biologics, with zero cases seen on JAK inhibitors. The finding suggests a practical screening and drug-selection signal for rheumatologists managing patients with smoking histories."
-        }
-      ],
-      "run_date": "2026-09-17",
-      "category": "Rheumatology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42727982",
-      "headline": "A nerve stimulator implanted near the vagus nerve erased a trauma survivor's 10/10 chronic pain \u2014 but it's a single case",
-      "journal": "Regional Anesthesia and Pain Medicine",
-      "pubdate": "2026 Sep 11",
-      "doi": "10.1136/rapm-2026-108153",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers describe the first reported use of ultrasound-guided percutaneous temporary vagus nerve stimulation in a single patient \u2014 a woman in her late 20s \u2014 with refractory chronic pain, PTSD, and occipital neuralgia following traumatic brain injuries from domestic violence. Over 60 days of temporary implantation, pain scores dropped from 10/10 to 0/10, with reported resolution of GI symptoms, fatigue, and PTSD symptoms. Analgesic improvement was sustained at 4-month follow-up, though PTSD symptom scores increased during that period and no baseline PTSD measure was available.",
-      "why_it_matters": "This novel minimally invasive nerve stimulation technique, if validated in larger trials, could offer a new option for trauma survivors whose chronic pain and PTSD have failed conventional treatments.",
-      "caveats": "small sample (N<100), single-center, self-reported outcomes, short follow-up, industry funding [SPR Therapeutics, Curonix], no age breakdown reported",
-      "fact_check_note": "The abstract notes that baseline PCL-5 (PTSD) scores were unavailable, meaning the magnitude of PTSD improvement cannot be quantified \u2014 and PTSD symptom scores actually increased during follow-up; this nuance must not be omitted.",
-      "relevance_score": 4,
-      "relevance_score_reason": "Single case report, patient under 65, pain management hook but weak generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "A nerve stimulator wiped out a trauma survivor's chronic pain \u2014 but the evidence is a single patient",
-          "hook": "A woman whose pain scores were maxed at 10/10 after domestic violence trauma reported zero pain after a novel vagus nerve implant \u2014 raising questions about what comes next.",
-          "pitch_angle": "Researchers describe the first percutaneous vagus nerve stimulation technique for co-occurring chronic pain and PTSD, with striking early results in one case. The lead author holds equity in a neuromodulation company, making independent replication essential before clinical enthusiasm outpaces evidence."
-        }
-      ],
-      "run_date": "2026-09-17",
-      "category": "Neurology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42726330",
-      "headline": "A minimally invasive nerve stimulation technique offers new hope for people with chronic headaches that won't respond to medication",
-      "journal": "Current Pain and Headache Reports",
-      "pubdate": "2026 Sep 11",
-      "doi": "10.1007/s11916-026-01562-9",
-      "groundbreaking": "None identified",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This narrative review describes a peripheral nerve stimulation (PNS) technique targeting the C2-C3 cervical nerve branches for patients with refractory chronic headaches and occipital neuralgia, focusing on anatomical guidance and procedural technique rather than presenting new patient outcome data. The authors note that wireless neuromodulation advances have reduced implant-related complications such as infection and device replacement, though lead migration and anatomic variability remain challenges. No original human or animal study data were collected for this report.",
-      "why_it_matters": "Chronic refractory headache is common in older adults and often inadequately treated, and a well-described minimally invasive nerve stimulation approach could inform clinical decision-making for this population.",
-      "caveats": "observational design, no age breakdown reported, industry funding [Medtronic, Curonix, Avanos, Averitas]",
-      "fact_check_note": "The conflict of interest statement confirms the lead author (Abd-Elsayed) is a consultant for Medtronic, Curonix, Avanos, and Averitas \u2014 all relevant industry relationships for a device-technique review.",
-      "relevance_score": 4,
-      "relevance_score_reason": "Technique description only, no outcome data, minor pain management hook for older adults.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today",
-          "headline": "A wireless nerve stimulator targets two cervical nerves to tame treatment-resistant chronic headaches",
-          "hook": "A detailed procedural review describes how stimulating the C2-C3 nerve branches with a wireless implant may offer relief to patients whose chronic headaches have exhausted conventional options.",
-          "pitch_angle": "The technique description, including anatomical landmarks and lead placement guidance, gives clinicians a roadmap for a procedure that avoids the complications of older implanted pulse generators. However, the review is authored by industry consultants and contains no new patient outcome data, warranting cautious interpretation."
-        }
-      ],
-      "run_date": "2026-09-17",
-      "category": "Neurology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42726299",
       "headline": "Standard brain scans miss hidden electrical patterns that distinguish first-episode psychosis \u2014 a dynamic EEG method catches what static measures can't",
       "journal": "Brain Topography",
@@ -724,33 +1369,6 @@
       "run_date": "2026-09-17",
       "category": "Neurology",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42727770",
-      "headline": "A new dual-injection brain imaging technique may make rare vascular brain lesions easier to treat",
-      "journal": "World Neurosurgery",
-      "pubdate": "2026 Sep 11",
-      "doi": "10.1016/j.wneu.2026.125325",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Nagasaki University developed a novel cone-beam CT technique using sequential diluted and undiluted contrast injections to simultaneously visualize arterial, shunt, and venous anatomy in dural arteriovenous fistulas (dAVFs). The technique was tested in 45 consecutive patients across 55 imaging sessions. No adverse events were reported and the approach successfully mapped treatment targets in all cases after minor timing adjustments in two sessions.",
-      "why_it_matters": "Dural arteriovenous fistulas disproportionately affect older adults and are notoriously difficult to map precisely \u2014 improved imaging that integrates flow information with 3D anatomy in a single acquisition could eventually reduce procedural complications in this population.",
-      "caveats": "small sample (N<100), single-center, observational design, no age breakdown reported",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Technically novel imaging study; limited direct geriatric or policy relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today",
-          "headline": "New Cone-Beam CT Technique Maps Brain Vascular Fistulas in a Single 3D Scan",
-          "hook": "A dual-injection imaging method let neurosurgeons simultaneously see arterial feeders, shunt points, and venous drainage in rare brain vascular lesions \u2014 something conventional techniques couldn't do.",
-          "pitch_angle": "Researchers tested the contrast-density gradient cone-beam CT in 45 patients with dural arteriovenous fistulas with no adverse events, suggesting it could streamline preoperative planning for a condition that often affects older adults and carries significant stroke risk."
-        }
-      ],
-      "run_date": "2026-09-17",
-      "category": "Neurology",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -952,33 +1570,6 @@
       "run_date": "2026-09-17",
       "category": "Rheumatology",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42732293",
-      "headline": "Training nursing home staff in 'death literacy' improved attitudes but didn't move the needle on end-of-life conversations",
-      "journal": "Palliative Care and Social Practice",
-      "pubdate": "2026",
-      "doi": "10.1177/26323524261488419",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a participatory action research project in six residential care facilities for older people in Stockholm, Sweden, using workshops to build 'Death Literacy' among staff and promote proactive end-of-life conversations. Pre-post survey data using the Death Literacy Index showed no statistically positive change over time, likely due to ceiling effects and high baseline scores. Qualitative findings, however, suggested meaningful individual, group, and organizational impacts not captured by the survey instrument.",
-      "why_it_matters": "The gap between measurable survey outcomes and qualitative impact signals that widely used tools for evaluating end-of-life communication training in elder care settings may be inadequate \u2014 potentially causing promising programs to be written off prematurely.",
-      "caveats": "single-center, small sample (N<100 facilities; staff count not specified), observational design, Swedish context limits generalizability, ceiling effects on primary measure, participatory research design limits researcher control",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Methodological interest, Sweden-only, no age breakdown of participants, limited U.S. policy hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "McKnight's Senior Living",
-          "headline": "Death literacy training for nursing home staff may work better than surveys suggest",
-          "hook": "A Swedish study found that standard evaluation tools missed real cultural and behavioral changes in staff after end-of-life communication workshops \u2014 raising doubts about how care facilities measure training effectiveness.",
-          "pitch_angle": "As nursing homes face pressure to improve advance care planning and end-of-life conversations, this study suggests that the tools used to evaluate staff training programs may systematically undercount their real-world impact, potentially leading administrators to discontinue programs that are quietly working."
-        }
-      ],
-      "run_date": "2026-09-17",
-      "category": "Palliative Care",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -1795,33 +2386,6 @@
       "status": "new"
     },
     {
-      "pmid": "42727790",
-      "headline": "Low-dose ketamine infusion dramatically cuts opioid use in cancer patients with severe mouth and throat pain \u2014 a small but striking trial",
-      "journal": "Journal of Pain and Symptom Management",
-      "pubdate": "2026 Sep 11",
-      "doi": "10.1016/j.jpainsymman.2026.09.003",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a prospective, double-blind, randomized phase 2 trial conducted at Monash Health in Australia, 16 adults with opioid-refractory oral and pharyngeal mucositis pain (average pain score \u22654/10) were randomized to receive continuous subcutaneous ketamine (100\u2013300 mg/day) or an active midazolam placebo for 3\u20135 days. Among the ketamine group, 77.8% achieved clinically meaningful pain reduction compared to 14.3% in the placebo group, with average pain scores dropping 5.40 points versus 0.72 in controls. Daily opioid requirements fell significantly in the ketamine group while rising sharply in the placebo group, and adverse effects were mild and comparable between arms.",
-      "why_it_matters": "For cancer patients whose severe mouth pain cannot be controlled with opioids \u2014 a notoriously difficult clinical scenario in palliative and supportive care \u2014 this early evidence suggests low-dose ketamine infusion may offer meaningful relief with a favorable safety profile.",
-      "caveats": "small sample (N<100), single-center, short follow-up, no age breakdown reported",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Pain management in palliative care is strong topic fit; N=16 is a major caveat limiting score.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / MedPage Today",
-          "headline": "Ketamine slashes opioid use in cancer patients with agonizing mouth sores \u2014 small trial shows striking results",
-          "hook": "In one of the first randomized controlled trials of ketamine for mucositis pain, nearly 78% of patients on the drug got meaningful relief \u2014 compared to just 14% on placebo \u2014 and their opioid use actually fell.",
-          "pitch_angle": "Oral mucositis is among the most debilitating side effects of cancer treatment and notoriously resistant to opioids; this phase 2 trial from Australia found continuous subcutaneous ketamine not only reduced pain dramatically but also cut daily opioid requirements while the control group's needs surged. Though the sample is tiny at 16 patients, the effect size and design warrant attention as larger trials are developed."
-        }
-      ],
-      "run_date": "2026-09-15",
-      "category": "Palliative Care",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42727940",
       "headline": "Dementia-friendly videos calm agitated patients \u2014 but staff can't find the equipment or time to use them consistently",
       "journal": "Dementia (London, England)",
@@ -1912,33 +2476,6 @@
       "run_date": "2026-09-15",
       "category": "Physical and Rehabilitation Medicine",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42725636",
-      "headline": "Doctors often rely on 'gut instinct' \u2014 and proxies like zip code \u2014 when deciding which children get a key spasticity treatment",
-      "journal": "Journal of Pediatric Rehabilitation Medicine",
-      "pubdate": "2026 Sep 11",
-      "doi": "10.1177/18758894261490635",
-      "groundbreaking": "Major elder care or policy implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Qualitative interviews with 22 providers across five pediatric specialties examined how physicians assess caregiver reliability when deciding whether children with severe cerebral palsy (GMFCS IV\u2013V) qualify for intrathecal baclofen therapy. Providers reported using subjective proxies \u2014 including geographic distance to clinic, socioeconomic status, and social situation \u2014 rather than standardized tools, often citing 'gut instinct.' Researchers warn that relying on these indirect markers may introduce bias and create inequitable access to a treatment that can significantly reduce severe spasticity.",
-      "why_it_matters": "The absence of standardized caregiver reliability assessments suggests that access to a highly effective spasticity treatment for children with cerebral palsy may be shaped by socioeconomic bias rather than clinical need \u2014 a finding with direct implications for health equity in pediatric rehabilitation.",
-      "caveats": "small sample (N<100), observational design, single-center, self-reported outcomes",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Health equity and policy angle is strong, but study is pediatric with no geriatric relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "KFF Health News",
-          "headline": "Doctors Use Zip Codes and 'Gut Feelings' to Decide Which Disabled Kids Get a Critical Treatment",
-          "hook": "When physicians decide whether a child with severe cerebral palsy qualifies for a surgically implanted spasticity pump, they may be weighing the family's address and income as much as medical need.",
-          "pitch_angle": "A qualitative study found that without standardized tools, providers default to socioeconomic proxies to assess caregiver reliability \u2014 raising concerns that access to intrathecal baclofen therapy, which can dramatically improve quality of life, may be shaped by structural inequity rather than clinical criteria."
-        }
-      ],
-      "run_date": "2026-09-15",
-      "category": "Physical and Rehabilitation Medicine",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -2260,66 +2797,6 @@
       "run_date": "2026-09-14",
       "category": "Rheumatology",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42731737",
-      "headline": "Younger palliative care patients carry heavier medication burdens than patients over 80 \u2014 and many taper-required drugs are stopped abruptly",
-      "journal": "Journal of Pain and Symptom Management",
-      "pubdate": "2026 Sep 12",
-      "doi": "10.1016/j.jpainsymman.2026.09.009",
-      "groundbreaking": "Counterintuitive finding / Major elder care or policy implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This retrospective cohort study tracked medication use across five timepoints for 386 adults (median age 78, IQR 69\u201387) admitted to an Australian metropolitan palliative care unit in 2023. Polypharmacy was more likely in patients admitted for symptom management and those with endocrine comorbidities, while patients aged 80 or older and those in the terminal phase had significantly lower odds of polypharmacy. Medications requiring gradual tapering \u2014 including proton pump inhibitors, beta-blockers, and antidepressants \u2014 were frequently discontinued abruptly without an observed dose reduction.",
-      "why_it_matters": "The finding that younger palliative patients bear greater medication burdens, and that drugs typically requiring tapering are commonly stopped cold, points to specific safety gaps in deprescribing practice that could affect symptom control and patient comfort at end of life.",
-      "caveats": "single-center, observational design, single-country (Australia), retrospective",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Polypharmacy and deprescribing are high-priority elder care topics; counterintuitive age finding; clean cohort design.",
-      "pitch_angles": [
-        {
-          "publication_type": "Kaiser Health News",
-          "headline": "Palliative patients are being taken off antidepressants and heart drugs cold turkey \u2014 and younger patients face the heaviest pill burdens",
-          "hook": "A new Australian study found that medications normally requiring slow tapering \u2014 including antidepressants and beta-blockers \u2014 are frequently discontinued abruptly in palliative care, while the patients carrying the heaviest drug loads are often the younger ones.",
-          "pitch_angle": "As deprescribing gains attention as a quality-of-care issue, this study reveals a gap between best-practice guidelines and real-world palliative prescribing, raising questions about whether abrupt drug cessation may be causing avoidable symptoms in dying patients across care systems worldwide."
-        },
-        {
-          "publication_type": "McKnight's Senior Living",
-          "headline": "Palliative units often skip tapering when stopping key medications \u2014 a risk for older residents",
-          "hook": "Drugs like antidepressants and beta-blockers were frequently stopped without dose reduction in a study of nearly 400 palliative care patients, a practice that can cause withdrawal symptoms.",
-          "pitch_angle": "For senior living and long-term care operators whose residents transition to palliative status, the findings highlight a need for systematic medication review protocols at care transitions to avoid compounding suffering with unnecessary drug discontinuation side effects."
-        }
-      ],
-      "run_date": "2026-09-14",
-      "category": "Palliative Care",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42728769",
-      "headline": "Nearly half of family cancer caregivers in Gaza showed severe anxiety \u2014 and unmet information needs were the strongest predictor",
-      "journal": "Palliative Medicine",
-      "pubdate": "2026 Sep 11",
-      "doi": "10.1177/02692163261485102",
-      "groundbreaking": "Major elder care or policy implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers surveyed 388 family caregivers of adults with advanced cancer at a single hospital in the Gaza Strip (May\u2013August 2022, pre-escalation conflict period) using validated scales for psychological distress and unmet care needs. Severe or extremely severe symptoms were common: depression 33%, anxiety 44%, and stress 30%, with unmet information (81%) and practical support (78%) needs most prevalent. In adjusted analysis, greater unmet supportive care needs and female caregiver status were independently associated with higher psychological distress.",
-      "why_it_matters": "The study quantifies how dramatically unmet information and practical support needs compound caregiver psychological distress in resource-constrained settings \u2014 a dynamic relevant to under-resourced elder cancer care contexts globally, not only in conflict zones.",
-      "caveats": "observational design, single-center, cross-sectional, self-reported outcomes, conflict-affected setting limiting generalizability, no age breakdown reported for caregivers, data collected pre-2023 escalation",
-      "fact_check_note": "Study was conducted May\u2013August 2022, prior to the post-October 2023 conflict escalation; context differs substantially from current Gaza conditions and should be noted in any coverage.",
-      "relevance_score": 5,
-      "relevance_score_reason": "Caregiver distress hook, but Gaza-specific context and cross-sectional design limit generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Kaiser Health News",
-          "headline": "For cancer caregivers, not knowing what's happening is as damaging as the caregiving itself",
-          "hook": "A study of nearly 400 family cancer caregivers found that unmet information needs \u2014 not just caregiving demands \u2014 were the strongest predictor of severe anxiety and depression.",
-          "pitch_angle": "Though the study was conducted in conflict-affected Gaza, its core finding \u2014 that structured information provision is a modifiable target for reducing caregiver psychological distress \u2014 has direct implications for US palliative and oncology care systems, where caregiver support remains inconsistently integrated into care plans."
-        }
-      ],
-      "run_date": "2026-09-14",
-      "category": "Palliative Care",
-      "chunk": "1/2",
       "status": "new"
     },
     {
