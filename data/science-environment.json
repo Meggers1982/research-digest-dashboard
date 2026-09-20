@@ -1,93 +1,900 @@
 {
-  "last_updated": "2026-09-19T14:56:28.948937+00:00",
-  "total_studies": 1053,
-  "new_this_run": 15,
+  "last_updated": "2026-09-20T15:12:36.200659+00:00",
+  "total_studies": 1066,
+  "new_this_run": 17,
   "studies": [
     {
+      "pmid": "42762259",
+      "headline": "A mathematician claims the genetic code's structure follows a theoretical algebra \u2014 and tests it on 70,000 species",
+      "journal": "Journal of Molecular Evolution",
+      "pubdate": "2026 Sep 19",
+      "doi": "10.1007/s00239-026-10343-2",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "An independent researcher analyzed genome-scale codon usage data from 70,950 species spanning all domains of life to test whether the standard genetic code's structure is consistent with a mathematically derived framework called 'First-Classness,' which predicts the code's degeneracy partition from algebraic constraints alone. The analysis found that within-family codon usage patterns follow an ordering consistent with the framework's architectural constraints, and that split six-fold codon families show consistent sub-block dominance across archaea, bacteria, and eukaryotes. However, a global statistical test against a null model found no separable signal, leaving the interpretation ambiguous.",
+      "why_it_matters": "If the genetic code's structure can be predicted by mathematical constraints independent of biology, it would suggest the code is not an evolutionary accident but a near-inevitable outcome \u2014 a profound shift in how scientists understand life's molecular foundations.",
+      "caveats": "purely computational with no validation, single author (independent researcher), results mixed \u2014 global test non-significant",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Niche molecular evolution theory; mixed results; limited public health or everyday-life relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist",
+          "headline": "Did Math Predict the Genetic Code Before Life Even Existed?",
+          "hook": "A mathematically derived framework with no biological input appears to predict the structure of the genetic code across 70,000 species \u2014 though a key statistical test came up empty.",
+          "pitch_angle": "An independent researcher's analysis of codon usage across nearly all known domains of life finds partial support for the idea that the genetic code's architecture is constrained by abstract algebra rather than shaped purely by evolution. The ambiguous results make it a provocative open question rather than a settled answer \u2014 exactly the kind of debate that drives molecular evolution forward."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42762872",
+      "headline": "Nano-coated RNA could finally let farmers spray viruses into submission \u2014 if it works outside the lab",
+      "journal": "Microbial Pathogenesis",
+      "pubdate": "2026 Sep 19",
+      "doi": "10.1016/j.micpath.2026.108834",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This review synthesizes current knowledge on using RNA interference (RNAi) delivered via nanoparticles to protect crops against viral disease, covering nanocarrier systems, antiviral mechanisms, and regulatory hurdles. The paper critically evaluates where different nano-RNAi technologies sit on the lab-to-field translation pathway, proposing a practical framework for field deployment. The central finding is that while nano-enabled RNAi shows promise for sustainable plant virus management, the key translational gap is converting lab efficacy into field-stable, scalable formulations that can survive UV exposure, rain, and enzymatic degradation.",
+      "why_it_matters": "Plant viruses devastate food crops globally and are worsening with climate change, so scalable biotech alternatives to pesticides could reshape agricultural food security.",
+      "caveats": "secondary analysis, single author, no original experimental data",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Interesting agri-biotech angle but review paper, no new data, narrow specialist audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired / MIT Technology Review",
+          "headline": "Farmers May One Day Spray RNA-Coated Nanoparticles to Fight Crop Viruses \u2014 Here's What's Standing in the Way",
+          "hook": "RNA interference can silence viruses with molecular precision, but getting it to stick to a rain-soaked leaf in a farm field is a whole different problem.",
+          "pitch_angle": "Nanoparticle delivery of RNAi is emerging as a pesticide-free way to protect crops from viral disease, but a new review argues the real bottleneck is field stability, not lab efficacy. As climate change reshapes plant-virus dynamics, solving that formulation problem could define the next era of sustainable agriculture."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42763093",
+      "headline": "A newly discovered mobile genetic element is ferrying untreatable-infection genes across bacterial species worldwide",
+      "journal": "Journal of Global Antimicrobial Resistance",
+      "pubdate": "2026 Sep 19",
+      "doi": "10.1016/j.jgar.2026.09.007",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers genomically characterized 17 carbapenem-resistant Klebsiella pneumoniae isolates collected in French Polynesia between 2006 and 2021, identifying seven NDM-producing strains. Among them, they discovered a novel transposon, Tn7722, that carries the NDM-1 carbapenemase gene along with additional resistance genes and was found embedded in plasmids across four isolates; database searches revealed Tn7722-like elements in diverse bacterial genomes globally. The findings suggest this mobile element is actively moving carbapenem-resistance genes between bacterial species and geographic regions, contributing to the spread of last-resort antibiotic resistance.",
+      "why_it_matters": "NDM-producing bacteria are resistant to carbapenem antibiotics \u2014 the last line of defense against many life-threatening infections \u2014 and discovering a novel vehicle capable of spreading resistance genes across species and continents raises fresh concerns about the pace of global antibiotic resistance evolution.",
+      "caveats": "small sample (N<100), observational design, single-center, retrospective",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Antibiotic resistance topic bonus; novel global transmission vehicle; small N caveat.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired / Scientific American",
+          "headline": "Scientists Found a New Genetic Shuttle Spreading Last-Resort Antibiotic Resistance Across the Bacterial World",
+          "hook": "A newly identified DNA element called Tn7722 is carrying a gene that defeats carbapenems \u2014 antibiotics used only when everything else fails \u2014 and appears to be ferrying that gene between unrelated bacterial species on multiple continents.",
+          "pitch_angle": "Transposons are nature's resistance-gene delivery trucks, and Tn7722 appears to be unusually promiscuous, hitching rides on different types of plasmids in diverse bacteria far from where it was first found in French Polynesia. The discovery adds a new element to track in global antibiotic resistance surveillance, particularly as NDM-producing bacteria increasingly appear outside traditional hotspots."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42762271",
+      "headline": "A simple blood and saliva test may predict which colorectal cancer patients will need chemotherapy dose cuts \u2014 before toxicity strikes",
+      "journal": "European Journal of Drug Metabolism and Pharmacokinetics",
+      "pubdate": "2026 Sep 19",
+      "doi": "10.1007/s13318-026-01039-5",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers collected blood and saliva samples from 24 colorectal cancer patients across two cycles of 5-FU-based adjuvant chemotherapy, tracking shifts in key metabolites including homocysteine, uracil, and 5-FU itself. Half the patients ultimately required a dose reduction due to toxicity, and those patients showed distinct metabolite patterns \u2014 higher plasma homocysteine and lower salivary uracil at cycle start \u2014 compared to those who tolerated full doses. A predictive model combining changes in uracil and 5-FU levels between cycles, plus patient sex, strongly predicted who would need a dose reduction (p < 0.0001).",
+      "why_it_matters": "If validated in larger studies, routine metabolite monitoring during early chemotherapy cycles could help oncologists personalize 5-FU dosing before severe toxicity develops, potentially improving outcomes for colorectal cancer patients.",
+      "caveats": "small sample (N<100), single-center, observational design, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clinically interesting pharmacology finding but tiny sample and single-center limits broad appeal.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Women's Health",
+          "headline": "Women on Colon Cancer Chemo May Face Higher Toxicity Risk \u2014 and a Saliva Test Could Help",
+          "hook": "Women receiving 5-FU chemotherapy for colorectal cancer showed rising drug levels across treatment cycles while men's levels fell \u2014 a metabolic divergence that may help explain why women often experience worse side effects.",
+          "pitch_angle": "A small but carefully measured study found that saliva and blood metabolites shift in predictable ways during the first two chemotherapy cycles, and those patterns flag patients \u2014 especially women \u2014 who will need dose reductions before toxicity becomes dangerous. The sex-specific finding adds a new layer to ongoing conversations about how cancer treatment protocols, often designed around male physiology, may underserve women."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42762057",
+      "headline": "Malaysia is racing to build its own vaccine manufacturing capacity \u2014 here's why it matters for the next pandemic",
+      "journal": "Asia-Pacific Journal of Public Health",
+      "pubdate": "2026 Sep 19",
+      "doi": "10.1177/10105395261481894",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This policy analysis examines Malaysia's pandemic preparedness efforts post-COVID-19, focusing on the country's push to strengthen domestic vaccine manufacturing and reduce dependence on imported vaccines. Authors draw on national initiatives and international partnership frameworks to assess opportunities and obstacles. They find that long-term success requires sustained investment, better coordination, and strategic alignment between Malaysia's biopharmaceutical sector and global partners.",
+      "why_it_matters": "Vaccine equity during the COVID-19 pandemic exposed how low- and middle-income countries can be left behind when supply chains are controlled by wealthy nations, making regional manufacturing capacity a global pandemic preparedness issue.",
+      "caveats": "observational design, single-country policy analysis, no primary data",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Pandemic preparedness topic fit, but single-country policy commentary limits broad pitch.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "The Vaccine Gap: Why the Next Pandemic Could Again Leave Developing Nations Behind",
+          "hook": "Malaysia's COVID-19 experience exposed a hard truth: when vaccines are scarce, countries without domestic manufacturing capacity go to the back of the line.",
+          "pitch_angle": "A new policy analysis argues that Malaysia's push to build its own vaccine manufacturing base isn't just a national interest story \u2014 it's a template for how middle-income countries can avoid repeating the COVID-era scramble. With the next pandemic a matter of when, not if, the geopolitics of who makes vaccines could again determine who survives."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Public Health & Epidemiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
       "pmid": "42755288",
-      "headline": "Doulas trained in intimate partner violence recognition may fill a critical gap in perinatal care",
+      "headline": "Doulas can be trained to support domestic violence survivors during pregnancy \u2014 but the field has almost no resources to do it",
       "journal": "Health Promotion Practice",
       "pubdate": "2026 Sep 18",
       "doi": "10.1177/15248399261481153",
       "groundbreaking": "Major public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at the University of Pittsburgh co-developed a hybrid, longitudinal IPV-focused training for community doulas with input from IPV advocates, survivors, and doulas, then piloted it with 11 English- and Spanish-speaking doulas in Pittsburgh. Participants found the training engaging and valued peer-led facilitation and bilingual delivery, and they identified a need for ongoing skills-building rather than a one-time intervention. The study describes a train-the-trainer model aimed at scaling the approach to future doula cohorts.",
-      "why_it_matters": "With intimate partner violence affecting roughly one in four people during the perinatal period, equipping doulas \u2014 who often have the most consistent community-based contact with pregnant people \u2014 to recognize and respond to IPV could provide a trusted safety net outside the clinical system.",
-      "caveats": "small sample (N<100), single-center, self-reported outcomes, observational design",
+      "summary": "Researchers at the University of Pittsburgh co-developed a mixed-media, hybrid training program for community doulas on recognizing and supporting intimate partner violence (IPV) survivors during the perinatal period. Eleven English- and Spanish-speaking doulas completed the pilot training, which included videos, podcasts, in-person sessions, and a longitudinal learning collaborative. Participants rated the training as engaging and insightful, and emphasized the need for linguistically affirming spaces and ongoing skills-building given the complexity of IPV.",
+      "why_it_matters": "With IPV affecting roughly one in four people during pregnancy and the postpartum period, equipping community doulas \u2014 who often serve as trusted, frontline support \u2014 with IPV-specific skills could expand access to help for a vulnerable population that is frequently underserved by formal healthcare systems.",
+      "caveats": "small sample (N<100), single-center, self-reported outcomes",
       "fact_check_note": "",
       "relevance_score": 5,
-      "relevance_score_reason": "Real public health hook on IPV and maternal health; very small pilot with no outcome data limits strength.",
+      "relevance_score_reason": "Relevant public health topic but very small pilot; limited generalizability.",
       "pitch_angles": [
         {
-          "publication_type": "Health.com / Women's Health",
-          "headline": "Your Doula Could Become Your Safety Net for Domestic Violence \u2014 If They're Trained Right",
-          "hook": "Intimate partner violence peaks during pregnancy, and a new pilot program is training doulas \u2014 not just clinicians \u2014 to recognize it and respond.",
-          "pitch_angle": "Doulas already occupy a uniquely trusted role in perinatal care, often spending more time with families than any medical provider. A Pittsburgh-based program suggests that equipping them with IPV training could reach survivors who might never disclose abuse in a clinical setting."
+          "publication_type": "Undark / Health.com",
+          "headline": "Doulas Are Being Trained to Spot Domestic Violence \u2014 and They May Be Better Positioned Than Doctors to Help",
+          "hook": "Intimate partner violence affects one in four people during pregnancy, yet doulas \u2014 among the most trusted figures in the birth space \u2014 have had almost no formal training to address it.",
+          "pitch_angle": "A Pittsburgh pilot program built a multilingual, community-driven IPV training for doulas and found it feasible and well-received. The effort highlights a largely untapped workforce that could help fill a critical gap in perinatal safety."
         }
       ],
-      "run_date": "2026-09-19",
+      "run_date": "2026-09-20",
       "category": "Public Health & Epidemiology",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42760497",
-      "headline": "A single gene variant leaves some women's eggs permanently stuck \u2014 and IVF can't fix it",
+      "headline": "A single gene variant explains why some women's eggs never mature \u2014 and why IVF always fails them",
       "journal": "Journal of Assisted Reproduction and Genetics",
       "pubdate": "2026 Sep 18",
       "doi": "10.1007/s10815-026-04025-7",
-      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "groundbreaking": "First-in-class human study / Major public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Six Chinese women with unexplained recurrent infertility and oocyte maturation arrest underwent whole-exome sequencing, revealing five heterozygous missense variants in TUBB8, a gene encoding an oocyte-specific protein essential for cell division spindle assembly. In all six patients, 85.4% of retrieved eggs were permanently arrested before maturation, with a fertilization rate of only 6.3% even with advanced IVF techniques including artificial oocyte activation, and no pregnancies resulted. Structural modeling suggested the variants disrupt the physical architecture of the spindle assembly machinery in a dominant-negative manner, making the defect irreversible.",
-      "why_it_matters": "For women with unexplained repeated IVF failure, identifying TUBB8 variants early could spare them multiple futile treatment cycles and open pathways to alternative family-building options.",
+      "summary": "Researchers enrolled six Chinese women with primary infertility and persistent oocyte maturation arrest (OMA) and performed whole-exome sequencing to identify causative mutations. Five heterozygous missense variants in TUBB8 \u2014 a gene encoding an oocyte-specific tubulin essential for spindle assembly \u2014 were found; 85.4% of retrieved oocytes arrested at metaphase I, fertilization rate was only 6.3%, and no pregnancies resulted even with ICSI plus artificial activation. Structural modelling suggested the variants disrupt GTP hydrolysis and spindle assembly through dominant-negative effects.",
+      "why_it_matters": "For women with unexplained recurrent IVF failure, a simple genetic screen for TUBB8 variants could prevent years of costly, futile fertility treatment and open the door to personalised counselling.",
       "caveats": "small sample (N<100), single-center, observational design",
       "fact_check_note": "",
       "relevance_score": 6,
-      "relevance_score_reason": "Clear women's health hook on IVF failure; limited by very small sample size.",
+      "relevance_score_reason": "Compelling fertility angle; human study but very small N and China-specific cohort.",
       "pitch_angles": [
         {
           "publication_type": "Health.com / Women's Health",
-          "headline": "Some Women's IVF Failures May Be Written in Their DNA \u2014 and No Treatment Can Overcome It",
-          "hook": "For a subset of women who repeatedly fail IVF with no clear explanation, a single faulty gene may be permanently locking their eggs at an immature stage \u2014 making further cycles futile.",
-          "pitch_angle": "A new study found that variants in TUBB8, a gene active only in eggs, disrupt the molecular machinery needed for an egg to mature, resulting in near-zero fertilization rates despite advanced IVF techniques. Early genetic screening for these variants could help women avoid repeated failed cycles and pursue other paths to parenthood sooner."
+          "headline": "A Hidden Gene Mutation May Explain Why IVF Keeps Failing \u2014 Even When Everything Else Looks Normal",
+          "hook": "For some women, eggs simply never finish maturing \u2014 and a newly identified genetic mutation in a single gene may be the reason.",
+          "pitch_angle": "Researchers found that variants in TUBB8, a gene critical for egg-spindle assembly, cause virtually complete IVF failure even in women with normal ovarian reserves. Early genetic screening could spare affected women years of repeated, unsuccessful cycles."
         },
         {
-          "publication_type": "Scientific American / New Scientist",
-          "headline": "A Molecular Trap Inside Eggs Explains Why Some Women Never Respond to IVF",
-          "hook": "The egg's cell division spindle \u2014 the structure that segregates chromosomes \u2014 depends on a protein found nowhere else in the body, and mutations in its gene can make maturation permanently impossible.",
-          "pitch_angle": "Researchers identified five distinct variants in TUBB8, the gene for an oocyte-specific tubulin isoform, that cause dominant-negative disruption of spindle assembly, explaining a form of female infertility that has been genetically invisible until now. The finding illustrates how oocyte biology operates by rules distinct from other cells \u2014 and why standard fertility treatments can't compensate for defects in this unique machinery."
+          "publication_type": "Scientific American / Knowable Magazine",
+          "headline": "The Molecular Reason Some Eggs Can Never Be Fertilised",
+          "hook": "A structural protein found only in eggs \u2014 and almost nowhere else in the human body \u2014 is emerging as the linchpin of a newly understood form of genetic infertility.",
+          "pitch_angle": "TUBB8 mutations lock oocytes in an immature state by dismantling the spindle apparatus cells need to complete meiosis; understanding this mechanism could inform broader research into meiotic failure and reproductive genetics."
         }
       ],
-      "run_date": "2026-09-19",
+      "run_date": "2026-09-20",
       "category": "Genetics & Molecular Biology",
       "chunk": "2/3",
       "status": "new"
     },
     {
       "pmid": "42758422",
-      "headline": "Whole-exome sequencing catches a quarter of childhood glaucoma cases that standard clinical tests miss",
+      "headline": "Whole-exome sequencing uncovers unexpected genetic overlaps between childhood glaucoma and Marfan syndrome",
       "journal": "Genes & Genomics",
       "pubdate": "2026 Sep 18",
       "doi": "10.1007/s13258-026-01805-4",
-      "groundbreaking": "First-in-class human study",
+      "groundbreaking": "Counterintuitive finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers performed whole-exome sequencing on 32 Vietnamese children clinically diagnosed with primary congenital glaucoma (PCG) to identify genetic causes. Pathogenic or likely pathogenic variants were found in 18.75% of patients across three genes (CYP1B1, TEK, FOXC1), with variants of uncertain significance in an additional 6.25%, yielding a 25% overall diagnostic rate. Three novel variants were identified, including mutations in FOXC1 and FBN1 \u2014 genes typically linked to other developmental and systemic syndromes \u2014 suggesting broader genetic overlap than previously recognized.",
-      "why_it_matters": "Identifying the genetic basis of childhood glaucoma could enable earlier diagnosis and flag children at risk for associated systemic conditions like Marfan syndrome before vision is permanently lost.",
+      "summary": "Researchers performed whole-exome sequencing on 32 Vietnamese children clinically diagnosed with primary congenital glaucoma (PCG) and achieved a 25% diagnostic yield, identifying pathogenic or likely pathogenic variants in 6 probands across three genes: CYP1B1, TEK, and FOXC1. Three novel disease-causing variants were discovered, including mutations in FOXC1 and FBN1 \u2014 genes typically associated with Axenfeld-Rieger syndrome and Marfan syndrome, respectively. The findings suggest significant genetic and phenotypic overlap between PCG and other developmental disorders.",
+      "why_it_matters": "Finding Marfan- and Axenfeld-Rieger-linked mutations in children diagnosed with isolated congenital glaucoma suggests that whole-exome sequencing at diagnosis could reveal hidden systemic risks \u2014 such as cardiac or connective tissue conditions \u2014 that standard ophthalmologic workup would miss.",
       "caveats": "small sample (N<100), single-center, observational design",
       "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive genetic overlap finding; small sample and single-country context limit generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / Knowable Magazine",
+          "headline": "Kids diagnosed with a common eye condition may actually have an undetected systemic syndrome",
+          "hook": "Genetic testing of children with congenital glaucoma found that some carry mutations linked to Marfan syndrome \u2014 a connective tissue disorder with serious heart complications \u2014 suggesting a dangerous diagnostic gap.",
+          "pitch_angle": "A whole-exome sequencing study of 32 Vietnamese children with primary congenital glaucoma found that genes typically flagging Marfan and Axenfeld-Rieger syndromes were among the culprits, raising the possibility that routine clinical diagnosis misses life-altering systemic conditions. The study argues for broader genomic screening at the time of glaucoma diagnosis to catch hidden syndromic risks early."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "3/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42752597",
+      "headline": "A cheap, portable test for hepatitis C nearly matches lab PCR accuracy \u2014 and could help reach millions who have never been diagnosed",
+      "journal": "The Journal of Infectious Diseases",
+      "pubdate": "2026 Sep 17",
+      "doi": "10.1093/infdis/jiag450",
+      "groundbreaking": "First-in-class human study / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a prospective multinational diagnostic accuracy study across Egypt, Pakistan, and Japan, testing a novel lateral-flow HCV antigen assay called SMART-C against gold-standard PCR in 1,353 paired samples from high-risk clinical cohorts. SMART-C achieved 94.6% sensitivity and 91.3% specificity, with 92.5% overall accuracy and strong agreement with PCR (\u03ba=0.843). In 21 patients on direct-acting antiviral therapy, the test tracked viral clearance concordantly with PCR in 19 of 21 cases.",
+      "why_it_matters": "An estimated 50 million people worldwide live with chronic hepatitis C, many undiagnosed due to lack of access to laboratory PCR testing, and a low-cost, high-accuracy point-of-care test could be transformative for WHO elimination goals.",
+      "caveats": "observational design, high-risk clinical cohort may not generalize to community settings",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Large multinational human cohort, public health impact, pandemic preparedness topic fit.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / Knowable Magazine",
+          "headline": "A lateral-flow test using 'smart polymer' tech nearly matches PCR for detecting hepatitis C",
+          "hook": "A new point-of-care HCV test that uses temperature-responsive smart polymers to concentrate viral proteins achieved accuracy rivaling laboratory PCR \u2014 without any lab equipment.",
+          "pitch_angle": "Tested in over 1,300 patients across three countries, SMART-C's near-PCR sensitivity and simple strip format could close a massive diagnostic gap for the 50 million people with undiagnosed hepatitis C, particularly in low-resource settings where PCR is unavailable."
+        },
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "A strip test in your pocket could help end a silent epidemic that infects 50 million people",
+          "hook": "Hepatitis C is curable \u2014 but only if people know they have it, and most of the world has no access to the PCR tests needed to diagnose it.",
+          "pitch_angle": "A multinational study found that a low-cost lateral-flow antigen test matched PCR-level accuracy for detecting active hepatitis C infections in high-risk populations in Egypt, Pakistan, and Japan, pointing toward a tool that could dramatically expand testing in settings where laboratories don't exist."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42753389",
+      "headline": "Nigeria's healthcare workers would join Lassa fever vaccine trials \u2014 but only under strict conditions shaped by a decades-old drug scandal",
+      "journal": "Vaccine",
+      "pubdate": "2026 Sep 17",
+      "doi": "10.1016/j.vaccine.2026.129162",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted qualitative in-depth interviews with 20 physicians, nurses, and midwives at a major teaching hospital in Kano, northern Nigeria, exploring their willingness to participate in Lassa fever vaccine trials. Healthcare workers did not flatly refuse or accept participation; instead, they described conditional willingness contingent on transparent safety data, robust informed consent, credible ethical oversight, and fair compensation for harm \u2014 decisions still shaped by the legacy of Pfizer's controversial 1996 meningitis trial in the same city. The study identifies concrete structural and ethical conditions that trial designers must meet to enroll this high-risk, essential workforce.",
+      "why_it_matters": "Healthcare workers are both the primary targets for Lassa fever vaccination and essential to trial success in endemic regions, and understanding the trust conditions they require could make or break efforts to develop the world's first licensed Lassa vaccine.",
+      "caveats": "small sample (N<100), single-center, qualitative/self-reported outcomes, Nigeria-specific institutional context",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Pandemic preparedness angle; qualitative design and small N limit score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / The Atlantic",
+          "headline": "A 1996 Drug Trial's Shadow Still Falls Over Nigeria's Lassa Fever Vaccine Efforts",
+          "hook": "Thirty years after Pfizer's disputed meningitis trial in Kano, the city's healthcare workers say they will consider joining a Lassa fever vaccine study \u2014 but only if researchers earn back a trust that was never fully restored.",
+          "pitch_angle": "The study reveals how historical research abuses continue to shape vaccine trial recruitment in endemic disease settings, and shows that 'willingness to participate' is not a binary answer but a negotiated set of ethical demands. As global health agencies push to develop a Lassa vaccine before the next large outbreak, the institutional trust deficit documented here is a practical obstacle, not merely a theoretical concern."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42753939",
+      "headline": "A leishmaniasis vaccine candidate fails as a treatment \u2014 but the immune-boosting ingredient alone shows real promise",
+      "journal": "Acta Tropica",
+      "pubdate": "2026 Sep 17",
+      "doi": "10.1016/j.actatropica.2026.108333",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers tested a first-generation therapeutic vaccine \u2014 total Leishmania amazonensis antigens combined with the immune adjuvant Poly(I:C) \u2014 in female BALB/c mice already infected with L. amazonensis. The full vaccine formulation failed to control disease progression, with lesion size, parasite burden, and antibody levels remaining elevated, but mice treated with Poly(I:C) alone showed significantly reduced footpad swelling, lesion weight, and parasite burden compared to untreated controls. The results suggest the TLR-3 agonist adjuvant, not the antigen component, may hold the therapeutic potential for leishmaniasis.",
+      "why_it_matters": "Leishmaniasis affects millions of people in low-income countries with no licensed human vaccine available, and the finding that a standalone immune-stimulating molecule may outperform a full antigen-adjuvant formulation could reshape how therapeutic candidates are designed for this neglected disease.",
+      "caveats": "animal study, small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Neglected disease with WHO relevance; counterintuitive null finding; animal study caps score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / Knowable Magazine",
+          "headline": "A leishmaniasis vaccine's key ingredient works \u2014 but the vaccine itself doesn't. Here's why that matters.",
+          "hook": "When scientists tested a promising leishmaniasis vaccine formulation as a treatment, the vaccine failed \u2014 but the immune-boosting additive alone significantly reduced disease in infected mice, pointing research in a new direction.",
+          "pitch_angle": "Leishmaniasis, a parasitic disease the WHO classifies as neglected, has no licensed human vaccine and treatments that carry serious toxic side effects; this mouse study suggests that immune-stimulating molecules called TLR agonists could become the foundation of a new therapeutic approach. The counterintuitive result \u2014 the adjuvant outperforming the full vaccine \u2014 adds to a growing body of evidence that adjuvant biology deserves more independent investigation in neglected tropical disease research."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42753272",
+      "headline": "Precision dosing for a powerful antibiotic works in critically ill kids \u2014 but takes over a day to deliver results",
+      "journal": "Therapeutic Drug Monitoring",
+      "pubdate": "2026 Sep 17",
+      "doi": "10.1097/FTD.0000000000001520",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Cincinnati Children's Hospital tracked the first year of a model-informed precision dosing (MIPD) service for cefepime, a broad-spectrum antibiotic, in 19 pediatric patients (median age 2.7 years). Half the patients required extracorporeal support such as dialysis or ECMO, complicating standard dosing. The service successfully individualized dosing in 50% of cases but faced a median turnaround time of nearly 28 hours, highlighting both feasibility and logistical barriers.",
+      "why_it_matters": "As antibiotic resistance grows, optimizing how powerful antibiotics are dosed in vulnerable children could improve outcomes while reducing toxicity risk.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Antibiotic optimization hook, but tiny sample and single-center limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "General science / Health",
+          "headline": "Tailoring Antibiotics to Each Critically Ill Child Is Possible \u2014 But the Clock Is a Problem",
+          "hook": "A precision dosing program for a powerful antibiotic worked in some of the sickest children imaginable \u2014 but results sometimes took more than a day to arrive.",
+          "pitch_angle": "Cincinnati Children's Hospital's first year using computer-model-guided antibiotic dosing in pediatric patients found the approach feasible even for kids on dialysis or ECMO, but a 28-hour median turnaround raises urgent questions about whether precision medicine can keep pace with fast-moving infections."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42752825",
+      "headline": "Autistic immigrants may face less peer stigma than non-immigrant autistic people \u2014 but more anxiety and social difficulty overall",
+      "journal": "Journal of Immigrant and Minority Health",
+      "pubdate": "2026 Sep 17",
+      "doi": "10.1007/s10903-026-02010-x",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a PRISMA-compliant systematic review of 12 studies (8 quantitative, 4 qualitative) examining the psychological and emotional well-being of autistic individuals from immigrant backgrounds, published between 2007 and early 2026. Autistic immigrant children showed greater difficulties with social relationships, emotional regulation, and anxiety compared to autistic children without immigrant backgrounds. Counterintuitively, some studies found that autistic immigrants experienced less stigma from peers than non-immigrant autistic individuals, and lower acculturative stress than non-autistic immigrants.",
+      "why_it_matters": "Understanding how immigrant status intersects with autism \u2014 including unexpected protective factors alongside heightened vulnerabilities \u2014 could help clinicians and policymakers design more culturally responsive services for a rapidly growing and underserved population.",
+      "caveats": "small sample (N<100), observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive finding on intersectional identity; limited by only 12 included studies.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / Scientific American",
+          "headline": "Being an Immigrant Might Actually Protect Autistic Kids From One Thing: Peer Stigma",
+          "hook": "A systematic review finds that autistic children from immigrant families may face less stigma from peers than their non-immigrant autistic counterparts \u2014 a surprising finding buried beneath a landscape of heightened anxiety and social difficulty.",
+          "pitch_angle": "Researchers synthesizing 12 studies on autistic immigrants found that while this group faces compounded challenges \u2014 greater emotional dysregulation, social difficulties, and fears \u2014 some may be partially shielded from peer stigma, possibly because immigrant community norms around difference differ from mainstream ones. The findings point to a need for services that account for both the vulnerabilities and the understudied strengths of this intersectional population."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Public Health & Epidemiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42753831",
+      "headline": "A personalized antibiotic strategy for deadly drug-resistant infections looked promising \u2014 until doctors abandoned the trial to use it themselves",
+      "journal": "International Journal of Antimicrobial Agents",
+      "pubdate": "2026 Sep 17",
+      "doi": "10.1016/j.ijantimicag.2026.108011",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a two-center randomized controlled trial in Singapore, 98 patients with carbapenem-resistant Gram-negative bacterial infections were assigned to either individualized antibiotic combination therapy guided by in vitro testing (iACT) or standard care, with 30-day all-cause mortality as the primary endpoint. The trial was terminated early because 63% of control-arm physicians crossed over to the iACT approach voluntarily, believing it would be better tolerated \u2014 making a clean comparison impossible. Randomized analysis showed identical 30-day mortality (33% in both arms), but an exploratory analysis of patients who actually received iACT-matched therapy found a 42 percentage point reduction in mortality risk, a finding the authors caution is hypothesis-generating only.",
+      "why_it_matters": "As carbapenem-resistant infections become one of the most feared threats in global hospitals, the trial's collapse due to physician preference for the experimental strategy \u2014 rather than scientific failure \u2014 highlights how difficult it is to rigorously test promising approaches against last-resort infections.",
+      "caveats": "small sample (N<100), single-center, short follow-up, open-label design, significant treatment crossover invalidating primary analysis, exploratory secondary analysis only",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Antibiotic resistance RCT with counterintuitive trial-collapse story; weakened by crossover and small N.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "Doctors abandoned a clinical trial for deadly drug-resistant infections \u2014 because they already believed the experimental treatment worked",
+          "hook": "A randomized trial designed to test a personalized antibiotic strategy against one of medicine's most dangerous infections imploded when the physicians running it started defecting to the experimental arm mid-study.",
+          "pitch_angle": "The collapse of this Singapore RCT exposes a growing tension in infectious disease medicine: as carbapenem-resistant bacteria kill one in three hospitalized patients, clinicians are increasingly unwilling to randomize dying patients to standard care when they believe a better option exists. The story raises hard questions about how science can rigorously evaluate last-resort therapies when the stakes feel too high to wait for evidence."
+        },
+        {
+          "publication_type": "Scientific American / Science News",
+          "headline": "A smarter antibiotic strategy for drug-resistant superbugs showed a dramatic survival signal \u2014 but the trial couldn't prove it",
+          "hook": "An exploratory analysis found a 42-point reduction in 30-day mortality when patients received antibiotic combinations matched to their specific pathogen's vulnerabilities \u2014 but the trial that was supposed to test this was derailed before it could deliver a verdict.",
+          "pitch_angle": "Individualized antibiotic combination testing, which matches drug regimens to the specific resistance profile of a patient's infection, is gaining traction in hospitals treating carbapenem-resistant bacteria \u2014 pathogens that kill roughly a third of patients. The Singapore trial's failure to produce conclusive data illustrates both the scientific promise and the practical difficulty of running rigorous experiments against infections where standard care already feels like a long shot."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42747584",
+      "headline": "Ticks on captive deer in Malaysia carry Anaplasma \u2014 a pathogen that also infects humans \u2014 alongside two Theileria species simultaneously",
+      "journal": "Acta Parasitologica",
+      "pubdate": "2026 Sep 16",
+      "doi": "10.1007/s11686-026-01392-0",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers collected 60 ticks from five captive Sambar deer at facilities in East and West Malaysia, molecularly identifying two Haemaphysalis tick species \u2014 H. shimoga and H. bispinosa \u2014 for the first time in this host in Malaysia. Screening of seven viable tick DNA samples detected Theileria capreoli, T. cervi, and Anaplasma phagocytophilum, with one H. bispinosa specimen carrying all three pathogens simultaneously. Anaplasma phagocytophilum is a zoonotic pathogen capable of causing granulocytic anaplasmosis in humans.",
+      "why_it_matters": "The presence of human-infectious Anaplasma phagocytophilum in ticks on captive wildlife at managed facilities highlights a potential zoonotic spillover risk at the wildlife-human interface in Southeast Asia.",
+      "caveats": "small sample (N<100 \u2014 only 7 ticks yielded usable DNA), single-center, observational design, animal study",
+      "fact_check_note": "",
       "relevance_score": 4,
-      "relevance_score_reason": "Narrow single-country genetics study; small N; limited generalizability for US audience.",
+      "relevance_score_reason": "Zoonotic angle present but extremely small effective sample; narrow regional context limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist / Science News",
+          "headline": "Ticks on captive deer in Malaysia carry a human-infectious pathogen alongside two other parasites at once",
+          "hook": "A single tick collected from a captive Sambar deer in Malaysia was found to carry three pathogens simultaneously \u2014 including Anaplasma phagocytophilum, a bacterium that can cause serious illness in people.",
+          "pitch_angle": "The finding, the first molecular record of these tick species on Sambar deer in Malaysia, adds to growing evidence that captive wildlife facilities can serve as hotspots where tick-borne pathogens bridge the gap between animals and humans. With Haemaphysalis ticks expanding their range across tropical Asia, understanding what pathogens they carry \u2014 and in whom \u2014 is becoming increasingly urgent."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42747453",
+      "headline": "Stroke patients preferred a simple tablet over high-tech telepresence robots \u2014 and the robots mostly disappointed",
+      "journal": "Bundesgesundheitsblatt, Gesundheitsforschung, Gesundheitsschutz",
+      "pubdate": "2026 Sep 16",
+      "doi": "10.1007/s00103-026-04295-7",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "German researchers surveyed stroke patients, family caregivers, and healthcare professionals before and after a 24-week trial of two telepresence robots in home care settings (N=48 patients, 53 relatives at baseline; 31 healthcare staff cross-sectionally). Despite initially high expectations, none of the robotic systems were seen as convincing everyday aids; autonomous mobility and voice assistance underperformed. Participants consistently preferred a simpler tablet solution over the robots.",
+      "why_it_matters": "As healthcare systems worldwide invest in assistive robotics for aging and post-stroke populations, this study suggests that technological sophistication does not automatically translate to usability or acceptance \u2014 and that simpler, lower-cost solutions may serve patients better.",
+      "caveats": "small sample (N<100), single-center, self-reported outcomes, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Counterintuitive finding; limited generalizability due to small German sample.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired / The Atlantic",
+          "headline": "Stroke Patients Were Given Fancy Care Robots. They Wanted an iPad.",
+          "hook": "After a 24-week home trial, stroke patients and their families found that high-tech telepresence robots largely failed to meet their expectations \u2014 and consistently preferred a basic tablet.",
+          "pitch_angle": "A German pilot study found that telepresence robots designed to support post-stroke home care underdelivered on independence, safety, and communication despite high initial enthusiasm. The finding challenges assumptions driving major investments in assistive robotics and suggests the field may be solving the wrong problem."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Public Health & Epidemiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42746917",
+      "headline": "Parasites that can sicken people eating undercooked beef found in Portuguese cattle for the first time",
+      "journal": "Zoonoses and Public Health",
+      "pubdate": "2026 Sep 16",
+      "doi": "10.1111/zph.70091",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "During routine meat inspection of a single bovine carcass in Portugal, veterinary pathologists discovered lesions in the masseter muscles; molecular analysis identified three Sarcocystis species, including S. hominis and S. heydorni, both of which are zoonotic and transmissible to humans through raw or undercooked beef. This is the first confirmed report of zoonotic Sarcocystis in Portuguese cattle. The case underscores meat inspection as an active surveillance tool for parasites that can cause gastrointestinal illness in people.",
+      "why_it_matters": "As European beef trade is interconnected, the first detection of human-infecting Sarcocystis in Portuguese cattle signals a gap in food-safety surveillance that could have broader implications for beef consumers across the EU.",
+      "caveats": "single-center, observational design, single animal case report (N=1 carcass)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Food safety hook, EU relevance, but single-case report limits generalizability.",
       "pitch_angles": [
         {
           "publication_type": "General science",
-          "headline": "A DNA Test Could Catch Childhood Blindness That Eye Exams Miss",
-          "hook": "Standard eye exams often can't diagnose glaucoma in infants who can't cooperate \u2014 but a genetic sequencing test caught one in four cases that might otherwise be missed.",
-          "pitch_angle": "Whole-exome sequencing identified the genetic cause in 25% of Vietnamese children with primary congenital glaucoma, a leading cause of childhood blindness, and revealed unexpected links to genes associated with Marfan syndrome. The finding suggests genetic testing could serve as a crucial diagnostic tool when clinical examination is inconclusive."
+          "headline": "A routine beef inspection in Portugal just revealed a human-infecting parasite hiding in plain sight",
+          "hook": "A single meat inspection flagged zoonotic parasites in Portuguese cattle \u2014 a first for the country and a reminder of what can lurk in undercooked beef.",
+          "pitch_angle": "Sarcocystis hominis and S. heydorni, parasites transmissible to humans via raw or undercooked beef, were identified for the first time in Portuguese cattle during standard slaughterhouse inspection. The case raises questions about how widely these parasites circulate in European beef herds and whether current inspection protocols are catching them."
         }
       ],
-      "run_date": "2026-09-19",
+      "run_date": "2026-09-20",
+      "category": "Public Health & Epidemiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42749190",
+      "headline": "Cat coronavirus strains in US shelters are recombining in ways that echo a deadly 2023 outbreak",
+      "journal": "Virus Research",
+      "pubdate": "2026 Sep 16",
+      "doi": "10.1016/j.virusres.2026.199802",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers screened 139 feral and shelter cats in the US for feline coronavirus (FCoV), finding 22.3% positive; whole-genome sequencing identified three novel recombinant strains. The new strains showed mosaic genomes blending feline coronavirus types I and II with canine coronavirus lineages \u2014 a recombination pattern strikingly similar to the 2023 Cyprus FCoV outbreak that killed thousands of cats. Mutations in the spike receptor-binding domain and accessory gene truncations suggest ongoing viral evolution with pandemic potential for cat populations.",
+      "why_it_matters": "Recombinant feline coronavirus strains circulating in US shelters resemble those behind a recent international outbreak, raising concern for cats in high-density housing and potentially for spillover surveillance.",
+      "caveats": "small sample (N<100 sequenced \u2014 only 31 positive, 3 fully sequenced), animal study, single-region surveillance",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Infectious disease with pandemic-pattern resonance; small genomic sample limits impact.",
+      "pitch_angles": [
+        {
+          "publication_type": "Science News / New Scientist",
+          "headline": "A cat coronavirus in US shelters is recombining like the virus that sparked a deadly 2023 outbreak",
+          "hook": "Three new feline coronavirus strains found in US shelter cats share a troubling genomic signature with a 2023 outbreak that swept through Cyprus \u2014 suggesting this type of viral mixing may be more common than previously recognized.",
+          "pitch_angle": "Surveillance of 139 feral and shelter cats uncovered novel recombinant coronaviruses blending feline and canine viral lineages, echoing patterns from a recent international cat mortality event. The findings underscore why ongoing genomic surveillance of shelter animals matters \u2014 not just for cat health, but as an early-warning system for coronavirus evolution."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42742994",
+      "headline": "A never-before-seen mutation in a GABA-producing gene is linked to inherited intellectual disability in a Pakistani family",
+      "journal": "Psychiatric Genetics",
+      "pubdate": "2026 Sep 15",
+      "doi": "10.1097/YPG.0000000000000427",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers performed whole-exome sequencing on members of a consanguineous Pakistani family affected by autosomal recessive intellectual disability, identifying a novel homozygous missense variant in the GAD1 gene, which encodes the enzyme responsible for producing the inhibitory neurotransmitter GABA. Protein modeling suggested the variant disrupts the enzyme's structure in ways that could impair GABA synthesis. Segregation analysis confirmed the variant co-segregated with intellectual disability across the family.",
+      "why_it_matters": "Linking a novel GAD1 mutation to inherited intellectual disability adds to understanding of how disrupted GABA signaling during brain development may contribute to neurodevelopmental disorders more broadly.",
+      "caveats": "small sample (N<100), single-center, observational design, protein modeling only (no functional assay validation)",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Interesting GABA-neurodevelopment link; very small family study, limited generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Knowable Magazine",
+          "headline": "A Faulty GABA Gene May Be Behind Some Cases of Inherited Intellectual Disability",
+          "hook": "A newly discovered mutation in a gene central to the brain's main inhibitory signaling system has been found in a family where intellectual disability runs through multiple generations.",
+          "pitch_angle": "The finding, in a consanguineous Pakistani family, suggests that disruptions to GABA production during brain development may be an underappreciated cause of inherited intellectual disability. It illustrates how studying genetically isolated families continues to uncover rare but biologically meaningful disease mechanisms."
+        }
+      ],
+      "run_date": "2026-09-20",
       "category": "Genetics & Molecular Biology",
-      "chunk": "3/3",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42742767",
+      "headline": "RNA molecules in blood may help explain why some lupus patients develop dangerous clotting complications alongside low platelet counts",
+      "journal": "Molecular Biology Reports",
+      "pubdate": "2026 Sep 15",
+      "doi": "10.1007/s11033-026-12551-x",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers measured expression of the long non-coding RNA PVT1, microRNA miR-181a, transcription factors FOXP3 and ROR\u03b3t, and related cytokines in blood samples from 60 SLE patients with thrombocytopenia, 40 SLE patients without it, and 40 healthy controls (N=140). Thrombocytopenic SLE patients showed a distinct molecular signature \u2014 lower PVT1 and FOXP3, higher miR-181a, ROR\u03b3t, and IL-23 \u2014 suggesting a shift toward pro-inflammatory immune signalling; this signature was further skewed in those with co-existing antiphospholipid antibodies. The authors propose the PVT1/miR-181a axis as a potential upstream regulator and diagnostic biomarker panel for SLE-related thrombocytopenia and bleeding/thrombosis risk.",
+      "why_it_matters": "Identifying molecular biomarkers that distinguish lupus patients at risk of both low platelets and dangerous clotting could help clinicians stratify and monitor these paradoxically high-risk patients more precisely.",
+      "caveats": "small sample (N<100), observational design, single-center",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Autoimmune biomarker finding; human subjects but small N and observational only.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / General science",
+          "headline": "In Lupus, RNA Signals in Blood May Reveal Who's at Risk for a Dangerous Clotting-Bleeding Paradox",
+          "hook": "Some lupus patients face a medical paradox: dangerously low platelets that should cause bleeding \u2014 yet they also clot abnormally.",
+          "pitch_angle": "A new study finds that a pair of non-coding RNA molecules may regulate the immune imbalance driving this dual risk, pointing toward a blood-based biomarker panel that could one day help doctors identify which lupus patients need closer monitoring for thrombosis and hemorrhage."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42742910",
+      "headline": "A co-designed web campaign boosted HIV testing intent among gay and bisexual men in Amsterdam \u2014 but the sample was tiny",
+      "journal": "AIDS and Behavior",
+      "pubdate": "2026 Sep 15",
+      "doi": "10.1007/s10461-026-05305-0",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Amsterdam co-created a tailored web-based HIV testing promotion campaign with gay, bisexual, and other men who have sex with men (GBMSM) and HIV prevention experts, targeting those who had never or not recently tested. A post-test-only pilot evaluation (N=86) found significantly higher HIV testing intention among men exposed to the campaign compared to those who were not. The authors note the findings support further, larger-scale evaluation of the intervention.",
+      "why_it_matters": "Late HIV diagnosis drives ongoing transmission among GBMSM, and community co-designed digital interventions could offer a scalable, low-cost way to close persistent testing gaps in this population.",
+      "caveats": "small sample (N<100), observational design, self-reported outcomes, short follow-up, single-center",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Relevant public health topic but very small pilot; Amsterdam-specific context limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / General science",
+          "headline": "When gay men design their own HIV testing campaigns, they may actually work",
+          "hook": "A web-based HIV testing campaign built with \u2014 not just for \u2014 gay and bisexual men showed early signs of shifting testing intentions in a group where late diagnosis remains a serious problem.",
+          "pitch_angle": "The Amsterdam pilot tested whether community co-creation could address persistent gaps in HIV testing among men who have sex with men by tailoring messages to specific behavioral barriers. Though the sample is small, the approach signals that participatory design in public health communications deserves a larger, more rigorous trial."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42745336",
+      "headline": "Brazil records its first cluster outbreak of a little-known tick-borne spotted fever \u2014 all three patients recovered with standard antibiotics",
+      "journal": "Zoonoses and Public Health",
+      "pubdate": "2026 Sep 15",
+      "doi": "10.1111/zph.70093",
+      "groundbreaking": "First-in-class human study / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers investigated three confirmed human cases of Atlantic Rainforest Spotted Fever (ARSF) in Ilh\u00e9us, Bahia, Brazil \u2014 the first documented outbreak cluster of this tick-borne Rickettsia parkeri disease in the country. All three patients developed fever, eschar, rash, and lymphadenopathy within 7\u201310 days of tick bites in Atlantic Forest areas, and all responded to doxycycline. Molecular analysis confirmed R. parkeri DNA in scab samples from all patients, and wild rodents in the area were found carrying immature Amblyomma ovale ticks, the known vector.",
+      "why_it_matters": "The first outbreak cluster of ARSF in Brazil, concentrated in a biodiverse Atlantic Forest region increasingly accessed by humans, suggests this tick-borne disease may be more geographically widespread than previously recognized and could pose growing risks as deforestation and ecotourism expand human-wildlife contact.",
+      "caveats": "small sample (N=3 patients), single-center, observational design, geographically specific to northeastern Brazil",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Infectious disease first-outbreak finding, clear One Health/ecotourism hook, small N.",
+      "pitch_angles": [
+        {
+          "publication_type": "bioGraphic / National Geographic",
+          "headline": "Ticks in Brazil's Atlantic Forest Just Sparked the Country's First Spotted Fever Outbreak",
+          "hook": "Three people entered one of the world's most biodiverse forests and came out with a disease that Brazil had barely seen before.",
+          "pitch_angle": "The first cluster outbreak of Atlantic Rainforest Spotted Fever \u2014 a tick-borne disease caused by Rickettsia parkeri \u2014 was confirmed in Brazil's Bahia state, with wild rodents acting as tick reservoirs in a fragmented forest ecosystem. As deforestation pushes humans and wildlife into closer contact, ecologists and epidemiologists warn that tick-borne diseases from tropical forests could become more common threats."
+        },
+        {
+          "publication_type": "Science News / General science",
+          "headline": "A Rare Tick-Borne Disease Just Caused Brazil's First Outbreak \u2014 Here's What Hikers Should Know",
+          "hook": "All three patients were infected after entering Atlantic Forest areas and developed a recognizable pattern of symptoms \u2014 including a telltale skin sore at the bite site \u2014 that responded quickly to standard antibiotics.",
+          "pitch_angle": "Brazil's first confirmed outbreak of Atlantic Rainforest Spotted Fever signals that this emerging Rickettsia infection may be circulating more widely in tick populations than official case counts suggest. The good news: early treatment with doxycycline worked in all three patients, underscoring the importance of clinical awareness in endemic forest regions."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Public Health & Epidemiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42745309",
+      "headline": "Common gut parasites found in Turkish hair goats \u2014 and some strains can infect humans",
+      "journal": "Zoonoses and Public Health",
+      "pubdate": "2026 Sep 15",
+      "doi": "10.1111/zph.70094",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers screened 300 fecal samples from domestic hair goats across three provinces in Central Anatolia, Turkey, using PCR and DNA sequencing. They found Enterocytozoon bieneusi (5.3%) and Blastocystis spp. (6.7%) but no Encephalitozoon spp. The E. bieneusi genotype identified (BEB6) falls into a zoonotic group, suggesting potential for transmission from goats to humans.",
+      "why_it_matters": "Identifying zoonotic parasite strains in livestock used for food and fiber production highlights a potential One Health transmission pathway that could inform food safety and livestock management policies.",
+      "caveats": "observational design, single-center, narrow to T\u00fcrkiye/Central Anatolia context, small prevalence sample (N=300 animals)",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Regionally specific, animal study, limited generalizability to global readership.",
+      "pitch_angles": [
+        {
+          "publication_type": "General science",
+          "headline": "Your goat cheese might harbor a gut parasite that can jump to humans",
+          "hook": "A zoonotic intestinal parasite with known human-infecting strains has been found in Turkish hair goats for the first time.",
+          "pitch_angle": "Researchers detected zoonotic E. bieneusi genotypes in domestic goats in Turkey, raising questions about livestock-to-human transmission routes. The finding adds goats to the growing list of farm animals that may silently harbor parasites capable of causing diarrheal disease in people."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Public Health & Epidemiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42308876",
+      "headline": "Wastewater treatment gets a rethink: polymer shape matters more than size for pulling pollutants out of water",
+      "journal": "Water Research",
+      "pubdate": "2026 Sep 15",
+      "doi": "10.1016/j.watres.2026.126282",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Tongji University found that controlling the rigidity of polymer chains \u2014 rather than how long the chains are \u2014 can drive dissolved organic pollutants to precipitate out of wastewater at much lower polymerization degrees. The new approach achieved 100% removal of nine different dissolved organic pollutants across multiple concentrations, using 95% less oxidant and producing 83% higher product yield compared to conventional methods. The mechanism was validated in three real wastewater samples.",
+      "why_it_matters": "If the approach scales, it could significantly reduce the energy and chemical costs of treating industrial wastewater contaminated with organic pollutants, with implications for low-carbon water treatment globally.",
+      "caveats": "single-center",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clever mechanistic finding; limited direct public health or general-audience hook; no human subjects.",
+      "pitch_angles": [
+        {
+          "publication_type": "Knowable Magazine / New Scientist",
+          "headline": "The shape of a polymer chain \u2014 not its length \u2014 could transform how we clean polluted water",
+          "hook": "Scientists found that making polymer chains stiffer rather than longer is the key to precipitating stubborn organic pollutants out of wastewater \u2014 a counterintuitive insight that cuts chemical use by 95%.",
+          "pitch_angle": "The new mechanism challenges decades of wastewater treatment design focused on polymerization degree, opening the door to far more efficient and less chemically intensive industrial water treatment. With organic pollutant contamination a growing global challenge, the approach could reshape how treatment plants handle complex industrial effluents."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42742363",
+      "headline": "Most welding curtains in use today fail the safety standards they're supposed to meet \u2014 and many never met the old ones either",
+      "journal": "Journal of Occupational and Environmental Hygiene",
+      "pubdate": "2026 Sep 15",
+      "doi": "10.1080/15459624.2026.2707985",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers tested 27 commercially available transparent welding curtains against updated international safety standards (ISO 25980:2023), which revised UV and blue-light hazard calculations to better reflect actual eye injury risk from arc welding. Only 21 of 27 curtains passed the new standard, and only four passed the prior 2014 version under standard interpretation \u2014 meaning most curtains failed both old and new requirements. The revised standard, adopted in Europe, Australia, and New Zealand but not the US or Japan, was found to be less stringent than US and Japanese national standards.",
+      "why_it_matters": "Millions of workers worldwide in welding-adjacent roles rely on these curtains for eye and skin protection from arc radiation, and widespread non-conformity with even baseline safety standards suggests significant ongoing occupational exposure risk.",
+      "caveats": "small sample (N<100), single-center",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clear occupational health hook; small product sample limits generalizability; niche audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / General science",
+          "headline": "The safety curtains protecting welders from dangerous radiation mostly don't meet the standards they claim to",
+          "hook": "Of 27 transparent welding curtains tested against international safety standards, only 21 passed \u2014 and most failed even the weaker 2014 version of the same standard.",
+          "pitch_angle": "A new study exposes widespread non-conformity in a product that millions of industrial workers depend on to shield their eyes and skin from ultraviolet and blue-light radiation produced by arc welding. The findings arrive as a revised international standard takes effect in Europe and Australia \u2014 but not yet in the US \u2014 raising questions about regulatory fragmentation and market accountability in occupational safety equipment."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42744291",
+      "headline": "For HIV-positive youth in rural East Africa, a sibling's reminder or a spouse's support can be the difference between staying on treatment and dropping out",
+      "journal": "AIDS Care",
+      "pubdate": "2026 Sep 15",
+      "doi": "10.1080/09540121.2026.2728925",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted in-depth interviews with 113 HIV-positive adolescents and young adults, 51 family members, and 45 providers across 8 communities in rural Kenya and Uganda as part of the SEARCH-Youth study. Thematic analysis identified specific family dynamics \u2014 including sibling adherence support, spousal medication reminders, and relative adoption \u2014 as key facilitators of treatment engagement, while poor communication skills and marital instability were barriers. The study found that healthcare providers are uniquely positioned to broker caregiver-youth communication around HIV care needs.",
+      "why_it_matters": "Identifying the specific family conditions that keep HIV-positive youth on antiretroviral therapy could help programs in high-burden regions design culturally targeted support interventions.",
+      "caveats": "small sample (N<100 for family members), observational design, self-reported outcomes, single-region (Kenya/Uganda)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Regionally specific qualitative HIV care study; limited generalizability for US-focused outlets.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / Global health outlets",
+          "headline": "In Rural East Africa, Family Dynamics Are a Hidden Variable in Whether HIV-Positive Youth Stay on Treatment",
+          "hook": "A sibling's check-in or a spouse's ride to the clinic may matter as much as the medication itself for young people managing HIV in rural Kenya and Uganda.",
+          "pitch_angle": "A qualitative study of over 200 youth, family members, and providers finds that family structure and communication \u2014 not just drug access \u2014 determine treatment adherence for HIV-positive adolescents in East Africa. The findings suggest that HIV programs need to look beyond the clinic and into the household to improve outcomes."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42734327",
+      "headline": "One gut bacterium is depleted in colorectal cancer, Crohn's disease, and liver cirrhosis \u2014 a shared microbial weak spot",
+      "journal": "mSystems",
+      "pubdate": "2026 Sep 14",
+      "doi": "10.1128/msystems.00836-26",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers applied a novel 'maximin' analytical framework \u2014 designed to guarantee reliable worst-case performance across analytical pipelines \u2014 to public gut metagenomics and serum metabolomics datasets from patients with colorectal cancer, Crohn's disease, and liver cirrhosis. Among 1,152 preprocessing-model configurations tested across six classification tasks, a single bacterial taxon, Firmicutes bacterium CAG:41, was consistently depleted across all three diseases and linked to sulfur-selenium redox metabolism and B-vitamin biosynthesis. Host metabolic responses, however, were largely disease-specific, suggesting a two-layer architecture: shared microbial vulnerability with divergent downstream effects.",
+      "why_it_matters": "Identifying a single gut bacterial species depleted across three major diseases could point toward a common microbial target for screening or future intervention research, while the analytical method itself may improve reliability of cross-disease microbiome studies.",
+      "caveats": "secondary analysis, observational design, computational \u2014 external validation adequately powered only for CRC, CD and LC assessments exploratory only",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Gut microbiome topic bonus; strong analytical novelty but secondary analysis with limited validation.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / Knowable Magazine",
+          "headline": "Three gut diseases share one microbial missing piece \u2014 and a new method is making the finding more trustworthy",
+          "hook": "A single gut bacterium, consistently absent in colorectal cancer, Crohn's disease, and liver cirrhosis, may represent a shared microbial vulnerability \u2014 but the real advance is the statistical approach that made the comparison reliable for the first time.",
+          "pitch_angle": "Scientists have long struggled to compare microbiome data across diseases because arbitrary analytical choices can make results flip from near-random to near-perfect on the same dataset; a new 'maximin' optimization framework addresses that flaw. The result: one bacterial species depleted across three major gut-associated diseases, potentially pointing to a new avenue for screening research."
+        },
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "The microbiome field has a reproducibility problem. One study just tried to solve it \u2014 and found something surprising along the way",
+          "hook": "Researchers showed that choosing different data-processing pipelines on identical gut microbiome data can make results look nearly random or nearly perfect \u2014 a flaw that has likely undermined years of published findings.",
+          "pitch_angle": "By building an analytical method that guarantees reliable results regardless of pipeline choice, scientists found a gut bacterium depleted across colorectal cancer, Crohn's disease, and liver cirrhosis \u2014 but the bigger story may be what the method reveals about how fragile microbiome science has been. The findings call for a rethinking of how cross-disease microbiome studies are designed and reported."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42726649",
+      "headline": "A decade of melasma drug patents shows industry mostly just recycling old ingredients",
+      "journal": "Expert Opinion on Therapeutic Patents",
+      "pubdate": "2026 Sep 14",
+      "doi": "10.1080/13543776.2026.2726449",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed all global patent filings related to synthetic drugs for melasma between 2015 and 2025 using the Espacenet database, identifying 17 patents after systematic screening. They found that 94.1% of patents involved reformulations or combinations of existing compounds, with only one patent describing a genuinely new chemical entity. The analysis concludes that innovation in melasma treatment has been largely incremental, failing to move beyond conventional melanogenesis inhibition despite significant unmet patient need.",
+      "why_it_matters": "Melasma disproportionately affects women and people with darker skin tones, and the near-total absence of novel drug development suggests patients may face decades more of inadequate treatment options.",
+      "caveats": "small sample (N<100), secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Consumer health relevance for women's/skin health; but patent review limits novelty.",
+      "pitch_angles": [
+        {
+          "publication_type": "Women's Health / Health.com",
+          "headline": "Melasma affects millions of women \u2014 and the drug industry has barely tried to fix it",
+          "hook": "Of 17 melasma drug patents filed globally over the past decade, 94% were just repackaging of old ingredients \u2014 not a single genuinely new treatment approach.",
+          "pitch_angle": "A new patent analysis finds that pharmaceutical innovation for melasma, a chronic skin condition with major psychosocial impact, has stalled at incremental reformulation. For the millions of women \u2014 particularly those with darker skin tones \u2014 who struggle with melasma long-term, the findings suggest the pipeline for better treatments remains nearly empty."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42734866",
+      "headline": "A viroid that cracks citrus bark has quietly spread to nearly one in five pistachio trees surveyed in Turkey",
+      "journal": "Virus Genes",
+      "pubdate": "2026 Sep 14",
+      "doi": "10.1007/s11262-026-02270-7",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers surveyed 223 pistachio trees across 51 orchards in Southeast Anatolia between 2022 and 2024, testing for Cocadviroid rimocitri (citrus bark cracking viroid, CBCVd) using RT-PCR. They found CBCVd in about 19.7% of samples, identified 14 distinct genetic haplotypes indicating a heterogeneous population, and demonstrated the viroid could be transmitted to four different rootstock species while significantly reducing graft uptake \u2014 marking the first confirmed report of CBCVd in pistachio trees in Turkey.",
+      "why_it_matters": "Turkey is one of the world's largest pistachio producers, and a fast-spreading viroid that impairs grafting could threaten both crop yields and nursery stock across a key agricultural region.",
+      "caveats": "single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Regionally specific agricultural pathogen finding with limited global generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist / bioGraphic",
+          "headline": "A Tiny Viroid With No Protein Coat Is Threatening Turkey's Pistachio Orchards",
+          "hook": "Nearly one in five pistachio trees surveyed across a major Turkish growing region tested positive for a viroid originally identified in citrus \u2014 and it's already spreading to multiple rootstock species.",
+          "pitch_angle": "Viroids are among the simplest known plant pathogens, yet they can devastate crops; this first detection in Turkish pistachio orchards, combined with evidence of 14 distinct genetic variants and impaired grafting success, suggests the pathogen may already be well established. As global demand for pistachios rises, the finding highlights the underappreciated threat that viroids pose to nut crops worldwide."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42762688",
+      "headline": "A drug-resistant 'superbug' clone quietly spreading in NICUs worldwide has now been confirmed in Japan",
+      "journal": "Journal of Infection and Public Health",
+      "pubdate": "2026 Sep 14",
+      "doi": "10.1016/j.jiph.2026.103365",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Japanese researchers screened 194 clinical isolates of Staphylococcus capitis collected over seven months from hospitals in Sapporo and found, for the first time, the globally spreading NRCS-A clone and a precursor 'proto-NRCS-A' clone in Japan. The NRCS-A clone, previously identified as a serious threat in neonatal intensive care units worldwide, carries virulence factors (nsr, tarJ) and broad antimicrobial resistance including mecA (detected in 33% of isolates overall). The findings suggest the clone has reached Japan and that a proto-NRCS-A lineage may represent an evolutionary stepping stone toward the more resistant full clone.",
+      "why_it_matters": "The global spread of the NRCS-A clone into Japan's hospital networks suggests this multidrug-resistant pathogen is establishing itself across continents, posing a heightened threat to premature infants and immunocompromised patients in NICUs worldwide.",
+      "caveats": "single-center, short follow-up, observational design, geographically narrow (Sapporo, Japan)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Antibiotic resistance topic fits interest area, but single-city Japan focus and technical framing limit broad pitch.",
+      "pitch_angles": [
+        {
+          "publication_type": "Science News / General science",
+          "headline": "A drug-resistant superbug threatening premature babies has spread to Japan \u2014 and a precursor clone may be already evolving there",
+          "hook": "The NRCS-A clone of Staphylococcus capitis \u2014 a pathogen linked to outbreaks in neonatal ICUs across Europe, Australia, and North America \u2014 has now been identified in Japanese hospitals for the first time.",
+          "pitch_angle": "Japanese researchers found not only the globally circulating NRCS-A clone but also a genetically similar 'proto-NRCS-A' lineage, suggesting the more dangerous clone may be actively emerging in the region. The finding underscores how hospital-adapted superbugs can quietly spread across healthcare systems before triggering recognized outbreaks."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42752770",
+      "headline": "A cat-scratch fungal infection is spreading through Brazil's Amazon \u2014 and doctors are missing it",
+      "journal": "Revista da Sociedade Brasileira de Medicina Tropical",
+      "pubdate": "2026",
+      "doi": "10.1590/0037-8682-0560-2025",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This case series analyzed medical records of patients diagnosed with sporotrichosis \u2014 a fungal infection transmitted primarily by cats \u2014 at a dermatology reference center in northern Brazil's Amazon region. Most patients presented with the localized cutaneous form, diagnosed via clinical criteria, histopathology, and/or culture. The study documents a continuously rising number of cases driven by zoonotic urban transmission, underscoring the need for heightened diagnostic suspicion in endemic areas.",
+      "why_it_matters": "Sporotrichosis, once considered a rural occupational disease, is emerging as an urban zoonosis spread by cats, with implications for any region where cat ownership is common.",
+      "caveats": "small sample (N<100), observational design, single-center, secondary analysis, narrow to single region",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Regionally specific case series; limited sample and single-center data reduce generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / General science",
+          "headline": "Brazil's Amazon Is Seeing a Surge in a Fungal Infection Spread by Cats \u2014 and It's Going Undiagnosed",
+          "hook": "Sporotrichosis, a skin-invading fungus spread through cat scratches, is rising sharply in urban Brazil \u2014 and most cases are being caught only at specialist referral centers.",
+          "pitch_angle": "A new case series from a northern Brazil dermatology clinic documents rising urban sporotrichosis tied to cat-to-human transmission, with most patients presenting with skin lesions that mimic other conditions. As cat ownership rises globally, the study highlights a diagnostic blind spot that could extend well beyond the Amazon."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42761588",
+      "headline": "New gene variants found behind congenital glaucoma in Pakistani families \u2014 including one never seen before",
+      "journal": "Human Mutation",
+      "pubdate": "2026",
+      "doi": "10.1155/humu/1806353",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers recruited 12 consanguineous and trio families from Pakistan to map the genetic causes of primary congenital glaucoma (PCG), a leading cause of childhood blindness. Using targeted Sanger sequencing and whole-exome sequencing, they identified nine known variants in the CYP1B1 gene plus one previously unreported variant, and pinpointed a novel candidate locus on Chromosome 7q34. The findings expand the known mutation spectrum of PCG and highlight substantial genetic heterogeneity in a high-consanguinity population.",
+      "why_it_matters": "Identifying novel genetic variants behind childhood blindness in under-studied consanguineous populations could improve early diagnosis and genetic counseling in regions where the disease burden is highest.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Narrow population genetics; limited generalizability; small sample, no direct public health hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Knowable Magazine",
+          "headline": "Why Childhood Blindness Hits Harder in Some Families \u2014 and What Genetics Is Revealing",
+          "hook": "In Pakistan, where nearly two-thirds of marriages are between relatives, a hidden genetic landscape of congenital glaucoma is only now coming into view.",
+          "pitch_angle": "Researchers have found previously unknown gene variants driving childhood blindness in Pakistani families with high rates of consanguinity. The findings illustrate how under-studied populations carry distinct genetic disease burdens that mainstream genomics has largely missed."
+        }
+      ],
+      "run_date": "2026-09-20",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "1/3",
       "status": "new"
     },
     {
@@ -118,309 +925,6 @@
       "status": "new"
     },
     {
-      "pmid": "42752597",
-      "headline": "A cheap, portable hepatitis C test matches PCR accuracy \u2014 and could reach millions who never had access to diagnosis",
-      "journal": "The Journal of Infectious Diseases",
-      "pubdate": "2026 Sep 17",
-      "doi": "10.1093/infdis/jiag450",
-      "groundbreaking": "First-in-class human study / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a prospective multinational diagnostic accuracy study across hospital and field sites in Egypt, Pakistan, and Japan (N=1,353 paired samples) to evaluate SMART-C, a lateral-flow HCV antigen test that uses a thermo-responsive smart polymer to concentrate virus particles. SMART-C achieved 94.6% sensitivity and 91.3% specificity against gold-standard PCR, with a limit of detection approaching that of lab-based PCR. In a subset of 21 patients starting antiviral therapy, the test tracked viral clearance in near-perfect agreement with PCR.",
-      "why_it_matters": "An estimated 50 million people worldwide live with chronic hepatitis C infection, most undiagnosed; a low-cost, no-lab-required test that matches PCR accuracy could be transformative for WHO elimination efforts in low-resource settings.",
-      "caveats": "observational design",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Large multinational human study; strong public health hook matching journalist's saved interests in rapid decentralized testing.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American / Undark",
-          "headline": "A Lateral-Flow Test That Rivals Lab PCR Could Finally Put Hepatitis C Diagnosis in Remote Clinics' Hands",
-          "hook": "A new strip-based hepatitis C test using smart polymer technology matched the diagnostic accuracy of expensive lab PCR in a multinational study \u2014 no cold chain, no specialist equipment required.",
-          "pitch_angle": "The SMART-C test uses a temperature-sensitive polymer to concentrate HCV antigens before detection, achieving sensitivity and specificity above 90% across diverse populations in Egypt, Pakistan, and Japan. With 50 million people estimated to have undiagnosed hepatitis C globally, a test this accurate that can be run in a village clinic could meaningfully accelerate WHO's 2030 elimination target."
-        },
-        {
-          "publication_type": "The Atlantic / Knowable Magazine",
-          "headline": "The Race to Diagnose 50 Million Hidden Hepatitis C Cases Just Got a New Tool",
-          "hook": "Most people with hepatitis C don't know they have it \u2014 not because they're hard to test, but because the tests require labs they'll never visit.",
-          "pitch_angle": "A new study across three countries found that a simple strip test using novel polymer chemistry can detect active HCV infection as accurately as PCR, in settings where PCR machines don't exist. The broader story is about the persistent gap between what medicine can diagnose in rich countries versus poor ones \u2014 and whether point-of-care innovation can finally close it."
-        }
-      ],
-      "run_date": "2026-09-19",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42753389",
-      "headline": "Nigerian healthcare workers would join Lassa fever vaccine trials \u2014 but only under strict conditions shaped by a 1996 Pfizer scandal",
-      "journal": "Vaccine",
-      "pubdate": "2026 Sep 17",
-      "doi": "10.1016/j.vaccine.2026.129162",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted in-depth qualitative interviews with 20 physicians, nurses, and midwives at a teaching hospital in northern Nigeria about their willingness to participate in Lassa fever vaccine trials. Rather than a simple yes-or-no response, healthcare workers described conditional willingness contingent on transparent safety data, robust informed consent, credible ethics oversight, and fair compensation for harm \u2014 with decision-making explicitly shaped by memory of the 1996 Pfizer meningitis trial controversy in Kano. The findings suggest that ethical design and institutional accountability, not just scientific persuasion, are the critical levers for vaccine trial recruitment in this context.",
-      "why_it_matters": "With Lassa fever vaccine trials urgently needed in endemic West African settings, understanding what conditions make participation acceptable to the healthcare workers most at risk \u2014 and most influential in shaping community trust \u2014 has direct implications for how trials are designed and who gets to set the terms.",
-      "caveats": "small sample (N<100), single-center, self-reported outcomes, observational design",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Pandemic preparedness and research ethics hook; small qualitative sample limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Undark / The Atlantic",
-          "headline": "Lassa Fever Vaccine Trials Need Nigerian Healthcare Workers. First, Researchers Have to Reckon With Pfizer's Shadow.",
-          "hook": "Healthcare workers at a Nigerian hospital say they would consider joining Lassa fever vaccine trials \u2014 but their willingness hinges on conditions set partly by a 30-year-old drug company scandal that still shapes how research is viewed in the region.",
-          "pitch_angle": "The 1996 Pfizer meningitis trial in Kano \u2014 in which children died and the company faced accusations of bypassing informed consent \u2014 continues to influence how Nigerian healthcare workers evaluate participation in clinical research, even for diseases like Lassa fever that put them directly at risk. This qualitative study reveals that rebuilding that trust requires structural changes to how trials are designed and governed, not just better communication strategies."
-        }
-      ],
-      "run_date": "2026-09-19",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42753272",
-      "headline": "Precision dosing of a critical antibiotic for critically ill children is feasible \u2014 but takes over a day to deliver",
-      "journal": "Therapeutic Drug Monitoring",
-      "pubdate": "2026 Sep 17",
-      "doi": "10.1097/FTD.0000000000001520",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Cincinnati Children's Hospital Medical Center described the first-year experience of a model-informed precision dosing (MIPD) service for cefepime, an antibiotic used in severe pediatric infections, in a prospective observational study of 19 patients (median age 2.7 years). Half of patients required extracorporeal support such as dialysis or ECMO, making standard dosing unreliable. The service successfully identified over- and under-dosing situations and led to dosing changes in 50% of consultations, though median turnaround time was 27.8 hours.",
-      "why_it_matters": "Children on life support metabolize drugs unpredictably, and a precision dosing service could reduce the risk of antibiotic toxicity \u2014 including cefepime-related neurotoxicity \u2014 or treatment failure in the most vulnerable pediatric patients.",
-      "caveats": "small sample (N<100), observational design, single-center, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Antibiotic stewardship hook but very small N and single-center limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Undark / General science",
-          "headline": "Getting the Antibiotic Dose Right for Critically Ill Kids Is Harder Than It Sounds",
-          "hook": "When children are on dialysis or a heart-lung bypass machine, standard antibiotic dosing guidelines can be dangerously wrong \u2014 a new precision dosing service is trying to fix that, one consultation at a time.",
-          "pitch_angle": "A first-year report from Cincinnati Children's found that model-guided cefepime dosing changed treatment in half of cases and flagged potential neurotoxicity risks, but the 28-hour median turnaround highlights how far real-world implementation still has to go."
-        }
-      ],
-      "run_date": "2026-09-19",
-      "category": "Pharmacology & Drug Therapy",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42752825",
-      "headline": "Autistic immigrants may face less peer stigma than non-immigrant autistic peers \u2014 but more anxiety and social struggles",
-      "journal": "Journal of Immigrant and Minority Health",
-      "pubdate": "2026 Sep 17",
-      "doi": "10.1007/s10903-026-02010-x",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a PRISMA-guided systematic review of 12 studies (8 quantitative, 4 qualitative) published between 2007 and 2026 examining the psychological and emotional well-being of autistic individuals from immigrant backgrounds. Autistic children with immigrant backgrounds showed greater difficulties in social relationships, emotional regulation, and anxiety compared to autistic children without immigrant backgrounds. Counterintuitively, some studies found autistic immigrants experienced less peer stigma than non-immigrant autistic individuals, and lower acculturative stress than non-autistic immigrants.",
-      "why_it_matters": "As autism diagnoses rise globally and immigration continues at scale, understanding the compounded vulnerabilities \u2014 and unexpected resilience \u2014 of autistic immigrant youth could reshape how schools and health systems provide culturally sensitive support.",
-      "caveats": "small sample (N<100), observational design, secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Counterintuitive finding boosts score; small evidence base (12 studies) and limited direct comparisons limit strength.",
-      "pitch_angles": [
-        {
-          "publication_type": "Undark / The Atlantic",
-          "headline": "Autistic Immigrants Have It Harder in Some Ways \u2014 and Surprisingly Easier in Others",
-          "hook": "A new review finds that autistic children from immigrant families face heightened anxiety and social difficulties \u2014 yet may paradoxically experience less peer stigma than their non-immigrant autistic counterparts.",
-          "pitch_angle": "The intersection of autism and immigrant identity creates a complex picture that challenges assumptions in both disability and immigration research. With autism prevalence rising and global migration accelerating, services built on one-size-fits-all models may be missing the nuanced needs \u2014 and hidden strengths \u2014 of this overlooked group."
-        }
-      ],
-      "run_date": "2026-09-19",
-      "category": "Public Health & Epidemiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42747584",
-      "headline": "Ticks on captive deer in Malaysia carry a human-infecting bacterium \u2014 and scientists are just beginning to map the risk",
-      "journal": "Acta Parasitologica",
-      "pubdate": "2026 Sep 16",
-      "doi": "10.1007/s11686-026-01392-0",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers collected 60 ticks from captive Sambar deer at sites in East and West Malaysia during 2021\u20132022, molecularly identifying two Haemaphysalis tick species \u2014 H. shimoga and H. bispinosa \u2014 for the first time in this host in Malaysia. Of seven ticks with sufficient DNA for analysis, five carried Theileria parasites and one H. bispinosa specimen harbored a concurrent triple infection with two Theileria species plus Anaplasma phagocytophilum, a bacterium known to cause human granulocytic anaplasmosis. The findings represent the first molecular documentation of these tick species and their associated pathogens in Malaysian captive wildlife.",
-      "why_it_matters": "Detecting human-pathogenic Anaplasma phagocytophilum in ticks on captive deer highlights surveillance gaps at the wildlife-human interface in Southeast Asia, where zoonotic tick-borne disease risks are poorly characterized.",
-      "caveats": "small sample (N<100), observational design, single-center, narrow geographic context (Malaysia), only 7 of 60 ticks yielded usable DNA",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Narrow regional wildlife surveillance study; limited generalizability beyond Southeast Asia.",
-      "pitch_angles": [
-        {
-          "publication_type": "bioGraphic / New Scientist",
-          "headline": "Captive deer in Malaysian parks are hosting ticks loaded with a bacterium that can infect people",
-          "hook": "Ticks collected from Sambar deer at a Malaysian biopark carried Anaplasma phagocytophilum \u2014 a pathogen capable of causing serious illness in humans \u2014 raising fresh questions about disease risks at wildlife tourism sites.",
-          "pitch_angle": "The study is the first molecular identification of two Haemaphysalis tick species infesting captive deer in Malaysia, and the discovery of a human-pathogenic bacterium among them underscores how little is known about tick-borne disease spillover at the wildlife-human interface in tropical Asia. As wildlife tourism and deer farming expand across Southeast Asia, baseline surveillance studies like this one are becoming urgent."
-        }
-      ],
-      "run_date": "2026-09-19",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42747453",
-      "headline": "Care robots for stroke patients at home fell flat \u2014 and patients preferred a simple tablet instead",
-      "journal": "Bundesgesundheitsblatt, Gesundheitsforschung, Gesundheitsschutz",
-      "pubdate": "2026 Sep 16",
-      "doi": "10.1007/s00103-026-04295-7",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "German researchers surveyed stroke patients, relatives, and 31 healthcare professionals before and after a 24-week trial of two telepresence robotics (TPR) devices used in home-based care, involving 48 patients and 53 relatives at baseline. High initial expectations around independence, safety, and communication were largely unmet: autonomous mobility and voice assistance proved of limited practical help. Participants consistently preferred a simple, flexible tablet solution over the robotic systems.",
-      "why_it_matters": "As healthcare systems worldwide invest in robotics and AI-assisted home care for aging and disabled populations, this study suggests that simpler, lower-tech solutions may better serve patient needs \u2014 at least in the near term.",
-      "caveats": "small sample (N<100), single-center, observational design, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Counterintuitive finding on care robotics has broad resonance; German single-center context and small N limit generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired / MIT Technology Review",
-          "headline": "Stroke Patients Tried Living With Care Robots for Six Months. They Chose the Tablet.",
-          "hook": "A rigorous 24-week German home trial found that sophisticated telepresence robots designed to help stroke survivors failed to meet expectations \u2014 while a basic tablet filled the gap.",
-          "pitch_angle": "The promise of home care robotics has long outpaced the reality for patients with complex needs; this study offers a rare real-world test that shows the gap between engineering ambition and human usability. As countries grapple with aging populations and caregiver shortages, the finding raises urgent questions about where to invest in assistive technology."
-        }
-      ],
-      "run_date": "2026-09-19",
-      "category": "Public Health & Epidemiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42746917",
-      "headline": "Zoonotic beef parasites found in Portuguese cattle for the first time \u2014 a food safety alert",
-      "journal": "Zoonoses and Public Health",
-      "pubdate": "2026 Sep 16",
-      "doi": "10.1111/zph.70091",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "During routine meat inspection in Portugal, veterinary researchers identified eosinophilic myositis-like lesions in the jaw muscles of a single bovine carcass, which molecular analysis confirmed harbored two zoonotic Sarcocystis species \u2014 S. hominis and S. heydorni \u2014 alongside S. cruzi. Humans can acquire Sarcocystis infection by consuming raw or undercooked beef containing viable sarcocysts. This is the first confirmed report of zoonotic Sarcocystis in cattle in Portugal.",
-      "why_it_matters": "The finding highlights that standard meat inspection procedures can catch otherwise invisible parasitic risks, underscoring their role in protecting public health from food-borne zoonoses in Europe.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Food safety zoonosis finding; single-animal case limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science / Science News",
-          "headline": "Raw beef lovers take note: zoonotic parasites just turned up in Portuguese cattle for the first time",
-          "hook": "A routine slaughterhouse inspection in Portugal uncovered two species of human-transmissible parasites lurking in a cow's muscle tissue \u2014 a first for the country.",
-          "pitch_angle": "Sarcocystis hominis and S. heydorni, which can cause gastrointestinal illness in humans who eat raw or undercooked beef, have now been confirmed in Portuguese cattle, expanding the known geographic footprint of these food-borne zoonoses in Europe. The case reinforces the public health value of meat inspection as active disease surveillance rather than a bureaucratic formality."
-        }
-      ],
-      "run_date": "2026-09-19",
-      "category": "Public Health & Epidemiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42742994",
-      "headline": "A mutation in a GABA-producing gene may be a newly identified cause of inherited intellectual disability",
-      "journal": "Psychiatric Genetics",
-      "pubdate": "2026 Sep 15",
-      "doi": "10.1097/YPG.0000000000000427",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers performed whole-exome sequencing on an affected individual from a consanguineous Pakistani family and identified a novel homozygous missense variant (p.Arg567Gln) in GAD1 \u2014 the gene encoding glutamate decarboxylase 1, a key enzyme in GABA synthesis \u2014 co-segregating with autosomal recessive intellectual disability. Protein modeling suggested the variant disrupts GAD1's enzymatic architecture and may impair inhibitory neurotransmitter production during brain development. The finding expands the known mutational landscape of GAD1 in neurodevelopmental disorders.",
-      "why_it_matters": "Identifying genetic causes of intellectual disability in consanguineous families can improve diagnostic accuracy and inform genetic counseling, particularly in populations where such marriages are common.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Single-family genetics case; journalist previously passed on similar rare-variant ID studies.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "A Broken GABA-Making Gene May Be Behind Some Cases of Inherited Intellectual Disability",
-          "hook": "A mutation in GAD1 \u2014 the gene that helps the brain make its chief calming neurotransmitter \u2014 has been linked to intellectual disability in a consanguineous family for the first time.",
-          "pitch_angle": "The finding adds GAD1 to the growing list of genes implicated in autosomal recessive intellectual disability, a condition disproportionately prevalent in communities where related individuals marry. Though based on a single family, it points to the inhibitory neurotransmitter system as an underappreciated target for understanding these disorders."
-        }
-      ],
-      "run_date": "2026-09-19",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42742767",
-      "headline": "A pair of RNA molecules may drive the dangerous blood clot paradox seen in lupus patients",
-      "journal": "Molecular Biology Reports",
-      "pubdate": "2026 Sep 15",
-      "doi": "10.1007/s11033-026-12551-x",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers recruited 60 lupus (SLE) patients with thrombocytopenia (low platelets), 40 SLE patients without it, and 40 healthy controls, measuring gene expression of the long non-coding RNA PVT1, microRNA miR-181a, and immune regulators FOXP3 and ROR\u03b3t alongside inflammatory markers. Thrombocytopenic SLE patients showed upregulated miR-181a and ROR\u03b3t alongside downregulated PVT1 and FOXP3, tilting the immune balance toward inflammation. The study suggests this RNA regulatory axis may help explain how some SLE patients simultaneously have low platelet counts yet face elevated clotting risk \u2014 the so-called antiphospholipid syndrome paradox.",
-      "why_it_matters": "Identifying molecular markers that distinguish which lupus patients are at highest risk for bleeding or clotting could eventually help clinicians monitor disease progression more precisely.",
-      "caveats": "small sample (N<100), observational design, single-center",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Mechanistically interesting autoimmune finding but small single-center sample limits audience appeal.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health.com / Women's Health",
-          "headline": "Why Some Lupus Patients Can Bleed and Clot at the Same Time \u2014 and What RNA Has to Do With It",
-          "hook": "A new study suggests a pair of RNA molecules may sit at the heart of one of lupus's most baffling complications \u2014 a condition where patients have dangerously low platelets yet still form deadly clots.",
-          "pitch_angle": "Researchers identified a molecular imbalance in immune-regulating RNAs that appears to tip lupus patients toward dangerous inflammation, potentially explaining the coexistence of thrombocytopenia and antiphospholipid syndrome. Because lupus disproportionately affects women, understanding this paradox could one day improve how doctors assess clotting and bleeding risk in this population."
-        }
-      ],
-      "run_date": "2026-09-19",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "2/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42742910",
-      "headline": "A co-designed web campaign boosted HIV testing intentions among gay and bisexual men in Amsterdam \u2014 but the sample was tiny",
-      "journal": "AIDS and Behavior",
-      "pubdate": "2026 Sep 15",
-      "doi": "10.1007/s10461-026-05305-0",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers in Amsterdam co-developed a tailored web-based HIV testing promotion campaign with gay, bisexual, and other men who have sex with men (GBMSM) and HIV prevention experts, using behavioral determinant frameworks to target messaging at subgroups with low recent testing rates. A post-test-only pilot evaluation (N=86) found significantly higher HIV testing intention among men exposed to the campaign compared to those who were not. Findings are preliminary, and the authors call for larger, more rigorous evaluation before broader implementation.",
-      "why_it_matters": "Late HIV diagnosis remains a key driver of ongoing transmission, and community co-designed digital interventions could offer scalable, low-cost tools to close persistent testing gaps in high-risk populations.",
-      "caveats": "small sample (N<100), observational design, self-reported outcomes, single-center, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Relevant HIV-testing topic but very small pilot with major design caveats.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science / Health.com",
-          "headline": "A web campaign built by and for gay men nudged HIV testing rates \u2014 but science needs a bigger test",
-          "hook": "When gay and bisexual men helped design their own HIV testing campaign, it moved the needle on intentions to get tested \u2014 but a sample of just 86 men means the jury is still out.",
-          "pitch_angle": "The Amsterdam pilot highlights a growing movement toward community co-design in public health messaging, where the people most affected by a disease shape the communications aimed at them; whether that approach translates to actual testing behavior at scale remains an open question."
-        }
-      ],
-      "run_date": "2026-09-19",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42745336",
-      "headline": "Brazil records its first cluster outbreak of a rare tick-borne spotted fever in Atlantic rainforest areas",
-      "journal": "Zoonoses and Public Health",
-      "pubdate": "2026 Sep 15",
-      "doi": "10.1111/zph.70093",
-      "groundbreaking": "First-in-class human study / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers investigated a cluster of three confirmed cases of Atlantic Rainforest Spotted Fever (ARSF) \u2014 caused by Rickettsia parkeri \u2014 occurring in Ilh\u00e9us, Bahia, Brazil between March and April 2025, confirmed via molecular and serological analysis. Wild cricetid rodents at the exposure sites were found carrying immature Amblyomma ovale ticks, the known vector. This is the first confirmed outbreak cluster of ARSF in Brazil, establishing southern Bahia as an endemic area for the disease.",
-      "why_it_matters": "As ecotourism and forest-edge human activity expand in Brazil's Atlantic rainforest, this first documented outbreak cluster suggests growing exposure risk for people entering these habitats.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Infectious disease first-outbreak finding; narrow Brazil regional context limits broad pitchability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Science News / New Scientist",
-          "headline": "A rarely seen tick-borne fever just caused its first outbreak cluster in Brazil's Atlantic rainforest",
-          "hook": "Until now, Atlantic Rainforest Spotted Fever had only ever appeared as isolated individual cases \u2014 but a new cluster of three confirmed infections in Bahia may signal an emerging endemic zone.",
-          "pitch_angle": "Researchers confirmed Brazil's first outbreak of this Rickettsia parkeri disease linked to tick bites in Atlantic forest areas, identifying wild rodents as a reservoir host. The finding raises questions about how ecotourism and deforestation-edge activity may be quietly expanding human exposure to tick-borne diseases across the Americas."
-        }
-      ],
-      "run_date": "2026-09-19",
-      "category": "Public Health & Epidemiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42208683",
       "headline": "Elder knowledge of toxic plants is disappearing \u2014 and a new survey raced to document it before it's gone",
       "journal": "Toxicon",
@@ -440,60 +944,6 @@
           "headline": "Only elders know which plants can kill the livestock \u2014 and that knowledge is fading fast",
           "hook": "In a rural district of Jammu & Kashmir, the sharpest knowledge of locally toxic plants belongs almost entirely to people over 55 \u2014 and a new survey suggests it may not be passed down.",
           "pitch_angle": "A three-year field study catalogued 93 toxic plant species using GPS and herbarium records while interviewing 182 community members, revealing a stark generational knowledge gap. The findings underscore a global pattern: as traditional ecological expertise disappears with aging populations, livestock poisoning risks and zoonotic hazards quietly grow."
-        }
-      ],
-      "run_date": "2026-09-19",
-      "category": "Pharmacology & Drug Therapy",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42734327",
-      "headline": "One gut bacterium is consistently depleted across colorectal cancer, Crohn's disease, and liver cirrhosis \u2014 but the finding is preliminary",
-      "journal": "mSystems",
-      "pubdate": "2026 Sep 14",
-      "doi": "10.1128/msystems.00836-26",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a secondary cross-sectional analysis of public gut metagenomics and serum metabolomics datasets from patients with colorectal cancer, Crohn's disease, and liver cirrhosis, benchmarking 1,152 analytical pipeline configurations to control for the well-known problem of pipeline-driven false results. Using a 'maximin' optimization approach, they identified a single bacterial taxon \u2014 Firmicutes bacterium CAG:41 \u2014 that was consistently depleted across all three diseases, with shared disruptions in sulfur-selenium redox metabolism, while host metabolic responses remained largely disease-specific. External validation was adequately powered only for colorectal cancer (AUC = 0.769).",
-      "why_it_matters": "If confirmed prospectively, a shared microbial vulnerability across three major gut-associated diseases could inform both early screening strategies and the design of microbiome-targeted interventions that address a common biological denominator.",
-      "caveats": "observational design, secondary analysis, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Gut microbiome topic bonus; methodological rigor notable; secondary analysis limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Knowable Magazine / Scientific American",
-          "headline": "Three Very Different Gut Diseases May Share One Missing Microbe \u2014 If the Analysis Holds Up",
-          "hook": "A new computational study designed to guard against one of microbiome research's biggest reliability problems found a single gut bacterium consistently absent in colorectal cancer, Crohn's disease, and liver cirrhosis \u2014 though the finding needs prospective confirmation.",
-          "pitch_angle": "Microbiome studies are notorious for producing contradictory results depending on how the data are processed; by stress-testing 1,152 analytical configurations simultaneously, researchers identified a bacterium linked to sulfur-selenium metabolism that was depleted across all three diseases, suggesting a possible shared microbial axis beneath very different gut conditions. The study is a secondary analysis of existing datasets and requires prospective validation, but its methodological approach may offer a model for more reproducible cross-disease microbiome research."
-        }
-      ],
-      "run_date": "2026-09-19",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42726649",
-      "headline": "A decade of melasma drug patents reveals almost no genuine innovation \u2014 just the same old compounds repackaged",
-      "journal": "Expert Opinion on Therapeutic Patents",
-      "pubdate": "2026 Sep 14",
-      "doi": "10.1080/13543776.2026.2726449",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed global patent activity for synthetic melasma drugs filed between 2015 and 2025, screening the Espacenet database and ultimately including 17 patents. They found that 94.1% of filings were reformulation strategies \u2014 novel delivery systems or combinations of existing compounds \u2014 with only one patent describing a genuinely new chemical entity. The review concludes that melasma drug innovation has been largely incremental, with few attempts to target mechanisms beyond conventional melanogenesis inhibition.",
-      "why_it_matters": "Melasma affects millions of people worldwide and carries significant psychosocial burden, yet pharmaceutical innovation has stalled at repackaging old treatments rather than developing new ones \u2014 leaving patients with limited long-term options.",
-      "caveats": "secondary analysis, small sample (N<100)",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Consumer health relevance and counterintuitive innovation stagnation finding, but patent review with only 17 filings.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / Health.com",
-          "headline": "Melasma affects millions \u2014 so why has drug innovation barely moved in a decade?",
-          "hook": "Of 17 melasma drug patents filed globally over the past decade, only one described a genuinely new compound \u2014 the rest were just old drugs in new packaging.",
-          "pitch_angle": "A patent landscape analysis reveals that pharmaceutical investment in melasma has overwhelmingly favored incremental reformulation over genuine discovery, despite the condition's high prevalence and documented psychosocial toll. The finding raises broader questions about whether cosmetic-adjacent conditions attract the same research urgency as other chronic diseases."
         }
       ],
       "run_date": "2026-09-19",
@@ -586,33 +1036,6 @@
       "run_date": "2026-09-19",
       "category": "Genetics & Molecular Biology",
       "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42749190",
-      "headline": "Feline coronavirus in US shelter cats is evolving through cross-species gene swapping \u2014 echoing a deadly 2023 outbreak",
-      "journal": "Virus Research",
-      "pubdate": "2026 Sep 16",
-      "doi": "10.1016/j.virusres.2026.199802",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers screened 139 feral and shelter cats in New York and Tennessee for feline coronavirus (FCoV), finding 22.3% positive, and performed whole-genome sequencing on three novel strains. Genomic analysis revealed mosaic genomes combining feline coronavirus types I and II with canine coronavirus lineages, with recombination breakpoints in multiple genomic regions \u2014 a pattern resembling the 2023 FCoV outbreak in Cyprus. The novel strains also carried 76 amino acid substitutions in the spike protein's receptor-binding domain, suggesting ongoing antigenic evolution.",
-      "why_it_matters": "Evidence that feline infectious peritonitis virus is actively recombining with canine coronavirus lineages in US shelter populations suggests that cross-species viral mixing may be driving the emergence of new, potentially more virulent FCoV strains.",
-      "caveats": "small sample (N<100), observational design, single-center",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Pandemic preparedness/coronavirus evolution angle; US-based; small sample limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American / New Scientist",
-          "headline": "The Virus That Kills Cats Is Quietly Swapping Genes With Dog Coronaviruses in American Shelters",
-          "hook": "Novel feline coronavirus strains found in New York and Tennessee shelter cats carry mosaic genomes stitched together from feline and canine coronavirus lineages \u2014 a worrying sign of cross-species viral evolution happening right now.",
-          "pitch_angle": "The recombination patterns closely resemble those seen during the fatal 2023 FCoV outbreak in Cyprus, raising questions about whether similar evolutionary dynamics could produce more virulent strains in densely housed shelter animals. With millions of cats passing through US shelters annually, the findings make a case for routine genomic surveillance of companion-animal coronaviruses."
-        }
-      ],
-      "run_date": "2026-09-18",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -952,33 +1375,6 @@
       "status": "new"
     },
     {
-      "pmid": "42752770",
-      "headline": "A flesh-eating fungal disease is quietly spreading through the Amazon \u2014 and cats may be driving it",
-      "journal": "Revista da Sociedade Brasileira de Medicina Tropical",
-      "pubdate": "2026",
-      "doi": "10.1590/0037-8682-0560-2025",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed medical records of patients diagnosed with sporotrichosis at a dermatology reference center in northern Brazil's Amazon region. The case series found that most patients presented with the localized cutaneous form of the fungal disease, with transmission primarily zoonotic in urban settings. The study highlights rising case counts and the diagnostic and treatment challenges specific to an emerging endemic zone.",
-      "why_it_matters": "Sporotrichosis is spreading beyond its traditional endemic zones into the Amazon, suggesting the zoonotic fungal threat may be expanding geographically in ways that could affect travelers, researchers, and local communities.",
-      "caveats": "small sample (N<100), observational design, single-center, secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Emerging zoonosis with public health hook, but single-center case series with limited generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Undark / bioGraphic",
-          "headline": "The Amazon's Next Emerging Disease Threat Spreads Through Cat Scratches",
-          "hook": "A fungal disease once confined to temperate zones is increasingly turning up in the Amazon \u2014 often transmitted by urban cats.",
-          "pitch_angle": "Sporotrichosis cases are rising in Brazil's Amazon region, driven by zoonotic transmission in cities. The trend raises questions about how deforestation, urbanization, and animal-human proximity are reshaping infectious disease geography."
-        }
-      ],
-      "run_date": "2026-09-18",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42752774",
       "headline": "A threatened underground rodent in Brazil tests positive for Toxoplasma at surprisingly high rates \u2014 even far from human activity",
       "journal": "Revista Brasileira de Parasitologia Veterin\u00e1ria",
@@ -1057,33 +1453,6 @@
       "run_date": "2026-09-17",
       "category": "Infectious Disease",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42734866",
-      "headline": "A citrus bark viroid has invaded Turkey's pistachio orchards \u2014 and it's undermining grafting success",
-      "journal": "Virus Genes",
-      "pubdate": "2026 Sep 14",
-      "doi": "10.1007/s11262-026-02270-7",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers surveyed 223 pistachio trees across 51 orchards in southeastern Turkey between 2022 and 2024, finding that nearly 20% tested positive for Cocadviroid rimocitri (citrus bark cracking viroid, CBCVd) \u2014 a first confirmed detection in the country. Genomic sequencing revealed 14 distinct haplotypes, indicating a genetically diverse and likely established pathogen population. Lab experiments showed the viroid impaired graft uptake on all four rootstock varieties tested, threatening standard pistachio propagation methods.",
-      "why_it_matters": "Turkey is one of the world's top pistachio producers, and a genetically diverse viroid that undermines grafting could threaten orchard establishment and long-term agricultural yields in the region.",
-      "caveats": "single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Regionally specific plant pathology finding with limited global public health or environmental health resonance for target outlets.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science / bioGraphic",
-          "headline": "A Tiny Viroid Is Silently Spreading Through Turkey's Pistachio Trees \u2014 and Sabotaging the Grafts That Grow Them",
-          "hook": "Nearly one in five pistachio trees surveyed across Turkey's major growing region harbored a viroid that, in lab tests, impaired the grafting technique farmers depend on to propagate new trees.",
-          "pitch_angle": "The first confirmed detection of citrus bark cracking viroid in Turkish pistachio orchards \u2014 with 14 genetic variants already circulating \u2014 suggests the pathogen is well-established and spreading. As climate pressures push growers to replant and adapt, an emerging threat to the grafting pipeline could complicate pistachio agriculture in one of the world's leading producer countries."
-        }
-      ],
-      "run_date": "2026-09-17",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "2/3",
       "status": "new"
     },
     {
