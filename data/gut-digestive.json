@@ -1,39 +1,309 @@
 {
-  "last_updated": "2026-09-22T15:34:09.671687+00:00",
-  "total_studies": 248,
-  "new_this_run": 0,
+  "last_updated": "2026-09-23T15:32:28.727071+00:00",
+  "total_studies": 256,
+  "new_this_run": 9,
   "studies": [
     {
-      "pmid": "42760118",
-      "headline": "A stomach disease driven by food allergies has no approved treatments \u2014 and doctors are struggling to even diagnose it",
-      "journal": "Gut",
-      "pubdate": "2026 Sep 18",
-      "doi": "10.1136/gutjnl-2025-337900",
-      "groundbreaking": "First-in-class human study",
+      "pmid": "42671179",
+      "headline": "Novel insights into Radix Pseudostellariae saponins assist Mycoplasma gallisepticum attenuated vaccine to enhance the immunoprotection of chicken.",
+      "journal": "mSystems",
+      "pubdate": "2026 Sep 22",
+      "doi": "10.1128/msystems.00781-26",
+      "groundbreaking": "Relevant gut health finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers reviewed the current state of eosinophilic gastritis (EoG), a rare chronic stomach disease characterized by immune-driven eosinophilic infiltration triggered by food antigens and type 2 immune dysregulation (IL-4/IL-13 pathway). The review synthesizes existing evidence on diagnosis \u2014 requiring endoscopy and biopsy after ruling out other causes \u2014 and available treatments, which are limited to dietary elimination and off-label corticosteroids. No therapies are currently approved for EoG, and ongoing biologic trials represent the most promising near-term option.",
-      "why_it_matters": "EoG is frequently misdiagnosed and undertreated, and understanding its immune-food antigen mechanism may help patients with unexplained stomach symptoms advocate for proper evaluation.",
-      "caveats": "industry funding [Sanofi, Regeneron Pharmaceuticals], review article (no primary data)",
+      "summary": "",
+      "why_it_matters": "",
+      "caveats": "",
       "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Rare GI disease review; strong clinical framing but no new primary data.",
+      "excluded": false,
+      "relevance_score": 5,
+      "relevance_score_reason": "",
+      "pitch_angles": [],
+      "run_date": "2026-09-23",
+      "category": "Microbiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42771130",
+      "headline": "A rare genetic mutation explains why some kids with IBD don't respond to standard biologic therapy",
+      "journal": "Clinical Journal of Gastroenterology",
+      "pubdate": "2026 Sep 22",
+      "doi": "10.1007/s12328-026-02394-1",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers report a pediatric case of IBD caused by a novel frameshift mutation in the XIAP gene (c.498dupA) that drove resistance to anti-TNF biologic therapy, suggesting a non-TNF-dominant inflammatory pathway. The patient (N=1) was subsequently treated with ustekinumab, an IL-12/23 blocker, and achieved sustained clinical and endoscopic improvement. The case illustrates how genetic diagnosis can reveal distinct inflammatory mechanisms and guide individualized treatment when standard biologics fail.",
+      "why_it_matters": "This case suggests that for rare monogenic forms of IBD, genetic testing could help clinicians identify which inflammatory pathway is driving disease and choose a more effective biologic \u2014 potentially avoiding months of failed treatment in children.",
+      "caveats": "small sample (N<100), single-center, single case report \u2014 no generalizable efficacy data",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Niche monogenic IBD case report; limited generalizability and no diet/microbiome angle.",
       "pitch_angles": [
         {
           "publication_type": "Gastroenterology & Endoscopy News",
-          "headline": "Eosinophilic Gastritis: No Approved Therapies, Diagnostic Hurdles, and Biologics on the Horizon",
-          "hook": "More than half of patients with eosinophilic gastritis are misclassified or undertreated because there is no approved therapy and diagnosis requires invasive biopsy after ruling out a long list of other conditions.",
-          "pitch_angle": "This review from leading eosinophilic GI disease centers maps the diagnostic gaps and therapeutic vacuum in EoG, and highlights biologic trials targeting the IL-4/IL-13 axis as the most credible near-term path to approved treatment. For gastroenterologists, it doubles as a practical framework for a disease they may be seeing more often as awareness grows."
+          "headline": "Novel XIAP Variant Points to IL-12/23 Axis as Therapeutic Target in Anti-TNF-Refractory Pediatric IBD",
+          "hook": "When a child's IBD failed every standard biologic, a genetic test revealed why \u2014 and pointed to an entirely different treatment pathway.",
+          "pitch_angle": "A pediatric patient with a newly identified XIAP frameshift mutation showed no response to anti-TNF therapy but achieved sustained remission on ustekinumab, suggesting the IL-12/23 axis \u2014 not TNF \u2014 was the dominant driver of inflammation. The case makes the argument that genetic sequencing in refractory pediatric IBD isn't just academic \u2014 it may be the fastest path to the right drug."
+        }
+      ],
+      "run_date": "2026-09-23",
+      "category": "Gastroenterology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42765431",
+      "headline": "Most Kids With IBD Are Sent Down the Wrong Diagnostic Path \u2014 And It Costs Them Months",
+      "journal": "Journal of Pediatric Gastroenterology and Nutrition",
+      "pubdate": "2026 Sep 21",
+      "doi": "10.1002/jpn3.70588",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a retrospective single-center study of 128 pediatric IBD patients diagnosed between 2015 and 2025 at a regional tertiary center in Italy, classifying their diagnostic pathways as appropriate, partially appropriate, or inappropriate. They found that 60.9% of patients followed inappropriate diagnostic pathways, and only 17.2% followed appropriate ones. Counterintuitively, children with more dramatic presentations \u2014 such as acute severe colitis \u2014 were more likely to be appropriately worked up, while those with systemic or extraintestinal symptoms like fever and oral ulcers were more often misrouted.",
+      "why_it_matters": "Children with IBD who present with subtler or systemic symptoms are most likely to experience diagnostic delays, suggesting that standardized pre-referral screening protocols using fecal calprotectin and abdominal ultrasound could meaningfully reduce time to diagnosis.",
+      "caveats": "small sample (N<100 per subgroup), observational design, single-center, retrospective, single-country (Italy)",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Clinically relevant IBD finding; single-center retrospective design limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Gastroenterology & Endoscopy News",
+          "headline": "Six in Ten Pediatric IBD Patients Follow Inappropriate Diagnostic Pathways, Italian Study Finds",
+          "hook": "A new retrospective study found that children presenting with fever or mouth sores were far less likely to receive appropriate GI workup than those with obvious gut symptoms \u2014 a pattern that delays diagnosis and worsens outcomes.",
+          "pitch_angle": "The study of 128 pediatric IBD cases found fecal calprotectin and abdominal ultrasound were used together before referral in only one-third of patients, despite being standard pre-referral tools. Standardizing screening protocols \u2014 especially for children with extraintestinal presentations \u2014 could close a critical diagnostic gap."
+        }
+      ],
+      "run_date": "2026-09-23",
+      "category": "Gastroenterology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42765690",
+      "headline": "A novel SNP-based multiplex PCR profiling divulges contemporary genetic patterns in Haitian variant Vibrio cholerae O1 clinical isolates.",
+      "journal": "Microbiology spectrum",
+      "pubdate": "2026 Sep 21",
+      "doi": "10.1128/spectrum.02661-25",
+      "groundbreaking": "Relevant gut health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "",
+      "why_it_matters": "",
+      "caveats": "",
+      "fact_check_note": "",
+      "excluded": false,
+      "relevance_score": 5,
+      "relevance_score_reason": "",
+      "pitch_angles": [],
+      "run_date": "2026-09-23",
+      "category": "Microbiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42772232",
+      "headline": "Antibacterial activity and mechanism of the Lithobates catesbeiana-derived novel peptide RCVI2 against Bacillus cereus.",
+      "journal": "International journal of food microbiology",
+      "pubdate": "2026 Sep 21",
+      "doi": "10.1016/j.ijfoodmicro.2026.112079",
+      "groundbreaking": "Relevant gut health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "",
+      "why_it_matters": "",
+      "caveats": "",
+      "fact_check_note": "",
+      "excluded": false,
+      "relevance_score": 5,
+      "relevance_score_reason": "",
+      "pitch_angles": [],
+      "run_date": "2026-09-23",
+      "category": "Microbiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42763093",
+      "headline": "Characterization of the novel transposon Tn7722 harboring bla(NDM-1): Insights into the evolutionary dynamics of resistance in Klebsiella pneumoniae.",
+      "journal": "Journal of global antimicrobial resistance",
+      "pubdate": "2026 Sep 19",
+      "doi": "10.1016/j.jgar.2026.09.007",
+      "groundbreaking": "Relevant gut health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "",
+      "why_it_matters": "",
+      "caveats": "",
+      "fact_check_note": "",
+      "excluded": false,
+      "relevance_score": 5,
+      "relevance_score_reason": "",
+      "pitch_angles": [],
+      "run_date": "2026-09-23",
+      "category": "Microbiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42760118",
+      "headline": "A Stomach Disease Driven by Food Allergies Has No Approved Treatment \u2014 Experts Say That's Unacceptable",
+      "journal": "Gut",
+      "pubdate": "2026 Sep 18",
+      "doi": "10.1136/gutjnl-2025-337900",
+      "groundbreaking": "Major dietary or microbiome implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers synthesized the current state of eosinophilic gastritis (EoG), a rare chronic stomach disease triggered by food antigens and driven by type 2 immune dysregulation (IL-4 and IL-13 upregulation). The review covers diagnosis \u2014 requiring endoscopy and gastric biopsy \u2014 and highlights that no treatments are currently approved for EoG. Existing options including dietary elimination and off-label corticosteroids have suboptimal outcomes, though biologic trials are underway.",
+      "why_it_matters": "For the estimated patients living with eosinophilic gastritis, the absence of any approved therapy underscores a significant unmet need in food-allergy-related digestive disease.",
+      "caveats": "review article (no original data), industry funding [Sanofi, Regeneron]",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Clinically important rare GI disease review; no new data, industry-affiliated authors.",
+      "pitch_angles": [
+        {
+          "publication_type": "Gastroenterology & Endoscopy News",
+          "headline": "Eosinophilic Gastritis Has No Approved Therapy \u2014 Biologics Offer the Most Promise Yet",
+          "hook": "A comprehensive review in Gut finds that more than 60% of eosinophilic gastritis cases have no guideline-aligned treatment pathway, leaving clinicians improvising with steroids and elimination diets.",
+          "pitch_angle": "This expert synthesis maps the diagnostic challenges of EoG \u2014 a food-antigen-driven stomach disease requiring biopsy confirmation \u2014 and the glaring gap in approved therapies. With biologic trials targeting IL-4/IL-13 signaling underway, the piece positions EoG as the next frontier in eosinophilic GI disease management."
         },
         {
           "publication_type": "Health.com / Everyday Health",
-          "headline": "Your Stomach Symptoms Could Be a Food-Allergy Disease Doctors Often Miss",
-          "hook": "Eosinophilic gastritis \u2014 a chronic stomach disease triggered by food antigens \u2014 has no FDA-approved treatments, and many patients spend years undiagnosed.",
-          "pitch_angle": "A new review in Gut lays out why EoG is so hard to catch: it looks like other stomach conditions, requires biopsy for confirmation, and has no approved drug options, leaving patients on elimination diets or steroids not meant for long-term use. Biologic drugs targeting the immune pathway involved are in clinical trials and could change the picture for this underserved patient population."
+          "headline": "This Rare Stomach Condition Is Triggered by Food \u2014 And There's Still No Approved Treatment",
+          "hook": "Eosinophilic gastritis causes chronic stomach symptoms driven by the same food-allergy immune pathways behind asthma and eczema \u2014 yet no drug is approved to treat it.",
+          "pitch_angle": "A new expert review in Gut outlines why eosinophilic gastritis remains widely underdiagnosed and undertreated, with patients relying on elimination diets or steroids not designed for long-term use. The piece can explore what patients and doctors can expect as biologic drugs enter clinical trials for this condition."
         }
       ],
-      "run_date": "2026-09-20",
+      "run_date": "2026-09-23",
       "category": "Gastroenterology",
       "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42757874",
+      "headline": "Even Cutting Back Alcohol Inconsistently Lowers Liver Disease Risk \u2014 You Don't Have to Quit Completely",
+      "journal": "The American Journal of Gastroenterology",
+      "pubdate": "2026 Sep 18",
+      "doi": "10.14309/ajg.0000000000004212",
+      "groundbreaking": "Counterintuitive finding / Major dietary or microbiome implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used data from the Korean National Health Screening Program to track alcohol consumption trajectories in 85,554 adults with MetALD (metabolic and alcohol-related liver disease) over a median 10.1 years, categorizing participants into sustained, fluctuating, and consistently reduced drinking groups. Both fluctuating and consistently reduced alcohol consumption were associated with significantly lower risk of major adverse liver outcomes (MALO) compared to sustained drinking (adjusted hazard ratios 0.80 and 0.70, respectively). Consistent reduction also correlated with improved cardiometabolic markers including fasting glucose, triglycerides, and blood pressure.",
+      "why_it_matters": "For the large population with overlapping metabolic and alcohol-related liver disease, this large longitudinal study suggests that even inconsistent reduction in drinking is associated with meaningfully lower liver disease risk \u2014 not just total abstinence.",
+      "caveats": "observational design, single-country (South Korea), self-reported alcohol intake implied by screening data, no causation established",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Large human cohort, counterintuitive finding on partial alcohol reduction, strong liver/metabolic relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "You Don't Have to Quit Drinking to Save Your Liver \u2014 Even Cutting Back Erratically Helps",
+          "hook": "A study of more than 85,000 people with liver disease found that drinking less \u2014 even inconsistently \u2014 was associated with dramatically lower risk of serious liver complications compared to sustained drinking.",
+          "pitch_angle": "The finding challenges the all-or-nothing framing around alcohol and liver health, suggesting that harm reduction \u2014 not just abstinence \u2014 may be a clinically meaningful goal for millions living with metabolic-associated liver disease. The study raises broader questions about how medicine communicates risk reduction to patients who can't or won't stop drinking entirely."
+        },
+        {
+          "publication_type": "Health.com / Everyday Health",
+          "headline": "Cutting Back on Alcohol \u2014 Even Imperfectly \u2014 May Protect Your Liver, Large Study Finds",
+          "hook": "People with a form of liver disease linked to both metabolism and alcohol saw significantly lower risk of serious liver outcomes when they reduced their drinking, even if not consistently.",
+          "pitch_angle": "Researchers tracked over 85,000 adults for more than a decade and found that fluctuating drinkers had 20% lower liver disease risk than those who kept drinking steadily, while consistent reducers had 30% lower risk. The study suggests that partial progress on alcohol reduction could have real liver-health benefits."
+        }
+      ],
+      "run_date": "2026-09-23",
+      "category": "Gastroenterology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42759771",
+      "headline": "Losing weight lowers a sugar alcohol linked to heart risk \u2014 and erythritol, not just calories, may be driving the benefit",
+      "journal": "The American Journal of Clinical Nutrition",
+      "pubdate": "2026 Sep 18",
+      "doi": "10.1016/j.ajcnut.2026.101528",
+      "groundbreaking": "Counterintuitive finding / Major dietary or microbiome implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed plasma samples from 664\u2013805 overweight or obese adults enrolled in the 2-year POUNDS Lost randomized dietary weight-loss trial, measuring erythritol, arabitol/xylitol, and mannitol/sorbitol at baseline and 6 months. They found that higher baseline levels of all three sugar alcohols were associated with elevated 10-year cardiovascular disease risk estimates, but only declines in plasma erythritol \u2014 not the other polyols \u2014 were significantly linked to reductions in ASCVD risk scores and improvements in atherogenic VLDL+LDL lipid subfractions containing apolipoprotein C-III at both 6 months and 2 years. The findings suggest that falling erythritol levels may be a meaningful signal of cardiometabolic improvement during weight loss, independent of diet composition.",
+      "why_it_matters": "As erythritol is both produced endogenously and widely used as a low-calorie sweetener, these findings suggest that tracking or reducing circulating erythritol could be a novel marker \u2014 and possibly a target \u2014 for improving heart disease risk during dietary interventions.",
+      "caveats": "observational design, secondary analysis, short follow-up for some outcomes, plasma erythritol reflects both endogenous production and dietary intake (not distinguished)",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive sweetener-heart risk link; large RCT sample, secondary observational analysis limits causality.",
+      "pitch_angles": [
+        {
+          "publication_type": "Well+Good / Health.com / Everyday Health",
+          "headline": "The 'Healthy' Sugar Substitute Erythritol May Be a Hidden Heart Risk Marker \u2014 And Losing Weight Drops Its Levels",
+          "hook": "A sugar alcohol found in many 'better-for-you' sweetened products is linked to higher cardiovascular risk \u2014 and new research suggests that watching its levels in the blood could reveal how much your heart is benefiting from weight loss.",
+          "pitch_angle": "A 2-year trial found that declining plasma erythritol during a weight-loss diet was tied to lower 10-year heart disease risk and healthier lipid profiles, raising fresh questions about a sweetener long considered benign. The finding matters because erythritol is increasingly common in keto and low-sugar products, and this research suggests its circulating levels \u2014 not just body weight \u2014 may be a meaningful signal of cardiovascular health."
+        },
+        {
+          "publication_type": "EatingWell / Prevention",
+          "headline": "A Common Sugar Substitute Is Linked to Heart Risk \u2014 Here's What a New Study Says About Diet and Erythritol Levels",
+          "hook": "People who lost the most weight on a calorie-controlled diet also saw the steepest drops in blood erythritol \u2014 and those drops were tied to better heart health markers two years later.",
+          "pitch_angle": "Researchers tracked plasma levels of erythritol \u2014 a sugar alcohol used in many low-calorie sweeteners \u2014 in over 800 adults on weight-loss diets and found that falling erythritol correlated with improved cardiovascular risk scores and less harmful LDL subtypes. The study adds nuance to current messaging around 'natural' or 'zero-calorie' sweeteners, suggesting that what happens to their by-products inside the body deserves more attention than their calorie count."
+        }
+      ],
+      "run_date": "2026-09-23",
+      "category": "Nutritional Sciences",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42749360",
+      "headline": "Gut Viruses \u2014 Not Just Bacteria \u2014 May Predict a Devastating Premature Infant Disease Weeks Before It Strikes",
+      "journal": "Gut",
+      "pubdate": "2026 Sep 16",
+      "doi": "10.1136/gutjnl-2026-338976",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using integrated metagenomics, metatranscriptomics, and machine learning on 1,825 longitudinal stool samples from 43 preterm infants who developed necrotizing enterocolitis (NEC) and 86 matched controls across three US hospitals, researchers characterized the gut prophageome \u2014 dormant viral sequences embedded in bacterial genomes \u2014 and its role in NEC risk. Early-onset NEC (\u226440 days) was best predicted by phage-bacterial interaction signatures with 75% accuracy and 81% sensitivity, while late-onset NEC (>40 days) was best predicted by antibiotic resistance gene profiles with 83% accuracy. Phages appeared to stabilize disease-promoting bacteria through a lysogenic (dormant) lifestyle and encode metabolic genes that may enhance pathobiont resilience.",
+      "why_it_matters": "This study suggests that the gut virome \u2014 long ignored in microbiome research \u2014 may be a powerful early-warning signal and active driver of necrotizing enterocolitis, a leading cause of death in premature infants, potentially opening new routes for prediction and prevention.",
+      "caveats": "small sample (N=43 NEC cases), observational design, microbiome data only (no clinical intervention outcomes), machine learning models require external validation",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Highly novel virome-NEC link, human longitudinal data, strong mechanistic and clinical significance.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The Microbiome's Dark Matter \u2014 Gut Viruses \u2014 May Predict a Deadly Baby Disease Before It Starts",
+          "hook": "Scientists found that dormant viruses hiding inside gut bacteria \u2014 not the bacteria themselves \u2014 may be the best early predictor of necrotizing enterocolitis, a catastrophic disease that kills thousands of premature infants each year.",
+          "pitch_angle": "By analyzing over 1,800 stool samples from preterm infants using cutting-edge metagenomics and machine learning, researchers showed that the gut prophageome offers predictive signals weeks before disease onset \u2014 with different viral and resistance-gene signatures distinguishing early- from late-onset disease. The finding reframes NEC as a polymicrobial condition shaped by a largely invisible viral ecosystem, and challenges the bacteria-centric model that has dominated gut microbiome research for two decades."
+        },
+        {
+          "publication_type": "Gastroenterology & Endoscopy News",
+          "headline": "Gut Prophageome and Resistome Profiles Predict NEC Onset Timing in Preterm Infants With High Accuracy",
+          "hook": "Machine learning models trained on gut phage and antibiotic-resistance gene profiles could distinguish early- from late-onset necrotizing enterocolitis with up to 83% accuracy in a longitudinal multicenter study.",
+          "pitch_angle": "The study applied integrated metagenomic and metatranscriptomic analysis to stool samples from 43 NEC cases and 86 controls, revealing that lysogenic phages may stabilize pathobionts by encoding protective metabolic functions \u2014 a mechanistic insight that could inform microbiome-targeted NEC prevention strategies. Validation in larger cohorts will be essential before clinical translation."
+        }
+      ],
+      "run_date": "2026-09-23",
+      "category": "Gastroenterology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42748406",
+      "headline": "Scientists map the molecular blueprint of liver scarring in fatty liver disease \u2014 and find consistent targets across nearly 1,000 patients",
+      "journal": "Hepatology Communications",
+      "pubdate": "2026 Oct 1",
+      "doi": "10.1097/HC9.0000000000000991",
+      "groundbreaking": "First-in-class human study / Major dietary or microbiome implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a comprehensive meta-analysis of liver gene expression data from approximately 1,000 patients with metabolic dysfunction-associated steatotic liver disease (MASLD), comparing those with advanced fibrosis (F3\u2013F4) to those with minimal fibrosis (F0\u2013F1). They identified 846 consistently dysregulated genes involved in matrix organization, inflammation, solute transport, and metabolism, and used single-cell RNA sequencing deconvolution to show that advanced fibrosis is associated with increased immune and mesenchymal cell types and loss of liver sinusoidal endothelial cells. The study also pinpointed specific cell-to-cell signaling interactions \u2014 including PDGFD-PDGFRA and ANXA1-FPR1 \u2014 that appear conserved across multiple datasets and may represent tractable anti-fibrotic drug targets.",
+      "why_it_matters": "Identifying conserved molecular signals across nearly 1,000 patients with fatty liver disease brings researchers closer to developing drugs that could slow or stop liver scarring \u2014 a key driver of progression to cirrhosis \u2014 in one of the world's fastest-growing liver conditions.",
+      "caveats": "observational design, no dietary or microbiome data, industry funding [multiple \u2014 Chalasani: Madrigal, Zydus, GSK, Altimmune, Insitro, Biomea Fusion, J&J, Akero; Romeo: AstraZeneca, GSK, Celgene, Amgen, Sanofi, Novartis, Chiesi]",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Large human cohort, MASLD relevance high, but no dietary/microbiome angle and industry ties.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "Fatty Liver Disease Is Exploding Worldwide. Scientists Just Mapped the Molecular Scars It Leaves Behind.",
+          "hook": "Across nearly 1,000 patients with fatty liver disease, researchers found the same molecular distress signals driving the scarring that kills \u2014 a discovery that suggests the liver's path to failure may be more predictable than we thought.",
+          "pitch_angle": "A new meta-analysis identified nearly 850 genes consistently dysregulated as fatty liver disease advances to dangerous scarring, pointing toward drug targets that could work across the diverse patients now being diagnosed with MASLD. As fatty liver disease becomes a leading cause of liver transplant and liver cancer globally, understanding the shared biology of its worst progression is essential to preventing the next wave of cirrhosis."
+        },
+        {
+          "publication_type": "Gastroenterology & Endoscopy News",
+          "headline": "Meta-Analysis of ~1,000 MASLD Patients Identifies Conserved Fibrogenic Gene Networks and Candidate Anti-Fibrotic Targets",
+          "hook": "A large transcriptomic meta-analysis has cut through interstudy noise to reveal the molecular machinery consistently driving liver fibrosis in MASLD \u2014 and flagged specific ligand-receptor pairs as potential intervention points.",
+          "pitch_angle": "By harmonizing hepatic RNA data from approximately 1,000 patients across multiple cohorts, researchers identified 846 differentially expressed genes and cell-signaling interactions \u2014 including PDGFD-PDGFRA and MMP7-CDH6 \u2014 that appear conserved across datasets and enriched in advanced fibrosis. The findings provide a prioritized target list for anti-fibrotic drug development at a moment when MASLD-related cirrhosis is becoming a dominant driver of liver disease burden."
+        }
+      ],
+      "run_date": "2026-09-23",
+      "category": "Gastroenterology",
+      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -255,33 +525,6 @@
       ],
       "run_date": "2026-09-20",
       "category": "Microbiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42748406",
-      "headline": "A meta-analysis of ~1,000 liver biopsies maps the gene networks driving scar tissue buildup in fatty liver disease",
-      "journal": "Hepatology Communications",
-      "pubdate": "2026 Oct 1",
-      "doi": "10.1097/HC9.0000000000000991",
-      "groundbreaking": "First-in-class human study / Major dietary or microbiome implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers performed a meta-analysis of hepatic transcriptomic data from approximately 1,000 patients with metabolic dysfunction-associated steatotic liver disease (MASLD) across multiple cohorts to identify conserved gene signatures linked to advanced liver fibrosis. The analysis identified 846 differentially regulated genes and specific cell-cell interaction pathways \u2014 including immune, endothelial, and mesenchymal cell changes \u2014 consistently associated with fibrosis progression (stage F3\u2013F4 vs. F0\u2013F1). The findings pinpoint specific ligand-receptor pairs and gene networks that may serve as targets for future anti-fibrotic therapies.",
-      "why_it_matters": "Identifying consistent molecular drivers of liver scarring in fatty liver disease could help researchers develop more targeted treatments for a condition affecting hundreds of millions of people worldwide.",
-      "caveats": "observational design, secondary analysis, microbiome data only (no clinical outcomes), industry funding [Madrigal, Zydus, GSK, Altimmune, AstraZeneca, Genentech, Intercept]",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Solid human multi-cohort study but highly mechanistic; limited direct gut/diet/microbiome angle.",
-      "pitch_angles": [
-        {
-          "publication_type": "Gastroenterology & Endoscopy News",
-          "headline": "Meta-Analysis of 1,000 MASLD Patients Uncovers Conserved Gene Networks Fueling Liver Fibrosis",
-          "hook": "A new multi-cohort transcriptomic meta-analysis has identified 846 genes consistently associated with advanced liver scarring in fatty liver disease \u2014 offering a roadmap for anti-fibrotic drug development.",
-          "pitch_angle": "By pooling hepatic gene-expression data from roughly 1,000 MASLD patients, researchers identified reproducible molecular signatures \u2014 including immune cell infiltration and specific ligand-receptor interactions \u2014 that drive fibrosis progression across independent datasets. For gastroenterologists and hepatologists, these findings suggest novel, targetable pathways that could move MASLD treatment beyond managing metabolic risk factors alone."
-        }
-      ],
-      "run_date": "2026-09-20",
-      "category": "Gastroenterology",
       "chunk": "2/2",
       "status": "new"
     },
@@ -2026,27 +2269,6 @@
       "run_date": "2026-09-07",
       "category": "Microbiology",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42671179",
-      "headline": "Novel insights into Radix Pseudostellariae saponins assist Mycoplasma gallisepticum attenuated vaccine to enhance the immunoprotection of chicken.",
-      "journal": "mSystems",
-      "pubdate": "2026 Aug 31",
-      "doi": "10.1128/msystems.00781-26",
-      "groundbreaking": "Relevant gut health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "",
-      "why_it_matters": "",
-      "caveats": "",
-      "fact_check_note": "",
-      "excluded": false,
-      "relevance_score": 5,
-      "relevance_score_reason": "",
-      "pitch_angles": [],
-      "run_date": "2026-09-07",
-      "category": "Microbiology",
-      "chunk": "2/2",
       "status": "new"
     },
     {
