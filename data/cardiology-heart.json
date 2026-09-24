@@ -1,66 +1,642 @@
 {
-  "last_updated": "2026-09-23T15:28:07.934986+00:00",
-  "total_studies": 507,
-  "new_this_run": 9,
+  "last_updated": "2026-09-24T15:50:16.619270+00:00",
+  "total_studies": 516,
+  "new_this_run": 10,
   "studies": [
     {
+      "pmid": "42776068",
+      "headline": "AI Can Match Cardiology Experts at Reading Heart Scans \u2014 But Hasn't Actually Improved Patient Outcomes Yet",
+      "journal": "Turk Kardiyoloji Dernegi Arsivi",
+      "pubdate": "2026 Sep 23",
+      "doi": "10.5543/tkda.2026.30071",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A structured narrative review synthesized 46 studies (published 2015\u20132026) on AI applications in echocardiography, examining whether technical accuracy translates to clinical benefit. Researchers identified five key barriers to real-world integration: reproducibility across settings, generalizability beyond development datasets, lack of outcome-focused evidence, regulatory immaturity, and insufficient clinician and patient trust. Despite strong agreement between AI and expert measurements of heart function and valve disease, few studies showed AI-assisted echocardiography actually improved patient outcomes.",
+      "why_it_matters": "As AI cardiac imaging tools move toward routine clinical use, this review suggests the real hurdle is not algorithmic accuracy but building the governance and outcome evidence needed to ensure these tools genuinely help patients.",
+      "caveats": "observational design, single-center (single-author review), surrogate endpoints only, narrative review with no quantitative pooling",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clinically relevant AI cardiology review; no hard endpoints, single-author narrative synthesis.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "AI Reads Heart Scans as Well as Experts \u2014 So Why Hasn't It Made Patients Healthier?",
+          "hook": "Despite matching cardiologists on key measurements, AI echocardiography tools have yet to demonstrate they actually improve patient outcomes in rigorous studies.",
+          "pitch_angle": "A new review of 46 studies finds that the bottleneck for AI in cardiac imaging isn't algorithmic performance \u2014 it's the absence of outcome-linked evidence, regulatory frameworks, and clinician trust needed to make these tools accountable in real clinical settings."
+        },
+        {
+          "publication_type": "General health / Health.com / Verywell Health",
+          "headline": "Your Next Heart Scan Could Be Read by AI \u2014 But Experts Say We're Not There Yet",
+          "hook": "AI can now measure heart function nearly as accurately as a specialist, but a new analysis finds that's not enough to know whether it's actually good for patients.",
+          "pitch_angle": "Researchers reviewed a decade of AI echocardiography studies and found that technical accuracy hasn't yet translated into better health outcomes, raising questions about how quickly these tools should enter routine cardiac care."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42775464",
+      "headline": "A new echocardiography scoring method cuts the 'diagnostic gray zone' in tricky aortic stenosis cases from 43% to just 9%",
+      "journal": "Circulation: Cardiovascular Imaging",
+      "pubdate": "2026 Sep 23",
+      "doi": "10.1161/CIRCIMAGING.125.018621",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a retrospective multinational study of 287 patients with classical low-gradient aortic stenosis (narrowed heart valve with low pressure readings and reduced heart pumping function), researchers tested whether newly proposed transvalvular flow-based criteria could reduce the large proportion of stress echocardiography tests that yield inconclusive results. Using conventional criteria, 43% of patients fell into an 'indeterminate' category \u2014 neither clearly severe nor clearly moderate stenosis \u2014 but applying the new flow-based criteria cut that proportion to just 9%. Patients reclassified as having severe stenosis by the new criteria showed a significant survival benefit from valve intervention (HR 0.50), though their outcomes after intervention were not as good as those diagnosed severe by conventional criteria.",
+      "why_it_matters": "Nearly half of patients with a difficult-to-classify form of aortic stenosis currently receive inconclusive stress test results, leaving clinicians uncertain whether to recommend valve replacement \u2014 a new classification approach suggests it could reliably guide that decision for most of them.",
+      "caveats": "observational design, retrospective, secondary analysis, short follow-up (median 12 months), no female-specific analysis reported",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Multinational, clinically significant hard endpoints, high-prevalence valve disease, addresses real diagnostic gap.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology / MedPage Today",
+          "headline": "New Flow Criteria Slash Indeterminate Stress Echo Findings in Low-Gradient Aortic Stenosis",
+          "hook": "Nearly half of patients with a tricky form of aortic stenosis currently get inconclusive stress tests \u2014 a new measurement approach resolved that uncertainty in 91% of cases in a multinational study.",
+          "pitch_angle": "Using transvalvular flow rate rather than pressure gradient alone, researchers reclassified most previously indeterminate patients as either clearly severe or moderate stenosis, and patients reclassified as severe showed meaningful survival benefit from valve intervention \u2014 findings that could directly change how cardiologists decide when to recommend aortic valve replacement."
+        },
+        {
+          "publication_type": "STAT News",
+          "headline": "Cardiologists Have Long Struggled to Read a Common Heart Valve Test. A New Metric May Finally Fix That.",
+          "hook": "For patients with a paradoxical form of aortic stenosis \u2014 a failing valve that doesn't show the usual pressure warning signs \u2014 the standard diagnostic test leaves almost half in a clinical limbo. A new approach may change that.",
+          "pitch_angle": "A multinational team found that measuring how fast blood actually flows across the valve, rather than relying solely on peak pressure gradients, could resolve the majority of inconclusive stress echocardiography results \u2014 and correctly identify which patients would benefit from valve replacement, a decision that currently carries life-or-death weight."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42775639",
+      "headline": "Castleman disease is routinely mistaken for lymphoma or autoimmune conditions \u2014 a new review explains why and how to tell them apart",
+      "journal": "European Journal of Haematology",
+      "pubdate": "2026 Sep 23",
+      "doi": "10.1111/ejh.70298",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This narrative review from hematology and hematopathology specialists at the University of Alabama and Moffitt Cancer Center synthesizes current knowledge on Castleman disease (CD), a rare and heterogeneous group of lymphoproliferative disorders that is frequently misdiagnosed due to overlapping features with lymphoma, autoimmune disease, and paraneoplastic syndromes. The review outlines the biological mechanisms and cellular origins of CD subtypes \u2014 including unicentric, multicentric, and the newly validated oligocentric form \u2014 with particular focus on interleukin-6 dysregulation. No original patient data are presented.",
+      "why_it_matters": "Castleman disease is often missed or misdiagnosed for years, and earlier accurate diagnosis could prevent organ damage and improve outcomes for patients with this rare but serious condition.",
+      "caveats": "observational design, surrogate endpoints only, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Rare hematologic condition; review only, no new patient data, limited cardiovascular relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Verywell Health",
+          "headline": "This Rare Blood Disorder Gets Mistaken for Lymphoma and Lupus \u2014 Experts Want Doctors to Know the Difference",
+          "hook": "Castleman disease, a rare disorder of the lymph nodes, is so frequently confused with cancer and autoimmune conditions that patients often spend years without a correct diagnosis.",
+          "pitch_angle": "A new review lays out the biological subtypes of Castleman disease and the key features that distinguish it from overlapping conditions like lymphoma and POEMS syndrome. Recognizing the disease earlier matters because some subtypes \u2014 particularly multicentric Castleman disease \u2014 can trigger dangerous systemic inflammation that damages multiple organs."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
       "pmid": "42771592",
-      "headline": "Autoimmune Diseases May Be a Hidden Driver of Sudden Cardiac Arrest in Young People and Athletes",
+      "headline": "Autoimmune disease may be a hidden driver of sudden cardiac arrest in young adults and athletes",
       "journal": "European Heart Journal",
       "pubdate": "2026 Sep 22",
       "doi": "10.1093/eurheartj/ehag752",
       "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "A review and perspective piece in the European Heart Journal, authored by researchers from the University of Siena and NYU/SUNY Downstate, argues that autoimmune-mediated cardiac arrhythmias are an underrecognized cause of sudden cardiac arrest in young adults and athletes. The authors propose that autoantibodies targeting cardiac ion channels and conduction system proteins can trigger life-threatening arrhythmias even in structurally normal hearts. No primary patient data are reported; the paper synthesizes existing mechanistic and epidemiological evidence to make the case for broader screening and awareness.",
-      "why_it_matters": "If autoimmune activity can silently destabilize the heart's electrical system in otherwise healthy young people, it raises questions about whether standard cardiac screening for athletes and young adults is missing a meaningful category of sudden death risk.",
-      "caveats": "observational design, surrogate endpoints only, secondary analysis",
-      "fact_check_note": "Abstract is a citation entry only with no detailed methods or results; summary is based on the stated topic, author affiliations, and title. Full text not available for verification \u2014 claims should be confirmed against full manuscript before publication.",
+      "summary": "Authors from the University of Siena and NYU Grossman School of Medicine reviewed evidence suggesting that autoimmune conditions \u2014 through mechanisms such as autoantibodies targeting cardiac ion channels \u2014 may be an underrecognized cause of unexpected cardiac arrest in young adults and athletes. The paper is a perspective or review piece rather than an original study with a defined patient cohort. It argues that autoimmunity is routinely overlooked in the workup of unexplained sudden cardiac events in otherwise healthy young people.",
+      "why_it_matters": "Recognizing autoimmunity as a potential trigger for sudden cardiac arrest in young, seemingly healthy individuals could open new diagnostic pathways for a condition that currently goes unexplained in a large proportion of cases.",
+      "caveats": "No primary data reported \u2014 review/perspective only; no N reported; mechanism-level argument without large prospective clinical validation",
+      "fact_check_note": "No original patient data are presented in the abstract; this appears to be a perspective or narrative review, not an original research study with a defined cohort.",
       "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive, sudden cardiac death angle, young athletes; no primary data.",
+      "relevance_score_reason": "Counterintuitive, high-impact angle on sudden cardiac death in young adults; review only limits score.",
       "pitch_angles": [
         {
-          "publication_type": "STAT News / MedPage Today",
-          "headline": "Sudden Cardiac Arrest in Young Athletes May Have an Autoimmune Trigger Doctors Are Missing",
-          "hook": "Researchers are raising alarms that autoantibodies \u2014 the immune system's misfiring missiles \u2014 may be silently disrupting the heart's electrical system in young, apparently healthy people.",
-          "pitch_angle": "A perspective in the European Heart Journal argues that autoimmune-mediated damage to cardiac ion channels and conduction proteins could account for a portion of unexplained sudden cardiac arrests in young adults and competitive athletes whose hearts appear structurally normal on standard screening. The authors suggest current pre-participation cardiac evaluations may not be designed to catch autoimmune electrical instability."
+          "publication_type": "STAT News / Medscape Cardiology",
+          "headline": "Autoimmune Triggers for Sudden Cardiac Arrest in Young Athletes Are Being Routinely Missed, Experts Warn",
+          "hook": "A new European Heart Journal perspective argues that autoantibodies targeting heart electrical channels may be causing sudden cardiac arrests in young athletes that go unexplained \u2014 and that no one is testing for them.",
+          "pitch_angle": "Cardiologists from Italy and New York contend that autoimmunity is a systematically overlooked mechanism in unexplained sudden cardiac arrest among young adults, with autoantibodies capable of disrupting the ion channels that regulate heart rhythm. The argument calls for a rethinking of post-arrest workups that currently focus almost exclusively on genetic and structural causes."
         },
         {
-          "publication_type": "Women's Health / Prevention / General health",
-          "headline": "A Hidden Immune System Problem Could Explain Some Cases of Sudden Cardiac Arrest in Young, Healthy People",
-          "hook": "When a young athlete collapses with no obvious heart defect, an autoimmune reaction attacking the heart's electrical wiring may be to blame \u2014 and it's rarely on anyone's radar.",
-          "pitch_angle": "Experts writing in the European Heart Journal say that antibodies produced by the immune system can interfere with the proteins that regulate heartbeat, potentially triggering fatal arrhythmias even in people who pass routine cardiac screening. The finding suggests that autoimmune conditions \u2014 more common in women \u2014 may deserve attention as an underappreciated cardiovascular risk factor in younger populations."
+          "publication_type": "Prevention / Women's Health / General health",
+          "headline": "Could an Overactive Immune System Cause Sudden Cardiac Arrest in Young, Healthy People?",
+          "hook": "Researchers say autoimmune conditions \u2014 not just hidden genetic heart defects \u2014 may explain some of the devastating sudden cardiac arrests that strike young adults with no prior warning.",
+          "pitch_angle": "A perspective published in one of cardiology's top journals suggests that antibodies produced by the immune system may interfere with the heart's electrical system in ways that trigger fatal arrhythmias. The finding could be especially relevant for young women, who are disproportionately affected by autoimmune diseases."
         }
       ],
-      "run_date": "2026-09-23",
+      "run_date": "2026-09-24",
       "category": "Cardiology",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42770219",
-      "headline": "Standard heart imaging after transcatheter aortic valve replacement may miss abnormal blood flow patterns that could limit recovery",
+      "headline": "Standard echocardiography may miss critical flow problems after aortic valve replacement, 4D imaging suggests",
       "journal": "Circulation: Cardiovascular Interventions",
       "pubdate": "2026 Sep 22",
       "doi": "10.1161/CIRCINTERVENTIONS.126.017313",
-      "groundbreaking": "Counterintuitive finding",
+      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This multinational expert review argues that standard echocardiography \u2014 the current tool for assessing TAVR success \u2014 cannot detect complex aortic flow abnormalities that may persist even when valve gradients appear normal after transcatheter aortic valve replacement. The authors propose that 4-dimensional flow cardiac MRI, which measures systolic flow displacement, flow reversal ratios, wall shear stress, and energy efficiency, could serve as a more complete measure of whether a new valve truly restores physiological blood flow. They suggest that persistent nonphysiological flow after TAVR may reduce left ventricular recovery and potentially affect long-term device durability, though this remains unproven in clinical outcome studies.",
-      "why_it_matters": "For the growing number of patients receiving transcatheter aortic valve replacements, this framework raises the possibility that a 'successful' procedure by current metrics may still leave the heart working inefficiently \u2014 a gap that better imaging might one day close.",
-      "caveats": "surrogate endpoints only, no primary clinical outcome data, review article (not original study)",
+      "summary": "This review article proposes that 4-dimensional flow cardiac MRI offers a more complete picture of aortic blood flow after transcatheter aortic valve (TAVR) replacement than standard echocardiography, which cannot fully assess complex flow dynamics. The authors argue that abnormal aortic flow patterns can persist even when valve gradients look normal on echo, potentially limiting heart recovery. The piece calls for future research to determine whether restoring physiological flow improves clinical outcomes including left ventricular recovery and valve durability.",
+      "why_it_matters": "For the millions of patients who have undergone TAVR, conventional post-procedure monitoring may be missing important information about whether the replacement valve is truly restoring healthy blood flow.",
+      "caveats": "surrogate endpoints only, no clinical outcome data, review article (not original research)",
       "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Clinically relevant TAVR topic, but review with no new patient data or hard endpoints.",
+      "relevance_score": 6,
+      "relevance_score_reason": "High-prevalence procedure, novel imaging angle, but review only with no clinical endpoint data.",
       "pitch_angles": [
         {
           "publication_type": "Medscape Cardiology / MedPage Today",
-          "headline": "TAVR Success Metrics May Be Missing the Mark on Blood Flow \u2014 A New Imaging Paradigm Wants to Change That",
-          "hook": "Even when a transcatheter aortic valve replacement looks successful on echocardiography, abnormal blood flow patterns may persist \u2014 and a more advanced MRI technique could reveal what standard imaging misses.",
-          "pitch_angle": "A multinational expert review proposes that 4D flow cardiac MRI could redefine how TAVR outcomes are measured, capturing flow inefficiencies invisible to echo that may impair left ventricular recovery and device longevity. The authors call for prospective clinical studies to determine whether restoring physiological flow translates to measurable patient benefit."
+          "headline": "TAVR Success May Hinge on Flow, Not Just Gradient \u2014 And Echo Can't Tell the Difference",
+          "hook": "A patient's valve gradient can look perfectly normal on echocardiography while turbulent, non-physiological blood flow continues to stress the heart.",
+          "pitch_angle": "Emerging evidence suggests that 4D flow cardiac MRI can detect abnormal aortic flow patterns that persist after TAVR even when standard metrics appear normal. Whether correcting these flow signatures improves long-term outcomes \u2014 including left ventricular recovery and valve durability \u2014 remains an open question that could reshape how cardiologists evaluate procedural success."
         }
       ],
-      "run_date": "2026-09-23",
+      "run_date": "2026-09-24",
       "category": "Hematology & Vascular",
       "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42773080",
+      "headline": "A common stent behaves unpredictably in a vein compression syndrome \u2014 but surgeons say its quirks are manageable",
+      "journal": "Journal of Endovascular Therapy",
+      "pubdate": "2026 Sep 22",
+      "doi": "10.1177/15266028261489161",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a prospective single-center study of 38 patients in Egypt with non-thrombotic May-Thurner syndrome (a condition where the left iliac vein is compressed by the overlying artery), researchers deployed 41 Wallstents and systematically documented mechanical complications including foreshortening, slipping, and migration. All complications were managed successfully with endovascular techniques, 100% of patients reported full or partial symptom improvement, and no stent thrombosis occurred at 12-month follow-up. The authors argue that foreshortening and slipping are predictable device behaviors, not adverse events, and propose a behavior-based deployment protocol.",
+      "why_it_matters": "May-Thurner syndrome is an underrecognized vascular condition that disproportionately affects young women and can cause painful leg swelling and deep vein thrombosis, so better stenting technique could improve outcomes for this overlooked group.",
+      "caveats": "small sample (N<100), single-center, observational design, short follow-up, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Small single-center procedural study; narrow specialist audience, limited public health reach.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology / MedPage Today",
+          "headline": "Wallstent Quirks in May-Thurner Syndrome Are Predictable \u2014 and Manageable, Study Finds",
+          "hook": "A prospective study finds that the mechanical oddities of Wallstent deployment in a common vein compression syndrome are device-driven and controllable, not random complications.",
+          "pitch_angle": "In 38 patients with non-thrombotic May-Thurner syndrome, researchers achieved 100% technical success and zero stent thrombosis at one year by treating foreshortening and slipping as expected behaviors rather than errors. The findings suggest a behavior-based deployment protocol could reduce procedural mishaps in this underdiagnosed condition that most often affects young women."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42768914",
+      "headline": "First-time blood donors dread the needle far more than it actually hurts \u2014 and that fear may be keeping donors away",
+      "journal": "Transfusion",
+      "pubdate": "2026 Sep 22",
+      "doi": "10.1111/trf.70395",
+      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a prospective observational study of 140 first-time whole blood donors (70 men, 70 women; mean age 30.6 years) in Sweden, researchers asked participants to rate expected pain before donation and actual pain afterward on an 11-point scale. First-time donors significantly overestimated venipuncture pain by an average of 1.16 points, and perceived pain \u2014 regardless of how high it was \u2014 was not associated with dropping out as a donor over two years. Men reported higher expected and perceived pain than women, but the gap between anticipated and actual pain was similar across sexes.",
+      "why_it_matters": "Fear of needle pain is a well-documented barrier to blood donation, and this finding suggests that reassuring potential donors that the experience is less painful than imagined could meaningfully expand the blood supply.",
+      "caveats": "small sample (N<100 per group), observational design, single-center, self-reported outcomes, Swedish population only",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive public health finding; small single-center sample limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / Prevention / General health",
+          "headline": "Scared to donate blood? The needle hurts far less than you think, study finds",
+          "hook": "First-time blood donors consistently overestimate how much the needle will hurt \u2014 and the reality turns out to be significantly less painful than they feared.",
+          "pitch_angle": "A Swedish study of 140 first-time donors found that anticipated pain averaged more than a full point higher than what people actually felt, on a standard 11-point pain scale. Researchers say this gap in perception \u2014 not actual pain \u2014 may be a key driver of donor hesitancy, and that targeted messaging could help close the blood supply gap."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42771588",
+      "headline": "A breath test may one day replace invasive biopsies to diagnose \u2014 and monitor \u2014 a little-understood inflammatory lung disease",
+      "journal": "Respiration",
+      "pubdate": "2026 Sep 22",
+      "doi": "10.1159/res/aepag015",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers collected exhaled breath samples from 39 patients with pulmonary sarcoidosis, 39 matched healthy controls, and 25 patients with pulmonary fibrosis in Switzerland, analyzing volatile metabolic compounds to build a diagnostic 'breathprint.' Machine learning models discriminated sarcoidosis from healthy controls with an AUC of 0.76 and distinguished active from inactive disease with an AUC of 0.77, with fatty acid and linoleate metabolism changes driving the signal. The approach suggests exhaled breath analysis could eventually replace or supplement invasive bronchoscopy and biopsy for diagnosing and tracking sarcoidosis.",
+      "why_it_matters": "Sarcoidosis currently requires invasive tissue sampling to diagnose and has no reliable non-invasive monitoring tool \u2014 a validated breath test could meaningfully reduce the diagnostic burden for patients.",
+      "caveats": "small sample (N<100), single-center, surrogate endpoints only, short follow-up, requires validation in larger cohorts",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Novel non-invasive diagnostic angle; small pilot sample limits confidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Verywell Health",
+          "headline": "Could a Simple Breath Test Replace Invasive Biopsies for This Mysterious Lung Disease?",
+          "hook": "Diagnosing sarcoidosis currently requires bronchoscopy or biopsy \u2014 but early research suggests your breath alone may hold the answer.",
+          "pitch_angle": "A small Swiss study found that exhaled breath contains a distinctive metabolic 'fingerprint' that could distinguish sarcoidosis from healthy lungs and from pulmonary fibrosis, and even tell whether the disease is currently active. While the sample size is too small to draw firm conclusions, the technology could one day offer a painless alternative to invasive procedures for the estimated 200,000 Americans living with sarcoidosis."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42772466",
+      "headline": "A simple blood ratio calculated at the bedside predicts which critically ill pneumonia patients will die within 28 days \u2014 outperforming standard risk scores",
+      "journal": "Respiratory Medicine",
+      "pubdate": "2026 Sep 22",
+      "doi": "10.1016/j.rmed.2026.109176",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using the MIMIC-IV critical care database plus an external validation cohort from Huashan Hospital in China, researchers developed machine learning models to predict 28-day mortality and need for mechanical ventilation in 1,285 critically ill patients with viral pneumonia. The best-performing model (XGBoost) achieved AUCs of 0.87 in training and 0.76 in external validation for mortality. A rising blood urea nitrogen-to-albumin ratio (BAR) trajectory over time was independently associated with higher 28-day mortality, adding prognostic value beyond a single measurement.",
+      "why_it_matters": "For ICU clinicians managing severe viral pneumonia, a routinely available blood ratio that tracks over time \u2014 rather than a one-time snapshot \u2014 could improve early identification of patients most likely to deteriorate.",
+      "caveats": "observational design, retrospective cohort, single-center external validation, surrogate endpoints only, China-based primary cohort",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clinically useful ICU tool; retrospective design and limited generalizability to US settings.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Tracking a Simple Blood Ratio Over Time Predicts ICU Death From Viral Pneumonia Better Than a Single Test",
+          "hook": "A rising blood urea nitrogen-to-albumin ratio \u2014 two values already drawn in every ICU patient \u2014 may outperform conventional risk scores at flagging which viral pneumonia patients will die within 28 days.",
+          "pitch_angle": "Machine learning models trained on over 1,200 critically ill patients found that the trajectory of the BUN-to-albumin ratio across multiple measurements, rather than its initial value, was independently linked to 28-day mortality. An externally validated web tool could allow clinicians to generate individualized risk estimates at the bedside using routine labs."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42768434",
+      "headline": "Not all emphysema is the same \u2014 a new imaging type may change how doctors treat it",
+      "journal": "Annals of the American Thoracic Society",
+      "pubdate": "2026 Sep 21",
+      "doi": "10.1093/annalsats/aaoag298",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers from UCLA propose 'emptying emphysema' as a distinct imaging phenotype that behaves differently from other forms of the chronic lung disease. The study is an editorial/conceptual piece rather than a primary data study, so participant numbers and study design details are not available from the abstract. The authors argue that CT imaging can identify this novel subtype, which may have distinct clinical implications for how emphysema is diagnosed and managed.",
+      "why_it_matters": "Recognizing that emphysema has meaningfully different subtypes could eventually help clinicians tailor treatment more precisely for people with COPD and related lung disease.",
+      "caveats": "small sample (N<100), single-center, surrogate endpoints only \u2014 abstract contains no primary patient outcome data; appears to be a commentary or editorial rather than an original research study",
+      "fact_check_note": "Abstract provides no participant data, sample size, or study design details \u2014 this appears to be a perspective or editorial piece, not a primary research study. Summary reflects that limitation.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Chronic pulmonary condition with clinical hook, but no primary data or hard endpoints.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology / MedPage Today",
+          "headline": "UCLA Researchers Propose 'Emptying Emphysema' as a Distinct CT Imaging Phenotype",
+          "hook": "Not all emphysema looks \u2014 or behaves \u2014 the same on imaging, and a new classification may matter for how clinicians approach treatment.",
+          "pitch_angle": "UCLA pulmonologists and radiologists propose that CT scans can identify a novel emphysema subtype they call 'emptying emphysema,' which may behave clinically differently from other forms. If validated in larger studies, this phenotype distinction could shift how physicians select therapies for COPD patients with emphysematous disease."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42776134",
+      "headline": "A simple nutritional blood score predicts death risk after minimally invasive heart valve replacement",
+      "journal": "Brazilian Journal of Cardiovascular Surgery",
+      "pubdate": "2026 Sep 21",
+      "doi": "10.21470/1678-9741-2024-0300",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers studied 395 consecutive patients who underwent transcatheter aortic valve implantation (TAVI) at multiple Turkish centers, dividing them into low and high groups based on the HALP score \u2014 a composite measure of hemoglobin, albumin, lymphocyte count, and platelet levels that reflects nutritional status and inflammation. Patients with a low HALP score (below 3.4) faced significantly higher rates of major adverse cardiac events at one month and all-cause death within the first year. In multivariate analysis, a low HALP score was an independent predictor of first-year mortality, alongside chronic kidney disease.",
+      "why_it_matters": "A routine blood test panel already drawn before cardiac procedures may help identify TAVI patients at highest risk of dying in the first year \u2014 potentially enabling more targeted pre-procedure care.",
+      "caveats": "single-center (multiple Turkish centers, limited generalizability), observational design, surrogate endpoints only, short follow-up, no female-specific analysis reported",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Clinically relevant TAVI finding but observational, single-region, surrogate-heavy, limited lifestyle hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology / MedPage Today",
+          "headline": "Pre-TAVI Nutritional Score Independently Predicts First-Year Mortality in New Study",
+          "hook": "A composite blood score reflecting malnutrition and inflammation may outperform conventional risk tools in flagging which TAVI patients won't survive their first year.",
+          "pitch_angle": "Among 395 TAVI patients, those with a HALP score below 3.4 faced significantly higher one-month complications and one-year all-cause mortality \u2014 suggesting that nutritional and inflammatory status, easily captured from routine labs, may add meaningful prognostic value beyond standard surgical risk calculators."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42764110",
+      "headline": "A new heart device lead can sense blood pressure changes during dangerous arrhythmias in real time \u2014 a first in humans",
+      "journal": "Heart Rhythm",
+      "pubdate": "2026 Sep 20",
+      "doi": "10.1016/j.hrthm.2026.08.047",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a first-in-human feasibility study, five patients undergoing cardiac surgery or ventricular tachycardia ablation received a temporary substernal shock lead designed to simultaneously sense hemodynamics, record electrical signals, and pace the heart. The device successfully captured interpretable hemodynamic signals in all five patients, showing distinct patterns across sinus rhythm, atrial fibrillation, ventricular tachycardia, and ventricular fibrillation. All 147 recorded ventricular tachycardia episodes showed a clear drop in the hemodynamic index, which recovered after arrhythmia termination.",
+      "why_it_matters": "Defibrillators that can sense whether a dangerous heart rhythm is actually causing a drop in blood flow \u2014 rather than relying on electrical signals alone \u2014 could one day reduce inappropriate shocks and better distinguish life-threatening arrhythmias from benign ones.",
+      "caveats": "small sample (N<100), single-center, short follow-up, acute feasibility only \u2014 no chronic performance data",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Novel first-in-human device data; N=5 only, acute feasibility limits clinical significance.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology / STAT News",
+          "headline": "A New ICD Lead That Reads Blood Pressure in Real Time Just Passed Its First Human Test",
+          "hook": "For the first time in humans, a substernal defibrillator lead successfully detected beat-to-beat blood pressure changes during ventricular tachycardia and fibrillation \u2014 a step toward smarter ICDs that understand not just electrical chaos but its physical consequences.",
+          "pitch_angle": "Current implantable defibrillators rely almost entirely on electrical signals to decide when to shock, which contributes to inappropriate therapy; this proof-of-concept study in five patients showed a multifunctional substernal lead could distinguish dangerous from less dangerous arrhythmias by tracking hemodynamic impact in real time. Chronic performance and clinical validation remain to be established, but the findings suggest a potential path to physiology-guided extravascular ICD systems."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42763030",
+      "headline": "A faster, next-generation device that uses sound waves to crack calcium deposits in coronary arteries maintains low complication rates and slashes chest pain at one year",
+      "journal": "The American Journal of Cardiology",
+      "pubdate": "2026 Sep 19",
+      "doi": "10.1016/j.amjcard.2026.09.013",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "The DISRUPT CAD Duo trial enrolled 145 patients with severely calcified coronary artery lesions at multiple US centers, treating them with a novel 2-Hz intravascular lithotripsy catheter designed to shorten procedure time compared to earlier devices. At one-year follow-up (97.9% completion), the overall major adverse cardiovascular event rate was 5.6%, with no cardiac deaths or stent thrombosis. The proportion of patients reporting no angina symptoms rose from 14.5% at baseline to 77.1% at one year.",
+      "why_it_matters": "Heavily calcified coronary arteries are notoriously hard to stent and carry high complication risks \u2014 this one-year data suggests a faster-firing version of an acoustic calcium-cracking tool keeps those risks low while dramatically reducing chest pain.",
+      "caveats": "single-arm study, no control group, industry funding [Shockwave Medical Inc], surrogate endpoints only, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Hard endpoints at one year; limited by single-arm design and industry funding.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Next-Gen Lithotripsy Catheter Holds Up at One Year in Calcified Coronary Disease: DISRUPT CAD Duo",
+          "hook": "A faster-firing sound-wave device for cracking calcium in blocked coronary arteries kept major complication rates at 5.6% through one year \u2014 with no cardiac deaths or stent thrombosis.",
+          "pitch_angle": "The DISRUPT CAD Duo trial of 145 patients with severely calcified lesions found that a 2-Hz intravascular lithotripsy catheter maintained low MACE rates and dramatically reduced angina burden at 12 months, building on earlier short-term safety data. Industry funding by Shockwave Medical warrants scrutiny, but the one-year completion rate of 97.9% and absence of stent thrombosis add meaningful durability data to a procedure gaining traction in complex PCI."
+        },
+        {
+          "publication_type": "Everyday Health / Health.com",
+          "headline": "A Device That Uses Sound Waves to Treat Calcified Heart Arteries Shows Lasting Results at One Year",
+          "hook": "More than three-quarters of patients with heavily calcified coronary blockages reported no chest pain one year after being treated with a device that uses acoustic pulses to break up calcium.",
+          "pitch_angle": "The DISRUPT CAD Duo trial found that a next-generation intravascular lithotripsy catheter \u2014 which fires sound waves to soften calcium deposits before stenting \u2014 kept serious complication rates low and reduced angina in patients whose arteries were too calcified for standard stenting. The study had no comparison group and was funded by the device maker, so results should be interpreted cautiously, but the one-year data suggest the approach holds up over time."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42757911",
+      "headline": "A kidney stone-breaking technique applied to the heart may open calcified mitral valves that were once considered inoperable",
+      "journal": "Journal of the American Heart Association",
+      "pubdate": "2026 Sep 18",
+      "doi": "10.1161/JAHA.126.050755",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In this first-in-human feasibility study, researchers used a dedicated lithotripsy balloon (SmartCrack) \u2014 technology adapted from kidney stone treatment \u2014 to crack calcified mitral valves in 10 high-surgical-risk patients with severe mitral stenosis in Hong Kong and Taiwan. All 10 patients met the primary efficacy endpoint, with mitral valve area increasing from 0.89 to 1.31 cm\u00b2 and transmitral pressure gradient falling significantly; 8 of 10 patients reported symptom improvement at 30 days. One minor stroke occurred within 7 days, with no deaths or major bleeding, and 80% of patients required post-procedure balloon dilation.",
+      "why_it_matters": "Calcified mitral stenosis \u2014 particularly mitral annular calcification \u2014 has had no good minimally invasive treatment option, leaving many high-risk patients with few choices; this early finding suggests a catheter-based lithotripsy approach may be feasible.",
+      "caveats": "small sample (N<100), single-arm study, surrogate endpoints only, short follow-up, no control group",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "First-in-human, high-unmet-need cardiac condition, novel procedure with clear lifestyle/clinical significance.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "Lithotripsy Used to Crack Open Calcified Mitral Valves in First-in-Human Trial",
+          "hook": "The same sonic energy used to shatter kidney stones has now been used to crack open severely calcified mitral valves in patients with no other minimally invasive options.",
+          "pitch_angle": "A 10-patient first-in-human study found that a dedicated lithotripsy balloon successfully improved mitral valve area and pressure gradients in high-surgical-risk patients with calcified mitral stenosis \u2014 a condition with historically poor catheter-based outcomes. With one minor stroke and no deaths, the results are early but may signal a new pathway for a population that has largely been left without good treatment options."
+        },
+        {
+          "publication_type": "Everyday Health / Health.com / Verywell Health",
+          "headline": "The Tech That Breaks Up Kidney Stones Is Now Being Used on Dangerous Heart Valve Blockages",
+          "hook": "Doctors have adapted kidney stone-busting technology to treat a life-threatening heart condition that until now had no good minimally invasive fix.",
+          "pitch_angle": "In a small but significant first-in-human study, a catheter-based lithotripsy device cracked open calcified mitral valves in 10 high-risk patients who could not safely undergo open-heart surgery, with most reporting symptom improvement within 30 days. Though the study is too small to draw firm conclusions, it opens a potential new door for patients with a form of mitral stenosis caused by calcium buildup \u2014 a condition that affects a growing number of older adults."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42759933",
+      "headline": "Experts finally agree on how to define 'major bleeding' in peripheral artery disease trials \u2014 and it took five rounds of international consensus",
+      "journal": "Annals of Vascular Surgery",
+      "pubdate": "2026 Sep 18",
+      "doi": "10.1016/j.avsg.2026.09.003",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "An international panel of 33 experts in peripheral arterial disease (PAD) used a structured five-round Delphi consensus process to develop the Peripheral Arterial Bleeding (PAB) classification, a standardized three-tier system defining major, moderate, and minor bleeding. The panel included mostly vascular surgeons (85%), interventional radiologists (9%), and vascular medicine specialists (6%). The goal is to unify safety reporting across PAD clinical trials, which currently use incompatible bleeding definitions that make cross-study comparisons unreliable.",
+      "why_it_matters": "Without a shared definition of 'major bleeding,' it has been nearly impossible to compare the safety of competing treatments for peripheral artery disease \u2014 a condition affecting millions of Americans.",
+      "caveats": "small sample (N<100), observational design, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Important methodological consensus for PAD trials; no patient outcomes data, limited public-facing hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology / MedPage Today",
+          "headline": "PAD Trials Have Been Comparing Apples to Oranges on Bleeding Risk \u2014 A New Consensus Standard Aims to Fix That",
+          "hook": "Peripheral artery disease trials have long used incompatible bleeding definitions, making it nearly impossible to compare safety data across studies.",
+          "pitch_angle": "An international Delphi panel has reached consensus on the first standardized bleeding classification for PAD, a three-tier system covering major, moderate, and minor events. Validation in existing cohorts is the next step, but adoption could meaningfully improve the reliability of safety data in future PAD intervention trials."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42759969",
+      "headline": "A specialized ultrasound protocol may finally give doctors a reliable way to track a rare and complex vascular birthmark disorder",
+      "journal": "Phlebology",
+      "pubdate": "2026 Sep 18",
+      "doi": "10.1177/02683555261490370",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a retrospective multicenter study of 58 patients (63 affected limbs) with Klippel-Tr\u00e9naunay syndrome \u2014 a rare congenital disorder involving abnormal veins, lymphatics, and soft tissue \u2014 researchers in China evaluated whether Doppler ultrasound features could predict venous severity. Lateral marginal vein (LMV) diameter showed a moderate positive correlation with clinical venous severity scores (tau=0.338), and the presence of lymphatic malformation was independently associated with worse venous severity. The authors propose standardized Doppler ultrasound as a practical imaging framework for tracking disease progression in this condition.",
+      "why_it_matters": "Patients with Klippel-Tr\u00e9naunay syndrome face a lifetime of vascular complications including blood clots and chronic venous disease, and a reliable non-invasive monitoring tool could meaningfully improve their care.",
+      "caveats": "small sample (N<100), observational design, retrospective, single-region (China), surrogate endpoints only, exploratory statistical models requiring prospective validation",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Rare condition, small retrospective sample, surrogate endpoints, limited generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health / General health",
+          "headline": "A Rare Vascular Birthmark Condition May Finally Have a Better Monitoring Tool",
+          "hook": "For people born with Klippel-Tr\u00e9naunay syndrome \u2014 a rare disorder causing abnormal veins, lymph vessels, and tissue overgrowth \u2014 tracking disease severity has always been complicated, but a standardized ultrasound approach may offer a clearer picture.",
+          "pitch_angle": "A small multicenter study found that specific Doppler ultrasound measurements, particularly the diameter of an abnormal vein called the lateral marginal vein, were meaningfully associated with how severe patients' venous disease had become. If validated in larger studies, a standardized ultrasound protocol could give patients and their doctors a non-invasive way to catch worsening vascular problems earlier."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42759647",
+      "headline": "People who quit smoking more than 15 years ago are newly eligible for lung cancer screening \u2014 but fewer than 1 in 10 are getting it",
+      "journal": "Chest",
+      "pubdate": "2026 Sep 18",
+      "doi": "10.1016/j.chest.2026.09.005",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed 2024 National Health Interview Survey data from 5,987 adults aged 50\u201380 with a smoking history, representing approximately 37.5 million US adults, to compare lung cancer screening uptake between those eligible under the 2021 USPSTF guidelines and those newly eligible under the broader 2023 American Cancer Society criteria. The ACS expanded eligibility by removing the 15-year smoking cessation cutoff, capturing former smokers who quit long ago. Past-12-month screening prevalence was only 8.0% among newly ACS-eligible adults versus 17.8% among USPSTF-eligible adults \u2014 and non-Hispanic Black adults and telehealth users in the ACS-only group showed higher uptake than peers.",
+      "why_it_matters": "Millions of former smokers who are now eligible for potentially life-saving lung cancer screening are not being reached, suggesting clinicians and health systems need proactive strategies to identify this overlooked group.",
+      "caveats": "observational design, cross-sectional design (cannot establish causation), self-reported outcomes, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "High-prevalence public health finding, large US sample, clear equity and lifestyle hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / Prevention / Health.com",
+          "headline": "If You Quit Smoking More Than 15 Years Ago, You May Now Qualify for Lung Cancer Screening \u2014 But Most People Don't Know It",
+          "hook": "A major cancer organization quietly expanded who qualifies for lung cancer screening, but a new study finds barely 1 in 12 newly eligible adults have taken advantage of it.",
+          "pitch_angle": "The American Cancer Society dropped its 15-year quit-date cutoff for lung cancer screening in 2023, making millions more former smokers eligible \u2014 but uptake among this group is strikingly low at just 8%. For the many Americans who quit decades ago and assumed they'd aged out of screening, this finding suggests it may be worth a conversation with their doctor."
+        },
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "ACS Expanded Lung Cancer Screening Eligibility in 2023 \u2014 New Data Show the Newly Eligible Aren't Being Reached",
+          "hook": "Despite broader eligibility criteria that could capture millions more former smokers, past-12-month screening uptake in the newly eligible group was less than half that of USPSTF-eligible adults.",
+          "pitch_angle": "A nationwide cross-sectional study of 5,987 adults found that former smokers newly captured by the 2023 ACS guideline \u2014 those who quit more than 15 years ago \u2014 had a past-12-month screening rate of just 8%, compared with 17.8% among USPSTF-eligible adults. The finding points to a systemic gap in clinician- or system-level outreach for a group that may not self-identify as screening candidates, with a notable equity signal: non-Hispanic Black adults and telehealth users in this group showed relatively higher uptake."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42750550",
+      "headline": "Children with high blood pressure are being undertreated \u2014 and there are almost no kid-friendly drug options to fix that",
+      "journal": "Cardiology in the Young",
+      "pubdate": "2026 Sep 17",
+      "doi": "10.1017/S1047951126124007",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In this opinion and review piece, pediatric nephrology specialists from Turkey argue that current guidelines for treating high blood pressure in children rely on slow, single-drug step-up approaches that lag behind adult cardiology practice, which increasingly favors early combination therapy. The authors highlight that fixed-dose combination blood pressure pills \u2014 standard in adults \u2014 are largely unavailable in child-appropriate formulations due to regulatory and pharmaceutical development gaps. They propose that selected children unlikely to respond to one drug alone should be considered for early combination treatment, and call for expanded pediatric research.",
+      "why_it_matters": "Uncontrolled high blood pressure in childhood is associated with early cardiovascular and kidney damage, and a lack of child-appropriate drug options means many young patients may be going undertreated during a critical developmental window.",
+      "caveats": "observational design, single-center, small sample (N<100), no original data \u2014 expert commentary/review only",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Pediatric hypertension public health angle; no original data, commentary only.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health / General health",
+          "headline": "Kids with high blood pressure aren't getting the same treatment advances as adults \u2014 experts say it's time to change that",
+          "hook": "While adult hypertension treatment has shifted toward earlier, more aggressive combination therapy, children are still managed with a slow, one-drug-at-a-time approach \u2014 often without medications even available in doses or forms designed for them.",
+          "pitch_angle": "Pediatric hypertension specialists argue that the gap between adult and child blood pressure treatment is leaving young patients undertreated and at risk for early heart and kidney damage. They're calling for new research and age-appropriate drug formulations to bring pediatric care in line with modern standards."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42754367",
+      "headline": "For babies born with a severely unbalanced heart defect, a two-ventricle repair may offer better survival odds than the single-ventricle path \u2014 but the decision hinges on four precise echo measurements",
+      "journal": "World Journal for Pediatric & Congenital Heart Surgery",
+      "pubdate": "2026 Sep 17",
+      "doi": "10.1177/21501351261477046",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a retrospective single-center study of 44 infants and children (median age at first surgery: ~2 months) with right-dominant unbalanced atrioventricular septal defect treated between 2004 and 2022 at Columbia University Medical Center. Four preoperative echocardiographic measurements \u2014 modified atrioventricular valve index, left AV valve inflow angle, LA/LV inflow angle, and LV pinching index \u2014 significantly differed between patients who received biventricular repair versus single-ventricle palliation, and cutoff values were identified. Ten-year survival trended better for biventricular repair patients (96% vs. 75%) but did not reach statistical significance, likely due to small sample size.",
+      "why_it_matters": "For families facing one of the most difficult decisions in pediatric heart surgery, these echo measurements may one day help surgeons predict which babies have the anatomy to support a two-ventricle repair \u2014 potentially offering a survival advantage.",
+      "caveats": "small sample (N<100), observational design, single-center, retrospective, short follow-up, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Pediatric congenital heart disease; very small N, retrospective, survival difference non-significant.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "Four Ultrasound Measurements May Help Surgeons Choose the Right Heart Surgery Path for Babies With a Rare Defect",
+          "hook": "For infants born with a severely unbalanced heart chamber defect, four specific echocardiographic measurements may predict which surgical path gives the best shot at survival.",
+          "pitch_angle": "A Columbia University study of 44 children found that babies who underwent two-ventricle repair had a 10-year survival rate of 96% compared with 75% for those on the single-ventricle path, though the difference was not statistically significant in this small cohort. Researchers identified four preoperative echo measurements that were strongly associated with the type of repair chosen, offering a potential roadmap for one of pediatric cardiology's most contested surgical decisions."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42751923",
+      "headline": "A new brain scan metric may predict stroke recovery better than existing tools",
+      "journal": "Journal of Cerebral Blood Flow and Metabolism",
+      "pubdate": "2026 Sep 17",
+      "doi": "10.1177/0271678X261492523",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers developed a new perfusion-imaging metric called the granular Hypoperfusion Intensity Ratio (gHIR) to estimate how fast brain tissue dies during an ischemic stroke, testing it in 570 stroke patients (median age 77, ~51% female). The gHIR outperformed four existing CT-based methods at predicting whether patients would achieve a good functional outcome at 90 days. Each 0.1-unit increase in gHIR was associated with a 58% lower odds of good recovery, with an AUC of 0.75.",
+      "why_it_matters": "A more accurate way to measure how quickly brain tissue is being lost during a stroke could help clinicians better identify which patients are most likely to benefit from urgent intervention.",
+      "caveats": "observational design, single-center, surrogate endpoints only, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Stroke imaging tool with clinical endpoints; observational, single-center limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "A New Brain Scan Score Outperforms Standard Stroke Imaging Metrics at Predicting Recovery",
+          "hook": "A novel metric derived from perfusion CT imaging predicted 90-day stroke recovery outcomes better than four established tools in a study of 570 patients.",
+          "pitch_angle": "The gHIR assigns a 0-to-1 score reflecting how fast brain tissue is dying during ischemic stroke, and a score above 0.30 was associated with significantly worse functional outcomes. If validated in multicenter trials, the metric could sharpen real-time triage decisions for acute stroke patients."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42754000",
+      "headline": "A Rare Syndrome Causes Heart Arrhythmias, Muscle Paralysis, and Facial Differences \u2014 and Doctors Keep Missing It",
+      "journal": "Heart Rhythm",
+      "pubdate": "2026 Sep 17",
+      "doi": "10.1016/j.hrthm.2026.09.020",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This narrative review summarizes diagnostic and treatment challenges in Andersen-Tawil syndrome (ATS), a rare inherited multisystem disorder caused most commonly by loss-of-function variants in the KCNJ2 gene, which disrupts inward rectifier potassium channel function and promotes dangerous heart rhythm abnormalities. The condition's hallmarks \u2014 ventricular arrhythmias, periodic paralysis, and characteristic physical features \u2014 vary widely between patients, causing significant diagnostic delays. Current management relies on beta-blockers, flecainide, and implantable defibrillators for high-risk cases, but evidence remains limited and no validated risk stratification tools exist.",
+      "why_it_matters": "People with unexplained ventricular arrhythmias or episodic muscle weakness may be living with an unrecognized genetic syndrome that requires specialized, multidisciplinary care rather than standard rhythm management.",
+      "caveats": "observational design, small patient population (rare disease), surrogate endpoints only, no original data (narrative review)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Rare disease narrative review; strong missed-diagnosis angle but no original data or hard endpoints.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology / MedPage Today",
+          "headline": "Andersen-Tawil Syndrome: Why This Arrhythmia-Paralysis Disorder Is Still Being Missed in 2026",
+          "hook": "A rare genetic syndrome that causes ventricular arrhythmias and episodic paralysis is consistently diagnosed late because its features are highly variable and don't always appear together.",
+          "pitch_angle": "A new review outlines the diagnostic and therapeutic challenges of Andersen-Tawil syndrome, highlighting that phenotypic heterogeneity, incomplete penetrance, and the absence of validated risk tools leave clinicians without clear guidance \u2014 and patients without timely diagnosis."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42778199",
+      "headline": "A deadly overlap between pulmonary hypertension and autoimmune disease is being systematically missed \u2014 and standard treatments may make it worse",
+      "journal": "European Respiratory Review",
+      "pubdate": "2026 Jul",
+      "doi": "10.1183/16000617.0159-2026",
+      "groundbreaking": "Major cardiovascular or public health implication / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This review, incorporating an unreported cohort of 25 patients, examines a rare but severe subtype of pulmonary arterial hypertension (PAH) in people with connective tissue diseases (CTDs) \u2014 particularly systemic sclerosis (scleroderma) \u2014 that also involves venous and capillary damage resembling pulmonary veno-occlusive disease (PVOD). Patients show profound functional limitation, severely impaired gas transfer, and a 5-year survival of only 45\u201350%. Counterintuitively, standard PAH vasodilator therapies carry a high risk of life-threatening pulmonary edema in this population, because the venous obstruction prevents the extra blood flow from draining properly.",
+      "why_it_matters": "For patients with scleroderma or other autoimmune diseases, this finding suggests that a commonly used class of pulmonary hypertension drugs may carry serious risks if a venous component of disease is not first identified.",
+      "caveats": "small sample (N<100), observational design, single-center, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive drug-risk finding; rare condition limits broad audience appeal.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Standard PAH Drugs May Harm Scleroderma Patients With a Rare Vascular Overlap Syndrome",
+          "hook": "The drugs most commonly used to treat pulmonary arterial hypertension may trigger fatal pulmonary edema in a subset of autoimmune disease patients whose venous vessels are also affected.",
+          "pitch_angle": "A review integrating 25 new cases finds that scleroderma-associated PAH frequently involves venous and capillary damage that standard vasodilators cannot safely accommodate, with 5-year survival around 45\u201350%. Clinicians treating CTD-PAH may need to screen for this phenotype before initiating therapy."
+        },
+        {
+          "publication_type": "Verywell Health",
+          "headline": "If You Have Scleroderma and Pulmonary Hypertension, Your Treatment Plan May Need a Second Look",
+          "hook": "A rare but dangerous overlap between autoimmune disease and pulmonary hypertension means that standard medications can sometimes do more harm than good.",
+          "pitch_angle": "New evidence suggests that some scleroderma patients with pulmonary hypertension have damaged veins and capillaries as well as arteries \u2014 a combination that makes common vasodilator drugs risky and is associated with very poor survival rates."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -91,87 +667,6 @@
       "status": "new"
     },
     {
-      "pmid": "42773080",
-      "headline": "A common stent's quirky mechanical behavior turns out to be predictable \u2014 and manageable \u2014 in a hard-to-treat vein compression syndrome",
-      "journal": "Journal of Endovascular Therapy",
-      "pubdate": "2026 Sep 22",
-      "doi": "10.1177/15266028261489161",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers prospectively followed 38 patients with non-thrombotic May-Thurner syndrome (a condition where the left iliac vein is compressed by the overlying artery) who underwent iliac vein stenting with a Wallstent device at a single Egyptian center. Mechanical phenomena including foreshortening and stent slipping were found to be consistent, device-driven behaviors rather than true complications, while rare stent migration events were successfully corrected using endovascular techniques. All patients reported complete or partial symptom improvement at one year, with no stent thrombosis or reintervention required.",
-      "why_it_matters": "Understanding that certain stent behaviors during vein decompression procedures are predictable rather than alarming may help guide safer, more effective treatment of May-Thurner syndrome, a vascular condition that often goes undiagnosed \u2014 particularly in young women.",
-      "caveats": "small sample (N<100), observational design, single-center, surrogate endpoints only, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Vascular health relevance; small single-center study with surrogate endpoints limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Verywell Health / General health",
-          "headline": "May-Thurner Syndrome Is Underdiagnosed \u2014 Especially in Women. A New Study Offers Better Stent Guidance",
-          "hook": "A vascular condition that compresses a major leg vein \u2014 and disproportionately affects young women \u2014 may be better treated now that researchers have mapped out the predictable quirks of a widely used stent.",
-          "pitch_angle": "A small prospective study found that mechanical behaviors of the Wallstent during iliac vein procedures are predictable and manageable, with all patients reporting symptom improvement at one year. For the many women with May-Thurner syndrome who go undiagnosed for years, improved procedural guidance could mean fewer complications and better outcomes."
-        }
-      ],
-      "run_date": "2026-09-23",
-      "category": "Hematology & Vascular",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42768914",
-      "headline": "First-time blood donors expect the needle to hurt more than it does \u2014 and that fear may be keeping people from donating",
-      "journal": "Transfusion",
-      "pubdate": "2026 Sep 22",
-      "doi": "10.1111/trf.70395",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a prospective observational study of 140 first-time whole blood donors (70 men, 70 women; mean age 30.6 years) at a Swedish hospital, researchers asked participants to rate expected pain before donation and perceived pain immediately after. On average, donors rated the actual needle pain 1.16 points lower than anticipated on an 11-point scale \u2014 a statistically significant difference. Perceived pain at donation was not associated with dropout from blood donating at two years.",
-      "why_it_matters": "With chronic blood shortages affecting hospitals worldwide, evidence that anticipated needle pain \u2014 not actual pain \u2014 may deter first-time donors suggests that targeted messaging campaigns could meaningfully boost donor recruitment.",
-      "caveats": "small sample (N<100 per sex group), observational design, single-center, self-reported outcomes, surrogate endpoints only",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Public health relevance for blood supply; small observational study, no cardiovascular endpoints.",
-      "pitch_angles": [
-        {
-          "publication_type": "Everyday Health / Prevention / General health",
-          "headline": "Scared of the Needle? Blood Donation Actually Hurts Less Than You Think, Study Finds",
-          "hook": "First-time blood donors consistently overestimated how much the needle would hurt \u2014 and the gap between fear and reality was both measurable and significant.",
-          "pitch_angle": "A Swedish study of 140 new donors found that anticipated venipuncture pain averaged about one full point higher than the pain actually felt, on a scale of zero to ten. Researchers say correcting this misperception in donor recruitment campaigns could help address persistent blood shortages \u2014 since it was fear, not the experience itself, that most discouraged people from donating."
-        }
-      ],
-      "run_date": "2026-09-23",
-      "category": "Hematology & Vascular",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42768434",
-      "headline": "Not all emphysema is alike \u2014 a new imaging phenotype may change how doctors treat it",
-      "journal": "Annals of the American Thoracic Society",
-      "pubdate": "2026 Sep 21",
-      "doi": "10.1093/annalsats/aaoag298",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at UCLA propose a novel imaging-based classification of emphysema called 'emptying emphysema,' suggesting the condition is not a single homogeneous disease but includes distinct subtypes with different physiological behavior. The paper appears to be a conceptual/editorial piece introducing this imaging phenotype rather than a primary data study with a defined patient cohort. The core finding is that identifying emphysema subtypes by CT imaging patterns may improve understanding of disease progression and potentially guide more targeted treatment.",
-      "why_it_matters": "Recognizing that emphysema subtypes behave differently on imaging could eventually help doctors tailor treatment strategies for patients with chronic lung disease.",
-      "caveats": "small sample (N<100), surrogate endpoints only, single-center \u2014 note: abstract contains no primary patient data; this appears to be a perspective or editorial piece rather than an original research study",
-      "fact_check_note": "The abstract provided contains only author affiliations and a title \u2014 no patient data, sample size, methods, or results are available to verify. Summary is based on the title and conceptual framing only; journalists should obtain full text before pitching.",
-      "relevance_score": 5,
-      "relevance_score_reason": "Chronic pulmonary topic with potential imaging hook, but no primary data available.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / Medscape Cardiology",
-          "headline": "Emphysema may not be one disease \u2014 a new CT-based phenotype could reshape how pulmonologists treat it",
-          "hook": "A UCLA research team suggests that a newly identified imaging pattern called 'emptying emphysema' reveals that not all emphysema behaves the same way \u2014 a finding with potential implications for how the disease is diagnosed and managed.",
-          "pitch_angle": "If emphysema subtypes respond differently to therapy, current one-size-fits-all treatment approaches may be leaving patients undertreated. This concept piece from UCLA pulmonologists and radiologists could open a new front in precision medicine for chronic obstructive lung disease."
-        }
-      ],
-      "run_date": "2026-09-23",
-      "category": "Pulmonary Medicine",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42766985",
       "headline": "ILD patients feel more satisfied with their care when doctors actually listen \u2014 but most say they still aren't involved enough in decisions",
       "journal": "Respiratory Investigation",
@@ -196,240 +691,6 @@
       "run_date": "2026-09-23",
       "category": "Pulmonary Medicine",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42764110",
-      "headline": "A single lead placed beneath the breastbone can sense, pace, and monitor the heart simultaneously \u2014 a first in humans",
-      "journal": "Heart Rhythm",
-      "pubdate": "2026 Sep 20",
-      "doi": "10.1016/j.hrthm.2026.08.047",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a first-in-human feasibility study, researchers tested a novel substernal shock lead in 5 patients undergoing cardiac surgery or ventricular tachycardia ablation, implanting it temporarily through a minimally invasive subxiphoid approach. The lead successfully captured interpretable hemodynamic signals across multiple heart rhythms \u2014 including atrial fibrillation, ventricular tachycardia, and ventricular fibrillation \u2014 and achieved ventricular pacing in all patients. No device- or procedure-related adverse events occurred during the acute study period.",
-      "why_it_matters": "If validated in larger studies, a single extravascular lead capable of sensing both the electrical and physical consequences of dangerous arrhythmias could make implantable defibrillators smarter and potentially reduce inappropriate shocks.",
-      "caveats": "small sample (N<100), single-center, short follow-up, surrogate endpoints only, acute/feasibility study only \u2014 no chronic or clinical outcome data",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Novel first-in-human device concept; heavily offset by tiny N=5 and acute-only design.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "First-in-human test of a triple-function substernal lead shows it can sense, pace, and track arrhythmia impact simultaneously",
-          "hook": "A single wire placed beneath the breastbone \u2014 without touching the heart \u2014 could one day tell a defibrillator not just that a dangerous rhythm is occurring, but how badly it's affecting blood flow.",
-          "pitch_angle": "In five patients, a novel substernal lead integrating hemodynamic sensing, electrical sensing, and pacing demonstrated stable signals across multiple arrhythmia types and successful ventricular capture with no acute adverse events; researchers say the findings support further development of physiology-guided extravascular ICD systems. The study is explicitly a first feasibility step, with chronic performance and clinical validation still needed."
-        }
-      ],
-      "run_date": "2026-09-23",
-      "category": "Cardiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42763030",
-      "headline": "A faster heart-calcification treatment holds up well at one year \u2014 with no cardiac deaths or stent clots",
-      "journal": "The American Journal of Cardiology",
-      "pubdate": "2026 Sep 19",
-      "doi": "10.1016/j.amjcard.2026.09.013",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers tracked 140 patients with severely calcified coronary artery lesions treated with a newer, faster-pulsing intravascular lithotripsy (IVL) catheter designed to break up calcium deposits before stenting. The single-arm prospective trial followed patients for one year across multiple U.S. centers. Overall major adverse cardiac events occurred in 5.6% of patients, with no cardiac deaths or stent thrombosis, and 77% of patients reported no angina at one year compared with only 14.5% at baseline.",
-      "why_it_matters": "For the millions of people with heavily calcified coronary arteries \u2014 a group historically harder to treat with stenting \u2014 early evidence suggests this faster device approach may offer durable symptom relief with a low complication rate.",
-      "caveats": "small sample (N<200), observational design, single-arm (no comparator group), surrogate endpoints only alongside MACE, industry funding [Shockwave Medical Inc]",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Clinically relevant CAD finding but single-arm, industry-funded, no control group.",
-      "pitch_angles": [
-        {
-          "publication_type": "Medscape Cardiology / MedPage Today",
-          "headline": "One-Year Data on 2-Hz IVL Catheter Show Low MACE, Zero Cardiac Deaths in Calcified CAD",
-          "hook": "A faster-pulsing version of the coronary lithotripsy catheter now has one-year outcome data \u2014 and the safety profile held steady.",
-          "pitch_angle": "In 140 patients with severely calcified coronary lesions, the 2-Hz IVL catheter produced a 5.6% MACE rate with no cardiac deaths or stent thrombosis at one year, and three-quarters of patients reported freedom from angina. The results support expanded use of IVL in patients whose coronary calcium has historically complicated stent delivery, though the lack of a control arm limits conclusions."
-        }
-      ],
-      "run_date": "2026-09-23",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42757911",
-      "headline": "A kidney-stone-busting technology was used for the first time to crack open a calcified heart valve \u2014 with promising early results",
-      "journal": "Journal of the American Heart Association",
-      "pubdate": "2026 Sep 18",
-      "doi": "10.1161/JAHA.126.050755",
-      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In this first-in-human study, 10 high-surgical-risk patients with severe calcified mitral stenosis underwent a new procedure using the SmartCrack lithotripsy balloon \u2014 a device that uses shockwaves to fracture calcium deposits in the mitral valve, drawn from technology used to break up kidney stones. All 10 patients met the primary efficacy endpoint, with mitral valve area increasing from 0.89 to 1.31 cm\u00b2 and pressure gradients falling significantly; one patient had a minor stroke as the primary safety event, and 8 of 10 reported symptom improvement at 30 days. The technique may offer a new catheter-based option for patients with calcified mitral stenosis who are not eligible for surgery or conventional balloon valvuloplasty.",
-      "why_it_matters": "Calcified mitral stenosis \u2014 particularly from mitral annular calcification \u2014 has virtually no good catheter-based treatment options today, and this early human data suggests lithotripsy may open a new path for patients deemed too high-risk for open-heart surgery.",
-      "caveats": "small sample (N<100), single-center, short follow-up, surrogate endpoints only, no control group, first-in-human feasibility study",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "First-in-human, unmet clinical need, novel mechanism, high-prevalence valve condition.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / MedPage Today",
-          "headline": "Shockwave Technology Used to Bust Kidney Stones Just Cracked Open Calcified Heart Valves \u2014 In Humans",
-          "hook": "For the first time in human patients, a lithotripsy balloon designed to shatter valve calcium with shockwaves successfully opened severely narrowed mitral valves that had no other good treatment option.",
-          "pitch_angle": "Calcified mitral stenosis \u2014 especially from mitral annular calcification \u2014 has long been a therapeutic dead end for patients too sick for surgery, with no approved catheter-based fix. This first-in-human feasibility study of the SmartCrack balloon found the procedure met its efficacy endpoint in all 10 patients, though larger trials are needed to assess safety and durability."
-        },
-        {
-          "publication_type": "Everyday Health / Health.com / General health",
-          "headline": "The Same Technology That Breaks Up Kidney Stones May Now Help Repair a Dangerous Heart Valve Problem",
-          "hook": "Doctors have for the first time used shockwave lithotripsy \u2014 the same principle used to shatter kidney stones \u2014 to crack calcium deposits blocking a critical heart valve.",
-          "pitch_angle": "In a small but landmark first-in-human study, 10 patients with severe calcified mitral stenosis underwent the experimental SmartCrack procedure, with all meeting the study's effectiveness target and most reporting symptom improvement within a month. The technique could eventually offer hope to people with this hard-to-treat condition who are considered too high-risk for open-heart surgery."
-        }
-      ],
-      "run_date": "2026-09-23",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42759933",
-      "headline": "Peripheral artery disease trials can't be compared \u2014 experts just agreed on a fix",
-      "journal": "Annals of Vascular Surgery",
-      "pubdate": "2026 Sep 18",
-      "doi": "10.1016/j.avsg.2026.09.003",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Using a structured Delphi consensus process, 33 international vascular experts (vascular surgeons, interventional radiologists, and vascular medicine specialists) developed a standardized three-tier classification system \u2014 major, moderate, and minor \u2014 for bleeding events in peripheral arterial disease (PAD) trials. The lack of a uniform bleeding definition has long prevented meaningful cross-trial safety comparisons in PAD research. The new Peripheral Arterial Bleeding (PAB) classification represents the first expert-consensus framework specifically designed for this patient population.",
-      "why_it_matters": "Without a shared definition of 'major bleeding,' patients and clinicians cannot reliably compare safety data across peripheral artery disease treatments \u2014 this consensus classification is a step toward fixing that gap.",
-      "caveats": "small sample (N<100), single-center, observational design, surrogate endpoints only",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Methodological consensus study; no patient outcomes data; limited lifestyle or clinical hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "PAD Trials Have Been Comparing Apples to Oranges on Bleeding Risk \u2014 A New Classification Aims to Change That",
-          "hook": "Clinicians trying to compare bleeding risks across peripheral artery disease trials have been working without a common language \u2014 until now.",
-          "pitch_angle": "International vascular experts reached consensus on the first standardized bleeding classification specifically for PAD, potentially enabling safer, more comparable trial data. For clinicians managing anticoagulation and procedural risk in PAD patients, standardized safety reporting could meaningfully inform treatment decisions."
-        }
-      ],
-      "run_date": "2026-09-23",
-      "category": "Hematology & Vascular",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42759969",
-      "headline": "Ultrasound measurement of a leg vein's diameter may predict disease severity in a rare vascular condition",
-      "journal": "Phlebology",
-      "pubdate": "2026 Sep 18",
-      "doi": "10.1177/02683555261490370",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at multiple Chinese medical centers retrospectively assessed Doppler ultrasound features in 58 patients (63 affected limbs) with Klippel-Tr\u00e9naunay syndrome, a rare congenital vascular malformation disorder, between 2020 and 2022. They found that the diameter of the lateral marginal vein \u2014 a key abnormal vessel \u2014 showed a moderate positive correlation with venous clinical severity scores, with scores notably higher when the vein exceeded approximately 5 mm. Morphologic lymphatic malformation was also independently associated with greater disease severity.",
-      "why_it_matters": "For people living with this rare and complex vascular condition, a standardized ultrasound measurement may one day offer a simpler, noninvasive way to track disease progression without more invasive testing.",
-      "caveats": "small sample (N<100), observational design, single-center population (China), retrospective, surrogate endpoints only, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Rare condition, small retrospective sample, surrogate endpoints, limited generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Verywell Health / General health",
-          "headline": "A Simple Ultrasound Measurement Could Help Track This Rare Vascular Condition",
-          "hook": "For people with Klippel-Tr\u00e9naunay syndrome, the diameter of one abnormal leg vein may signal how severe their disease has become.",
-          "pitch_angle": "Researchers found that a routine Doppler ultrasound measurement of the lateral marginal vein was associated with clinical disease severity in KTS patients, suggesting the technique could support less invasive monitoring. Though the study is small and retrospective, it points toward a standardized imaging approach for a condition that currently lacks clear management guidelines."
-        }
-      ],
-      "run_date": "2026-09-23",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42750550",
-      "headline": "Children with High Blood Pressure May Need Combination Drugs Sooner \u2014 But No One Makes the Right Formulas for Kids",
-      "journal": "Cardiology in the young",
-      "pubdate": "2026 Sep 17",
-      "doi": "10.1017/S1047951126124007",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Turkish pediatric nephrologists reviewed current guidelines and evidence on hypertension treatment in children, arguing that the standard stepwise single-drug approach may be too slow for some pediatric patients. Unlike adult guidelines \u2014 which now favor early combination therapy especially for stage 2 hypertension \u2014 pediatric protocols lag behind, partly because no age-appropriate fixed-dose combination formulations exist for children. The authors propose that early combination therapy should be considered for selected children unlikely to respond to monotherapy alone.",
-      "why_it_matters": "As hypertension rises in children, the lack of combination drug formulations designed for pediatric use may mean some kids go longer than necessary with uncontrolled blood pressure, raising their long-term cardiovascular and kidney disease risk.",
-      "caveats": "observational design, single-center, surrogate endpoints only, no clinical trial data, commentary/opinion piece",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Relevant hypertension topic but opinion piece only; no original data or hard endpoints.",
-      "pitch_angles": [
-        {
-          "publication_type": "Verywell Health / Health.com / General health",
-          "headline": "Kids With High Blood Pressure Are Being Undertreated \u2014 And the Drug Industry Isn't Helping",
-          "hook": "Adult hypertension patients now routinely get combination blood pressure drugs early \u2014 but children are still stuck with a one-drug-at-a-time approach that experts say may be leaving some kids at risk.",
-          "pitch_angle": "Pediatric hypertension is rising, yet the field lacks age-appropriate combination drug formulations that could control blood pressure faster in high-risk children. Experts argue current guidelines need to evolve before a generation of kids faces preventable heart and kidney disease."
-        },
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "Pediatric Hypertension Guidelines Are a Generation Behind Adult Cardiology \u2014 Experts Push for Early Combination Therapy",
-          "hook": "While adult cardiology has embraced early combination antihypertensive therapy for stage 2 hypertension, pediatric practice still defaults to slow stepwise escalation \u2014 and clinicians say the gap is becoming harder to justify.",
-          "pitch_angle": "A commentary in Cardiology in the Young argues that selected pediatric patients with anticipated poor monotherapy response should be considered for early combination therapy, mirroring adult guideline evolution. The barrier isn't just evidence \u2014 it's the near-total absence of pediatric-appropriate fixed-dose formulations."
-        }
-      ],
-      "run_date": "2026-09-23",
-      "category": "Hematology & Vascular",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42754367",
-      "headline": "New ultrasound measurements may help surgeons choose the right heart repair strategy for infants born with a rare defect \u2014 and improve survival odds",
-      "journal": "World Journal for Pediatric & Congenital Heart Surgery",
-      "pubdate": "2026 Sep 17",
-      "doi": "10.1177/21501351261477046",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers retrospectively reviewed 44 infants and children (median age at first surgery: ~2 months) with right-dominant unbalanced atrioventricular septal defect at a single US center between 2004 and 2022. They identified four novel echocardiographic measurements \u2014 including a modified valve index and left ventricular pinching index \u2014 that were associated with whether patients received a two-ventricle repair or a single-ventricle palliation pathway. Patients who underwent two-ventricle repair had a trend toward better 10-year survival (96% vs. 75%), though the difference did not reach statistical significance.",
-      "why_it_matters": "Better tools to identify which infants with this rare heart defect can tolerate full repair versus palliation could improve surgical decision-making and potentially survival in one of pediatric cardiology's most complex scenarios.",
-      "caveats": "small sample (N<100), single-center, observational design, retrospective, short follow-up for some patients, surrogate endpoints only for echocardiographic cutpoints",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Rare pediatric condition, small retrospective cohort, highly specialized audience with limited general health appeal.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "Four Echocardiographic Measurements May Guide Surgery Decisions in Infants With a Complex Heart Defect",
-          "hook": "For infants born with a rare imbalance in their heart's four chambers, a set of novel ultrasound measurements may help surgeons decide whether to attempt full two-ventricle repair \u2014 a choice that appears linked to markedly better survival.",
-          "pitch_angle": "A retrospective study of 44 patients found that four echocardiographic parameters, including a modified atrioventricular valve index and a left ventricular pinching index, differed significantly between those who received two-ventricle repair versus single-ventricle palliation. Though the survival difference trended in favor of full repair, the findings need prospective validation before changing practice."
-        }
-      ],
-      "run_date": "2026-09-23",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42751923",
-      "headline": "A New Brain Scan Measurement May Predict Stroke Recovery Better Than Current Standard Tests",
-      "journal": "Journal of cerebral blood flow and metabolism",
-      "pubdate": "2026 Sep 17",
-      "doi": "10.1177/0271678X261492523",
-      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers developed a novel perfusion imaging metric called the granular Hypoperfusion Intensity Ratio (gHIR) to estimate how fast brain tissue is dying during an ischemic stroke, testing it in 570 stroke patients (median age 77, 50.8% female) treated at multiple centers. The gHIR, calculated from CT perfusion imaging across multiple blood-flow thresholds, outperformed four established methods for predicting 90-day functional outcomes. Patients with a gHIR above 0.30 were significantly less likely to have a good functional recovery, with an AUC of 0.75.",
-      "why_it_matters": "A more accurate way to assess how quickly brain tissue is being lost during a stroke could help emergency teams make faster, better-informed decisions about who needs the most aggressive treatment to preserve function.",
-      "caveats": "observational design, surrogate endpoints only, single imaging metric, external validation needed",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Human stroke study, hard functional outcome, novel metric outperforms established tools.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / MedPage Today",
-          "headline": "A New CT Scan Formula May Pinpoint Which Stroke Patients Face the Worst Outcomes \u2014 Before Treatment Begins",
-          "hook": "A single number derived from a routine CT perfusion scan may tell emergency physicians how fast a stroke patient's brain is dying \u2014 and outperform every existing standard metric for predicting 90-day recovery.",
-          "pitch_angle": "The granular Hypoperfusion Intensity Ratio (gHIR) synthesizes blood-flow data across multiple thresholds into one score, and in 570 stroke patients it bested four competing imaging methods at predicting who would regain functional independence. If validated externally, it could streamline triage decisions in time-critical stroke care."
-        },
-        {
-          "publication_type": "Everyday Health / Health.com / General health",
-          "headline": "A New Brain Scan Score Could Predict Stroke Recovery With Surprising Accuracy",
-          "hook": "Doctors studying stroke patients found that a single new measurement from a CT brain scan predicted who would recover well \u2014 better than all current standard imaging methods.",
-          "pitch_angle": "The new metric, called gHIR, estimates how fast brain tissue is dying during a stroke and was tested in 570 patients with a median age of 77. Early evidence suggests it could one day help emergency teams make faster decisions about aggressive stroke treatment to protect brain function."
-        }
-      ],
-      "run_date": "2026-09-23",
-      "category": "Hematology & Vascular",
-      "chunk": "1/2",
       "status": "new"
     },
     {
