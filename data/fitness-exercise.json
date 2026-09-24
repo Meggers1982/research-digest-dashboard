@@ -1,38 +1,293 @@
 {
-  "last_updated": "2026-09-23T15:28:07.601221+00:00",
-  "total_studies": 460,
-  "new_this_run": 17,
+  "last_updated": "2026-09-24T15:50:03.084356+00:00",
+  "total_studies": 468,
+  "new_this_run": 8,
   "studies": [
     {
+      "pmid": "42777824",
+      "headline": "Knee replacement failures follow a predictable timeline \u2014 infections strike early, implant loosening comes later",
+      "journal": "Journal of ISAKOS: joint disorders & orthopaedic sports medicine",
+      "pubdate": "2026 Sep 23",
+      "doi": "10.1016/j.jisako.2026.101223",
+      "groundbreaking": "Clear fitness or performance implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers retrospectively analyzed 150 patients who underwent first revision total knee arthroplasty across five Chilean centers between 2018 and 2026. Among early revisions (within 24 months), infection was the leading cause (34%), while late revisions (24+ months) were dominated by aseptic implant loosening (53.6%). The timing patterns held even after adjusting for age, sex, and center, suggesting distinct failure mechanisms at different post-surgical stages.",
+      "why_it_matters": "For active adults facing knee replacement, knowing that infection risk peaks early and mechanical failure risk grows over time could help set realistic expectations for long-term joint health monitoring.",
+      "caveats": "small sample (N<100 per subgroup), observational design, single-center (multi-center but single-country Chilean cohort), retrospective design, selection bias acknowledged by authors",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Clinical orthopedic data, limited direct fitness angle; narrow regional cohort.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / AARP",
+          "headline": "When a Knee Replacement Fails \u2014 and Why Timing Tells You Everything",
+          "hook": "New research finds that the reason a knee replacement needs a do-over depends almost entirely on when it happens.",
+          "pitch_angle": "A study of 150 revision knee surgeries found that infections dominate early failures while implant loosening drives later ones \u2014 a distinction that could help patients and doctors watch for the right warning signs at the right time."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Sports Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
       "pmid": "42772683",
-      "headline": "What You Eat Predicts Heart Disease Risk Better Than Your Genes, Large Korean Study Finds",
+      "headline": "What you eat predicts heart disease risk better than your genes, large study finds",
       "journal": "The Journal of Nutrition",
       "pubdate": "2026 Sep 22",
       "doi": "10.1016/j.tjnut.2026.101843",
       "groundbreaking": "Counterintuitive finding / Clear fitness or performance implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed data from 58,701 Korean adults followed for 5 years, classifying them into metabolic syndrome trajectory groups (none, newly developed, recovered, or persistent), then applied machine learning models to predict cardiovascular disease risk. Key finding: dietary quality patterns ranked above a genetic risk score \u2014 including variants in the APOA4-APOA5-ZPR1-SIK3-APOC3 cluster \u2014 in predicting CVD risk across all models. The best-performing random forest model (AUC=0.756) found that what people ate mattered more than their inherited genetic risk.",
-      "why_it_matters": "For people working to improve their health through diet and exercise, this large study suggests that the daily food choices you make may outweigh your genetic predisposition when it comes to heart disease risk.",
-      "caveats": "observational design, single-center, Korean cohort (dietary patterns may not generalize to Western populations), self-reported dietary data implied by use of dietary quality index",
+      "summary": "Researchers used machine learning models \u2014 including random forest and XGBoost algorithms \u2014 to assess the relative importance of dietary patterns, blood biomarkers, and genetic variants in predicting cardiovascular disease risk across 58,701 Korean adults followed for 5 years. Participants were classified by metabolic syndrome trajectory (none, newly developed, recovered, or persistent). Dietary quality indices consistently outranked genetic risk scores in predictive importance, suggesting that what people eat matters more than inherited risk factors for heart disease in this population.",
+      "why_it_matters": "For people managing metabolic health through diet and exercise, this suggests that improving daily food choices may meaningfully reduce cardiovascular risk even if you carry an unfavorable genetic profile.",
+      "caveats": "observational design, single-center, Korean cohort (may not generalize to non-Asian populations), self-reported dietary outcomes",
       "fact_check_note": "",
       "relevance_score": 7,
-      "relevance_score_reason": "Large cohort, counterintuitive diet-beats-genes finding; Korea-specific dietary context limits generalizability.",
+      "relevance_score_reason": "Large cohort, counterintuitive diet-beats-genes finding; limited by regional population.",
       "pitch_angles": [
         {
-          "publication_type": "NYT Well / Prevention",
-          "headline": "Your DNA Isn't Your Destiny: What You Eat May Matter More Than Your Genes for Heart Health",
-          "hook": "In a study of nearly 59,000 adults, dietary quality consistently outranked genetic risk in predicting who developed cardiovascular disease.",
-          "pitch_angle": "A large Korean prospective cohort study used machine learning to pit diet against DNA \u2014 and diet won. The finding suggests that for people who already exercise and care about health, doubling down on food quality may be one of the most powerful levers available for reducing heart disease risk, regardless of family history."
+          "publication_type": "NYT Well / Prevention / Health.com",
+          "headline": "Your Diet Predicts Heart Disease Better Than Your DNA, New Research Suggests",
+          "hook": "A study of nearly 59,000 adults found that what you eat is a stronger predictor of cardiovascular risk than your genetic makeup.",
+          "pitch_angle": "Researchers applied machine learning to five years of health data and found dietary quality consistently outranked genetic risk scores in heart disease prediction. The finding suggests people shouldn't feel fatalistic about family history \u2014 diet quality is a more powerful and modifiable lever than genes."
         },
         {
-          "publication_type": "Well+Good / Health.com",
-          "headline": "Science Says Your Food Choices May Trump Your Genetics When It Comes to Heart Health",
-          "hook": "Even with a 'bad' genetic profile, what you put on your plate may be the stronger predictor of cardiovascular risk, a study of nearly 59,000 people found.",
-          "pitch_angle": "Researchers found that dietary quality indices outperformed a multi-gene genetic risk score in a machine learning model designed to flag who was most likely to develop heart disease. It's early, observational evidence \u2014 but it reframes the fatalism many people feel about inherited risk."
+          "publication_type": "Well+Good / Shape / Women's Health",
+          "headline": "Science Says Your Eating Habits Matter More for Heart Health Than Your Genes",
+          "hook": "If you've ever blamed your cardiovascular risk on family history, a large new study suggests your daily food choices may be the bigger factor.",
+          "pitch_angle": "Among nearly 59,000 adults tracked for five years, machine learning models found that diet quality outperformed genetic risk scores in predicting who developed heart disease \u2014 even among people who newly developed metabolic syndrome. The takeaway: focusing on dietary patterns may be one of the most powerful things everyday people can do for long-term heart health."
         }
       ],
-      "run_date": "2026-09-23",
+      "run_date": "2026-09-24",
       "category": "Nutritional Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42768904",
+      "headline": "Motorized Cycling May Ease Pain and Constipation in Adults with Cerebral Palsy Who Can't Exercise Conventionally",
+      "journal": "Journal of Rehabilitation Medicine",
+      "pubdate": "2026 Sep 22",
+      "doi": "10.2340/jrm.v58.45792",
+      "groundbreaking": "First-in-class human study / Clear fitness or performance implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers tested a 10-week assisted (motorized) cycling program \u2014 three 20-minute sessions per week \u2014 in 14 non-ambulant adults with cerebral palsy (GMFCS levels III\u2013V) living in residential care. Median attendance was 24 of 30 sessions, confirming feasibility. No statistically significant group-level improvements were found, but individual participants showed meaningful gains in pain, constipation, and cycling power output.",
+      "why_it_matters": "For the roughly 17 million people worldwide living with cerebral palsy \u2014 many of whom have no access to conventional exercise \u2014 assisted cycling may offer a practical, well-tolerated option for symptom management.",
+      "caveats": "small sample (N<100), single-center, no control group, short follow-up, exploratory design, results not statistically significant at group level",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Niche rehabilitation population; small N, no significant group effect, but novel exercise modality.",
+      "pitch_angles": [
+        {
+          "publication_type": "Well+Good / Health.com / Prevention",
+          "headline": "A Motorized Bike Could Be a Game-Changer for People with Cerebral Palsy Who Can't Exercise on Their Own",
+          "hook": "For adults with severe cerebral palsy, even 20 minutes on a motorized bike three times a week appears to be safe \u2014 and some participants reported less pain and fewer digestive issues.",
+          "pitch_angle": "A small Danish study found that assisted cycling was feasible and well-tolerated in non-ambulant adults with cerebral palsy, with individual participants showing improvements in pain and constipation. The finding opens a door for tailored exercise options in a population that has largely been excluded from fitness research."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Physical and Rehabilitation Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42768968",
+      "headline": "Elite Football Players Score Lower on Neuroticism and Higher on Conscientiousness Than Non-Athletes \u2014 and It Gets More Pronounced With Expertise",
+      "journal": "Journal of Sports Sciences",
+      "pubdate": "2026 Sep 22",
+      "doi": "10.1080/02640414.2026.2735697",
+      "groundbreaking": "Clear fitness or performance implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used the Five Factor Model of personality to assess 2,085 male and female football (soccer) players across a range of expertise levels and ages, comparing them to samples of students and inactive individuals. Football players as a group showed lower neuroticism and openness but higher conscientiousness and extraversion than non-athletes. Within the player group, higher expertise was associated with lower neuroticism and higher conscientiousness, while gender differences in neuroticism and agreeableness also emerged.",
+      "why_it_matters": "Understanding the personality traits linked to higher athletic expertise could inform how coaches and sports psychologists structure mental skills training and athlete development programs.",
+      "caveats": "observational design, self-reported outcomes, elite athlete sample (may not generalize), single sport",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Large sample, interesting psychology angle, but observational and sport-specific with limited everyday exerciser relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "Men's Health / Women's Health",
+          "headline": "The Personality Traits That Predict Soccer Success \u2014 And Whether You Can Train Them",
+          "hook": "A study of more than 2,000 football players found that the most elite athletes share a surprisingly consistent psychological profile \u2014 and it's not what most people would guess.",
+          "pitch_angle": "Across skill levels, the top-performing soccer players were markedly less neurotic and more conscientious than both recreational athletes and non-athletes \u2014 traits that grew more pronounced the higher up the competitive ladder researchers looked. Whether those traits drive success or get shaped by years of high-level training is the next question worth asking."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Sports Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42276752",
+      "headline": "Researchers Are Testing Whether Running Could Be a Treatment for Chronic Low Back Pain",
+      "journal": "British Journal of Sports Medicine",
+      "pubdate": "2026 Sep 21",
+      "doi": "10.1136/bjsports-2026-111642",
+      "groundbreaking": "Clear fitness or performance implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This PhD Academy Award summary describes the design of a novel running-based intervention specifically for adults living with chronic low back pain. No participant data or trial results are presented \u2014 this is a methods/design paper only. The study signals early-stage research exploring running as a potential therapeutic modality for a condition often managed with rest or low-impact activity.",
+      "why_it_matters": "Suggests that running \u2014 often assumed to worsen back pain \u2014 may be worth studying as a structured treatment rather than something to avoid.",
+      "caveats": "No study data reported, design/protocol paper only, small single-center context, no outcomes presented",
+      "fact_check_note": "No participant data or results are presented in the abstract; this is a PhD award summary describing intervention design only \u2014 summary reflects this accurately.",
+      "relevance_score": 4,
+      "relevance_score_reason": "Interesting angle but no data reported; design paper only.",
+      "pitch_angles": [
+        {
+          "publication_type": "Runner's World",
+          "headline": "Could Running Actually Treat Chronic Back Pain? Researchers Are Designing a Study to Find Out",
+          "hook": "A new research program is challenging the assumption that running is bad for your back \u2014 and building a clinical trial around it.",
+          "pitch_angle": "Scientists are designing a formal running intervention for people with chronic low back pain, a condition that has long been managed with rest or low-impact exercise. If the trial shows benefit, it could reshape how clinicians and runners think about one of the most common reasons people quit the sport."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Sports Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42767497",
+      "headline": "Half of cancer patients screened show nutritional risk \u2014 and a simple protocol cut their wait times by 43%",
+      "journal": "Clinical Nutrition ESPEN",
+      "pubdate": "2026 Sep 21",
+      "doi": "10.1016/j.clnesp.2026.105118",
+      "groundbreaking": "Clear fitness or performance implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers implemented a standardized nutritional screening protocol across 13 cancer day hospitals in Portugal, surveying 60 healthcare professionals (oncologists, nurses, nutritionists) who screened 1,023 patients over roughly four months. The study found that 55% of patients were at nutritional risk, and after protocol rollout, nutritional consultations increased by 20.2% while wait times for high-risk patients dropped by 43.2%. Results suggest that structured screening is both feasible and effective, though staff shortages and time constraints remain barriers.",
+      "why_it_matters": "For people managing cancer treatment, early nutritional support is associated with better treatment tolerance and quality of life \u2014 and this study suggests that organized screening can dramatically speed access to that care.",
+      "caveats": "small sample (N<100 HCPs surveyed), single-center (Portugal only), observational design, self-reported outcomes, short follow-up, industry funding [Danone Nutricia]",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Clinical oncology nutrition; limited direct relevance to general exercisers or active populations.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Health.com",
+          "headline": "More Than Half of Cancer Patients Are Malnourished \u2014 And Most Don't Even Know It",
+          "hook": "A simple screening protocol at cancer clinics cut wait times for nutritional support nearly in half.",
+          "pitch_angle": "A Portuguese multicenter study found 55% of cancer patients were at nutritional risk, yet most weren't being caught without formal screening. Early nutritional intervention is increasingly recognized as part of cancer care \u2014 and this study shows organized protocols make a measurable difference in access."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Nutritional Sciences",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42762890",
+      "headline": "Prebiotics and gut-friendly foods might actually worsen symptoms for some people \u2014 depending on who's eating them",
+      "journal": "Clinical Nutrition ESPEN",
+      "pubdate": "2026 Sep 19",
+      "doi": "10.1016/j.clnesp.2026.105130",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A narrative review by a single researcher at the University of Suffolk examined the contradictory roles of rapidly fermentable prebiotic substrates \u2014 such as inulin, fructo-oligosaccharides, and galacto-oligosaccharides \u2014 in human nutrition. The review highlights that the same compounds promoted as gut-health prebiotics are also restricted as FODMAPs in people with irritable bowel syndrome. The author argues that these substrates' effects depend heavily on individual host context, not fixed compound properties, and calls for dose-response studies that define both benefit and tolerance thresholds across different populations.",
+      "why_it_matters": "For active people taking prebiotic supplements or eating 'gut-healthy' foods, this review suggests that more isn't always better \u2014 the same ingredient that feeds beneficial bacteria in one person may cause bloating, gas, or discomfort in another.",
+      "caveats": "observational design, single author review (not systematic), no primary data, no participant population",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Counterintuitive nutrition finding; narrative review limits strength; moderate fitness relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "Well+Good / Health.com",
+          "headline": "That Prebiotic Supplement Might Be the Reason You're Bloated at the Gym",
+          "hook": "The same ingredients marketed as gut-health heroes are clinically restricted for people with IBS \u2014 and a new review says your biology determines which camp you're in.",
+          "pitch_angle": "A review published in Clinical Nutrition ESPEN finds that prebiotic fibers like inulin and FOS can promote beneficial gut bacteria in some people while causing gas, bloating, and discomfort in others. For active people loading up on prebiotic-fortified foods or supplements, the takeaway is that individual tolerance \u2014 not ingredient quality \u2014 may be the deciding factor."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Nutritional Sciences",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42762156",
+      "headline": "ACL Recovery Stalls Are More Complex Than a Muscle Grade \u2014 and Standard Assessments May Be Missing the Real Picture",
+      "journal": "Knee Surgery, Sports Traumatology, Arthroscopy",
+      "pubdate": "2026 Sep 19",
+      "doi": "10.1002/ksa.70612",
+      "groundbreaking": "Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This commentary responds to a retrospective study on arthrogenic muscle inhibition (AMI) \u2014 the neurological suppression of quadriceps activation that commonly stalls recovery after ACL reconstruction. The authors argue that standard clinical grading tools like the SANTI classification, while useful for screening, cannot explain the underlying neuromuscular mechanisms of AMI and may miss important drivers of quad weakness. They call for complementary neurophysiological assessments and a more integrated approach to managing pain, swelling, and movement quality early after surgery.",
+      "why_it_matters": "For the many people who struggle to regain quad strength after ACL surgery, this suggests that standard clinical grading alone may not be enough to guide rehab \u2014 and that more nuanced neurological assessment could improve recovery outcomes.",
+      "caveats": "No original data reported, commentary format, single-center context, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Rehab insight but commentary only; no new data; limited generalizability to general audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "General fitness / Health.com",
+          "headline": "Why So Many ACL Patients Can't Get Their Quads Back \u2014 And Why Standard Tests May Not Catch the Real Problem",
+          "hook": "A new commentary argues that the tools most clinicians use to assess quad weakness after ACL surgery may be fundamentally missing what's driving the problem.",
+          "pitch_angle": "Arthrogenic muscle inhibition \u2014 a neurological shutdown of the quads that follows ACL reconstruction \u2014 is one of the most frustrating barriers to return-to-sport, and experts say the standard clinical grades used to track it don't capture the brain-muscle communication breakdown at the root of it. The authors argue rehab should integrate pain control, swelling management, and neuromuscular retraining together rather than treating them as separate checkboxes."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Sports Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42752253",
+      "headline": "Three Sessions of Dry Cupping Cuts Low Back Pain More Than a Placebo \u2014 Even After Just One Week",
+      "journal": "Journal of Back and Musculoskeletal Rehabilitation",
+      "pubdate": "2026 Sep 17",
+      "doi": "10.1177/10538127261487533",
+      "groundbreaking": "Clear fitness or performance implication / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a single-blind RCT with 52 adults (aged 18\u201355) with clinician-confirmed non-specific low back pain, randomly assigning them to three sessions of dry cupping on the lumbar paraspinal muscles or a placebo treatment, each 48 hours apart. Compared with placebo, the dry cupping group showed significantly greater reductions in pain (2.42-point improvement on a numeric pain scale) and improvements in flexibility and functional disability scores. The study suggests dry cupping may be a useful short-term adjunct for managing low back pain in otherwise healthy adults.",
+      "why_it_matters": "For the millions of active adults whose workouts are derailed by low back pain, this study suggests dry cupping \u2014 even over just three sessions \u2014 may offer meaningful short-term relief beyond placebo.",
+      "caveats": "small sample (N<100), short follow-up, single-center, single-blind (participants aware of treatment), university-recruited sample",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "RCT design, clear pain and function outcomes, practical adjunct therapy for active adults.",
+      "pitch_angles": [
+        {
+          "publication_type": "Well+Good / Health.com",
+          "headline": "Could Three Sessions of Cupping Actually Ease Your Low Back Pain? A New RCT Says Maybe",
+          "hook": "Dry cupping on the lower back outperformed a placebo treatment for both pain relief and flexibility after just three sessions, a new randomized trial found.",
+          "pitch_angle": "Researchers tested dry cupping against a placebo in 52 adults with low back pain and found real, measurable improvements in pain scores and range of motion \u2014 not just a feel-good effect. For wellness-curious readers already spending money on recovery tools, this adds credible short-term evidence to a practice they may already be curious about."
+        },
+        {
+          "publication_type": "Prevention / AARP The Magazine",
+          "headline": "Low Back Pain Keeping You From Moving? This Old-School Therapy Just Got New Scientific Backing",
+          "hook": "A controlled trial found that dry cupping \u2014 an ancient therapy increasingly found in physical therapy offices \u2014 reduced low back pain significantly more than a sham treatment in just one week.",
+          "pitch_angle": "The study enrolled everyday adults with non-specific low back pain, not elite athletes, making the findings relatable to the broad population that suffers from this condition. With three short treatment sessions, participants reported less pain, better flexibility, and improved daily function \u2014 a practical angle for readers looking for non-pharmacological options."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Physical and Rehabilitation Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42754383",
+      "headline": "Moderate Exercise During Twin Pregnancy Appears Safe for Both Mothers and Babies, Small Study Finds",
+      "journal": "British Journal of Sports Medicine",
+      "pubdate": "2026 Sep 17",
+      "doi": "10.1136/bjsports-2026-111977",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers tested cardiovascular responses to moderate-intensity cycling exercise (up to 70% heart rate reserve) in 12 women with twin pregnancies and 12 with singleton pregnancies, all around 26 weeks gestation. Although women carrying twins had higher resting heart rate and blood pressure, their cardiovascular response to exercise was similar to singleton pregnancies. Fetal heart rate and umbilical blood flow remained stable in both groups, with no adverse fetal events recorded.",
+      "why_it_matters": "Current guidelines restrict physical activity for people carrying twins, but this early evidence suggests moderate exercise may not pose greater cardiovascular risk to mothers or fetuses than in singleton pregnancies \u2014 a finding that could prompt a rethink of those blanket restrictions.",
+      "caveats": "small sample (N<100), single-center, short follow-up, observational design",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding challenging existing guidelines; human subjects, clear practical implication, but very small N.",
+      "pitch_angles": [
+        {
+          "publication_type": "Women's Health / Well+Good",
+          "headline": "Current Guidelines Tell Twin Moms to Take It Easy \u2014 New Research Suggests That Advice May Not Be Evidence-Based",
+          "hook": "A small but rigorous study found that moderate exercise during twin pregnancy produced no greater cardiovascular stress \u2014 for mom or babies \u2014 than in singleton pregnancies.",
+          "pitch_angle": "Women carrying twins are routinely told to limit physical activity, but that recommendation has never been backed by solid data. This new study measured heart function, blood pressure, fetal heart rate, and umbilical blood flow before and after cycling exercise and found no meaningful differences in how twins versus singletons responded \u2014 suggesting the blanket restriction may deserve a second look."
+        },
+        {
+          "publication_type": "NYT Well",
+          "headline": "The 'Rest More' Advice for Twin Pregnancies May Not Be Based on Science",
+          "hook": "Researchers found that the hearts of mothers \u2014 and their twin fetuses \u2014 responded to moderate exercise almost identically to singleton pregnancies.",
+          "pitch_angle": "A new study directly tested what happens to cardiovascular function when women pregnant with twins cycle at moderate intensity, and found reassuring results: no fetal distress, no abnormal maternal heart responses, and no meaningful differences from singleton pregnancies. The findings suggest current activity restrictions for twin pregnancies may need to be revisited with larger trials."
+        }
+      ],
+      "run_date": "2026-09-24",
+      "category": "Sports Medicine",
       "chunk": "1/2",
       "status": "new"
     },
@@ -147,33 +402,6 @@
       ],
       "run_date": "2026-09-23",
       "category": "Physical and Rehabilitation Medicine",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42276752",
-      "headline": "Runners with chronic back pain may finally have a tailored program designed just for them",
-      "journal": "British Journal of Sports Medicine",
-      "pubdate": "2026 Sep 21",
-      "doi": "10.1136/bjsports-2026-111642",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This PhD Academy Award summary describes the design of a novel running intervention specifically developed for adults living with chronic low back pain. No participant data, sample size, or outcomes are reported in this abstract \u2014 it is a brief award notice, not a full study report. The work is based at La Trobe University and Monash University in Australia.",
-      "why_it_matters": "A structured running program tailored to people with chronic back pain could open a door to exercise for a population often told to rest.",
-      "caveats": "single-center, small sample (N<100), short follow-up, observational design \u2014 abstract contains no results data; this is an award notice only",
-      "fact_check_note": "Abstract contains no study results, sample size, or outcome data \u2014 this is a PhD award notice, not a primary research article. Summary reflects that limitation.",
-      "relevance_score": 4,
-      "relevance_score_reason": "Promising topic but no data reported; award notice only limits usability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Runner's World",
-          "headline": "Scientists Are Finally Building a Running Program Designed for People With Chronic Back Pain",
-          "hook": "Millions of back pain sufferers avoid running \u2014 but a new research program is challenging whether that's necessary.",
-          "pitch_angle": "A researcher at La Trobe University is developing a first-of-its-kind running intervention tailored to adults with chronic low back pain. If the program proves effective, it could reframe running as a tool for back pain management rather than a trigger to avoid."
-        }
-      ],
-      "run_date": "2026-09-23",
-      "category": "Sports Medicine",
       "chunk": "1/2",
       "status": "new"
     },
