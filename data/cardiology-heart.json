@@ -1,71 +1,278 @@
 {
-  "last_updated": "2026-09-24T15:50:16.619270+00:00",
-  "total_studies": 516,
-  "new_this_run": 10,
+  "last_updated": "2026-09-25T15:49:06.225324+00:00",
+  "total_studies": 517,
+  "new_this_run": 1,
   "studies": [
     {
+      "pmid": "42782309",
+      "headline": "A common heart failure drug may rapidly improve oxygen delivery in critically ill children \u2014 within 24 hours of the first dose",
+      "journal": "Pediatric Cardiology",
+      "pubdate": "2026 Sep 24",
+      "doi": "10.1007/s00246-026-04470-2",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a retrospective study of 59 children admitted to a cardiac intensive care unit, using high-resolution continuous monitoring data to track physiologic changes in the 24 hours after sacubitril/valsartan (Entresto) initiation. Following the first dose, heart rate and systolic blood pressure fell while measures of systemic oxygen delivery \u2014 including pulse oximetry and renal near-infrared spectroscopy \u2014 improved. The findings suggest the drug produces coordinated hemodynamic changes consistent with better tissue oxygenation, with variability in magnitude rather than distinct response types across patients.",
+      "why_it_matters": "These early findings suggest that sacubitril/valsartan, a drug already used in adult heart failure, may produce measurable improvements in oxygen delivery within hours of initiation in critically ill children \u2014 a population with very limited treatment options.",
+      "caveats": "small sample (N<100), observational design, single-center, surrogate endpoints only, short follow-up, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Pediatric cardiac ICU niche; surrogate endpoints; small retrospective sample.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Sacubitril/Valsartan Shows Rapid Hemodynamic Shifts in Pediatric Cardiac ICU Patients",
+          "hook": "Within 24 hours of the first dose, critically ill children showed measurable improvements in systemic oxygen delivery \u2014 a finding that could reshape how intensivists approach this drug in pediatric cardiac care.",
+          "pitch_angle": "A retrospective analysis of 59 children in a cardiac ICU found that sacubitril/valsartan initiation was associated with coordinated changes in arterial, venous, and tissue-level physiology within one day. While limited by small sample size and observational design, the high-fidelity monitoring approach offers a rare real-time window into the drug's acute effects in a population where evidence is sparse."
+        }
+      ],
+      "run_date": "2026-09-25",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
       "pmid": "42776068",
-      "headline": "AI Can Match Cardiology Experts at Reading Heart Scans \u2014 But Hasn't Actually Improved Patient Outcomes Yet",
-      "journal": "Turk Kardiyoloji Dernegi Arsivi",
+      "headline": "AI can read heart ultrasounds almost as well as experts \u2014 but it hasn't actually improved patient outcomes yet",
+      "journal": "Turkish Journal of Cardiology (Turk Kardiyoloji Dernegi Arsivi)",
       "pubdate": "2026 Sep 23",
       "doi": "10.5543/tkda.2026.30071",
       "groundbreaking": "Major cardiovascular or public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "A structured narrative review synthesized 46 studies (published 2015\u20132026) on AI applications in echocardiography, examining whether technical accuracy translates to clinical benefit. Researchers identified five key barriers to real-world integration: reproducibility across settings, generalizability beyond development datasets, lack of outcome-focused evidence, regulatory immaturity, and insufficient clinician and patient trust. Despite strong agreement between AI and expert measurements of heart function and valve disease, few studies showed AI-assisted echocardiography actually improved patient outcomes.",
-      "why_it_matters": "As AI cardiac imaging tools move toward routine clinical use, this review suggests the real hurdle is not algorithmic accuracy but building the governance and outcome evidence needed to ensure these tools genuinely help patients.",
-      "caveats": "observational design, single-center (single-author review), surrogate endpoints only, narrative review with no quantitative pooling",
+      "summary": "A structured narrative review synthesized 46 studies on AI-assisted echocardiography published between 2015 and 2026, examining clinical integration barriers across five domains: reproducibility, generalizability, outcome evidence, regulatory maturity, and clinician trust. AI algorithms showed close agreement with expert measurements of left ventricular function, strain, and valve disease, but few studies demonstrated that AI-assisted echo translates into improved patient outcomes. The authors propose a roadmap for responsible integration by 2030, arguing the main barrier is not algorithmic capability but the structural and governance requirements for accountable clinical use.",
+      "why_it_matters": "As AI cardiac imaging tools move toward routine clinical use, this review highlights that technical accuracy alone does not guarantee better care \u2014 and that outcome-focused evidence is urgently needed before widespread adoption.",
+      "caveats": "observational design, surrogate endpoints only",
       "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Clinically relevant AI cardiology review; no hard endpoints, single-author narrative synthesis.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Timely AI-in-cardiology topic; review design; no hard outcome data; single-author narrative.",
       "pitch_angles": [
         {
-          "publication_type": "STAT News / MedPage Today",
-          "headline": "AI Reads Heart Scans as Well as Experts \u2014 So Why Hasn't It Made Patients Healthier?",
-          "hook": "Despite matching cardiologists on key measurements, AI echocardiography tools have yet to demonstrate they actually improve patient outcomes in rigorous studies.",
-          "pitch_angle": "A new review of 46 studies finds that the bottleneck for AI in cardiac imaging isn't algorithmic performance \u2014 it's the absence of outcome-linked evidence, regulatory frameworks, and clinician trust needed to make these tools accountable in real clinical settings."
+          "publication_type": "STAT News",
+          "headline": "AI Is Getting Good at Reading Heart Scans. Experts Say That's Not Enough.",
+          "hook": "Artificial intelligence can match cardiologist-level accuracy on echocardiograms \u2014 but a new review finds almost no evidence it actually makes patients healthier.",
+          "pitch_angle": "A synthesis of 46 studies finds that AI echocardiography tools are technically impressive but clinically unproven, with the main barriers being governance gaps, limited external validation, and a near-total absence of outcome-linked trials. The authors propose a 2030 roadmap that prioritizes patient outcomes over measurement agreement \u2014 a shift that could reshape how health systems evaluate and adopt cardiac AI."
         },
         {
           "publication_type": "General health / Health.com / Verywell Health",
-          "headline": "Your Next Heart Scan Could Be Read by AI \u2014 But Experts Say We're Not There Yet",
-          "hook": "AI can now measure heart function nearly as accurately as a specialist, but a new analysis finds that's not enough to know whether it's actually good for patients.",
-          "pitch_angle": "Researchers reviewed a decade of AI echocardiography studies and found that technical accuracy hasn't yet translated into better health outcomes, raising questions about how quickly these tools should enter routine cardiac care."
+          "headline": "AI Can Now Analyze Your Heart Ultrasound \u2014 But Experts Warn It's Not Ready to Replace Your Cardiologist",
+          "hook": "AI tools for reading heart ultrasounds are impressively accurate \u2014 yet a new review found almost no proof they lead to better health outcomes for patients.",
+          "pitch_angle": "Researchers reviewed a decade of studies on AI-assisted echocardiography and found that while the technology closely matches expert readings, the field lacks trials showing it actually helps people live longer or avoid heart events. Experts say the real challenges are trust, oversight, and accountability \u2014 not the algorithms themselves."
         }
       ],
-      "run_date": "2026-09-24",
+      "run_date": "2026-09-25",
       "category": "Cardiology",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42775464",
-      "headline": "A new echocardiography scoring method cuts the 'diagnostic gray zone' in tricky aortic stenosis cases from 43% to just 9%",
-      "journal": "Circulation: Cardiovascular Imaging",
+      "headline": "A new flow-based test clears up nearly half of ambiguous aortic valve diagnoses that stump standard stress echo",
+      "journal": "Circulation. Cardiovascular Imaging",
       "pubdate": "2026 Sep 23",
       "doi": "10.1161/CIRCIMAGING.125.018621",
-      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a retrospective multinational study of 287 patients with classical low-gradient aortic stenosis (narrowed heart valve with low pressure readings and reduced heart pumping function), researchers tested whether newly proposed transvalvular flow-based criteria could reduce the large proportion of stress echocardiography tests that yield inconclusive results. Using conventional criteria, 43% of patients fell into an 'indeterminate' category \u2014 neither clearly severe nor clearly moderate stenosis \u2014 but applying the new flow-based criteria cut that proportion to just 9%. Patients reclassified as having severe stenosis by the new criteria showed a significant survival benefit from valve intervention (HR 0.50), though their outcomes after intervention were not as good as those diagnosed severe by conventional criteria.",
-      "why_it_matters": "Nearly half of patients with a difficult-to-classify form of aortic stenosis currently receive inconclusive stress test results, leaving clinicians uncertain whether to recommend valve replacement \u2014 a new classification approach suggests it could reliably guide that decision for most of them.",
-      "caveats": "observational design, retrospective, secondary analysis, short follow-up (median 12 months), no female-specific analysis reported",
+      "summary": "Researchers retrospectively analyzed 287 patients with classical low-gradient aortic stenosis (reduced ejection fraction with low valve gradient) who underwent dobutamine stress echocardiography (DSE) across multiple centers in Europe and North America. Under standard criteria, 43% of patients had indeterminate \u2014 effectively unclassifiable \u2014 test results; applying novel transvalvular flow-based criteria reduced that indeterminate rate from 43% to just 9%, raising the proportion of diagnostically useful tests from 57% to 91%. Patients reclassified as severe aortic stenosis using the new criteria showed a significant survival benefit from aortic valve intervention (HR 0.50, 95% CI 0.27\u20130.92), though outcomes were worse than for conventionally diagnosed severe AS.",
+      "why_it_matters": "Aortic stenosis affects millions of older adults, and nearly half of a difficult-to-diagnose subgroup were previously left in diagnostic limbo \u2014 this new approach could help far more patients get a clear answer about whether valve replacement will help them.",
+      "caveats": "observational design, retrospective analysis, multicenter but no randomization, surrogate endpoints alongside hard outcomes, short follow-up (median 12 months)",
       "fact_check_note": "",
       "relevance_score": 8,
-      "relevance_score_reason": "Multinational, clinically significant hard endpoints, high-prevalence valve disease, addresses real diagnostic gap.",
+      "relevance_score_reason": "Counterintuitive finding resolving major diagnostic gap; human data with hard endpoints and high-prevalence condition.",
       "pitch_angles": [
         {
-          "publication_type": "Medscape Cardiology / MedPage Today",
-          "headline": "New Flow Criteria Slash Indeterminate Stress Echo Findings in Low-Gradient Aortic Stenosis",
-          "hook": "Nearly half of patients with a tricky form of aortic stenosis currently get inconclusive stress tests \u2014 a new measurement approach resolved that uncertainty in 91% of cases in a multinational study.",
-          "pitch_angle": "Using transvalvular flow rate rather than pressure gradient alone, researchers reclassified most previously indeterminate patients as either clearly severe or moderate stenosis, and patients reclassified as severe showed meaningful survival benefit from valve intervention \u2014 findings that could directly change how cardiologists decide when to recommend aortic valve replacement."
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Flow-Based Criteria Slash Indeterminate Stress Echo Results in Low-Gradient Aortic Stenosis to 9%",
+          "hook": "A new classification approach resolved the diagnostic uncertainty plaguing 43% of low-gradient aortic stenosis stress tests \u2014 and patients reclassified as severe showed real survival benefit from valve intervention.",
+          "pitch_angle": "In a 287-patient multicenter retrospective study, novel transvalvular flow-based criteria raised diagnostic yield of dobutamine stress echocardiography from 57% to 91% in a notoriously difficult aortic stenosis subgroup, with reclassified-severe patients showing a hazard ratio of 0.50 for mortality after valve replacement \u2014 though outcomes remained inferior to conventionally diagnosed severe AS, signaling this group may need careful post-procedural follow-up."
         },
         {
-          "publication_type": "STAT News",
-          "headline": "Cardiologists Have Long Struggled to Read a Common Heart Valve Test. A New Metric May Finally Fix That.",
-          "hook": "For patients with a paradoxical form of aortic stenosis \u2014 a failing valve that doesn't show the usual pressure warning signs \u2014 the standard diagnostic test leaves almost half in a clinical limbo. A new approach may change that.",
-          "pitch_angle": "A multinational team found that measuring how fast blood actually flows across the valve, rather than relying solely on peak pressure gradients, could resolve the majority of inconclusive stress echocardiography results \u2014 and correctly identify which patients would benefit from valve replacement, a decision that currently carries life-or-death weight."
+          "publication_type": "AARP / General health",
+          "headline": "Nearly Half of Older Adults With a Common Heart Valve Problem Get an Inconclusive Test \u2014 New Method May Finally Fix That",
+          "hook": "For decades, a troubling proportion of patients with a hard-to-assess form of aortic stenosis walked away from stress tests with no clear answer about whether they needed valve surgery \u2014 a new flow-based measure could change that.",
+          "pitch_angle": "A new way of measuring blood flow through the aortic valve during stress testing resolved the ambiguity for most patients who otherwise would have been left without a definitive diagnosis, potentially guiding more older adults toward life-extending valve replacement at the right time."
         }
       ],
-      "run_date": "2026-09-24",
-      "category": "Hematology & Vascular",
+      "run_date": "2026-09-25",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42771592",
+      "headline": "Autoimmune disease may be a hidden driver of sudden cardiac arrest in young people and athletes",
+      "journal": "European Heart Journal",
+      "pubdate": "2026 Sep 22",
+      "doi": "10.1093/eurheartj/ehag752",
+      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers reviewed the link between autoimmune conditions and unexpected cardiac arrest in young adults and athletes, arguing that immune-mediated cardiac injury is a significantly underrecognized cause of sudden cardiac death in this population. The paper synthesizes existing evidence on how autoantibodies and systemic inflammation can disrupt heart rhythm and structure. The authors contend that autoimmunity deserves much greater clinical attention in the workup of young patients who experience unexplained cardiac arrest.",
+      "why_it_matters": "For the many young people and athletes who suffer cardiac arrest with no obvious structural heart disease, autoimmune mechanisms may represent a missed \u2014 and potentially treatable \u2014 underlying cause.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive angle on sudden cardiac death in young adults; strong lifestyle/sports hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Prevention / Everyday Health",
+          "headline": "Young Athletes Are Dying of Cardiac Arrest \u2014 and Their Own Immune System May Be to Blame",
+          "hook": "When a young athlete collapses with no obvious heart problem, a rogue immune response may be the culprit doctors keep missing.",
+          "pitch_angle": "A new review in the European Heart Journal argues that autoimmune conditions \u2014 often dismissed as unrelated to the heart \u2014 may be quietly disrupting cardiac rhythm in young people, and that standard cardiac workups routinely overlook immune-related causes of sudden arrest."
+        },
+        {
+          "publication_type": "STAT News / MedPage Today / Medscape Cardiology",
+          "headline": "Autoimmunity as a Cause of Sudden Cardiac Death in Young Patients: A Call to Expand the Differential",
+          "hook": "Cardiologists evaluating unexplained cardiac arrest in young adults may be overlooking a clinically actionable category: autoimmune-mediated arrhythmia.",
+          "pitch_angle": "A new European Heart Journal paper from researchers at the University of Siena and NYU contends that immune-mediated cardiac injury \u2014 including autoantibody-driven ion channel disruption \u2014 is an underappreciated contributor to sudden death in young patients, and calls for routine autoimmune screening in unexplained arrest cases."
+        }
+      ],
+      "run_date": "2026-09-25",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42770219",
+      "headline": "Replacing a heart valve may not fully restore normal blood flow \u2014 and that gap could matter",
+      "journal": "Circulation. Cardiovascular Interventions",
+      "pubdate": "2026 Sep 22",
+      "doi": "10.1161/CIRCINTERVENTIONS.126.017313",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This review article proposes a new framework for evaluating transcatheter aortic valve (TAV) replacement success based on whether the device restores physiological aortic blood flow, not just reduces pressure gradients across the valve. Using 4D-flow cardiac MRI, researchers can quantify flow eccentricity, reversal, wall shear stress, and energetic efficiency \u2014 metrics standard echocardiography cannot capture. The authors argue that persistent abnormal flow after TAV replacement may limit left ventricular recovery and long-term device durability, though clinical outcome data are not yet available.",
+      "why_it_matters": "Hundreds of thousands of patients undergo transcatheter aortic valve replacement each year, and this review suggests that current success metrics may be missing a key dimension of how well the valve is actually working.",
+      "caveats": "review article \u2014 no original patient outcome data, surrogate endpoints only, no hard cardiovascular endpoints reported",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive angle on TAVR success metrics; penalized heavily as review with no outcome data.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "TAVR May Fix the Pressure but Not the Flow \u2014 and That Could Be a Problem",
+          "hook": "A new review argues that transcatheter aortic valve replacement can normalize pressure gradients while leaving dangerously abnormal blood flow patterns in place \u2014 a blind spot in how cardiologists currently define a successful procedure.",
+          "pitch_angle": "Using 4D-flow MRI, researchers can now detect persistent non-physiological flow after TAVR that standard echocardiography misses entirely; the field is now asking whether restoring truly normal flow \u2014 not just adequate flow \u2014 could be the key to better long-term heart recovery and valve durability."
+        },
+        {
+          "publication_type": "General health / Health.com / Verywell Health",
+          "headline": "Your Heart Valve Replacement Might Look Successful \u2014 But Blood Flow Could Still Be Off",
+          "hook": "A successful transcatheter heart valve procedure is typically judged by pressure readings \u2014 but new imaging suggests the blood flowing through may still be far from normal.",
+          "pitch_angle": "Researchers using advanced cardiac MRI found that abnormal flow patterns can persist after valve replacement even when standard tests look fine, raising questions about whether current measures of TAVR success are capturing the full picture for long-term heart recovery."
+        }
+      ],
+      "run_date": "2026-09-25",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42481162",
+      "headline": "Clot treatment for cancer patients still has major unsolved questions even after a landmark trial",
+      "journal": "European Heart Journal. Cardiovascular Pharmacotherapy",
+      "pubdate": "2026 Sep 22",
+      "doi": "10.1093/ehjcvp/pvag054",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This editorial commentary reviews the remaining clinical challenges in extended anticoagulation for cancer-associated venous thromboembolism (VTE) following the API-CAT trial, authored by two expert clinicians from Italy and Canada. It highlights unresolved questions around patient selection, bleeding risk, optimal duration, and drug choice for cancer patients requiring long-term blood clot prevention. The piece suggests that despite progress, clinicians still lack definitive guidance on how to manage anticoagulation in many cancer patient subgroups.",
+      "why_it_matters": "Cancer patients face a significantly elevated risk of life-threatening blood clots, and this commentary highlights that even after major trial evidence, key treatment decisions remain unsettled.",
+      "caveats": "editorial/commentary \u2014 no original data, small sample (N<100)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clinically important topic but editorial only; no new data or hard endpoints.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "After API-CAT, Big Questions on Cancer Clot Treatment Remain Unanswered",
+          "hook": "A landmark trial advanced cancer-associated thrombosis treatment \u2014 but experts say it left major clinical gaps wide open.",
+          "pitch_angle": "This editorial from Italian and Canadian anticoagulation specialists outlines what API-CAT still didn't resolve: who needs extended anticoagulation, for how long, and which drug is safest for high-bleeding-risk cancer patients \u2014 questions that affect millions of cancer survivors globally."
+        }
+      ],
+      "run_date": "2026-09-25",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42776134",
+      "headline": "A cheap blood test score combining four routine lab values may predict who dies in the year after a heart valve procedure",
+      "journal": "Brazilian Journal of Cardiovascular Surgery",
+      "pubdate": "2026 Sep 21",
+      "doi": "10.21470/1678-9741-2024-0300",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed 395 consecutive patients who underwent transcatheter aortic valve implantation (TAVI) for severe aortic stenosis, dividing them by their HALP score \u2014 a composite of hemoglobin, albumin, lymphocyte, and platelet values \u2014 into low and high groups. Patients with a low HALP score (below 3.4) had significantly higher rates of one-month composite cardiac events and one-year all-cause mortality. In multivariate analysis, a HALP score below 3.4 and chronic kidney disease were independent predictors of first-year mortality after the procedure.",
+      "why_it_matters": "For older adults facing a high-risk heart valve procedure, a simple pre-existing blood test score that flags malnutrition and inflammation could help identify those who need more intensive monitoring or support before and after TAVI.",
+      "caveats": "observational design, single-center, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "High-prevalence procedure; hard mortality endpoint; observational, single-center design limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP The Magazine / General health",
+          "headline": "Four Numbers From a Routine Blood Test May Predict Heart Valve Surgery Survival",
+          "hook": "A simple score combining four standard lab values \u2014 hemoglobin, albumin, lymphocytes, and platelets \u2014 may help predict which older adults are most at risk of dying after a minimally invasive heart valve replacement.",
+          "pitch_angle": "In a study of nearly 400 TAVI patients, those with a low HALP score were significantly more likely to die within a year of the procedure, independent of other known risk factors. The finding suggests that markers of nutrition and immune health \u2014 detectable through routine bloodwork \u2014 may add meaningful predictive power beyond current risk tools for one of the most common heart procedures in older adults."
+        },
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Low HALP Score Independently Predicts One-Year Mortality After TAVI in 395-Patient Cohort",
+          "hook": "A composite inflammation-malnutrition score drawn from standard pre-procedural labs independently predicted first-year mortality after transcatheter aortic valve implantation, raising questions about whether nutritional optimization could improve post-TAVI outcomes.",
+          "pitch_angle": "Researchers found that TAVI patients with a HALP score below 3.4 faced significantly higher odds of one-year all-cause death and short-term major adverse cardiac events, with the association holding in multivariate models adjusted for kidney disease and other covariates. The observational, single-center design limits conclusions, but the low cost and universal availability of the component labs make the HALP score an attractive candidate for prospective validation."
+        }
+      ],
+      "run_date": "2026-09-25",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42764110",
+      "headline": "A new implantable defibrillator lead that senses both heart rhythm and blood pressure simultaneously passes its first human test",
+      "journal": "Heart Rhythm",
+      "pubdate": "2026 Sep 20",
+      "doi": "10.1016/j.hrthm.2026.08.047",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a first-in-human feasibility study, researchers tested a novel substernal shock lead capable of simultaneously measuring hemodynamic (blood pressure) signals, electrical heart signals, and delivering ventricular pacing in 5 patients undergoing cardiac surgery or VT ablation. The lead was temporarily placed via a minimally invasive subxiphoid approach and successfully recorded interpretable signals across multiple heart rhythms, including 147 ventricular tachycardia episodes. No device- or procedure-related adverse events occurred, and ventricular pacing was achieved in all patients, supporting further development of physiology-guided extravascular defibrillator systems.",
+      "why_it_matters": "Current defibrillators rely solely on electrical signals to decide when to shock \u2014 adding real-time blood pressure sensing could one day help these devices deliver more precise, appropriate therapy and avoid unnecessary shocks.",
+      "caveats": "small sample (N<100), single-center, short follow-up, surrogate endpoints only, industry funding [North American EP Technology LLC]",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "First-in-human but N=5, device-focused, surrogate endpoints; limited lifestyle or broad public hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / Medscape Cardiology",
+          "headline": "First Human Test of a Defibrillator Lead That Reads Both Heart Rhythm and Blood Pressure at Once",
+          "hook": "A new implantable lead that simultaneously senses electrical and hemodynamic signals has cleared its first human feasibility test \u2014 a step toward smarter, more selective defibrillator therapy.",
+          "pitch_angle": "In just 5 patients, researchers showed that a single substernal lead could track beat-to-beat blood pressure changes alongside electrical signals during dangerous arrhythmias, raising the possibility of future devices that can distinguish life-threatening rhythms from benign ones before delivering a shock."
+        }
+      ],
+      "run_date": "2026-09-25",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42763030",
+      "headline": "A faster shock-wave tool for severely calcified heart arteries keeps working well at one year",
+      "journal": "The American Journal of Cardiology",
+      "pubdate": "2026 Sep 19",
+      "doi": "10.1016/j.amjcard.2026.09.013",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "The DISRUPT CAD Duo trial was a multicenter, prospective, single-arm study enrolling 145 patients with severely calcified coronary artery lesions treated with a novel 2-Hz intravascular lithotripsy (IVL) catheter designed to shorten procedure time. At one-year follow-up, the overall major adverse cardiac event (MACE) rate was 5.6%, with no cardiac deaths or stent thrombosis reported. Angina symptoms resolved or improved markedly: 77.1% of patients reported no angina at one year, compared to only 14.5% at baseline.",
+      "why_it_matters": "For the growing number of patients with heavily calcified coronary arteries \u2014 a condition that makes stenting technically difficult \u2014 this faster shock-wave device suggests durable symptom relief and low complication rates out to one year.",
+      "caveats": "single-arm study (no control group), small sample (N=145), industry funding [Shockwave Medical Inc], surrogate endpoints only alongside MACE, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Human study, hard endpoints, high-prevalence condition; penalized for single-arm design and industry funding.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "2-Hz Intravascular Lithotripsy Shows Sustained Low MACE and Angina Relief at 1 Year in Calcified CAD",
+          "hook": "A novel faster-firing shock-wave catheter for calcified coronary arteries maintained a 5.6% MACE rate with zero cardiac deaths or stent thrombosis through 12 months.",
+          "pitch_angle": "The DISRUPT CAD Duo trial found that the 2-Hz IVL catheter \u2014 designed to cut procedure time \u2014 matched early safety benchmarks and dramatically improved angina burden at one year, though the absence of a control arm and industry sponsorship by Shockwave Medical limit conclusions about comparative effectiveness."
+        }
+      ],
+      "run_date": "2026-09-25",
+      "category": "Cardiology",
       "chunk": "2/2",
       "status": "new"
     },
@@ -94,66 +301,6 @@
       "run_date": "2026-09-24",
       "category": "Hematology & Vascular",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42771592",
-      "headline": "Autoimmune disease may be a hidden driver of sudden cardiac arrest in young adults and athletes",
-      "journal": "European Heart Journal",
-      "pubdate": "2026 Sep 22",
-      "doi": "10.1093/eurheartj/ehag752",
-      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Authors from the University of Siena and NYU Grossman School of Medicine reviewed evidence suggesting that autoimmune conditions \u2014 through mechanisms such as autoantibodies targeting cardiac ion channels \u2014 may be an underrecognized cause of unexpected cardiac arrest in young adults and athletes. The paper is a perspective or review piece rather than an original study with a defined patient cohort. It argues that autoimmunity is routinely overlooked in the workup of unexplained sudden cardiac events in otherwise healthy young people.",
-      "why_it_matters": "Recognizing autoimmunity as a potential trigger for sudden cardiac arrest in young, seemingly healthy individuals could open new diagnostic pathways for a condition that currently goes unexplained in a large proportion of cases.",
-      "caveats": "No primary data reported \u2014 review/perspective only; no N reported; mechanism-level argument without large prospective clinical validation",
-      "fact_check_note": "No original patient data are presented in the abstract; this appears to be a perspective or narrative review, not an original research study with a defined cohort.",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive, high-impact angle on sudden cardiac death in young adults; review only limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / Medscape Cardiology",
-          "headline": "Autoimmune Triggers for Sudden Cardiac Arrest in Young Athletes Are Being Routinely Missed, Experts Warn",
-          "hook": "A new European Heart Journal perspective argues that autoantibodies targeting heart electrical channels may be causing sudden cardiac arrests in young athletes that go unexplained \u2014 and that no one is testing for them.",
-          "pitch_angle": "Cardiologists from Italy and New York contend that autoimmunity is a systematically overlooked mechanism in unexplained sudden cardiac arrest among young adults, with autoantibodies capable of disrupting the ion channels that regulate heart rhythm. The argument calls for a rethinking of post-arrest workups that currently focus almost exclusively on genetic and structural causes."
-        },
-        {
-          "publication_type": "Prevention / Women's Health / General health",
-          "headline": "Could an Overactive Immune System Cause Sudden Cardiac Arrest in Young, Healthy People?",
-          "hook": "Researchers say autoimmune conditions \u2014 not just hidden genetic heart defects \u2014 may explain some of the devastating sudden cardiac arrests that strike young adults with no prior warning.",
-          "pitch_angle": "A perspective published in one of cardiology's top journals suggests that antibodies produced by the immune system may interfere with the heart's electrical system in ways that trigger fatal arrhythmias. The finding could be especially relevant for young women, who are disproportionately affected by autoimmune diseases."
-        }
-      ],
-      "run_date": "2026-09-24",
-      "category": "Cardiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42770219",
-      "headline": "Standard echocardiography may miss critical flow problems after aortic valve replacement, 4D imaging suggests",
-      "journal": "Circulation: Cardiovascular Interventions",
-      "pubdate": "2026 Sep 22",
-      "doi": "10.1161/CIRCINTERVENTIONS.126.017313",
-      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This review article proposes that 4-dimensional flow cardiac MRI offers a more complete picture of aortic blood flow after transcatheter aortic valve (TAVR) replacement than standard echocardiography, which cannot fully assess complex flow dynamics. The authors argue that abnormal aortic flow patterns can persist even when valve gradients look normal on echo, potentially limiting heart recovery. The piece calls for future research to determine whether restoring physiological flow improves clinical outcomes including left ventricular recovery and valve durability.",
-      "why_it_matters": "For the millions of patients who have undergone TAVR, conventional post-procedure monitoring may be missing important information about whether the replacement valve is truly restoring healthy blood flow.",
-      "caveats": "surrogate endpoints only, no clinical outcome data, review article (not original research)",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "High-prevalence procedure, novel imaging angle, but review only with no clinical endpoint data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Medscape Cardiology / MedPage Today",
-          "headline": "TAVR Success May Hinge on Flow, Not Just Gradient \u2014 And Echo Can't Tell the Difference",
-          "hook": "A patient's valve gradient can look perfectly normal on echocardiography while turbulent, non-physiological blood flow continues to stress the heart.",
-          "pitch_angle": "Emerging evidence suggests that 4D flow cardiac MRI can detect abnormal aortic flow patterns that persist after TAVR even when standard metrics appear normal. Whether correcting these flow signatures improves long-term outcomes \u2014 including left ventricular recovery and valve durability \u2014 remains an open question that could reshape how cardiologists evaluate procedural success."
-        }
-      ],
-      "run_date": "2026-09-24",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -288,93 +435,6 @@
       ],
       "run_date": "2026-09-24",
       "category": "Pulmonary Medicine",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42776134",
-      "headline": "A simple nutritional blood score predicts death risk after minimally invasive heart valve replacement",
-      "journal": "Brazilian Journal of Cardiovascular Surgery",
-      "pubdate": "2026 Sep 21",
-      "doi": "10.21470/1678-9741-2024-0300",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers studied 395 consecutive patients who underwent transcatheter aortic valve implantation (TAVI) at multiple Turkish centers, dividing them into low and high groups based on the HALP score \u2014 a composite measure of hemoglobin, albumin, lymphocyte count, and platelet levels that reflects nutritional status and inflammation. Patients with a low HALP score (below 3.4) faced significantly higher rates of major adverse cardiac events at one month and all-cause death within the first year. In multivariate analysis, a low HALP score was an independent predictor of first-year mortality, alongside chronic kidney disease.",
-      "why_it_matters": "A routine blood test panel already drawn before cardiac procedures may help identify TAVI patients at highest risk of dying in the first year \u2014 potentially enabling more targeted pre-procedure care.",
-      "caveats": "single-center (multiple Turkish centers, limited generalizability), observational design, surrogate endpoints only, short follow-up, no female-specific analysis reported",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Clinically relevant TAVI finding but observational, single-region, surrogate-heavy, limited lifestyle hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "Medscape Cardiology / MedPage Today",
-          "headline": "Pre-TAVI Nutritional Score Independently Predicts First-Year Mortality in New Study",
-          "hook": "A composite blood score reflecting malnutrition and inflammation may outperform conventional risk tools in flagging which TAVI patients won't survive their first year.",
-          "pitch_angle": "Among 395 TAVI patients, those with a HALP score below 3.4 faced significantly higher one-month complications and one-year all-cause mortality \u2014 suggesting that nutritional and inflammatory status, easily captured from routine labs, may add meaningful prognostic value beyond standard surgical risk calculators."
-        }
-      ],
-      "run_date": "2026-09-24",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42764110",
-      "headline": "A new heart device lead can sense blood pressure changes during dangerous arrhythmias in real time \u2014 a first in humans",
-      "journal": "Heart Rhythm",
-      "pubdate": "2026 Sep 20",
-      "doi": "10.1016/j.hrthm.2026.08.047",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a first-in-human feasibility study, five patients undergoing cardiac surgery or ventricular tachycardia ablation received a temporary substernal shock lead designed to simultaneously sense hemodynamics, record electrical signals, and pace the heart. The device successfully captured interpretable hemodynamic signals in all five patients, showing distinct patterns across sinus rhythm, atrial fibrillation, ventricular tachycardia, and ventricular fibrillation. All 147 recorded ventricular tachycardia episodes showed a clear drop in the hemodynamic index, which recovered after arrhythmia termination.",
-      "why_it_matters": "Defibrillators that can sense whether a dangerous heart rhythm is actually causing a drop in blood flow \u2014 rather than relying on electrical signals alone \u2014 could one day reduce inappropriate shocks and better distinguish life-threatening arrhythmias from benign ones.",
-      "caveats": "small sample (N<100), single-center, short follow-up, acute feasibility only \u2014 no chronic performance data",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Novel first-in-human device data; N=5 only, acute feasibility limits clinical significance.",
-      "pitch_angles": [
-        {
-          "publication_type": "Medscape Cardiology / STAT News",
-          "headline": "A New ICD Lead That Reads Blood Pressure in Real Time Just Passed Its First Human Test",
-          "hook": "For the first time in humans, a substernal defibrillator lead successfully detected beat-to-beat blood pressure changes during ventricular tachycardia and fibrillation \u2014 a step toward smarter ICDs that understand not just electrical chaos but its physical consequences.",
-          "pitch_angle": "Current implantable defibrillators rely almost entirely on electrical signals to decide when to shock, which contributes to inappropriate therapy; this proof-of-concept study in five patients showed a multifunctional substernal lead could distinguish dangerous from less dangerous arrhythmias by tracking hemodynamic impact in real time. Chronic performance and clinical validation remain to be established, but the findings suggest a potential path to physiology-guided extravascular ICD systems."
-        }
-      ],
-      "run_date": "2026-09-24",
-      "category": "Cardiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42763030",
-      "headline": "A faster, next-generation device that uses sound waves to crack calcium deposits in coronary arteries maintains low complication rates and slashes chest pain at one year",
-      "journal": "The American Journal of Cardiology",
-      "pubdate": "2026 Sep 19",
-      "doi": "10.1016/j.amjcard.2026.09.013",
-      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "The DISRUPT CAD Duo trial enrolled 145 patients with severely calcified coronary artery lesions at multiple US centers, treating them with a novel 2-Hz intravascular lithotripsy catheter designed to shorten procedure time compared to earlier devices. At one-year follow-up (97.9% completion), the overall major adverse cardiovascular event rate was 5.6%, with no cardiac deaths or stent thrombosis. The proportion of patients reporting no angina symptoms rose from 14.5% at baseline to 77.1% at one year.",
-      "why_it_matters": "Heavily calcified coronary arteries are notoriously hard to stent and carry high complication risks \u2014 this one-year data suggests a faster-firing version of an acoustic calcium-cracking tool keeps those risks low while dramatically reducing chest pain.",
-      "caveats": "single-arm study, no control group, industry funding [Shockwave Medical Inc], surrogate endpoints only, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Hard endpoints at one year; limited by single-arm design and industry funding.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "Next-Gen Lithotripsy Catheter Holds Up at One Year in Calcified Coronary Disease: DISRUPT CAD Duo",
-          "hook": "A faster-firing sound-wave device for cracking calcium in blocked coronary arteries kept major complication rates at 5.6% through one year \u2014 with no cardiac deaths or stent thrombosis.",
-          "pitch_angle": "The DISRUPT CAD Duo trial of 145 patients with severely calcified lesions found that a 2-Hz intravascular lithotripsy catheter maintained low MACE rates and dramatically reduced angina burden at 12 months, building on earlier short-term safety data. Industry funding by Shockwave Medical warrants scrutiny, but the one-year completion rate of 97.9% and absence of stent thrombosis add meaningful durability data to a procedure gaining traction in complex PCI."
-        },
-        {
-          "publication_type": "Everyday Health / Health.com",
-          "headline": "A Device That Uses Sound Waves to Treat Calcified Heart Arteries Shows Lasting Results at One Year",
-          "hook": "More than three-quarters of patients with heavily calcified coronary blockages reported no chest pain one year after being treated with a device that uses acoustic pulses to break up calcium.",
-          "pitch_angle": "The DISRUPT CAD Duo trial found that a next-generation intravascular lithotripsy catheter \u2014 which fires sound waves to soften calcium deposits before stenting \u2014 kept serious complication rates low and reduced angina in patients whose arteries were too calcified for standard stenting. The study had no comparison group and was funded by the device maker, so results should be interpreted cautiously, but the one-year data suggest the approach holds up over time."
-        }
-      ],
-      "run_date": "2026-09-24",
-      "category": "Cardiology",
       "chunk": "2/2",
       "status": "new"
     },
@@ -637,33 +697,6 @@
       "run_date": "2026-09-24",
       "category": "Pulmonary Medicine",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42481162",
-      "headline": "Cancer patients on blood thinners face a maze of unanswered questions even after a landmark clot trial \u2014 experts map out what's still unknown",
-      "journal": "European Heart Journal: Cardiovascular Pharmacotherapy",
-      "pubdate": "2026 Sep 22",
-      "doi": "10.1093/ehjcvp/pvag054",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This expert commentary reflects on the API-CAT trial, which evaluated extended anticoagulation with apixaban for cancer-associated venous thromboembolism (VTE), and outlines key clinical gaps that remain unresolved. The authors \u2014 clinicians from Italy and Canada \u2014 highlight ongoing uncertainties around optimal anticoagulation duration, bleeding risk in specific cancer subtypes, and management of patients with low-risk clots or those transitioning off therapy. No new patient data are presented; this is an opinion and perspective piece.",
-      "why_it_matters": "Cancer-associated blood clots are a leading cause of death in cancer patients, and knowing how long to safely continue anticoagulation therapy remains one of oncology's most consequential and contested questions.",
-      "caveats": "observational design, expert opinion/commentary only, no new clinical outcome data, industry conflict of interest (one author: Werfen, Leopharma)",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Clinically relevant clot-cancer topic but expert commentary only; no new data, limited pitch hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today / STAT News",
-          "headline": "A Major Blood Clot Trial in Cancer Patients Answered Some Questions \u2014 And Raised a Lot More",
-          "hook": "Even after the API-CAT trial showed extended blood thinners reduce recurrent clots in cancer patients, experts say the field is still wrestling with who should keep taking them, for how long, and when the bleeding risk outweighs the benefit.",
-          "pitch_angle": "Two anticoagulation specialists argue that key subgroups \u2014 including patients with low-risk clots, high-risk cancer types, and those stopping therapy \u2014 remain poorly defined by current evidence. For clinicians managing cancer patients on anticoagulants, the commentary serves as a roadmap of the most pressing unanswered questions in the field."
-        }
-      ],
-      "run_date": "2026-09-23",
-      "category": "Cardiology",
-      "chunk": "2/2",
       "status": "new"
     },
     {
