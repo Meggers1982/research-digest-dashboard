@@ -1,60 +1,495 @@
 {
-  "last_updated": "2026-10-01T17:14:45.595197+00:00",
-  "total_studies": 446,
-  "new_this_run": 8,
+  "last_updated": "2026-10-02T16:28:04.925905+00:00",
+  "total_studies": 447,
+  "new_this_run": 1,
   "studies": [
     {
       "pmid": "41802160",
-      "headline": "Aviation safety logic could transform how doctors monitor patients in heart failure crisis",
+      "headline": "Aviation's flight-safety logic is being borrowed to save heart-failure patients in cardiogenic shock",
       "journal": "European Heart Journal: Acute Cardiovascular Care",
       "pubdate": "2026 Sep 30",
       "doi": "10.1093/ehjacc/zuag031",
       "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers from Erasmus MC and Copenhagen University Hospital proposed a novel monitoring framework for cardiogenic shock patients, borrowing concepts from aviation safety systems. The framework \u2014 called the 'haemodynamic envelope' \u2014 would continuously compute personalized, time-specific safety thresholds across nine interrelated physiological dimensions rather than applying one-size-fits-all cut-off values. The concept paper argues this dynamic approach could better match the complexity of modern mechanical circulatory support and reduce the over-50% mortality that persists in severe cardiogenic shock.",
-      "why_it_matters": "For older adults \u2014 who face the highest risk of cardiogenic shock \u2014 smarter, personalized ICU monitoring frameworks could one day translate into meaningfully better survival odds.",
-      "caveats": "observational design, single-center, small sample (N<100), preprint \u2014 this is a concept/framework paper with no patient data reported",
+      "summary": "Researchers from Erasmus MC and Copenhagen University Hospital propose a new monitoring framework for cardiogenic shock \u2014 one of cardiology's deadliest conditions, with mortality still above 50% \u2014 modeled on aviation safety systems. Rather than applying one-size-fits-all alarm thresholds, the 'haemodynamic envelope' continuously computes patient-specific safe ranges across nine interrelated physiological dimensions. The framework is a conceptual proposal, not yet a clinical trial.",
+      "why_it_matters": "Personalized, real-time safety monitoring borrowed from aerospace engineering could one day help more critically ill heart patients survive a condition that still kills more than half of those affected.",
+      "caveats": "observational design, small sample (N<100), single-center, industry funding [Getinge, Abbott, AOP Health, J&J Medtech, Abiomed, Boston Scientific, Magenta \u2014 advisory/speaker relationships disclosed]",
       "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Concept paper, no patient data, highly clinical/ICU focus; limited lifestyle hook.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Novel cardiovascular concept; no human trial data yet; highly clinical framing.",
       "pitch_angles": [
         {
-          "publication_type": "General health",
-          "headline": "Could Aviation Safety Tech Help Save More Heart Failure Patients?",
-          "hook": "More than half of patients in severe cardiac shock still die \u2014 researchers think borrowing from cockpit safety systems could change that.",
-          "pitch_angle": "A European research team proposes adapting the same dynamic safety-envelope logic used in flight systems to personalize ICU monitoring for cardiogenic shock patients. The concept, while still theoretical, suggests that moving beyond rigid, one-size-fits-all vital-sign thresholds could finally close the gap on a stubbornly high mortality rate."
+          "publication_type": "Everyday Health / Health.com",
+          "headline": "Doctors Are Using Airplane Safety Tech to Keep Heart Failure Patients Alive",
+          "hook": "The same logic that transformed aviation safety is now being tested to save people in the most dangerous phase of heart failure.",
+          "pitch_angle": "Cardiogenic shock kills more than half the people it strikes, and a new framework suggests that borrowing real-time, personalized monitoring principles from flight safety systems could change that \u2014 moving medicine away from blunt, one-size-fits-all alarm thresholds toward care tailored to each patient's physiology."
         }
       ],
-      "run_date": "2026-10-01",
+      "run_date": "2026-10-02",
       "category": "Cardiology",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42817116",
-      "headline": "Two little-known blood markers may flag heart failure risk earlier than standard tests",
+      "headline": "Two inflammation markers in the blood may reveal who's at highest risk of worsening heart failure",
       "journal": "Current Cardiology Reviews",
       "pubdate": "2026 Sep 30",
       "doi": "10.2174/011573403X522286260923132142",
       "groundbreaking": "Relevant aging or longevity finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a narrative review of the literature examining two inflammatory and endothelial biomarkers \u2014 suPAR and sVCAM-1 \u2014 and their potential role in diagnosing and monitoring heart failure, including the difficult-to-detect heart failure with preserved ejection fraction (HFpEF). The review found that elevated levels of both markers are associated with worse cardiac outcomes, increased hospitalizations, and higher mortality, and that they capture disease mechanisms that standard natriuretic peptide tests miss. Authors concluded that incorporating these biomarkers into multi-marker testing strategies may improve personalized risk assessment for heart failure patients.",
-      "why_it_matters": "Heart failure with preserved ejection fraction is notoriously hard to detect early, and these emerging biomarkers could eventually help clinicians catch it sooner in older adults \u2014 the group most affected.",
-      "caveats": "observational design, narrative review (not systematic meta-analysis), single-center",
+      "summary": "Researchers conducted a narrative review of published literature on two blood biomarkers \u2014 suPAR (soluble urokinase plasminogen activator receptor) and sVCAM-1 (soluble vascular cell adhesion molecule-1) \u2014 and their association with heart failure progression. The review synthesized evidence across multiple study designs and heart failure phenotypes, with particular attention to heart failure with preserved ejection fraction (HFpEF), a type more common in older women. Elevated levels of both markers were associated with worse outcomes including rehospitalization and mortality, and may offer prognostic information beyond standard tests.",
+      "why_it_matters": "These biomarkers could eventually help doctors identify heart failure patients \u2014 including those with a harder-to-diagnose form common in older women \u2014 who need more aggressive monitoring or treatment.",
+      "caveats": "observational design, narrative review \u2014 no primary data, heterogeneous study designs included",
       "fact_check_note": "",
       "relevance_score": 5,
-      "relevance_score_reason": "Cardiovascular relevance for older adults, but narrative review limits strength; no new patient data.",
+      "relevance_score_reason": "Heart failure relevance for aging adults; narrative review limits score.",
       "pitch_angles": [
         {
-          "publication_type": "Everyday Health / Health.com / Verywell Health",
-          "headline": "Your Doctor May Soon Check These Two Blood Markers to Catch Heart Failure Earlier",
-          "hook": "Standard heart-failure blood tests miss a key form of the disease \u2014 two emerging markers may finally close that diagnostic gap.",
-          "pitch_angle": "A new review finds that two inflammation-related blood proteins, suPAR and sVCAM-1, are associated with worse heart failure outcomes and may detect disease activity that conventional tests overlook, especially in a form of heart failure \u2014 HFpEF \u2014 that disproportionately affects older women. Researchers suggest these markers could one day be added to routine cardiac monitoring to help personalize treatment."
+          "publication_type": "Everyday Health",
+          "headline": "Two Blood Markers Could Predict Who's Most at Risk From Heart Failure",
+          "hook": "A pair of inflammation-linked proteins in the blood may flag heart failure patients headed for rehospitalization \u2014 before symptoms worsen.",
+          "pitch_angle": "A new review suggests two blood biomarkers tied to inflammation and blood vessel damage could help identify high-risk heart failure patients, including those with a form of the disease that's notoriously hard to detect. The finding is particularly relevant for older women, who are disproportionately affected by this harder-to-diagnose type."
         }
       ],
-      "run_date": "2026-10-01",
+      "run_date": "2026-10-02",
       "category": "Cardiology",
       "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42806816",
+      "headline": "Continuous glucose monitors may catch Type 1 diabetes progression months before diagnosis \u2014 even in people who don't yet know they're at risk",
+      "journal": "Diabetes Technology & Therapeutics",
+      "pubdate": "2026 Sep 29",
+      "doi": "10.1177/15209156261492040",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed CGM data from 27 autoantibody-positive first-degree relatives of people with Type 1 diabetes who had early blood sugar irregularities, tracking whether glucose patterns could predict progression to clinical T1D. Participants had a median age of 16.8 years, and 9 of 27 progressed to Stage 3 T1D within a median of 163 days. A combined CGM metric model achieved 100% sensitivity and 86% specificity for identifying progressors, suggesting CGM patterns \u2014 especially overnight glucose spikes \u2014 may flag imminent T1D onset.",
+      "why_it_matters": "For families with a history of Type 1 diabetes, this early evidence suggests wearable glucose monitors might one day help identify who is on the verge of developing the disease \u2014 potentially opening a window for earlier intervention.",
+      "caveats": "small sample (N<100), observational design, single-center, sample skews young (median age 16.8 years), secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Highly specific T1D prediction tool; very small, young sample limits aging-audience relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / Verywell Health",
+          "headline": "A Wearable Glucose Monitor May Predict Type 1 Diabetes Before Symptoms Strike",
+          "hook": "A small but intriguing study found that overnight blood sugar patterns on a CGM device predicted Type 1 diabetes onset with striking accuracy \u2014 months before diagnosis.",
+          "pitch_angle": "Researchers found that combining multiple CGM glucose metrics identified at-risk relatives of T1D patients with 100% sensitivity; while the sample is tiny and skews young, it raises the possibility that consumer-level CGM devices could one day serve as an early-warning tool for families with T1D history."
+        }
+      ],
+      "run_date": "2026-10-02",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42790802",
+      "headline": "More muscle mass may protect your spine from degenerative disease \u2014 even if you're not strong",
+      "journal": "Bone",
+      "pubdate": "2026 Sep 25",
+      "doi": "10.1016/j.bone.2026.118113",
+      "groundbreaking": "Counterintuitive finding / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using UK Biobank data from nearly 500,000 participants, researchers examined whether muscle mass and grip strength were associated with spinal degenerative diseases including lumbar disc problems and spinal stenosis. Mendelian randomization analyses found that greater whole-body and appendicular lean mass had a protective causal association with lumbar slipped discs and spinal stenosis \u2014 but grip strength alone did not show a significant causal effect. The finding suggests it is muscle mass, not muscular strength, that may be the more important systemic factor in protecting the spine from degenerative conditions.",
+      "why_it_matters": "For older adults, building and preserving muscle mass \u2014 not just grip strength \u2014 may matter for keeping the spine healthy as we age.",
+      "caveats": "observational design, secondary analysis, study population primarily UK-based",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Large cohort, aging-relevant finding, counterintuitive muscle mass vs. strength distinction, clear wellness hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "It's Not How Hard You Grip \u2014 It's How Much Muscle You Have That Protects Your Spine",
+          "hook": "A study of nearly half a million people found that muscle mass \u2014 not grip strength \u2014 may be what keeps your spine from breaking down with age.",
+          "pitch_angle": "Researchers found that people with greater lean muscle mass had a lower risk of lumbar disc problems and spinal stenosis, but grip strength alone didn't show the same protective effect. For older adults already worried about back pain, this reframes the conversation from 'get stronger' to 'build and keep muscle.'"
+        },
+        {
+          "publication_type": "Prevention / Women's Health",
+          "headline": "Want to Protect Your Back as You Age? Science Says Focus on Muscle Mass",
+          "hook": "New large-scale data suggest that how much muscle you carry \u2014 not how strong your grip is \u2014 may be the key factor in preventing spinal degeneration.",
+          "pitch_angle": "A Mendelian randomization study of UK Biobank participants found that lean muscle mass was causally associated with lower rates of lumbar disc disease and spinal stenosis, suggesting muscle-building exercise (not just grip or strength training) deserves a place in spine-health conversations."
+        }
+      ],
+      "run_date": "2026-10-02",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42821017",
+      "headline": "Even in cultures where living with adult children is the norm, older adults say they'd rather not \u2014 to avoid being a burden",
+      "journal": "Journal of Cross-Cultural Gerontology",
+      "pubdate": "2026 Oct 1",
+      "doi": "10.1007/s10823-026-09602-y",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers interviewed 20 older Indonesian adults (aged 60\u201378) living in multigenerational households using a vignette-based qualitative design to explore their actual preferences about co-residence. Despite all participants currently living with an adult child, 13 of 20 expressed a preference against prioritizing co-residence, primarily to avoid burdening their children and preserve independence. The study suggests that normative multigenerational living arrangements may not reflect older adults' genuine preferences even in strongly collectivist cultures.",
+      "why_it_matters": "The near-universal desire among older adults not to become a burden \u2014 even in cultures that celebrate family co-residence \u2014 suggests independence and autonomy are core aging concerns across very different cultural contexts.",
+      "caveats": "small sample (N<100), qualitative design, single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Counterintuitive aging finding; very small qualitative sample, Indonesia-specific context limits US relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "Next Avenue / Sixty and Me",
+          "headline": "Even in Cultures That Expect It, Older Adults Don't Want to Move In With Their Kids",
+          "hook": "In Indonesia \u2014 where multigenerational living is considered the norm \u2014 most older adults in a new study said they'd actually prefer not to live with their adult children.",
+          "pitch_angle": "A qualitative study found that despite all participants already living in multigenerational homes, the majority expressed reservations about co-residence, driven overwhelmingly by the desire not to be a burden. The finding suggests that the wish to preserve independence and avoid dependency on children may be a near-universal late-life concern that crosses cultural boundaries."
+        }
+      ],
+      "run_date": "2026-10-02",
+      "category": "Seniors & Aging",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42664615",
+      "headline": "New genetic clues may explain why some women enter early menopause with no known cause",
+      "journal": "Maturitas",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.maturitas.2026.109093",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers stimulated human ovarian granulosa cells with a protein called BMP15 and mapped which genes it activates, then sequenced those genes in 64 women who experienced early-onset primary ovarian insufficiency (POI). The study identified six novel rare genetic variants in five genes \u2014 including SMAD6 and ID1 \u2014 in 14% of women whose POI had previously been unexplained. The findings suggest that disruptions downstream of the BMP15 signaling pathway may account for a meaningful share of mystery cases of premature ovarian failure.",
+      "why_it_matters": "Understanding the genetic roots of early menopause could eventually help women get answers sooner and inform future fertility or hormonal management strategies.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Relevant to women's aging but small N, no lifestyle hook, highly mechanistic.",
+      "pitch_angles": [
+        {
+          "publication_type": "Women's Health / Prevention",
+          "headline": "Why Some Women Hit Menopause Decades Early \u2014 Scientists Just Found New Genetic Clues",
+          "hook": "For women who enter early menopause with no explanation, new research suggests hidden genetic variants in ovarian cells may finally provide answers.",
+          "pitch_angle": "A new study identified novel genetic variants in ovarian cells that may explain up to 14% of unexplained early-onset menopause cases, potentially opening a path toward earlier diagnosis for women who currently get no answers."
+        }
+      ],
+      "run_date": "2026-10-02",
+      "category": "Geriatrics",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42570705",
+      "headline": "Aging itself may be quietly rewiring brain immune cells in ways that set the stage for Alzheimer's and Parkinson's",
+      "journal": "Ageing Research Reviews",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.arr.2026.103291",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This comprehensive review synthesizes evidence on how metabolic changes in brain immune cells \u2014 including microglia and astrocytes \u2014 contribute to Alzheimer's disease, Parkinson's disease, multiple sclerosis, and stroke. The authors argue that aging itself is an active factor that alters how these cells handle energy, fats, and oxidative stress, creating a permissive environment for neurological disease. The review also critically evaluates therapeutic strategies targeting these metabolic pathways, noting significant translational challenges.",
+      "why_it_matters": "The finding that normal aging primes brain immune cells for dysfunction suggests that metabolic health in midlife may have direct relevance to long-term neurological resilience.",
+      "caveats": "observational design",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Broad cognitive aging relevance, but review article with no direct human study data.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Everyday Health",
+          "headline": "Your Brain's Immune Cells Change With Age \u2014 And That May Be Why Alzheimer's Risk Rises",
+          "hook": "A sweeping new review suggests that aging itself rewires the brain's immune system in ways that make it vulnerable to Alzheimer's and Parkinson's \u2014 regardless of genetics.",
+          "pitch_angle": "Researchers find that normal aging disrupts how brain immune cells manage energy and inflammation, potentially creating the conditions for neurodegenerative disease \u2014 a finding that points to metabolic health as a target for brain protection across the lifespan."
+        }
+      ],
+      "run_date": "2026-10-02",
+      "category": "Geriatrics",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42476451",
+      "headline": "Vitamin D Supplements May Only Fight Frailty in People Who Are Actually Deficient \u2014 Not in Everyone",
+      "journal": "Metabolism: Clinical and Experimental",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.metabol.2026.156697",
+      "groundbreaking": "Counterintuitive finding / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This narrative review integrates clinical trial data, epidemiological evidence, and mechanistic research on vitamin D's role in frailty among older adults. Authors synthesized findings from randomized controlled trials and observational cohort studies examining muscle loss, bone fragility, immune function, and cognitive decline. Despite strong biological plausibility \u2014 vitamin D receptor signaling governs muscle maintenance, immune regulation, and mitochondrial function \u2014 RCTs have largely shown neutral results in community-dwelling adults with adequate vitamin D levels, and high-dose intermittent regimens were associated with increased falls and fractures.",
+      "why_it_matters": "The finding suggests that blanket vitamin D supplementation may not protect older adults from frailty unless they are genuinely deficient, and that high-dose bolus regimens may actually raise fall risk \u2014 a meaningful counterpoint to widespread supplement use.",
+      "caveats": "observational design, narrative review (not systematic meta-analysis), heterogeneous frailty definitions across cited studies, short follow-up in many cited RCTs",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive supplement finding, strong aging/frailty relevance, solid mechanistic and clinical synthesis.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Prevention",
+          "headline": "Taking Vitamin D to Stay Strong as You Age? It May Only Help If You're Actually Low",
+          "hook": "A sweeping review of the evidence finds that vitamin D supplements don't appear to reduce frailty risk in older adults who already have adequate levels \u2014 and high doses may raise fall risk.",
+          "pitch_angle": "Researchers reviewed decades of clinical trials and found that vitamin D's well-established role in muscle and immune health doesn't translate into benefit from supplements unless a person is genuinely deficient. For the millions of older adults taking vitamin D as a longevity hedge, the science suggests the strategy may be less universally effective \u2014 and potentially risky at high doses \u2014 than commonly believed."
+        },
+        {
+          "publication_type": "Verywell Health / Everyday Health",
+          "headline": "High-Dose Vitamin D Supplements May Increase Fall Risk in Older Adults, Review Finds",
+          "hook": "Despite vitamin D's reputation as a bone and muscle protector, a new review finds that intermittent high-dose regimens are linked to more falls and fractures \u2014 not fewer.",
+          "pitch_angle": "A narrative review in Metabolism finds that while low vitamin D is clearly associated with frailty and muscle loss, randomized trials show little benefit from supplementation in people with adequate levels \u2014 and some high-dose protocols appear to backfire. The findings suggest that 'more is more' doesn't apply here, and that testing levels before supplementing may be the smarter approach."
+        }
+      ],
+      "run_date": "2026-10-02",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42424747",
+      "headline": "A smartphone game platform may be able to detect early cognitive decline \u2014 and it tracks changes over just three months",
+      "journal": "Journal of Prevention of Alzheimer's Disease",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.tjpad.2026.100642",
+      "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Massachusetts General Hospital tested a digital game platform called MIND GamePack with 60 participants \u2014 including people with no cognitive complaints as well as those with subjective complaints, mild cognitive impairment, or mild dementia \u2014 over 3 to 6 months. The platform showed high compliance, strong test-retest reliability, and moderate-to-strong correlations with validated neuropsychological tests including the MoCA and RBANS. Game features successfully differentiated cognitively normal from cognitively impaired participants across nearly all domains, and cognitively healthy users showed measurable improvement in game performance over three months while impaired users did not.",
+      "why_it_matters": "A engaging, low-burden digital tool that can distinguish cognitive health from early decline \u2014 and track changes over months at home \u2014 could make early Alzheimer's screening far more accessible for older adults.",
+      "caveats": "small sample (N<100), short follow-up, industry funding [AbbVie]",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Cognitive aging hook; small N and industry funding limit confidence; feasibility study only.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Everyday Health",
+          "headline": "Could a Smartphone Game Detect Early Memory Loss Before You Notice It?",
+          "hook": "A new digital game platform built for cognitive tracking was able to distinguish people with early memory impairment from healthy adults \u2014 and spot changes in just three months of play.",
+          "pitch_angle": "The MIND GamePack, tested at Massachusetts General Hospital with 60 adults ranging from cognitively healthy to mildly demented, showed strong agreement with gold-standard neuropsychological tests and high user compliance. For older adults worried about memory changes, a low-barrier at-home tool that tracks cognition over time \u2014 rather than waiting for an annual doctor's visit \u2014 could represent an important early warning system."
+        },
+        {
+          "publication_type": "Prevention / Women's Health",
+          "headline": "Scientists Are Turning Smartphone Games Into Early Alzheimer's Screening Tools",
+          "hook": "Researchers found that how people play a simple digital memory game can reveal signs of cognitive decline that standard office tests might miss until it's later.",
+          "pitch_angle": "The MIND GamePack platform tracked subtle differences in how cognitively healthy versus impaired adults played digital games over three months, correlating closely with validated clinical memory tests. The early evidence suggests casual-style games could one day serve as a continuous, accessible window into brain health for people at risk of Alzheimer's."
+        }
+      ],
+      "run_date": "2026-10-02",
+      "category": "Seniors & Aging",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42419629",
+      "headline": "Researchers Find a Protein Pathway That May Drive Cortisol Overproduction in Adrenal Tumors",
+      "journal": "Metabolism: Clinical and Experimental",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.metabol.2026.156691",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted comprehensive proteomic profiling of adrenal tissue samples from 29 patients: 9 with Cushing's syndrome (CS), 10 with subclinical Cushing's syndrome (SCS), and 10 with non-functioning adenomas (NFAs). Analysis revealed a progressive gradient of cholesterol metabolic dysregulation from NFAs to SCS to CS, mirroring disease severity. A four-protein panel was identified as a candidate diagnostic marker, and downregulation of the protein CAB39L was uncovered as a potential driver of pathological cortisol production.",
+      "why_it_matters": "Identifying the molecular mechanisms behind cortisol-producing adrenal tumors could eventually improve diagnosis of subclinical hypercortisolism \u2014 a condition associated with metabolic disease, cardiovascular risk, and accelerated aging.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Mechanistic/proteomic study, very small N, limited direct lifestyle or wellness hook for lay audiences.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "Scientists Are Pinpointing Why Some Adrenal Tumors Overproduce Cortisol \u2014 Even Silently",
+          "hook": "A new proteomic study finds that cholesterol metabolism goes haywire in cortisol-producing adrenal tumors \u2014 and a single protein may be a key culprit.",
+          "pitch_angle": "Researchers identified a molecular signature in adrenal tumors that correlates with how much cortisol they produce, including in patients who don't yet have obvious symptoms. Early findings suggest a protein called CAB39L may play a central role, pointing toward potential future diagnostic or therapeutic targets for a condition that quietly raises metabolic and cardiovascular risk."
+        }
+      ],
+      "run_date": "2026-10-02",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42331280",
+      "headline": "A laser-assisted device may make heart bypass surgery less invasive \u2014 first prospective trial shows early promise",
+      "journal": "The Journal of Thoracic and Cardiovascular Surgery",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.jtcvs.2026.05.028",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In the first prospective safety trial of the ELANA excimer laser anastomosis device, 71 patients (average age 71, 89% male) undergoing coronary artery bypass surgery had their main graft connection made using laser assistance instead of hand-sewing. At one year, device-related major adverse cardiac events occurred in 2.9% of patients, and 92.5% of grafts remained open at six months, though nearly half showed some flow irregularity. Researchers say results are promising but longer follow-up and comparative trials are needed.",
+      "why_it_matters": "A device that removes the need for hand-sewn bypass connections could eventually make heart surgery less invasive and more accessible \u2014 relevant to the large number of older adults who need coronary bypass but may not tolerate complex surgery.",
+      "caveats": "small sample (N<100), single-center, single-arm, short follow-up, industry funding [AMT Medical \u2014 three authors are consultants or employees]",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Human study, adults 50+, cardiac health; limited by single-arm, industry ties, small N.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Everyday Health",
+          "headline": "A Laser Could Make Heart Bypass Surgery Less Risky for Older Adults",
+          "hook": "A new device that replaces hand-sewn bypass connections with laser precision showed a 2.9% major complication rate in adults averaging age 71.",
+          "pitch_angle": "Coronary bypass surgery is a lifeline for hundreds of thousands of older Americans each year, but its complexity can limit who qualifies. A first-of-its-kind trial suggests a laser-assisted approach may maintain safety while opening the door to less invasive procedures."
+        }
+      ],
+      "run_date": "2026-10-02",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42648856",
+      "headline": "Cardiologists now say the first heart valve surgery should be planned with the second one already in mind",
+      "journal": "Interventional Cardiology Clinics",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.iccl.2026.05.001",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Stanford cardiologists propose a longitudinal decision-making framework for aortic valve replacement (AVR), arguing that as more patients outlive their first replacement, surgeons must plan the initial procedure with future interventions in mind. The review integrates factors like patient age, expected survival, valve durability, and anatomical access for future procedures into a unified treatment philosophy. The framework shifts AVR from a single-event decision to a lifetime management strategy \u2014 especially relevant as the population of older adults receiving these procedures grows.",
+      "why_it_matters": "As people live longer after heart valve surgery, the choice of first replacement may shape what treatment options remain available decades later \u2014 making shared decision-making between patients and doctors more important than ever.",
+      "caveats": "observational design, narrative review \u2014 no primary data",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Strong longevity hook for aging adults; review limits score; Stanford authorship adds credibility.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP",
+          "headline": "Why Your First Heart Valve Surgery Should Already Be Planning for Your Second",
+          "hook": "More older adults are outliving their heart valve replacements \u2014 and cardiologists say that changes everything about how the first surgery should be planned.",
+          "pitch_angle": "A Stanford-led review argues that aortic valve replacement decisions can no longer be made in isolation, because growing numbers of patients will need a second procedure years later. The framework they propose asks surgeons to weigh age, expected lifespan, and future treatment options before making the first cut \u2014 a shift that puts long-term patient survival at the center of planning."
+        },
+        {
+          "publication_type": "Everyday Health",
+          "headline": "Heart Valve Surgery Is No Longer a One-Time Decision",
+          "hook": "Cardiologists at Stanford say the boom in longer-living heart patients means valve surgery must now be planned as the first step in a lifelong strategy.",
+          "pitch_angle": "As Americans live longer, many are surviving long enough to need a second or even third heart valve replacement \u2014 a reality that's prompting a rethink of how the initial procedure is chosen. This new framework from Stanford suggests that factors like valve durability and future surgical access should be baked into the very first conversation."
+        }
+      ],
+      "run_date": "2026-10-02",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "40780565",
+      "headline": "AI and virtual reality are changing how surgeons plan and perform heart valve replacements",
+      "journal": "Trends in Cardiovascular Medicine",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.tcm.2025.08.002",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This review summarizes how artificial intelligence and extended reality (augmented, virtual, and mixed reality) technologies are being integrated into transcatheter aortic valve replacement (TAVR), a common procedure for older adults with severe aortic stenosis. The authors, based at a French cardiovascular institute, synthesize current applications including AI-assisted imaging analysis, risk prediction, and real-time procedural guidance using immersive visualization tools. Key finding: these combined technologies may reduce observer variability and improve patient-specific planning, though standardized protocols and regulatory frameworks are still needed.",
+      "why_it_matters": "Aortic stenosis is one of the most common heart valve diseases in adults over 65, and emerging AI-assisted tools suggest future procedures could be more precisely tailored to individual anatomy.",
+      "caveats": "observational design, single-center, narrative review \u2014 no primary data",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Aging-relevant procedure but review/no primary data; clinical rather than lifestyle hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP",
+          "headline": "The High-Tech Future of Heart Valve Surgery for Older Adults",
+          "hook": "Virtual reality and AI are now helping surgeons plan the most common heart valve procedure for people over 65 \u2014 before the first incision.",
+          "pitch_angle": "AI and immersive visualization tools are being applied to TAVR, a minimally invasive heart valve procedure increasingly common in older adults, potentially improving safety and precision. While still emerging, these tools represent a shift toward more personalized cardiac care for aging patients."
+        }
+      ],
+      "run_date": "2026-10-02",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42813471",
+      "headline": "New Fathers' Brains Rewire to Treat Others' Fear as a Reward Signal \u2014 Especially After Baby Arrives",
+      "journal": "Journal of Neuroendocrinology",
+      "pubdate": "2026 Oct",
+      "doi": "10.1111/jne.70276",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In the first longitudinal fMRI study of fear processing across the transition to fatherhood, researchers scanned 38 first-time expectant fathers before birth and 34 of them again approximately 8 months postpartum while they viewed fearful facial expressions. Before birth, fathers showed heightened activation in fear-processing regions including the amygdala, insula, and periaqueductal gray; after birth, the reward-related dorsal striatum was additionally recruited in response to fearful faces. Higher dorsal striatum activation to fearful faces postpartum was associated with fewer father-infant bonding difficulties.",
+      "why_it_matters": "The finding suggests that fatherhood triggers a neurobiological shift that links caregiving motivation to social threat detection \u2014 a discovery that could inform support strategies for new fathers struggling with bonding.",
+      "caveats": "small sample (N<100), single-center, short follow-up, sample skews young (mean age ~32-33)",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Fascinating neuroscience but young sample, no aging hook, limited fit for healthy aging outlets.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "Becoming a Dad Rewires the Brain to Find Others' Distress Motivating \u2014 Not Just Alarming",
+          "hook": "Brain scans of new fathers show that after a baby arrives, seeing a fearful face activates the brain's reward center \u2014 and the stronger that response, the better the dad bonds with his child.",
+          "pitch_angle": "The first longitudinal fMRI study of new fathers finds that the transition to parenthood appears to shift how men's brains process fear in others \u2014 recruiting reward circuitry alongside fear-processing regions after the birth. The discovery offers a neurobiological explanation for why new fathers often feel driven to respond to distress, and why supporting that instinct may strengthen parent-infant bonds."
+        }
+      ],
+      "run_date": "2026-10-02",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42710386",
+      "headline": "Diet may help break a vicious cycle of liver fat and iron overload driving fatty liver disease",
+      "journal": "Nutrition Research",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.nutres.2026.08.002",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This narrative review from researchers at Heilongjiang University of Chinese Medicine synthesizes emerging evidence on how oxidative stress and iron dysmetabolism interact to drive metabolic dysfunction-associated fatty liver disease (MAFLD). The authors identify dietary patterns, bioactive compounds, nutrients, and probiotics as potentially capable of disrupting this harmful cycle. No original human trial data are included; the review calls for personalized, precision dietary interventions and stronger clinical trials.",
+      "why_it_matters": "MAFLD affects an estimated one in four adults globally and is closely tied to metabolic aging, making dietary strategies to interrupt its progression highly relevant to older adults managing weight and liver health.",
+      "caveats": "observational design, single-center, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Review only, no original human data; metabolic health hook relevant to aging.",
+      "pitch_angles": [
+        {
+          "publication_type": "EatingWell / Everyday Health",
+          "headline": "Your Diet Could Help Break the Vicious Cycle Behind Fatty Liver Disease",
+          "hook": "A new review finds that what you eat may interrupt a harmful loop of liver fat buildup and iron overload that drives one of the most common liver conditions in adults.",
+          "pitch_angle": "Researchers have identified an 'oxidative stress\u2013iron dysmetabolism axis' as a key driver of MAFLD \u2014 and found early evidence that specific dietary patterns, probiotics, and bioactive compounds may help break it. With MAFLD affecting roughly one in four adults, this gives food-focused readers a concrete reason to pay attention to both their eating patterns and their iron intake."
+        }
+      ],
+      "run_date": "2026-10-02",
+      "category": "Nutritional Sciences",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42782071",
+      "headline": "Alcohol may appear to slow aging in some organs while speeding it up in others \u2014 and scientists say that's a measurement problem, not good news",
+      "journal": "Aging Cell",
+      "pubdate": "2026 Oct",
+      "doi": "10.1111/acel.70743",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A perspective paper from a researcher at the Institute for Molecular Medicine Finland examines why new organ-specific proteomic aging clocks produce contradictory findings on alcohol \u2014 with some suggesting slower aging in certain organs even as alcohol accelerates aging in others. The author argues these results likely reflect methodological differences in clock construction, alcohol measurement, and confounding control rather than genuine protective effects. The paper warns that taking these findings at face value could understate the well-established health harms of alcohol consumption.",
+      "why_it_matters": "As biological aging clocks gain media attention, this analysis cautions that promising-sounding data linking moderate drinking to 'slower organ aging' may be a measurement artifact rather than a reason to drink.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive alcohol-aging finding; perspective piece limits study quality score.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Why 'Alcohol Slows Aging' Headlines Keep Appearing \u2014 And Why Scientists Say Don't Believe Them",
+          "hook": "New aging-clock research seems to show alcohol slowing biological aging in some organs \u2014 but a Finnish scientist says that's almost certainly a flaw in how the clocks are built, not a green light to drink.",
+          "pitch_angle": "Organ-specific biological aging clocks are producing conflicting results on alcohol, with some suggesting protection and others showing harm \u2014 a contradiction researchers say stems from methodological problems, not biology. For older adults navigating confusing drink-or-don't messaging, this analysis offers a clear-eyed explanation of why observational data on alcohol and aging is notoriously hard to trust."
+        },
+        {
+          "publication_type": "Prevention / Health.com",
+          "headline": "New 'Biological Clock' Research Says Alcohol Slows Aging \u2014 Here's Why Scientists Are Skeptical",
+          "hook": "Studies using cutting-edge protein-based aging clocks are generating headlines suggesting moderate drinking is good for some organs \u2014 but a new analysis finds the math may simply be wrong.",
+          "pitch_angle": "A researcher specializing in biological aging clocks dissects why seemingly positive alcohol-and-aging findings keep emerging from observational studies, pointing to flaws in how clocks are designed and how drinking is measured. The takeaway: conflicting organ-aging results from alcohol studies reflect a data problem, not evidence that drinking protects health."
+        }
+      ],
+      "run_date": "2026-10-02",
+      "category": "Seniors & Aging",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42521527",
+      "headline": "Advanced Heart Failure May Trigger a Hidden Wasting Process \u2014 and Researchers Just Found New Biological Clues to Why",
+      "journal": "Heart, Lung & Circulation",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.hlc.2026.03.064",
+      "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used targeted protein analysis (proteomics) to compare blood samples from advanced heart failure patients with and without cardiac cachexia \u2014 a severe wasting condition linked to poor survival. The study identified four previously unrecognized proteins, including interleukin-27, interleukin-4, VEGF-D, and BMP-6, as candidate biomarkers for this condition. All four proteins showed meaningful ability to distinguish cachexia patients from those without it, suggesting new biological pathways that could one day lead to better diagnostics or treatments.",
+      "why_it_matters": "For older adults living with heart failure, understanding why some people experience severe muscle and weight loss \u2014 and identifying blood markers that signal this risk early \u2014 could someday help clinicians intervene sooner to preserve strength and quality of life.",
+      "caveats": "small sample (N<100), observational design, single-center, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Human study, heart failure aging relevance, but small N and early-stage biomarker work.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / Verywell Health",
+          "headline": "Heart Failure Can Cause Dangerous Weight Loss \u2014 Scientists Just Found New Clues to Why",
+          "hook": "A hidden wasting condition affects many people with advanced heart failure, and researchers have just identified four new blood proteins that may help explain why it happens.",
+          "pitch_angle": "Cardiac cachexia \u2014 severe unintentional muscle and fat loss in heart failure patients \u2014 has long been poorly understood, but a new proteomics study found four novel inflammatory proteins that could one day serve as early warning biomarkers, opening a door to earlier intervention for this life-threatening complication of heart disease."
+        }
+      ],
+      "run_date": "2026-10-02",
+      "category": "Cardiology",
+      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -91,33 +526,6 @@
       "status": "new"
     },
     {
-      "pmid": "42806816",
-      "headline": "Nighttime Blood Sugar Spikes on a CGM May Warn That Type 1 Diabetes Is Months Away",
-      "journal": "Diabetes technology & therapeutics",
-      "pubdate": "2026 Sep 29",
-      "doi": "10.1177/15209156261492040",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In this exploratory analysis from the multinational INNODIA consortium, researchers examined continuous glucose monitoring (CGM) data from 27 autoantibody-positive first-degree relatives of people with type 1 diabetes who already showed early glucose abnormalities. Nine participants progressed to clinical type 1 diabetes within a median of 163 days. CGM patterns \u2014 particularly time spent above 140 mg/dL and nighttime glucose above 180 mg/dL \u2014 distinguished progressors from non-progressors, with a combined CGM metric model reaching 100% sensitivity and 86% specificity.",
-      "why_it_matters": "CGM-derived glucose patterns may offer a non-invasive way to identify which high-risk individuals are closest to developing type 1 diabetes, potentially enabling earlier intervention.",
-      "caveats": "small sample (N<100), exploratory/secondary analysis, short follow-up, predominantly pediatric/young adult cohort (median age ~17)",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Interesting CGM/diabetes angle but very small N and young sample limits aging outlet fit.",
-      "pitch_angles": [
-        {
-          "publication_type": "Everyday Health",
-          "headline": "A Wearable Glucose Monitor May Predict Type 1 Diabetes Months Before It Strikes",
-          "hook": "New research suggests that a continuous glucose monitor can detect subtle overnight blood sugar patterns that signal type 1 diabetes is approaching \u2014 potentially giving families a critical window to act.",
-          "pitch_angle": "In a study of people genetically at risk for type 1 diabetes, specific CGM patterns \u2014 especially nighttime glucose spikes \u2014 identified those who progressed to the disease within six months with striking accuracy. Though the study was small and exploratory, it raises the possibility that wearable glucose technology could one day serve as an early-warning system for high-risk families."
-        }
-      ],
-      "run_date": "2026-10-01",
-      "category": "Endocrinology & Metabolism",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42803872",
       "headline": "Klinefelter Syndrome's Metabolic and Brain Risks May Begin in Childhood \u2014 Long Before Puberty",
       "journal": "Endocrine",
@@ -142,39 +550,6 @@
       "run_date": "2026-10-01",
       "category": "Endocrinology & Metabolism",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42790802",
-      "headline": "Having more muscle mass may protect your spine from disc disease and stenosis \u2014 even if your grip strength doesn't",
-      "journal": "Bone",
-      "pubdate": "2026 Sep 25",
-      "doi": "10.1016/j.bone.2026.118113",
-      "groundbreaking": "Counterintuitive finding / Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed UK Biobank data from nearly 500,000 participants to examine whether sarcopenia-related traits \u2014 muscle mass and grip strength \u2014 are associated with spinal degenerative diseases including lumbar disc herniation and spinal stenosis. Using observational regression models and Mendelian randomization to assess causality, they found that greater whole-body and appendicular lean mass was causally protective against lumbar slipped discs and spinal stenosis, but grip strength showed no significant causal effect. The study also identified 12 genes potentially involved in spinal degeneration pathways.",
-      "why_it_matters": "For older adults, this suggests that maintaining muscle mass \u2014 not just strength \u2014 may be an underappreciated factor in protecting against common, mobility-limiting spinal conditions.",
-      "caveats": "observational design, single-center",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Large cohort, aging-relevant musculoskeletal finding, counterintuitive grip-strength null result.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP / Next Avenue",
-          "headline": "The Surprising Spine Protector That Has Nothing to Do With Your Grip Strength",
-          "hook": "A study of nearly half a million people found that muscle mass \u2014 not grip strength \u2014 may be the key to protecting your spine as you age.",
-          "pitch_angle": "Researchers found that people with more lean muscle mass were less likely to develop lumbar disc disease and spinal stenosis, but grip strength offered no such protection. The finding reframes how we think about sarcopenia and back health in aging adults, pointing to body composition over functional strength tests."
-        },
-        {
-          "publication_type": "Prevention / Women's Health",
-          "headline": "Building Muscle Could Shield Your Spine From Two of the Most Common Causes of Back Pain",
-          "hook": "New large-scale research suggests that the more lean muscle mass you carry, the lower your risk of disc herniation and spinal stenosis \u2014 two leading causes of chronic back pain.",
-          "pitch_angle": "Using genetic analysis alongside data from nearly 500,000 people, scientists found a causal protective link between muscle mass and spinal degeneration \u2014 a finding that adds a compelling spine-health reason to prioritize strength training and protein intake at any age."
-        }
-      ],
-      "run_date": "2026-10-01",
-      "category": "Endocrinology & Metabolism",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -228,321 +603,6 @@
       ],
       "run_date": "2026-10-01",
       "category": "Nutritional Sciences",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42664615",
-      "headline": "Researchers Uncover New Genetic Clues to Why Some Women's Ovaries Age Too Fast",
-      "journal": "Maturitas",
-      "pubdate": "2026 Oct",
-      "doi": "10.1016/j.maturitas.2026.109093",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers stimulated human ovarian granulosa cells with BMP15 protein to map its downstream gene activity, then performed targeted gene sequencing in 64 women with early-onset primary ovarian insufficiency (POI). The study found that BMP15 upregulates 19 genes involved in TGF-beta signaling and stem cell regulation. Rare genetic variants in five of these newly identified genes were found in 14% of women with POI whose condition had previously been unexplained.",
-      "why_it_matters": "Understanding why some women experience premature ovarian aging at the genetic level could eventually help explain early menopause and guide more targeted diagnoses.",
-      "caveats": "small sample (N<100), single-center, secondary analysis, limited to early-onset POI cases",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Relevant to female reproductive aging; small human sample limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Women's Health / Everyday Health",
-          "headline": "Scientists Just Found New Genes That May Explain Early Menopause in Some Women",
-          "hook": "About 1 in 100 women enter menopause before age 40 \u2014 and a new study suggests previously unknown genetic variants may explain why.",
-          "pitch_angle": "Researchers identified rare variants in five newly discovered genes linked to premature ovarian aging, accounting for 14% of 'unexplained' early menopause cases. This genetic roadmap could eventually help women get answers sooner and understand their reproductive health risks."
-        }
-      ],
-      "run_date": "2026-10-01",
-      "category": "Seniors & Aging",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42570705",
-      "headline": "Aging may quietly rewire the brain's immune system \u2014 making it easier for Alzheimer's and Parkinson's to take hold",
-      "journal": "Ageing Research Reviews",
-      "pubdate": "2026 Oct",
-      "doi": "10.1016/j.arr.2026.103291",
-      "groundbreaking": "Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This systematic review synthesizes evidence on how age-related changes in the metabolism of brain immune cells \u2014 including microglia and astrocytes \u2014 create conditions that amplify neurodegeneration in Alzheimer's disease, Parkinson's disease, multiple sclerosis, and stroke. The authors highlight how aging disrupts mitochondrial function, lipid handling, and immune cell crosstalk in ways that accelerate disease-specific brain damage. The review also critically evaluates therapeutic strategies targeting these metabolic pathways, noting major obstacles such as blood-brain barrier penetration and target selectivity.",
-      "why_it_matters": "Early evidence suggests that how the aging brain's immune cells manage energy and metabolism may set the stage for whether \u2014 and how severely \u2014 neurodegenerative diseases develop later in life.",
-      "caveats": "observational design, secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Aging-relevant cognitive health topic; review article limits actionability for wellness audience.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP / Next Avenue",
-          "headline": "Your Brain's Immune Cells Change With Age \u2014 and That May Be Why Alzheimer's Hits Harder Later in Life",
-          "hook": "A sweeping new review finds that aging subtly rewires how the brain's immune cells burn fuel \u2014 and that shift may be what makes older brains more vulnerable to Alzheimer's and Parkinson's.",
-          "pitch_angle": "Researchers synthesized decades of evidence showing that age-related metabolic changes in brain immune cells create a permissive environment for neurodegeneration \u2014 not an inevitable one. The finding reframes brain aging as an active biological process with potential future intervention points, not just passive decline."
-        }
-      ],
-      "run_date": "2026-10-01",
-      "category": "Geriatrics",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42476451",
-      "headline": "Vitamin D's Promise Against Frailty Keeps Hitting a Wall \u2014 Here's What the Science Actually Shows",
-      "journal": "Metabolism: Clinical and Experimental",
-      "pubdate": "2026 Oct",
-      "doi": "10.1016/j.metabol.2026.156697",
-      "groundbreaking": "Counterintuitive finding / Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This narrative review synthesized clinical, epidemiological, and mechanistic evidence on vitamin D and frailty, drawing on observational cohort studies and randomized controlled trials. Despite strong biological plausibility \u2014 vitamin D receptor signaling regulates muscle, bone, immune, and mitochondrial function \u2014 RCTs in community-dwelling adults with adequate vitamin D levels have largely shown neutral results. Clinical benefits appear limited to those with deficiency or heightened vulnerability, while high-dose intermittent bolus regimens were associated with increased fall and fracture risk.",
-      "why_it_matters": "For older adults hoping vitamin D supplements will ward off frailty, this review suggests that benefits may be real only for those who are actually deficient \u2014 and that megadose strategies could backfire.",
-      "caveats": "observational design (for cohort studies cited), narrative review (not systematic meta-analysis), industry funding [Abiogen \u2014 declared by corresponding author]",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Counterintuitive RCT-vs-mechanism gap; strong aging, frailty, and supplement hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP / Sixty and Me",
-          "headline": "You Might Be Taking Vitamin D for Frailty \u2014 But Science Says It Probably Won't Help Unless You're Deficient",
-          "hook": "Despite decades of research linking low vitamin D to muscle loss and frailty, most clinical trials in older adults with normal levels show little to no benefit from supplementation.",
-          "pitch_angle": "A major new review finds that vitamin D's impressive biology doesn't translate into real-world protection against frailty for most people \u2014 and that high-dose strategies may actually increase fall risk, a counterintuitive finding that reframes one of the most popular supplements among older adults."
-        },
-        {
-          "publication_type": "Prevention / Verywell Health",
-          "headline": "The Vitamin D\u2013Frailty Link Is More Complicated Than You Think",
-          "hook": "Vitamin D deficiency is associated with muscle loss, weak bones, and frailty \u2014 but taking more of the supplement doesn't reliably fix the problem for most people.",
-          "pitch_angle": "A comprehensive new review found that while the biology of vitamin D and aging is compelling, clinical trials have repeatedly come up short \u2014 suggesting that who takes it and how much matters far more than simply adding a pill to your routine."
-        }
-      ],
-      "run_date": "2026-10-01",
-      "category": "Endocrinology & Metabolism",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42424747",
-      "headline": "A Digital Game App May Catch Early Alzheimer's Signals That Standard Tests Miss",
-      "journal": "The Journal of Prevention of Alzheimer's Disease",
-      "pubdate": "2026 Oct",
-      "doi": "10.1016/j.tjpad.2026.100642",
-      "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers tested the MIND GamePack\u00a9, a digital game-based cognitive assessment platform, in 60 participants \u2014 both cognitively healthy adults and those with subjective complaints, mild cognitive impairment, or mild dementia \u2014 over 3 to 6 months. The platform showed high compliance, strong test-retest reliability (ICC 0.81\u20130.95), and moderate-to-strong correlations with validated neuropsychological tests. Participants without cognitive impairment improved their game scores over 3 months while those with impairment did not, suggesting the platform could detect meaningful cognitive differences.",
-      "why_it_matters": "An engaging, game-based tool that people can use at home suggests early cognitive monitoring may one day be as easy \u2014 and far less intimidating \u2014 as playing a word or memory game.",
-      "caveats": "small sample (N<100), short follow-up, single-center, industry funding [AbbVie]",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Cognitive aging tool, human subjects, longevity-relevant; small N and industry funding are notable limits.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP / Next Avenue",
-          "headline": "Could Playing Digital Games on Your Phone Help Detect Memory Loss Early?",
-          "hook": "A new study suggests a simple game app may be able to tell the difference between a healthy aging brain and one showing early signs of Alzheimer's.",
-          "pitch_angle": "The MIND GamePack\u00a9 correctly distinguished cognitively healthy older adults from those with early memory problems \u2014 using nothing more than game-play patterns. If validated in larger studies, this kind of tool could make routine cognitive monitoring accessible and even enjoyable for millions of older Americans."
-        },
-        {
-          "publication_type": "Prevention / Health.com",
-          "headline": "This Brain-Training Game App Might Actually Help Screen for Alzheimer's Risk",
-          "hook": "Researchers found that how you play certain digital memory games may reveal more about your brain health than you'd expect.",
-          "pitch_angle": "A Harvard-led study found a digital game platform showed strong correlations with gold-standard cognitive tests and could differentiate healthy brains from impaired ones after just months of play. Early evidence suggests game-based cognitive monitoring could complement \u2014 and someday supplement \u2014 traditional clinical screening."
-        }
-      ],
-      "run_date": "2026-10-01",
-      "category": "Seniors & Aging",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42419629",
-      "headline": "A Cholesterol-Linked Protein May Drive Excess Cortisol Production in Adrenal Tumors",
-      "journal": "Metabolism: clinical and experimental",
-      "pubdate": "2026 Oct",
-      "doi": "10.1016/j.metabol.2026.156691",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Chongqing Medical University performed comprehensive proteomic profiling of 29 adrenal adenomas (9 Cushing's syndrome, 10 subclinical Cushing's, and 10 non-functioning) to map the molecular drivers of excess cortisol production. Analysis revealed a progressive gradient of cholesterol metabolic dysregulation mirroring disease severity, and identified downregulation of the protein CAB39L as a key contributor to pathological cortisol production. A four-protein panel (LDLR, HMGCS1, LIPE, SYP) was proposed as potential diagnostic markers.",
-      "why_it_matters": "Identifying cholesterol metabolism as a central driver of cortisol-producing adrenal tumors could eventually lead to better diagnostic tools and targeted therapies for a condition that significantly raises cardiovascular and metabolic risk.",
-      "caveats": "small sample (N<100), single-center, China-based cohort",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Mechanistic/clinical discovery; small N, no lifestyle hook, limited direct aging relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "Everyday Health",
-          "headline": "Why Some Adrenal Tumors Pump Out Too Much Cortisol \u2014 Scientists Find a Cholesterol Connection",
-          "hook": "A new molecular study suggests that cholesterol metabolism gone wrong inside adrenal tumors may be driving the dangerous cortisol surges seen in Cushing's syndrome.",
-          "pitch_angle": "Scientists profiling adrenal tumor tissue found that cholesterol processing becomes increasingly disrupted as cortisol overproduction worsens \u2014 and identified a single protein, CAB39L, as a possible linchpin. The finding is early but could point toward new diagnostic markers for a condition that quietly raises heart disease and diabetes risk."
-        }
-      ],
-      "run_date": "2026-10-01",
-      "category": "Endocrinology & Metabolism",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42331280",
-      "headline": "A Laser-Guided Tool May Make Heart Bypass Surgery Easier \u2014 Without Extra Risk",
-      "journal": "The Journal of Thoracic and Cardiovascular Surgery",
-      "pubdate": "2026 Oct",
-      "doi": "10.1016/j.jtcvs.2026.05.028",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In the first prospective trial of the excimer laser-assisted nonocclusive anastomosis (ELANA) device for coronary artery bypass grafting, researchers enrolled 71 patients (89% male, average age 71) at two European centers. The device was used to create the critical artery connection without stopping blood flow, and at one year, the rate of device-related major adverse cardiac events was 2.9%. Six-month graft patency was 92.5%, suggesting the approach is safe and effective in the short term.",
-      "why_it_matters": "This laser-guided anastomosis technique could eventually enable less-invasive heart bypass surgery options for older adults who currently face higher surgical risks.",
-      "caveats": "small sample (N<100), single-center, short follow-up, industry funding [AMT Medical \u2014 three authors are consultants or employees]",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "First human trial of novel CABG device; older adult sample but small N and industry ties.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP / Everyday Health",
-          "headline": "A New Laser Tool Could Make Heart Bypass Surgery Safer for Older Patients",
-          "hook": "A laser-guided device just completed its first human trial for heart bypass surgery \u2014 and the early results suggest it's both safe and effective.",
-          "pitch_angle": "Researchers tested a new laser-assisted device that connects bypass grafts without stopping blood flow, finding low complication rates in patients averaging age 71. If confirmed in larger trials, the technology could pave the way for less-invasive bypass options for older adults who may not tolerate open-heart surgery as well."
-        }
-      ],
-      "run_date": "2026-10-01",
-      "category": "Cardiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42648856",
-      "headline": "Your first heart valve replacement may need to be planned with your second one already in mind",
-      "journal": "Interventional Cardiology Clinics",
-      "pubdate": "2026 Oct",
-      "doi": "10.1016/j.iccl.2026.05.001",
-      "groundbreaking": "Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Stanford cardiologists propose a new longitudinal framework for selecting aortic valve replacements, arguing that as more patients outlive their first valve, surgeons must plan the index procedure with future interventions in mind. The review integrates age, survival expectations, valve durability, and coronary access into a unified decision-making approach. The core finding is that choosing a first valve without accounting for downstream options may foreclose critical future treatment pathways.",
-      "why_it_matters": "As more older adults undergo aortic valve replacement and live long enough to need a second one, this framework suggests the initial choice of valve type could significantly shape future treatment options.",
-      "caveats": "observational design, secondary analysis, small sample (N<100)",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Clinically relevant for older adults with aortic stenosis; review article, no primary data.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP",
-          "headline": "Why Your Heart Valve Surgery Decision Today Could Limit Your Options Tomorrow",
-          "hook": "Cardiologists at Stanford say the choice of your first aortic valve replacement should already account for the next one \u2014 because more patients are now living long enough to need it.",
-          "pitch_angle": "A Stanford review proposes that valve replacement decisions must factor in a patient's likely lifespan and future intervention needs, not just the immediate fix. For aging readers facing valve disease, this reframes the conversation with their cardiologist before surgery."
-        }
-      ],
-      "run_date": "2026-10-01",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "40780565",
-      "headline": "AI and virtual reality are changing how doctors plan and perform heart valve procedures",
-      "journal": "Trends in Cardiovascular Medicine",
-      "pubdate": "2026 Oct",
-      "doi": "10.1016/j.tcm.2025.08.002",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This review from a French cardiovascular center surveys how artificial intelligence and extended reality (XR) technologies are being applied to transcatheter aortic valve replacement (TAVR), a common procedure in older adults with severe aortic stenosis. AI tools now improve diagnostic accuracy and patient-specific risk prediction, while immersive XR allows surgeons to visualize complex cardiac anatomy in real time. Authors note that regulatory frameworks and standardized protocols are still needed before these tools see widespread adoption.",
-      "why_it_matters": "For older adults facing TAVR, emerging AI and virtual reality tools may eventually mean more personalized, lower-risk procedures \u2014 though widespread clinical use is not yet standardized.",
-      "caveats": "observational design, secondary analysis, single-center, industry funding [Medtronic, Edwards Lifesciences, Abbott \u2014 disclosed by one author]",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Interesting technology angle but review article with no primary outcome data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Everyday Health",
-          "headline": "Virtual Reality Is Now Helping Surgeons Practice Your Heart Valve Surgery Before They Do It",
-          "hook": "Surgeons are using virtual reality headsets and AI to plan heart valve replacements with unprecedented precision \u2014 and it could mean fewer complications for older patients.",
-          "pitch_angle": "A new review outlines how AI and immersive XR are being integrated into TAVR planning, reducing variability and improving anatomical visualization. The wellness hook: technology advances that could make a common older-adult heart procedure safer and more personalized."
-        }
-      ],
-      "run_date": "2026-10-01",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42813471",
-      "headline": "New Dads' Brains Rewire to Find Distress Signals More Rewarding \u2014 Not Just More Alarming",
-      "journal": "Journal of Neuroendocrinology",
-      "pubdate": "2026 Oct",
-      "doi": "10.1111/jne.70276",
-      "groundbreaking": "First-in-class human study / Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In the first longitudinal fMRI study of fear processing across the transition to fatherhood, researchers scanned 38 first-time expectant fathers before birth and 34 again approximately 8 months postpartum while they viewed fearful faces. After becoming fathers, men showed activation in the reward-linked dorsal striatum in response to fearful faces \u2014 a region not activated prenatally \u2014 and higher striatal response was associated with fewer father-infant bonding difficulties. The findings suggest new fathers' brains recruit motivational circuitry to approach distress rather than simply react to it.",
-      "why_it_matters": "Understanding how new fatherhood reshapes neural responses to vulnerability could inform support strategies for paternal bonding and family mental health across generations.",
-      "caveats": "small sample (N<100), single-center, short follow-up, sample skews young (mean age ~32\u201333, not 50+)",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Interesting neuroscience but young sample and no aging/longevity angle.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health",
-          "headline": "A New Dad's Brain Literally Rewires to Find a Baby's Fear Face Motivating \u2014 Not Just Upsetting",
-          "hook": "Brain scans show that after becoming fathers, men's reward centers light up when they see fearful faces \u2014 a shift that appears linked to stronger bonding with their infants.",
-          "pitch_angle": "The first longitudinal brain-imaging study of new fathers found that the transition to fatherhood activates reward circuitry in response to distress signals, suggesting men's brains are biologically shaped to approach \u2014 not avoid \u2014 a vulnerable child's emotional cues."
-        }
-      ],
-      "run_date": "2026-10-01",
-      "category": "Endocrinology & Metabolism",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42710386",
-      "headline": "Fatty Liver Disease May Have a Dietary Fix \u2014 and Researchers Are Zeroing In on Iron and Oxidative Stress as the Key",
-      "journal": "Nutrition Research",
-      "pubdate": "2026 Oct",
-      "doi": "10.1016/j.nutres.2026.08.002",
-      "groundbreaking": "Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers from Heilongjiang University of Chinese Medicine conducted a systematic review of emerging evidence on metabolic dysfunction-associated fatty liver disease (MAFLD), focusing on the interplay between oxidative stress and iron overload as key drivers of liver injury. The review synthesizes findings from multiple studies and identifies dietary patterns, bioactive food compounds, specific nutrients, and probiotics as promising interventions targeting this mechanism. No original human trial was conducted; this is a narrative review summarizing existing research.",
-      "why_it_matters": "MAFLD affects an estimated 25% of adults globally and is strongly tied to metabolic aging \u2014 and this review suggests that targeted dietary strategies, not just medications, may help interrupt a key disease pathway.",
-      "caveats": "secondary analysis, observational design, single-center",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Metabolic health hook; review-only design limits scoring.",
-      "pitch_angles": [
-        {
-          "publication_type": "Everyday Health / Verywell Health",
-          "headline": "Your Diet May Be One of the Best Tools Against Fatty Liver Disease \u2014 Here's the Emerging Science",
-          "hook": "A new review suggests that two interlinked problems \u2014 too much oxidative stress and disrupted iron metabolism \u2014 drive fatty liver disease, and specific dietary strategies may help break that cycle.",
-          "pitch_angle": "Researchers identified dietary patterns, probiotics, and bioactive food compounds as potentially able to interrupt a key pathway in MAFLD progression, suggesting that nutrition-based approaches could become a core part of managing this increasingly common condition."
-        }
-      ],
-      "run_date": "2026-10-01",
-      "category": "Nutritional Sciences",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42782071",
-      "headline": "Studies claiming moderate drinking slows organ aging may be misleading, researcher warns",
-      "journal": "Aging Cell",
-      "pubdate": "2026 Oct",
-      "doi": "10.1111/acel.70743",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "A researcher at the Institute for Molecular Medicine Finland reviewed studies using organ-specific proteomic aging clocks and found that alcohol appeared to slow biological aging in some organs while accelerating it in others \u2014 a contradiction the author attributes to methodological flaws, poor alcohol measurement, and confounding. This Perspective piece (not a new primary study) synthesizes existing research rather than reporting new data from a participant sample. The author cautions that these conflicting clock-based findings risk understating alcohol's well-established harms if interpreted at face value.",
-      "why_it_matters": "For people trying to make sense of mixed headlines about alcohol and longevity, this analysis suggests the 'healthy drinking' finding from high-tech aging clocks may be a methodological artifact, not a real benefit.",
-      "caveats": "observational design, secondary analysis, perspective piece (no new primary data), no participant sample",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Strong wellness hook on alcohol and aging clocks; perspective piece limits study quality score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Prevention / Health.com / Verywell Health",
-          "headline": "Those Headlines Saying Moderate Drinking Slows Aging? A Researcher Says Not So Fast",
-          "hook": "Cutting-edge 'aging clock' studies have suggested a drink or two might slow organ aging \u2014 but a new analysis says those results are almost certainly misleading.",
-          "pitch_angle": "A Finnish researcher dissected the science behind organ-specific biological aging clocks and found the studies showing alcohol slows aging in certain organs are riddled with methodological problems, including poor measurement of drinking habits and uncontrolled confounders. The piece is a timely reality check for readers who've seen splashy headlines and are wondering whether their evening glass of wine is actually good for longevity."
-        },
-        {
-          "publication_type": "AARP / Next Avenue / Sixty and Me",
-          "headline": "Why the 'Moderate Drinking Is Good for You' Finding Keeps Appearing \u2014 and Why Experts Say It's Probably Wrong",
-          "hook": "Sophisticated biological aging tests have produced headlines suggesting a drink or two might slow organ aging, but a new scientific review argues that conclusion is a methodological illusion.",
-          "pitch_angle": "For older adults navigating conflicting advice about alcohol, this analysis explains why observational studies \u2014 even technologically advanced ones using protein-based aging clocks \u2014 keep producing misleading 'healthy drinking' results, and why alcohol's known organ damage likely remains the more reliable bottom line."
-        }
-      ],
-      "run_date": "2026-10-01",
-      "category": "Seniors & Aging",
       "chunk": "1/1",
       "status": "new"
     },
@@ -8377,33 +8437,6 @@
       "run_date": "2026-08-05",
       "category": "Seniors & Aging",
       "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42521527",
-      "headline": "Four newly identified proteins may help explain why some heart failure patients waste away",
-      "journal": "Heart, Lung and Circulation",
-      "pubdate": "2026 Jul 28",
-      "doi": "10.1016/j.hlc.2026.03.064",
-      "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "UK researchers used targeted proteomics to analyze blood samples from patients with advanced or stable heart failure, comparing those with cardiac cachexia or unintentional weight loss to those without. Four previously unstudied proteins \u2014 interleukin-27, interleukin-4, vascular endothelial growth factor D, and bone morphogenetic protein-6 \u2014 were found at significantly different levels in the cachexia group, with biomarker accuracy scores ranging from 0.741 to 0.826. The findings suggest novel immune and cytokine signaling pathways may drive the severe muscle and weight loss seen in advanced heart failure.",
-      "why_it_matters": "Identifying new biological markers of cardiac cachexia could eventually help doctors detect this deadly complication of heart failure earlier, when intervention may be more effective.",
-      "caveats": "small sample (N<100), single-center, observational design, short follow-up",
-      "fact_check_note": "Abstract does not report exact N; sample size is not specified and may be very small \u2014 flagged accordingly.",
-      "relevance_score": 5,
-      "relevance_score_reason": "Heart failure/aging relevant; small undisclosed N, early-stage biomarker discovery, no lifestyle hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health / Next Avenue",
-          "headline": "Scientists find new clues to why advanced heart failure causes dangerous weight loss",
-          "hook": "Four newly discovered proteins may explain one of the most mysterious and deadly complications of heart failure \u2014 a wasting condition that accelerates decline.",
-          "pitch_angle": "Cardiac cachexia, the severe weight and muscle loss that can strike people with advanced heart failure, has been poorly understood \u2014 but new protein-level analysis has identified four novel biological signals linked to it. Researchers say the findings open a potential path toward earlier detection and eventually new treatments for a condition that significantly worsens survival in older heart failure patients."
-        }
-      ],
-      "run_date": "2026-08-01",
-      "category": "Cardiology",
-      "chunk": "1/2",
       "status": "new"
     },
     {
