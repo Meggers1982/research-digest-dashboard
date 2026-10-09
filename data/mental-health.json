@@ -1,279 +1,534 @@
 {
-  "last_updated": "2026-10-08T17:38:43.824753+00:00",
-  "total_studies": 704,
-  "new_this_run": 3,
+  "last_updated": "2026-10-09T17:01:25.765593+00:00",
+  "total_studies": 711,
+  "new_this_run": 6,
   "studies": [
     {
+      "pmid": "42847701",
+      "headline": "AI health tutors for low-income Latinas may miss who they're trying to reach \u2014 and existing tools can't tell",
+      "journal": "Health Education & Behavior",
+      "pubdate": "2026 Oct 8",
+      "doi": "10.1177/10901981261490851",
+      "groundbreaking": "Major mental health or behavioral implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Loyola University Chicago used a community-engaged design process to develop a conversational AI tutoring system for breast cancer education targeting low-income Latinas in Chicago, testing both autonomous and researcher-controlled versions. A case study of two participants revealed that standard evaluation instruments failed to capture one woman's actual experience with the system, despite both women being statistically similar on key demographics. The findings suggest that AI health education tools risk systematically misrepresenting outcomes for communities with wide variation in health literacy unless evaluation methods are redesigned alongside the technology itself.",
+      "why_it_matters": "As AI health tools scale rapidly, this study flags a critical equity gap: the instruments used to judge whether these tools work may be just as poorly designed for underserved communities as the tools themselves.",
+      "caveats": "small sample (N<100), observational design, single-center, WEIRD sample (Western, Educated, Industrialized, Rich, Democratic)",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Health literacy and AI design topic; N=2 case study severely limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "AI health chatbots promise to reach the underserved \u2014 but we may not be measuring whether they actually work",
+          "hook": "A new study finds that the tools used to evaluate AI health tutors may fail the very communities those systems are designed to help.",
+          "pitch_angle": "Researchers testing a breast cancer AI educator for low-income Latinas found that standard outcome measures couldn't capture one participant's real experience, raising urgent questions about how we define 'success' for health tech in marginalized communities."
+        }
+      ],
+      "run_date": "2026-10-09",
+      "category": "Behavioral Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42848192",
+      "headline": "The first 1,000 days of life may hold the key to preventing autism and other neurodevelopmental disorders",
+      "journal": "Neuropsychiatrie",
+      "pubdate": "2026 Oct 8",
+      "doi": "10.1007/s40211-026-00597-z",
+      "groundbreaking": "Major mental health or behavioral implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This brief narrative review synthesizes current evidence on how genetic vulnerability, environmental exposures, epigenetic regulation, neuroinflammation, and gut microbiome changes during the first 1,000 days of life (conception through age 2) shape the risk for autism spectrum disorder and related neurodevelopmental conditions. The review is not an empirical study and does not report original data or a study sample. Authors argue that the convergence of these biological pathways during a period of heightened neuroplasticity offers a critical window for precision prevention strategies targeting modifiable risk factors.",
+      "why_it_matters": "Framing autism risk as arising from overlapping, modifiable biological pathways \u2014 rather than fixed genetic destiny \u2014 suggests that early-life interventions targeting things like maternal health, microbiome, and environmental exposures could meaningfully shape neurodevelopmental outcomes.",
+      "caveats": "narrative review (not systematic), no original data, no active control group",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Review article, no new data; general interest but limited scientific novelty.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "Scientists say the window to prevent autism may open before birth \u2014 and close by age 2",
+          "hook": "A new review argues that the biological roots of autism and other neurodevelopmental disorders converge in the first 1,000 days of life \u2014 and that this window may be the best chance for prevention.",
+          "pitch_angle": "Researchers synthesized evidence showing that genetics, the gut microbiome, neuroinflammation, and early environmental exposures interact during a narrow developmental window to shape the risk for autism and related conditions. The review suggests that targeting modifiable factors \u2014 like maternal nutrition, inflammation, and microbiome health \u2014 during pregnancy and early infancy could offer more leverage than waiting for diagnosis."
+        }
+      ],
+      "run_date": "2026-10-09",
+      "category": "Psychiatry",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42849856",
+      "headline": "Sleep and nervous-system data help AI spot which depressed teens attempted suicide before hospitalization",
+      "journal": "Journal of Affective Disorders",
+      "pubdate": "2026 Oct 8",
+      "doi": "10.1016/j.jad.2026.122600",
+      "groundbreaking": "First-in-class human study / Major mental health or behavioral implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers built multimodal machine-learning models combining clinical, sleep, and nocturnal autonomic (nervous system) measures to identify which adolescents had made a recent suicide attempt before psychiatric admission. The retrospective cross-sectional study included 262 inpatients aged 11\u201317 hospitalized with depressive episodes at a single Chinese center. An XGBoost model using nine predictors achieved an AUC of 0.767, substantially outperforming standard clinical logistic regression (AUC 0.612), suggesting objective sleep and autonomic signals add meaningful discriminative power beyond clinical data alone.",
+      "why_it_matters": "If externally validated, combining wearable sleep and autonomic measures with clinical data could help clinicians identify high-risk adolescents more accurately at the point of psychiatric admission.",
+      "caveats": "single-center, observational design, retrospective cross-sectional, small sample (N<300 with suicidal subgroups much smaller), no external validation, WEIRD sample (Western, Educated, Industrialized, Rich, Democratic) does not apply but single-region Chinese sample limits generalizability, self-reported outcomes not applicable",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Youth suicide risk + novel AI-sleep angle; limited by single-center, no external validation.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "An AI that reads sleep data might catch suicidal teens that clinical interviews miss",
+          "hook": "A machine-learning model combining sleep and nervous-system signals identified recent suicide attempts in hospitalized adolescents far better than standard clinical assessment alone.",
+          "pitch_angle": "Researchers found that objective sleep and autonomic data \u2014 the kind increasingly captured by wearables \u2014 added significant predictive power for detecting recent suicidal behavior in depressed teens. The findings raise the prospect of passive, continuous monitoring tools that could flag risk at hospital admission, though external validation is essential before any clinical use."
+        },
+        {
+          "publication_type": "NYT Well",
+          "headline": "Your teen's sleep patterns may reveal suicide risk that doctors are missing",
+          "hook": "Adolescents who had recently attempted suicide showed distinctive patterns in sleep and nervous-system activity that a machine-learning model could detect \u2014 even when clinical interviews fell short.",
+          "pitch_angle": "A new study suggests that objective biological signals, not just self-reported mood, could help identify which hospitalized teenagers are at highest risk \u2014 pointing toward a future where wearable data plays a role in psychiatric triage, pending rigorous real-world testing."
+        }
+      ],
+      "run_date": "2026-10-09",
+      "category": "Psychiatry",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42848020",
+      "headline": "Siblings may shape teens' social skills just as powerfully as parents \u2014 and ignoring that could be a blind spot in family research",
+      "journal": "Journal of Family Psychology",
+      "pubdate": "2026 Oct 8",
+      "doi": "10.1037/fam0001543",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers surveyed 175 families with at least two children and used latent profile analysis to identify five distinct combinations of parental emotion coaching and sibling relationship quality, then tracked adolescent interpersonal competence six months later. Teens in families where both parenting and sibling dynamics were positive scored highest on assertiveness, self-disclosure, and conflict resolution. Notably, teens in the 'sibling-positive' profile \u2014 where sibling relationships were strong even when parenting support was lower \u2014 still outperformed those in overall-negative family environments on emotional support and conflict resolution.",
+      "why_it_matters": "The findings suggest that sibling relationships may independently buffer adolescents' social development, highlighting a largely overlooked family dynamic in research and practice focused on parenting alone.",
+      "caveats": "small sample (N<100 per profile in several cells), observational design, short follow-up, self-reported outcomes, WEIRD sample, single time-point baseline",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Relatable family dynamics topic, but small sample, no clinical population, limited mental health specificity.",
+      "pitch_angles": [
+        {
+          "publication_type": "Psychology Today",
+          "headline": "Your sibling relationship may shape your social life more than your parents did",
+          "hook": "A new study finds that teens with strong sibling bonds \u2014 even in homes with less-engaged parents \u2014 develop better conflict resolution and emotional support skills than those in warmer-parenting-but-difficult-sibling households.",
+          "pitch_angle": "Researchers tracked 175 families and found that the quality of sibling relationships predicted adolescents' interpersonal skills six months later, independent of parental emotion coaching \u2014 a finding that challenges the field's near-exclusive focus on parenting. For practitioners and parents alike, it suggests that the sibling relationship is a meaningful, and underappreciated, training ground for social competence."
+        }
+      ],
+      "run_date": "2026-10-09",
+      "category": "Psychology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
       "pmid": "42839771",
-      "headline": "Epilepsy's silent killer gets a first formal prevention framework \u2014 but key questions remain unresolved",
+      "headline": "Experts outline who faces the highest risk of sudden death from epilepsy \u2014 and what may help prevent it",
       "journal": "Epilepsia Open",
       "pubdate": "2026 Oct 7",
       "doi": "10.1002/epi4.70358",
       "groundbreaking": "Major mental health or behavioral implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "An 11-member Italian multidisciplinary panel developed 26 consensus statements on sudden unexpected death in epilepsy (SUDEP), covering risk stratification, mechanisms, and prevention. The framework shifts focus beyond seizure control alone to include respiratory, cardiac, autonomic, and genetic vulnerabilities in high-risk patients. Two statements \u2014 on serotonergic drugs and fenfluramine \u2014 reached consensus only narrowly and are flagged as hypothesis-generating rather than clinical guidance.",
-      "why_it_matters": "SUDEP is a leading cause of premature death in people with epilepsy, and this framework suggests individualized risk communication and monitoring could improve care for one of neurology's most underrecognized dangers.",
-      "caveats": "single-center, narrative review (not systematic), small expert panel (N=11), WEIRD sample (Western, Educated, Industrialized, Rich, Democratic), consensus document not a clinical guideline",
+      "summary": "An Italian multidisciplinary panel of 11 experts used a structured nominal group technique to develop consensus statements on sudden unexpected death in epilepsy (SUDEP), producing 26 agreed-upon statements from an initial set of 33. The panel identified people with frequent tonic-clonic seizures, drug-resistant epilepsy, and developmental epileptic encephalopathies as highest risk. The consensus emphasizes that reducing convulsive seizure burden remains the top preventive priority, while also flagging respiratory, cardiac, autonomic, and genetic vulnerabilities as factors to assess in high-risk individuals.",
+      "why_it_matters": "For the millions living with epilepsy and their families, this framework suggests that SUDEP risk can be more systematically communicated and individually tailored \u2014 moving beyond a one-size-fits-all approach to prevention.",
+      "caveats": "single-center, observational design, WEIRD sample (Western, Educated, Industrialized, Rich, Democratic), narrative rather than systematic review, expert consensus not formal guideline, two key statements reached agreement only narrowly",
       "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Epilepsy mortality topic; limited mental health angle, expert consensus not primary data.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Epilepsy mortality risk; expert consensus, not original data; limited mental health angle.",
       "pitch_angles": [
         {
-          "publication_type": "STAT News",
-          "headline": "Italian experts reach rare consensus on epilepsy's deadliest complication \u2014 with some critical caveats",
-          "hook": "SUDEP kills thousands each year, yet clinicians have lacked a formal shared framework for identifying who is most at risk.",
-          "pitch_angle": "Italian neurologists, cardiologists, and engineers have for the first time formalized a multidisciplinary position on sudden unexpected death in epilepsy, expanding prevention beyond seizure control to include cardiac and respiratory monitoring. Two promising drug strategies reached consensus only narrowly, underscoring how much remains unknown about preventing this feared but underreported cause of death."
+          "publication_type": "Everyday Health / Health.com",
+          "headline": "What raises the risk of sudden death in epilepsy \u2014 and what experts say may help",
+          "hook": "Sudden unexpected death in epilepsy is rare but devastating, and an expert panel has now mapped out who faces the greatest danger.",
+          "pitch_angle": "Italian epilepsy specialists reached consensus on which patients face the highest SUDEP risk and what preventive steps are supported by evidence. For people managing epilepsy \u2014 and their loved ones \u2014 the framework offers a clearer picture of when and how to have conversations about this feared but undertalked complication."
         }
       ],
-      "run_date": "2026-10-08",
+      "run_date": "2026-10-09",
       "category": "Neurology",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42674970",
-      "headline": "Scientists reverse chronic pain signals in human nerve tissue \u2014 using a protein that targets the same cellular machinery as cholesterol",
+      "headline": "Scientists identify a molecular 'switch' in human pain neurons that, when disrupted, silences runaway pain signals",
       "journal": "The Journal of Neuroscience",
       "pubdate": "2026 Oct 7",
       "doi": "10.1523/JNEUROSCI.1273-25.2026",
-      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers studied human dorsal root ganglion (DRG) tissue \u2014 nerve clusters that relay pain signals \u2014 collected from patients with and without chronic pain conditions, finding that pain-associated tissue had significantly higher concentrations of TLR4-lipid raft complexes on neurons. Treating the excised human nerve cells with AIBP, a protein that disrupts cholesterol-rich lipid rafts, suppressed the abnormal electrical firing (ectopic action potentials) characteristic of chronic pain without affecting normal neuronal activity. The findings suggest TLR4-lipid rafts may be a highly specific target for pain therapeutics, with AIBP showing selectivity for pain-generating neurons rather than healthy ones.",
-      "why_it_matters": "Chronic pain is one of the most undertreated conditions globally and a major driver of opioid dependence; a mechanism that selectively quiets overactive pain neurons in actual human tissue \u2014 without broadly suppressing nerve function \u2014 points toward a fundamentally different class of pain treatment.",
-      "caveats": "small sample (N<100), single-center, no active control group, ex vivo tissue study (not in living humans), industry-adjacent (Raft Pharmaceuticals co-author)",
+      "summary": "Researchers studied human dorsal root ganglion (hDRG) neurons \u2014 the sensory nerve cells that relay pain signals \u2014 from patients with and without chronic pain, and found that cholesterol-rich lipid rafts containing TLR4 receptors are more abundant in pain-associated tissue. Using a protein called AIBP to disrupt these lipid rafts in the human neurons, the team found that ectopic (spontaneous, abnormal) pain-signaling activity was significantly reduced. The study, conducted in actual human tissue from male and female patients, suggests a novel, potentially targeted approach to treating chronic pain.",
+      "why_it_matters": "Chronic pain affects hundreds of millions of people worldwide, and this early evidence from human tissue suggests a cellular target that might one day be exploited for pain treatments that avoid the side effects of opioids or broad-spectrum drugs.",
+      "caveats": "small sample (N<100), single-center, ex vivo tissue study (not a living patient trial), industry funding [Raft Pharmaceuticals LLC]",
       "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "First-in-class human tissue finding; strong chronic pain and opioid addiction relevance.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Human tissue study on chronic pain mechanism; industry tie and no behavioral outcome limit score.",
       "pitch_angles": [
         {
           "publication_type": "STAT News",
-          "headline": "A cholesterol-targeting protein silences chronic pain signals in human nerve tissue \u2014 without touching healthy neurons",
-          "hook": "In a first, scientists reversed the abnormal electrical firing that drives chronic pain in actual human nerve tissue, using a protein that works by disrupting cholesterol clusters on pain-sensing cells.",
-          "pitch_angle": "The study identifies TLR4-lipid rafts as a pain-specific molecular target and shows that AIBP can selectively suppress overactive neurons, raising the possibility of a non-opioid pain therapy that spares normal nerve function."
-        },
-        {
-          "publication_type": "Health.com / Everyday Health",
-          "headline": "Scientists find a new way to turn off chronic pain \u2014 using the body's own cholesterol machinery",
-          "hook": "Researchers have discovered that a naturally occurring protein can quiet the overactive nerve signals behind chronic pain \u2014 and it only seems to affect the neurons that are misbehaving.",
-          "pitch_angle": "The finding, made in human nerve tissue from pain patients, suggests a new biological pathway for treating chronic pain that works differently from opioids or anti-inflammatories, though clinical trials are still years away."
+          "headline": "A protein that disrupts cholesterol clusters in nerve cells can quiet runaway pain signals \u2014 in actual human tissue",
+          "hook": "Researchers found that a naturally occurring protein can silence the aberrant electrical activity in human pain neurons that underlies chronic pain conditions.",
+          "pitch_angle": "The study identified TLR4-lipid rafts as a key driver of nociceptor hyperexcitability in human dorsal root ganglia, and showed that disrupting them with AIBP reduces ectopic firing \u2014 a finding with potential implications for developing non-opioid pain therapies. Because this was done in human tissue, not animal models, it moves the science meaningfully closer to clinical relevance."
         }
       ],
-      "run_date": "2026-10-08",
+      "run_date": "2026-10-09",
       "category": "Neurology",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42841447",
-      "headline": "Existing eating disorder scales may miss what trans people actually experience \u2014 a new tool tries to fix that",
+      "headline": "A new scale may finally separate body image anxiety tied to weight from distress tied to gender dysphoria in trans adults",
       "journal": "Eating Disorders",
       "pubdate": "2026 Oct 7",
       "doi": "10.1080/10640266.2026.2737198",
       "groundbreaking": "First-in-class human study / Major mental health or behavioral implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers developed and validated the Trans Disordered Eating Scale (TDES), a new 18-item measure designed specifically for transgender, nonbinary, and gender diverse (TGD) adults, across three studies involving 908 community-based TGD participants. Standard eating disorder assessments were not built to capture gender-specific stressors \u2014 such as body dissatisfaction tied to gender dysphoria rather than weight \u2014 that uniquely affect TGD individuals. The resulting scale showed strong factor structure, convergent validity, and test-retest reliability, and includes clinical indicator items to help distinguish weight-related body dissatisfaction from gender dysphoria.",
-      "why_it_matters": "Without measurement tools that reflect TGD-specific experiences, clinicians and researchers may systematically underdetect or mischaracterize disordered eating in this already underserved population.",
-      "caveats": "observational design, self-reported outcomes, WEIRD sample (Western, Educated, Industrialized, Rich, Democratic), community sample may not generalize to clinical settings, scale requires further external validation",
+      "summary": "Researchers at Oklahoma State University developed and validated the Trans Disordered Eating Scale (TDES) across three studies involving a total of 908 community-based transgender, nonbinary, and gender diverse (TGD) adults. The 18-item scale uses a four-factor structure capturing gender-related disordered eating distinct from weight-focused eating pathology, including three clinical indicator items specifically designed to differentiate body dissatisfaction rooted in weight concerns from that rooted in gender dysphoria. The scale demonstrated strong convergent, predictive, and incremental validity as well as test-retest reliability, suggesting it could meaningfully improve both clinical assessment and research in TGD populations.",
+      "why_it_matters": "Existing eating disorder measures were designed for cisgender populations and may misclassify or miss gender-specific disordered eating in trans and nonbinary individuals \u2014 a new validated tool could improve diagnosis and treatment for a group with elevated eating disorder risk.",
+      "caveats": "WEIRD sample (community-based US sample, online recruitment), self-reported outcomes, further validation needed in clinical settings",
       "fact_check_note": "",
       "relevance_score": 7,
-      "relevance_score_reason": "Large TGD sample, fills clear clinical measurement gap, strong mental health relevance.",
+      "relevance_score_reason": "First validated measure for TGD-specific disordered eating; N=908, strong design, high-relevance underserved population.",
       "pitch_angles": [
         {
-          "publication_type": "STAT News / Monitor on Psychology",
-          "headline": "Eating disorder screening tools weren't built for trans patients. Researchers just developed one that was.",
-          "hook": "Standard eating disorder assessments can't distinguish whether a trans person's body dissatisfaction stems from weight concerns or gender dysphoria \u2014 a distinction that could change how clinicians respond.",
-          "pitch_angle": "A new 18-item scale validated with nearly 1,000 transgender and gender diverse adults attempts to capture the unique drivers of disordered eating in this population, filling a long-standing gap in clinical measurement. The work suggests that using cisgender-normed tools with TGD patients may obscure key risk factors and lead to mischaracterized or missed diagnoses."
+          "publication_type": "Psychology Today / Monitor on Psychology",
+          "headline": "Trans adults have unique eating disorder risks \u2014 and clinicians have had no proper tool to measure them. Until now.",
+          "hook": "A new validated scale for the first time separates body image distress tied to gender dysphoria from distress tied to weight \u2014 a distinction that existing eating disorder assessments completely miss.",
+          "pitch_angle": "Developed across three studies with over 900 transgender and gender diverse adults, the Trans Disordered Eating Scale captures gender-specific pathways to disordered eating that standard measures misattribute or overlook entirely, offering clinicians a more accurate lens for a population with disproportionately high eating disorder risk."
         },
         {
-          "publication_type": "Psychology Today / Verywell Mind",
-          "headline": "Trans people face unique eating disorder risks that most screening tools aren't designed to catch",
-          "hook": "For transgender and gender diverse individuals, body dissatisfaction tied to gender dysphoria can look a lot like \u2014 but isn't the same as \u2014 the kind tied to weight, and most clinical tools can't tell the difference.",
-          "pitch_angle": "A new research-validated scale developed specifically for TGD adults includes items that help clinicians and researchers distinguish gender-related distress from weight-focused disordered eating. Experts say this kind of community-specific measurement is essential for providing accurate care to a population already facing elevated mental health risks."
+          "publication_type": "The Atlantic / HuffPost Health",
+          "headline": "Eating disorder research has ignored trans people for decades. A new tool is trying to fix that.",
+          "hook": "Standard eating disorder scales were built around cisgender bodies and cisgender distress \u2014 leaving clinicians largely blind to what's actually driving disordered eating in trans and nonbinary people.",
+          "pitch_angle": "Researchers have developed and validated the first eating disorder measure designed specifically for transgender and gender diverse adults, built around the insight that body dissatisfaction rooted in gender dysphoria is fundamentally different from weight-focused pathology \u2014 and that conflating the two means trans people may be misdiagnosed or missed entirely."
         }
       ],
-      "run_date": "2026-10-08",
+      "run_date": "2026-10-09",
       "category": "Behavioral Sciences",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42843653",
-      "headline": "A genetic advantage in verbal memory disappears \u2014 and reverses \u2014 in men with first-episode psychosis",
+      "headline": "A memory-protecting gene variant works differently in women \u2014 but only if they haven't had a first psychotic episode",
       "journal": "Spanish Journal of Psychiatry and Mental Health",
       "pubdate": "2026 Oct 7",
       "doi": "10.1016/j.sjpmh.2026.08.001",
       "groundbreaking": "Counterintuitive finding / Major mental health or behavioral implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers examined how a specific gene variant (rs9896243 in the NSF gene) relates to verbal memory performance in a family-based cohort of 486 participants including first-episode psychosis (FEP) patients, their siblings, and healthy controls. In healthy women and female siblings, carrying the C allele was associated with notably better verbal recall \u2014 but this female cognitive advantage was entirely absent in women with FEP. Most strikingly, male FEP patients carrying the same C allele showed the most pronounced recognition deficits of any group.",
-      "why_it_matters": "The finding suggests that a genetic variant associated with better memory in the general population may operate very differently \u2014 and potentially harmfully \u2014 in the context of psychosis, pointing toward the need for sex-stratified approaches in early psychosis research.",
-      "caveats": "observational design, single-center, WEIRD sample (Western, Educated, Industrialized, Rich, Democratic), functional annotations exploratory/hypothesis-generating",
+      "summary": "Researchers examined whether a genetic variant (rs9896243) in the NSF gene influences verbal memory differently by sex in a family-based cohort of 486 participants, including people with first-episode psychosis (FEP), their unaffected siblings, and controls. In healthy women and unaffected female siblings, carrying the C allele was associated with significantly better verbal recall \u2014 but that female memory advantage completely disappeared in women with FEP. Male FEP patients carrying the same allele showed the most pronounced recognition memory deficits of any group.",
+      "why_it_matters": "The finding suggests that psychosis may disrupt a normally protective genetic influence on memory in women, which could eventually inform sex-specific approaches to early cognitive assessment in psychosis.",
+      "caveats": "observational design, single-center, WEIRD sample (Western, Educated, Industrialized, Rich, Democratic), functional annotations are exploratory/hypothesis-generating",
       "fact_check_note": "",
       "relevance_score": 7,
-      "relevance_score_reason": "First-episode psychosis focus, sex-specific genetic finding, strong fit with journalist's saved psychosis angles.",
+      "relevance_score_reason": "First-episode psychosis focus, sex-specific genetic cognition finding, matches journalist's saved interest in psychosis detection.",
       "pitch_angles": [
         {
           "publication_type": "STAT News",
-          "headline": "A memory gene that helps healthy women may backfire in men with first-episode psychosis",
-          "hook": "A genetic variant linked to sharper verbal recall in healthy women appears to flip \u2014 becoming a liability for men at the onset of psychosis.",
-          "pitch_angle": "Researchers found that a single gene variant produces opposite cognitive effects depending on sex and disease status, challenging the assumption that 'memory-protective' genes work uniformly. The finding suggests early psychosis research may need to stratify by sex to understand who is at greatest cognitive risk."
+          "headline": "A gene variant that boosts women's memory stops working once psychosis begins \u2014 and researchers want to know why",
+          "hook": "A genetic advantage that helps healthy women remember more appears to be switched off by first-episode psychosis \u2014 a finding that could reshape how clinicians think about cognitive screening.",
+          "pitch_angle": "A study of 486 people found that a variant in the NSF gene was associated with stronger verbal memory in unaffected women but not in women with first-episode psychosis, while the same variant was tied to the worst memory performance seen in male patients. The finding raises new questions about how psychosis interacts with sex-linked biological protections \u2014 and whether early cognitive assessment should account for both genetics and sex."
         },
         {
           "publication_type": "The Transmitter",
-          "headline": "Sex-by-genotype interactions reframe verbal memory deficits in first-episode psychosis",
-          "hook": "The same NSF gene variant associated with female cognitive advantage in healthy populations is linked to the deepest recognition deficits in male first-episode psychosis patients.",
-          "pitch_angle": "Using a family-based design, researchers show that rs9896243 genotype interacts with both sex and clinical status to shape verbal memory \u2014 implicating downstream genes including MAPT and CRHR1 in brain-specific regulatory networks. The work underscores how psychiatric genetics must account for sex as a biological variable, not an afterthought."
+          "headline": "Psychosis erases a female memory advantage tied to a single gene variant",
+          "hook": "A variant in the NSF gene predicts better verbal recall in women \u2014 unless those women have experienced a first psychotic episode, in which case the advantage vanishes entirely.",
+          "pitch_angle": "Using a family-based design that included patients, unaffected siblings, and controls, researchers found that the rs9896243 C allele was associated with higher immediate and delayed recall in healthy women but showed no such benefit \u2014 and possible harm in men \u2014 in first-episode psychosis patients. The results implicate brain-specific regulation of genes including MAPT and CRHR1, pointing toward sex-differentiated neurobiological pathways in early psychosis cognition."
         }
       ],
-      "run_date": "2026-10-08",
+      "run_date": "2026-10-09",
       "category": "Psychology",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42839627",
-      "headline": "Parkinson's psychiatric symptoms keep climbing for a decade \u2014 and anxiety is the lone exception",
+      "headline": "Parkinson's psychiatric symptoms quietly multiply over the first decade \u2014 and anxiety is the rare exception that doesn't worsen",
       "journal": "Movement Disorders",
       "pubdate": "2026 Oct 6",
       "doi": "10.1002/mds.70557",
-      "groundbreaking": "First-in-class human study / Major mental health or behavioral implication",
+      "groundbreaking": "Major mental health or behavioral implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Using data from 846 biomarker-confirmed Parkinson's patients and 282 healthy controls followed for up to 10 years, researchers tracked nine neuropsychiatric symptoms including depression, psychosis, apathy, and cognitive impairment. Eight of the nine symptoms increased steadily in prevalence over the decade, with psychosis and apathy showing the sharpest rises \u2014 while anxiety, unusually, declined slightly over time. The study also identified two persistent patient subgroups at diagnosis \u2014 low and high neuropsychiatric burden \u2014 that remained stable across 10 years, suggesting early symptom patterns may predict long-term psychiatric trajectory.",
-      "why_it_matters": "For patients, families, and clinicians, this large longitudinal study suggests that psychiatric symptoms in Parkinson's are not random or episodic but follow predictable, progressive patterns \u2014 and that identifying high-burden patients early could be key to better care planning.",
-      "caveats": "observational design, WEIRD sample (Western, Educated, Industrialized, Rich, Democratic), self-reported outcomes for some measures",
+      "summary": "Using data from 846 biomarker-confirmed Parkinson's disease patients and 282 healthy controls followed over 10 years, researchers tracked nine neuropsychiatric symptoms and found that all except anxiety increased significantly in prevalence, with psychosis and apathy showing the steepest rises. The mean number of neuropsychiatric symptoms nearly doubled in PD patients (from 1.39 to 2.39), while remaining stable in controls. Cluster analysis also identified stable low- and high-burden subgroups detectable at diagnosis, suggesting early symptom profiling could predict long-term psychiatric course.",
+      "why_it_matters": "Understanding that neuropsychiatric symptoms in Parkinson's are progressive, co-occurring, and patterned from early disease could reshape how clinicians monitor and support patients and caregivers over time.",
+      "caveats": "observational design, single-center recruitment context unclear, WEIRD sample (Western, Educated, Industrialized, Rich, Democratic)",
       "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Large biomarker-confirmed cohort; clear psychiatric relevance; longitudinal design; counterintuitive anxiety finding.",
+      "relevance_score": 7,
+      "relevance_score_reason": "Large biomarker-confirmed cohort, 10-year longitudinal data, high psychiatric and public relevance.",
       "pitch_angles": [
         {
-          "publication_type": "The Atlantic / NYT Well",
-          "headline": "Parkinson's Is a Psychiatric Disease Too \u2014 and Its Mental Toll Builds for a Decade",
-          "hook": "A decade-long study finds that for people with Parkinson's, the psychiatric burden \u2014 psychosis, apathy, depression, cognitive decline \u2014 keeps mounting year after year, with one surprising exception: anxiety actually eases.",
-          "pitch_angle": "Researchers tracked the mental health of over 800 biomarker-confirmed Parkinson's patients for 10 years and found that nearly every neuropsychiatric symptom worsened progressively, painting a picture of Parkinson's as a condition that profoundly reshapes the mind \u2014 not just the body \u2014 while also revealing that some patients carry a persistently heavier psychiatric burden from the very start."
+          "publication_type": "NYT Well / NPR Health",
+          "headline": "Parkinson's is a psychiatric illness too \u2014 and the mental symptoms keep getting worse over a decade",
+          "hook": "Most people think of Parkinson's as a movement disorder, but a large 10-year study finds that psychiatric symptoms like psychosis, apathy, and cognitive impairment quietly accumulate \u2014 and nearly double in number \u2014 over the first decade after diagnosis.",
+          "pitch_angle": "The study of nearly 850 confirmed Parkinson's patients found that almost every neuropsychiatric symptom worsened over time except anxiety, with some patients showing a high-burden pattern identifiable from the very start \u2014 suggesting that mental health monitoring should be built into Parkinson's care from day one."
         },
         {
-          "publication_type": "Psychology Today / Everyday Health",
-          "headline": "Why People With Parkinson's Are at High Risk for Psychiatric Symptoms \u2014 and How Early Patterns May Predict Long-Term Outcomes",
-          "hook": "New research tracking Parkinson's patients for 10 years found that psychiatric symptoms like psychosis and apathy become dramatically more common over time \u2014 but that the patterns shaping who suffers most may be visible from the moment of diagnosis.",
-          "pitch_angle": "The study identified two distinct patient groups at diagnosis \u2014 those with low and high neuropsychiatric burden \u2014 whose trajectories remained remarkably stable over a decade, suggesting that early psychiatric assessment in Parkinson's could help flag who needs the most intensive mental health support long before symptoms fully emerge."
+          "publication_type": "Psychology Today / Monitor on Psychology",
+          "headline": "Why Parkinson's is as much a psychiatric condition as a physical one",
+          "hook": "A decade-long study of nearly 850 Parkinson's patients finds that psychiatric symptoms \u2014 not just tremors and stiffness \u2014 progressively accumulate, with psychosis and apathy among the fastest-growing concerns.",
+          "pitch_angle": "The research identifies stable 'high-burden' and 'low-burden' neuropsychiatric subgroups that are detectable at diagnosis, raising the possibility that early psychological profiling could guide more personalized care for patients and the families who support them."
         }
       ],
-      "run_date": "2026-10-08",
+      "run_date": "2026-10-09",
       "category": "Neurology",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42836841",
-      "headline": "Adults with a childhood epilepsy diagnosis may be going unrecognized \u2014 because diagnostic criteria never grew up with them",
+      "headline": "Adults with a severe childhood epilepsy are likely being missed because diagnostic criteria don't account for how the disease changes over time",
       "journal": "Epilepsia",
       "pubdate": "2026 Oct 6",
       "doi": "10.1002/epi.70489",
       "groundbreaking": "Major mental health or behavioral implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a scoping review of 45 studies (421 patients aged 16+) examining how Lennox-Gastaut syndrome \u2014 a severe childhood epileptic encephalopathy \u2014 presents and is diagnosed in adulthood. The analysis found that fulfillment of standard diagnostic seizure criteria dropped from 73% in childhood to just 41% in adulthood, and key EEG hallmarks were documented in fewer than half of adult patients. The authors suggest that strict adherence to pediatric-centric diagnostic criteria may be causing adults with LGS to be systematically underdiagnosed, with sleep and behavioral comorbidities further masking the condition.",
-      "why_it_matters": "Thousands of adults living with treatment-resistant seizures and cognitive disabilities may be missing an accurate diagnosis \u2014 and the care pathways that come with it \u2014 because the medical field's diagnostic playbook was written only for children.",
-      "caveats": "small sample (N<100 per study), observational design, 78% case reports/series, self-reported outcomes, single-center studies predominate, short follow-up, WEIRD sample (Western, Educated, Industrialized, Rich, Democratic)",
+      "summary": "Researchers conducted a scoping review of 45 studies covering 421 patients to assess how well current diagnostic criteria for Lennox-Gastaut syndrome (LGS) \u2014 a severe epileptic encephalopathy with associated cognitive and behavioral comorbidities \u2014 apply to adults. The review found that key diagnostic criteria, including specific seizure types and EEG hallmarks, were met far less often in adulthood (41%) than in childhood (73%), suggesting that adults are likely being underdiagnosed using pediatric-designed criteria. Sleep and behavioral disorders that frequently accompany LGS in adulthood may further mask diagnostic markers, compounding the risk of missed diagnosis.",
+      "why_it_matters": "Adults living with Lennox-Gastaut syndrome may go undiagnosed for years because clinicians are applying criteria designed for children, potentially leaving cognitive, behavioral, and sleep comorbidities unaddressed.",
+      "caveats": "small sample (N<100 per study), observational design, predominantly case reports/series, self-reported outcomes, single-region studies, heterogeneous reporting",
       "fact_check_note": "",
       "relevance_score": 5,
-      "relevance_score_reason": "Epilepsy/neurology focus; behavioral/psychiatric comorbidities mentioned but not central.",
+      "relevance_score_reason": "Neurological disorder with behavioral/cognitive implications; low-quality evidence base limits pitch.",
       "pitch_angles": [
         {
           "publication_type": "STAT News",
-          "headline": "A childhood epilepsy diagnosis doesn't always follow patients into adulthood \u2014 and that's a diagnostic crisis",
-          "hook": "The criteria doctors use to diagnose one of the most severe forms of epilepsy were built entirely on pediatric data \u2014 and a new review suggests adults are paying the price.",
-          "pitch_angle": "Lennox-Gastaut syndrome affects people across their lifetimes, but diagnostic tools haven't kept pace with how the condition changes in adults; this review calls for age-adapted frameworks and a shift from snapshot to longitudinal diagnosis."
+          "headline": "Adults with a severe childhood epilepsy may be flying under the radar \u2014 because the diagnostic rulebook was written for kids",
+          "hook": "The criteria used to diagnose Lennox-Gastaut syndrome were built on pediatric data, and a new review suggests that means many adults with the condition are simply not being recognized.",
+          "pitch_angle": "A scoping review of 421 patients found that key LGS diagnostic markers drop dramatically in adulthood, suggesting widespread underdiagnosis. The finding highlights a broader systemic problem: rare neurological conditions that emerge in childhood rarely get updated diagnostic frameworks as patients age."
         }
       ],
-      "run_date": "2026-10-08",
+      "run_date": "2026-10-09",
       "category": "Neurology",
       "chunk": "1/2",
       "status": "new"
     },
     {
+      "pmid": "42838229",
+      "headline": "Bipolar disorder patients who exercise regularly score nearly a full standard deviation higher on cognitive tests",
+      "journal": "Journal of Affective Disorders",
+      "pubdate": "2026 Oct 6",
+      "doi": "10.1016/j.jad.2026.122591",
+      "groundbreaking": "Major mental health or behavioral implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a cross-sectional analysis of pre-randomization screening data from an ongoing RCT, comparing cognitive performance between euthymic adults with bipolar disorder who did and did not engage in regular structured exercise. Among 108 participants (aged 18\u201355) at a Brazilian outpatient clinic, those who exercised at least twice weekly scored significantly higher on a global cognition screen (Cohen's d = 0.95), with working memory differences surviving strict statistical correction. The cross-sectional design means the direction of the relationship \u2014 whether exercise drives better cognition or cognitively higher-functioning individuals are more likely to exercise \u2014 cannot be determined.",
+      "why_it_matters": "Cognitive impairment is among the most disabling features of bipolar disorder, and this study adds to a growing evidence base suggesting physical exercise may be a low-cost, accessible strategy worth investigating as an adjunct to treatment.",
+      "caveats": "observational design, cross-sectional, self-reported outcomes, small sample (N=108), single-center, WEIRD sample, no adjustment for clinical or demographic covariates, exercise measured dichotomously with no intensity or duration data, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Bipolar cognition + exercise angle is accessible; heavily caveated cross-sectional design limits strength.",
+      "pitch_angles": [
+        {
+          "publication_type": "Psychology Today",
+          "headline": "For people with bipolar disorder, exercise is linked to dramatically sharper thinking",
+          "hook": "Adults with bipolar disorder who exercised regularly scored nearly a full standard deviation higher on cognitive tests than those who didn't \u2014 a gap large enough to be clinically meaningful.",
+          "pitch_angle": "Cognitive difficulties are a hidden burden for many people with bipolar disorder, persisting even during stable periods and undermining daily functioning. This study adds early evidence that regular physical activity may be associated with better brain performance in this group, though a causal link has not been established."
+        }
+      ],
+      "run_date": "2026-10-09",
+      "category": "Psychiatry",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
       "pmid": "42834311",
-      "headline": "Even medical professionals panic over positive HPV self-test results \u2014 and the healthcare system may be to blame",
+      "headline": "Even doctors get anxious after a positive HPV self-test \u2014 and misunderstanding what 'screening' means may be why",
       "journal": "International Journal of Behavioral Medicine",
       "pubdate": "2026 Oct 5",
       "doi": "10.1007/s12529-026-10496-w",
       "groundbreaking": "Counterintuitive finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers assessed anxiety levels in 72 women \u2014 including medical professionals and university staff \u2014 who received high-risk HPV results through a minimally supported self-sampling pathway (without prescreening counseling). Nearly a quarter (23.6%) reported clinically meaningful anxiety, and working in medicine did not significantly protect against it. Multivariate analysis found a non-significant trend suggesting that women who confused screening with diagnosis had higher anxiety, pointing to a systemic communication gap rather than individual health literacy as the driver.",
-      "why_it_matters": "As HPV self-sampling scales up globally as a more accessible cervical cancer screening option, the finding suggests that the psychological cost of impersonal result delivery may fall disproportionately on patients \u2014 regardless of their medical background \u2014 unless notification systems are redesigned.",
-      "caveats": "small sample (N<100), single-center, observational design, self-reported outcomes, key findings are statistically non-significant trends, single region (Bangkok, Thailand), WEIRD sample (Western, Educated, Industrialized, Rich, Democratic) \u2014 sample skews toward educated healthcare workers",
-      "fact_check_note": "Key predictors (health consequences subscale, screening vs. diagnosis confusion) did not reach conventional statistical significance (p=0.099 and p=0.060 respectively); findings are trends only and should not be presented as confirmed predictors.",
+      "summary": "Researchers in Bangkok surveyed 72 women \u2014 including medical professionals and university staff \u2014 who received high-risk HPV results via vaginal self-sampling with minimal support or counseling, assessing anxiety using standardized scales and examining predictors via logistic regression. Nearly one in four women (23.6%) showed clinically meaningful anxiety, and working in healthcare did not reduce anxiety risk. A trend (non-significant) suggested that women who confused 'screening' (assessing risk) with 'diagnosis' (having disease) had more than four times the odds of anxiety, pointing to a systemic communication failure in how self-sampling results are delivered.",
+      "why_it_matters": "As HPV self-sampling scales globally as a convenient cervical cancer screening option, this study suggests that the convenience comes with an underappreciated psychological cost \u2014 one that better result-communication protocols could potentially reduce.",
+      "caveats": "small sample (N<100), observational design, single-center, WEIRD sample (medical professionals and university staff in Bangkok \u2014 not representative of general population), self-reported outcomes, key predictor findings did not reach statistical significance",
+      "fact_check_note": "The study's key predictor findings (health consequences subscale p=0.099; screening vs. diagnosis confusion aOR 4.37, p=0.060) did not reach conventional statistical significance (p<0.05); these should be characterized as trends or non-significant associations, not confirmed predictors.",
       "relevance_score": 6,
-      "relevance_score_reason": "Counterintuitive finding (doctors equally anxious), health anxiety relevance, but small N and non-significant key results.",
+      "relevance_score_reason": "Counterintuitive finding (doctors equally anxious); small N and non-significant key findings limit strength.",
       "pitch_angles": [
         {
-          "publication_type": "HuffPost Health / Verywell Mind / Health.com",
-          "headline": "Doctors get just as anxious about a positive HPV result as everyone else \u2014 here's what that reveals about self-testing",
-          "hook": "When women received positive HPV self-test results through an impersonal digital notification \u2014 with no counseling beforehand \u2014 nearly one in four experienced clinically meaningful anxiety, and being a medical professional offered no protection.",
-          "pitch_angle": "A small study from Thailand found that the psychological burden of HPV self-sampling may stem less from individual health literacy and more from a systemic 'information vacuum' in how results are delivered. As at-home and self-directed screening expands, the findings suggest that convenience without context can quietly fuel health anxiety \u2014 even among those who should theoretically know better."
+          "publication_type": "Women's Health / Health.com / Everyday Health",
+          "headline": "Your doctor might panic after a positive HPV test too \u2014 here's what's really going on",
+          "hook": "Nearly 1 in 4 women experienced meaningful anxiety after getting a positive HPV self-test result \u2014 and being a medical professional offered no protection.",
+          "pitch_angle": "A study from Thailand found that healthcare workers were just as likely to become anxious after receiving high-risk HPV results as non-medical staff, suggesting the anxiety stems not from ignorance but from a system that delivers potentially alarming results without context or support."
+        },
+        {
+          "publication_type": "STAT News / Scientific American",
+          "headline": "HPV self-sampling's 'information vacuum' triggers anxiety even in medical professionals \u2014 and may undermine the screening's promise",
+          "hook": "As HPV self-sampling expands as a convenient, low-cost cervical cancer screening tool, a new study reveals a hidden psychological cost: a 23.6% anxiety rate that professional medical knowledge does nothing to prevent.",
+          "pitch_angle": "Researchers in Bangkok found that confusion between screening and diagnosis \u2014 not lack of knowledge \u2014 may drive anxiety after self-sampling, pointing to a systemic communication failure that could undermine adoption of one of public health's most promising screening expansions."
         }
       ],
-      "run_date": "2026-10-08",
+      "run_date": "2026-10-09",
       "category": "Behavioral Sciences",
       "chunk": "1/2",
       "status": "new"
     },
     {
+      "pmid": "42833428",
+      "headline": "Teen substance use isn't just early-onset adult addiction \u2014 and treating it like that may be making things worse",
+      "journal": "Neuroscience and Biobehavioral Reviews",
+      "pubdate": "2026 Oct 5",
+      "doi": "10.1016/j.neubiorev.2026.107023",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research / Major mental health or behavioral implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers reviewed human and preclinical neuroscience literature on adolescent substance use (ages 13\u201318) and found that dominant models of addiction \u2014 built on adult chronic-use patterns \u2014 do not reliably apply to teens, whose brains show distinct structural and functional characteristics. Based on this literature, the authors propose a new framework called the SNAP (Substance use Neuroplasticity And Peer) model, which foregrounds adolescent-specific neuroplasticity and peer influence as the primary drivers of substance use initiation and escalation. No new primary data were collected; the paper is a conceptual review and model proposal.",
+      "why_it_matters": "If adult addiction models are being inappropriately applied to adolescents in treatment settings, it suggests current interventions for teen substance use may be fundamentally misaligned with how teen brains actually work.",
+      "caveats": "narrative review (no primary data), model is theoretical and untested, no clinical trial data supporting SNAP model outcomes",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive challenge to established adult-addiction models applied to teens; high public relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / STAT News",
+          "headline": "We've Been Treating Teen Addiction Like Adult Addiction. Scientists Say That's a Mistake.",
+          "hook": "Decades of neuroscience research on addiction was built almost entirely on adult brains \u2014 and researchers now argue that applying those findings to teenagers may be distorting how we understand and treat adolescent substance use.",
+          "pitch_angle": "A new theoretical model proposes that adolescent substance use is driven by a unique combination of heightened neuroplasticity and peer influence \u2014 not the chronic reward-deficit cycle seen in adults \u2014 which may explain why adult-derived treatment approaches so often fail teens."
+        },
+        {
+          "publication_type": "NPR Health / Psychology Today",
+          "headline": "The Teen Brain on Drugs Works Differently Than the Adult Brain \u2014 So Why Are We Using the Same Playbook?",
+          "hook": "A team of neuroscientists argues that the field has been applying an adult roadmap to a fundamentally adolescent problem, and that peer relationships \u2014 not just brain chemistry \u2014 are central to why teens start and escalate substance use.",
+          "pitch_angle": "The SNAP model reframes adolescent substance use as a developmentally distinct phenomenon shaped by neuroplasticity and social context, offering a potential new direction for prevention and intervention programs aimed at 13-to-18-year-olds."
+        }
+      ],
+      "run_date": "2026-10-09",
+      "category": "Neurology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42832299",
+      "headline": "For Indonesian teens with HIV, stigma and family rejection are bigger barriers to treatment than the medication itself",
+      "journal": "Culture, Health & Sexuality",
+      "pubdate": "2026 Oct 5",
+      "doi": "10.1080/13691058.2026.2741374",
+      "groundbreaking": "Major mental health or behavioral implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted in-depth qualitative interviews with 20 adolescents aged 16\u201318 living with HIV in Yogyakarta, Indonesia, to understand why staying on antiretroviral therapy (ART) is so difficult. Using a socio-ecological framework, the study found that barriers operated at three levels: individual (post-diagnosis mental health struggles, fatalistic thinking), familial (lack of privacy, family rejection of same-sex sexuality, poor family support), and societal (pervasive stigma in healthcare, school, and community settings). Mental health distress and social stigma \u2014 not medication side effects \u2014 emerged as the dominant forces pushing adolescents away from life-saving treatment.",
+      "why_it_matters": "The findings suggest that HIV treatment adherence in adolescents cannot be addressed through medication management alone \u2014 psychosocial support, family engagement, and stigma reduction are essential components of care.",
+      "caveats": "small sample (N<100), observational design, single-center, self-reported outcomes, narrow to single region (Yogyakarta, Indonesia)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Mental health barriers to HIV treatment; qualitative N=20 in single Indonesian city limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "Teens with HIV aren't skipping their meds because of side effects \u2014 it's stigma and family rejection doing the damage",
+          "hook": "A new qualitative study finds that for Indonesian adolescents living with HIV, the biggest threats to staying on life-saving treatment are mental health crises and social rejection \u2014 not the drugs themselves.",
+          "pitch_angle": "Interviews with 20 teens in Yogyakarta reveal a layered crisis of stigma, fatalism, and family dysfunction that undermines antiretroviral therapy, pointing to the urgent need for psychosocial \u2014 not just pharmacological \u2014 approaches to adolescent HIV care."
+        }
+      ],
+      "run_date": "2026-10-09",
+      "category": "Behavioral Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42833505",
+      "headline": "A stress-related gene's chemical 'on/off switch' may link trauma history to brain thinning and cognitive deficits in schizophrenia",
+      "journal": "Progress in Neuro-Psychopharmacology & Biological Psychiatry",
+      "pubdate": "2026 Oct 5",
+      "doi": "10.1016/j.pnpbp.2026.111959",
+      "groundbreaking": "First-in-class human study / Major mental health or behavioral implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a case-control study of 35 people with schizophrenia and 35 healthy controls, researchers examined DNA methylation patterns of the stress-related FKBP5 gene alongside brain imaging (cortical thickness) and IQ scores. A methylation pattern distinguishing schizophrenia cases from controls was associated with reduced cortical thickness in specific brain regions. Mediation analysis suggested that the relationship between FKBP5 methylation differences and lower IQ in schizophrenia may be partly explained by this cortical thinning.",
+      "why_it_matters": "The findings suggest that epigenetic changes in a gene known to respond to stress may be a biological link between environmental exposures, brain structure changes, and the cognitive difficulties that significantly impair daily functioning in schizophrenia.",
+      "caveats": "small sample (N<100), observational design, single-center, WEIRD sample (Western, Educated, Industrialized, Rich, Democratic), purely neuroimaging with behavioral outcome but small N limits mediation reliability, cross-sectional design cannot establish causality",
+      "fact_check_note": "Abstract was truncated before full results were reported; summary reflects only the available text. Mediation result direction inferred from available excerpt \u2014 should be verified against full paper.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Fits journalist's psychosis-cognition interest; very small sample is a major limitation.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "A stress gene's epigenetic fingerprint may explain why schizophrenia erodes both the brain and cognition",
+          "hook": "Changes in the chemical marks on a stress-responsive gene may partly explain why people with schizophrenia experience both brain thinning and lower cognitive performance.",
+          "pitch_angle": "Researchers found that distinct DNA methylation patterns in the FKBP5 gene \u2014 known to regulate the stress response \u2014 were associated with reduced cortical thickness in schizophrenia, and that this thinning appeared to mediate the relationship between epigenetic differences and lower IQ. The study is small and preliminary, but it opens a potential line of inquiry into how stress-related epigenetic changes may mechanistically connect environmental history, brain structure, and cognitive symptoms in psychotic disorders."
+        }
+      ],
+      "run_date": "2026-10-09",
+      "category": "Psychiatry",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
       "pmid": "42830117",
-      "headline": "A protein linked to Alzheimer's may also be fueling hard-to-treat epilepsy",
+      "headline": "A protein linked to Alzheimer's may also drive seizures in drug-resistant epilepsy",
       "journal": "Neurobiology of Disease",
       "pubdate": "2026 Oct 4",
       "doi": "10.1016/j.nbd.2026.107635",
       "groundbreaking": "First-in-class human study / Major mental health or behavioral implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers recorded electrical activity from surgically removed hippocampal tissue of 26 patients with drug-resistant temporal lobe epilepsy and hippocampal sclerosis, then tested for neurodegeneration-associated proteins using immunohistochemistry. Only hyperphosphorylated tau (p-tau) \u2014 a hallmark of Alzheimer's disease \u2014 was detected, and its accumulation was positively correlated with neuronal hyperexcitability when tissue was chemically provoked. The finding suggests p-tau may play a role in the pathogenesis of drug-resistant epilepsy, opening a potential new therapeutic target.",
-      "why_it_matters": "For the millions living with drug-resistant epilepsy, this finding suggests the brain changes driving uncontrolled seizures may overlap with Alzheimer's-linked pathology \u2014 a connection that could point toward entirely new treatment strategies.",
-      "caveats": "small sample (N<100), single-center, ex vivo tissue study (not live patients), observational design",
+      "summary": "Researchers recorded electrical activity from human hippocampal tissue surgically removed from 26 patients with drug-resistant mesial temporal lobe epilepsy and found that higher levels of hyperphosphorylated tau \u2014 a hallmark of Alzheimer's disease \u2014 were positively associated with greater neuronal network excitability when chemically provoked. This is the first study to demonstrate this correlation directly in human epileptic brain tissue using multielectrode arrays. The finding suggests tau accumulation may actively contribute to the pathology of drug-resistant epilepsy, not just accompany it.",
+      "why_it_matters": "If tau burden contributes to seizure severity in drug-resistant epilepsy, it could open a new therapeutic target for a condition that fails to respond to existing medications.",
+      "caveats": "small sample (N<100), single-center, observational design, ex vivo tissue study (not live patients), WEIRD sample (Western, Educated, Industrialized, Rich, Democratic)",
       "fact_check_note": "",
       "relevance_score": 6,
-      "relevance_score_reason": "Novel human tissue finding; indirect mental health link via neurodegeneration and epilepsy.",
+      "relevance_score_reason": "Novel human tissue finding linking tau to epilepsy; limited by small N and ex vivo design.",
       "pitch_angles": [
         {
-          "publication_type": "STAT News / The Transmitter",
-          "headline": "An Alzheimer's protein is turning up in epileptic brains \u2014 and may be making seizures worse",
-          "hook": "Tau, the protein that tangles in Alzheimer's disease, has now been linked to the runaway electrical activity that makes some epilepsy impossible to treat.",
-          "pitch_angle": "A first-of-its-kind study using living human brain tissue found that higher tau burden correlates with greater neuronal hyperexcitability in drug-resistant epilepsy \u2014 suggesting the two devastating conditions may share more biological machinery than previously recognized, with potential implications for how we target both."
-        },
-        {
-          "publication_type": "Scientific American",
-          "headline": "Epilepsy and Alzheimer's May Share a Dangerous Brain Protein",
-          "hook": "Scientists found Alzheimer's signature tau protein in the brain tissue of epilepsy patients \u2014 and the more tau, the harder the brain fired.",
-          "pitch_angle": "Using surgically removed tissue from patients with the most treatment-resistant form of epilepsy, researchers found that hyperphosphorylated tau \u2014 not previously considered a driver of seizures \u2014 correlates with how excitable the neural network becomes, suggesting an unexpected biological bridge between epilepsy and dementia."
+          "publication_type": "STAT News / Scientific American",
+          "headline": "An Alzheimer's protein may be fueling drug-resistant seizures \u2014 and no one knew until now",
+          "hook": "For the first time, researchers found that the same tau tangles driving Alzheimer's disease are also correlated with more severe electrical misfiring in human epileptic brain tissue.",
+          "pitch_angle": "The study, using tissue removed during epilepsy surgery, found that higher tau loads predicted greater network hyperexcitability \u2014 raising the possibility that neurodegeneration-linked proteins play an active role in drug-resistant epilepsy, potentially pointing toward a new class of treatments for a condition that devastates quality of life."
         }
       ],
-      "run_date": "2026-10-08",
+      "run_date": "2026-10-09",
       "category": "Neurology",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42829142",
-      "headline": "The brain has no dedicated 'moral center' \u2014 ethical decisions emerge from shifting networks, new model suggests",
+      "headline": "Making a moral choice may not involve a dedicated 'moral brain region' \u2014 it's a flexible network that shifts depending on how hard the decision is",
       "journal": "Neuroscience and Biobehavioral Reviews",
       "pubdate": "2026 Oct 3",
       "doi": "10.1016/j.neubiorev.2026.107017",
       "groundbreaking": "Counterintuitive finding / Overturns prior research",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a narrative review integrating neuroimaging and electrophysiological evidence to model how the brain handles first-person moral choices. Rather than identifying a fixed 'moral network,' the model proposes that moral decision-making emerges from flexible, demand-dependent coordination among domain-general brain networks including salience, default-mode, executive-control, and value-integration systems. The key finding suggests moral cognition is not a dedicated neural function but a dynamic interplay that shifts depending on the complexity and competing demands of the ethical situation.",
-      "why_it_matters": "Understanding that moral decision-making relies on flexible, general-purpose brain networks \u2014 rather than a hardwired moral circuit \u2014 could reshape how researchers and clinicians think about failures of ethical judgment in conditions like psychopathy, frontotemporal dementia, or moral injury.",
-      "caveats": "observational design, purely neuroimaging with no behavioral outcome, narrative review (not systematic meta-analysis)",
+      "summary": "This narrative review synthesizes neuroimaging and electrophysiological research on how the brain processes first-person moral decisions \u2014 situations where an individual must personally choose between competing moral demands. Rather than supporting the existence of a dedicated 'moral network' in the brain, the review finds that moral choice draws on overlapping, domain-general systems including salience detection, self-referential processing, executive control, and value integration \u2014 with their relative involvement shifting based on the complexity of the moral demand. No new primary data were collected; the paper proposes a theoretical 'demand-dependent' working model with testable predictions.",
+      "why_it_matters": "Challenging the idea of a fixed moral brain circuit has implications for how researchers and clinicians understand moral reasoning deficits in conditions like psychopathy, frontotemporal dementia, and traumatic brain injury.",
+      "caveats": "narrative review (no primary data), model is theoretical and untested, purely neuroimaging with no behavioral outcome, no clinical population studied",
       "fact_check_note": "",
       "relevance_score": 5,
-      "relevance_score_reason": "Conceptually interesting but no human behavioral outcomes; limited direct mental health relevance.",
+      "relevance_score_reason": "Counterintuitive neuroscience framing but purely theoretical review; limited direct mental health application.",
       "pitch_angles": [
         {
-          "publication_type": "Scientific American / The Atlantic",
-          "headline": "Your Brain Has No Moral Headquarters \u2014 And That Changes How We Think About Right and Wrong",
-          "hook": "A new neuroscience model dismantles the idea that the brain has a dedicated 'moral center,' finding instead that ethical decisions are assembled on the fly from networks built for other purposes.",
-          "pitch_angle": "Researchers synthesizing years of brain imaging and EEG data propose that moral choice is not the product of a fixed neural circuit but an emergent, situation-dependent coordination among general cognitive systems. This reframing has implications for understanding why moral judgment can break down under stress, in certain psychiatric conditions, or when cognitive demands are high."
+          "publication_type": "The Atlantic / Scientific American",
+          "headline": "There Is No 'Moral Brain.' How We Make Ethical Choices Is Far More Fluid Than Scientists Thought.",
+          "hook": "Decades of neuroscience research have searched for the brain's moral center \u2014 and a new review argues the search may have been looking for the wrong thing entirely.",
+          "pitch_angle": "Rather than a fixed moral circuit, researchers propose that ethical decision-making emerges from shifting coordination among general-purpose brain networks, with different systems recruited depending on how morally demanding the situation is \u2014 a finding with potential implications for understanding disorders that alter moral judgment."
         }
       ],
-      "run_date": "2026-10-08",
-      "category": "Behavioral Sciences",
+      "run_date": "2026-10-09",
+      "category": "Neurology",
       "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42832070",
+      "headline": "HIV-related cognitive decline affects millions in Africa \u2014 but the tools to diagnose it were built for wealthy, Western clinics",
+      "journal": "Journal of NeuroVirology",
+      "pubdate": "2026 Oct 2",
+      "doi": "10.1007/s13365-026-01336-4",
+      "groundbreaking": "Major mental health or behavioral implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This narrative review of 80 studies examined the diagnostic landscape for HIV-Associated Neurocognitive Disorder (HAND) in sub-Saharan Africa, where an estimated 72% of the 16 million global HAND cases reside. The authors found that standard neuropsychological diagnostic tools are literacy-dependent, culturally biased, and require specialist administration \u2014 making them largely inaccessible in resource-limited African healthcare settings. The review proposes a three-tier blood and CSF biomarker framework using candidates such as serum ICAM-5 and plasma neurofilament light chain (NfL) to enable early, scalable HAND detection at the point of HIV care.",
+      "why_it_matters": "HIV-related cognitive impairment is quietly disabling millions of people across sub-Saharan Africa, but the diagnostic tools to identify and manage it remain locked behind barriers of infrastructure, literacy, and specialist access \u2014 a global health equity failure with growing urgency.",
+      "caveats": "observational design, narrative review (not systematic), WEIRD sample (diagnostic tools developed in Western contexts)",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "High-prevalence condition with major cognitive/behavioral impact; narrative review limits strength.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The HIV brain crisis no one is talking about",
+          "hook": "Up to half of people with HIV develop cognitive impairment \u2014 and the vast majority of them live in Africa, where virtually no one can diagnose it.",
+          "pitch_angle": "HIV-Associated Neurocognitive Disorder affects an estimated 11 million people in sub-Saharan Africa, yet the standard diagnostic tests require specialists, literacy, and resources that most African health systems don't have. A new review argues that simple blood biomarkers could unlock early detection at the point of HIV care \u2014 and that failing to act is a choice."
+        },
+        {
+          "publication_type": "STAT News",
+          "headline": "A three-tier biomarker framework could bring HIV-related cognitive disorder diagnosis to African primary care",
+          "hook": "Researchers propose using widely accessible blood tests \u2014 including neurofilament light chain \u2014 to screen for HIV-associated neurocognitive disorder in settings where specialist neuropsychological assessment is effectively impossible.",
+          "pitch_angle": "The review highlights that current HAND diagnostics were designed for high-income, Western clinical contexts and systematically fail in the region bearing the highest global burden of the condition. The proposed biomarker framework, if validated, could represent a major step toward equity in neuroHIV care."
+        }
+      ],
+      "run_date": "2026-10-09",
+      "category": "Neurology",
+      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -1488,66 +1743,6 @@
       ],
       "run_date": "2026-10-07",
       "category": "Psychology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42832299",
-      "headline": "Stigma, family rejection, and fear of the future are driving Indonesian teens with HIV off life-saving treatment",
-      "journal": "Culture, Health & Sexuality",
-      "pubdate": "2026 Oct 5",
-      "doi": "10.1080/13691058.2026.2741374",
-      "groundbreaking": "Major mental health or behavioral implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted in-depth qualitative interviews with 20 adolescents aged 16\u201318 living with HIV in Yogyakarta, Indonesia, to identify barriers to staying on antiretroviral therapy. Findings showed that post-diagnosis mental health struggles, fatalistic beliefs about the future, family rejection of same-sex sexuality, lack of privacy in shared homes, and multi-layered stigma in healthcare, school, and community settings all undermined treatment engagement. The study suggests that psychological distress and social exclusion \u2014 not just medical access \u2014 are central obstacles to treatment adherence in this population.",
-      "why_it_matters": "Understanding how stigma and mental health intersect to derail life-saving HIV treatment in adolescents could inform more effective, psychosocially integrated care models worldwide.",
-      "caveats": "small sample (N<100), qualitative design, single-center, WEIRD sample (narrow to Indonesia/Yogyakarta context)",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Mental health barriers to HIV treatment; very small qualitative sample, region-specific context limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "NPR Health / General health",
-          "headline": "For Indonesian Teens With HIV, Fear and Family Rejection May Be as Dangerous as the Virus Itself",
-          "hook": "A new study finds that stigma and shattered futures \u2014 not just pill access \u2014 are pushing HIV-positive adolescents off life-saving medication.",
-          "pitch_angle": "Researchers found that mental health fallout after diagnosis, family rejection tied to sexual identity, and pervasive stigma in schools and clinics are all pushing Indonesian adolescents with HIV away from treatment. The findings point to a global gap in HIV care: treating the virus without addressing the psychological and social wounds that make staying on treatment nearly impossible."
-        }
-      ],
-      "run_date": "2026-10-07",
-      "category": "Behavioral Sciences",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42832070",
-      "headline": "HIV-related cognitive decline affects millions in Africa \u2014 and current tests can't reliably catch it",
-      "journal": "Journal of Neurovirology",
-      "pubdate": "2026 Oct 2",
-      "doi": "10.1007/s13365-026-01336-4",
-      "groundbreaking": "Major mental health or behavioral implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a narrative review of 80 studies to evaluate HIV-Associated Neurocognitive Disorder (HAND) in sub-Saharan Africa, where an estimated 72% of the world's 16 million HAND cases reside. Standard diagnostic tools require specialist-administered neuropsychological testing that is literacy-dependent and culturally biased, creating a major diagnostic gap across the region. The review identifies serum ICAM-5, serum ATP, and plasma neurofilament light chain (NfL) as the most promising blood-based biomarkers, and proposes a three-tier diagnostic framework suited to African healthcare settings.",
-      "why_it_matters": "Millions of people with HIV in Africa are living with undiagnosed cognitive decline because current diagnostic tools are inaccessible in low-resource settings \u2014 a validated blood-based screening approach could transform early detection.",
-      "caveats": "observational design, secondary analysis, WEIRD sample (Western, Educated, Industrialized, Rich, Democratic) criteria inverted \u2014 findings specific to sub-Saharan African low-resource settings",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "High global burden, cognitive/mental health implications, but review-only design limits strength.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "A Blood Test Could Help Diagnose HIV-Related Brain Damage Where Specialists Don't Exist",
-          "hook": "Seventy-two percent of the world's HIV-associated cognitive disorder cases are in sub-Saharan Africa, yet the standard diagnostic test requires specialist equipment and is culturally biased \u2014 leaving millions undiagnosed.",
-          "pitch_angle": "A new review proposes a tiered blood-biomarker framework that could enable early detection of HIV-related cognitive decline at the point of HIV care across Africa, where neuropsychological testing is largely inaccessible. The approach, if validated, could reshape how a neglected neurological crisis in one of the world's most HIV-affected regions is managed."
-        },
-        {
-          "publication_type": "The Atlantic",
-          "headline": "Millions of People With HIV Are Losing Their Minds \u2014 and Medicine Isn't Looking",
-          "hook": "HIV-associated cognitive disorder is one of the most common neurological complications of HIV, yet in the region where it's most prevalent, there is almost no way to diagnose it.",
-          "pitch_angle": "Standard diagnostic tools for HIV-related brain damage are literacy-dependent, culturally biased, and require specialists that don't exist across much of sub-Saharan Africa \u2014 leaving an epidemic of cognitive decline invisible. Researchers are now searching for a simple blood test that could finally bring this overlooked condition into view."
-        }
-      ],
-      "run_date": "2026-10-07",
-      "category": "Neurology",
       "chunk": "1/2",
       "status": "new"
     },
