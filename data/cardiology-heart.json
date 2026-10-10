@@ -1,78 +1,372 @@
 {
-  "last_updated": "2026-10-09T16:59:49.309246+00:00",
-  "total_studies": 597,
-  "new_this_run": 9,
+  "last_updated": "2026-10-10T15:52:34.181774+00:00",
+  "total_studies": 600,
+  "new_this_run": 3,
   "studies": [
     {
       "pmid": "42849796",
-      "headline": "The standard test for a leaky heart valve may be hiding serious right heart damage \u2014 a new MRI measure catches what's missed",
-      "journal": "International Journal of Cardiology",
+      "headline": "Standard heart scan metric may be misleading doctors about right heart function in leaky valve patients",
+      "journal": "International journal of cardiology",
       "pubdate": "2026 Oct 8",
       "doi": "10.1016/j.ijcard.2026.134969",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a multicentre study of 289 patients with severe tricuspid regurgitation (mean age 71, 66% women), researchers used cardiac MRI to evaluate two novel indices of right ventricular function \u2014 an effective RV ejection fraction that accounts for regurgitant volume, and a volumetric RV-pulmonary artery coupling index \u2014 against the standard RV ejection fraction measure. Over follow-up, 37% of patients reached the primary endpoint of death or heart failure hospitalization. Both novel indices independently predicted outcomes and significantly improved risk discrimination beyond the conventional measure, and both improved after tricuspid valve intervention.",
-      "why_it_matters": "The standard echocardiographic measure of right heart function in people with severe tricuspid regurgitation may systematically overestimate how well the heart is working, potentially delaying life-saving valve intervention.",
-      "caveats": "observational design, surrogate endpoints only, single-center for primary data collection though multicentre",
+      "summary": "In a multicentre study of 289 patients with severe tricuspid regurgitation (mean age 71 years, 66% women), researchers used cardiac MRI to evaluate two novel measures of right ventricular function \u2014 an effective ejection fraction that accounts for leakage volume, and a volumetric coupling index \u2014 against the conventional RV ejection fraction. Over follow-up, 37% of patients died or were hospitalized for heart failure, and both new indices predicted these outcomes significantly better than the standard metric. Among 50 patients who underwent tricuspid valve repair or replacement, the new indices improved and continued to track mortality.",
+      "why_it_matters": "For patients with a leaky tricuspid valve \u2014 a condition increasingly recognized and treated \u2014 the standard cardiac scan measure may give a falsely reassuring picture of heart function, and newer MRI-derived indices found here to be more accurate could eventually change how doctors decide who needs surgery.",
+      "caveats": "observational design, surrogate endpoints only, single-center for subgroup analysis (N=50 post-intervention subgroup)",
       "fact_check_note": "",
       "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive finding on diagnostic gap; hard endpoints included; majority-female cohort is notable strength.",
+      "relevance_score_reason": "Counterintuitive finding overturning standard metric; hard endpoints, clean multicentre design, high-prevalence valve condition.",
       "pitch_angles": [
         {
           "publication_type": "Medscape Cardiology / MedPage Today",
-          "headline": "Standard RVEF Overestimates Right Heart Function in Severe TR \u2014 New CMR Indices Catch What's Hidden",
-          "hook": "Conventional right ventricular ejection fraction systematically overestimates heart performance in patients with severe tricuspid regurgitation \u2014 and two new cardiac MRI-derived indices reliably fill that gap.",
-          "pitch_angle": "A multicentre study of 289 patients found that effective RVEF and a volumetric RV-PA coupling index each independently predicted death or heart failure hospitalization, and outperformed standard RVEF in risk discrimination. The fact that both indices improved after tricuspid valve intervention suggests they could become standard tools for timing surgery and tracking recovery in a condition that has historically been undertreated."
+          "headline": "Conventional RVEF Misleads in Severe Tricuspid Regurgitation \u2014 Two MRI Indices Do Better",
+          "hook": "The ejection fraction cardiologists routinely use to assess right heart function in severe tricuspid regurgitation may significantly overestimate how well the heart is actually working.",
+          "pitch_angle": "A multicentre CMR study of 289 patients found that two novel MRI-derived indices \u2014 one corrected for regurgitant volume, one measuring RV-pulmonary artery coupling \u2014 each independently predicted death or heart failure hospitalization better than conventional RVEF, suggesting current imaging standards may leave high-risk patients unidentified before irreversible damage sets in."
         },
         {
-          "publication_type": "Women's Health / General health",
-          "headline": "A Heart Valve Problem Common in Older Women May Be Going Undetected \u2014 A Better Test Could Change That",
-          "hook": "Two-thirds of participants in a new cardiac study on tricuspid regurgitation were women \u2014 and the researchers found the standard test for right heart damage is missing the full picture.",
-          "pitch_angle": "Tricuspid regurgitation, a leaky right-sided heart valve more common in women, is often detected late because conventional heart function measurements look normal even when serious damage is building. New cardiac MRI measures that account for the actual blood being lost through the leaky valve gave doctors a far clearer \u2014 and more worrying \u2014 picture of heart health, potentially pointing toward earlier, life-saving intervention."
+          "publication_type": "General health / Health.com / Verywell Health",
+          "headline": "A Key Heart Scan Number Is Often Wrong for People With Leaky Valves \u2014 Here's What Works Better",
+          "hook": "For people with a severely leaky tricuspid valve, the standard measure of right heart strength on a cardiac MRI may be giving doctors \u2014 and patients \u2014 a falsely reassuring picture.",
+          "pitch_angle": "New research suggests two more precise imaging metrics could better identify which patients are at highest risk of death or hospitalization, potentially improving decisions about when valve repair or replacement is needed \u2014 a question that matters especially for the millions of older adults, predominantly women, living with significant tricuspid regurgitation."
         }
       ],
-      "run_date": "2026-10-09",
+      "run_date": "2026-10-10",
       "category": "Cardiology",
       "chunk": "2/2",
       "status": "new"
     },
     {
+      "pmid": "42777743",
+      "headline": "A new breath-analysis method detects three times more chemical signals \u2014 and could one day help diagnose disease without a blood draw",
+      "journal": "Journal of Breath Research",
+      "pubdate": "2026 Oct 8",
+      "doi": "10.1088/1752-7163/aeabcd",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Australian researchers at UNSW Sydney coupled high-resolution FAIMS (field asymmetric ion mobility spectrometry) with mass spectrometry and atmospheric pressure chemical ionization to analyze exhaled breath volatile organic compounds in four participants. The combined approach detected more than 200% more breath chemical features compared to mass spectrometry alone, consistently identifying 60\u2013130 signals per sample, with breath profiles clustering by individual participant. The study is a proof-of-concept technological demonstration; no disease populations were tested.",
+      "why_it_matters": "If validated in larger disease-specific studies, this non-invasive breath-profiling technology could eventually offer a faster, needle-free alternative for detecting conditions ranging from lung disease to metabolic disorders.",
+      "caveats": "small sample (N<100), surrogate endpoints only, no clinical outcome data, single-center, proof-of-concept only",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Promising diagnostic technology but N=4, no disease populations tested, no cardiovascular endpoints.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Verywell Health",
+          "headline": "Could a Breath Test Replace Blood Draws for Disease Diagnosis? New Tech Gets Closer",
+          "hook": "A new breath-analysis system detected more than triple the chemical signals of standard methods \u2014 a step toward non-invasive disease detection through exhaled air.",
+          "pitch_angle": "Australian researchers have demonstrated that combining two advanced chemical separation technologies vastly improves the number of volatile compounds detectable in a single breath sample, with individual breath profiles remaining consistent and distinct \u2014 though the approach still needs testing in patients with specific diseases before any clinical use."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42790470",
+      "headline": "Vaping chemicals linger in exhaled breath for over half an hour \u2014 and researchers can now track them in real time",
+      "journal": "Journal of Breath Research",
+      "pubdate": "2026 Oct 8",
+      "doi": "10.1088/1752-7163/aeac7a",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Dutch researchers used a high-sensitivity mass spectrometry tool (PTR-ToF-MS) to track volatile organic compounds from e-cigarettes in the exhaled breath of 10 participants who inhaled single puffs of unflavored, cinnamon, or peppermint/menthol e-liquid. Real-time washout monitoring in a subset of 3 participants found that e-liquid-related compounds \u2014 including flavoring agents and potential thermal degradation products \u2014 remained detectable for up to 32 minutes after a single puff. Substantial variability between individuals was observed, suggesting that exposure duration may differ significantly from person to person.",
+      "why_it_matters": "This early evidence suggests that even a single vape puff exposes the respiratory tract to chemical residues for far longer than the act of inhaling itself \u2014 a finding with implications for understanding secondhand vapor exposure and cumulative lung risk.",
+      "caveats": "small sample (N<100), single-center, short follow-up, surrogate endpoints only, no clinical outcome data",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Vaping exposure relevant to pulmonary/cardiovascular risk; very small N, no clinical endpoints.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Everyday Health / General health",
+          "headline": "One Vape Puff Leaves Chemical Residue in Your Lungs for More Than 30 Minutes",
+          "hook": "A new study tracked the chemicals from a single e-cigarette puff in real time \u2014 and found they lingered in exhaled breath for up to 32 minutes.",
+          "pitch_angle": "Using a highly sensitive breath-analysis tool, researchers found that flavoring compounds and potential thermal breakdown products from e-cigarettes persist in the respiratory tract well after vaping ends, with wide variation between users \u2014 raising new questions about cumulative chemical exposure and secondhand vapor risk."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42853080",
+      "headline": "Two simple blood ratios may predict which children with pneumococcal pneumonia will need surgery",
+      "journal": "Monaldi Archives for Chest Disease",
+      "pubdate": "2026 Oct 8",
+      "doi": "10.4081/monaldi.2026.3885",
+      "groundbreaking": "",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a 5-year retrospective cohort study of 104 children (aged 1 month to 18 years) hospitalized with confirmed pneumococcal pneumonia at a Bulgarian tertiary center, researchers examined whether inflammatory blood ratios could predict the need for surgical intervention. Complications occurred in 72% of patients and 45% required surgery; the C-reactive protein-to-albumin ratio (CAR) and fibrinogen-to-albumin ratio (FAR) were independently associated with surgical intervention in multivariable analysis, while serum albumin alone showed the highest predictive accuracy (AUC 0.783). The findings suggest these low-cost biomarker ratios could help triage children with serious pneumonia, though prospective multicenter validation is needed.",
+      "why_it_matters": "Identifying children with bacterial pneumonia who are likely to need surgery earlier could help clinicians act faster, potentially reducing complications in one of the most severe presentations of a common childhood infection.",
+      "caveats": "small sample (N<100), observational design, retrospective, single-center, surrogate endpoints only, Bulgaria single institution",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Pediatric acute pulmonary; modest N; retrospective single-center; surrogate biomarker endpoints only.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Blood Protein Ratios Flag Pediatric Pneumococcal Pneumonia Cases Likely to Need Surgery",
+          "hook": "In children hospitalized with confirmed pneumococcal pneumonia, two easily calculated blood ratios independently predicted which patients ultimately required surgical intervention.",
+          "pitch_angle": "A 5-year retrospective study of 104 children found that the CRP-to-albumin and fibrinogen-to-albumin ratios were both independently associated with surgical need in multivariable analysis, with serum albumin alone showing the strongest discriminatory power \u2014 suggesting these routine lab values could help clinicians triage the roughly 45% of hospitalized pneumococcal pneumonia patients who will require an invasive procedure, pending prospective validation."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
       "pmid": "42842171",
-      "headline": "Black, Hispanic, and low-income patients are being left out of the GLP-1 and SGLT2 drug revolution \u2014 even as the gap in prescribing widens",
+      "headline": "Black, Hispanic, and low-income patients are being left out of the GLP-1 and SGLT2 drug revolution \u2014 even as evidence mounts these drugs save lives",
       "journal": "Current Cardiology Reports",
       "pubdate": "2026 Oct 7",
       "doi": "10.1007/s11886-026-02431-y",
       "groundbreaking": "Major cardiovascular or public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a systematic review of 100 U.S. studies published between 2013 and 2026 examining who receives GLP-1 receptor agonists and SGLT2 inhibitors \u2014 two drug classes proven to reduce cardiovascular, kidney, and metabolic harm. They found persistent and in some cases widening disparities in prescribing, with Black and Hispanic patients, Medicaid enrollees, lower-income populations, and older adults consistently receiving these medications at lower rates than eligible white and higher-income patients. The review proposes a multilevel 'Equity-First Framework' to close these gaps through policy, health-system, and patient-level interventions.",
-      "why_it_matters": "Even as evidence for these drugs' heart and kidney benefits grows, the populations at greatest cardiovascular risk appear least likely to receive them \u2014 a disparity with potentially life-or-death consequences at a population scale.",
+      "summary": "Researchers conducted a systematic review of 100 U.S. studies published between 2013 and 2026 examining who receives GLP-1 receptor agonists and SGLT2 inhibitors \u2014 two drug classes with proven cardiovascular and kidney benefits. The review found that Black and Hispanic patients, Medicaid beneficiaries, lower-income populations, and older adults were consistently less likely to be prescribed or initiated on these medications. Despite increased uptake after landmark trials, overall use remained far below eligible populations, and disparities persisted or widened for some newer agents.",
+      "why_it_matters": "Millions of Americans at highest cardiovascular risk may be systematically missing out on some of the most effective heart- and kidney-protective drugs available today.",
       "caveats": "observational design, secondary analysis, surrogate endpoints only",
       "fact_check_note": "",
       "relevance_score": 8,
-      "relevance_score_reason": "High-prevalence conditions, GLP-1 topic bonus, strong public health implication, systematic review design.",
+      "relevance_score_reason": "High-prevalence conditions, GLP-1 topic bonus, major public health implication, clean systematic review design.",
       "pitch_angles": [
         {
           "publication_type": "STAT News / MedPage Today",
-          "headline": "GLP-1 and SGLT2 Prescribing Gaps Are Persisting \u2014 and Widening for Some Newer Drugs, Systematic Review Finds",
-          "hook": "A review of 100 U.S. studies finds that despite landmark trial data and updated guidelines, the patients who stand to benefit most from GLP-1 and SGLT2 drugs are still the least likely to receive them.",
-          "pitch_angle": "Researchers at the University of Utah analyzed a decade of prescribing data and found that Black and Hispanic patients, Medicaid beneficiaries, and older adults faced consistent barriers to these cardiovascular-protective drugs \u2014 and that for some newer agents, disparities actually widened after initial uptake increased. The findings call for a systemic 'Equity-First Framework' that addresses barriers across policy, health systems, providers, and patients simultaneously."
+          "headline": "GLP-1 and SGLT2 Drug Disparities Are Widening \u2014 Even After Landmark Trial Data Transformed Guidelines",
+          "hook": "Even as evidence solidified that GLP-1 and SGLT2 drugs dramatically cut heart attacks, kidney failure, and death, a 100-study review finds the patients who need them most are the least likely to get them.",
+          "pitch_angle": "Systematic review of a decade of U.S. prescribing data reveals persistent and in some cases widening gaps by race, income, and insurance status in access to two of cardiology's most consequential drug classes. The findings raise urgent questions about whether guideline updates and trial victories are translating into equitable clinical practice."
         },
         {
           "publication_type": "Everyday Health / Health.com / Verywell Health",
-          "headline": "Who's Getting Left Out of the GLP-1 Drug Boom? A New Review Points to a Troubling Pattern",
-          "hook": "GLP-1 drugs like Ozempic have become cultural phenomena \u2014 but a sweeping new review finds that the patients who need them most for heart and kidney health are often the ones least likely to get a prescription.",
-          "pitch_angle": "A systematic review of 100 U.S. studies found that Black and Hispanic patients, people on Medicaid, and lower-income Americans are consistently underrepresented among those prescribed GLP-1 receptor agonists and SGLT2 inhibitors \u2014 drugs with proven benefits for reducing heart attacks, kidney disease, and metabolic harm. Researchers say closing this gap will require changes at every level, from insurance policy to how clinicians identify eligible patients."
-        },
-        {
-          "publication_type": "AARP The Magazine / General health",
-          "headline": "Older Adults Are Being Passed Over for Some of the Most Powerful Heart-Protective Drugs Available",
-          "hook": "A new systematic review finds that older Americans are among those least likely to be prescribed GLP-1 and SGLT2 drugs \u2014 even though heart and kidney disease hit hardest later in life.",
-          "pitch_angle": "Researchers reviewed 100 U.S. studies spanning more than a decade and found that age is a consistent predictor of who does \u2014 and doesn't \u2014 receive GLP-1 receptor agonists and SGLT2 inhibitors, two drug classes proven to lower cardiovascular and kidney risk. The finding suggests that older adults may be missing out on meaningful protection precisely when their risk is highest, highlighting an urgent need to rethink prescribing practices for aging populations."
+          "headline": "If You're Black, Hispanic, or on Medicaid, You're Less Likely to Get the Heart Drugs That Could Save Your Life",
+          "hook": "A sweeping review of 100 studies finds that the patients at greatest cardiovascular risk are consistently the least likely to be prescribed GLP-1 and SGLT2 medications.",
+          "pitch_angle": "Despite strong evidence that GLP-1 receptor agonists and SGLT2 inhibitors protect the heart and kidneys, access to these drugs remains deeply unequal across race, income, and insurance lines in the U.S. Researchers are now calling for an 'equity-first' framework to close the gap before these disparities cost more lives."
         }
       ],
-      "run_date": "2026-10-09",
+      "run_date": "2026-10-10",
       "category": "Cardiology",
       "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42844063",
+      "headline": "West Africa performs its first coronary stenting procedures \u2014 with a 93% success rate despite significant resource constraints",
+      "journal": "Annales de cardiologie et d'ang\u00e9iologie",
+      "pubdate": "2026 Oct 7",
+      "doi": "10.1016/j.ancard.2026.102094",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Cardiologists at Tengandogo University Hospital in Ouagadougou, Burkina Faso, described the first 63 percutaneous coronary intervention (PCI) cases performed in the country between March 2022 and August 2024, with a mean patient age of 58.9 years and 83% male. ST-segment elevation myocardial infarction (STEMI) was the primary indication in 55.6% of cases, multivessel disease was present in two-thirds, and stenting was technically successful in 93.7% of patients. Four in-hospital deaths occurred, including one intraoperative death from critical left main coronary artery stenosis.",
+      "why_it_matters": "The establishment of functional PCI capability in Burkina Faso signals a milestone for cardiac emergency care in sub-Saharan Africa, where heart attack patients have historically had no access to life-saving catheterization procedures.",
+      "caveats": "small sample (N=63), single-center, observational design, retrospective data collection, no comparative group, short follow-up, predominantly male cohort with no female-specific analysis",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Regionally significant milestone but narrow single-center context limits US audience relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "Heart Attack Care Is Finally Reaching One of the World's Most Underserved Regions",
+          "hook": "For the first time, patients in Burkina Faso can receive coronary stenting for a heart attack \u2014 a procedure long taken for granted in wealthier countries.",
+          "pitch_angle": "Cardiologists in Ouagadougou report a 93% procedural success rate in the country's first 63 PCI cases, suggesting that with adequate support, modern cardiac intervention is feasible in resource-limited settings and could reduce the enormous global burden of untreated heart attacks."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42844139",
+      "headline": "Many babies flagged as possible cystic fibrosis at birth stay symptom-free into adulthood \u2014 but doctors are still prescribing them treatments",
+      "journal": "Journal of Cystic Fibrosis",
+      "pubdate": "2026 Oct 7",
+      "doi": "10.1016/j.jcf.2026.09.012",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a retrospective multicenter Italian study, researchers followed 77 individuals (median age 20.9 years) initially classified at birth as 'CF screen positive, inconclusive diagnosis' (CFSPID) through adolescence and adulthood. About 40% eventually received a confirmed cystic fibrosis diagnosis, 18% were reclassified as a milder CFTR-related disorder, and 40% remained asymptomatic with no confirmed diagnosis \u2014 yet 80% of this last group were still prescribed airway clearance therapy and nearly two-thirds received salt supplementation. The study found that most CFSPID individuals had preserved lung function and nutritional status regardless of diagnostic outcome, raising concerns about overtreatment of asymptomatic patients.",
+      "why_it_matters": "The finding that 4 in 10 people flagged for possible cystic fibrosis at birth remain symptom-free as adults \u2014 yet are routinely given treatments \u2014 highlights an urgent need for evidence-based guidelines to avoid unnecessary medical burden in this population.",
+      "caveats": "small sample (N<100), observational design, retrospective, single-country (Italy), secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clinically significant overtreatment signal; small retrospective cohort; pulmonary not cardiovascular.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Newborns Flagged for Cystic Fibrosis Who Never Develop the Disease Are Still Getting Treated as Adults",
+          "hook": "A long-term Italian study finds that 40% of people who screened positive for cystic fibrosis at birth remain completely asymptomatic into adulthood \u2014 but most are still prescribed daily airway treatments.",
+          "pitch_angle": "Researchers followed 77 individuals flagged as inconclusive CF diagnoses at newborn screening through young adulthood, finding favorable outcomes overall but a troubling pattern: the majority of those who never received a confirmed diagnosis were still receiving therapies typically reserved for CF patients, suggesting newborn screening programs may be generating significant overtreatment in an already medically burdened population."
+        },
+        {
+          "publication_type": "Verywell Health",
+          "headline": "If Your Baby Screened Positive for Cystic Fibrosis but Doesn't Have a Confirmed Diagnosis, Here's What a New Study Found",
+          "hook": "A new long-term study finds that many children who get an uncertain cystic fibrosis result at birth grow into healthy, symptom-free adults \u2014 raising questions about whether they need the treatments they're commonly given.",
+          "pitch_angle": "Italian researchers tracked 77 people initially labeled as inconclusive CF cases from infancy through their twenties, finding that 40% stayed asymptomatic with no confirmed CF \u2014 yet most were still being prescribed airway clearance and salt supplements, pointing to a gap in evidence-based guidelines for this growing group of CF newborn screening 'gray zone' patients."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42838070",
+      "headline": "A new triple-target immunotherapy drug shows early promise in heavily pre-treated multiple myeloma \u2014 but serious side effects are common",
+      "journal": "The Lancet Haematology",
+      "pubdate": "2026 Oct 6",
+      "doi": "10.1016/S2352-3026(26)00228-0",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a first-in-human phase 1 trial of MK-4002, a trispecific T-cell engager targeting B-cell maturation antigen (BCMA), in 97 adults (median age 69) with relapsed or refractory multiple myeloma who had received a median of six prior therapies, across 12 sites in the US, France, and Spain. The drug was generally tolerable with step-up dosing; dose-limiting toxicities occurred in 6 participants, and 79% experienced grade 3 or worse adverse events, most commonly anemia and neutropenia. Early efficacy signals including overall response rate were reported, though the maximum tolerated dose was not reached with stepped dosing.",
+      "why_it_matters": "For patients with multiple myeloma who have exhausted standard treatments, a trispecific T-cell engager targeting BCMA suggests a potentially new immunotherapy option, though serious blood-related side effects were frequent.",
+      "caveats": "small sample (N=97), phase 1 dose-escalation design, open-label, surrogate endpoints only, industry funding [Merck & Co / Harpoon Therapeutics], short follow-up, no randomized comparator",
+      "fact_check_note": "Abstract was truncated; overall response rate results were not visible in the provided text and could not be verified. Summary reflects only what was confirmed in the available abstract portion.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Hematology oncology; first-in-human but no hard cardiovascular endpoints; industry funded.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Merck's Triple-Target Blood Cancer Drug Clears Phase 1 Safety Bar \u2014 But Side Effects Loom Large",
+          "hook": "A first-in-human trial of MK-4002, a novel trispecific immunotherapy, found early activity in heavily pre-treated multiple myeloma patients but also found that nearly 4 in 5 experienced severe adverse events.",
+          "pitch_angle": "The trispecific T-cell engager design \u2014 targeting BCMA while engaging two arms of the immune system \u2014 represents a next-generation approach beyond existing bispecific therapies; the safety profile, particularly hematologic toxicity, will be closely watched as the drug advances."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42832469",
+      "headline": "A 'clean' lung biopsy result may not mean what patients \u2014 or doctors \u2014 think it does",
+      "journal": "Respiration: International Review of Thoracic Diseases",
+      "pubdate": "2026 Oct 5",
+      "doi": "10.1159/res/aepag016",
+      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In this review and clinical framework paper, pulmonary medicine specialists analyzed the diagnostic chain for peripheral pulmonary lesions increasingly found via CT screening. The authors argue that a 'benign' biopsy result is not a single reassuring outcome but a spectrum \u2014 including nonspecific, nondiagnostic, and atypical findings that each carry different residual cancer probabilities. Critically, newer robotic bronchoscopy and imaging technologies address only some gaps in the diagnostic chain, leaving sampling, pathology interpretation, and clinical concordance gaps unresolved.",
+      "why_it_matters": "Millions of people are having lung nodules biopsied through screening programs, and this analysis suggests a 'benign' result may still leave a meaningful risk of missed cancer unaddressed.",
+      "caveats": "observational design, surrogate endpoints only, no primary data \u2014 review/opinion framework",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Pulmonary screening relevance; no hard endpoints, expert opinion framework only.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "Lung biopsy said 'benign' \u2014 but the cancer risk may not be gone",
+          "hook": "A new clinical framework argues that a benign lung biopsy result is not a single reassuring verdict, but a spectrum of risk that doctors and patients may be misreading.",
+          "pitch_angle": "As CT lung cancer screening expands, pulmonary specialists are sounding the alarm that 'benign' biopsy outcomes range from truly reassuring to potentially misleading \u2014 and that even the newest robotic bronchoscopy tools don't close all the diagnostic gaps that allow cancer to be missed."
+        },
+        {
+          "publication_type": "General health / Everyday Health",
+          "headline": "If Your Lung Biopsy Came Back 'Benign,' You May Not Be in the Clear",
+          "hook": "A 'benign' result from a lung biopsy sounds like good news \u2014 but experts say it can create false reassurance that puts patients at risk.",
+          "pitch_angle": "Specialists in pulmonary medicine are warning that not all benign biopsy results are equally reassuring, and that the diagnostic process for lung nodules has multiple points of failure that no single technology yet fully addresses."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42833700",
+      "headline": "Doctors may be wrongly writing off elderly aortic stenosis patients based on a statistical myth about life expectancy",
+      "journal": "Open heart",
+      "pubdate": "2026 Oct 5",
+      "doi": "10.1136/openhrt-2026-004523",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Cardiologists from the UK and US argue in this analysis that a widely used clinical rule \u2014 that aortic valve replacement offers no survival benefit once a patient has exceeded their nation's average life expectancy \u2014 is statistically flawed and potentially harmful. Drawing on natural history data, clinical trial evidence, actuarial life tables, and cardiac damage staging frameworks, the authors show that life expectancy at birth is a population average skewed by early deaths, not a ceiling on individual survival; a 90-year-old man in England still has a mean of 3.9 years ahead. They propose replacing age-based nihilism with individualized, comorbidity-adjusted prognostication that explicitly estimates expected benefit as part of shared decision-making.",
+      "why_it_matters": "Older adults with severe aortic stenosis may be incorrectly denied a potentially life-extending valve procedure based on a misreading of population statistics \u2014 and this analysis suggests that cardiac damage, frailty, and comorbidity, not age alone, should drive treatment decisions.",
+      "caveats": "observational design, industry funding [Edwards Lifesciences, Medtronic, Abbott Vascular, Boston Scientific, Polares \u2014 authors report advisory board roles and/or institutional grants]",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive, overturns widely used clinical heuristic; hard endpoint implications; high-prevalence condition in aging population.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP The Magazine / General health",
+          "headline": "Doctors Are Using the Wrong Math to Deny Elderly Patients a Lifesaving Heart Procedure",
+          "hook": "If your doctor says you're 'too old' for aortic valve replacement because you've already exceeded the average life expectancy, the math behind that reasoning may be fundamentally wrong.",
+          "pitch_angle": "A new analysis argues that life expectancy at birth \u2014 the number often cited to limit valve surgery in older adults \u2014 is a population average distorted by early deaths, not a cap on how long any individual will live; a 90-year-old still has nearly four years ahead on average, and experts say age is a poor substitute for assessing actual cardiac risk when deciding who benefits from treatment."
+        },
+        {
+          "publication_type": "NYT Health / STAT News",
+          "headline": "The Life-Expectancy Argument Against Heart Surgery in Older Adults Is Built on a Statistical Error",
+          "hook": "A core justification for withholding aortic valve replacement from elderly patients relies on a misinterpretation of population statistics that most clinicians have never examined closely.",
+          "pitch_angle": "Cardiologists writing in Open Heart argue that using national average life expectancy as a cutoff for valve intervention is logically incoherent \u2014 the oldest patients, precisely because they've survived longer, belong to a longer-lived stratum that stands to gain the most from a durable repair \u2014 and they call for replacing age-based decision rules with individualized assessments of cardiac damage, frailty, and competing illness."
+        },
+        {
+          "publication_type": "Medscape Cardiology / MedPage Today",
+          "headline": "Age-Based Nihilism in Aortic Stenosis: Why the 'Exceeded Life Expectancy' Rule Fails Statistically and Clinically",
+          "hook": "The clinical shorthand that aortic valve replacement offers no benefit past average life expectancy is not only statistically incoherent \u2014 it may be costing older patients years of life.",
+          "pitch_angle": "Drawing on actuarial life tables, natural history data, and cardiac damage staging, this analysis dismantles the population-level logic used to justify withholding TAVR or SAVR from octogenarians and nonagenarians, proposing instead a framework centered on conditional survival, comorbidity-adjusted prognosis, and explicit shared decision-making \u2014 with expected benefit stated numerically at the time of consent."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42840917",
+      "headline": "A nerve-disrupting procedure in lung arteries may help heart patients stuck with persistent high lung pressure after valve repair",
+      "journal": "Pulmonary Circulation",
+      "pubdate": "2026 Oct",
+      "doi": "10.1002/pul2.70404",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers tested pulmonary artery denervation (PADN) \u2014 a catheter-based procedure that disrupts nerve signals to the lung arteries \u2014 in 6 patients (median age 69, 1 female) who had persistent pulmonary hypertension despite a successful transcatheter mitral valve repair (M-TEER). Immediately after PADN, mean pulmonary artery pressure dropped significantly, and at 6 months patients walked farther in a standard fitness test, with tricuspid regurgitation improving in 5 of 6 patients. No procedural complications occurred, suggesting the approach is feasible, though findings are very preliminary given the tiny sample.",
+      "why_it_matters": "For the estimated subset of heart patients who remain symptomatic with high lung pressure even after a minimally invasive valve repair, this early evidence suggests a potential add-on nerve-based treatment may deserve further study.",
+      "caveats": "small sample (N<100), single-center, observational design, surrogate endpoints only, short follow-up, predominantly male cohort (5/6 patients), China single institution",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Novel first-in-class pilot, but tiny N=6, surrogate endpoints, single-center, predominantly male.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "First Use of Pulmonary Artery Denervation After Failed M-TEER: A 6-Patient Pilot",
+          "hook": "A small but novel pilot study reports the first application of pulmonary artery denervation in patients with persistent pulmonary hypertension after transcatheter mitral edge-to-edge repair.",
+          "pitch_angle": "In 6 patients who remained symptomatic despite technically successful M-TEER, PADN produced an immediate reduction in mean pulmonary artery pressure and improved 6-minute walk distance at 6 months with no procedural complications \u2014 suggesting a potential therapeutic pathway for a clinically difficult post-M-TEER subgroup that currently has no established treatment."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42829758",
+      "headline": "A rare inherited bleeding disorder quietly caused a stroke in a 64-year-old woman \u2014 and a new genetic mutation may explain why",
+      "journal": "EJHaem",
+      "pubdate": "2026 Oct",
+      "doi": "10.1002/jha2.70404",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Chinese researchers report a single case of a 64-year-old woman with hereditary hemorrhagic telangiectasia (HHT) \u2014 a rare inherited vascular disorder \u2014 who presented with an acute ischemic stroke suspected to be caused by microscopic pulmonary arteriovenous malformations (AVMs). Genetic analysis revealed a novel heterozygous frameshift mutation in the GDF2 gene, an infrequent cause of HHT, with a family history of similar symptoms in her mother. The case expands the known clinical spectrum of GDF2-associated HHT to include stroke risk via pulmonary AVMs.",
+      "why_it_matters": "This case suggests that HHT \u2014 typically thought of as a bleeding disorder \u2014 can paradoxically cause ischemic stroke through lung blood vessel malformations, a connection that may be underrecognized in clinical practice.",
+      "caveats": "small sample (N<100), single-center, observational design, single case report, China-based single institution",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Counterintuitive stroke-bleeding link; single case limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health",
+          "headline": "A Disorder Known for Causing Nosebleeds and Bleeding Sent One Woman to the Hospital With a Stroke",
+          "hook": "A rare inherited vascular condition called hereditary hemorrhagic telangiectasia \u2014 usually associated with bleeding \u2014 is also emerging as a hidden stroke risk through lung abnormalities.",
+          "pitch_angle": "In this case report, a 64-year-old woman with HHT suffered an ischemic stroke linked to microscopic arteriovenous malformations in her lungs, a paradox that highlights how vascular disorders can affect multiple organ systems in unexpected ways and underscores the importance of comprehensive screening in HHT patients."
+        },
+        {
+          "publication_type": "STAT News",
+          "headline": "New GDF2 Frameshift Mutation Expands the Stroke Risk Picture in Hereditary Hemorrhagic Telangiectasia",
+          "hook": "A novel GDF2 mutation in a Chinese patient with HHT who suffered an ischemic stroke via pulmonary AVMs adds to growing evidence that this rare vascular disorder carries underappreciated cerebrovascular risk.",
+          "pitch_angle": "The case broadens the known clinical spectrum of GDF2-associated HHT and raises questions about whether routine pulmonary AVM screening should be a standard component of HHT workups, particularly for patients with this gene variant."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -103,33 +397,6 @@
       "status": "new"
     },
     {
-      "pmid": "42838070",
-      "headline": "A new trispecific T-cell engager shows early promise in heavily pretreated multiple myeloma patients",
-      "journal": "The Lancet Haematology",
-      "pubdate": "2026 Oct 6",
-      "doi": "10.1016/S2352-3026(26)00228-0",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This first-in-human Phase 1 trial evaluated MK-4002, a trispecific BCMA-targeting T-cell engager, in 97 adults (median age 69) with relapsed or refractory multiple myeloma who had received a median of six prior lines of therapy. The study, conducted across 12 sites in the US, France, and Spain, established dosing parameters and found that adverse events occurred in all 97 participants, with 79% experiencing grade 3 or worse events including anemia and neutropenia. Early efficacy signals \u2014 including overall response rate \u2014 were assessed as a secondary endpoint, with the study now closed to recruitment but ongoing.",
-      "why_it_matters": "For patients with multiple myeloma who have exhausted many treatment options, early data on MK-4002 suggest another potential immunotherapy avenue may be in development, though significant toxicity was observed.",
-      "caveats": "small sample (N<100), observational design, surrogate endpoints only, industry funding [Merck & Co / Harpoon Therapeutics], short follow-up, phase 1 dose-escalation design",
-      "fact_check_note": "Abstract was truncated before overall response rate data were presented; ORR figures could not be verified from available text.",
-      "relevance_score": 5,
-      "relevance_score_reason": "Hematologic oncology, not primary cardiovascular focus; Phase 1 with heavy toxicity burden.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / MedPage Today",
-          "headline": "Merck's Trispecific T-Cell Engager Moves Into Human Testing for Hard-to-Treat Myeloma",
-          "hook": "A novel immunotherapy targeting a key myeloma protein showed early activity in patients who had already failed a median of six prior treatments.",
-          "pitch_angle": "MK-4002 represents a new class of trispecific T-cell engager designed to simultaneously engage multiple immune checkpoints against BCMA-expressing myeloma cells; the Phase 1 results establish a dosing framework, though high-grade toxicity \u2014 including anemia in 34% of patients \u2014 signals that the safety profile will need careful management in later-stage trials."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42838241",
       "headline": "Scottish lung specialists reach consensus on when severe asthma patients can safely scale back their biologic therapy",
       "journal": "Respiratory medicine",
@@ -154,72 +421,6 @@
       "run_date": "2026-10-09",
       "category": "Pulmonary Medicine",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42832469",
-      "headline": "A 'benign' lung biopsy result may not mean what patients \u2014 or doctors \u2014 think it does",
-      "journal": "Respiration; international review of thoracic diseases",
-      "pubdate": "2026 Oct 5",
-      "doi": "10.1159/res/aepag016",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers reviewed how benign or non-malignant biopsy results from peripheral pulmonary lesions are interpreted, arguing that 'benign' is not a single, reliable category but a spectrum ranging from specific benign diagnoses to nondiagnostic samples, each carrying a different residual probability of malignancy. The review examines the diagnostic chain \u2014 tool access, navigation, position confirmation, sampling, pathology, and clinical concordance \u2014 and argues that even the newest technologies (robotic bronchoscopy, cone-beam CT) close only some of these gaps. The key finding is that a benign biopsy result can provide false reassurance unless clinicians rigorously classify the result type and account for follow-up data.",
-      "why_it_matters": "As CT lung cancer screening becomes more widespread, millions of people may receive 'benign' biopsy results that carry a meaningful \u2014 and often uncommunicated \u2014 chance of missed malignancy.",
-      "caveats": "observational design, surrogate endpoints only",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Clinically significant pulmonary finding with public health implications; no hard endpoints, review only.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / MedPage Today",
-          "headline": "Benign Lung Biopsy Results Are Being Dangerously Misread, Pulmonologists Warn",
-          "hook": "A 'benign' result from a lung biopsy is not the all-clear signal most patients and even some clinicians assume it to be.",
-          "pitch_angle": "Pulmonologists argue that benign biopsy results from peripheral lung lesions span a wide spectrum of residual cancer risk, and that even cutting-edge bronchoscopy technologies fail to close critical gaps in the diagnostic chain \u2014 leaving patients at risk of false reassurance as CT lung screening expands."
-        },
-        {
-          "publication_type": "Everyday Health / Health.com / Verywell Health",
-          "headline": "Your Lung Biopsy Came Back 'Benign' \u2014 Here's Why That Might Not Be the Whole Story",
-          "hook": "Millions of Americans are getting lung biopsies each year as CT screening expands, but a 'benign' result doesn't always mean cancer has been ruled out.",
-          "pitch_angle": "Pulmonary specialists say 'benign' covers a wide range of results \u2014 some genuinely reassuring, some leaving a real residual cancer risk \u2014 and patients should ask their doctor exactly what kind of benign finding they received and what follow-up is planned."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Pulmonary Medicine",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42833700",
-      "headline": "Doctors may be denying older adults life-saving heart valve surgery based on a statistical myth",
-      "journal": "Open Heart",
-      "pubdate": "2026 Oct 5",
-      "doi": "10.1136/openhrt-2026-004523",
-      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This commentary argues that withholding aortic valve replacement from patients who have 'exceeded average life expectancy' is based on a fundamental misreading of population statistics. The authors \u2014 drawing on natural history data, clinical trial evidence, and national life tables \u2014 explain that life expectancy at birth is a population average skewed by early deaths, not a ceiling on individual survival; a 90-year-old man in England still has a mean 3.9 years ahead. They contend that cardiac damage staging, frailty, and comorbidity \u2014 not chronological age \u2014 should determine who benefits from valve intervention.",
-      "why_it_matters": "Older adults with severe aortic stenosis may be refused potentially life-extending valve replacement based on a widely held but statistically flawed assumption about life expectancy.",
-      "caveats": "observational design, single-center, industry funding [Edwards Lifesciences, Medtronic, Abbott Vascular, Boston Scientific, Philips, Polares]",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Counterintuitive, high-prevalence valve disease, strong lifestyle-age hook, clear public health implication.",
-      "pitch_angles": [
-        {
-          "publication_type": "AARP / General health",
-          "headline": "Your Age Shouldn't Disqualify You From Heart Valve Surgery \u2014 But Many Doctors Still Think It Should",
-          "hook": "Cardiologists argue that refusing valve surgery to patients who've 'exceeded' average life expectancy is based on a statistical error that may be costing older adults years of life.",
-          "pitch_angle": "A new analysis in Open Heart contends that population-level life expectancy figures have been misapplied to individual older patients with severe aortic stenosis, leading to unnecessary treatment denials. The authors say frailty and heart damage \u2014 not a person's age \u2014 should drive the decision, a shift that could open surgery to thousands of older adults currently turned away."
-        },
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "Life Expectancy at Birth Is Not a Treatment Threshold \u2014 Cardiologists Push Back on Age-Based Valve Nihilism",
-          "hook": "A pointed commentary in Open Heart calls out a statistically incoherent and clinically harmful practice: using national average life expectancy to deny aortic valve replacement to older patients.",
-          "pitch_angle": "The authors argue that conditional life expectancy \u2014 not period life expectancy at birth \u2014 is the appropriate benchmark, meaning a surviving 85-year-old has already demonstrated belonging to a longer-lived stratum and may have the most to gain from a durable valve. They propose replacing age-based cutoffs with comorbidity-adjusted prognostication formally documented in the consent process."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Cardiology",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -424,60 +625,6 @@
       "status": "new"
     },
     {
-      "pmid": "42840917",
-      "headline": "A nerve-blocking procedure may ease persistent lung pressure after a minimally invasive heart valve repair \u2014 in a first-ever pilot",
-      "journal": "Pulmonary Circulation",
-      "pubdate": "2026 Oct",
-      "doi": "10.1002/pul2.70404",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers tested pulmonary artery denervation (PADN) \u2014 a catheter-based procedure that disrupts nerve signals to the pulmonary artery \u2014 in six patients with persistent pulmonary hypertension after successful transcatheter mitral valve repair (M-TEER), the first time this approach has been tried in this specific setting. Participants (median age 69; 1 female) had WHO Group 2 pulmonary hypertension with ongoing symptoms despite the earlier procedure. Immediately after PADN, mean pulmonary artery pressure dropped significantly, and six-minute walk distance improved at six months, with no procedural complications.",
-      "why_it_matters": "For the roughly one in three patients whose lung blood pressure stays dangerously elevated even after a successful mitral valve repair, this suggests a potential new treatment avenue where none currently exists.",
-      "caveats": "small sample (N<100), single-center, short follow-up, surrogate endpoints only, 6-month statistical trend non-significant, nearly all male (5 of 6 patients), China single institution",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Novel first-in-setting pilot, but tiny N=6, surrogate endpoints, single-center.",
-      "pitch_angles": [
-        {
-          "publication_type": "Medscape Cardiology / MedPage Today",
-          "headline": "First Pilot Tests Pulmonary Artery Denervation After Failed M-TEER \u2014 Early Results Are Cautiously Promising",
-          "hook": "For patients whose pulmonary hypertension persists despite a technically successful mitral valve clip, there has been no established treatment \u2014 until now.",
-          "pitch_angle": "A Chinese pilot study in six patients found that pulmonary artery denervation after transcatheter mitral edge-to-edge repair reduced mean pulmonary artery pressure immediately post-procedure and improved six-minute walk distance at six months. While the sample is far too small for conclusions, the finding points to a potential therapeutic niche in a population with no current options."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Pulmonary Medicine",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42829758",
-      "headline": "A rare bleeding disorder silently raises stroke risk \u2014 and a new genetic clue may explain why",
-      "journal": "EJHaem",
-      "pubdate": "2026 Oct",
-      "doi": "10.1002/jha2.70404",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers report a case of a 64-year-old woman with hereditary hemorrhagic telangiectasia (HHT) \u2014 a genetic vascular disorder causing abnormal blood vessel formation \u2014 who suffered an ischemic stroke linked to microscopic pulmonary arteriovenous malformations. Genetic testing identified a previously unreported frameshift mutation in the GDF2 gene, a rare cause of HHT. The case expands the known clinical picture of GDF2-related HHT, suggesting this variant may carry stroke risk even when lung AVMs are too small to detect on standard imaging.",
-      "why_it_matters": "People with HHT and a GDF2 mutation may face hidden stroke risk from pulmonary arteriovenous malformations that are missed on routine workup, highlighting the need for closer neurological monitoring in this population.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Rare genetic disorder, single case report, limited generalizability to broad cardiovascular audience.",
-      "pitch_angles": [
-        {
-          "publication_type": "Verywell Health / General health",
-          "headline": "A Rare Bleeding Disorder Can Silently Raise Your Stroke Risk \u2014 Here's the Genetic Clue Doctors Are Watching",
-          "hook": "A 64-year-old woman with a known but underdiagnosed vascular disorder suffered a stroke from blood vessel abnormalities too small to see on standard scans.",
-          "pitch_angle": "Hereditary hemorrhagic telangiectasia affects roughly 1 in 5,000 people and is often dismissed as a nosebleed condition, but a new case report links a novel GDF2 gene mutation to ischemic stroke risk \u2014 raising questions about whether all HHT patients need more aggressive neurological screening."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42841174",
       "headline": "People with a rare genetic lung condition report sharply lower quality of life once COPD develops \u2014 but even those without COPD aren't living well",
       "journal": "Pulmonology",
@@ -507,33 +654,6 @@
       ],
       "run_date": "2026-10-09",
       "category": "Pulmonary Medicine",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42844063",
-      "headline": "Burkina Faso performed its first coronary artery stenting procedures \u2014 with a 93% success rate",
-      "journal": "Annales de Cardiologie et d'Ang\u00e9iologie",
-      "pubdate": "2026 Oct 7",
-      "doi": "10.1016/j.ancard.2026.102094",
-      "groundbreaking": "Major cardiovascular or public health implication / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers described the first 63 percutaneous coronary intervention (PCI) cases performed at Tengandogo University Hospital in Ouagadougou, Burkina Faso, between March 2022 and August 2024. Patients had a mean age of 58.9 years with male predominance (83%), and the primary indication was ST-elevation myocardial infarction (55.6%). PCI by stenting was successful in 93.7% of cases, with four in-hospital deaths.",
-      "why_it_matters": "The feasibility of life-saving coronary stenting in a sub-Saharan African country with limited cardiac infrastructure highlights a critical gap in global access to cardiovascular care and marks a milestone for the region.",
-      "caveats": "small sample (N<100), single-center, observational design, retrospective data collection, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Landmark regional milestone but small sample and limited generalizability to US/global readership.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / General health",
-          "headline": "A Hospital in Burkina Faso Just Performed Its First Coronary Stenting Procedures \u2014 With Striking Success",
-          "hook": "In a country where heart attack patients previously had almost no access to interventional cardiology, a new program achieved a 93% procedural success rate in its first 63 cases.",
-          "pitch_angle": "The report from Ouagadougou's Tengandogo University Hospital documents the launch of PCI in Burkina Faso, where hypertension affects 92% of enrolled patients and most presented with STEMI. The findings underscore both the feasibility of expanding cardiac intervention in low-resource settings and the enormous unmet need for cardiovascular care across sub-Saharan Africa."
-        }
-      ],
-      "run_date": "2026-10-08",
-      "category": "Hematology & Vascular",
       "chunk": "2/2",
       "status": "new"
     },
@@ -2538,33 +2658,6 @@
       ],
       "run_date": "2026-09-28",
       "category": "Hematology & Vascular",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42777743",
-      "headline": "A new breath-analysis technique detects three times more chemical signals than current methods \u2014 but hasn't been tested in patients yet",
-      "journal": "Journal of Breath Research",
-      "pubdate": "2026 Sep 23",
-      "doi": "10.1088/1752-7163/aeabcd",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at the University of New South Wales coupled atmospheric pressure chemical ionisation with high-resolution FAIMS mass spectrometry to analyze exhaled breath volatile organic compounds (VOCs) in four healthy participants. The technique detected more than 200% more breath features compared to standard mass spectrometry alone, consistently identifying 60\u2013130 distinct chemical signals per sample, with breath profiles clustering by individual participant. The study is a proof-of-concept demonstration in four participants with no disease groups tested.",
-      "why_it_matters": "Breath-based disease detection is a long-sought non-invasive diagnostic goal \u2014 this early-stage technology suggests a potential path toward richer chemical fingerprinting of exhaled breath, though clinical applications remain years away.",
-      "caveats": "small sample (N<100), observational design, surrogate endpoints only, no disease population tested, proof-of-concept only",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Interesting technology angle but no cardiovascular or pulmonary disease population tested; very early stage.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health",
-          "headline": "Could a Breathalyzer One Day Diagnose Heart or Lung Disease? New Lab Technique Boosts Exhaled Chemical Detection by 200%",
-          "hook": "A new laboratory method can detect three times as many chemical signals in a single breath sample compared to current technology \u2014 a potential step toward non-invasive disease screening.",
-          "pitch_angle": "Australian chemists have demonstrated that coupling high-resolution ion-separation technology with mass spectrometry dramatically expands the chemical detail available from exhaled breath, with each person showing a distinctive chemical 'fingerprint.' The approach is still years from clinical use, but early evidence suggests it could eventually improve non-invasive detection of conditions including lung and possibly cardiovascular disease."
-        }
-      ],
-      "run_date": "2026-09-28",
-      "category": "Pulmonary Medicine",
       "chunk": "1/2",
       "status": "new"
     },
