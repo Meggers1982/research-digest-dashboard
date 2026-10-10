@@ -1,112 +1,226 @@
 {
-  "last_updated": "2026-10-09T17:13:49.619433+00:00",
-  "total_studies": 941,
-  "new_this_run": 3,
+  "last_updated": "2026-10-10T16:08:28.418986+00:00",
+  "total_studies": 948,
+  "new_this_run": 7,
   "studies": [
     {
-      "pmid": "42848179",
-      "headline": "The common antibiotic shot used to prevent recurring skin infections may only work for two weeks \u2014 not four",
-      "journal": "Infection",
-      "pubdate": "2026 Oct 8",
-      "doi": "10.1007/s15010-026-03008-1",
-      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
+      "pmid": "42852990",
+      "headline": "AI scores children's language tests as accurately as human evaluators \u2014 and may catch more kids with developmental language disorder",
+      "journal": "Language, Speech, and Hearing Services in Schools",
+      "pubdate": "2026 Oct 9",
+      "doi": "10.1044/2026_LSHSS-25-00268",
+      "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a retrospective observational study of 73 patients who received intramuscular benzathine penicillin G (BPG) prophylaxis for recurrent cellulitis, analyzing 592 patient-years and 310 recurrence events. They found that BPG's protective effect was statistically significant only within a 14-day window after each injection, not the 21- or 28-day windows previously assumed. This suggests current dosing intervals may leave patients unprotected for weeks each month, and shorter or individualized dosing schedules could better prevent flare-ups.",
-      "why_it_matters": "Cellulitis disproportionately affects people with lymphedema and obesity \u2014 conditions more common in women \u2014 so a more precise dosing window could meaningfully reduce painful, disruptive recurrences.",
-      "caveats": "small sample (N<100), observational design, single-center, retrospective, no sex-disaggregated data",
+      "summary": "Researchers developed an AI-automated scoring system (AutoRSR) for a sentence recall task used to screen for developmental language disorder (DLD) in school-age children. The system was tested on 947 audio samples from children with and without DLD, using two speech recognition models. Depending on the model used, sensitivity ranged from 0.77 to 0.87, and AutoRSR actually converged more closely with a gold-standard reference measure than human scoring did.",
+      "why_it_matters": "Faster, more consistent AI screening tools could help identify girls and boys with developmental language disorder earlier, when interventions are most effective.",
+      "caveats": "observational design, single reference standard subset (N=130 for validation), no sex-disaggregated data",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Pediatric/education tool; no women's health angle; no sex-disaggregated data.",
+      "pitch_angles": [
+        {
+          "publication_type": "General women's wellness",
+          "headline": "AI Could Soon Screen Kids for Language Delays \u2014 Without a Specialist in the Room",
+          "hook": "An AI scoring system caught developmental language disorder in children about as reliably as trained human evaluators \u2014 and sometimes better.",
+          "pitch_angle": "Researchers tested an automated tool on nearly 1,000 children's speech recordings and found it matched human accuracy. For parents navigating school-based speech services, this suggests earlier, more equitable screening may be on the horizon."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Brain & Mental Health",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42854952",
+      "headline": "Drug-resistant epilepsy surgery works in sub-Saharan Africa \u2014 and most patients were young women",
+      "journal": "World Neurosurgery",
+      "pubdate": "2026 Oct 9",
+      "doi": "10.1016/j.wneu.2026.125407",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In the first prospective cohort of epilepsy surgery patients in Cameroon, 31 people with drug-resistant epilepsy (74% female, median age 21) underwent surgery \u2014 predominantly anterior temporal lobectomy \u2014 between 2018 and 2024 at a single center. At 12-month follow-up, 71% achieved seizure freedom, and overall quality-of-life scores rose significantly from a mean of 49 to 63. Complications were uncommon, with 13% experiencing transient neurological deficits.",
+      "why_it_matters": "For the majority-female patients in this cohort \u2014 many of them young women in a low-resource setting where drug-resistant epilepsy has few treatment options \u2014 surgery was associated with meaningful seizure control and quality-of-life gains at one year.",
+      "caveats": "small sample (N<100), single-center, short follow-up, observational design",
       "fact_check_note": "",
       "relevance_score": 5,
-      "relevance_score_reason": "Clinically useful dosing finding; small retrospective sample limits strength.",
+      "relevance_score_reason": "Pioneering regional study, majority-female cohort, but very small N and limited generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "General women's wellness",
+          "headline": "Surgery Freed Most Young Women From Seizures in Africa's First Drug-Resistant Epilepsy Cohort",
+          "hook": "Three-quarters of the first patients to undergo epilepsy surgery in Cameroon were women \u2014 and 71% were seizure-free a year later.",
+          "pitch_angle": "A pioneering Cameroonian study showed that epilepsy surgery is feasible in a low-resource African setting, with most patients being young women who gained dramatic quality-of-life improvements. The findings highlight a global equity gap: a surgery that works is simply not reaching the women who need it most."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Brain & Mental Health",
+      "chunk": "3/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42853653",
+      "headline": "A smarter computer model could reshape how we screen for cervical cancer \u2014 starting in Brazil",
+      "journal": "Journal of the National Cancer Institute",
+      "pubdate": "2026 Oct 9",
+      "doi": "10.1093/jnci/djag376",
+      "groundbreaking": "First-in-class human study / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Harvard and the National Cancer Institute developed a new microsimulation model of HPV's causal pathway to cervical cancer, designed to more accurately evaluate novel screening strategies. The model was validated against age-specific HPV prevalence data from S\u00e3o Paulo, Brazil, covering 13 carcinogenic HPV types, and projected a median precancer diagnosis age of 30 years. Unlike prior models, transitions between disease states were estimated directly from observational data rather than calibrated to fit, potentially improving policy decision accuracy.",
+      "why_it_matters": "More accurate modeling of HPV progression could help policymakers design cervical cancer screening programs that catch precancers earlier in women's lives, particularly in lower-resource settings.",
+      "caveats": "computational/modeling study, validated only against Brazil population data, no direct patient outcomes measured",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Cervical cancer relevance for women, but modeling study with no direct patient outcomes.",
       "pitch_angles": [
         {
           "publication_type": "Verywell Health / Everyday Health",
-          "headline": "Your Recurring Skin Infection Shot May Stop Working After Just Two Weeks",
-          "hook": "A new study suggests the antibiotic injection commonly used to prevent recurring cellulitis wears off far sooner than doctors typically assume.",
-          "pitch_angle": "Researchers found BPG's protective effect was only statistically significant in the first 14 days after each shot, not the 21\u201328 days often assumed in practice. For the many women managing chronic cellulitis alongside lymphedema, this finding suggests more frequent dosing may be the key to staying infection-free."
+          "headline": "A New Computer Model Could Change When \u2014 and How \u2014 You Get Screened for Cervical Cancer",
+          "hook": "A more precise model of how HPV progresses to cervical cancer could help redesign screening programs to catch precancers at their most treatable stage.",
+          "pitch_angle": "Scientists built a first-of-its-kind simulation that tracks HPV genotype by genotype to predict when precancer is most likely to appear \u2014 finding the median age is around 30. The model could reshape cervical screening guidelines in countries evaluating new HPV-based strategies."
         }
       ],
-      "run_date": "2026-10-09",
+      "run_date": "2026-10-10",
+      "category": "Cancer & Oncology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42848179",
+      "headline": "A common antibiotic shot for recurring skin infections may only protect for two weeks \u2014 not the month doctors assumed",
+      "journal": "Infection",
+      "pubdate": "2026 Oct 8",
+      "doi": "10.1007/s15010-026-03008-1",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This retrospective observational study followed 73 patients in South Korea who received intramuscular benzathine penicillin G (BPG) injections to prevent recurrent cellulitis, analyzing 592 patient-years of data and 310 recurrence episodes. Researchers found the protective window was statistically significant only within the first 14 days after injection \u2014 not the commonly assumed 21\u201328 days \u2014 with 43% of near-term recurrences occurring between days 15 and 28. The findings suggest current monthly dosing intervals may leave patients unprotected for up to two weeks each cycle.",
+      "why_it_matters": "Cellulitis disproportionately affects people with lymphedema, a condition more common in women (particularly breast cancer survivors), suggesting that closing this protection gap could matter most for this group.",
+      "caveats": "small sample (N<100), observational design, single-center, retrospective, no sex-disaggregated data, South Korea population only",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive finding overturning dosing assumptions; relevant to lymphedema/breast cancer survivors.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Verywell Health",
+          "headline": "The Antibiotic Shot for Recurring Skin Infections May Only Work for Two Weeks \u2014 Not Four",
+          "hook": "Doctors have long assumed a monthly penicillin injection protects against recurring cellulitis for the full month \u2014 but a new study suggests the protection wears off after just 14 days.",
+          "pitch_angle": "Researchers tracked patients with recurrent cellulitis and found that nearly half of relapses happened in the gap between weeks two and four of the standard dosing schedule, suggesting the conventional interval leaves people vulnerable. For breast cancer survivors with lymphedema \u2014 who are at elevated risk for cellulitis \u2014 this finding could point toward a need for more personalized dosing schedules."
+        }
+      ],
+      "run_date": "2026-10-10",
       "category": "Allergy & Immunology",
       "chunk": "1/2",
       "status": "new"
     },
     {
+      "pmid": "42854640",
+      "headline": "An Immunotherapy-Chemo Combo Shows Promise Against a Rare, Hard-to-Treat Chest Cancer",
+      "journal": "ESMO Open",
+      "pubdate": "2026 Oct 8",
+      "doi": "10.1016/j.esmoop.2026.108366",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A prospective open-label phase II trial enrolled 24 patients with advanced B3 thymoma or thymic carcinoma in China, treating them with toripalimab plus carboplatin and paclitaxel for up to six cycles followed by maintenance immunotherapy. The objective response rate was 37.5% and disease control rate was 100%, with a median progression-free survival of 19.3 months. Half of patients experienced grade 3\u20134 treatment-related adverse events, though severe immune-related adverse events were rare.",
+      "why_it_matters": "Thymic cancers are rare and historically difficult to treat, and early evidence suggesting an immunotherapy-chemo combination can achieve disease control in all enrolled patients \u2014 even if response rates are modest \u2014 could be meaningful for patients with few options.",
+      "caveats": "small sample (N<100), single-center, short follow-up, observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Small N=24, single-center, rare cancer with limited women's-specific relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com",
+          "headline": "A Rare Chest Cancer With Few Treatment Options May Respond to This Immunotherapy Combo",
+          "hook": "A small trial found that every patient with advanced thymic cancer achieved at least disease stabilization on an immunotherapy-plus-chemo regimen.",
+          "pitch_angle": "Thymic carcinoma and B3 thymoma are rare cancers with limited approved therapies; early trial results suggest adding the PD-1 inhibitor toripalimab to standard chemotherapy may hold disease at bay for over 19 months on average, though larger studies are needed."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Cancer & Oncology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
       "pmid": "42842347",
-      "headline": "Scientists identify two new biological markers tied to blood vessel overgrowth in diabetic eye disease",
+      "headline": "A protein linked to eye disease progression could become a new early-warning signal for diabetic vision loss",
       "journal": "Ocular Immunology and Inflammation",
       "pubdate": "2026 Oct 7",
       "doi": "10.1080/09273948.2026.2734573",
-      "groundbreaking": "Relevant women's health finding",
+      "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers in Saudi Arabia and Belgium analyzed eye fluid and membrane tissue from 32 patients with proliferative diabetic retinopathy (PDR) and 25 nondiabetic controls, along with lab cell experiments, to assess two proteins \u2014 macrophage-stimulating protein (MSP) and its receptor RON. MSP levels were significantly higher in PDR patients than controls and were especially elevated in those with active new blood vessel growth, correlating with VEGF, the key driver of vision-threatening vessel proliferation. The findings suggest MSP and RON may serve as novel biomarkers \u2014 and possibly future drug targets \u2014 for this serious diabetic eye complication.",
-      "why_it_matters": "Women with diabetes face serious vision risks from proliferative diabetic retinopathy, and identifying new biological markers could eventually lead to earlier detection or more targeted treatment options.",
-      "caveats": "small sample (N<100), observational design, single-center, no sex-disaggregated data",
+      "summary": "Researchers analyzed vitreous fluid and epiretinal tissue from 32 patients with proliferative diabetic retinopathy (PDR) and 25 nondiabetic controls to assess levels of macrophage-stimulating protein (MSP) and its receptor RON. MSP levels were significantly elevated in PDR patients versus controls and were even higher in those with active neovascularization compared to involuted PDR. MSP levels also correlated with VEGF, a known driver of abnormal blood vessel growth, suggesting MSP and RON may be novel biomarkers for tracking disease activity.",
+      "why_it_matters": "For women living with diabetes \u2014 who face elevated risk of vision-threatening complications \u2014 identifying new biomarkers like MSP could eventually help doctors catch dangerous eye changes earlier.",
+      "caveats": "small sample (N<100), single-center, no sex-disaggregated data",
       "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Diabetes complication relevant to women but small sample and no sex-disaggregated data.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Small human sample; diabetes-related but no women-specific data or hook.",
       "pitch_angles": [
         {
-          "publication_type": "Everyday Health",
-          "headline": "Two Newly Identified Proteins Could Change How Doctors Track Diabetic Eye Disease",
-          "hook": "Scientists found that two proteins \u2014 barely studied in the eye before \u2014 spike in patients whose diabetic retinopathy is actively causing dangerous blood vessel growth.",
-          "pitch_angle": "A small but detailed study identified MSP and RON as potential new biomarkers for proliferative diabetic retinopathy, a leading cause of blindness in people with diabetes; if validated in larger trials, they could help flag who is at highest risk before vision loss occurs."
+          "publication_type": "Verywell Health / Everyday Health",
+          "headline": "A Newly Identified Protein Could Help Detect Dangerous Diabetic Eye Disease Earlier",
+          "hook": "A protein called MSP \u2014 previously overlooked in eye disease \u2014 tracked more closely with active vision-threatening changes than existing markers.",
+          "pitch_angle": "Researchers found that MSP levels in the eyes of people with proliferative diabetic retinopathy were significantly higher than in nondiabetic patients and correlated with VEGF, a known angiogenesis driver. If validated in larger studies, MSP could give doctors a new tool to identify who is at highest risk for sight-threatening complications before vision is lost."
         }
       ],
-      "run_date": "2026-10-09",
+      "run_date": "2026-10-10",
       "category": "Allergy & Immunology",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42841814",
-      "headline": "Musicians and Sound Engineers Are Losing Their Hearing \u2014 and Medicine Has Barely Noticed",
+      "headline": "Musicians and sound engineers are losing their hearing \u2014 and the medical system has almost no specialized playbook for them",
       "journal": "Ear and Hearing",
       "pubdate": "2026 Oct 7",
       "doi": "10.1097/AUD.0000000000001898",
       "groundbreaking": "Relevant women's health finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "An international expert panel published a narrative review synthesizing clinical experience and existing evidence on hearing health in professional ear users (PEUs) \u2014 musicians, instrument makers, and sound engineers \u2014 who depend on acute hearing for their careers. The review found that ear and hearing disorders are common and potentially career-ending in these populations, yet specialized care pathways remain largely underdeveloped. The authors propose an interdisciplinary framework for prevention, advanced diagnostics, and individualized treatment that goes beyond standard audiometry.",
-      "why_it_matters": "Women are increasingly represented in music and audio professions where occupational hearing damage can end careers, yet PEU-specific care frameworks that could protect them are largely absent from clinical practice.",
-      "caveats": "observational design, no sex-disaggregated data, no primary data collected",
+      "summary": "A multinational team of audiologists, physicians, and music-medicine specialists conducted a narrative review synthesizing clinical experience and published evidence on hearing health in 'professional ear users' \u2014 musicians, instrument makers, and sound engineers. The review found that career-threatening ear and hearing disorders are common in these groups but that PEU-specific care pathways remain largely underdeveloped. Authors propose an interdisciplinary framework covering prevention, advanced diagnostics, and individualized treatment, drawing on models from elite sports medicine.",
+      "why_it_matters": "Women working as professional musicians or in audio industries face occupational hearing risks that standard audiometry may miss, yet tailored screening and treatment protocols are almost nonexistent.",
+      "caveats": "observational design, narrative review (not systematic), no primary data, no sex-disaggregated data, single-center perspectives from multiple institutions",
       "fact_check_note": "",
       "relevance_score": 4,
-      "relevance_score_reason": "Narrative review, no primary data, no sex-disaggregated data; niche occupational health topic.",
+      "relevance_score_reason": "Niche occupational health topic; limited women's health specificity; narrative review only.",
       "pitch_angles": [
         {
           "publication_type": "Health.com",
-          "headline": "Female Musicians Are at Risk for Career-Ending Hearing Damage \u2014 and Doctors Aren't Equipped to Help",
-          "hook": "For professional musicians and audio engineers, losing hearing isn't just a health problem \u2014 it's a career death sentence, and a new review finds medicine has no specialized playbook for treating them.",
-          "pitch_angle": "A multinational expert review found that hearing disorders are common and potentially career-ending in music professionals, yet care protocols tailored to their occupational needs barely exist. The authors call for a new interdisciplinary standard of care that goes beyond a basic hearing test."
+          "headline": "Professional Musicians Are Losing Their Hearing \u2014 and Medicine Has Barely Noticed",
+          "hook": "Standard hearing tests weren't designed for people whose careers depend on detecting the subtlest sound differences, and experts say that gap is putting musicians at serious risk.",
+          "pitch_angle": "A new review calls for a specialized ear-health framework modeled on sports medicine, arguing that musicians and sound engineers need targeted prevention and diagnostics that go far beyond a routine audiogram. For the many women in music and audio professions, the absence of tailored care could mean career-ending hearing loss that might have been caught earlier."
         }
       ],
-      "run_date": "2026-10-09",
+      "run_date": "2026-10-10",
       "category": "Brain & Mental Health",
       "chunk": "2/3",
       "status": "new"
     },
     {
       "pmid": "42843653",
-      "headline": "A Common Gene Variant Protects Women's Memory \u2014 But That Advantage Disappears After a First Psychosis Episode",
+      "headline": "A single gene variant may explain why women with first-episode psychosis lose a cognitive edge men never had",
       "journal": "Spanish Journal of Psychiatry and Mental Health",
       "pubdate": "2026 Oct 7",
       "doi": "10.1016/j.sjpmh.2026.08.001",
-      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
+      "groundbreaking": "Relevant women's health finding / First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used mixed-effects models to examine whether a specific genetic variant (rs9896243 in the NSF gene) influences verbal memory differently by sex, studying 486 participants including people experiencing a first episode of psychosis (FEP), their siblings, and healthy controls in Spain. Women carrying the C-allele showed significantly better immediate and delayed recall than men \u2014 but this female cognitive advantage vanished entirely in women with FEP. Male FEP patients carrying the C-allele showed the most severe recognition deficits of any group.",
-      "why_it_matters": "These findings suggest that biological sex shapes how a genetic memory-related variant behaves in early psychosis, which may have implications for how cognitive symptoms in women with first-episode psychosis are evaluated and monitored.",
-      "caveats": "observational design, single-center, small sample (N=486 across multiple subgroups), functional annotation exploratory only",
+      "summary": "Researchers studied 486 participants \u2014 including people with first-episode psychosis (FEP), their siblings, and healthy controls \u2014 in a family-based Spanish cohort to examine whether a specific gene variant (rs9896243 in the NSF gene) affects verbal memory differently by sex. Among controls and siblings, women carrying the C allele consistently outperformed men on memory recall tasks. However, in women with FEP, this female memory advantage disappeared entirely, while male FEP patients with the C allele showed the most pronounced recognition deficits.",
+      "why_it_matters": "This finding suggests that the verbal memory edge women typically have in early psychosis may be genetically fragile \u2014 and that sex-specific genetic screening could one day help identify women at higher cognitive risk after a first psychotic episode.",
+      "caveats": "observational design, single-center, functional annotations exploratory only",
       "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Sex-disaggregated mental health finding; modest N, exploratory genetics, single-center.",
+      "relevance_score": 7,
+      "relevance_score_reason": "Sex-disaggregated finding in psychosis; N=486; clear women's cognitive health angle.",
       "pitch_angles": [
         {
-          "publication_type": "Verywell Health / Everyday Health",
-          "headline": "Women Have a Memory Gene Advantage \u2014 But It May Disappear With Psychosis",
-          "hook": "A genetic variant that normally boosts verbal memory in women loses its protective effect entirely after a first psychosis episode.",
-          "pitch_angle": "New research found that a common gene variant gives women an edge in verbal memory over men \u2014 until psychosis enters the picture. The finding suggests that clinicians may need sex-specific benchmarks when assessing memory loss in women experiencing early psychosis."
+          "publication_type": "Health.com",
+          "headline": "Women Usually Have Better Memory Than Men With Psychosis \u2014 Until This Gene Gets Involved",
+          "hook": "Women with first-episode psychosis carrying a specific gene variant lost a verbal memory advantage that healthy women with the same gene clearly retained.",
+          "pitch_angle": "A study of nearly 500 people found that a gene tied to memory performance works very differently in women who have experienced a first psychotic episode versus those who haven't. The finding opens a door to sex-specific genetic tools for predicting cognitive outcomes in young women after a first episode of psychosis."
+        },
+        {
+          "publication_type": "Verywell Health",
+          "headline": "Why the 'Female Memory Advantage' in Psychosis May Come Down to Your Genes",
+          "hook": "Research has long shown women tend to outperform men on verbal memory in early psychosis \u2014 but a new study suggests one gene variant can erase that edge entirely.",
+          "pitch_angle": "Spanish researchers identified a gene variant that predicts verbal memory performance differently in women with first-episode psychosis compared to their unaffected sisters and female controls. The early evidence suggests sex-informed genetic profiling could someday personalize cognitive care after a first psychotic episode."
         }
       ],
-      "run_date": "2026-10-09",
+      "run_date": "2026-10-10",
       "category": "Brain & Mental Health",
       "chunk": "3/3",
       "status": "new"
@@ -117,110 +231,593 @@
       "journal": "Journal of Cancer Policy",
       "pubdate": "2026 Oct 7",
       "doi": "10.1016/j.jcpo.2026.100816",
-      "groundbreaking": "First-in-class human study / Relevant women's health finding",
+      "groundbreaking": "Relevant women's health finding / Counterintuitive finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Using the 2006 Canadian Census Health and Environment Cohort (CanCHEC), researchers compared lung cancer incidence, mortality, stage at diagnosis, and five-year survival between First Nations and non-Indigenous adults in Canada from 2006\u20132015. First Nations women had higher lung cancer incidence, higher mortality, and significantly poorer five-year survival compared to non-Indigenous women \u2014 a disparity that persisted even at early disease stages. The authors call for lung cancer screening programs with culturally appropriate interventions tailored to First Nations communities.",
-      "why_it_matters": "The finding that survival gaps persist even at early-stage diagnosis for First Nations women suggests the problem isn't just late detection \u2014 it points to deeper systemic barriers in care access and quality that screening alone may not fix.",
-      "caveats": "observational design, retrospective cohort, single-country population (Canada \u2014 First Nations specific), administrative data",
+      "summary": "Using the 2006 Canadian Census Health and Environment Cohort (CanCHEC), researchers examined lung cancer incidence, mortality, and survival among First Nations adults compared to non-Indigenous Canadians between 2006 and 2015. First Nations women had significantly higher lung cancer incidence and mortality, and poorer five-year survival \u2014 including for early-stage disease \u2014 compared to non-Indigenous women. The disparity held even at early stage, suggesting that the gap cannot be explained by late diagnosis alone.",
+      "why_it_matters": "The finding that First Nations women face worse lung cancer survival even when diagnosed early \u2014 not just due to later-stage detection \u2014 points to systemic barriers in treatment access and care quality that screening programs alone may not fix.",
+      "caveats": "observational design, retrospective, Canadian population (findings may not generalize outside Canada's Indigenous health context)",
       "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Large cohort, sex-disaggregated, women's cancer disparity finding; Canada-specific population limits US pitch breadth.",
+      "relevance_score": 7,
+      "relevance_score_reason": "Large cohort, sex-disaggregated data, counterintuitive early-stage survival gap; Canada-specific.",
       "pitch_angles": [
         {
           "publication_type": "Health.com",
-          "headline": "First Nations Women in Canada Have Worse Lung Cancer Survival Even When Caught Early \u2014 Here's Why That Matters",
-          "hook": "Catching lung cancer early didn't close the survival gap for First Nations women in Canada \u2014 pointing to systemic barriers far beyond screening.",
-          "pitch_angle": "A large Canadian cohort study found that First Nations women faced higher lung cancer incidence, mortality, and significantly poorer five-year survival compared to non-Indigenous women \u2014 even when diagnosed at early stages. The finding suggests that the disparity isn't just about late detection, raising urgent questions about culturally appropriate care and equitable access to treatment."
+          "headline": "First Nations Women in Canada Have Worse Lung Cancer Survival \u2014 Even When Caught Early",
+          "hook": "A large national cohort study found that First Nations women in Canada face significantly worse lung cancer survival than non-Indigenous women, even when diagnosed at an early stage.",
+          "pitch_angle": "Researchers found that the survival gap between First Nations and non-Indigenous women with lung cancer persists even at early stages of disease, suggesting the disparity is driven by more than just late diagnosis \u2014 pointing to systemic inequities in treatment access and care quality that urgently need to be addressed."
+        },
+        {
+          "publication_type": "Everyday Health",
+          "headline": "Why Lung Cancer Screening Alone Won't Close the Survival Gap for Indigenous Women in Canada",
+          "hook": "Even when First Nations women in Canada are diagnosed with lung cancer at an early stage, their survival rates remain significantly worse than those of non-Indigenous women.",
+          "pitch_angle": "A decade-long population study reveals that First Nations women face higher lung cancer incidence, mortality, and worse survival at every stage \u2014 evidence that expanding screening programs without also addressing cultural and systemic barriers in cancer care may leave the most vulnerable patients behind."
         }
       ],
-      "run_date": "2026-10-09",
+      "run_date": "2026-10-10",
       "category": "Cancer & Oncology",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42843223",
-      "headline": "Immunotherapy dramatically outlasts chemotherapy for rare aggressive skin cancer after it comes back",
-      "journal": "Annales de Dermatologie et de V\u00e9n\u00e9r\u00e9ologie",
+      "headline": "Immunotherapy Dramatically Outperforms Chemo for Rare Skin Cancer After Relapse \u2014 Median Survival Not Even Reached",
+      "journal": "Annales de dermatologie et de venereologie",
       "pubdate": "2026 Oct 7",
       "doi": "10.1016/j.annder.2026.103528",
-      "groundbreaking": "Relevant women's health finding",
+      "groundbreaking": "Relevant women's health finding / First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed a historical-prospective French cohort of 159 patients with Merkel cell carcinoma (MCC) who experienced a first recurrence after initial stage I\u2013III treatment between 1998 and 2023. Median disease-specific survival after recurrence was 18.3 months overall, but among patients receiving systemic therapy, those treated with immunotherapy had substantially longer survival than those on chemotherapy or targeted therapy (median not reached vs. 10.4 months). Immunosuppression and early recurrence (under 6 months) were the strongest predictors of worse outcomes.",
-      "why_it_matters": "Merkel cell carcinoma most commonly affects older adults including women, and this data suggests that access to immune checkpoint inhibitors at recurrence \u2014 rather than older chemotherapy regimens \u2014 may be a critical survival factor worth discussing with an oncologist.",
-      "caveats": "observational design, retrospective design, single-country (France), no sex-disaggregated data, industry funding [BMS, MSD, Merck, Sanofi, Pfizer \u2014 multiple authors]",
+      "summary": "Researchers analyzed outcomes for 159 patients with Merkel cell carcinoma (MCC) \u2014 an aggressive rare skin cancer \u2014 who experienced a first recurrence after completing initial treatment in a French multicenter cohort spanning 1998\u20132023. Among those receiving systemic therapy at recurrence, median disease-specific survival was not reached for patients on immunotherapy (immune checkpoint inhibitors) vs. 10.4 months for those on chemotherapy or targeted therapy. Immunosuppression and early recurrence (under 6 months) were associated with worse outcomes, while locoregional recurrence and radiotherapy at recurrence were associated with lower mortality risk.",
+      "why_it_matters": "For the roughly 40% of MCC patients who relapse, this study suggests that access to immunotherapy \u2014 not chemotherapy \u2014 may be the critical factor in longer survival.",
+      "caveats": "observational design, retrospective design, single-region (France), heterogeneity of therapeutic regimens over two decades, no sex-disaggregated data, industry funding [MSD, BMS, Sanofi, Merck, Pfizer, Pierre-Fabre]",
       "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Rare cancer; no sex-disaggregated data; retrospective; industry conflicts noted.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Rare skin cancer, solid human cohort, but no sex-disaggregated data and several caveats.",
       "pitch_angles": [
         {
           "publication_type": "Cancer Today",
-          "headline": "When This Rare Skin Cancer Returns, Immunotherapy May Be the Key to Surviving It",
-          "hook": "For patients whose Merkel cell carcinoma comes back, immunotherapy appears to offer dramatically longer survival than chemotherapy \u2014 but getting it isn't guaranteed.",
-          "pitch_angle": "A 25-year French cohort study found that Merkel cell carcinoma patients who received immune checkpoint inhibitors at recurrence had far better survival than those given chemotherapy. The findings highlight a potential gap in care: patients not offered systemic treatment at all had a threefold higher risk of death."
+          "headline": "For Merkel Cell Carcinoma Patients Who Relapse, Immunotherapy May Be a Game-Changer \u2014 Chemo Falls Far Short",
+          "hook": "When a rare but deadly skin cancer comes back, the treatment choice may matter more than previously understood.",
+          "pitch_angle": "A 159-patient French cohort found that MCC patients on immunotherapy after relapse had survival that was not yet reached at study end, compared to just 10.4 months for those on chemotherapy \u2014 a stark gap that underscores how quickly the standard of care may need to shift for recurrent disease."
+        },
+        {
+          "publication_type": "Health.com",
+          "headline": "This Rare Skin Cancer Has a 40% Relapse Rate \u2014 And New Data Shows What Treatment Works Best When It Comes Back",
+          "hook": "Merkel cell carcinoma is rare, aggressive, and poorly understood after relapse \u2014 but a new study offers the clearest survival data yet.",
+          "pitch_angle": "Researchers tracked 159 patients whose Merkel cell carcinoma returned and found that immunotherapy was associated with dramatically longer survival than chemotherapy, adding urgency to conversations about treatment access for one of skin cancer's most under-discussed forms."
         }
       ],
-      "run_date": "2026-10-09",
+      "run_date": "2026-10-10",
       "category": "Dermatology",
       "chunk": "1/1",
       "status": "new"
     },
     {
       "pmid": "42841656",
-      "headline": "People with a rare scaling skin disorder face job rejection, financial strain, and depression \u2014 and doctors often miss how serious it is",
-      "journal": "Acta Dermato-Venereologica",
+      "headline": "Rare Skin Condition Ichthyosis Costs Patients Jobs, Mental Health \u2014 And Doctors Still Don't Get It",
+      "journal": "Acta dermato-venereologica",
       "pubdate": "2026 Oct 7",
       "doi": "10.2340/actadv.v106.adv-2025-0166",
       "groundbreaking": "Relevant women's health finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers in Germany conducted semi-structured qualitative interviews with 18 adults (13 women, 5 men; ages 18\u201367) living with various subtypes of ichthyosis, a rare inherited skin condition causing scaling and barrier dysfunction. Reflexive thematic analysis found that beyond physical symptoms, participants faced education and employment discrimination, social anxiety, depression, and significant financial burden from care routines. Healthcare professionals frequently underestimated the condition's impact, limiting patients' access to social and medical support.",
-      "why_it_matters": "Because the majority of participants were women, these findings highlight how a visible skin condition can compound social and economic disadvantages that women already face in the workplace and healthcare system.",
-      "caveats": "small sample (N<100), observational design, single-center, self-reported outcomes, qualitative design limits generalizability",
+      "summary": "Researchers conducted semi-structured interviews with 18 adults (13 women, 5 men, aged 18\u201367) living with various subtypes of ichthyosis, recruited from two specialized dermatology clinics in Germany and a patient organization. Thematic analysis revealed that beyond physical symptoms and time-intensive skincare routines, participants faced discrimination in education and employment, financial strain, and social anxiety and depression. Healthcare professionals were frequently described as underestimating the condition's full burden, leaving patients without adequate social or medical support.",
+      "why_it_matters": "For the majority-female sample living with ichthyosis, the study highlights how a largely invisible psychosocial burden \u2014 job rejection, depression, financial strain \u2014 goes unaddressed in routine dermatology care.",
+      "caveats": "small sample (N<100), qualitative design, single-region (Germany), self-reported outcomes",
       "fact_check_note": "",
       "relevance_score": 6,
-      "relevance_score_reason": "Women-majority sample; skin condition with psychosocial and workplace hooks; small qualitative N.",
+      "relevance_score_reason": "Women's skin condition, real-world impact, but very small qualitative sample.",
       "pitch_angles": [
         {
-          "publication_type": "Verywell Health / Everyday Health",
-          "headline": "Living with Ichthyosis Means More Than Scaling Skin \u2014 It Can Cost You Your Job and Your Mental Health",
-          "hook": "Adults with a rare inherited skin disorder say they've been turned down for jobs, fallen into depression, and been dismissed by the doctors who are supposed to help them.",
-          "pitch_angle": "A qualitative study found that people with ichthyosis \u2014 most of them women \u2014 experience employment discrimination, social anxiety, and financial strain that healthcare providers routinely underestimate. Experts say dermatologists urgently need to advocate for their patients in social and disability systems, not just prescribe moisturizers."
+          "publication_type": "Allure",
+          "headline": "Living With Ichthyosis Means Constant Skincare \u2014 And a Hidden Mental Health Crisis Doctors Keep Missing",
+          "hook": "A rare skin condition that causes relentless scaling is costing patients jobs and mental health \u2014 and dermatologists are largely in the dark about it.",
+          "pitch_angle": "A new qualitative study found that adults with ichthyosis \u2014 most of them women \u2014 face job discrimination, social anxiety, and depression tied directly to their visible skin condition, yet healthcare providers consistently underestimate the full scope of what living with ichthyosis actually means day to day."
         }
       ],
-      "run_date": "2026-10-09",
+      "run_date": "2026-10-10",
       "category": "Dermatology",
       "chunk": "1/1",
       "status": "new"
     },
     {
       "pmid": "42841579",
-      "headline": "Surgery-first for male infertility let one-third of couples conceive naturally \u2014 without sacrificing IVF success later",
+      "headline": "Surgery first for male infertility doesn't close the door on IVF \u2014 and lets 1 in 3 couples conceive naturally",
       "journal": "Andrology",
       "pubdate": "2026 Oct 7",
       "doi": "10.1111/andr.70412",
-      "groundbreaking": "Relevant women's health finding / First-in-class human study",
+      "groundbreaking": "Relevant women's health finding / Counterintuitive finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This retrospective cohort study followed 397 couples in China where the male partner had epididymal obstructive azoospermia, comparing a microsurgical reconstruction-first approach (n=270) versus going straight to IVF with ICSI (n=127). Among couples who had surgery first, 35.6% achieved natural conception; those who later needed IVF had comparable cumulative live-birth rates to the primary-IVF group (45.9% vs. 43.8%), meeting non-inferiority criteria. However, the surgery-first path took significantly longer to reach live birth, and female age \u226428 and higher AMH levels predicted better natural-conception odds.",
-      "why_it_matters": "For women with a partner diagnosed with obstructive azoospermia, this finding suggests that surgery-first may preserve a real chance at natural pregnancy without closing the door on IVF \u2014 but female age and ovarian reserve are key factors in that decision.",
-      "caveats": "observational design, retrospective, single-center, narrow to epididymal obstructive azoospermia only, study population China",
+      "summary": "This retrospective cohort study of 397 couples in China with epididymal obstructive azoospermia compared outcomes of microsurgical vasoepididymostomy (MVE) first versus going straight to intracytoplasmic sperm injection (ICSI). Among couples who underwent MVE and remained in follow-up, 35.6% achieved natural conception; among those who still needed ICSI afterward, cumulative live-birth rates were non-inferior to primary ICSI (45.9% vs 43.8%). However, time to live birth was significantly longer in the MVE-first group.",
+      "why_it_matters": "For women whose partners have epididymal blockage as the cause of infertility, these findings suggest that choosing surgery first does not appear to reduce the ultimate chances of having a baby via IVF \u2014 but younger women with higher ovarian reserve may benefit most from the surgical-first approach.",
+      "caveats": "observational design, retrospective, single-center, China-based cohort, no sex-disaggregated data on female outcomes independently",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Fertility topic fit; directly relevant to couples; retrospective single-center limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health / Everyday Health",
+          "headline": "If Your Partner Has a Sperm Blockage, Surgery First Might Still Lead to IVF \u2014 But the Odds of Natural Pregnancy Are Real",
+          "hook": "More than 1 in 3 couples chose surgery to correct a sperm blockage and went on to conceive naturally \u2014 and those who needed IVF anyway had just as good a shot at a live birth.",
+          "pitch_angle": "A new study found that microsurgery for male obstructive infertility doesn't compromise future IVF success, but does take longer \u2014 with female age and ovarian reserve emerging as key factors in who benefits most from trying surgery first."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Womens Health & Reproduction",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42854266",
+      "headline": "Your psychosis diagnosis may matter less than your symptoms for predicting brain health",
+      "journal": "Journal of Psychiatric Research",
+      "pubdate": "2026 Oct 7",
+      "doi": "10.1016/j.jpsychires.2026.10.007",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers compared neurocognitive performance and biomarkers (BDNF, CRP, FGF-2) across 90 remitted patients with schizophrenia or bipolar disorder and 30 healthy controls in Turkey. Patients were grouped by whether they had ever experienced Schneiderian first-rank symptoms (e.g., thought insertion, hallucinations) rather than by diagnosis alone. Those with a history of psychotic symptoms \u2014 regardless of whether they had schizophrenia or bipolar disorder \u2014 showed similarly impaired executive function, processing speed, and verbal memory, suggesting symptom history cuts across diagnostic labels.",
+      "why_it_matters": "For women managing a psychosis-spectrum diagnosis, this finding suggests that cognitive and biological risk may be better predicted by symptom history than by the diagnostic category on their chart.",
+      "caveats": "small sample (N<100), single-center, observational design, no sex-disaggregated data",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Interesting finding but small Turkish sample, no sex-disaggregated data, limited women's health hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health",
+          "headline": "Schizophrenia vs. Bipolar Disorder: Your Symptoms May Shape Brain Health More Than Your Diagnosis",
+          "hook": "A new study suggests that whether you've ever experienced psychotic symptoms \u2014 not which diagnosis you carry \u2014 may better predict how your memory and thinking are affected.",
+          "pitch_angle": "Researchers found that bipolar patients who had experienced psychotic episodes showed cognitive profiles nearly identical to those with schizophrenia. This challenges the idea that your diagnostic label is the most meaningful guide to brain health in psychosis-spectrum conditions."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Brain & Mental Health",
+      "chunk": "3/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42843225",
+      "headline": "COVID-19 May Be Triggering a Rare Skin Condition That Leaves Permanent Dimple-Like Lesions",
+      "journal": "Annales de dermatologie et de venereologie",
+      "pubdate": "2026 Oct 7",
+      "doi": "10.1016/j.annder.2026.103525",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This case report or case series from Strasbourg University Hospitals describes the appearance of primary anetoderma \u2014 a rare skin condition causing localized loss of elastic tissue and permanent pouch-like depressions \u2014 following COVID-19 infection. The abstract does not provide a sample size or detailed patient demographics, and the study is published as a letter or short report. The authors suggest the association may be more than coincidental, pointing to possible immune or connective tissue mechanisms linked to SARS-CoV-2.",
+      "why_it_matters": "If the link is confirmed in larger studies, COVID-19 survivors \u2014 particularly women, who are more likely to seek care for skin changes \u2014 may need to be monitored for this rare but permanent skin condition.",
+      "caveats": "small sample (N<100), observational design, single-center, no sex-disaggregated data, abstract lacks sample size detail \u2014 likely case report or letter",
+      "fact_check_note": "The abstract does not provide a sample size or study design label; the study appears to be a case report or short clinical communication. Summary reflects this uncertainty.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Intriguing COVID-skin link but likely case report; very limited data.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com",
+          "headline": "COVID-19 May Be Behind a Mysterious Skin Condition That Leaves Permanent Dents in Skin",
+          "hook": "Doctors are reporting a rare skin condition \u2014 one that causes permanent dimple-like depressions \u2014 appearing after COVID-19 infection.",
+          "pitch_angle": "French dermatologists describe cases of primary anetoderma emerging after COVID-19, suggesting the virus may trigger a breakdown of skin's elastic tissue; while early and limited, the finding adds to a growing body of long COVID skin manifestations worth watching."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Dermatology",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42836841",
+      "headline": "Adults with a childhood epilepsy diagnosis may be going unrecognized \u2014 because the diagnostic rules were never built for them",
+      "journal": "Epilepsia",
+      "pubdate": "2026 Oct 6",
+      "doi": "10.1002/epi.70489",
+      "groundbreaking": "Relevant women's health finding / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a scoping review of 45 studies encompassing 421 patients with Lennox-Gastaut syndrome (LGS) to assess how well current pediatric-based diagnostic criteria apply to adults. Key diagnostic markers \u2014 including specific seizure types and EEG hallmarks \u2014 were documented in fewer than half of adult patients, down from 73% fulfillment of seizure-type criteria in childhood to just 41% in adulthood. The findings suggest that strict reliance on pediatric-centric diagnostic criteria may contribute to underdiagnosis of LGS in adults.",
+      "why_it_matters": "Women with complex epilepsy transitioning out of pediatric care may be at particular risk of falling through diagnostic gaps as their condition evolves in ways current criteria don't capture.",
+      "caveats": "small sample (N<100 per study; total 421 across 45 sources), observational design, 78% case reports/series, no sex-disaggregated data, heterogeneous reporting quality",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Neurology topic, limited women-specific angle, weak evidence base.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health / Everyday Health",
+          "headline": "Grown Up With Epilepsy? Your Childhood Diagnosis Might Not Tell the Whole Story Anymore",
+          "hook": "The diagnostic playbook for a serious childhood epilepsy was written for kids \u2014 and that may mean many adults are going undiagnosed.",
+          "pitch_angle": "A scoping review found that key diagnostic markers for Lennox-Gastaut syndrome appear far less frequently in adult patients than in children, suggesting current criteria may systematically miss adults. For patients navigating the transition from pediatric to adult neurological care, this raises urgent questions about whether their treatment plans still fit."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Brain & Mental Health",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42836369",
+      "headline": "A Gene Linked to Drug Resistance May Help Predict Which Lymphoma Patients Won't Respond to Standard Chemo",
+      "journal": "Future Oncology",
+      "pubdate": "2026 Oct 6",
+      "doi": "10.1080/14796694.2026.2739185",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a retrospective study of lymph node tissue from 70 patients with diffuse large B-cell lymphoma (DLBCL) in Egypt, measuring expression of the gene PEG10 to assess its potential as a biomarker for resistance to standard R-CHOP chemotherapy. Elevated PEG10 expression was associated with advanced disease stage, poorer performance status, higher risk scores, and R-CHOP resistance, though it was not independently predictive after multivariable adjustment. The authors conclude PEG10 may be a useful complementary \u2014 but not standalone \u2014 tissue biomarker pending larger validation studies.",
+      "why_it_matters": "DLBCL is one of the most common blood cancers, and identifying patients likely to resist standard chemotherapy before treatment begins could eventually help clinicians offer more targeted options sooner.",
+      "caveats": "small sample (N<100), observational design, single-center, retrospective, secondary analysis",
+      "fact_check_note": "The abstract states PEG10 was not independently associated with resistance after multivariable adjustment (p=0.163); the plain-language summary implies stronger predictive utility than the statistical results fully support.",
+      "relevance_score": 4,
+      "relevance_score_reason": "Small N=70, retrospective, single-center; PEG10 lost significance on adjustment.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com",
+          "headline": "A Protein in Lymphoma Tumors May Signal Which Patients Won't Respond to Standard Treatment",
+          "hook": "Higher levels of a gene called PEG10 in lymph node tissue were associated with resistance to the most commonly used lymphoma chemotherapy regimen.",
+          "pitch_angle": "A retrospective study found that DLBCL patients with elevated PEG10 expression were more likely to have advanced disease and poor responses to R-CHOP, though the association didn't hold up independently in statistical modeling \u2014 suggesting PEG10 might complement, but not replace, existing risk tools if validated in larger studies."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Cancer & Oncology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42837815",
+      "headline": "Standard COVID-19 blood tests may dangerously underestimate how sick liver-compromised patients really are",
+      "journal": "Cytokine",
+      "pubdate": "2026 Oct 6",
+      "doi": "10.1016/j.cyto.2026.157220",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers studied 575 hospitalized adults with severe COVID-19 in Croatia, applying a framework that categorized patients by liver health risk (FIB-4 score) and cardiometabolic burden. They found that patients with liver-related risk had paradoxically lower scores on standard inflammatory blood indices (NLR, PLR, SII) \u2014 the very markers used to gauge COVID severity \u2014 despite having worse clinical outcomes including higher ICU admission and death rates. In a separate cytokine cohort of 90 patients, elevated CXCL10/IP-10 levels explained the discrepancy, revealing a hidden inflammatory signal masked by suppressed cell counts.",
+      "why_it_matters": "For patients with underlying liver conditions \u2014 who may include women with metabolic liver disease or autoimmune hepatitis \u2014 standard COVID risk scores could falsely reassure clinicians, potentially delaying escalation of care.",
+      "caveats": "observational design, single-center, small cytokine cohort (N=90), no sex-disaggregated data, Croatia-specific hospital population",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Counterintuitive clinical finding but no sex breakdown; limited women's health hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Everyday Health",
+          "headline": "Common COVID Severity Tests May Miss How Sick Some Patients Really Are",
+          "hook": "The routine blood tests doctors use to judge COVID severity may actually underestimate risk in patients with liver problems \u2014 even as those patients are more likely to end up in the ICU.",
+          "pitch_angle": "A new study found that standard inflammatory markers gave falsely reassuring readings in COVID patients with liver-related risk, while a different immune signal \u2014 a chemokine called CXCL10 \u2014 revealed the true inflammatory storm beneath. The findings suggest that for some patients, a normal-looking blood test result could be dangerously misleading."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Allergy & Immunology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42836651",
+      "headline": "Kids are surviving cancer at record rates \u2014 but no one really knows the long-term toll of the new drugs saving them",
+      "journal": "Journal of the National Cancer Institute",
+      "pubdate": "2026 Oct 6",
+      "doi": "10.1093/jnci/djag371",
+      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This narrative review from researchers at St. Jude Children's Research Hospital and multiple US institutions synthesizes evidence on the late effects of novel pediatric cancer therapies \u2014 including immune checkpoint inhibitors, CAR-T cell therapy, antibody-drug conjugates, and targeted small molecules \u2014 that now have FDA approval for pediatric indications. While five-year childhood cancer survival rates now exceed 85%, the authors note that long-term toxicity data for these newer agents remain poorly characterized, with known risks including growth impairment, persistent immune dysfunction, cardiovascular effects, and subsequent malignancies. The review calls for systematic expansion of survivorship cohorts to track children treated with these therapies over time.",
+      "why_it_matters": "As more girls survive childhood cancers thanks to newer therapies, the unknown long-term effects on their developing bodies \u2014 including reproductive and hormonal health \u2014 represent a growing and largely uncharted medical frontier.",
+      "caveats": "review article (not primary research), limited long-term pediatric follow-up data available, extrapolation from adult toxicity data noted by authors",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Timely survivorship topic; review design limits scoring; reproductive/endocrine late effects relevant to girls.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com",
+          "headline": "More Kids Are Surviving Cancer Than Ever \u2014 But Their Future Health Is an Open Question",
+          "hook": "Over 85% of children with cancer now survive five years \u2014 but the newer drugs driving that milestone come with long-term side effects that scientists are only beginning to understand.",
+          "pitch_angle": "A major review from St. Jude Children's Research Hospital warns that the immunotherapies and targeted drugs now saving young lives may cause lasting damage to the heart, hormones, immune system, and growth \u2014 and there isn't nearly enough long-term data yet to know the full picture. For parents of young survivors, especially girls facing potential reproductive consequences, the findings underscore the urgent need for lifelong monitoring."
+        },
+        {
+          "publication_type": "Everyday Health",
+          "headline": "Childhood Cancer Survivors Face a Hidden Health Crisis Decades Later \u2014 and Doctors Are Just Starting to Track It",
+          "hook": "The treatments helping more children survive cancer may be creating a new wave of health problems that won't show up until they're adults.",
+          "pitch_angle": "Experts are raising alarms that modern cancer drugs \u2014 including immunotherapy and CAR-T cell therapy \u2014 have transformed pediatric oncology, but their long-term effects on growing bodies remain largely unknown; current survivorship programs weren't designed to track these newer treatments. The call for expanded, systematic follow-up is especially relevant for female survivors, whose endocrine and reproductive health may be at particular risk."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Cancer & Oncology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42839342",
+      "headline": "Skipping universal aspirin in pregnant women with diabetes may not raise preeclampsia risk \u2014 if you use the right screening tool",
+      "journal": "Acta Obstetricia et Gynecologica Scandinavica",
+      "pubdate": "2026 Oct 6",
+      "doi": "10.1111/aogs.70363",
+      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This retrospective multicenter cohort study across six Spanish tertiary hospitals analyzed 519 singleton pregnancies in women with pregestational diabetes mellitus (PGDM) to compare three aspirin allocation strategies \u2014 universal clinical-risk-based prescribing versus two first-trimester algorithm approaches (with or without placental growth factor). Despite prescribing aspirin to 100% of women under the clinical strategy versus only 17\u201328% under algorithm-based approaches, preterm preeclampsia rates were statistically similar across all three groups (4.2\u20135.9%). No significant differences in secondary maternal or neonatal outcomes were observed.",
+      "why_it_matters": "For pregnant women with diabetes \u2014 a group at elevated preeclampsia risk \u2014 algorithm-guided aspirin prescribing may reduce medication overuse without apparent harm to mother or baby, though these findings require prospective confirmation.",
+      "caveats": "observational design, retrospective, single-country (Spain), short follow-up, small subgroup sizes",
       "fact_check_note": "",
       "relevance_score": 7,
-      "relevance_score_reason": "Fertility topic fit; counterintuitive non-inferiority result; clear couple-level relevance.",
+      "relevance_score_reason": "Counterintuitive finding; strong reproductive health relevance; multicenter but observational.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health / Everyday Health",
+          "headline": "Pregnant Women With Diabetes May Not All Need Low-Dose Aspirin \u2014 A Smarter Screening Approach Could Change the Calculus",
+          "hook": "A new study found that moving away from universal aspirin prescribing in pregnant women with diabetes didn't appear to raise the risk of dangerous preeclampsia.",
+          "pitch_angle": "Researchers found that algorithm-based aspirin allocation \u2014 which prescribed the drug to far fewer women \u2014 was associated with similar rates of preterm preeclampsia as giving aspirin to every high-risk diabetic patient, suggesting the one-size-fits-all approach may be overtreatment for some."
+        },
+        {
+          "publication_type": "Health.com",
+          "headline": "Not Every Pregnant Woman With Diabetes Needs Aspirin to Prevent Preeclampsia, Study Suggests",
+          "hook": "New research from Spain suggests that smarter, individualized aspirin prescribing \u2014 not blanket treatment \u2014 may be just as protective against one of pregnancy's most dangerous complications.",
+          "pitch_angle": "The multicenter study found that women with pregestational diabetes who were screened using first-trimester algorithms and prescribed aspirin far less often had preeclampsia rates similar to those who received universal aspirin prophylaxis, raising questions about current clinical practice."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Womens Health & Reproduction",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42836385",
+      "headline": "When you give immunotherapy alongside chemo-radiation \u2014 not before or after \u2014 esophageal cancer patients survive longer",
+      "journal": "International Journal of Cancer",
+      "pubdate": "2026 Oct 6",
+      "doi": "10.1002/ijc.70740",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers compared three sequencing strategies for combining immune checkpoint inhibitors with chemoradiotherapy in 662 patients with unresectable locally advanced esophageal squamous cell carcinoma across 12 Chinese cancer centers. Patients who received immunotherapy concurrently with chemoradiation had the best survival outcomes (median overall survival not reached), compared to those who received it before (34.7 months) or after (23.1 months) chemoradiation. However, the concurrent strategy also carried the highest rate of severe treatment-related pneumonitis (7.7%).",
+      "why_it_matters": "Timing of immunotherapy relative to chemoradiation may meaningfully affect survival for people with locally advanced esophageal cancer, a finding that could inform treatment conversations.",
+      "caveats": "observational design, single-region (China), no sex-disaggregated data, real-world cohort with potential residual confounding",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Oncology finding but esophageal cancer skews male; no sex-disaggregated data; China-only cohort.",
+      "pitch_angles": [
+        {
+          "publication_type": "Cancer Today",
+          "headline": "Getting the Timing Right: Concurrent Immunotherapy May Be the Sweet Spot for Esophageal Cancer",
+          "hook": "In a head-to-head comparison of three immunotherapy timing strategies, giving the treatment alongside \u2014 not before or after \u2014 chemoradiation produced the longest survival in a real-world study.",
+          "pitch_angle": "A 662-patient multicenter study found concurrent immune checkpoint inhibitor use with chemoradiation outperformed induction and consolidation sequencing for locally advanced esophageal squamous cell carcinoma, though with a higher pneumonitis risk. The tradeoff between survival benefit and toxicity raises important questions about patient selection."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Cancer & Oncology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42831703",
+      "headline": "HIV treatment itself may trigger new autoimmune diseases \u2014 and scientists are starting to understand why",
+      "journal": "International Reviews of Immunology",
+      "pubdate": "2026 Oct 5",
+      "doi": "10.1080/08830185.2026.2736207",
+      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This systematic review (1985\u20132026) synthesized research on how antiretroviral therapy (ART) for HIV can paradoxically trigger new autoimmune diseases during immune reconstitution. Researchers identified a molecular cascade involving T-cell imbalances (Th17/Treg axis), HLA genetic susceptibility, and accelerated cellular aging (telomere erosion) as key drivers. The review found individuals lacking the protective HLA-DRB1*13 allele had a relative risk ratio of 1.12 for ART-induced autoimmunity.",
+      "why_it_matters": "Women living with HIV \u2014 who are disproportionately affected by autoimmune conditions generally \u2014 may face added risk of autoimmune disease onset after starting the treatment designed to help them.",
+      "caveats": "observational design, review methodology only (no primary patient data), no sex-disaggregated data, single author",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Interesting paradox but review-only, no sex-disaggregated data, niche audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health / Everyday Health",
+          "headline": "Your HIV Medication Could Be Triggering a New Autoimmune Disease \u2014 Here's What Researchers Are Finding",
+          "hook": "The drugs that transformed HIV into a manageable condition may, for some people, inadvertently set off a new wave of autoimmune disease.",
+          "pitch_angle": "A new review suggests antiretroviral therapy can trigger autoimmune conditions during immune recovery, with genetic factors influencing who is most vulnerable. For women living with HIV \u2014 who already face higher baseline autoimmune risk \u2014 this emerging paradox raises important questions about long-term monitoring."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Allergy & Immunology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42834311",
+      "headline": "Even Doctors Feel Anxious Getting an HPV-Positive Result With No One to Call",
+      "journal": "International Journal of Behavioral Medicine",
+      "pubdate": "2026 Oct 5",
+      "doi": "10.1007/s12529-026-10496-w",
+      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers surveyed 72 women \u2014 including medical professionals and university staff \u2014 who received high-risk HPV results via self-sampling without prescreening counseling, assessing anxiety using validated scales. Nearly one in four (23.6%) reported clinically significant anxiety after receiving results, and being a healthcare professional offered no protective benefit against that anxiety. Confusion about whether a positive HPV screen signals active disease (rather than risk) was associated with a markedly elevated \u2014 though statistically non-significant \u2014 trend toward greater anxiety.",
+      "why_it_matters": "As HPV self-testing expands as a more accessible alternative to in-clinic Pap smears, the finding suggests that receiving a positive result through an app or letter \u2014 with no counseling \u2014 may leave women, even medically trained ones, in distressing uncertainty.",
+      "caveats": "small sample (N<100), single-center, self-reported outcomes, observational design, Thailand-based population (Bangkok) \u2014 cultural healthcare context may differ from US settings, though the convenience-anxiety paradox has clear global relevance to expanding self-sampling programs",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding; directly relevant to women's cervical health screening access.",
+      "pitch_angles": [
+        {
+          "publication_type": "Women's Health Magazine / Everyday Health",
+          "headline": "Getting Your HPV Results by Text \u2014 With No One to Call \u2014 Is Making Women Anxious, Even Doctors",
+          "hook": "Nearly 1 in 4 women who got a high-risk HPV result through self-sampling with no counseling reported significant anxiety \u2014 and being a doctor didn't help.",
+          "pitch_angle": "A new study found that the 'convenience' of HPV self-sampling can come with a psychological cost: women receiving positive results through impersonal channels, with no explanation of what the result actually means, reported clinically meaningful anxiety at surprising rates. The finding raises questions about whether expanding at-home cervical cancer screening without better communication infrastructure is trading one barrier for another."
+        },
+        {
+          "publication_type": "Health.com / Verywell Health",
+          "headline": "HPV Self-Tests Are More Convenient \u2014 But a Positive Result Without Counseling Can Send Women Into a Spiral",
+          "hook": "Confusing a screening result with an actual cancer diagnosis was linked to sharply higher anxiety \u2014 a gap that HPV self-sampling programs may be making worse.",
+          "pitch_angle": "Researchers found that women who couldn't distinguish between 'you have a risk factor' and 'you have disease' after receiving an HPV self-test result showed a nearly 4-fold increased likelihood of anxiety \u2014 and medical training offered no buffer. As health systems push self-sampling to boost cervical cancer screening rates, the study suggests notification design matters as much as test access."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Brain & Mental Health",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42833428",
+      "headline": "Teen brains are wired so differently from adults that the entire scientific model used to understand \u2014 and treat \u2014 adolescent drug use may be wrong",
+      "journal": "Neuroscience and Biobehavioral Reviews",
+      "pubdate": "2026 Oct 5",
+      "doi": "10.1016/j.neubiorev.2026.107023",
+      "groundbreaking": "Overturns prior research / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a narrative review of human and preclinical neuroscience literature to examine how adolescent brain development shapes substance use risk, finding that existing addiction models \u2014 built on adult data \u2014 do not reliably apply to teens ages 13\u201318. They propose a new framework, the SNAP model, that centers neuroplasticity and peer influence as the dominant drivers of substance use initiation and escalation in adolescents. The review argues that misapplying adult addiction frameworks to teens has led to conceptual and treatment gaps in this population.",
+      "why_it_matters": "Adolescent girls face distinct substance use risks tied to puberty-driven neuroplasticity and social dynamics, yet treatment approaches have largely been adapted from male adult research.",
+      "caveats": "observational design, no sex-disaggregated data, narrative review (not systematic), no primary data collected",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Counterintuitive reframing of teen addiction; limited direct women's health angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health",
+          "headline": "The Science Used to Treat Teen Drug Use Was Built for Adults \u2014 Researchers Say It's Time to Start Over",
+          "hook": "Decades of addiction research was done on adult brains, and scientists now say applying it to teenagers may be doing more harm than good.",
+          "pitch_angle": "A new model proposes that peer influence and a uniquely plastic adolescent brain drive teen substance use in ways adult frameworks can't capture. For parents of teens, especially girls navigating intense social pressure during puberty, this reframing could eventually mean more targeted interventions."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Brain & Mental Health",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42832299",
+      "headline": "Even Knowing the Medicine Exists Isn't Enough: Indonesian Teens With HIV Face a Web of Barriers That Keep Them Off Treatment",
+      "journal": "Culture, Health & Sexuality",
+      "pubdate": "2026 Oct 5",
+      "doi": "10.1080/13691058.2026.2741374",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted in-depth qualitative interviews with 20 adolescents aged 16\u201318 living with HIV in Yogyakarta, Indonesia, to explore barriers to antiretroviral therapy engagement. Individual-level barriers included mental health challenges and fatalistic beliefs post-diagnosis, while family-level barriers included lack of privacy in shared homes and rejection of same-sex sexuality. Societal stigma in healthcare, school, and community settings further undermined treatment engagement.",
+      "why_it_matters": "Adolescent girls living with HIV face compounding stigma \u2014 around their sexuality, their diagnosis, and their access to private healthcare \u2014 that can derail life-saving treatment in ways that medical access alone cannot fix.",
+      "caveats": "small sample (N<100), qualitative design, single-center, self-reported outcomes, narrow to single region (Yogyakarta, Indonesia) \u2014 population-specific context may limit direct generalizability to US/Western settings, though barriers identified are relevant to global adolescent HIV care discussions",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Small qualitative sample, Indonesia-specific context limits US pitch relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "General women's wellness / Health.com",
+          "headline": "For Teen Girls With HIV, the Hardest Part of Treatment Isn't the Medicine \u2014 It's Everyone Else",
+          "hook": "A new study finds that stigma, family rejection, and the sheer lack of privacy can be more powerful barriers to HIV treatment than the drugs themselves.",
+          "pitch_angle": "In-depth interviews with adolescents living with HIV in Indonesia found that even when treatment is available, family dynamics and community stigma push teens \u2014 especially those whose sexuality is rejected at home \u2014 off life-saving antiretroviral therapy. The finding underscores that closing the global treatment gap for young women requires psychosocial and structural support, not just medication access."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Brain & Mental Health",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42830173",
+      "headline": "Real-Time MRI During Glioblastoma Radiation Reveals Tumors Are Far More Unpredictable Than Scans Before Treatment Suggest",
+      "journal": "Radiotherapy and Oncology",
+      "pubdate": "2026 Oct 4",
+      "doi": "10.1016/j.radonc.2026.111792",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "The prospective MARGA-I trial tracked 25 glioblastoma patients treated on a 0.35-T MR-linac, acquiring serial MRI scans every fifth radiation fraction to observe tumor volume changes during treatment. Researchers found that 79% of patients showed major increases in FLAIR-hyperintense volumes during treatment, and in 74% of patients these volumes extended beyond the planned clinical target volume. No clinical or molecular markers reliably predicted which patients would experience these volumetric shifts.",
+      "why_it_matters": "For people with glioblastoma \u2014 a brain tumor with very poor prognosis \u2014 evidence that tumors shift substantially and unpredictably during radiation treatment suggests that adaptive, real-time imaging approaches could become critical to ensuring the right areas are being targeted.",
+      "caveats": "small sample (N<100), single-center, short follow-up, no sex-disaggregated data",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Small N=25, single-center, no sex-disaggregated data; limited women's-specific angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com",
+          "headline": "Brain Tumors Keep Changing Shape During Radiation \u2014 and Doctors Couldn't Predict Which Patients' Would Shift Most",
+          "hook": "In nearly 80% of glioblastoma patients, the tumor-affected area expanded significantly during radiation treatment, often growing beyond the area being targeted.",
+          "pitch_angle": "A small prospective trial using real-time MRI during radiation therapy found that glioblastoma tumors are far more dynamic during treatment than previously appreciated, with no reliable way to predict which patients will experience the biggest shifts \u2014 raising questions about whether standard fixed treatment plans miss the mark."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Cancer & Oncology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42830371",
+      "headline": "Doctors Still Can't Predict Which Liver Cancer Immunotherapy Will Work Best for Which Patient",
+      "journal": "Targeted Oncology",
+      "pubdate": "2026 Oct 4",
+      "doi": "10.1007/s11523-026-01259-4",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This opinion piece reviews the current state of first-line immunotherapy selection for advanced hepatocellular carcinoma (HCC), noting that three approved regimens exist but no validated biomarker can identify which patients benefit most from which treatment. The authors propose a practical selection framework and discuss why biomarker development has repeatedly failed in HCC, citing tumor heterogeneity, limited tissue availability, and reliance on single-treatment cohorts. They call for prospective studies integrating tumor immune state with molecular features across competing regimens.",
+      "why_it_matters": "Women with advanced liver cancer \u2014 a diagnosis rising in younger adults \u2014 may be receiving immunotherapy selected by elimination rather than precision, with no way to predict which regimen will actually work for them.",
+      "caveats": "observational design, industry funding [AstraZeneca, Bristol-Myers Squibb, Merck, Exelixis, Pfizer, and others], no sex-disaggregated data, no primary data (opinion/review piece)",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Opinion piece, no primary data, no sex-disaggregated data, limited women's-specific angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com",
+          "headline": "Three Liver Cancer Immunotherapies Are Approved \u2014 But Doctors Still Can't Tell Which One Will Work for You",
+          "hook": "When it comes to advanced liver cancer, oncologists are choosing between three approved immunotherapy combinations with no reliable way to predict which will help which patient.",
+          "pitch_angle": "A new review highlights a critical gap: despite multiple approved options, no validated biomarker exists to personalize first-line immunotherapy for advanced liver cancer, meaning treatment selection still relies on ruling out options rather than matching patients to the right one."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Cancer & Oncology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42854350",
+      "headline": "Precision cancer panels are spreading across Europe \u2014 but access still depends on where you live",
+      "journal": "Cancer treatment reviews",
+      "pubdate": "2026 Oct 4",
+      "doi": "10.1016/j.ctrv.2026.103221",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a scoping review of 106 studies examining how molecular tumor boards \u2014 multidisciplinary panels that interpret genomic tumor data to guide personalized cancer treatment \u2014 are being implemented across European healthcare systems. The review found that while MTBs are increasingly common, their adoption is highly uneven, with major barriers including delayed turnaround times, lack of standardized workflows, limited genomic literacy among clinicians, and stark geographic disparities in access. Facilitators included workflow optimization, virtual MTBs, and declining sequencing costs.",
+      "why_it_matters": "Women with cancers like breast or ovarian cancer that often benefit from genomic-guided therapy may face unequal access to precision oncology panels depending on where in Europe they receive care.",
+      "caveats": "scoping review, Europe-only, no sex-disaggregated data, no direct patient outcome data",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Equity angle relevant to women with cancer; scoping review, no patient data, Europe-only.",
       "pitch_angles": [
         {
           "publication_type": "Health.com / Verywell Health",
-          "headline": "When Your Partner Has a Sperm Blockage, Going the Surgery Route First May Give You a Real Shot at Natural Pregnancy",
-          "hook": "More than one-third of couples chose surgery to correct a male sperm blockage and conceived naturally \u2014 and those who still needed IVF afterward didn't lose any ground on success rates.",
-          "pitch_angle": "A new study of nearly 400 couples found that opting for microsurgery before IVF allowed over a third to conceive without assisted reproduction, and those who later needed IVF had statistically similar live-birth rates to couples who went straight to the lab. The catch: surgery-first takes longer, making female age and egg reserve critical factors in the decision."
-        },
-        {
-          "publication_type": "Everyday Health / General women's wellness",
-          "headline": "IVF Isn't Always the First Step When Male Infertility Is the Issue \u2014 Here's What New Research Shows",
-          "hook": "A study suggests that for couples facing a specific male fertility barrier, trying surgery before IVF doesn't hurt \u2014 and may help some skip assisted reproduction altogether.",
-          "pitch_angle": "Researchers followed couples where the male partner had a sperm-duct obstruction and found that a surgery-first strategy led to natural pregnancy in over a third of cases without compromising IVF outcomes for those who still needed it. Female age and ovarian reserve emerged as key predictors of who benefits most from this approach."
+          "headline": "Your Zip Code \u2014 or Country \u2014 Could Determine Whether You Get Personalized Cancer Care",
+          "hook": "A sweeping review of Europe's precision oncology infrastructure found that access to expert genomic tumor panels varies dramatically by geography, wealth, and healthcare system.",
+          "pitch_angle": "Molecular tumor boards \u2014 the specialized teams that match cancer patients to targeted therapies based on their tumor's DNA \u2014 are expanding across Europe, but a new review suggests most patients still can't access them equitably. For women with genomically complex cancers like breast or ovarian, the gap could mean the difference between a tailored treatment and a one-size-fits-all approach."
         }
       ],
-      "run_date": "2026-10-09",
+      "run_date": "2026-10-10",
+      "category": "Cancer & Oncology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42828636",
+      "headline": "Even after immunotherapy fails, older lung cancer patients may still benefit from standard chemo \u2014 but most never get it",
+      "journal": "International journal of clinical oncology",
+      "pubdate": "2026 Oct 3",
+      "doi": "10.1007/s10147-026-03206-9",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This multicenter retrospective cohort study from 58 institutions in Japan followed 1,245 patients aged 75 or older with advanced NSCLC who received first-line immunotherapy-based treatment between 2018 and 2021. After disease progression, only 31\u201348% received second-line therapy, most commonly single-agent chemotherapy. Among those who did receive second-line chemo, median progression-free survival was 3.7 months and overall survival was approximately 9.5\u20139.9 months \u2014 comparable to pre-immunotherapy era outcomes.",
+      "why_it_matters": "Many older women with advanced lung cancer may be undertreated after immunotherapy fails, and second-line chemotherapy \u2014 when given \u2014 may still offer meaningful survival benefit.",
+      "caveats": "observational design, retrospective, single-country (Japan), no sex-disaggregated data, results may not generalize to non-Japanese healthcare systems",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Lung cancer affects women; no sex-disaggregated data, Japan-only, observational.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Everyday Health",
+          "headline": "Older Lung Cancer Patients Are Often Undertreated After Immunotherapy Fails \u2014 Even When More Options Exist",
+          "hook": "A large Japanese study found that fewer than half of older adults with advanced lung cancer received any second-line treatment after immunotherapy stopped working.",
+          "pitch_angle": "Researchers tracking over 1,200 patients aged 75+ found that most who progressed on immunotherapy never made it to a second treatment \u2014 despite evidence that standard chemotherapy still helped those who received it. The findings raise questions about whether older patients are systematically offered fewer options."
+        }
+      ],
+      "run_date": "2026-10-10",
+      "category": "Cancer & Oncology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42852386",
+      "headline": "Only 1 in 15 women in eastern DRC has ever been screened for cervical cancer \u2014 despite most knowing it exists",
+      "journal": "International Journal of Women's Health",
+      "pubdate": "2026",
+      "doi": "10.2147/IJWH.S646534",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A cross-sectional survey of 425 women aged 18+ working in the informal sector in Bukavu, eastern Democratic Republic of Congo assessed knowledge, attitudes, and practices around cervical cancer prevention. While 56% of participants had heard of cervical cancer and 77% expressed positive attitudes toward prevention, only 6.67% had ever undergone a screening test and 93% demonstrated poor preventive practices overall. Access to healthcare was the strongest factor associated with adequate knowledge (adjusted OR 3.12).",
+      "why_it_matters": "The findings highlight how systemic healthcare access barriers \u2014 not simply lack of awareness \u2014 drive dangerously low cervical cancer screening rates among women in high-burden, low-resource settings.",
+      "caveats": "observational design, single-center, self-reported outcomes, narrow to eastern DRC informal sector population",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Cervical cancer topic fit, but findings specific to DRC context with limited US/global lifestyle relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "General women's wellness",
+          "headline": "Knowing About Cervical Cancer Isn't Enough \u2014 Access to Care Is What Actually Gets Women Screened",
+          "hook": "In a new study, nearly 93% of women surveyed had poor cervical cancer prevention practices \u2014 even though most had heard of the disease.",
+          "pitch_angle": "Researchers found that healthcare access, not awareness alone, was the key driver of cervical cancer screening in a high-burden region, suggesting that education campaigns without structural support may fall short everywhere."
+        }
+      ],
+      "run_date": "2026-10-10",
       "category": "Womens Health & Reproduction",
       "chunk": "1/1",
       "status": "new"
@@ -280,240 +877,6 @@
       "status": "new"
     },
     {
-      "pmid": "42836841",
-      "headline": "Adults with Lennox-Gastaut syndrome are being missed \u2014 because doctors are still using criteria built for children",
-      "journal": "Epilepsia",
-      "pubdate": "2026 Oct 6",
-      "doi": "10.1002/epi.70489",
-      "groundbreaking": "Overturns prior research / Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "A scoping review of 45 studies encompassing 421 patients examined how Lennox-Gastaut syndrome (LGS) \u2014 a severe epilepsy typically diagnosed in childhood \u2014 presents in adults. Researchers found that the diagnostic criteria developed for children may frequently fail adults, as key seizure types and EEG hallmarks become less prominent over time; criteria fulfillment dropped from 73% in childhood to 41% in adulthood. The review concludes that adult patients may be systematically underdiagnosed or misclassified because diagnostic frameworks have not evolved to reflect how LGS changes across the lifespan.",
-      "why_it_matters": "For women living with a childhood epilepsy diagnosis into adulthood, changing seizure patterns and inadequate adult-oriented criteria may mean their condition is mismanaged or missed entirely during critical life stages such as pregnancy planning.",
-      "caveats": "observational design, secondary analysis, heterogeneous evidence (78% case reports/series), small aggregate sample (N=421), no sex-disaggregated data",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Clinically important diagnostic gap finding; limited by low-quality evidence base and no sex-disaggregated data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Verywell Health",
-          "headline": "Adults With a Rare Childhood Epilepsy Are Going Undiagnosed \u2014 Because the Medical Criteria Never Grew Up With Them",
-          "hook": "A severe epilepsy syndrome called Lennox-Gastaut is being missed in adults because doctors are still using diagnostic checklists designed for children \u2014 and many adult patients no longer fit those criteria.",
-          "pitch_angle": "A new scoping review found that the hallmark seizure types and brain-wave patterns used to diagnose Lennox-Gastaut syndrome in children frequently fade or change in adulthood, dropping diagnostic criteria fulfillment by nearly half. The finding suggests a generation of adults \u2014 including women navigating the condition through reproductive years \u2014 may be living with an unrecognized or misclassified diagnosis."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Brain & Mental Health",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42836369",
-      "headline": "A Gene Tied to Drug Resistance May Help Predict Which Lymphoma Patients Won't Respond to Standard Chemo",
-      "journal": "Future Oncology",
-      "pubdate": "2026 Oct 6",
-      "doi": "10.1080/14796694.2026.2739185",
-      "groundbreaking": "Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers in Egypt conducted a retrospective observational study examining PEG10 gene and protein expression in lymph node tissue from 70 patients with diffuse large B-cell lymphoma (DLBCL), 30 with indolent B-cell lymphoma, and 20 healthy controls. Elevated PEG10 expression was associated with advanced disease stage, poorer performance status, higher risk scores, and resistance to first-line R-CHOP chemotherapy. However, PEG10 was not independently predictive of resistance after multivariable adjustment (p=0.163), and disease stage remained the only independent predictor.",
-      "why_it_matters": "DLBCL affects women as well as men, and identifying patients likely to resist standard chemotherapy before treatment begins could inform earlier escalation to alternative regimens \u2014 though this research is exploratory and requires validation.",
-      "caveats": "small sample (N=70 DLBCL patients), observational design, retrospective, single-center, Egypt population, no sex-disaggregated outcomes reported, PEG10 not independently significant after adjustment",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Small sample, not independently significant after adjustment, single-center, no sex-disaggregated data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Cancer Today",
-          "headline": "Could a Gene Marker Help Spot Lymphoma Patients Who Won't Respond to Standard Chemo?",
-          "hook": "A protein-producing gene called PEG10 was elevated in lymphoma tumors that resisted standard chemotherapy \u2014 but the finding needs much larger studies before it changes care.",
-          "pitch_angle": "Early-stage research from Egypt found that higher levels of PEG10, a gene associated with cancer cell survival, were linked to resistance to R-CHOP \u2014 the standard first-line treatment for aggressive B-cell lymphoma \u2014 though the association didn't hold after accounting for disease stage. Researchers say the finding is exploratory but could eventually help oncologists flag high-risk patients before treatment begins."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Cancer & Oncology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42837815",
-      "headline": "Standard COVID-19 blood markers may dangerously underestimate risk in patients with liver damage",
-      "journal": "Cytokine",
-      "pubdate": "2026 Oct 6",
-      "doi": "10.1016/j.cyto.2026.157220",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers applied a 2\u00d72 classification framework to 575 hospitalized adults with severe COVID-19 in Croatia, stratifying patients by cardiometabolic burden and liver-risk status defined by the FIB-4 index. Despite having worse clinical outcomes \u2014 including higher rates of ICU admission and death \u2014 patients with liver-risk phenotypes paradoxically showed lower scores on standard inflammatory markers like the neutrophil-to-lymphocyte ratio. A separate cytokine sub-cohort of 90 patients confirmed that elevated CXCL10/IP-10 better captured the true inflammatory burden in these patients, suggesting routine cell-count indices can be misleading when liver dysfunction is present.",
-      "why_it_matters": "Women with metabolic liver disease or prior COVID-19 may be at higher clinical risk than standard blood tests suggest, which could have implications for how aggressively clinicians monitor them.",
-      "caveats": "observational design, single-center, no sex-disaggregated data, cytokine cohort small (N=90)",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Counterintuitive diagnostic finding; no sex breakdown; largely technical framing.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health.com / Everyday Health",
-          "headline": "A Common Blood Test May Miss How Sick Some COVID Patients Really Are",
-          "hook": "New research suggests the standard markers doctors use to gauge COVID-19 severity can give a falsely reassuring picture in patients with even mild liver damage.",
-          "pitch_angle": "A study of 575 hospitalized COVID patients found that those with liver-risk profiles had worse outcomes but counterintuitively lower inflammatory scores on routine tests \u2014 meaning standard monitoring may underestimate their danger. A different immune marker, CXCL10, better reflected the true level of inflammation in these patients."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Allergy & Immunology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42836651",
-      "headline": "Kids who survived cancer on newer immunotherapies may face unknown long-term health risks doctors aren't yet tracking",
-      "journal": "Journal of the National Cancer Institute",
-      "pubdate": "2026 Oct 6",
-      "doi": "10.1093/jnci/djag371",
-      "groundbreaking": "Relevant women's health finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers reviewed current evidence on late effects of novel cancer therapies \u2014 including immune checkpoint inhibitors, CAR-T cell therapy, antibody-drug conjugates, and targeted small molecules \u2014 in childhood cancer survivors, where 5-year survival now exceeds 85%. Unlike conventional chemo and radiation, whose long-term toxicities are well characterized, these newer treatments have poorly defined long-term profiles affecting cardiovascular, neurologic, endocrine, and immune systems. The review, led by St. Jude Children's Research Hospital experts, finds an urgent data gap and calls for systematic long-term surveillance of children treated with these agents.",
-      "why_it_matters": "Girls treated with newer cancer therapies during childhood may face unrecognized reproductive, hormonal, or cardiovascular risks that current survivorship guidelines don't yet address.",
-      "caveats": "secondary analysis, observational design, no sex-disaggregated data",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Important survivorship gap; review design limits strength; no sex-disaggregated data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Cancer Today",
-          "headline": "The Long-Term Side Effects of New Childhood Cancer Drugs Are Still Largely Unknown",
-          "hook": "More than 85% of children with cancer now survive \u2014 but the newest therapies saving their lives haven't been studied long enough to know what they'll do to growing bodies.",
-          "pitch_angle": "Immune checkpoint inhibitors and CAR-T therapies have transformed pediatric oncology, but experts at St. Jude warn that long-term toxicity data is nearly absent \u2014 creating a surveillance blind spot for the next generation of survivors, including risks to growth, hormones, and fertility."
-        },
-        {
-          "publication_type": "Health.com",
-          "headline": "Cancer Survivors Who Were Treated as Kids May Face Hidden Health Risks From Newer Drugs",
-          "hook": "The treatments that saved children from cancer a decade ago are now raising new questions about what they left behind.",
-          "pitch_angle": "A major review finds that novel cancer therapies given to kids \u2014 including immunotherapies now routinely used \u2014 have no long-term safety data, leaving survivors and their doctors without guidance on what to monitor as they age into adulthood."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Cancer & Oncology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42839342",
-      "headline": "Smarter aspirin screening algorithms didn't outperform standard risk checks for preeclampsia in pregnant women with diabetes",
-      "journal": "Acta Obstetricia et Gynecologica Scandinavica",
-      "pubdate": "2026 Oct 6",
-      "doi": "10.1111/aogs.70363",
-      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This retrospective multicenter cohort study included 519 singleton pregnancies in women with pregestational diabetes across six Spanish tertiary hospitals (2017\u20132022), comparing three first-trimester aspirin allocation strategies: clinical risk factor-based, algorithm-based without PlGF, and algorithm-based with PlGF. Aspirin was prescribed to 100% of women under the clinical approach versus 16.8%\u201328.3% under algorithm-based approaches. No statistically significant differences in preterm preeclampsia rates were found across the three strategies (4.7%, 5.9%, and 4.2%, respectively) after multivariable adjustment.",
-      "why_it_matters": "For pregnant women with diabetes \u2014 a group at elevated preeclampsia risk \u2014 this suggests that more sophisticated first-trimester screening tools may not yet offer a clear advantage over standard clinical risk assessment for guiding aspirin prophylaxis.",
-      "caveats": "observational design, retrospective, single-country (Spain), secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive result; relevant to high-risk pregnancy; clean multicenter design.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health.com / Verywell Health",
-          "headline": "High-Tech Preeclampsia Screening Didn't Beat the Old-School Approach for Women With Diabetes",
-          "hook": "A new study found that sophisticated first-trimester algorithms didn't significantly reduce preterm preeclampsia rates compared to standard clinical checks \u2014 even though they prescribed aspirin far less often.",
-          "pitch_angle": "Researchers followed over 500 pregnancies in women with diabetes and found that cutting-edge screening tools reduced aspirin prescriptions dramatically but didn't translate into better outcomes than routine risk assessment. The counterintuitive finding raises questions about whether precision medicine tools are ready to replace tried-and-true clinical judgment in high-risk pregnancies."
-        },
-        {
-          "publication_type": "Everyday Health / General women's wellness",
-          "headline": "If You Have Diabetes and Are Pregnant, Here's What a New Study Says About Aspirin and Preeclampsia Risk",
-          "hook": "Women with pregestational diabetes are routinely given aspirin to prevent preeclampsia \u2014 but a new study suggests the method used to decide who needs it may matter less than previously hoped.",
-          "pitch_angle": "A Spanish multicenter study found no significant difference in preterm preeclampsia rates regardless of whether aspirin was prescribed to all high-risk women or only to those flagged by advanced screening algorithms. The finding is early evidence that the push toward individualized screening may not yet be ready to replace blanket prophylaxis for this vulnerable group."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Womens Health & Reproduction",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42831703",
-      "headline": "HIV treatment can trigger new autoimmune diseases as the immune system reboots \u2014 and scientists are beginning to understand why",
-      "journal": "International reviews of immunology",
-      "pubdate": "2026 Oct 5",
-      "doi": "10.1080/08830185.2026.2736207",
-      "groundbreaking": "Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This systematic review synthesized literature from 1985\u20132026 across PubMed, Embase, and Scopus to examine the mechanisms behind autoimmune diseases that can emerge after people start antiretroviral therapy (ART) for HIV. The review found that as the immune system reconstitutes in distinct T-cell waves, a combination of genetic susceptibility (including specific HLA variants), accelerated telomere shortening, and elevated IL-6 signaling may tip the balance toward pathogenic immune activity. Authors propose that this sequence \u2014 driven by cellular aging and cytokine dysregulation \u2014 helps explain why some people living with HIV develop conditions like lupus or rheumatoid arthritis after starting otherwise effective treatment.",
-      "why_it_matters": "Women living with HIV are disproportionately affected by autoimmune conditions, and understanding why ART itself may sometimes trigger these diseases is an important step toward prevention and earlier monitoring.",
-      "caveats": "observational design, no sex-disaggregated data, narrative/systematic review (no primary data), single author",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Relevant HIV/autoimmunity intersection; review only, no new primary data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health.com / Verywell Health",
-          "headline": "HIV Drugs That Save Lives Can Sometimes Trigger Autoimmune Diseases \u2014 Here's Why",
-          "hook": "A sweeping review of four decades of research finds that as HIV treatment rebuilds the immune system, it can occasionally set off a chain reaction leading to conditions like lupus or inflammatory arthritis.",
-          "pitch_angle": "Scientists have mapped a molecular sequence \u2014 involving cellular aging, immune imbalance, and genetic susceptibility \u2014 that may explain why some people living with HIV develop new autoimmune diseases after starting antiretroviral therapy. The finding matters especially for women, who already face higher rates of autoimmune disease and make up a growing share of people living with HIV."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Allergy & Immunology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42834311",
-      "headline": "Even doctors panic after a positive HPV self-test \u2014 because nobody explains what the result actually means",
-      "journal": "International Journal of Behavioral Medicine",
-      "pubdate": "2026 Oct 5",
-      "doi": "10.1007/s12529-026-10496-w",
-      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers surveyed 72 women in Bangkok, Thailand \u2014 including medical professionals and university staff \u2014 who received high-risk HPV results via vaginal self-sampling without pre-screening counseling. Nearly one in four women (23.6%) experienced clinically significant anxiety after receiving their results. Notably, working in a medical profession did not reduce anxiety, suggesting that professional health knowledge alone does not protect against distress when clear communication is absent.",
-      "why_it_matters": "As HPV self-sampling expands as a cervical cancer screening option, this study suggests that simply delivering a result \u2014 without explaining the difference between a screening flag and an actual diagnosis \u2014 may cause significant and unnecessary anxiety in women, including those with medical training.",
-      "caveats": "small sample (N<100), single-center, self-reported outcomes, single-region (Thailand), observational design",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive finding on anxiety in medically trained women; strong cervical health hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health.com",
-          "headline": "Nearly 1 in 4 Women Had an Anxiety Spike After Their HPV Self-Test \u2014 Even the Ones Who Are Doctors",
-          "hook": "Getting a positive HPV self-test result without any explanation left nearly a quarter of women \u2014 including healthcare professionals \u2014 with clinically significant anxiety.",
-          "pitch_angle": "A new study found that the growing 'minimally supported' model of HPV self-sampling, where women receive results with little to no counseling, may be creating a 'convenience-anxiety paradox.' The counterintuitive finding that medical professionals were no less anxious than laypeople points to a systemic communication failure, not a knowledge gap."
-        },
-        {
-          "publication_type": "Verywell Health",
-          "headline": "HPV Self-Testing Is Convenient \u2014 But Getting a Positive Result Without Guidance Can Trigger Real Anxiety",
-          "hook": "HPV self-sampling promised to make cervical cancer screening more accessible, but a new study suggests the way results are delivered may be causing unnecessary fear.",
-          "pitch_angle": "Researchers found that women who received high-risk HPV results without pre-screening counseling frequently confused a screening result (elevated risk) with a diagnosis (confirmed disease), and that confusion was linked to anxiety. The study suggests that scaling up self-sampling programs ethically requires rethinking how \u2014 not just whether \u2014 results are communicated."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Brain & Mental Health",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42833428",
-      "headline": "Teen Brains Don't Follow Adult Addiction Rules \u2014 Scientists Finally Have a Model That Fits",
-      "journal": "Neuroscience and Biobehavioral Reviews",
-      "pubdate": "2026 Oct 5",
-      "doi": "10.1016/j.neubiorev.2026.107023",
-      "groundbreaking": "Counterintuitive finding / Overturns prior research",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers reviewed the neuroscience literature on adolescent substance use (ages 13\u201318) and found that existing addiction models \u2014 all built on adult brain research \u2014 don't reliably apply to teens. The review introduces the SNAP (Substance use Neuroplasticity And Peer) model, a new framework that accounts for the distinct patterns of brain development, neuroplasticity, and peer influence that drive substance use initiation and escalation in adolescents. The authors argue current adult-derived models have led to mismatched treatment approaches for this age group.",
-      "why_it_matters": "Because adolescent girls and young women show distinct patterns of substance use escalation compared to boys, a model designed for teen brains \u2014 not adult ones \u2014 could eventually improve prevention and treatment tailored to their needs.",
-      "caveats": "observational design, secondary analysis, no sex-disaggregated data",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Narrative review, no primary data, no sex-disaggregated findings; limited women's health hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "Everyday Health",
-          "headline": "Why Teen Addiction Treatment Often Fails \u2014 and a New Brain Model That Could Change That",
-          "hook": "Every addiction treatment program for teenagers has been built on research done on adult brains \u2014 and scientists say that's a fundamental problem.",
-          "pitch_angle": "A new neurodevelopmental model suggests teen brains respond to substance use initiation very differently than adult brains, particularly because of peer influence and ongoing neuroplasticity. This mismatch may explain why so many adolescent treatment programs underperform."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Brain & Mental Health",
-      "chunk": "2/3",
-      "status": "new"
-    },
-    {
       "pmid": "42832841",
       "headline": "A common blood pressure drug may dial down fibromyalgia pain \u2014 at least in rats",
       "journal": "International Immunopharmacology",
@@ -537,87 +900,6 @@
       ],
       "run_date": "2026-10-09",
       "category": "Allergy & Immunology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42832299",
-      "headline": "Even knowing the science, Indonesian teens with HIV can't stay on treatment \u2014 and stigma is the biggest reason why",
-      "journal": "Culture, Health & Sexuality",
-      "pubdate": "2026 Oct 5",
-      "doi": "10.1080/13691058.2026.2741374",
-      "groundbreaking": "Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted in-depth interviews with 20 adolescents (aged 16\u201318) living with HIV in Yogyakarta, Indonesia, exploring barriers to antiretroviral therapy (ART) engagement. Using a socio-ecological framework, the study identified individual barriers (mental health challenges, fatalistic beliefs), family barriers (lack of privacy, rejection of same-sex sexuality, poor support), and societal barriers (stigma in healthcare, school, and community settings). Stigma at multiple levels was found to be a central force undermining consistent treatment engagement.",
-      "why_it_matters": "For adolescent girls and young women living with HIV in stigma-heavy environments, systemic and family-level barriers \u2014 not personal failure \u2014 may be the primary obstacles to life-saving treatment.",
-      "caveats": "small sample (N<100), qualitative design, single-center, single-region (Indonesia), no sex-disaggregated data",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Small qualitative sample, Indonesia-specific context, limited generalizability to US audience.",
-      "pitch_angles": [
-        {
-          "publication_type": "General women's wellness",
-          "headline": "Why Teens With HIV Can't Stay on Medication \u2014 And It's Not What You Think",
-          "hook": "For adolescents living with HIV, the biggest barrier to life-saving treatment isn't the medication \u2014 it's the stigma that surrounds it at home, school, and the doctor's office.",
-          "pitch_angle": "A qualitative study of Indonesian teens found that shame, family rejection, and a lack of privacy in shared homes derail ART adherence more than any clinical factor. The finding underscores how social environments \u2014 not individual willpower \u2014 shape health outcomes for young people living with HIV."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Brain & Mental Health",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42830173",
-      "headline": "Brain Tumor Scans Mid-Treatment Show Dramatic, Unpredictable Volume Changes \u2014 Raising Hope for Real-Time Adaptive Radiation",
-      "journal": "Radiotherapy and Oncology",
-      "pubdate": "2026 Oct 4",
-      "doi": "10.1016/j.radonc.2026.111792",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In the prospective MARGA-I trial at University Hospital Zurich, 25 patients with glioblastoma received radiotherapy on a 0.35-T MR-linac, with serial MRI acquired before and every five fractions during treatment. Tumor and surrounding tissue volumes changed substantially and unpredictably across patients \u2014 79% showed major increases in FLAIR-hyperintense volume, and in 74% of patients, these volumes exceeded the original clinical target volume by more than 1cc. No clinical or molecular factors predicted which patients would experience major changes.",
-      "why_it_matters": "Glioblastoma is diagnosed in women as well as men, and evidence that tumors shift substantially during radiation \u2014 in ways current static treatment plans can't anticipate \u2014 suggests real-time adaptive radiotherapy guided by serial MRI could eventually improve precision for patients with this devastating cancer.",
-      "caveats": "small sample (N=25), single-center, no sex-disaggregated data, prospective but early/first results, Switzerland population",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Small N, single-center, no sex-disaggregation; niche technical oncology finding with limited women's lifestyle hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "Cancer Today",
-          "headline": "Brain Tumors Shift Shape During Radiation Treatment \u2014 And Doctors Are Only Now Able to Track It in Real Time",
-          "hook": "Glioblastoma tumors changed dramatically in size during radiotherapy in most patients \u2014 but no one could predict whose tumor would grow and whose would shrink.",
-          "pitch_angle": "A small prospective Swiss trial found that the vast majority of glioblastoma patients showed major volumetric changes in their tumors during radiation treatment, with some swelling well beyond the original target area planned for treatment. The findings suggest that static radiation plans made before treatment begins may be missing the target for many patients, and that real-time MRI-guided adaptive radiotherapy deserves further investigation."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Cancer & Oncology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42830371",
-      "headline": "Doctors Still Can't Tell Which Liver Cancer Immunotherapy Works Best for Which Patient",
-      "journal": "Targeted Oncology",
-      "pubdate": "2026 Oct 4",
-      "doi": "10.1007/s11523-026-01259-4",
-      "groundbreaking": "Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This opinion piece from UPMC oncologists reviews the state of first-line immunotherapy selection for advanced hepatocellular carcinoma (HCC), noting that three approved regimens all show survival benefit but no head-to-head trial or validated biomarker exists to guide which patient should receive which. The authors argue that current selection is driven by liver function and safety tolerability rather than predictive biology. They propose a future framework integrating tumor immune state, angiogenic, and circulating molecular features tested prospectively across competing regimens.",
-      "why_it_matters": "For women diagnosed with liver cancer \u2014 a disease rising in incidence, particularly among those with metabolic liver disease \u2014 the absence of a biomarker to match treatment to patient means therapy choices remain largely guesswork.",
-      "caveats": "observational design, industry funding [AstraZeneca, Bristol-Myers Squibb, Merck, Exelixis, Pfizer, and others \u2014 advisory/research], no primary data, opinion/review article, no sex-disaggregated data",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Opinion piece, no primary data, no sex-disaggregated data, limited women's lifestyle hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "Cancer Today",
-          "headline": "Three Liver Cancer Immunotherapies Are Approved \u2014 But Doctors Still Don't Know Which One to Pick",
-          "hook": "All three first-line immunotherapy regimens for advanced liver cancer work, but there's no test to tell doctors which one will work for you.",
-          "pitch_angle": "A new opinion piece from UPMC oncologists highlights that despite three approved immunotherapy combinations for advanced liver cancer, no validated biomarker guides selection \u2014 meaning treatment choice still depends on side-effect profiles rather than patient biology. Researchers argue this gap is the most pressing unmet need in the field and call for prospective biomarker trials across competing regimens."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Cancer & Oncology",
       "chunk": "2/2",
       "status": "new"
     },
@@ -646,33 +928,6 @@
       "run_date": "2026-10-09",
       "category": "Allergy & Immunology",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42828636",
-      "headline": "Most older adults with advanced lung cancer never get a second treatment after immunotherapy fails \u2014 and those who do see limited benefit",
-      "journal": "International journal of clinical oncology",
-      "pubdate": "2026 Oct 3",
-      "doi": "10.1007/s10147-026-03206-9",
-      "groundbreaking": "Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This multicenter retrospective cohort study from 58 institutions in Japan followed 1,245 patients aged 75 or older with advanced non-small cell lung cancer (NSCLC) who received first-line immunotherapy-based regimens. After disease progression, only 31\u201348% transitioned to second-line therapy, and those who did received mostly single-agent chemotherapy with a median progression-free survival of just 3.7 months and overall survival of roughly 9.5\u20139.9 months. The findings suggest that older patients face significant barriers to receiving subsequent treatment, and that current second-line options offer limited benefit in this age group.",
-      "why_it_matters": "Older women with advanced lung cancer \u2014 a population whose numbers are growing \u2014 may face a treatment cliff after first-line immunotherapy fails, with few effective options available.",
-      "caveats": "observational design, single-region (Japan), no sex-disaggregated data, retrospective design",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Clinically meaningful gap; Japan-only cohort; no sex-disaggregated data limits women's health angle.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health.com",
-          "headline": "After Immunotherapy Stops Working, Many Older Lung Cancer Patients Have Nowhere Left to Turn",
-          "hook": "When first-line immunotherapy fails in older adults with lung cancer, fewer than half ever receive a second treatment \u2014 and those who do face grim odds.",
-          "pitch_angle": "A large Japanese study of more than 1,200 patients over 75 found that most never access second-line therapy after immunotherapy progression, and single-agent chemo \u2014 the most common fallback \u2014 yields just 3.7 months of disease control, underscoring an urgent gap in treatment options for aging patients."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Cancer & Oncology",
-      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -733,60 +988,6 @@
       "run_date": "2026-10-09",
       "category": "Brain & Mental Health",
       "chunk": "2/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42852386",
-      "headline": "Only 1 in 14 women in eastern Congo has ever been screened for cervical cancer \u2014 even though most have heard of it",
-      "journal": "International Journal of Women's Health",
-      "pubdate": "2026",
-      "doi": "10.2147/IJWH.S646534",
-      "groundbreaking": "Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a cross-sectional survey of 425 women aged 18+ working in the informal sector in Bukavu, eastern Democratic Republic of the Congo. Despite 56% having heard of cervical cancer, only 6.67% had ever undergone screening, and 93% demonstrated poor preventive practices. Access to healthcare was strongly associated with adequate knowledge (adjusted OR 3.12), suggesting structural barriers \u2014 not just awareness gaps \u2014 drive low uptake.",
-      "why_it_matters": "For women globally, this finding underscores that awareness campaigns alone are insufficient without paired improvements in healthcare access to close the screening gap.",
-      "caveats": "observational design, single-center, self-reported outcomes, short follow-up, narrow to eastern DRC informal sector population",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Cervical cancer topic fit, but narrow DRC-specific context limits US/global pitch utility.",
-      "pitch_angles": [
-        {
-          "publication_type": "Cancer Today / General women's wellness",
-          "headline": "Knowing About Cervical Cancer Isn't Enough \u2014 This Study Shows Why Screening Still Doesn't Happen",
-          "hook": "Nearly all women in a new study had poor cervical cancer prevention practices \u2014 even though more than half had heard of the disease.",
-          "pitch_angle": "A survey of 425 women in eastern Congo found that awareness of cervical cancer did not translate into screening or prevention behaviors, with healthcare access emerging as the key driver. The finding suggests that public health messaging without structural support leaves the most vulnerable women behind."
-        }
-      ],
-      "run_date": "2026-10-09",
-      "category": "Womens Health & Reproduction",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42836385",
-      "headline": "Giving Immunotherapy Alongside Radiation \u2014 Not Before or After \u2014 May Be the Key to Better Outcomes in Esophageal Cancer",
-      "journal": "International Journal of Cancer",
-      "pubdate": "2026 Oct 6",
-      "doi": "10.1002/ijc.70740",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This multicenter real-world cohort study across 12 Chinese cancer centers enrolled 662 patients with unresectable, locally advanced esophageal squamous cell carcinoma (ESCC, Stage II\u2013IVA) and compared three sequencing strategies for adding immune checkpoint inhibitors (ICIs) to chemoradiotherapy: induction (before), concurrent (during), and consolidation (after). After statistical weighting to balance baseline characteristics, concurrent ICI with chemoradiotherapy was associated with the longest median overall survival (not reached) and best progression-free survival (25.3 months), though it also carried the highest rate of severe pneumonitis (7.7%). The consolidation-first approach had the best tolerability but worst survival outcomes.",
-      "why_it_matters": "Although esophageal cancer is more common in men, the finding that timing of immunotherapy relative to radiation may significantly affect survival is relevant to any patient \u2014 including women \u2014 facing this diagnosis.",
-      "caveats": "observational design, single-country population (China), retrospective real-world cohort, no sex-disaggregated data, IPTW adjustment does not eliminate confounding",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Esophageal cancer skews male; observational; China-only cohort limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health.com",
-          "headline": "The Order You Get Cancer Treatments May Matter More Than Doctors Realized",
-          "hook": "A real-world study of 662 esophageal cancer patients found that giving immunotherapy at the same time as radiation \u2014 not before or after \u2014 was associated with dramatically better survival.",
-          "pitch_angle": "Researchers found that concurrent immunotherapy and chemoradiation was associated with a median overall survival that hadn't been reached at analysis, compared to just 23 months for the consolidation approach, suggesting treatment sequencing deserves far more attention in oncology planning."
-        }
-      ],
-      "run_date": "2026-10-08",
-      "category": "Cancer & Oncology",
-      "chunk": "1/2",
       "status": "new"
     },
     {
