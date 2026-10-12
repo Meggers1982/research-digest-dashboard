@@ -1,93 +1,930 @@
 {
-  "last_updated": "2026-10-11T16:38:35.173955+00:00",
-  "total_studies": 1241,
-  "new_this_run": 8,
+  "last_updated": "2026-10-12T19:59:23.379857+00:00",
+  "total_studies": 1245,
+  "new_this_run": 4,
   "studies": [
     {
       "pmid": "42852811",
-      "headline": "Rural Indian clinics have snakebite antivenom on the shelf \u2014 but almost never use it",
+      "headline": "Indian clinics have the antivenom but won't use it \u2014 and snakebite victims pay the price",
       "journal": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
       "pubdate": "2026 Oct 9",
       "doi": "10.1093/trstmh/trag121",
-      "groundbreaking": "Major public health implication",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "A convergent mixed-methods study examined 65 primary health centers (PHCs) in a Tamil Nadu district of southern India, assessing structural readiness and interviewing 12 healthcare providers about snakebite management. Despite 97% of centers stocking anti-snake venom and 94% having trained staff, only 2 of 44 centers that saw snakebite cases (4.5%) actually managed patients on-site \u2014 the rest referred patients elsewhere. Qualitative interviews revealed that provider fear of adverse reactions, social pressure, limited hands-on training, and inadequate monitoring capacity drove the near-universal pattern of early referral.",
-      "why_it_matters": "Snakebite kills an estimated 58,000 people annually in India, and this study suggests that having antivenom available does not translate to it being used \u2014 a critical implementation gap that could inform global snakebite response strategies.",
-      "caveats": "small sample (N<100 for qualitative arm), single-center district, observational design",
+      "summary": "A mixed-methods study assessed 65 primary health centres (PHCs) in Tamil Nadu, India for snakebite management readiness, combining a structured checklist with 12 in-depth provider interviews. Nearly all centres had antivenom (96.9%) and trained staff (93.8%), yet only 2 of 44 centres that saw snakebite cases in the preceding three months actually managed them on-site. Provider fear of adverse reactions, social pressure, and limited hands-on training drove near-universal early referral despite available resources.",
+      "why_it_matters": "Snakebite kills an estimated 58,000 people in India annually, and this study suggests that structural and psychological barriers \u2014 not supply shortages \u2014 may be a leading driver of preventable deaths.",
+      "caveats": "single-center, observational design, small qualitative sample (N=12 interviews)",
       "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Counterintuitive implementation gap with global health relevance; limited geography and small qualitative sample.",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding with major global health hook; snakebite is a neglected tropical disease.",
       "pitch_angles": [
         {
+          "publication_type": "Scientific American / Knowable Magazine",
+          "headline": "The Antivenom Is Right There. Doctors Are Afraid to Use It.",
+          "hook": "Across rural India, health clinics are stocked with lifesaving snakebite antivenom \u2014 yet almost none of them actually administer it.",
+          "pitch_angle": "A new study from Tamil Nadu reveals a paradox at the heart of snakebite care: facilities that look prepared on paper are functionally paralyzed by provider fear of adverse reactions, social pressure, and inadequate hands-on training. With snakebite killing tens of thousands in India each year, the bottleneck isn't supply \u2014 it's the human system around it."
+        },
+        {
           "publication_type": "Undark / New Scientist",
-          "headline": "The Antivenom Is There. The Doctors Won't Use It.",
-          "hook": "Nearly every rural clinic in one Indian district had anti-snake venom stocked \u2014 yet only 4.5% of centers that saw snakebite patients actually treated them on site.",
-          "pitch_angle": "The study exposes a critical gap between structural preparedness and functional readiness in snakebite care, where provider fear of adverse reactions \u2014 not lack of supplies \u2014 is the main bottleneck, a finding with implications for the WHO's global snakebite elimination initiative."
+          "headline": "A Neglected Killer's Hidden Barrier: Why Antivenom Sits Unused While People Die",
+          "hook": "Snakebite is one of the world's deadliest neglected tropical diseases \u2014 and a new study shows that even when treatment is available, it often never reaches patients.",
+          "pitch_angle": "Researchers found that fear, not shortage, is what keeps antivenom on clinic shelves in southern India, exposing a critical implementation gap that training programs and policy alone have failed to close. The findings point to a broader lesson about why well-resourced global health interventions can still fail at the last mile."
         }
       ],
-      "run_date": "2026-10-11",
+      "run_date": "2026-10-12",
       "category": "Public Health & Epidemiology",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42854409",
-      "headline": "Water temperature \u2014 not streamflow \u2014 controls where migratory fish choose to spawn, China river study finds",
+      "headline": "Water temperature \u2014 not streamflow \u2014 is the master switch controlling where endangered fish can spawn in Chinese rivers",
       "journal": "Journal of Environmental Management",
       "pubdate": "2026 Oct 9",
       "doi": "10.1016/j.jenvman.2026.131099",
       "groundbreaking": "Counterintuitive finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Using a novel hydrological-topographic framework, researchers analyzed 72 reach-year observations in the Jinsha River Basin, China, to determine what drives spawning habitat distribution and quality for the migratory fish Coreius guichenoti from 2007\u20132018. Water temperature had the strongest positive effect on habitat distribution (effect size 0.80), while streamflow had only a weak direct effect (0.08) but a large indirect effect (0.71). In contrast, streamflow \u2014 not temperature \u2014 was the dominant factor for habitat quality once fish arrived at a site.",
-      "why_it_matters": "Understanding which environmental variables drive spawning site selection versus habitat quality could reshape dam management and river restoration strategies for threatened migratory fish globally.",
-      "caveats": "observational design, single-center, narrow to Jinsha River Basin China context",
+      "summary": "Researchers developed a stratified habitat-identification framework to analyze spawning habitat distribution and quality for Coreius guichenoti \u2014 a migratory fish endangered by dam construction \u2014 in China's Jinsha River Basin, using 72 reach-year observations from 2007\u20132018. They found water temperature was the strongest predictor of where spawning habitat occurs (effect = 0.80), while streamflow had only a weak direct effect but a strong indirect effect on distribution. Counterintuitively, water temperature had no significant association with habitat quality once habitat was established, where topography and streamflow dominated instead.",
+      "why_it_matters": "As climate change and dam operations alter both water temperature and river flow regimes simultaneously, understanding which factor controls habitat distribution versus quality could help managers prioritize interventions to prevent migratory fish extinctions.",
+      "caveats": "observational design, single-species study, single river basin (China-specific), small observation set for habitat quality analyses (N=23)",
       "fact_check_note": "",
       "relevance_score": 5,
-      "relevance_score_reason": "Ecologically interesting but geographically narrow; limited direct public health or personal-health angle.",
+      "relevance_score_reason": "Ecologically interesting but China-specific species and river; limited broad audience hook.",
       "pitch_angles": [
         {
-          "publication_type": "bioGraphic / New Scientist",
-          "headline": "Fish Don't Care About Water Flow When Picking a Spawning Site \u2014 It's the Temperature That Reels Them In",
-          "hook": "A decade of river data shows that migratory fish navigate to spawning grounds based overwhelmingly on water temperature, not the strength of the current \u2014 upending a common assumption in river management.",
-          "pitch_angle": "Researchers tracking a threatened Chinese migratory fish found that temperature almost entirely governs where fish decide to spawn, while streamflow governs how well they reproduce once there. The finding suggests dam operators and conservationists may need to prioritize thermal conditions, not just flow regimes, when trying to recover collapsing migratory fish populations."
+          "publication_type": "bioGraphic / Science News",
+          "headline": "To Save Endangered River Fish, Scientists Find the Key Variable Isn't What Managers Assumed",
+          "hook": "For a migratory fish pushed to the edge by Chinese dam-building, water temperature determines where spawning can happen \u2014 but once there, it's river topography and flow that determine whether reproduction actually succeeds.",
+          "pitch_angle": "A decade of habitat monitoring in the Jinsha River reveals that temperature and streamflow play fundamentally different roles in fish spawning ecology \u2014 a distinction that could reshape how river managers allocate conservation resources as dams multiply and climate change heats waterways worldwide."
         }
       ],
-      "run_date": "2026-10-11",
+      "run_date": "2026-10-12",
       "category": "Environmental Health",
       "chunk": "1/1",
       "status": "new"
     },
     {
       "pmid": "42853976",
-      "headline": "A new long-acting antibody against drug-resistant Pseudomonas passes its first human safety test",
+      "headline": "A new engineered antibody targets a drug-resistant lung bacterium and stays active for up to 47 days in early human testing",
       "journal": "The Journal of Infectious Diseases",
       "pubdate": "2026 Oct 9",
       "doi": "10.1093/infdis/jiag500",
       "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "AstraZeneca researchers evaluated AZD0292, a bispecific monoclonal antibody engineered to block two key Pseudomonas aeruginosa virulence factors (Psl and PcrV) with an extended half-life, in preclinical models and a Phase I randomized trial of 24 healthy adults receiving single doses from 100\u20132,000 mg alongside 8 placebo controls. The antibody was generally well tolerated; mild to moderate infusion-related reactions occurred only at higher doses, and geometric mean half-life ranged from 24 to 47 days. No anti-drug antibodies were detected, and preclinical data showed sustained anti-Pseudomonas activity, supporting further trials in patients with bronchiectasis and chronic P. aeruginosa colonization.",
-      "why_it_matters": "Pseudomonas aeruginosa is notoriously difficult to treat and a leading cause of deadly lung infections in people with bronchiectasis and cystic fibrosis, so a well-tolerated long-acting antibody could represent a meaningful new option for a population with few alternatives.",
-      "caveats": "small sample (N<100), short follow-up, industry funding [AstraZeneca], healthy volunteer population (not target patients)",
+      "summary": "AstraZeneca researchers conducted preclinical studies and a Phase I randomized trial of AZD0292, a bispecific monoclonal antibody engineered to neutralize Pseudomonas aeruginosa \u2014 a major cause of lung infections in people with bronchiectasis \u2014 by simultaneously targeting two bacterial factors (Psl and PcrV). In the Phase I trial, 24 healthy adults received a single dose (100\u20132,000 mg) and 8 received placebo, with follow-up of 61\u2013161 days; the antibody was generally well tolerated, with only mild-to-moderate infusion reactions at higher doses. The antibody's half-life ranged from 24 to 47 days, substantially longer than its predecessor gremubamab, potentially enabling infrequent dosing.",
+      "why_it_matters": "Chronic Pseudomonas aeruginosa infections are extremely difficult to treat with antibiotics and drive repeated hospitalization in bronchiectasis patients, so a long-acting antibody-based alternative could change the management of this poorly addressed condition.",
+      "caveats": "small sample (N<100), industry funding [AstraZeneca], short follow-up",
       "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "First human trial of novel antibiotic-resistance-adjacent antibody; antibiotic resistance topic bonus; industry-funded caveat.",
+      "relevance_score": 6,
+      "relevance_score_reason": "First-in-human antibiotic-resistance-adjacent study; industry-funded Phase I with small cohort limits score.",
       "pitch_angles": [
         {
-          "publication_type": "Scientific American / New Scientist",
-          "headline": "A Once-a-Month Antibody Shot Could Protect Vulnerable Lungs from a Deadly, Drug-Resistant Bacterium",
-          "hook": "A new engineered antibody that blocks two virulence weapons of Pseudomonas aeruginosa at once has survived its first human test with a half-life long enough for monthly or even less frequent dosing.",
-          "pitch_angle": "AZD0292 targets both the biofilm armor and the toxin-injection system of P. aeruginosa, a pathogen that colonizes the airways of people with bronchiectasis and becomes nearly impossible to clear with standard antibiotics. Early Phase I data suggest the drug is safe in healthy volunteers and stays in the body long enough to be practical \u2014 though real-world efficacy trials in patients are still ahead."
+          "publication_type": "Scientific American / Wired",
+          "headline": "An Engineered Antibody That Fights a Deadly Drug-Resistant Lung Bacterium \u2014 and Lasts Almost Two Months",
+          "hook": "A new bispecific antibody attacks Pseudomonas aeruginosa at two sites simultaneously and appears to remain active in the body for up to 47 days, early human data suggest.",
+          "pitch_angle": "Pseudomonas aeruginosa is one of the most antibiotic-resistant bacteria in clinical medicine, and it devastates the lungs of bronchiectasis patients who cycle through repeated, often futile, antibiotic courses. AZD0292 represents a novel non-antibiotic strategy that, if validated in patients, could reduce those exacerbations and offer a model for tackling other resistant pathogens."
         },
         {
           "publication_type": "The Atlantic / Undark",
-          "headline": "As Antibiotic Resistance Grows, Drugmakers Are Turning to Antibodies Instead",
-          "hook": "A major pharmaceutical company is betting that a precisely engineered antibody \u2014 not an antibiotic \u2014 could finally give doctors a weapon against one of the most treatment-resistant lung pathogens.",
-          "pitch_angle": "AZD0292's Phase I results illustrate a broader strategic pivot in infectious disease drug development: using monoclonal antibodies to neutralize bacterial virulence rather than kill the bug outright, sidestepping resistance pathways that have defeated so many antibiotics. If it works in patients, the approach could offer a template for tackling other hard-to-treat chronic infections."
+          "headline": "Beyond Antibiotics: A New Kind of Drug Targets a Bacterium That Antibiotics Can Barely Touch",
+          "hook": "For patients whose lungs are chronically colonized by Pseudomonas aeruginosa, antibiotics often fail \u2014 and a new engineered antibody designed to work differently just passed its first human safety test.",
+          "pitch_angle": "Bronchiectasis, a chronic lung disease affecting hundreds of thousands in the U.S., often leads to a miserable cycle of infection and hospitalization driven by a bacterium that shrugs off most drugs. A Phase I trial of AZD0292 suggests a non-antibiotic path forward, raising broader questions about whether antibody therapies could eventually help address the antibiotic resistance crisis."
         }
       ],
-      "run_date": "2026-10-11",
+      "run_date": "2026-10-12",
       "category": "Infectious Disease",
       "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42850484",
+      "headline": "Scientists map the first 3D structure of a key domain in a protein linked to severe childhood brain disorders",
+      "journal": "Biomolecular NMR Assignments",
+      "pubdate": "2026 Oct 9",
+      "doi": "10.1007/s12104-026-10279-0",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using NMR spectroscopy, Japanese researchers determined the three-dimensional solution structure of the first double-stranded RNA-binding domain (dsRBD-1) of DHX30, a helicase protein whose mutations cause a severe neurodevelopmental disorder called NEDMIAL. The domain was found to adopt an expanded topology \u2014 with three additional helices beyond the canonical dsRBD fold \u2014 a finding not previously seen for any DHX30 domain. This is the first experimentally resolved structure of any DHX30 domain and provides a molecular framework for understanding how disease-causing mutations may disrupt its function.",
+      "why_it_matters": "Mapping the precise shape of DHX30's RNA-binding domain could guide future efforts to understand and potentially target the molecular defects underlying NEDMIAL, a rare but severe childhood neurological condition.",
+      "caveats": "single-center",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "First structure of disease-linked domain is notable, but highly technical with narrow specialist audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / General science",
+          "headline": "First 3D snapshot of a protein linked to severe childhood neurological disorder reveals a surprising new shape",
+          "hook": "A key piece of a protein that, when mutated, causes a devastating childhood brain disorder turns out to have a structure unlike anything seen in its molecular family \u2014 a finding that opens a new window into what goes wrong in affected children.",
+          "pitch_angle": "Researchers used NMR spectroscopy to produce the first experimentally determined structure of any domain of DHX30, a helicase whose mutations underlie NEDMIAL, a rare neurodevelopmental syndrome affecting motor and language development. The domain's unexpectedly expanded fold provides a structural baseline for decoding how disease mutations disrupt RNA regulation in developing neurons."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "3/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42854295",
+      "headline": "Malaysia raised alcohol taxes three times \u2014 one increase accidentally drove drinking up",
+      "journal": "The International Journal on Drug Policy",
+      "pubdate": "2026 Oct 9",
+      "doi": "10.1016/j.drugpo.2026.105531",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using interrupted time-series analysis of national data from 2000\u20132022, researchers evaluated the impact of three Malaysian excise duty reforms on adult alcohol per capita consumption (APC) and alcohol-attributable life expectancy loss. The 2012 Excise Duties Order produced a significant immediate reduction in APC sustained for two years, but the 2016 Amendment was associated with a significant rise in APC beyond the underlying upward trend. Alcohol-attributable life expectancy loss averaged 0.30 years over the study period, and paradoxically correlated negatively with both life expectancy and APC.",
+      "why_it_matters": "Evidence that a poorly designed alcohol tax reform can increase consumption rather than reduce it offers a cautionary lesson for governments worldwide considering excise duty as a public health tool.",
+      "caveats": "observational design, ecological study (population-level data only), single-country (Malaysia)",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive policy finding; alcohol tax backfire has broad public health policy relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "A Tax Meant to Curb Drinking Made People Drink More \u2014 Here's Why That Matters Everywhere",
+          "hook": "When Malaysia overhauled its alcohol excise duties in 2016, consumption rose significantly above projections \u2014 the opposite of what policymakers intended.",
+          "pitch_angle": "A 22-year interrupted time-series analysis shows that alcohol tax reforms are not interchangeable: design and timing matter enormously, and a poorly structured increase can backfire. As governments from Southeast Asia to Europe debate alcohol pricing policy as a public health lever, Malaysia's experience is a data-backed warning about unintended consequences."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Public Health & Epidemiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42844624",
+      "headline": "A never-before-seen Antarctic microbe may hold clues to how ancient Earth built its iron ore deposits",
+      "journal": "Microbiome",
+      "pubdate": "2026 Oct 8",
+      "doi": "10.1186/s40168-026-02536-0",
+      "groundbreaking": "First-in-class human study, Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed sediment cores from beneath the Larsen C Ice Shelf in Antarctica, profiling microbial communities across Holocene geological layers using metagenomics and fluorescence imaging. They identified a previously unknown chemolithotrophic bacterium, dubbed 'Candidatus Mariimomonas ferrooxydans,' within a novel clade of the phylum Nitrospirota, and experimentally confirmed its ability to oxidize iron(II) via an outer-membrane enzyme called Cyc2. The findings suggest that living microbes in modern Antarctic sediments are performing iron biomineralization processes that may mirror those responsible for ancient banded iron formations billions of years ago.",
+      "why_it_matters": "Understanding how microbes drive iron cycling in extreme modern environments could reshape scientific models of how Earth's massive iron ore deposits \u2014 which underpin global steel production \u2014 originally formed.",
+      "caveats": "single-center",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive Earth-history finding, rigorous metagenomics plus experimental confirmation, strong science storytelling hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "National Geographic / bioGraphic",
+          "headline": "Hidden beneath Antarctic ice, a tiny microbe may explain where Earth's iron ore came from",
+          "hook": "Locked in sediment beneath one of Antarctica's largest ice shelves, a newly discovered bacterium is quietly doing something that scientists thought was mostly ancient history: turning dissolved iron into rock.",
+          "pitch_angle": "A novel Antarctic microbe identified through metagenomic analysis of Larsen C Ice Shelf sediments appears to oxidize iron using the same enzyme family implicated in billion-year-old banded iron formations. The discovery offers a rare living window into the biogeochemical processes that may have built the iron ore deposits the modern world depends on."
+        },
+        {
+          "publication_type": "Scientific American / New Scientist",
+          "headline": "Antarctic microbes are recapitulating ancient iron chemistry \u2014 and we just found the organism doing it",
+          "hook": "Researchers have experimentally confirmed that a newly classified Antarctic bacterium carries and uses an outer-membrane iron-oxidizing enzyme, providing the first direct microbial candidate for a process long hypothesized to have shaped Precambrian geology.",
+          "pitch_angle": "Metagenomic profiling of anoxic Holocene sediments beneath the Larsen C Ice Shelf revealed a previously unknown Nitrospirota lineage, 'Candidatus Mariimomonas ferrooxydans,' with confirmed Fe(II)-oxidation activity. The find reignites debate over the biological origins of banded iron formations and demonstrates that polar sediments can preserve a real-time record of ancient-style biogeochemical cycling."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "3/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42847748",
+      "headline": "A single gene deletion in one child may define an entirely new multi-system syndrome affecting eyes, bones, and immunity",
+      "journal": "Clinical Genetics",
+      "pubdate": "2026 Oct 8",
+      "doi": "10.1111/cge.70259",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Clinicians in Turkey report a 14-year-old boy born to consanguineous parents who carries the first known homozygous deletion of both ALCAM and CBLB genes at chromosome 3q13.11-q13.12. The patient presented with severe congenital eye and craniofacial anomalies, early-onset osteoporosis, scoliosis, growth failure, heart defects, and immune dysfunction. SNP array and expression studies confirmed complete loss of both gene products, and the authors propose this may constitute a novel contiguous gene deletion syndrome.",
+      "why_it_matters": "Identifying new contiguous gene deletion syndromes expands the map of rare genetic disease, potentially offering diagnostic pathways for other undiagnosed children with overlapping multi-system presentations.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Single case report; scientifically novel but very narrow audience relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / Science News",
+          "headline": "One Child's Rare Deletion May Be the First Case of a Brand-New Genetic Syndrome",
+          "hook": "A teenager in Turkey with a constellation of problems\u2014from severe eye malformations to immune failure\u2014may be the first known human to carry a complete loss of two genes that scientists had never linked to human disease before.",
+          "pitch_angle": "The case highlights how rare genetic syndromes are still being discovered in the genomics era, often through single patients whose puzzling presentations defy existing diagnoses. For the estimated millions of people worldwide living with undiagnosed rare diseases, such discoveries can eventually open doors to answers."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42850394",
+      "headline": "A virus nearly everyone carries quietly fluctuates in healthy people \u2014 upending how doctors plan to use it as an immune test",
+      "journal": "EMBO Molecular Medicine",
+      "pubdate": "2026 Oct 8",
+      "doi": "10.1038/s44321-026-00540-3",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers developed and validated a high-throughput automated qPCR assay to measure Torque teno virus (TTV) DNA \u2014 a near-universal blood virus being evaluated as a biomarker of immune status \u2014 then tracked viral loads longitudinally in non-immunosuppressed individuals over up to 51 months. The study found substantial natural fluctuations in TTV levels even in healthy people without any immunosuppressive therapy. This intrinsic biological variability complicates efforts to use TTV as a reliable guide for adjusting immunosuppressive drug doses in transplant patients.",
+      "why_it_matters": "As clinicians increasingly look to TTV as a real-time immune readout to personalize transplant drug regimens, discovering that healthy-baseline TTV levels are themselves unstable raises the bar for establishing meaningful clinical thresholds.",
+      "caveats": "small sample (N<100), short follow-up for some participants, industry funding [Roche Diagnostics]",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Infectious disease hook with transplant-care implications; limited by small sample and industry ties.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / STAT News",
+          "headline": "The 'Immune Thermometer' Virus May Not Be as Reliable as Doctors Hoped",
+          "hook": "Torque teno virus \u2014 a bug carried by virtually every human and touted as a living readout of immune strength \u2014 fluctuates wildly even in healthy people, new research suggests.",
+          "pitch_angle": "Scientists developing TTV as a tool to fine-tune immunosuppressive drugs in transplant patients hit a complication: the virus's blood levels shift substantially on their own, independent of any therapy. The finding means doctors will need evidence-based thresholds, not just raw numbers, before TTV monitoring becomes a clinical standard."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42848687",
+      "headline": "Young adults with HIV and criminal-legal histories say forgetting \u2014 not stigma \u2014 is their biggest medication barrier",
+      "journal": "AIDS Care",
+      "pubdate": "2026 Oct 8",
+      "doi": "10.1080/09540121.2026.2728358",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers qualitatively analyzed weekly check-in call summaries from the LINK2 intervention, which enrolled 35 young adults living with HIV who had recent or at-risk criminal-legal system involvement in Los Angeles. The most commonly cited reason for missed antiretroviral doses was simply forgetting, with busy schedules and disrupted routines also frequently mentioned; structural barriers like medication access and unmet basic needs were additional but distinct obstacles. Participants most often cited establishing routines and using reminder tools as their primary adherence supports.",
+      "why_it_matters": "Findings suggest that practical, low-tech behavioral strategies \u2014 not just structural interventions \u2014 may be critical for improving HIV treatment adherence in a heavily marginalized population.",
+      "caveats": "small sample (N<100), observational design, single-center, self-reported outcomes",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Public health relevance to marginalized population; very small qualitative sample limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / The Atlantic",
+          "headline": "For Young People with HIV and Justice-System Ties, Missing a Pill Is Often Just About Forgetting",
+          "hook": "In a population where systemic barriers loom large, the number-one reason young adults with HIV missed their antiretroviral medication was surprisingly mundane: they forgot.",
+          "pitch_angle": "A small but focused study of young adults with HIV and criminal-legal histories found that simple behavioral tools \u2014 phone reminders, fixed routines \u2014 were their most cited adherence supports, alongside deeper structural needs like housing and medication access. The finding complicates narratives that frame medication non-adherence in marginalized communities as purely a systems problem."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42848036",
+      "headline": "Urban bats in Brazil carry a rotavirus strain so genetically unusual it may represent an entirely new viral type",
+      "journal": "Archives of Virology",
+      "pubdate": "2026 Oct 8",
+      "doi": "10.1007/s00705-026-06727-w",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers tested 240 fecal and rectal samples from 16 bat species captured in urban Atlantic Forest remnants near Rio de Janeiro between 2020 and 2022, finding rotavirus A in 3 samples (1.25% infection rate). Genomic and phylogenetic analysis revealed two samples carried a putative novel VP4 genotype with less than 75% nucleotide identity to any known rotavirus genotype, while one strain matched porcine rotavirus \u2014 the first detection of VP4 genotype P[26] in bats. Structural modeling showed that the novel bat rotavirus VP4 protein closely resembles human rotavirus strains, raising concern about zoonotic spillover potential.",
+      "why_it_matters": "Bats living in fragmented urban forests adjacent to dense human populations represent an understudied spillover risk for gut viruses that cause millions of childhood diarrheal deaths annually.",
+      "caveats": "small sample (N=240 bat samples, only 3 positive), single-center, observational design, no human exposure data collected",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Pandemic preparedness/zoonosis angle; small positive sample limits strength of conclusions.",
+      "pitch_angles": [
+        {
+          "publication_type": "bioGraphic / National Geographic",
+          "headline": "City bats in Brazil are harboring unknown gut viruses \u2014 and they're living next door to millions of people",
+          "hook": "In patches of forest surrounded by one of South America's largest cities, bats are carrying rotavirus strains so genetically alien they may represent an entirely new viral type \u2014 one whose surface proteins structurally resemble human strains.",
+          "pitch_angle": "The discovery of a putative novel rotavirus genotype in urban bats near Rio de Janeiro underscores how wildlife squeezed into fragmented city habitats can become reservoirs for viruses with zoonotic potential. With rotavirus already a leading cause of fatal childhood diarrhea globally, finding bat strains with human-compatible protein structures raises urgent questions about surveillance in rapidly urbanizing tropical regions."
+        },
+        {
+          "publication_type": "Science News / General science",
+          "headline": "Brazil's urban bats may be incubating a never-before-seen rotavirus type",
+          "hook": "A survey of bats in Rio de Janeiro's shrinking urban forests has turned up a rotavirus variant unlike anything in global databases \u2014 and its outer protein looks disturbingly familiar to human strains.",
+          "pitch_angle": "Researchers found three bat species carrying rotavirus strains including one with a genetically novel VP4 surface protein and another matching a porcine strain never before detected in bats. The findings add to mounting evidence that urban wildlife-human interfaces are hotspots for viral evolution and potential cross-species transmission."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42849547",
+      "headline": "Women get their blood pressure checked more than men \u2014 but are less likely to be diagnosed or treated when it's high",
+      "journal": "Annals of Epidemiology",
+      "pubdate": "2026 Oct 8",
+      "doi": "10.1016/j.annepidem.2026.110308",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed self-reported data from six consecutive Swiss Health Surveys spanning 1997\u20132022, covering 94,785 participants (55.3% female), to track sex differences in hypertension screening, diagnosis, treatment, and control. Women were consistently more likely than men to report blood pressure screening (aOR 1.62 in 2022), yet from 2012 onward were significantly less likely to report a hypertension diagnosis (aOR 0.73 in 2022) or antihypertensive medication use (aOR 0.84 in 2022). Among those who reported receiving treatment, blood pressure control rates did not differ by sex.",
+      "why_it_matters": "A 25-year paradox in which women are screened more but treated less for hypertension suggests that even in a high-income country with universal health access, systematic under-diagnosis of cardiovascular disease in women persists.",
+      "caveats": "self-reported outcomes, observational design, single-country (Switzerland)",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive sex-gap finding; large long-term cohort; clear cardiovascular health public hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Women's Health",
+          "headline": "Women Get More Blood Pressure Checks Than Men \u2014 So Why Are They Less Likely to Get Treated?",
+          "hook": "A 25-year Swiss study found that women are more likely to have their blood pressure checked but less likely to receive a diagnosis or medication \u2014 even when the readings are high.",
+          "pitch_angle": "The 'screening-treatment paradox' tracked across nearly 95,000 people suggests that getting screened isn't enough if the medical system then under-responds to what it finds in women. Experts say the pattern likely reflects broader trends in how cardiovascular disease is recognized and acted upon differently by sex."
+        },
+        {
+          "publication_type": "The Atlantic / Scientific American",
+          "headline": "Medicine Screens Women for High Blood Pressure \u2014 Then Systematically Underreacts",
+          "hook": "Over 25 years and nearly 95,000 people, Swiss health data reveal a widening gap: women are tested for high blood pressure more than men, yet increasingly less likely to be diagnosed or prescribed treatment.",
+          "pitch_angle": "The finding, described as a 'screening-treatment paradox,' adds longitudinal population-level evidence to longstanding concerns that cardiovascular disease in women is under-recognized at the clinical level \u2014 not just under-studied in research. The gaps widened rather than narrowed over the study period, suggesting the problem is structural, not incidental."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Public Health & Epidemiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42854280",
+      "headline": "A rare cancer that spread to the liver just got treated with a nuclear-physics therapy \u2014 a first",
+      "journal": "Applied Radiation and Isotopes",
+      "pubdate": "2026 Oct 8",
+      "doi": "10.1016/j.apradiso.2026.112976",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Taiwan treated a 55-year-old man with liver metastases from adenoid cystic carcinoma \u2014 a rare, treatment-resistant cancer \u2014 using boron neutron capture therapy (BNCT), marking the first reported use of this approach for this disease in this location. The patient (N=1) underwent two BNCT sessions using boronophenylalanine as a boron carrier. Three months after the first session, tumor size remained stable, pre-existing blood vessel abnormalities (telangiectasia) disappeared, and no irreversible adverse effects were observed.",
+      "why_it_matters": "Adenoid cystic carcinoma with liver metastasis has very limited treatment options, and this first reported BNCT case suggests the approach may be worth formal investigation for patients who have exhausted standard therapies.",
+      "caveats": "small sample (N<100), single-center, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Intriguing first-in-class case but N=1 limits generalizability for most outlets.",
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist / General science",
+          "headline": "Nuclear physics meets oncology: a rare liver cancer was treated with a neutron beam \u2014 a world first",
+          "hook": "A therapy that works by loading tumor cells with boron and then firing neutrons at them has been used for the first time to treat a rare cancer that had spread to the liver.",
+          "pitch_angle": "Boron neutron capture therapy exploits a nuclear reaction to destroy tumors from within, and this single-patient case report suggests it may open a new avenue for adenoid cystic carcinoma, a cancer notoriously resistant to conventional treatment. While a single case proves nothing, it sets the stage for formal trials and illustrates how nuclear physics is finding new medical applications."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42660107",
+      "headline": "A previously overlooked desert bug is carrying Chagas disease on U.S. military bases near the Mexican border",
+      "journal": "The American Journal of Tropical Medicine and Hygiene",
+      "pubdate": "2026 Oct 7",
+      "doi": "10.4269/ajtmh.26-0007",
+      "groundbreaking": "First-in-class human study / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "U.S. military and CDC researchers conducting Chagas disease surveillance on military installations near the California-Arizona border confirmed for the first time that wild-caught Paratriatoma hirsuta \u2014 a kissing bug species not previously documented as a natural T. cruzi vector \u2014 is infected with Trypanosoma cruzi, the parasite causing Chagas disease. Of 83 P. hirsuta collected from wood rat nests, 9% tested PCR-positive, confirmed by sequencing; sympatric Triatoma rubida showed 7% infection. The findings expand the known vector range of T. cruzi in the Sonoran and Mojave Deserts and have implications for surveillance and prevention in border communities and military personnel.",
+      "why_it_matters": "Identifying a new wild Chagas disease vector on U.S. soil \u2014 specifically on military installations \u2014 expands the geographic and species scope of domestic T. cruzi transmission risk in an area with significant border-region populations.",
+      "caveats": "small sample (N<100 insects), observational design, limited to two military installation sites",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "First confirmed natural vector, U.S. public health implications, CDC-involved surveillance; small sample limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / The Atlantic",
+          "headline": "A New Kissing Bug Is Spreading Chagas Disease in the American Southwest \u2014 and Nobody Was Watching It",
+          "hook": "A tiny desert insect living in wood rat nests on U.S. military bases near the Mexican border has quietly been carrying the parasite that causes Chagas disease \u2014 and scientists just noticed.",
+          "pitch_angle": "Researchers confirmed the first wild infections of Trypanosoma cruzi in Paratriatoma hirsuta, a kissing bug species never before documented as a natural vector, discovered during routine surveillance at California and Arizona military installations. The finding suggests Chagas disease transmission risk in the American Southwest may be broader than current monitoring programs account for."
+        },
+        {
+          "publication_type": "National Geographic / bioGraphic",
+          "headline": "The Hidden Chagas Carriers Living in Desert Wood Rat Nests",
+          "hook": "Tucked inside wood rat nests across the Sonoran and Mojave Deserts, a newly identified kissing bug species is quietly maintaining a cycle of Chagas disease transmission steps away from human activity.",
+          "pitch_angle": "A military surveillance program hunting for Chagas vectors stumbled onto a species no one had previously found naturally infected with T. cruzi, suggesting the parasite's wild reservoir network in the Southwest is larger and more complex than maps show. The discovery raises new questions about which desert creatures \u2014 and which border-region residents \u2014 may be silently exposed."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42617063",
+      "headline": "Researchers crack the genome of a disease-resistant ornamental tree that could help breeders build tougher urban forests",
+      "journal": "G3 (Bethesda, Md.)",
+      "pubdate": "2026 Oct 7",
+      "doi": "10.1093/g3journal/jkag229",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "An international team assembled the first chromosome-scale, diploid genome of Cornus kousa (kousa dogwood), a flowering ornamental tree prized in the US for its natural pest and disease resistance, sequencing a foundational breeding parent called K2. The assembly spans roughly 1.6 gigabases per haplotype with 98.8% BUSCO completeness and annotated approximately 31,000 genes per haplotype. The genome is expected to accelerate breeding programs aimed at identifying the genetic basis of disease tolerance and tracking the evolutionary history of the Cornus genus.",
+      "why_it_matters": "As urban tree canopies face mounting threats from pests, pathogens, and climate stress, a high-quality genome for a naturally resistant ornamental species could help breeders develop hardier trees for cities worldwide.",
+      "caveats": "None identified",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Solid genomics resource paper; limited general-audience urgency or surprise factor.",
+      "pitch_angles": [
+        {
+          "publication_type": "bioGraphic / General science",
+          "headline": "Scientists sequenced the genome of a naturally disease-resistant tree \u2014 and it could help save urban forests",
+          "hook": "While ash trees crumble under emerald ash borer and elms still struggle decades after Dutch elm disease, kousa dogwood shrugs off most threats \u2014 and scientists have now decoded its genome to find out why.",
+          "pitch_angle": "Researchers produced the first complete chromosome-scale genome of kousa dogwood, a tree that has long puzzled horticulturalists with its unusual resilience to pests and disease. The annotated genome opens the door to identifying which genes underlie that toughness \u2014 knowledge that breeders could use to engineer more resistant trees for increasingly stressed urban landscapes."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "3/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42844574",
+      "headline": "Antibiotics and antidepressants found in the soils of one of Earth's most remote mountain summits \u2014 carried there by tourists",
+      "journal": "Integrated Environmental Assessment and Management",
+      "pubdate": "2026 Oct 7",
+      "doi": "10.1093/inteam/vjag158",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers screened surface soils from Roraima-tepui \u2014 a remote, high-elevation 'sky island' in South America's Guiana Shield \u2014 for 98 pharmaceutical compounds using HPLC-MS/MS, comparing tourist-impacted and undisturbed zones. Eleven pharmaceuticals were detected, including the antibiotic ciprofloxacin at concentrations up to 186 ng/g, as well as analgesics, antifungals, and the anticonvulsant/anxiolytic pregabalin; several compounds appeared even in areas without direct human activity, suggesting rainfall and shallow soils redistribute contaminants. Screening-level risk assessments indicated elevated cumulative environmental risk and potential selection pressure for antibiotic resistance in tourist-impacted zones.",
+      "why_it_matters": "The finding suggests that even legally protected wilderness areas with no sanitation infrastructure are accumulating pharmaceutical pollution from tourism, challenging the assumption that remoteness equals ecological preservation and raising questions about antibiotic resistance emergence in pristine ecosystems.",
+      "caveats": "observational design, single-center, small sample (N<100), resistance genes not directly measured \u2014 only modeled risk",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive, strong environmental and antibiotic-resistance hook; limited sample size.",
+      "pitch_angles": [
+        {
+          "publication_type": "National Geographic / bioGraphic",
+          "headline": "One of Earth's Most Isolated Mountains Is Now Contaminated with Antibiotics",
+          "hook": "Ciprofloxacin and pregabalin have turned up in the ancient soils of Roraima-tepui \u2014 a sandstone summit so remote it inspired Arthur Conan Doyle's 'The Lost World.'",
+          "pitch_angle": "Tourists hiking to Venezuela's Roraima-tepui \u2014 one of the world's most isolated ecosystems \u2014 are leaving behind pharmaceutical residues detectable across the summit's surface, including antibiotics at concentrations that models suggest could select for resistance. The study is a stark reminder that no wilderness is truly beyond the reach of human chemical footprints."
+        },
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "There's No Such Thing as a Pristine Wilderness Anymore",
+          "hook": "Scientists found eleven pharmaceuticals \u2014 including a high-risk antibiotic \u2014 in soils atop one of South America's most remote mountains, deposited entirely by visitors.",
+          "pitch_angle": "A new survey of Roraima-tepui's soils reveals that pharmaceutical contamination from unregulated tourism has reached even legally protected high-elevation ecosystems, with some compounds spreading beyond tourist areas through rainfall and porous geology. The findings argue for integrating pharmaceutical pollution monitoring into conservation planning, at a moment when global ecotourism is booming."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42844939",
+      "headline": "Aluminum \u2014 the world's most recycled metal \u2014 could double as a clean fuel for long-duration power storage",
+      "journal": "Advanced Materials",
+      "pubdate": "2026 Oct 7",
+      "doi": "10.1002/adma.75310",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This review systematically assesses the current state of aluminum fuel cell (AFC) technology, covering anode materials, electrolytes, air cathodes, and closed-loop recycling of aluminum hydroxide byproducts back into metallic aluminum using renewable electricity. Researchers benchmarked AFCs against hydrogen fuel cells and diesel generators, proposing quantitative performance targets including anode utilization \u226599%, cathode lifetime \u22652000 hours, and energy density \u2265500 Wh/kg. The authors argue that integrating AFCs with the existing primary aluminum industry could position aluminum as a recyclable energy carrier for off-grid power and long-duration energy storage.",
+      "why_it_matters": "If aluminum fuel cells can meet proposed performance benchmarks, a globally abundant, already-recycled material could offer a low-infrastructure alternative to hydrogen or diesel for remote power and clean transportation.",
+      "caveats": "purely computational with no validation, secondary analysis, no primary experimental data \u2014 review article only",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Clean energy topic but review-only, no new data; outside journalist's core saved interests.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired / MIT Technology Review",
+          "headline": "Could Aluminum Be the Clean Fuel the World Already Has in Abundance?",
+          "hook": "Aluminum \u2014 already one of the world's most recycled materials \u2014 is being reimagined not just as a structural metal but as a rechargeable energy carrier that could power remote grids without hydrogen's infrastructure headaches.",
+          "pitch_angle": "A comprehensive review of aluminum fuel cell technology maps a credible path from current lab prototypes to grid-scale systems, built around closing the material loop: spent aluminum oxide gets smelted back to metal using renewable electricity and fed right back into the fuel cell. The concept could reframe the aluminum industry as a pillar of long-duration clean energy storage."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42345285",
+      "headline": "Hospitals across the VA system vary fivefold in how heavily they prescribe antibiotics \u2014 a new scorecard aims to fix that",
+      "journal": "Clinical Infectious Diseases",
+      "pubdate": "2026 Oct 7",
+      "doi": "10.1093/cid/ciag389",
+      "groundbreaking": "First-in-class human study / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers developed a three-component antimicrobial stewardship framework \u2014 the DASC-LOT system \u2014 that separately evaluates whether hospitals start antibiotics too readily, continue them too long, or choose unnecessarily broad-spectrum drugs, and applied it to data from 118 Veterans Health Administration hospitals covering 727,958 patients and over 9 million patient-days (2022\u20132024). Antibiotic usage varied dramatically across hospitals, with the broadest-spectrum coverage metric (DASC) ranging more than fourfold between facilities. A composite S3 (start, stop, select) score visualized each hospital's profile and was validated on a separate year of data, showing it could distinguish facilities that were poor on one dimension but not others.",
+      "why_it_matters": "Identifying which hospitals overuse antibiotics and in exactly what way \u2014 starting too often, stopping too late, or choosing the wrong drug \u2014 could meaningfully sharpen national stewardship programs at a time when antibiotic resistance is accelerating.",
+      "caveats": "observational design, single health system (VA hospitals \u2014 may not generalize to non-VA settings), secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Antibiotic resistance public health hook; large real-world dataset; strong pitch fit for this journalist.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "The VA discovered its hospitals vary fivefold in antibiotic prescribing \u2014 and now has a tool to find out exactly why",
+          "hook": "Across 118 American veterans' hospitals, antibiotic prescribing varied so dramatically that the heaviest-prescribing facility used more than four times the spectrum-weighted antibiotic coverage of the lightest \u2014 even after adjusting for how sick patients were.",
+          "pitch_angle": "A new scorecard developed at the VA breaks hospital antibiotic overuse into three distinct problems \u2014 starting drugs unnecessarily, stopping too late, and picking too-powerful options \u2014 revealing that a facility can look average overall while hiding a serious failure in one category. At a moment when antibiotic resistance is eroding medicine's last-resort drugs, tools that can pinpoint exactly where stewardship is failing could reshape how hospitals are held accountable."
+        },
+        {
+          "publication_type": "Scientific American / Wired",
+          "headline": "A new metric reveals the hidden patterns behind hospital antibiotic overuse",
+          "hook": "For the first time, a data-driven framework applied to nearly one million patients can separately measure whether a hospital prescribes too many antibiotics, keeps patients on them too long, or routinely picks weapons heavier than needed.",
+          "pitch_angle": "The DASC-LOT framework, validated across 118 VA hospitals, disaggregates antibiotic stewardship into three independently scorable components \u2014 exposing that composite averages can mask serious hospital-level failures. As resistance surveillance increasingly demands facility-level accountability, this kind of granular benchmarking could become a regulatory and clinical standard."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42743967",
+      "headline": "A lighter, single-bar detector could make real-time tumor tracking during proton therapy more practical",
+      "journal": "Physics in Medicine and Biology",
+      "pubdate": "2026 Oct 7",
+      "doi": "10.1088/1361-6560/aea7f1",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Italian researchers designed and tested a novel 'inverted collimator' \u2014 a single bar of dense material that casts a gamma-ray shadow onto a detector \u2014 for real-time range verification during proton therapy. Using a hybrid simulation approach combined with experiments at the CNAO hadron therapy facility, the inverted collimator achieved a range retrieval precision of 2.2\u20132.4 mm, comparable to the gold-standard knife-edge slit design but with significantly lower device weight. The finding suggests the new design could ease clinical implementation of prompt-gamma imaging.",
+      "why_it_matters": "More accurate, lightweight real-time monitoring of proton beam range could reduce radiation exposure to healthy tissue in cancer patients undergoing hadron therapy.",
+      "caveats": "single-center, experimental validation limited to phantom (not patient) measurements",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Cancer treatment technology with clinical relevance, but highly specialized physics audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / General science",
+          "headline": "A single metal bar could make cancer-killing proton beams easier to aim in real time",
+          "hook": "One of the biggest challenges in proton therapy is knowing exactly where the beam stops inside a patient's body \u2014 and a surprisingly simple detector redesign may help solve it.",
+          "pitch_angle": "A new 'inverted collimator' uses a single dense bar to cast a gamma-ray shadow and verify beam range with millimeter precision, matching the performance of heavier, bulkier systems currently in use. Because the device is lighter, it could be more practically integrated into clinical proton therapy suites, potentially reducing accidental radiation dose to healthy tissue."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42281448",
+      "headline": "Doctors treating pneumonia may be skipping the test that would let them use fewer antibiotics",
+      "journal": "Clinical Infectious Diseases",
+      "pubdate": "2026 Oct 7",
+      "doi": "10.1093/cid/ciag330",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Harvard infectious disease specialists argue in a commentary piece that rapid molecular diagnostic panels for pneumonia are being underutilized because clinicians default to empirical antibiotic treatment before test results return. They propose a paradigm shift \u2014 testing before treating \u2014 to allow targeted, narrower-spectrum antibiotic use. The authors suggest current practice squanders the stewardship potential of newer rapid diagnostics.",
+      "why_it_matters": "Reordering the test-then-treat sequence for pneumonia could meaningfully reduce unnecessary broad-spectrum antibiotic use, slowing the spread of antibiotic resistance.",
+      "caveats": "commentary/opinion piece, no original data, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Antibiotic resistance hook, Harvard authors, strong public health angle; commentary limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "We Have Better Tests for Pneumonia. We're Just Not Using Them in Time.",
+          "hook": "Rapid molecular diagnostics can identify the exact pathogen causing pneumonia within hours \u2014 but most patients are already on broad antibiotics before the results arrive.",
+          "pitch_angle": "Harvard clinicians argue that the standard reflex to treat pneumonia empirically before testing is quietly neutralizing one of medicine's best new stewardship tools. Reversing that order \u2014 test first, treat later \u2014 could be a low-cost lever against antibiotic resistance."
+        },
+        {
+          "publication_type": "Scientific American",
+          "headline": "Pneumonia's Antibiotic Problem Isn't the Drugs \u2014 It's the Order of Operations",
+          "hook": "New rapid molecular panels can pinpoint a pneumonia pathogen in hours, yet clinicians routinely start broad-spectrum antibiotics before those results land.",
+          "pitch_angle": "A commentary from Harvard's Brigham and Women's Hospital details how a simple procedural shift \u2014 delaying empirical treatment until diagnostics return \u2014 could unlock the stewardship potential already embedded in technology hospitals already own."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42722026",
+      "headline": "Researchers validate a planning tool that keeps proton cancer therapy accurate when MRI magnets are in the room",
+      "journal": "Physics in Medicine and Biology",
+      "pubdate": "2026 Oct 7",
+      "doi": "10.1088/1361-6560/aea5d2",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A German research team experimentally validated a Monte Carlo-based dose calculation method inside a commercial treatment planning system (RayStation) for use with MRI-integrated proton therapy, using a 0.32 T in-beam MRI scanner. Proton beams at multiple energies were delivered with and without the magnetic field present, and dose distributions were measured using an ionization chamber array. The system accurately reproduced magnetic-field-induced beam shifts to within 1\u20133 mm, with gamma-pass rates exceeding 97%, supporting its readiness for clinical implementation.",
+      "why_it_matters": "Combining real-time MRI with proton therapy could allow oncologists to track tumor motion and adapt treatment on the fly, but only if the magnetic field's distortion of the proton beam can be precisely corrected \u2014 this study suggests the software can do that.",
+      "caveats": "single-center, small sample (N<100)",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Technically rigorous but highly specialized medical physics study with limited general-audience hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / General science",
+          "headline": "The Next Frontier in Cancer Radiation: Seeing the Tumor While You Zap It",
+          "hook": "A new validated software tool can account for how MRI magnets bend proton therapy beams \u2014 a critical step toward real-time image-guided cancer treatment.",
+          "pitch_angle": "MRI-guided proton therapy promises unprecedented precision in cancer treatment by letting clinicians see soft tissue while delivering radiation, but the magnetic field physically deflects the proton beam in ways that must be modeled exactly. This validation study shows that a commercial planning system can now account for those deflections accurately enough for clinical use."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42660105",
+      "headline": "India's war on elephantiasis is stalling \u2014 and rapidly growing slums may be why",
+      "journal": "The American Journal of Tropical Medicine and Hygiene",
+      "pubdate": "2026 Oct 7",
+      "doi": "10.4269/ajtmh.26-0054",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers convened three regional stakeholder workshops across endemic Indian states (Uttar Pradesh, Gujarat, Tamil Nadu) to assess progress toward eliminating lymphatic filariasis, a parasitic disease causing severe limb swelling. Consultations involving WHO, NGOs, and national program officials identified persistent gaps in mass drug administration coverage, diagnostic capacity, and surveillance, with rapid urbanization and informal settlements flagged as growing obstacles. Recommended actions included migrant-focused surveillance, real-time treatment monitoring, and expanded public-private partnerships for managing chronic disease burden.",
+      "why_it_matters": "Lymphatic filariasis affects an estimated 600 million people at risk in India alone, and identifying systemic gaps in elimination programs could accelerate WHO targets for eradication.",
+      "caveats": "observational design, qualitative/policy consultation format \u2014 no quantitative outcome data, single-country focus",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Important NTD public health topic but India-specific policy consultation limits global pitch breadth.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / Knowable Magazine",
+          "headline": "Elephantiasis elimination in India is faltering as cities grow faster than health systems can follow",
+          "hook": "India is one of the last major battlegrounds for eliminating lymphatic filariasis \u2014 but rapid urban growth and untreated migrant populations are quietly undermining decades of progress.",
+          "pitch_angle": "Regional workshops across three endemic Indian states revealed that informal urban settlements are creating new pockets of disease transmission that mass drug campaigns were never designed to reach. The findings expose a structural gap in global neglected tropical disease elimination strategy as urbanization outpaces public health infrastructure."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42837308",
+      "headline": "Video-based quit-smoking program for cancer survivors cuts cigarettes smoked nearly in half \u2014 and patients actually liked it",
+      "journal": "Nicotine & Tobacco Research",
+      "pubdate": "2026 Oct 6",
+      "doi": "10.1093/ntr/ntag220",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers developed and piloted a tailored video-based smoking cessation intervention for cancer survivors, randomizing 40 adult smokers to receive seven cessation videos or a link to the NCI's standard online booklet. Video participants reduced cigarettes per day from an average of 16.2 at baseline to 7.7 at three-month follow-up, and reported numerically higher quit attempts at every follow-up compared to controls. Acceptability and feasibility scores met pre-specified thresholds, supporting progression to a larger efficacy trial.",
+      "why_it_matters": "Continued smoking after a cancer diagnosis worsens survival and treatment outcomes, yet few scalable, cancer-specific cessation tools exist \u2014 a video format could reach survivors who face barriers to in-person programs.",
+      "caveats": "small sample (N<100), short follow-up, pilot/feasibility design not powered for efficacy, self-reported outcomes",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Cancer-survivor population, clear public health hook, but very small pilot not powered for efficacy.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Women's Health",
+          "headline": "A short video series helped cancer survivors cut their smoking nearly in half",
+          "hook": "Cancer survivors who smoked watched a series of tailored videos and cut their daily cigarette count almost in half over three months \u2014 nearly double the reduction seen in those given standard online materials.",
+          "pitch_angle": "A small randomized pilot found that seven short, cancer-tailored cessation videos were both acceptable to survivors and associated with sustained reductions in smoking, with more participants attempting to quit at every follow-up. Researchers say the format could help reach the large number of cancer patients who keep smoking after diagnosis \u2014 a group with especially high stakes for quitting."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Public Health & Epidemiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42838152",
+      "headline": "Living systematic reviews promise to stay current \u2014 but most quietly abandon their own standards as updates pile up",
+      "journal": "Journal of Clinical Epidemiology",
+      "pubdate": "2026 Oct 6",
+      "doi": "10.1016/j.jclinepi.2026.112546",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A methodological survey evaluated 119 living evidence syntheses (LES) \u2014 including systematic reviews, rapid reviews, and meta-analyses \u2014 prospectively monitored over two years with up to three subsequent updates assessed per review. Compliance with living-specific reporting standards was low at baseline (less than 30% reported most key living elements) and declined further with each update, with PRISMA-LSR compliance dropping from 57.5% at baseline to around 41% in later updates. Fewer than 5% of reviews specified criteria for when they would stop being updated.",
+      "why_it_matters": "As living systematic reviews increasingly inform clinical guidelines and health policy, widespread failures to follow their own reporting standards could undermine the reliability of evidence that shapes medical decision-making worldwide.",
+      "caveats": "observational design, methodological study (no clinical outcomes)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Methodological/meta-science finding; relevant to science journalists but limited general audience appeal.",
+      "pitch_angles": [
+        {
+          "publication_type": "Science News / Knowable Magazine",
+          "headline": "The Reviews Meant to Keep Medical Evidence Fresh Are Quietly Falling Apart",
+          "hook": "Living systematic reviews \u2014 designed to update continuously as new evidence emerges \u2014 are increasingly failing to follow the standards that make them trustworthy, a new audit of 119 such reviews finds.",
+          "pitch_angle": "Compliance with reporting requirements was poor at launch and declined with every subsequent update, raising questions about whether a format increasingly used to shape clinical guidelines is delivering on its promise. With fewer than 1 in 20 reviews specifying when they would stop updating, the field may be producing the appearance of rigor without the substance."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Public Health & Epidemiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42831386",
+      "headline": "A hidden genetic modifier \u2014 two mutations traveling together \u2014 quietly worsens a rare bone disease",
+      "journal": "Genetics in Medicine",
+      "pubdate": "2026 Oct 5",
+      "doi": "10.1016/j.gim.2026.102746",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed 115 patients with SLC26A2-related skeletal dysplasias \u2014 a spectrum of rare inherited bone disorders \u2014 using a novel 30-criterion severity scoring scale alongside molecular analyses including RNA sequencing and functional sulfate uptake assays. They identified a novel 'complex allele' in which two mutations on the same chromosome (p.[Cys653Ser;Arg671His]) act together in cis to dramatically worsen disease severity beyond what either mutation alone would predict. The finding challenges the assumption that disease severity in these disorders is fully explained by simple biallelic variant combinations and demonstrates that one allele can functionally mimic a near-null mutation through this pairing.",
+      "why_it_matters": "For rare disease patients who receive unexpected or severe diagnoses despite seemingly 'mild' mutations, complex alleles acting as hidden modifiers could explain discordance \u2014 and should now be considered in genetic counseling for SLC26A2 disorders.",
+      "caveats": "single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive genetics finding with clinical genetics significance; rare disease limits broad audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / Knowable Magazine",
+          "headline": "Two Mutations Hitching a Ride Together Can Secretly Make a Rare Bone Disease Much Worse",
+          "hook": "A patient with what looks like a mild genetic variant for a rare bone disorder can end up with a severe form of the disease \u2014 because a second mutation hiding on the same chromosome changes everything.",
+          "pitch_angle": "In the largest study of SLC26A2 skeletal dysplasia patients to date, researchers found that a pair of mutations traveling together on one chromosome act as a hidden severity amplifier, fooling standard genetic interpretation. The finding suggests that 'complex alleles' \u2014 combinations the field has largely overlooked \u2014 may be quietly driving diagnostic confusion in rare diseases far beyond this one."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42831256",
+      "headline": "COVID booster's protection against hospitalization wanes but holds longer than feared, French data show",
+      "journal": "American Journal of Epidemiology",
+      "pubdate": "2026 Oct 5",
+      "doi": "10.1093/aje/kwag250",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using France's national health data system, researchers applied a novel self-controlled case series (SCCS) method to individuals hospitalized for COVID-19 between September 2021 and February 2022 to estimate the effectiveness and durability of the monovalent third-dose vaccine. The analysis confirmed meaningful relative protection against hospital admission following the booster, with waning immunity observed over time but described as limited in extent. The study also found possible effect modification by virus strain, vaccine type, vaccination history, age, and sex.",
+      "why_it_matters": "Understanding how quickly and to what degree booster protection fades is essential for governments and health agencies calibrating vaccine rollout timing and booster recommendations at the population level.",
+      "caveats": "observational design, secondary analysis, single-center",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "France-specific COVID booster data; methodological novelty but limited news hook now.",
+      "pitch_angles": [
+        {
+          "publication_type": "General science",
+          "headline": "A Smarter Statistical Method Pins Down How Long COVID Boosters Actually Protected Against Hospitalization",
+          "hook": "A novel twist on a decades-old epidemiological method used only vaccinated patients as their own controls \u2014 and found that third-dose COVID protection waned, but more slowly than some feared.",
+          "pitch_angle": "French researchers applied a self-controlled case series design to national hospitalization data to sidestep a persistent problem in vaccine research \u2014 confounding by health-seeking behavior \u2014 and produced some of the clearest estimates yet of booster waning. The methodological advance could be applied to future vaccines and future pandemics to generate faster, cleaner effectiveness signals from routine health records."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Public Health & Epidemiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42848677",
+      "headline": "A promising dengue biocontrol strategy is quietly failing in Rio de Janeiro \u2014 and a common larvicide may be to blame",
+      "journal": "Memorias do Instituto Oswaldo Cruz",
+      "pubdate": "2026 Oct 5",
+      "doi": "10.1590/0074-02760250212",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers sampled mosquitoes across 12 Rio de Janeiro neighborhoods 30 months after a Wolbachia wMel release program suffered a population crash, finding mean wMel infection frequency of just 9.87% \u2014 far below levels needed for dengue suppression. The collapse was linked to use of the larvicide Spinosad, which disproportionately harmed wMel-infected Aedes aegypti due to fitness costs on egg viability, while uninfected mosquitoes rebounded within weeks. The findings suggest routine insecticide rotation in integrated vector management programs can undermine Wolbachia-based biocontrol in complex urban settings.",
+      "why_it_matters": "As Wolbachia-based dengue control expands globally, this case shows that standard mosquito management chemicals may inadvertently sabotage the biocontrol strategy \u2014 a critical coordination failure with implications for dengue-endemic cities worldwide.",
+      "caveats": "single-center, observational design, limited to 12 neighborhoods in one city",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding with global dengue control implications; geographically specific but mechanism is universal.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / New Scientist",
+          "headline": "The Pesticide That's Undermining One of Our Best Dengue Vaccines \u2014 for Mosquitoes",
+          "hook": "A larvicide widely used to knock down mosquito populations is accidentally killing the very Wolbachia-infected mosquitoes deployed to stop dengue \u2014 and the uninfected ones bounce back first.",
+          "pitch_angle": "Wolbachia-based biocontrol has shown dramatic dengue reductions in trials worldwide, but Rio de Janeiro's experience reveals a hidden vulnerability: standard integrated pest management chemicals don't distinguish between helpful and harmful mosquitoes, and the biocontrol strain pays a steeper fitness price. The finding has urgent implications for dozens of cities now deploying the strategy."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42854484",
+      "headline": "A truck's pollution filter creates a hidden emission spike \u2014 releasing up to 78% of its total formaldehyde during brief self-cleaning cycles",
+      "journal": "Journal of Hazardous Materials",
+      "pubdate": "2026 Oct 5",
+      "doi": "10.1016/j.jhazmat.2026.143824",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used a portable emissions measurement system to track real-world gaseous pollutant output from a China VI-compliant heavy-duty diesel truck during on-road diesel particulate filter (DPF) regeneration events \u2014 a periodic self-cleaning process that burns off accumulated soot. During regeneration, which occurred over less than 6% of driving time, emissions of formaldehyde, nitrous oxide (N2O), and nitrogen dioxide (NO2) spiked dramatically, accounting for 78%, 71%, and 66% of total test emissions of those pollutants respectively. Lifetime modeling estimated regeneration could contribute up to 38% of a truck's total formaldehyde and 26% of its NO2 output.",
+      "why_it_matters": "Modern diesel trucks are marketed as far cleaner than their predecessors, but this study suggests their pollution filters produce intense, poorly characterized bursts of toxic gases that standard emission inventories likely undercount \u2014 with implications for urban air quality regulations worldwide.",
+      "caveats": "small sample (N<100), single-center, single vehicle tested, China-specific regulatory context",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive air-quality finding with global regulatory relevance; single-vehicle limitation.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired / Scientific American",
+          "headline": "The Filter Cleaning Your Diesel Truck's Exhaust Is Also Pumping Out Hidden Toxic Spikes",
+          "hook": "A diesel particulate filter is supposed to cut pollution \u2014 but its periodic self-cleaning cycle unleashes a hidden surge of formaldehyde and nitrogen dioxide that standard tests miss.",
+          "pitch_angle": "New real-world measurements from a state-of-the-art diesel truck in China found that the few minutes of filter regeneration can account for the majority of the vehicle's total formaldehyde and NO2 output over a given trip, a phenomenon largely absent from official emission inventories. As countries worldwide tighten diesel standards, the findings suggest regulators may be systematically undercounting one of freight transport's most significant pollution sources."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42860028",
+      "headline": "Each extra heart or metabolic condition raises odds of leaving work early by 73% in middle-aged adults",
+      "journal": "Journal of Occupational Health",
+      "pubdate": "2026 Oct 11",
+      "doi": "10.1093/joccuh/uiag064",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers followed 4,404 working Chinese adults aged 45\u201360 across three survey waves (2011\u20132018), tracking physician-diagnosed cardiometabolic conditions \u2014 hypertension, diabetes, heart disease, stroke, and kidney disease. Each additional diagnosed condition was associated with 73% higher odds of health-related work exit (OR 1.73, 95% CI 1.51\u20131.97). Standardized cumulative incidence of health-related work exit by the final wave rose from 6.4% for those with no conditions to 16.6% for those with two.",
+      "why_it_matters": "As cardiometabolic disease rates climb globally, findings suggest that managing multiple chronic conditions may be key to sustaining workforce participation among middle-aged adults.",
+      "caveats": "observational design, self-reported outcomes, single-country cohort (China), residual confounding acknowledged by authors",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Solid longitudinal design but China-specific context and occupational health niche limit broad appeal.",
+      "pitch_angles": [
+        {
+          "publication_type": "Knowable Magazine / General science",
+          "headline": "Two chronic conditions doubles your odds of leaving the workforce early",
+          "hook": "Having just two cardiometabolic conditions \u2014 like hypertension and diabetes \u2014 may more than double a middle-aged worker's odds of leaving the workforce for health reasons.",
+          "pitch_angle": "A seven-year longitudinal study of over 4,000 Chinese adults found that each additional heart or metabolic diagnosis was associated with 73% higher odds of health-driven early work exit. As chronic disease burden rises worldwide, the findings raise questions about workplace accommodation policies for aging workers with multiple conditions."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Public Health & Epidemiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42860020",
+      "headline": "Gory farm-injury simulations with amputee actors shift safety awareness before accidents happen",
+      "journal": "Journal of Agromedicine",
+      "pubdate": "2026 Oct 11",
+      "doi": "10.1080/1059924X.2026.2742955",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at East Carolina University conducted a convergent mixed-methods pilot study in rural eastern North Carolina (n=62 pre, n=50 post) testing immersive theater simulations \u2014 using special-effects techniques and amputee role-players \u2014 to recreate traumatic farm injuries including power take-off entanglement and vehicle collisions. Participants showed moderate knowledge gains about farm equipment and roadway hazards, and reported high realism and emotional engagement. The study suggests immersive simulation may help shift learning from post-injury recognition to pre-injury awareness.",
+      "why_it_matters": "Farm injuries are among the leading causes of occupational death in the U.S., and novel training approaches that create emotional engagement before an accident occurs could reshape agricultural safety education.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up, self-reported outcomes",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Niche occupational safety topic; small pilot study limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / Science News",
+          "headline": "Amputee Actors and Fake Blood Are Trying to Save Farmers' Lives",
+          "hook": "Farmers are statistically among the most likely workers to die on the job \u2014 so one researcher is using Hollywood-style gore to make safety lessons stick before a real injury happens.",
+          "pitch_angle": "A pilot program in rural North Carolina deployed amputee role-players and special-effects trauma makeup to simulate farm equipment injuries, with early results suggesting emotional immersion may create safety awareness that traditional training fails to achieve. With thousands of farm fatalities and injuries each year in the U.S., the approach raises broader questions about how visceral, experiential education could transform occupational safety training."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Public Health & Epidemiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42852489",
+      "headline": "A four-protein blood test detects tuberculosis before symptoms appear \u2014 and can be run without a lab",
+      "journal": "Expert Review of Molecular Diagnostics",
+      "pubdate": "2026 Oct 10",
+      "doi": "10.1080/14737159.2026.2744694",
+      "groundbreaking": "Major public health implication / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Beijing enrolled 280 participants across four groups \u2014 healthy controls, pulmonary nodule patients, subclinical TB, and active TB \u2014 and measured four serum immune proteins (PDGFC, CXCL9, CXCL11, CCL1) to build a diagnostic biosignature. A companion colloidal gold lateral-flow strip using a simple visual readout achieved 96% sensitivity and 95% specificity for detecting subclinical and active TB, outperforming standard sputum smear, TB DNA, and IGRA tests. The strip requires no laboratory equipment and is designed for decentralized use in resource-limited settings.",
+      "why_it_matters": "Detecting TB before symptoms appear is a critical bottleneck in global elimination efforts, and a sputum-free, field-deployable test could transform screening in high-burden, low-resource regions.",
+      "caveats": "small sample (N<100 per subgroup), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Strong global health hook; human study with impressive diagnostic performance; single-center caveat limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / The Atlantic",
+          "headline": "A Simple Blood Strip Could Catch Tuberculosis Before It Becomes Contagious",
+          "hook": "The world's most lethal infectious disease kills more than a million people a year partly because it's nearly impossible to detect before symptoms set in \u2014 a new four-protein blood test and a strip you can read with your eyes may change that.",
+          "pitch_angle": "Chinese researchers developed a lateral-flow strip test that identifies subclinical TB from a blood sample with 96% sensitivity, no lab required \u2014 a potential game-changer for countries where TB smolders undetected for years. If validated in larger, multicenter trials, it could give public health programs their first practical tool for catching and stopping transmission before patients even feel sick."
+        },
+        {
+          "publication_type": "Scientific American / New Scientist",
+          "headline": "Four Immune Proteins in Blood May Flag Hidden Tuberculosis \u2014 Even Before Symptoms Emerge",
+          "hook": "A biosignature of four cytokines and chemokines elevated in subclinical TB patients could redefine how \u2014 and when \u2014 the disease is diagnosed.",
+          "pitch_angle": "Machine learning models trained on the four-biomarker panel achieved 97.5% validation sensitivity, and a companion strip outperformed every conventional TB test including IGRA \u2014 the current immunological gold standard. The finding raises questions about what 'early' TB infection looks like immunologically, and whether immune signaling begins far sooner than sputum bacteria appear."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42858708",
+      "headline": "Venice Lagoon sediments are laced with mercury, dioxins, and PCBs \u2014 and Europe's cleanup rules may not be working",
+      "journal": "Journal of Environmental Management",
+      "pubdate": "2026 Oct 10",
+      "doi": "10.1016/j.jenvman.2026.131128",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Italian researchers analyzed more than 1,400 sediment samples from over 400 cores collected across the Venice Lagoon in 2024\u20132025, testing for chemical contamination and ecotoxicity. They found widespread exceedances of Italian legal screening values for cadmium, mercury, zinc, hexachlorobenzene, dioxins (PCDD/F), and PCBs, with embryotoxicity tests on sea urchin larvae proving the most sensitive indicator of harm. The study also found that existing Italian legislation for classifying and managing dredged sediment may need recalibration to better reflect the lagoon's specific contamination profile.",
+      "why_it_matters": "The Venice Lagoon is both a UNESCO World Heritage site and an active commercial port, and these findings suggest current regulatory tools may underestimate toxic risk in dredged sediments, with implications for how contaminated material is handled across European coastal systems.",
+      "caveats": "observational design, single-center",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Strong environmental angle but narrowly Italy-specific; limited US/global generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / General science",
+          "headline": "Venice is sinking \u2014 and its lagoon floor is poisoned with decades of industrial chemicals",
+          "hook": "New testing of Venice Lagoon sediments finds mercury, dioxins, and PCBs exceeding legal safety thresholds across the famous waterway, and embryo toxicity tests suggest the contamination is worse than chemical screening alone reveals.",
+          "pitch_angle": "As Venice battles rising seas, its lagoon floor holds a hidden legacy of industrial pollution that regulators may be systematically underestimating, according to the most comprehensive sediment survey of the site to date. The findings raise broader questions about whether European coastal dredging rules are fit for purpose in historically contaminated estuaries."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42853554",
+      "headline": "Having a legal right to abortion in Brazil doesn't mean you can access one \u2014 even in the public health system",
+      "journal": "Global Public Health",
+      "pubdate": "2026 Dec 31",
+      "doi": "10.1080/17441692.2026.2734661",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted 13 semi-structured interviews with primary health care professionals in S\u00e3o Paulo, Brazil to understand how providers navigate cases eligible for legal abortion. Findings reveal that despite legal permissions, care is systematically constrained by high workloads, stigma, institutional opacity, and weak referral accountability. Enabling factors were largely individual \u2014 such as providers' moral courage and feminist identification \u2014 rather than structural.",
+      "why_it_matters": "The gap between legal abortion rights and real-world access is a structural health system problem, not just a legal or individual one, with implications for reproductive rights policy globally.",
+      "caveats": "small sample (N<100), qualitative design, single-center, self-reported outcomes",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Reproductive rights policy relevance, but small qualitative study narrowly focused on S\u00e3o Paulo.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / The Atlantic",
+          "headline": "Legal Doesn't Mean Accessible: How Brazil's Health System Fails Women Entitled to Abortion",
+          "hook": "Even when abortion is legal, frontline health workers in Brazil face a labyrinth of stigma, institutional opacity, and workload pressures that quietly deny women their rights.",
+          "pitch_angle": "Researchers found that legal eligibility for abortion in Brazil rarely translates to actual care, because systemic barriers \u2014 not just individual provider attitudes \u2014 block access at nearly every step. The findings challenge the assumption that expanding legal rights alone is sufficient, a lesson with broad relevance to reproductive health policy worldwide."
+        }
+      ],
+      "run_date": "2026-10-12",
+      "category": "Public Health & Epidemiology",
+      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -141,120 +978,6 @@
       ],
       "run_date": "2026-10-11",
       "category": "Public Health & Epidemiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42844624",
-      "headline": "A never-before-seen bacterium found under Antarctic ice is rewriting how iron ore deposits may have formed billions of years ago",
-      "journal": "Microbiome",
-      "pubdate": "2026 Oct 8",
-      "doi": "10.1186/s40168-026-02536-0",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed sediment cores from beneath the Larsen C Ice Shelf in Antarctica, using metagenomic sequencing and fluorescence imaging to profile microbial communities across Holocene geological layers. They identified a novel bacterium \u2014 'Candidatus Mariimomonas ferrooxydans' \u2014 that oxidizes iron using an outer-membrane enzyme called Cyc2, experimentally confirmed in the lab. The findings suggest living microbes under Antarctic ice are performing iron biomineralization processes similar to those thought to have formed ancient banded iron formations during the Snowball Earth era.",
-      "why_it_matters": "Discovering that modern Antarctic microbes may mirror the ancient microbial processes that created Earth's largest iron ore deposits reshapes our understanding of how geology and biology have co-evolved across billions of years.",
-      "caveats": "None identified",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive Antarctic finding linking living microbes to ancient Earth geology; strong science hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "National Geographic / bioGraphic",
-          "headline": "Under Antarctic ice, a newly discovered microbe is recreating one of Earth's oldest geological processes",
-          "hook": "Locked beneath the Larsen C Ice Shelf, a never-before-seen bacterium is quietly rusting the seafloor \u2014 just as its ancient ancestors may have built the iron ore deposits we mine today.",
-          "pitch_angle": "Scientists have found a novel iron-oxidizing microbe in Antarctic ice-shelf sediments whose chemistry echoes the microbial activity thought to have formed banded iron formations during the Neoproterozoic Snowball Earth. The discovery offers a rare living window into one of the planet's most ancient and debated geological mysteries."
-        },
-        {
-          "publication_type": "Scientific American",
-          "headline": "Ancient mystery of Earth's iron ore deposits may be solved \u2014 by bacteria living under Antarctic ice right now",
-          "hook": "How Earth's massive iron ore deposits formed billions of years ago has long puzzled geologists \u2014 and the answer may be swimming in frigid water beneath Antarctica today.",
-          "pitch_angle": "A metagenomic study of Larsen C Ice Shelf sediments identified a new bacterial species capable of oxidizing iron using an enzyme also found in ancient organisms, suggesting biological iron mineralization has been a continuous planetary force from the Precambrian to the present. The finding reopens debate about the biological versus chemical origins of banded iron formations."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "3/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42847748",
-      "headline": "A single missing stretch of DNA caused one child to develop eye defects, bone loss, and immune failure all at once",
-      "journal": "Clinical Genetics",
-      "pubdate": "2026 Oct 8",
-      "doi": "10.1111/cge.70259",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Clinicians at Gazi University in Turkey report the first known human case of a complete homozygous deletion spanning both the ALCAM and CBLB genes on chromosome 3q13, identified in a 14-year-old boy born to consanguineous parents. The patient presented with severe congenital eye and craniofacial abnormalities, early-onset osteoporosis, scoliosis, growth failure, a heart defect, and immune deficiency; SNP array and expression studies confirmed total loss of both gene products. The authors propose this deletion represents a novel contiguous gene deletion syndrome, with each clinical feature traceable to the loss of one or both genes based on prior animal-model data.",
-      "why_it_matters": "Identifying this deletion as a candidate syndrome gives clinicians a molecular framework to recognize and diagnose similarly affected children who might otherwise go undiagnosed for years.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Rare but scientifically clear genetics case; limited public health scale reduces score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Undark",
-          "headline": "One Boy's Baffling Multi-Organ Disease Traced to a Single Deleted Stretch of DNA",
-          "hook": "A 14-year-old with severe problems in his eyes, bones, heart, and immune system \u2014 all explained, for the first time, by one missing chromosomal segment.",
-          "pitch_angle": "The discovery of the first known human case of a combined ALCAM-CBLB deletion \u2014 confirmed by genetic testing that showed both genes were completely silenced \u2014 illustrates how a single genomic gap can simultaneously disrupt multiple organ systems; the case may help clinicians finally name, and diagnose, a syndrome that has likely gone unrecognized in other patients."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42850394",
-      "headline": "A virus that lives quietly in almost everyone's blood fluctuates unpredictably \u2014 complicating its use as an immune-health gauge",
-      "journal": "EMBO Molecular Medicine",
-      "pubdate": "2026 Oct 8",
-      "doi": "10.1038/s44321-026-00540-3",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers developed a fully automated high-throughput qPCR assay for Torque teno virus (TTV) \u2014 a near-ubiquitous, non-pathogenic virus whose blood levels are thought to reflect immune status \u2014 and used it to profile longitudinal plasma and serum samples collected over up to 51 months from non-immunosuppressed healthy individuals. The study found substantial inter- and intra-individual fluctuations in TTV DNA levels independent of any immunosuppressive therapy. These findings suggest that natural biological variability must be accounted for before TTV load can reliably guide clinical decisions about immunosuppression dosing.",
-      "why_it_matters": "TTV is increasingly used in transplant medicine to calibrate immunosuppressive drugs, and discovering that levels swing unpredictably even in healthy people raises questions about how safely it can guide those high-stakes treatment decisions.",
-      "caveats": "observational design, industry funding [Roche Diagnostics]",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive finding with transplant medicine implications; strong journal, but niche clinical audience.",
-      "pitch_angles": [
-        {
-          "publication_type": "Undark / The Atlantic",
-          "headline": "Doctors Are Using a Mystery Virus to Tune Transplant Drugs. There's a Problem.",
-          "hook": "Torque teno virus lives in virtually every human on earth, and its blood levels are supposed to reveal how suppressed your immune system is \u2014 but a new study finds those levels bounce around on their own.",
-          "pitch_angle": "A rigorous new assay tracking TTV in healthy people over more than four years found wild natural swings in viral load that have nothing to do with immune suppression, suggesting the biomarker may be noisier than clinicians assumed. The finding calls for evidence-based thresholds before TTV-guided dosing becomes standard practice in transplant care."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "2/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42848687",
-      "headline": "Young HIV-positive adults with justice system involvement say 'forgetting' \u2014 not stigma or cost \u2014 is their top barrier to taking their medication",
-      "journal": "AIDS Care",
-      "pubdate": "2026 Oct 8",
-      "doi": "10.1080/09540121.2026.2728358",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a qualitative analysis of weekly navigator call summaries from 35 young adults living with HIV who had recent or high-risk criminal legal system involvement, enrolled in the LINK2 intervention in Los Angeles. The most frequently cited reason for missed antiretroviral doses was simply forgetting, followed by disrupted routines from going out, being busy, or sleeping through alarms, while structural barriers like medication access and unmet basic needs also emerged. Participants who successfully maintained adherence most often credited established routines and reminder tools \u2014 strategies within their own control even amid external instability.",
-      "why_it_matters": "Understanding that routine disruption \u2014 not just structural deprivation \u2014 drives medication non-adherence in this high-risk group suggests that simple, scalable behavioral tools like reminders could complement structural interventions in HIV programs serving justice-involved youth.",
-      "caveats": "small sample (N<100), observational design, single-center, self-reported outcomes, qualitative only",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Meaningful public health population; very small qualitative sample limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Undark / Health.com",
-          "headline": "For Young People with HIV Who've Touched the Justice System, Forgetting a Pill Can Be a Matter of Life and Death",
-          "hook": "When researchers asked justice-involved young adults with HIV why they missed doses, the most common answer wasn't stigma or cost \u2014 it was simply that they forgot.",
-          "pitch_angle": "A qualitative study found that routine disruption \u2014 not structural barriers alone \u2014 is the dominant driver of missed antiretroviral doses among a population at especially high risk of treatment failure, suggesting reminder-based tools could be low-cost, high-impact additions to care programs. The finding reframes how clinicians and policymakers might design interventions for one of HIV medicine's hardest-to-reach groups."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Infectious Disease",
       "chunk": "1/2",
       "status": "new"
     },
@@ -367,246 +1090,6 @@
       "status": "new"
     },
     {
-      "pmid": "42849547",
-      "headline": "Women get screened for high blood pressure more than men \u2014 but are diagnosed and treated less, and the gap is widening",
-      "journal": "Annals of Epidemiology",
-      "pubdate": "2026 Oct 8",
-      "doi": "10.1016/j.annepidem.2026.110308",
-      "groundbreaking": "Counterintuitive finding / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed self-reported data from six consecutive Swiss Health Surveys spanning 1997\u20132022 across 94,785 participants to track sex differences in hypertension screening, diagnosis, treatment, and control. Women were consistently 62% more likely than men to report blood pressure screening, yet since 2012 they have been significantly less likely to receive a hypertension diagnosis or be prescribed antihypertensive medication \u2014 and that gap has been widening. Crucially, among those who do receive treatment, women and men show similar blood pressure control outcomes.",
-      "why_it_matters": "A 25-year paradox in which women are screened more yet treated less for hypertension suggests systematic under-diagnosis that could leave millions of women at elevated cardiovascular risk.",
-      "caveats": "self-reported outcomes, observational design, single-country (Switzerland)",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Large N, counterintuitive sex-gap finding, clear public health hook; self-reported data limits it.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / Undark",
-          "headline": "Women See the Doctor More for Blood Pressure \u2014 So Why Are They Treated Less?",
-          "hook": "Across 25 years of Swiss data, women were screened more often for hypertension than men \u2014 but were significantly less likely to be diagnosed or given medication, and the gap keeps growing.",
-          "pitch_angle": "This 'screening-treatment paradox' raises urgent questions about whether clinicians are systematically underestimating cardiovascular risk in women, a pattern that, if replicated beyond Switzerland, could represent a widespread blind spot in heart disease prevention."
-        },
-        {
-          "publication_type": "Women's Health / Health.com",
-          "headline": "You May Be Getting Your Blood Pressure Checked More Than Men \u2014 and Still Slipping Through the Cracks",
-          "hook": "A massive Swiss study found women are 62% more likely than men to get blood pressure screenings, yet consistently less likely to be diagnosed or treated \u2014 a gap that widened over the past decade.",
-          "pitch_angle": "Experts say the finding points to a possible blind spot in how cardiovascular risk is assessed in women, and underscores the importance of asking your doctor directly about your hypertension risk even if a screening comes back 'fine.'"
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Public Health & Epidemiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42854280",
-      "headline": "A rare cancer therapy that uses neutrons to detonate boron atoms inside tumors was tried on liver metastases for the first time",
-      "journal": "Applied Radiation and Isotopes",
-      "pubdate": "2026 Oct 8",
-      "doi": "10.1016/j.apradiso.2026.112976",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers in Taiwan report the first use of boron neutron capture therapy (BNCT) to treat liver metastases from adenoid cystic carcinoma (ACC), a rare cancer often resistant to standard therapies, in a single 55-year-old male patient who underwent two BNCT sessions. Within three months of the first treatment, the tumor remained stable and pre-existing vascular lesions resolved completely. No irreversible adverse effects were observed, though the study notes that optimal dosing is still being explored.",
-      "why_it_matters": "ACC liver metastases have very limited treatment options, and this first reported application of BNCT to this indication \u2014 while based on a single case \u2014 suggests a potential new avenue worth formal investigation for a cancer with few effective therapies.",
-      "caveats": "small sample (N<100), single-center, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "First-in-class but N=1 case report; rare cancer limits broad public health relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "New Scientist / Wired",
-          "headline": "A Therapy That Uses Nuclear Reactions Inside Tumors Was Just Tried on Liver Cancer for the First Time",
-          "hook": "Boron neutron capture therapy \u2014 which works by loading tumor cells with boron and then detonating them with a beam of neutrons \u2014 has been attempted for the first time on liver metastases from a rare, hard-to-treat cancer.",
-          "pitch_angle": "BNCT is one of medicine's most exotic cancer strategies, and a new Taiwanese case report marks its first application to ACC liver metastases \u2014 a cancer with almost no effective options \u2014 opening a line of investigation that could eventually expand the therapy's use beyond its current niche."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Environmental Health",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42660107",
-      "headline": "A new 'kissing bug' species found carrying Chagas disease parasite near U.S.-Mexico border",
-      "journal": "The American Journal of Tropical Medicine and Hygiene",
-      "pubdate": "2026 Oct 7",
-      "doi": "10.4269/ajtmh.26-0007",
-      "groundbreaking": "First-in-class human study / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducting Chagas disease surveillance on U.S. military installations near the California and Arizona borders collected 83 Paratriatoma hirsuta insects from 16 wood rat nests and tested them for Trypanosoma cruzi. Using PCR screening and Sanger sequencing, they confirmed T. cruzi infection in 9% of P. hirsuta and 7% of the co-collected Triatoma rubida. This is the first documented detection of naturally acquired T. cruzi in P. hirsuta, identifying it as a previously unrecognized potential vector in the Sonoran and Mojave Desert regions.",
-      "why_it_matters": "Identifying a new potential Chagas disease vector on U.S. soil expands the known risk zone for a parasitic infection that affects an estimated 300,000 people in the U.S. and has no widely available cure.",
-      "caveats": "small sample (N<100), observational design, single-center, geographically limited to U.S.-Mexico border military installations",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "First vector ID, clear U.S. public health hook, but small sample and narrow geography.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American / Undark",
-          "headline": "A Little-Known 'Kissing Bug' Near the U.S.-Mexico Border Can Carry the Chagas Parasite",
-          "hook": "For the first time, scientists have found a previously unsuspected insect species carrying the Chagas disease parasite on U.S. military land near the Arizona and California borders.",
-          "pitch_angle": "A surveillance program on military bases has expanded the roster of known Chagas vectors in North America, raising questions about how broadly the disease's reach is being monitored in the American Southwest. With Chagas affecting hundreds of thousands in the U.S. and no vaccine available, understanding every potential transmission route matters."
-        },
-        {
-          "publication_type": "The Atlantic / General science",
-          "headline": "The U.S. Has a Chagas Disease Problem \u2014 and It Just Got More Complicated",
-          "hook": "Scientists working on U.S. Army bases near the Mexican border have discovered a bug no one was watching carrying the Chagas parasite.",
-          "pitch_angle": "The finding suggests current vector surveillance in the American Southwest may be missing key players in Chagas transmission cycles, with implications for public health monitoring in a region where the disease is chronically underdiagnosed. Military personnel and border-area residents may face underappreciated exposure risks."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42617063",
-      "headline": "Scientists sequenced the full genome of a beloved ornamental tree \u2014 and it could help breed disease-resistant versions",
-      "journal": "G3: Genes, Genomes, Genetics",
-      "pubdate": "2026 Oct 7",
-      "doi": "10.1093/g3journal/jkag229",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers assembled the first chromosome-scale, diploid genome of Cornus kousa (kousa dogwood), a disease-tolerant ornamental tree widely planted across the United States. The assembly covers approximately 1.6 gigabases across both haplotypes with 98%+ gene completeness and annotates roughly 31,000 genes per haplotype. The resource is intended to accelerate breeding programs aimed at disease resistance and to illuminate the evolutionary history of the Cornus genus.",
-      "why_it_matters": "A complete reference genome for kousa dogwood could help breeders develop trees more resistant to the diseases threatening native North American dogwood populations, with implications for urban forestry and ecosystem health.",
-      "caveats": "None identified",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Plant genomics milestone; limited broad public health hook for this journalist's typical angles.",
-      "pitch_angles": [
-        {
-          "publication_type": "Science News / Knowable Magazine",
-          "headline": "The kousa dogwood finally has its genome \u2014 and it could help save North America's native trees",
-          "hook": "Kousa dogwood is cherished partly because it resists the blight that devastated native American dogwoods \u2014 and now scientists have its complete genetic blueprint.",
-          "pitch_angle": "A new chromosome-scale genome assembly for Cornus kousa gives plant breeders their first detailed map of the genes underlying this tree's remarkable disease tolerance. Researchers hope the resource will help develop hardier cultivars as climate stress and pathogens continue to pressure urban and forest tree populations."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "3/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42844574",
-      "headline": "Antibiotics and antifungals found in soils of one of Earth's most remote untouched 'sky island' ecosystems",
-      "journal": "Integrated Environmental Assessment and Management",
-      "pubdate": "2026 Oct 7",
-      "doi": "10.1093/inteam/vjag158",
-      "groundbreaking": "Counterintuitive finding / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers tested soils from the summit of Roraima-tepui, a high-elevation protected plateau in South America's Guiana Shield with no sanitation infrastructure, screening for 98 pharmaceuticals using HPLC-MS/MS. Eleven pharmaceutical compounds were detected, including the antibiotic ciprofloxacin at concentrations up to 186 ng/g, along with analgesics and psychoactive compounds. Some compounds, including antibiotics, spread beyond areas of direct human use into ecologically pristine zones, with ciprofloxacin concentrations suggesting a potential for antibiotic resistance selection pressure.",
-      "why_it_matters": "The finding that pharmaceutical pollution and potential antibiotic resistance selection are occurring even in one of the planet's most isolated protected ecosystems suggests that no wilderness area is immune from the reach of human contamination \u2014 with implications for global conservation policy.",
-      "caveats": "small sample (N<100), single-center, observational design, short follow-up",
-      "fact_check_note": "The abstract notes that resistance genes or resistant bacteria were not directly measured \u2014 the antibiotic resistance risk is based on screening-level risk quotients only.",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive, global conservation hook, antibiotic resistance angle; observational, no resistance genes measured.",
-      "pitch_angles": [
-        {
-          "publication_type": "National Geographic / bioGraphic",
-          "headline": "Even Earth's Most Remote Wilderness Isn't Clean Anymore \u2014 Antibiotics Found Atop a Lost World",
-          "hook": "Researchers climbed one of South America's most isolated tepui plateaus and found it laced with ciprofloxacin, antifungals, and psychoactive drugs left behind by tourists.",
-          "pitch_angle": "Roraima-tepui, the ancient sandstone 'sky island' that inspired Conan Doyle's 'The Lost World,' is no longer pharmaceutically pristine \u2014 a finding that challenges the assumption that remoteness equals protection and raises alarms about antibiotic resistance spreading into the last wild places."
-        },
-        {
-          "publication_type": "The Atlantic / Undark",
-          "headline": "Tourism Is Quietly Turning Earth's Protected Wilderness Into Pharmaceutical Dumping Grounds",
-          "hook": "A study of one of the world's most remote protected ecosystems found 11 pharmaceutical compounds in its soils, including antibiotics at concentrations high enough to potentially drive resistance \u2014 and nobody regulates this.",
-          "pitch_angle": "As ecotourism expands into previously inaccessible wilderness, a new study from Venezuela's Roraima-tepui suggests that visitor waste is seeding even the most isolated ecosystems with drug residues and potential antibiotic resistance pressure, exposing a gap in global conservation frameworks."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Environmental Health",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42844939",
-      "headline": "Aluminum could be repurposed as a recyclable fuel \u2014 if engineers can solve three stubborn problems",
-      "journal": "Advanced Materials",
-      "pubdate": "2026 Oct 7",
-      "doi": "10.1002/adma.75310",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This comprehensive review assesses the state of aluminum fuel cell (AFC) technology, covering anode materials, electrolyte chemistry, air cathode design, and closed-loop aluminum recycling using renewable electricity. The authors benchmark current AFC performance against practical targets \u2014 anode utilization \u226599%, cathode lifetime \u22652,000 hours, system energy density \u2265500 Wh/kg \u2014 and compare the technology against hydrogen fuel cells and diesel generators. The review argues that aluminum, the world's most abundant metal, could be repositioned from a structural material to a circular-economy energy carrier for long-duration storage and off-grid power.",
-      "why_it_matters": "As the energy transition strains lithium supply chains and hydrogen infrastructure, aluminum fuel cells could offer a scalable, recyclable alternative for off-grid power and heavy transport \u2014 if remaining engineering barriers are overcome.",
-      "caveats": "None identified (review article \u2014 no original experimental data)",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Clean energy and circular economy hook; review article limits novelty, no new experimental data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired / Scientific American",
-          "headline": "The World's Most Common Metal Could Become a Recyclable Battery \u2014 Here's What's Standing in the Way",
-          "hook": "Aluminum is everywhere \u2014 in cans, planes, and buildings \u2014 but a growing body of engineering research suggests it could also power the clean energy transition as a rechargeable fuel.",
-          "pitch_angle": "A sweeping new review maps how aluminum fuel cells work, where they already outperform hydrogen and diesel alternatives, and what three engineering hurdles \u2014 anode efficiency, cathode durability, and closed-loop recycling \u2014 must be cleared before the technology can scale. If those challenges fall, aluminum could become a circular-economy energy carrier, converting the world's most abundant structural metal into a renewable fuel."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "2/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42345285",
-      "headline": "Hospitals vary fourfold in how broadly they prescribe antibiotics \u2014 and a new scorecard finally measures why",
-      "journal": "Clinical Infectious Diseases",
-      "pubdate": "2026 Oct 7",
-      "doi": "10.1093/cid/ciag389",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers developed the DASC-LOT framework and composite S3 (start, stop, select) metric to separately measure three dimensions of hospital antibiotic use \u2014 whether prescribing was initiated, how long it continued, and how broad-spectrum it was \u2014 using data from 727,958 patients across 118 Veterans Health Administration hospitals in 2022\u20132024. Risk-adjustment models incorporated up to 116 variables including comorbidities and procedure types, and hospital-level antibiotic spectrum coverage varied more than fourfold across the network. The framework allowed identification of specific weak points in each hospital's prescribing behavior rather than a single opaque composite score.",
-      "why_it_matters": "Pinpointing whether a hospital's antibiotic overuse stems from over-prescribing, overly long courses, or unnecessarily broad drugs could allow stewardship programs to intervene far more precisely \u2014 a critical need as antibiotic resistance accelerates globally.",
-      "caveats": "observational design, single-center (VA system only), secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Large-scale epidemiological data; antibiotic resistance topic bonus; observational and VA-only caveat.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / Undark",
-          "headline": "America's Hospitals Are Wildly Inconsistent About Antibiotics \u2014 This New Scorecard Shows Just How Much",
-          "hook": "Antibiotic use across 118 VA hospitals varies by more than 400%, and until now no tool could explain whether that gap came from over-prescribing, prolonged courses, or unnecessarily powerful drugs.",
-          "pitch_angle": "A new framework analyzed nearly a million hospital stays and found dramatic variation in how hospitals start, stop, and choose antibiotics \u2014 variation that conventional metrics lumped into a single number, masking the real problem. Identifying each hospital's specific failure mode is a prerequisite for the targeted interventions needed to slow the global antibiotic resistance crisis."
-        },
-        {
-          "publication_type": "Scientific American / Knowable Magazine",
-          "headline": "A New Three-Part Metric Could Revolutionize How Hospitals Track Antibiotic Overuse",
-          "hook": "Researchers have built a scorecard that breaks antibiotic stewardship into three measurable dimensions \u2014 whether, how long, and how broadly drugs are prescribed \u2014 revealing patterns that a single composite score would bury.",
-          "pitch_angle": "By applying the S3 metric to nearly a million patient-encounters at VA hospitals, the team showed that some facilities over-initiate antibiotics while others prescribe appropriately but use unnecessarily broad-spectrum drugs \u2014 each requiring a different fix. The tool could give stewardship programs the precision they have long lacked, with implications for hospital systems worldwide."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42281448",
-      "headline": "Harvard doctors argue hospitals should diagnose pneumonia before treating it \u2014 not after",
-      "journal": "Clinical Infectious Diseases",
-      "pubdate": "2026 Oct 7",
-      "doi": "10.1093/cid/ciag330",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a clinical opinion piece, two Harvard infectious disease physicians argue that the current standard of empirically treating pneumonia with broad-spectrum antibiotics before running diagnostic tests wastes the potential of rapid molecular diagnostic panels, which can identify specific pathogens within hours. They propose a paradigm shift toward 'test first, treat later' \u2014 withholding or delaying antibiotics until a pathogen is identified \u2014 to reduce unnecessary antibiotic use and improve targeted treatment. No new data are presented; the piece is an evidence-informed argument for rethinking clinical protocol.",
-      "why_it_matters": "Antibiotic overuse in pneumonia treatment is a major driver of drug resistance, and the authors suggest existing rapid diagnostic technology is being underused in a way that perpetuates that problem.",
-      "caveats": "observational design, opinion/commentary \u2014 no original data, secondary analysis",
-      "fact_check_note": "This is a commentary/opinion piece, not an original study. No sample size or primary data.",
-      "relevance_score": 5,
-      "relevance_score_reason": "Antibiotic resistance angle relevant, but commentary with no new data.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / Undark",
-          "headline": "Hospitals Have Fast Pneumonia Tests. Doctors Mostly Ignore Them \u2014 and That's Fueling Antibiotic Resistance",
-          "hook": "Two Harvard physicians argue that rapid molecular tests for pneumonia sit mostly unused while doctors hand out broad-spectrum antibiotics by default \u2014 and that inverting that sequence could be one of medicine's most tractable resistance-fighting reforms.",
-          "pitch_angle": "The commentary challenges one of medicine's deepest reflexes \u2014 treat now, ask questions later \u2014 by pointing out that the diagnostic tools to do better already exist. The antibiotic resistance stakes are concrete: pneumonia is one of the most common reasons for hospital antibiotic prescriptions worldwide."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42839899",
       "headline": "Could sailors working on diatom-rich seas face a silicosis risk? Researchers flag an overlooked occupational hazard",
       "journal": "International Maritime Health",
@@ -631,168 +1114,6 @@
       "run_date": "2026-10-11",
       "category": "Public Health & Epidemiology",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42837308",
-      "headline": "A video-based quit program for cancer survivors cut cigarettes smoked nearly in half \u2014 but the study is tiny",
-      "journal": "Nicotine & Tobacco Research",
-      "pubdate": "2026 Oct 6",
-      "doi": "10.1093/ntr/ntag220",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at the Medical University of South Carolina developed a seven-video smoking cessation program tailored specifically to cancer survivors and tested it in a randomized controlled pilot study (N=40). Participants randomized to the video intervention reduced average daily cigarettes from 16.2 to 7.7 over three months and were more likely to report quit attempts at every follow-up compared to controls who received a standard NCI quit guide. The intervention met pre-set thresholds for acceptability and feasibility, though the small sample size means efficacy conclusions cannot yet be drawn.",
-      "why_it_matters": "Cancer survivors who continue smoking face significantly worse treatment outcomes and second-cancer risk, yet few cessation tools are designed for their specific circumstances.",
-      "caveats": "small sample (N=40), short follow-up, self-reported outcomes, pilot design \u2014 efficacy not established",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Clear public health hook for cancer-survivor audience; very small pilot limits confidence in findings.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health.com / Women's Health",
-          "headline": "Cancer Survivors Who Smoke Are Often Left Out of Quit Programs. A New Video Series Was Made Just for Them.",
-          "hook": "Cancer survivors who smoke face unique barriers to quitting \u2014 and most cessation programs weren't designed with them in mind.",
-          "pitch_angle": "A small pilot trial found that a seven-video quit program tailored to cancer survivors nearly halved the number of cigarettes they smoked per day, suggesting that targeted tools could reach a high-risk population that standard interventions often miss."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Public Health & Epidemiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42838152",
-      "headline": "The gold standard for keeping medical evidence current has a reporting problem \u2014 and it's getting worse with each update",
-      "journal": "Journal of Clinical Epidemiology",
-      "pubdate": "2026 Oct 6",
-      "doi": "10.1016/j.jclinepi.2026.112546",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a methodological survey of 119 'living evidence syntheses' \u2014 continuously updated systematic reviews meant to keep clinical guidance current \u2014 and monitored them prospectively for two years to assess compliance with reporting standards. While baseline compliance with general systematic review requirements was acceptable (>70%), fewer than 30% of reports included most living-specific elements such as monitoring plans or discontinuation criteria, and only 5% specified when a review should stop being updated. PRISMA-LSR compliance, the field's dedicated reporting standard, declined from 57.5% at baseline to around 41\u201342% in subsequent updates.",
-      "why_it_matters": "Living evidence syntheses increasingly underpin clinical guidelines globally, and widespread failure to report key methodological details makes it difficult to trust or replicate the evidence base driving medical decisions.",
-      "caveats": "observational design, secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Important for science-policy audience; limited general-reader hook and no direct personal health angle.",
-      "pitch_angles": [
-        {
-          "publication_type": "Knowable Magazine / Scientific American",
-          "headline": "The Living Reviews Meant to Keep Medicine Up to Date Are Failing Their Own Standards",
-          "hook": "A new audit of 'living' systematic reviews \u2014 the continuously updated studies that increasingly drive clinical guidelines \u2014 found their reporting quality actually deteriorates with each successive update.",
-          "pitch_angle": "As health agencies worldwide lean on living evidence syntheses to make rapid, pandemic-era and post-pandemic decisions, this study suggests the methodology underpinning them is frequently too opaque to evaluate \u2014 raising questions about the reliability of the evidence chain from lab to bedside."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Public Health & Epidemiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42837015",
-      "headline": "Scientists identify an entirely new bacterial lineage living in Bay of Bengal coastal water",
-      "journal": "Archives of Microbiology",
-      "pubdate": "2026 Oct 6",
-      "doi": "10.1007/s00203-026-05238-1",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers reconstructed a metagenome-assembled genome (NIO.Bin9T) from marine water samples collected off Visakhapatnam, India, in the Bay of Bengal and subjected it to phylogenomic and comparative analyses. The genome showed average nucleotide and amino acid identity values far below established genus thresholds relative to its closest relatives in the family Nannocystaceae. The organism, proposed as Candidatus Niobacter visakhapatnamensis, carries an unusually rich biosynthetic gene cluster repertoire and a rifampin-resistance gene, suggesting potential for novel secondary metabolite production.",
-      "why_it_matters": "Discovering microbes with robust secondary metabolite production pathways in coastal ocean environments expands the search space for novel natural compounds, including potential antimicrobials.",
-      "caveats": "single-center, purely computational with no cultivation or experimental validation, metagenome-assembled genome (incomplete culture proof)",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Interesting microbial discovery but purely computational; limited public health or everyday-life hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "bioGraphic / New Scientist",
-          "headline": "A Wholly Unknown Bacterium Has Been Found Hiding in India's Coastal Waters",
-          "hook": "DNA pulled from Bay of Bengal seawater has revealed an entirely new genus of bacteria that may be churning out undiscovered chemical compounds.",
-          "pitch_angle": "Using metagenomic reconstruction, scientists identified Candidatus Niobacter visakhapatnamensis, a microorganism so genetically distinct it represents a new genus, equipped with 29 biosynthetic gene clusters hinting at rich secondary metabolite chemistry. The find underscores how much of Earth's microbial diversity remains undescribed even in heavily trafficked coastal zones."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42831386",
-      "headline": "A hidden genetic 'modifier' can silently worsen a rare bone disease \u2014 largest study yet maps why severity varies so widely",
-      "journal": "Genetics in Medicine",
-      "pubdate": "2026 Oct 5",
-      "doi": "10.1016/j.gim.2026.102746",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers studied 115 patients with biallelic variants in SLC26A2, the gene underlying a spectrum of skeletal dysplasias ranging from mild joint problems to lethal bone malformation, using a newly developed 30-criterion clinical severity scale plus functional sulfate-transport assays. The team identified four recurrent variants accounting for 84% of all alleles and discovered a novel complex allele \u2014 two mutations on the same chromosome \u2014 that dramatically worsens disease severity beyond what either mutation alone would predict. The finding shows that phenotypic variability in this disease cannot be explained by simple variant combinations alone, requiring assessment of cis-acting modifier alleles.",
-      "why_it_matters": "For families with rare skeletal dysplasias, understanding why two children with seemingly identical mutations can have radically different outcomes has long been unresolved \u2014 this modifier allele concept may apply to other rare genetic diseases as well.",
-      "caveats": "single-center, observational design, ancestry-specific allele frequencies (Russian cohort)",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Genetics association study with rare disease hook; human cohort but narrow patient population and regional ancestry skew.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American / Knowable Magazine",
-          "headline": "Two Kids, Same Mutation, Totally Different Outcomes: A Rare Bone Disease Reveals Why",
-          "hook": "A hidden genetic modifier \u2014 two mutations riding together on one chromosome \u2014 can dramatically worsen a rare skeletal disease in ways standard genetic testing wouldn't flag.",
-          "pitch_angle": "In the largest study of SLC26A2-related skeletal dysplasias to date, researchers found that a novel 'complex allele' acts as a severity amplifier, shifting patients from mild disease toward a severe form through a mechanism that standard genotyping would miss. The discovery illustrates a broader principle in rare disease genetics: the combination and configuration of variants, not just their identity, may determine how sick a patient becomes."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "2/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42831256",
-      "headline": "COVID booster's protection against hospitalization fades over time \u2014 but the waning is more modest than feared",
-      "journal": "American Journal of Epidemiology",
-      "pubdate": "2026 Oct 5",
-      "doi": "10.1093/aje/kwag250",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Using a novel self-controlled case series (SCCS) method applied to France's national health insurance data, researchers analyzed individuals hospitalized for COVID-19 between September 2021 and February 2022 who had received a third monovalent COVID-19 vaccine dose. The analysis confirmed that the third dose was effective against hospitalization, with immunity waning over time but to a limited extent, and found possible differences in protection by virus strain, vaccine type, vaccination history, age, and sex. The novel SCCS model design \u2014 which controls for time-invariant individual confounders \u2014 offers a methodological advance for ongoing vaccine surveillance.",
-      "why_it_matters": "Understanding exactly how quickly booster protection fades \u2014 and for whom \u2014 helps inform timing and targeting of future vaccination campaigns as new variants emerge.",
-      "caveats": "observational design, single-country (France), limited to hospitalized cases only, covers pre-Omicron/early Omicron period only",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Solid epidemiological design with public health relevance; France-specific data and dated pandemic window reduce generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Science News / General science",
-          "headline": "A Sharper Method for Tracking How Long COVID Boosters Really Work",
-          "hook": "A new statistical approach applied to French national health data found that third-dose COVID vaccine protection wanes \u2014 but more slowly than some feared.",
-          "pitch_angle": "The study's methodological innovation \u2014 a self-controlled case series model that automatically accounts for individual-level confounders \u2014 could become a standard tool for rapidly evaluating future vaccines, making findings as much about how we measure protection as what the protection actually is."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Public Health & Epidemiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42752809",
-      "headline": "A sprayable chitosan hemostatic agent matches standard granule-based treatment in swine hemorrhage tests",
-      "journal": "Journal of Special Operations Medicine",
-      "pubdate": "2026 Oct 5",
-      "doi": "10.55460/J.Spec.Oper.Med.2026.ODL7-80M5",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers from BC3 Technologies and collaborating Brazilian institutions tested a novel FDA-cleared chitosan aerosol wound spray (SEAL) against the established chitosan granule product CELOX in a swine femoral arteriotomy hemorrhage model (N=8 pigs, 4 per group). No statistically significant differences were found between the two products in bleeding time, blood loss, mean arterial pressure, or survival, and histopathology showed no tissue damage or thromboemboli from either product. Because SEAL is a sprayable aerosol, researchers suggest it may offer practical advantages in difficult prehospital environments where applying granules or dressings is not feasible.",
-      "why_it_matters": "Battlefield and mass-casualty hemorrhage control could benefit from formulations that work in conditions \u2014 confined spaces, active wounds, limited hands \u2014 where conventional hemostatic dressings are hard to apply.",
-      "caveats": "animal study, small sample (N=8), industry funding [BC3 Technologies \u2014 lead and co-authors are company employees/officers], single-center",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Animal study with industry funding and tiny N; niche military/trauma audience, limited general-reader appeal.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired / General science",
-          "headline": "A Hemostatic Spray That Stops Bleeding Like a Powder \u2014 But From a Can",
-          "hook": "Packing a wound with granules under fire or in a tight space is often impossible \u2014 a sprayable chitosan aerosol aims to change that.",
-          "pitch_angle": "Early animal testing found the spray stopped arterial bleeding as effectively as the current granule standard, suggesting a new form factor for trauma care in military and mass-casualty settings \u2014 though independent, larger trials are needed before any clinical claims can be made."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Public Health & Epidemiology",
-      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -889,72 +1210,6 @@
       "status": "new"
     },
     {
-      "pmid": "42848677",
-      "headline": "A promising dengue-fighting bacteria released into Rio de Janeiro mosquitoes has almost entirely disappeared \u2014 and scientists are struggling to understand why",
-      "journal": "Memorias do Instituto Oswaldo Cruz",
-      "pubdate": "2026 Oct 5",
-      "doi": "10.1590/0074-02760250212",
-      "groundbreaking": "Major public health implication / Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers monitored the persistence of the dengue-suppressing Wolbachia wMel strain across 12 neighborhoods in Rio de Janeiro, 30 months after a population crash caused by Spinosad larvicide use, which had decimated Aedes aegypti mosquitoes regardless of their Wolbachia infection status. Wolbachia-infected mosquito populations did not recover as quickly as uninfected ones \u2014 likely due to fitness costs imposed by wMel on egg viability \u2014 leaving mean wMel frequency across sampled areas at only 9.87%, well below the threshold needed for self-sustaining dengue suppression. Only two neighborhoods exceeded 15% wMel prevalence, and the authors concluded that urban complexity and vector management practices pose serious challenges to sustaining Wolbachia-based dengue control.",
-      "why_it_matters": "With dengue cases surging globally and Wolbachia-based biocontrol being scaled up in multiple countries, this study raises critical questions about the long-term viability of the approach in dense, complex urban environments where standard pest control can inadvertently undermine it.",
-      "caveats": "observational design, single-center, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Major public health implication for global dengue biocontrol programs; clear counterintuitive finding.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / Undark",
-          "headline": "The Bacteria That Was Supposed to Stop Dengue Is Disappearing From Rio's Mosquitoes",
-          "hook": "Nearly three years after a larvicide campaign accidentally wiped out Rio de Janeiro's Wolbachia-infected mosquito population, the bacteria that was supposed to suppress dengue has failed to recover \u2014 leaving the city's biocontrol program in limbo.",
-          "pitch_angle": "Wolbachia-based dengue control has been heralded as a landmark public health innovation, with releases underway across Brazil, Southeast Asia, and beyond \u2014 but this study reveals how fragile those gains can be when standard vector control practices collide with the biology of the approach. As dengue cases hit record highs globally, the Rio experience offers a cautionary tale about the gap between controlled trials and messy urban reality."
-        },
-        {
-          "publication_type": "Scientific American / New Scientist",
-          "headline": "A Common Pesticide May Have Inadvertently Derailed Rio's Wolbachia Dengue Program",
-          "hook": "A routine larvicide rotation in Rio de Janeiro's mosquito control program appears to have set back a major Wolbachia dengue intervention by years \u2014 and the infected mosquito population still hasn't bounced back.",
-          "pitch_angle": "The study exposes an unexpected vulnerability in Wolbachia biocontrol: wMel-infected Aedes aegypti mosquitoes suffer fitness costs that slow their recovery after population crashes, while uninfected mosquitoes rebound quickly. The finding suggests that integrated vector management programs urgently need to account for Wolbachia biology to avoid inadvertently undermining their own dengue control investments."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42854484",
-      "headline": "A truck's pollution-control system briefly spikes toxic emissions \u2014 and regulators may be missing most of it",
-      "journal": "Journal of Hazardous Materials",
-      "pubdate": "2026 Oct 5",
-      "doi": "10.1016/j.jhazmat.2026.143824",
-      "groundbreaking": "Counterintuitive finding / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Using a portable emissions measurement system, researchers measured real-world gaseous emissions from a China VI-certified heavy-duty diesel truck during an on-road diesel particulate filter (DPF) regeneration event. Although DPF regeneration occurred during only about 5% of the vehicle's useful-life mileage, it accounted for up to 78% of total formaldehyde (HCHO) emissions and 66\u201371% of nitrogen dioxide and nitrous oxide emissions recorded during the test. The study found that elevated toxic gas emissions correlated strongly with DPF inlet temperature during heating and cooling phases.",
-      "why_it_matters": "Heavy-duty diesel trucks operate in urban environments worldwide, and if DPF regeneration events are a major but overlooked source of carcinogenic formaldehyde and greenhouse nitrous oxide, current emission inventories and regulations may be significantly underestimating real-world air pollution exposure.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive air-quality finding with major regulatory implications; China VI mirrors Euro VI standards globally.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / Undark",
-          "headline": "The Moment a Diesel Truck Cleans Its Filter, It May Be Poisoning the Air Around It",
-          "hook": "A device designed to cut diesel soot from heavy trucks turns out to briefly spike formaldehyde and nitrogen dioxide emissions to levels that dwarf the rest of a truck's daily output.",
-          "pitch_angle": "Real-world measurements of a China VI diesel truck \u2014 equivalent to the cleanest Euro VI standard \u2014 found that the few minutes when its particulate filter self-cleans account for the majority of its most toxic gaseous emissions over an entire trip. Because emission regulations and inventories rarely capture these short, intense regeneration events, researchers warn that urban air quality models may be substantially undercounting pollution from one of the most common large vehicle types on the road."
-        },
-        {
-          "publication_type": "Scientific American / Wired",
-          "headline": "Clean Diesel's Dirty Secret: The Self-Cleaning Cycle That Floods Air With Formaldehyde",
-          "hook": "Engineers designed diesel particulate filters to solve the soot problem \u2014 but new data shows the filter's periodic self-cleaning generates a surge of formaldehyde and nitrous oxide that existing regulations don't adequately measure.",
-          "pitch_angle": "A portable real-time sensor mounted on a heavy truck revealed that DPF regeneration events \u2014 lasting only minutes \u2014 can contribute up to 38% of a vehicle's lifetime formaldehyde emissions despite occurring during less than 6% of total driving time. The findings point to a structural gap in how regulators test and model truck emissions, with implications for clean-air standards in both China and countries using comparable Euro VI frameworks."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Environmental Health",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
       "pmid": "42830496",
       "headline": "An inhaled cysteine protease inhibitor passes its first human safety test \u2014 opening a new path for lung disease treatment",
       "journal": "British Journal of Clinical Pharmacology",
@@ -979,66 +1234,6 @@
       "run_date": "2026-10-11",
       "category": "Pharmacology & Drug Therapy",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42852489",
-      "headline": "A four-protein blood test detects TB before symptoms appear \u2014 and works without a lab",
-      "journal": "Expert Review of Molecular Diagnostics",
-      "pubdate": "2026 Oct 10",
-      "doi": "10.1080/14737159.2026.2744694",
-      "groundbreaking": "First-in-class human study / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers in Beijing enrolled 280 participants across four groups \u2014 healthy controls, pneumonia patients, subclinical TB, and active TB \u2014 to validate a serum panel of four immune biomarkers (PDGFC, CXCL9, CXCL11, CCL1) and developed a colloidal gold lateral-flow strip requiring no laboratory equipment. The strip achieved 96% sensitivity and 95% specificity, outperforming conventional smear microscopy, TB DNA testing, and IGRA, and correctly identified sputum-negative subclinical TB cases. The tool is designed for decentralized, resource-limited settings as a rapid, sputum-free screening solution.",
-      "why_it_matters": "Subclinical TB \u2014 infectious but presymptomatic \u2014 is a major driver of transmission that current diagnostics largely miss, and a deployable blood-based strip could transform screening in high-burden, low-resource regions.",
-      "caveats": "small sample (N<100 per group), single-center, observational design, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Global TB public health hook, novel field-deployable tool, human study with clean comparison design.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American / Undark",
-          "headline": "A Four-Protein Blood Strip Could Catch Tuberculosis Before It Causes Symptoms",
-          "hook": "Current TB tests miss millions of subclinical cases \u2014 a new lateral-flow strip using four immune proteins found in blood may change that.",
-          "pitch_angle": "Researchers developed a colloidal gold strip that detects TB from a blood sample with 96% sensitivity, including in patients with no visible bacteria in their sputum. If validated at scale, the tool could reshape TB screening in the resource-limited settings where the disease remains endemic."
-        },
-        {
-          "publication_type": "Knowable Magazine / New Scientist",
-          "headline": "The WHO Wants to End TB. A Sputum-Free Blood Test Might Finally Help",
-          "hook": "The End TB Strategy is stalling partly because diagnostics can't find the invisible cases \u2014 people who are infected and contagious but show no symptoms.",
-          "pitch_angle": "A Beijing team has validated a four-biomarker biosignature and turned it into a field-deployable strip test that outperforms every standard TB diagnostic, with no lab infrastructure required. The approach directly targets the detection gap that epidemiologists say is the hardest obstacle to eliminating the disease."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "2/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42858708",
-      "headline": "Venice Lagoon sediments are laced with mercury, dioxins, and PCBs \u2014 and Italy is still figuring out what to do with them",
-      "journal": "Journal of Environmental Management",
-      "pubdate": "2026 Oct 10",
-      "doi": "10.1016/j.jenvman.2026.131128",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed more than 1,400 sediment samples from over 400 cores collected across the Venice Lagoon in 2024\u20132025, testing for chemical contamination and ecotoxicity. Sediments frequently exceeded Italian regulatory thresholds for cadmium, mercury, zinc, hexachlorobenzene, dioxins, and PCBs; embryotoxicity bioassays revealed more widespread toxicity than other standard tests. The study used the dataset to calibrate a new Italian legislative framework for classifying and managing dredged contaminated sediment.",
-      "why_it_matters": "With Venice facing existential pressure from flooding, climate change, and ongoing dredging for navigation and flood barriers, how to safely handle its heavily contaminated lagoon sediments has major implications for one of the world's most culturally irreplaceable ecosystems.",
-      "caveats": "single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Regionally specific to Venice; limited generalizability; policy-technical framing limits broad appeal.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American / Knowable Magazine",
-          "headline": "Venice Is Drowning in More Than Water \u2014 Its Lagoon Sediments Are Contaminated With Mercury and Dioxins",
-          "hook": "A sweeping new analysis of the Venice Lagoon finds its sediments are pervasively contaminated with mercury, dioxins, and PCBs \u2014 and Italy is only now building the regulatory tools to manage them.",
-          "pitch_angle": "As Venice fights to survive rising seas and flooding, scientists have documented the scale of toxic legacy pollution in the lagoon's sediments, raising difficult questions about how to safely dredge, restore, and reuse materials from one of the world's most contaminated \u2014 and irreplaceable \u2014 aquatic ecosystems."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Environmental Health",
-      "chunk": "1/1",
       "status": "new"
     },
     {
@@ -1096,60 +1291,6 @@
       "status": "new"
     },
     {
-      "pmid": "42853554",
-      "headline": "Even where abortion is legal, Brazil's frontline health workers say the system makes it nearly impossible to access",
-      "journal": "Global Public Health",
-      "pubdate": "2026 Dec 31",
-      "doi": "10.1080/17441692.2026.2734661",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "A qualitative study in S\u00e3o Paulo, Brazil, interviewed 13 primary health care professionals engaged with reproductive rights to understand how they navigate cases legally eligible for abortion. Findings revealed that high workloads, stigma, limited privacy, and institutional opacity around referral pathways consistently block access even when legal grounds exist. Individual factors \u2014 including providers' moral courage, feminist identification, and informal peer networks \u2014 emerged as the primary enablers of care rather than any formal systemic support.",
-      "why_it_matters": "The study illustrates how legal frameworks alone are insufficient to guarantee reproductive rights, with implications for policy design in any country navigating contested abortion access.",
-      "caveats": "small sample (N<100), qualitative only, single-city (S\u00e3o Paulo), self-reported outcomes",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Qualitatively rich but small sample, Brazil-specific policy context limits broad generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / Undark",
-          "headline": "In Brazil, Abortion Is Legal in Some Cases \u2014 Accessing It Is Another Matter Entirely",
-          "hook": "Frontline health workers in S\u00e3o Paulo say institutional opacity, stigma, and crushing workloads mean that even women with a legal right to abortion rarely make it through the system.",
-          "pitch_angle": "This study finds that access hinges less on law than on individual providers' moral courage and informal networks \u2014 a structural fragility that mirrors debates in the U.S. and globally about the gap between legal permission and practical availability."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Public Health & Epidemiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42722026",
-      "headline": "Scientists validate a way to precisely target tumors with protons inside an MRI scanner \u2014 a key step toward real-time cancer treatment",
-      "journal": "Physics in Medicine and Biology",
-      "pubdate": "2026 Oct 7",
-      "doi": "10.1088/1361-6560/aea5d2",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers experimentally validated a Monte Carlo-based dose calculation system for proton therapy delivered inside the magnetic field of a 0.32 T MRI scanner, testing whether the treatment planning software could accurately account for how the magnetic field deflects proton beams. Using a 3D magnetic vector field map integrated into a research version of the RayStation treatment planning system, they measured proton dose distributions across multiple energies and compared them to software predictions. Agreement was within 1\u20133 mm lateral beam shift and pass rates exceeded 97%, suggesting the system can reliably model beam behavior in the combined MRI-proton therapy environment.",
-      "why_it_matters": "Combining real-time MRI imaging with proton therapy could allow clinicians to adapt cancer treatment on the fly as tumors move or change, potentially improving precision and reducing radiation damage to healthy tissue.",
-      "caveats": "single-center, no patient treatments performed (phantom and air measurements only)",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Highly technical physics/engineering validation study; limited general-audience hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "New Scientist / General science",
-          "headline": "Proton therapy inside an MRI machine just got a critical accuracy check",
-          "hook": "Firing a proton beam inside a magnetic field warps its path \u2014 and scientists have now confirmed they can predict that warp precisely enough for clinical use.",
-          "pitch_angle": "Integrating MRI scanners with proton therapy promises real-time tumor tracking during treatment, but the magnet bends the beam in complex ways. A new dosimetric validation study shows a commercial treatment planning system can model those deflections within millimeters, clearing a key technical hurdle toward clinical trials."
-        }
-      ],
-      "run_date": "2026-10-10",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
       "pmid": "42844512",
       "headline": "A never-before-seen rotavirus strain is spreading through yaks on the Tibetan Plateau",
       "journal": "Archives of Virology",
@@ -1169,33 +1310,6 @@
           "headline": "A new rotavirus genotype is circulating in yaks at the roof of the world",
           "hook": "Scientists surveying yaks across the Tibetan Plateau have found a rotavirus strain never seen before in this population \u2014 raising questions about how it got there and whether it could spread.",
           "pitch_angle": "The discovery of the G6P[5] genotype in Qinghai yaks expands the known diversity of bovine rotaviruses and highlights the importance of surveillance in remote pastoral regions where livestock diseases can quietly evolve."
-        }
-      ],
-      "run_date": "2026-10-10",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42660105",
-      "headline": "India's push to eliminate elephantiasis is stalling \u2014 and urban sprawl is partly to blame",
-      "journal": "The American Journal of Tropical Medicine and Hygiene",
-      "pubdate": "2026 Oct 7",
-      "doi": "10.4269/ajtmh.26-0054",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Three regional stakeholder workshops convened by the Indian Council of Medical Research reviewed progress toward lymphatic filariasis elimination across endemic Indian states (Uttar Pradesh, Gujarat, Tamil Nadu) from June\u2013August 2025. Findings revealed persistent gaps in mass drug administration coverage, a substantial population of people never treated, and inadequate diagnostic and surveillance infrastructure. Rapid urbanization and informal settlements were identified as emerging barriers to elimination.",
-      "why_it_matters": "India carries the world's largest burden of lymphatic filariasis, and failure to close coverage gaps could derail a global WHO elimination target and leave millions at risk of permanent disability.",
-      "caveats": "observational design, single-country context, conference/workshop report rather than primary data study",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Important global health topic but India-specific policy report with limited generalizability for US outlets.",
-      "pitch_angles": [
-        {
-          "publication_type": "Undark / Knowable Magazine",
-          "headline": "Elephantiasis Was Almost Beaten in India. Then the Cities Got in the Way.",
-          "hook": "India was on track to eliminate lymphatic filariasis \u2014 a disfiguring parasitic disease \u2014 but rapid urban growth is creating untreatable pockets of infection that drug campaigns can't reach.",
-          "pitch_angle": "Stakeholder workshops across three endemic Indian states found that informal urban settlements, migrant populations, and gaps in mass drug delivery are threatening decades of progress against a disease that causes grotesque swelling of the limbs and genitals. With the WHO's elimination deadline looming, the findings suggest that tropical disease campaigns built for rural settings must urgently adapt to a rapidly urbanizing world."
         }
       ],
       "run_date": "2026-10-10",
