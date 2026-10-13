@@ -1,72 +1,321 @@
 {
-  "last_updated": "2026-10-12T19:46:43.798489+00:00",
-  "total_studies": 605,
+  "last_updated": "2026-10-13T17:33:20.894187+00:00",
+  "total_studies": 609,
   "new_this_run": 4,
   "studies": [
     {
+      "pmid": "42805222",
+      "headline": "Your breath chemistry changes measurably during pneumonia \u2014 and a mass spectrometer can detect it in real time",
+      "journal": "Journal of Breath Research",
+      "pubdate": "2026 Oct 9",
+      "doi": "10.1088/1752-7163/aead14",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used real-time high-resolution mass spectrometry breathomics to analyze exhaled breath in 47 adults (median age 63) with clinically confirmed pneumonia at acute infection and again after recovery (median 85 days later) in a single-center longitudinal study at University Hospital Zurich. The breath profiles showed moderate ability to distinguish acute pneumonia from post-recovery states (balanced accuracy 0.72, AUROC 0.80), and 104 metabolic features changed significantly between the two time points. The study suggests exhaled breath analysis can capture reproducible metabolic shifts during acute pneumonia, though results are exploratory and the permutation p-value did not reach conventional significance.",
+      "why_it_matters": "Breath-based diagnostics could one day offer a rapid, non-invasive way to detect and monitor pneumonia \u2014 a leading cause of cardiovascular complications and hospitalization in older adults.",
+      "caveats": "small sample (N<100), single-center, observational design, short follow-up, surrogate endpoints only, no control group with other respiratory infections, permutation p-value non-significant (0.112), exploratory/hypothesis-generating only",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Exploratory pulmonary diagnostics study; small N, non-significant permutation p, surrogate endpoints only.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "Breathomics picks up metabolic fingerprints of pneumonia \u2014 but the stats don't yet prove it",
+          "hook": "A mass spectrometer analyzing exhaled breath could distinguish active pneumonia from recovery \u2014 but the key permutation test fell short of significance.",
+          "pitch_angle": "Swiss researchers found 104 breath metabolites shifted measurably between acute pneumonia and post-recovery in 47 patients, suggesting a non-invasive diagnostic window exists \u2014 but with a non-significant permutation p-value of 0.112 and no control group, the findings are firmly hypothesis-generating and await multicenter validation."
+        }
+      ],
+      "run_date": "2026-10-13",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
       "pmid": "42849796",
-      "headline": "Standard heart scans may be masking dangerous right-heart failure in patients with leaky tricuspid valves",
-      "journal": "International Journal of Cardiology",
+      "headline": "Standard heart scans may be hiding how badly the right side of the heart is struggling in leaky valve patients",
+      "journal": "International journal of cardiology",
       "pubdate": "2026 Oct 8",
       "doi": "10.1016/j.ijcard.2026.134969",
-      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study / Major cardiovascular or public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers enrolled 289 patients with severe tricuspid regurgitation (mean age 71, 66% women) at multiple Spanish centers and followed them long-term using cardiac MRI to compare two novel indices of right ventricular function against the conventional measure (RVEF). During follow-up, 37% of patients died or were hospitalized for heart failure; both the Vol RV-PA Coupling Index and effective RVEF \u2014 which adjusts for blood leaking backward through the valve \u2014 predicted outcomes significantly better than conventional RVEF, and both improved after tricuspid valve intervention. The finding suggests conventional RVEF artificially inflates how well the right ventricle appears to be functioning when the valve is severely leaking.",
-      "why_it_matters": "For the roughly two million Americans with significant tricuspid regurgitation, standard heart function measurements may be underestimating how sick the right heart truly is \u2014 potentially delaying valve repair until after irreversible damage has occurred.",
-      "caveats": "observational design, single-center origin for most patients (Spain), surrogate endpoints only for post-intervention subgroup, short follow-up not specified",
+      "summary": "In a multicenter study of 289 patients with severe tricuspid regurgitation (mean age 71 years, 66% women), researchers used cardiac MRI to evaluate two novel indices of right ventricular function \u2014 a volumetric RV-pulmonary artery coupling index and an effective RV ejection fraction that accounts for regurgitant volume \u2014 compared with conventional RVEF. Over follow-up, 37% of patients reached the primary endpoint of death or heart failure hospitalization. Both novel indices independently predicted outcomes and significantly improved risk discrimination beyond conventional RVEF, and improved after tricuspid valve intervention.",
+      "why_it_matters": "The study suggests that the standard measure used to assess right heart function in severe tricuspid valve disease systematically overestimates how well the heart is actually working, potentially leaving high-risk patients undetected.",
+      "caveats": "observational design, surrogate endpoints only",
       "fact_check_note": "",
       "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive imaging finding, hard endpoints, predominantly female cohort, high clinical relevance.",
+      "relevance_score_reason": "Multicenter, hard endpoints, counterintuitive overestimation finding, high female representation in underserved valve disease population.",
       "pitch_angles": [
         {
           "publication_type": "Medscape Cardiology / MedPage Today",
-          "headline": "Conventional RVEF Overestimates Right Heart Function in Severe TR \u2014 Two CMR Indices Outperform It",
-          "hook": "In a 289-patient multicenter CMR study, two novel indices of right ventricular performance predicted death and heart failure hospitalization significantly better than conventional ejection fraction in patients with severe tricuspid regurgitation.",
-          "pitch_angle": "Because standard RVEF does not account for regurgitant volume, it can paint a falsely reassuring picture of right heart function when the tricuspid valve is severely leaking \u2014 potentially leading clinicians to delay intervention past the point of reversibility. The Vol RV-PA Coupling Index and effective RVEF both improved significantly after tricuspid valve intervention, supporting their use for longitudinal monitoring."
+          "headline": "Conventional right-heart ejection fraction overestimates function in severe tricuspid regurgitation \u2014 two new MRI indices do better",
+          "hook": "In a 289-patient multicenter CMR study, standard RVEF missed prognostic information that two novel volumetric indices captured \u2014 including a measure that adjusts for the volume of blood leaking backward.",
+          "pitch_angle": "Because conventional RVEF ignores regurgitant volume, it can make right ventricular function look better than it is in severe TR patients; a volumetric RV-PA coupling index and an effective RVEF both improved risk discrimination for death and heart failure hospitalization beyond standard assessment, and both markers improved measurably after tricuspid valve intervention \u2014 supporting their potential as longitudinal monitoring tools."
         },
         {
-          "publication_type": "Health.com / Verywell Health",
-          "headline": "A Routine Heart Test May Be Missing Serious Valve Damage \u2014 Especially in Women",
-          "hook": "The standard way doctors measure right-heart pumping strength can look normal even when a leaky heart valve is causing hidden, serious damage, a new cardiac MRI study suggests.",
-          "pitch_angle": "In a study where two-thirds of patients were women, two new measurement approaches detected right-heart impairment that a conventional test missed \u2014 and that impairment predicted who would go on to die or be hospitalized for heart failure. The findings raise questions about whether current screening is catching valve disease early enough to intervene before the damage becomes permanent."
+          "publication_type": "General health / Health.com / Verywell Health",
+          "headline": "A common heart scan measurement may underestimate valve disease severity \u2014 especially in older women",
+          "hook": "Researchers found that the standard way of measuring right-heart function in people with a leaky tricuspid valve can be misleading, masking serious risk.",
+          "pitch_angle": "A study of nearly 300 patients \u2014 two-thirds of them women \u2014 with severe tricuspid valve leakage found that two new cardiac MRI measurements predicted death and hospitalization better than the standard assessment, suggesting that current tools may leave high-risk patients unidentified before it's too late for intervention."
         }
       ],
-      "run_date": "2026-10-12",
+      "run_date": "2026-10-13",
       "category": "Cardiology",
       "chunk": "2/2",
       "status": "new"
     },
     {
+      "pmid": "42850178",
+      "headline": "Texas newborn screening misses 1 in 10 cystic fibrosis cases \u2014 and delays in first contact are linked to poorer early growth",
+      "journal": "Journal of Cystic Fibrosis",
+      "pubdate": "2026 Oct 8",
+      "doi": "10.1016/j.jcf.2026.09.013",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A 14-year retrospective study at two Texas pediatric CF centers reviewed records of 384 children with cystic fibrosis born after the state introduced newborn screening in December 2009, finding a sensitivity of 90.9% \u2014 meaning roughly 1 in 10 CF cases were missed. Median age at first CF care contact was 29 days, but most patients experienced delays beyond the recommended 28-day target, and those with the longest delays had significantly lower weight-for-age and weight-for-length scores. Expanding the CFTR variant panel improved detection rates and accelerated time to first contact.",
+      "why_it_matters": "Delays in connecting newborns with CF to early care are associated with measurable growth deficits, underscoring the urgency of optimizing newborn screening panels \u2014 a finding with implications for CF programs nationwide.",
+      "caveats": "observational design, single-center (two centers, one state), retrospective cohort",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Pediatric pulmonary public health finding; limited cardiovascular relevance for this digest's audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Verywell Health",
+          "headline": "Texas Misses 1 in 10 Cystic Fibrosis Cases at Birth \u2014 and Delays in Diagnosis Are Stunting Early Growth",
+          "hook": "A 14-year review of Texas newborn screening found that about 10% of cystic fibrosis cases slipped through undetected, and the longer it took for babies to get their first CF care appointment, the more they lagged in early weight gain.",
+          "pitch_angle": "The study found that expanding the genetic variant panel tested at birth improved detection rates and shortened the time to first care, suggesting that states using limited panels may be leaving vulnerable newborns without timely support during a critical developmental window."
+        }
+      ],
+      "run_date": "2026-10-13",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
       "pmid": "42842171",
-      "headline": "Black, Hispanic, and lower-income patients are still getting far less access to heart-protecting diabetes drugs \u2014 even as evidence mounts",
+      "headline": "Black, Hispanic, and low-income patients are still being left out of the GLP-1 and SGLT2 drug revolution \u2014 even after landmark trials",
       "journal": "Current Cardiology Reports",
       "pubdate": "2026 Oct 7",
       "doi": "10.1007/s11886-026-02431-y",
       "groundbreaking": "Major cardiovascular or public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a systematic review of 100 U.S. studies published between 2013 and 2026 examining disparities in prescribing of GLP-1 receptor agonists and SGLT2 inhibitors \u2014 two drug classes with proven cardiovascular and kidney benefits. Consistent inequities by race and ethnicity, socioeconomic status, insurance type, and age were found, with Black and Hispanic patients, Medicaid beneficiaries, and lower-income populations receiving these medications less frequently. The review found that while overall prescribing increased after landmark trials and guideline updates, disparities persisted or widened for some newer agents.",
-      "why_it_matters": "Millions of Americans who stand to benefit most from heart- and kidney-protective medications may be the least likely to receive them, a pattern that could widen existing cardiovascular outcome gaps across racial and economic lines.",
-      "caveats": "observational design, secondary analysis, self-reported outcomes",
+      "summary": "Researchers conducted a systematic review of 100 U.S. studies published between 2013 and 2026 examining who is and isn't receiving GLP-1 receptor agonists and SGLT2 inhibitors \u2014 two drug classes shown to reduce heart, kidney, and metabolic disease. The review found that Black and Hispanic patients, Medicaid enrollees, lower-income individuals, and older adults consistently received these medications at lower rates than eligible peers. Disparities persisted \u2014 and in some cases widened \u2014 even after major clinical trials and guideline updates established clear benefits.",
+      "why_it_matters": "The patients most likely to benefit from two of cardiology's most powerful drug classes are also the least likely to receive them, suggesting structural barriers in the health system are compounding existing cardiovascular health inequities.",
+      "caveats": "observational design, secondary analysis, surrogate endpoints only",
       "fact_check_note": "",
       "relevance_score": 8,
-      "relevance_score_reason": "High-prevalence conditions, GLP-1 topic fit, strong public health and equity implications, clean systematic review design.",
+      "relevance_score_reason": "GLP-1/SGLT2 topic fit high; equity angle strong; systematic review; high-prevalence conditions.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "A 100-Study Review Finds GLP-1 and SGLT2 Drug Gaps Are Widening for Black, Hispanic, and Low-Income Patients",
+          "hook": "Even as GLP-1 and SGLT2 drugs became blockbusters, the patients most likely to die from heart and kidney disease were least likely to get a prescription.",
+          "pitch_angle": "A new systematic review of 100 U.S. studies finds persistent \u2014 sometimes worsening \u2014 racial, socioeconomic, and insurance-based gaps in access to GLP-1 receptor agonists and SGLT2 inhibitors. The authors propose a multi-level 'equity-first framework' for clinicians and health systems to close the gap before it becomes a crisis of preventable cardiovascular deaths."
+        },
+        {
+          "publication_type": "Everyday Health / Health.com / Verywell Health",
+          "headline": "The Heart Drugs That Could Help Millions \u2014 But Aren't Reaching the People Who Need Them Most",
+          "hook": "Two of the most promising drug classes for heart, kidney, and metabolic health are reaching white, privately insured patients far more than anyone else.",
+          "pitch_angle": "A sweeping review of 100 studies suggests that race, income, and insurance type are major predictors of whether patients get GLP-1 or SGLT2 medications \u2014 drugs that research shows can cut the risk of heart attack, kidney failure, and death. Experts say fixing this will require changes at the policy, health-system, and clinic level, not just better patient awareness."
+        }
+      ],
+      "run_date": "2026-10-13",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42844063",
+      "headline": "Burkina Faso performs its first coronary stenting procedures \u2014 with a 93% success rate",
+      "journal": "Annales de cardiologie et d'angeiologie",
+      "pubdate": "2026 Oct 7",
+      "doi": "10.1016/j.ancard.2026.102094",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers described the first 63 percutaneous coronary interventions (PCI) performed at Tengandogo University Hospital in Ouagadougou, Burkina Faso, between March 2022 and August 2024. Patients had a mean age of 58.9 years and were predominantly male (83%), with hypertension present in 92% and STEMI as the leading indication (56%). PCI by stenting was technically successful in 93.7% of cases, though four in-hospital deaths occurred.",
+      "why_it_matters": "The study suggests that life-saving coronary intervention is feasible in sub-Saharan Africa even under significant resource constraints, pointing to the global gap in access to cardiac care.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Global cardiac access angle is compelling but small, single-center case series limits generalizability.",
       "pitch_angles": [
         {
           "publication_type": "STAT News",
-          "headline": "GLP-1 and SGLT2 Drug Inequities Persisted \u2014 or Widened \u2014 Even After Landmark Trial Evidence, Review Finds",
-          "hook": "Despite a flood of evidence supporting GLP-1 and SGLT2 drugs for cardiovascular and kidney protection, a systematic review of 100 U.S. studies finds that Black, Hispanic, and lower-income patients remain significantly less likely to receive them.",
-          "pitch_angle": "The review identifies multilevel barriers \u2014 from insurance coverage and specialty access to provider-level prescribing patterns \u2014 that sustain inequity even as guidelines have grown stronger. The authors propose an 'Equity-First Framework' that could inform how health systems close the gap."
-        },
-        {
-          "publication_type": "Everyday Health / General health",
-          "headline": "The Heart Drugs That Could Help Millions Are Still Not Reaching the People Who Need Them Most",
-          "hook": "Two of the most effective drug classes for protecting the heart and kidneys are being prescribed far less often to Black and Hispanic patients and people with lower incomes, a major new review finds.",
-          "pitch_angle": "GLP-1 receptor agonists and SGLT2 inhibitors have strong evidence for reducing heart attack, kidney failure, and death \u2014 but access gaps tied to race, insurance, and income mean many high-risk patients never get them. Researchers say fixing this will require changes at every level of the health system, not just individual prescribing habits."
+          "headline": "Burkina Faso just performed its first coronary stenting procedures \u2014 a glimpse into the global cardiac care gap",
+          "hook": "In a country where cardiac catheterization barely existed, surgeons achieved a 93% procedural success rate for life-threatening heart attacks.",
+          "pitch_angle": "A small but pioneering case series from Ouagadougou documents the launch of interventional cardiology in Burkina Faso, highlighting both the feasibility and the enormous infrastructure barriers that still deny most of sub-Saharan Africa access to standard-of-care heart attack treatment."
         }
       ],
-      "run_date": "2026-10-12",
+      "run_date": "2026-10-13",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42340801",
+      "headline": "In people with weakened hearts, belly fat is a stronger death predictor than body weight",
+      "journal": "European Journal of Preventive Cardiology",
+      "pubdate": "2026 Oct 13",
+      "doi": "10.1093/eurjpc/zwag310",
+      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed UK Biobank imaging data from 5,615 adults (mean age 56.7 years, 52% male) with cardiac MRI-confirmed reduced heart pumping function (ejection fraction <50%), following them for a median of 13.5 years. BMI was associated with increased mortality, but waist circumference and waist-to-hip ratio predicted all-cause and cardiovascular death more strongly than BMI, total body fat, or body fat percentage. The findings suggest that where fat is stored \u2014 particularly around the abdomen \u2014 matters more than overall weight for predicting death risk in people with reduced heart function, challenging the routine reliance on BMI.",
+      "why_it_matters": "For the millions of people living with reduced heart function, a tape measure around the waist may reveal death risk that a scale or BMI calculation misses.",
+      "caveats": "observational design, surrogate endpoints only, single-country cohort (UK Biobank), modest improvement in discrimination statistics (\u0394C \u22640.012)",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Large human cohort, hard endpoints, high-prevalence cardiac condition, counterintuitive BMI finding.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Everyday Health / Health.com",
+          "headline": "Your Waist Measurement May Predict Heart Death Risk Better Than Your BMI \u2014 Especially If Your Heart Is Struggling",
+          "hook": "In a 13-year study of more than 5,000 people with weakened hearts, belly fat predicted death far better than the number on the scale.",
+          "pitch_angle": "Researchers found that waist circumference and waist-to-hip ratio were stronger predictors of cardiovascular death than BMI in people with reduced heart function. The finding suggests that for people with heart disease, tracking belly fat may give doctors \u2014 and patients \u2014 a more accurate picture of risk than weight alone."
+        },
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Central Adiposity Outperforms BMI for Mortality Prediction in LV Systolic Impairment",
+          "hook": "In a large imaging-defined UK Biobank cohort, waist-to-hip ratio showed cardiovascular mortality hazard ratios significantly higher than BMI in patients with ejection fractions below 50%.",
+          "pitch_angle": "The analysis of 5,615 patients followed over 13.5 years found WHR-associated CV mortality HR of 1.52 versus 1.37 for BMI, with modest but statistically significant improvements in model discrimination when central adiposity measures replaced BMI. The data adds to calls to move beyond BMI in risk stratification for patients with LV systolic impairment."
+        }
+      ],
+      "run_date": "2026-10-13",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42865129",
+      "headline": "Zanzibar just opened its first cardiac catheterization lab \u2014 a milestone that could save thousands of lives across sub-Saharan Africa",
+      "journal": "European Heart Journal",
+      "pubdate": "2026 Oct 13",
+      "doi": "10.1093/eurheartj/ehag776",
+      "groundbreaking": "Major cardiovascular or public health implication / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This correspondence describes the establishment of Zanzibar's first cardiac catheterization laboratory, a milestone for an island of 1.8 million people in Tanzania that previously had no capacity to perform invasive cardiac procedures. The authors, who include cardiologists from Tanzania and Norway, describe the infrastructure, training, and WHO collaboration required to build the facility and argue it represents a critical link in the 'chain of survival' for heart attack patients in low-resource settings. The piece highlights the stark global gap in access to time-sensitive cardiac intervention and the feasibility of building such capacity in sub-Saharan Africa.",
+      "why_it_matters": "Millions of people across sub-Saharan Africa have no access to the emergency cardiac procedures that routinely save heart attack patients in wealthier countries \u2014 this milestone suggests that gap can begin to close with targeted international collaboration.",
+      "caveats": "single-center, observational design, small sample (N<100)",
+      "fact_check_note": "This is a correspondence/perspective piece, not a clinical trial or cohort study. No outcome data are reported.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Global health significance; no outcome data; correspondence format limits pitchability.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / NYT Health",
+          "headline": "Zanzibar Built Its First Heart Catheterization Lab. For Sub-Saharan Africa, It's a Turning Point.",
+          "hook": "For years, a heart attack in Zanzibar was almost always fatal \u2014 there was simply nowhere to go for the emergency procedure that saves lives in wealthy countries.",
+          "pitch_angle": "A new report in the European Heart Journal describes how Zanzibar, a Tanzanian island of 1.8 million people, established its first cardiac catheterization lab with WHO support and international cardiology collaboration \u2014 bringing for the first time the capacity to perform emergency angioplasty. The effort spotlights the enormous gap in cardiovascular infrastructure across sub-Saharan Africa and a potential model for closing it."
+        }
+      ],
+      "run_date": "2026-10-13",
       "category": "Cardiology",
       "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42862778",
+      "headline": "Starting heart patients on full guideline-recommended therapy during their hospital stay \u2014 rather than adding drugs slowly after discharge \u2014 may cut repeat heart attacks and strokes",
+      "journal": "Cardiology",
+      "pubdate": "2026 Oct 12",
+      "doi": "10.1159/crd/absag017",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "The GOLDEN study is a prospective, temporally controlled observational cohort trial enrolling 5,586 patients hospitalized for acute coronary syndrome or coronary revascularization in the Netherlands to test a 'first-time-right' strategy \u2014 initiating individualized, guideline-based pharmacotherapy in full during the hospital stay rather than escalating treatment gradually after discharge. The approach targets therapeutic inertia by using the hospitalization as a teachable moment and includes decision-support tools, provider training, and behavioral adherence techniques. The primary outcome is 3-year incidence of cardiovascular death, myocardial infarction, stroke, or ischemia-driven revascularization (4-point MACE).",
+      "why_it_matters": "If the strategy proves effective, it could reshape how cardiologists approach secondary prevention worldwide \u2014 shifting the standard of care from reactive dose-escalation to proactive, in-hospital treatment optimization at the moment patients are most motivated to change.",
+      "caveats": "observational design, single-center, short follow-up",
+      "fact_check_note": "This is a study design/protocol paper; no outcome data are yet available. The headline reflects the study hypothesis, not a confirmed finding.",
+      "relevance_score": 6,
+      "relevance_score_reason": "High-prevalence condition; large N; hard endpoints planned; protocol-only, no results yet.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "GOLDEN Trial Tests Whether 'First-Time-Right' In-Hospital Drug Optimization Beats the Standard Step-Up Approach After ACS",
+          "hook": "Most heart attack survivors leave the hospital on incomplete therapy and never fully escalate \u2014 a new Dutch trial is testing whether getting it right from day one changes outcomes.",
+          "pitch_angle": "The GOLDEN study will enroll over 5,500 ACS and post-revascularization patients to compare in-hospital initiation of full guideline-recommended pharmacotherapy against the current sequential step-up model, tracking 3-year MACE as the primary endpoint. The trial directly targets therapeutic inertia \u2014 one of cardiology's most persistent and consequential failures in secondary prevention."
+        }
+      ],
+      "run_date": "2026-10-13",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42863753",
+      "headline": "A rare immune gene variant is being linked to a severe, often fatal lung disease in infants \u2014 some cases stabilize, others don't survive past 4 months",
+      "journal": "Chest",
+      "pubdate": "2026 Oct 12",
+      "doi": "10.1016/j.chest.2026.10.001",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers screened 559 children with interstitial lung disease using exome sequencing and identified 12 rare heterozygous variants in the IFIH1 gene, which is known to drive autoinflammatory diseases; four variants were confirmed as gain-of-function through lab testing. Two infants with the strongest gain-of-function variants developed severe multisystem disease and died of respiratory failure at ages 3 and 4 months, while two others with milder variants had chronic lung disease that stabilized by ages 8 and 10. Disease severity correlated with the degree of immune signaling activated by each variant.",
+      "why_it_matters": "Identifying IFIH1 gain-of-function variants in children with unexplained interstitial lung disease may help clinicians diagnose a life-threatening condition earlier and understand why some cases are fatal while others stabilize.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Rare pediatric genetic disease; limited cardiovascular relevance for this digest's readership.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "A Rare Immune Gene Mutation Is Causing Fatal Lung Disease in Infants \u2014 and the Severity Depends on Which Variant They Carry",
+          "hook": "Among hundreds of children with unexplained interstitial lung disease, researchers found that certain mutations in the IFIH1 immune gene triggered a spectrum of outcomes \u2014 from death within months of birth to a chronic but survivable lung condition.",
+          "pitch_angle": "The study expands the known disease spectrum of IFIH1 gain-of-function disorders beyond neurological and vascular manifestations to include a potentially fatal interstitial lung disease phenotype in children, with disease severity tracking the degree of aberrant immune signaling \u2014 a finding that may reshape genetic diagnostic workups for unexplained pediatric lung disease."
+        }
+      ],
+      "run_date": "2026-10-13",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42858948",
+      "headline": "A new scoring tool may better measure varicose vein severity in women \u2014 but 4 in 10 cases it misses the mark",
+      "journal": "Journal of Vascular Surgery: Venous and Lymphatic Disorders",
+      "pubdate": "2026 Oct 10",
+      "doi": "10.1016/j.jvsv.2026.102640",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a cross-sectional study of 1,138 women (2,276 limbs) with early chronic venous disease at a Brazilian phlebology clinic, researchers developed the Reflux Extension Index (REXI), an ordinal scoring tool that maps how far saphenous vein reflux extends in the legs. Women with the highest REXI score were nearly 52 times more likely to have clinically apparent varicose veins (CEAP C2) than those with no reflux. However, 42% of women with confirmed bilateral varicose veins had minimal or no saphenous reflux by REXI, suggesting the tool does not capture all disease pathways.",
+      "why_it_matters": "A simple, standardized way to quantify vein reflux could help clinicians identify which women with early vein disease are at greatest risk of progression to visible varicose veins.",
+      "caveats": "observational design, single-center, single-operator ultrasound, women only (no male data), surrogate endpoints only, prospective validation pending, Brazil-based private clinic population",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Women-specific vascular finding, novel tool, but single-center observational with surrogate endpoints only.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health / Women's Health",
+          "headline": "Doctors May Soon Have a Better Way to Measure Varicose Vein Risk in Women",
+          "hook": "A new scoring system that maps how far vein reflux extends in the leg was nearly 52 times better at predicting visible varicose veins than having no reflux at all.",
+          "pitch_angle": "Researchers tested a simple ultrasound-based index in over 1,100 women with early vein disease, finding it accurately distinguished mild from more severe disease in most cases. The tool still missed about 4 in 10 cases of confirmed varicose veins, signaling it captures one pathway but not all \u2014 and will need broader validation before clinical use."
+        }
+      ],
+      "run_date": "2026-10-13",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42840917",
+      "headline": "A nerve-blocking procedure in the lungs may help heart valve patients stuck with high pulmonary pressure",
+      "journal": "Pulmonary Circulation",
+      "pubdate": "2026 Oct",
+      "doi": "10.1002/pul2.70404",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at a single center in China tested pulmonary artery denervation (PADN) \u2014 a catheter-based nerve-disrupting procedure \u2014 in six patients (median age 69) who still had high pulmonary artery pressure after a successful transcatheter mitral valve repair (M-TEER). Immediately after PADN, mean pulmonary artery pressure dropped significantly, and at 6 months, five of six patients showed improved tricuspid regurgitation and median 6-minute walk distance increased from 377 to 436 meters. No procedural complications occurred, but this is the first reported use of PADN in this specific post-M-TEER setting and findings are preliminary.",
+      "why_it_matters": "For heart valve patients who remain symptomatic after a minimally invasive repair, this early evidence suggests a nerve-blocking lung procedure may offer an additional treatment option worth investigating.",
+      "caveats": "small sample (N<100), single-center, surrogate endpoints only, short follow-up, observational design",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Novel first-in-class pilot; hard endpoints absent, N=6 limits confidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology / MedPage Today",
+          "headline": "PADN After Failed M-TEER Symptom Relief: A First Look at a Novel Approach to Persistent Pulmonary Hypertension",
+          "hook": "Six patients still symptomatic with high pulmonary pressure after a successful mitral valve repair saw measurable pressure drops and improved walking capacity after a nerve-blocking lung procedure.",
+          "pitch_angle": "This pilot from China is the first to apply pulmonary artery denervation in the post-M-TEER setting, offering a potential rescue strategy for a patient population with no established treatment. Clinicians should note the tiny sample and surrogate endpoints, but the signal is enough to watch for larger controlled trials."
+        }
+      ],
+      "run_date": "2026-10-13",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -217,72 +466,6 @@
       "status": "new"
     },
     {
-      "pmid": "42858948",
-      "headline": "A new scoring tool may predict how severe varicose veins will become in women \u2014 based on how far reflux has spread in the leg",
-      "journal": "Journal of Vascular Surgery: Venous and Lymphatic Disorders",
-      "pubdate": "2026 Oct 10",
-      "doi": "10.1016/j.jvsv.2026.102640",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Brazilian researchers developed and tested the Reflux Extension Index (REXI), a new ordinal scoring tool to quantify how far venous reflux has spread in the saphenous vein, in a cross-sectional study of 1,138 women (2,276 limbs) with early chronic venous disease classified as CEAP C1 (spider veins) or C2 (varicose veins). Women with the highest REXI score had 52 times the adjusted odds of having varicose veins (C2) compared to those with no reflux. Notably, 42% of women with confirmed bilateral varicose veins had minimal or no saphenous reflux, suggesting reflux extent alone does not fully explain disease severity.",
-      "why_it_matters": "A simple ultrasound-based score that quantifies how far venous reflux has extended could help clinicians identify which women with early vein disease are at greatest risk of progression to varicose veins.",
-      "caveats": "observational design, single-center, women only (no male comparison), single operator for all exams, surrogate endpoints only, study population from Brazil (private phlebology clinic \u2014 may not generalize)",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Women's vascular health hook; large N but single-center, surrogate endpoints, no hard outcomes.",
-      "pitch_angles": [
-        {
-          "publication_type": "Verywell Health / Women's Health Magazine",
-          "headline": "A New Ultrasound Score Could Predict Which Women's Varicose Veins Will Get Worse",
-          "hook": "A simple way of measuring how far venous reflux has spread in the leg may tell doctors \u2014 and women \u2014 whether early vein problems are likely to progress to full varicose veins.",
-          "pitch_angle": "The REXI score, tested in over 1,100 women with early chronic venous disease, found that greater reflux extension was strongly associated with more advanced varicose veins, with the highest-reflux group having 52 times the odds of C2 disease; it also revealed a surprising left-leg predominance that researchers say warrants further study."
-        },
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "Reflux Extension Index Offers Quantitative Tool for Staging Early Venous Disease in Women",
-          "hook": "A new ordinal scoring framework maps saphenous reflux burden across 12 leg zones and strongly predicts varicose vein classification \u2014 but 42% of confirmed C2 cases had minimal reflux, flagging the tool's limits.",
-          "pitch_angle": "REXI demonstrated good discriminative ability (adjusted AUROC 0.837) for separating CEAP C1 from C2 disease in a single-center Brazilian cohort of 1,138 women, with adjusted odds ratios rising steeply across score tiers; prospective multicenter validation is needed before clinical adoption."
-        }
-      ],
-      "run_date": "2026-10-12",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42840917",
-      "headline": "A nerve-ablation procedure may quiet stubborn pulmonary hypertension after a minimally invasive mitral valve repair",
-      "journal": "Pulmonary Circulation",
-      "pubdate": "2026 Oct",
-      "doi": "10.1002/pul2.70404",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In this pilot study, 6 patients (median age 69 years, 1 female) with persistent pulmonary hypertension after successful transcatheter mitral edge-to-edge repair (M-TEER) underwent pulmonary artery denervation (PADN); immediately post-procedure, mean pulmonary artery pressure dropped significantly and 6-minute walk distance improved from 377 m to 436 m at 6 months, with no procedural complications. This is the first reported use of PADN specifically in the post-M-TEER setting.",
-      "why_it_matters": "For the subset of patients whose pulmonary hypertension persists even after a technically successful mitral valve repair \u2014 a group with few treatment options \u2014 this early evidence suggests nerve ablation of the pulmonary artery may offer a feasible next step.",
-      "caveats": "small sample (N<100), single-center, surrogate endpoints only, short follow-up, no control group, single region (China), predominantly male cohort (5 of 6 patients)",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "First-in-class human pilot; chronic pulmonary hypertension hook offset by very small N and surrogate endpoints.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / MedPage Today",
-          "headline": "First pilot study tests pulmonary artery nerve ablation for persistent PH after mitral valve repair",
-          "hook": "Even after a technically successful transcatheter mitral repair, pulmonary hypertension can stubbornly persist \u2014 and until now, there has been no dedicated treatment strategy.",
-          "pitch_angle": "A six-patient pilot study reports that pulmonary artery denervation appears safe and may reduce pulmonary pressures and improve exercise capacity in this difficult-to-treat population. While the findings are very preliminary, they open a new interventional avenue for a group with limited options and poor prognosis."
-        },
-        {
-          "publication_type": "Medscape Cardiology",
-          "headline": "PADN after M-TEER: Pilot data hint at a new option for residual pulmonary hypertension",
-          "hook": "Persistent pulmonary hypertension following technically successful transcatheter mitral edge-to-edge repair is associated with ongoing right ventricular dysfunction and poor outcomes \u2014 and cardiologists have had no established playbook.",
-          "pitch_angle": "This first-in-kind pilot found that pulmonary artery denervation performed a median 583 days after M-TEER produced immediate reductions in mean pulmonary artery pressure and wedge pressure, with improved 6-minute walk distance at six months and no procedural complications. Controlled trials are needed, but the feasibility signal is clinically meaningful for structural heart teams managing this residual disease burden."
-        }
-      ],
-      "run_date": "2026-10-12",
-      "category": "Pulmonary Medicine",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42849544",
       "headline": "ICU doctors may be over-relying on diaphragm ultrasound \u2014 and misreading the results",
       "journal": "Respiratory Medicine",
@@ -307,33 +490,6 @@
       "run_date": "2026-10-11",
       "category": "Pulmonary Medicine",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42844063",
-      "headline": "A hospital in Burkina Faso just performed its first coronary stenting procedures \u2014 with a 94% success rate",
-      "journal": "Annales de cardiologie et d'angeiologie",
-      "pubdate": "2026 Oct 7",
-      "doi": "10.1016/j.ancard.2026.102094",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers described the first 63 cases of percutaneous coronary intervention (PCI) performed at Tengandogo University Hospital in Ouagadougou, Burkina Faso, between March 2022 and August 2024. Patients had a mean age of 59 years, 83% were male, and the most common indication was ST-elevation myocardial infarction (56%). The procedure was technically successful in 94% of cases, with four in-hospital deaths, suggesting that life-saving coronary stenting is now feasible in sub-Saharan Africa despite significant resource constraints.",
-      "why_it_matters": "Access to emergency cardiac procedures is expanding in West Africa, a region where coronary artery disease has historically gone largely untreated.",
-      "caveats": "small sample (N<100), observational design, single-center, short follow-up, surrogate endpoints only",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Global health angle; small single-center case series limits clinical generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / General health",
-          "headline": "West Africa's first coronary stenting program launches in Burkina Faso \u2014 with a 94% success rate",
-          "hook": "A hospital in one of the world's least-resourced countries just proved that emergency heart procedures once reserved for wealthy nations are now within reach.",
-          "pitch_angle": "Tengandogo University Hospital in Ouagadougou successfully performed PCI in 63 patients \u2014 mostly for heart attacks \u2014 marking a landmark in cardiac care access in sub-Saharan Africa. The 94% technical success rate challenges assumptions about what's possible in low-resource settings and raises urgent questions about equitable global access to cardiovascular medicine."
-        }
-      ],
-      "run_date": "2026-10-11",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -2068,33 +2224,6 @@
       "run_date": "2026-10-03",
       "category": "Pulmonary Medicine",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42805222",
-      "headline": "Breath analysis may distinguish active pneumonia from recovery \u2014 even without a lab test",
-      "journal": "Journal of Breath Research",
-      "pubdate": "2026 Sep 28",
-      "doi": "10.1088/1752-7163/aead14",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used real-time mass spectrometry breathomics to analyze exhaled breath in 47 adults (median age 63) with confirmed pneumonia, sampling them during acute infection and again after recovery (median 85 days later). The technology identified 104 breath-profile features that changed significantly between the two states, with moderate ability to discriminate acute from post-pneumonia breath (AUROC 0.80). However, the permutation p-value did not reach significance (p=0.112), and authors characterize findings as exploratory and hypothesis-generating.",
-      "why_it_matters": "A non-invasive breath test capable of tracking pneumonia recovery could one day reduce reliance on imaging and blood tests for monitoring respiratory infections.",
-      "caveats": "small sample (N<100), single-center, surrogate endpoints only, short follow-up, permutation p-value non-significant (p=0.112), no control group, preprint-level validation",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Exploratory pulmonary study; small sample, non-significant primary stat, no cardiovascular endpoints.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / General health",
-          "headline": "Could a breath test replace lab work for diagnosing pneumonia? Early data are intriguing \u2014 and very preliminary",
-          "hook": "A mass spectrometry breath scan correctly distinguished active pneumonia from full recovery in about 80% of cases \u2014 without a single blood draw.",
-          "pitch_angle": "Swiss researchers found that exhaled breath chemistry shifts measurably as pneumonia resolves, raising the prospect of non-invasive monitoring. But with only 47 patients and a non-significant permutation test, the technology is years from clinical use."
-        }
-      ],
-      "run_date": "2026-10-02",
-      "category": "Pulmonary Medicine",
-      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -16159,45 +16288,6 @@
       "run_date": "2026-06-30",
       "category": "Pulmonary Medicine",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42340801",
-      "headline": "Waist size predicts death risk better than body weight in people with weakened hearts, large study finds",
-      "journal": "European Journal of Preventive Cardiology",
-      "pubdate": "2026 Jun 24",
-      "doi": "10.1093/eurjpc/zwag310",
-      "groundbreaking": "Counterintuitive finding / Overturns prior research",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers analyzed data from 5,615 UK Biobank participants with cardiac MRI-confirmed left ventricular systolic impairment (ejection fraction <50%) and no pre-existing heart failure diagnosis, following them for a median of 13.5 years. Over that period, 290 all-cause and 76 cardiovascular deaths occurred; in fully adjusted models, BMI was associated with higher mortality, but central adiposity measures \u2014 particularly waist circumference (CV mortality HR 1.49) and waist-to-hip ratio (CV mortality HR 1.52) \u2014 showed stronger associations than BMI, body fat percentage, or total fat mass. The findings directly challenge the 'obesity paradox' \u2014 the notion that higher body weight is protective in heart failure patients \u2014 by showing that where fat is stored matters more than how much total fat a person carries.",
-      "why_it_matters": "For people with reduced heart pumping function, a simple tape measure around the waist may be a more meaningful indicator of survival risk than stepping on a scale.",
-      "caveats": "observational design, self-reported outcomes, surrogate endpoints only",
-      "fact_check_note": "",
-      "relevance_score": 9,
-      "relevance_score_reason": "Challenges obesity paradox; large cohort; hard endpoints; strong lifestyle and clinical hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "Prevention / Everyday Health",
-          "headline": "Your waist measurement may matter more than your weight if your heart isn't pumping properly",
-          "hook": "A 13-year study of more than 5,600 people with reduced heart function found that belly fat \u2014 not body weight \u2014 was the stronger predictor of dying from heart disease.",
-          "pitch_angle": "Researchers found that waist circumference and waist-to-hip ratio outperformed BMI in predicting cardiovascular death among people with weakened hearts, suggesting that where fat accumulates \u2014 especially around the abdomen \u2014 may be more important than overall weight for this high-risk group."
-        },
-        {
-          "publication_type": "STAT News / Medscape Cardiology",
-          "headline": "Study challenges obesity paradox in LV systolic dysfunction: central adiposity drives mortality, not total body weight",
-          "hook": "In the largest imaging-defined cohort of LV systolic impairment patients to date, waist-to-hip ratio predicted cardiovascular mortality more strongly than BMI, calling into question the protective role often attributed to higher body weight in heart disease.",
-          "pitch_angle": "Using cardiac MRI to precisely define LV impairment in 5,615 UK Biobank participants, researchers found that central adiposity measures added significant prognostic information beyond BMI over 13.5 years, with CV mortality hazard ratios of 1.49 for waist circumference and 1.52 for waist-to-hip ratio \u2014 findings that suggest body composition assessment should move beyond BMI in heart failure risk stratification."
-        },
-        {
-          "publication_type": "AARP",
-          "headline": "For older adults with heart problems, belly fat is a bigger danger sign than being overweight, study suggests",
-          "hook": "A large long-term study found that in people whose hearts don't pump strongly, fat stored around the middle \u2014 not overall body weight \u2014 was most closely linked to dying from heart disease.",
-          "pitch_angle": "The research, drawing on data from more than 5,600 participants followed for over a decade, found that a simple waist measurement was a better predictor of heart-related death than BMI, suggesting that doctors may need to look beyond the scale when assessing risk in older adults with heart conditions."
-        }
-      ],
-      "run_date": "2026-06-30",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
       "status": "new"
     },
     {
