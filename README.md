@@ -14,6 +14,7 @@ top-picks.js             # score threshold + daily cap (pure function, see "Top 
 patterns.html            # Evidence Patterns page (weekly job output)
 api/
   status.js
+  export-docx.js         # .docx export: one study, or studies grouped by digest
 data/
   sources.json
   patterns.json          # written by the weekly patterns job
@@ -137,6 +138,25 @@ studies survive, that no digest goes over the cap on any day, that the result
 isn't empty, and that the daily queue over the last 7 run dates averages roughly
 10–20 (the check allows 8–25, so a heavy week doesn't fail it). It prints the
 per-day counts. It exits 1 on failure.
+
+## Downloading studies
+
+Two .docx exports, both built by `api/export-docx.js` (a Vercel Function using
+the `docx` package):
+
+- **One study.** "Export .docx" on a card.
+- **By digest.** "Download studies" in the filter bar downloads exactly the
+  studies the filters are showing, in one .docx with a section per digest
+  (digest name and count as Heading 1, each study as Heading 2 with its fields,
+  summary, caveats and pitch angles). To download one digest, pick only that
+  digest in the digest filter; the file is then named after it, e.g.
+  `Aging-Longevity-studies-2026-10-14.docx`. Top picks, date and the other
+  filters all apply, so set Show all / All time first if you want everything.
+
+Vercel caps a function's request body at 4.5 MB, so the page refuses a download
+over 4 MB and asks you to narrow the filters. For scale (2026-10-14): any single
+digest, all time, is 0.7–3.2 MB; every digest for the past 7 days with no
+top-picks cut is about 2.3 MB (864 studies). Every digest, all time, is too big.
 
 ## Hosting
 

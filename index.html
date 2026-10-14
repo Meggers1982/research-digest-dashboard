@@ -514,6 +514,7 @@
     <button type="button" onclick="clearFilters()">Clear</button>
   </div>
   <div class="filter-actions">
+    <button type="button" id="download-studies-btn" onclick="downloadStudies()" title="Download the studies shown below as one .docx, grouped by digest. Pick a digest in the digest filter to download just that digest.">Download studies</button>
     <button type="button" onclick="exportStatus()" title="Download your saved/pitched/passed labels as a JSON backup">Export backup</button>
     <label style="display:inline-flex;align-items:center;">
       <button type="button" onclick="document.getElementById('import-file').click()" title="Restore from a previous backup file">Import backup</button>
@@ -550,6 +551,7 @@ let STATUSES_CACHE = {};
 let DB_READY = false;
 let pendingDelete = null;
 let DASHBOARD_LAST_UPDATED = null;
+let SHOWN_STUDIES = []; // what applyFilters last rendered, in display order
 
 // ── Status API (Neon) ────────────────────────────────────────────────────────
 
@@ -912,6 +914,8 @@ function applyFilters() {
     filtered.sort((a, b) => String(a.source_label || "").localeCompare(String(b.source_label || "")));
   }
 
+  SHOWN_STUDIES = filtered;
+
   const showAll = '<button type="button" class="show-all-btn" onclick="showAllStudies()">Show all</button>';
   document.getElementById("result-count").style.display = "block";
   document.getElementById("result-count").innerHTML =
@@ -1112,6 +1116,66 @@ async function exportCardDocx(id) {
     URL.revokeObjectURL(url);
   } catch {
     alert("Could not export this study to .docx.");
+  }
+}
+
+// ── Download studies by digest ───────────────────────────────────────────────
+// Exports exactly what the filters show, one section per digest. The function
+// body limit on Vercel is 4.5 MB, so very large selections are refused here.
+
+const DOWNLOAD_MAX_BYTES = 4 * 1024 * 1024;
+
+async function downloadStudies() {
+  const studies = SHOWN_STUDIES;
+  if (!studies.length) {
+    alert("No studies are showing. Adjust the filters, then download.");
+    return;
+  }
+
+  const groups = new Map();
+  for (const study of studies) {
+    const key = study.source_id || "other";
+    if (!groups.has(key)) groups.set(key, { label: study.source_label || key, studies: [] });
+    groups.get(key).studies.push(study);
+  }
+  const digests = [...groups.values()].sort((a, b) => a.label.localeCompare(b.label));
+
+  const date = new Date().toISOString().slice(0, 10);
+  const name = digests.length === 1 ? digests[0].label : "Research digests";
+  const body = JSON.stringify({
+    title: name + " studies " + date,
+    subtitle: studies.length + " " + (studies.length === 1 ? "study" : "studies") +
+      " as filtered on the dashboard, " + digests.length + " " + (digests.length === 1 ? "digest" : "digests") + ".",
+    digests
+  });
+  if (new Blob([body]).size > DOWNLOAD_MAX_BYTES) {
+    alert("That's too many studies for one download (" + studies.length + "). Narrow the digest or date filter and try again.");
+    return;
+  }
+
+  const btn = document.getElementById("download-studies-btn");
+  const label = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = "Preparing…";
+  try {
+    const response = await fetch("/api/export-docx", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body
+    });
+    if (!response.ok) throw new Error("Export failed");
+    const blob = await response.blob();
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = (name + "-studies-" + date).replace(/[^a-z0-9]+/gi, "-").replace(/^-+|-+$/g, "") + ".docx";
+    a.click();
+    URL.revokeObjectURL(url);
+  } catch {
+    alert("Could not download these studies.");
+  } finally {
+    btn.disabled = false;
+    btn.textContent = label;
   }
 }
 
