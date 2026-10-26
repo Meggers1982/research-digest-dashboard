@@ -11,7 +11,7 @@
   var TOP_PICKS_DEFAULTS = { minScore: 7, capPerTopic: 3 };
 
   // Studies with one of these statuses have been acted on and are never hidden.
-  var ACTED_ON = { saved: true, pitched: true, passed: true };
+  var ACTED_ON = { saved: true, pitched: true, passed: true, archived: true };
 
   function scoreOf(study) {
     var score = Number(study.relevance_score);

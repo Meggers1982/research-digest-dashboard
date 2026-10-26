@@ -486,6 +486,7 @@
       <option value="new">New</option>
       <option value="saved">Saved</option>
       <option value="pitched">Pitched</option>
+      <option value="archived">Archived</option>
     </select>
     <select id="filter-days" onchange="applyFilters()">
       <option value="0">All time</option>
@@ -858,12 +859,14 @@ function renderSourceStatus() {
 function renderStats() {
   const saved = ALL_STUDIES.filter(s => getStatus(s) === "saved").length;
   const pitched = ALL_STUDIES.filter(s => getStatus(s) === "pitched").length;
+  const archived = ALL_STUDIES.filter(s => getStatus(s) === "archived").length;
   const chips = [
-    { label: ALL_STUDIES.length + " studies", cls: "highlight" },
+    { label: (ALL_STUDIES.length - archived) + " studies", cls: "highlight" },
     { label: saved + " saved", cls: "" },
     { label: pitched + " pitched", cls: "" },
     { label: SOURCES.length + " digests", cls: "" }
   ];
+  if (archived) chips.push({ label: archived + " archived", cls: "" });
   if (TOTAL_NEW_THIS_RUN > 0) chips.splice(1, 0, { label: TOTAL_NEW_THIS_RUN + " new this run", cls: "new" });
   document.getElementById("stats-chips").innerHTML =
     chips.map(c => `<span class="chip ${c.cls}">${esc(c.label)}</span>`).join("");
@@ -889,6 +892,8 @@ function applyFilters() {
     const status = getStatus(study);
     if (SELECTED_SOURCES && !SELECTED_SOURCES.includes(study.source_id)) return false;
     if (category && study.category !== category) return false;
+    // Archived studies (the 2026-10 backlog review) show only when asked for by name.
+    if (status === "archived" && statusFilter !== "archived") return false;
     if (statusFilter && status !== statusFilter) return false;
     if (type && !String(study.groundbreaking || "").toLowerCase().includes(type)) return false;
     if (cutoff) {

@@ -197,6 +197,21 @@ browser and retries the shared DB on the next load. This replaced an earlier
 per-visitor "paste your own Supabase URL/key" setup &mdash; since this dashboard
 has one real user, one shared database is simpler.
 
+### Archived
+
+`archived` is a status too (MEA-1863). Research Desk's one-time backlog review
+(`trend_desk/research/backlog.py` in trending-content) marks every study found on or
+before the review's start date as archived, except saved, pitched and deleted ones.
+Archived studies are hidden from every view, "All time" included, until the status
+menu is set to **Archived**; the header counts only live studies. The marks go on
+every digest's copy (`<source_id>:<pmid>`), since the merged card takes whichever
+copy won the dedupe. Studies can't be moved out of `data/*.json` instead: the
+digests rebuild those files from their full history on every run.
+
+Undo: `python3 -m trend_desk.research.backlog --unarchive` sets the exact rows it
+archived (listed in `~/.local/state/research-desk/backlog/archived.json` on the Mac)
+back to `new`.
+
 ## Digest Repo Publishing
 
 Each separate digest repo needs a token that can write to this dashboard repo.
