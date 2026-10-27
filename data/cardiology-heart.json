@@ -1,59 +1,572 @@
 {
-  "last_updated": "2026-10-26T16:38:01.399613+00:00",
-  "total_studies": 655,
-  "new_this_run": 3,
+  "last_updated": "2026-10-27T15:55:41.851254+00:00",
+  "total_studies": 662,
+  "new_this_run": 7,
   "studies": [
     {
+      "pmid": "42616615",
+      "headline": "Scientists find new genetic clues to why sickle cell disease destroys kidneys \u2014 and the answers were hidden in ancestry",
+      "journal": "Blood Advances",
+      "pubdate": "2026 Oct 27",
+      "doi": "10.1182/bloodadvances.2026020894",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used a local ancestry-aware genome-wide meta-analysis \u2014 accounting for participants' African and European ancestral genetic components separately \u2014 to identify novel genetic loci associated with kidney disease (nephropathy) in two well-characterized adult US sickle cell disease cohorts. The approach revealed 12 significant genomic regions in the African ancestry tract and additional loci in the European ancestry tract that standard GWAS methods had missed. The findings suggest that ancestry-matched genomic analysis is essential to uncovering the genetic architecture of organ complications in predominantly African-ancestry populations.",
+      "why_it_matters": "Sickle cell nephropathy is a leading cause of early death in the roughly 100,000 Americans living with sickle cell disease, and identifying its genetic drivers could eventually point toward targeted treatments for this devastating complication.",
+      "caveats": "observational design, surrogate endpoints only, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Novel ancestry-aware method, hard-to-detect loci in underrepresented population, public health relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Standard Genetic Studies Were Missing Key Kidney-Disease Signals in Sickle Cell Patients \u2014 A New Approach Just Found Them",
+          "hook": "By analyzing African and European ancestral genetic components separately, scientists uncovered genetic risk loci for sickle cell nephropathy that conventional genome-wide studies had consistently missed.",
+          "pitch_angle": "The study used a local ancestry-aware meta-analysis framework on two adult US sickle cell disease cohorts, revealing 12 novel genomic regions linked to kidney function decline that standard GWAS approaches overlooked. The findings underscore a broader problem in genomics: tools calibrated on European-ancestry data routinely underperform in predominantly African-ancestry populations, leaving the people most burdened by sickle cell disease with the least genetic insight into their complications."
+        },
+        {
+          "publication_type": "General health",
+          "headline": "Sickle Cell Disease Destroys Kidneys \u2014 Now Scientists Know More About Why",
+          "hook": "A new genetic analysis found previously unknown biological pathways driving kidney failure in sickle cell patients by treating African and European ancestry segments of participants' DNA separately.",
+          "pitch_angle": "Kidney disease is one of the most common and deadly complications of sickle cell disease, affecting tens of thousands of Americans \u2014 most of them Black. This study found that the genetic tools scientists typically use were missing important signals because they weren't designed with African genetic diversity in mind, and a more precise approach changed what researchers could see."
+        }
+      ],
+      "run_date": "2026-10-27",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42934841",
+      "headline": "A newly identified gene may explain why some breast cancer patients suffer heart damage from chemotherapy",
+      "journal": "Cardiovascular Research",
+      "pubdate": "2026 Oct 27",
+      "doi": "10.1093/cvr/cvag236",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a genomic study of breast cancer patients treated with anthracycline chemotherapy \u2014 a drug class known to cause cardiac damage \u2014 to identify genetic variants linked to increased cardiotoxicity risk. The study, involving a Spanish-Belgian multicenter cohort, found that variants in a previously uncharacterized gene called STYXL1 were associated with significantly higher susceptibility to anthracycline-induced heart damage. The finding suggests STYXL1 could serve as a genetic biomarker to identify patients at elevated cardiac risk before chemotherapy begins.",
+      "why_it_matters": "Identifying a genetic susceptibility marker for chemo-related heart damage could one day help oncologists and cardiologists personalize treatment plans for breast cancer patients to protect heart health.",
+      "caveats": "observational design, surrogate endpoints only, single-region cohort (Spain/Belgium), replication in larger diverse populations needed",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Cardio-oncology intersection, novel gene finding, women's heart health angle, human study.",
+      "pitch_angles": [
+        {
+          "publication_type": "Women's Health / Everyday Health / Health.com",
+          "headline": "A Hidden Gene May Predict Which Breast Cancer Patients Are at Risk for Chemo-Related Heart Damage",
+          "hook": "Scientists have identified a gene \u2014 STYXL1 \u2014 that appears to make some breast cancer patients far more vulnerable to heart damage caused by a widely used class of chemotherapy drugs.",
+          "pitch_angle": "Anthracyclines are among the most effective chemotherapy agents for breast cancer, but they carry a known risk of serious cardiac side effects; this early genetic finding suggests it may someday be possible to screen patients before treatment begins to protect their hearts."
+        },
+        {
+          "publication_type": "STAT News / Medscape Cardiology",
+          "headline": "STYXL1 Emerges as a Cardiotoxicity Susceptibility Gene in Breast Cancer Patients on Anthracyclines",
+          "hook": "A new genomic study identifies STYXL1 as a novel susceptibility locus for anthracycline-induced cardiotoxicity \u2014 a finding with direct implications for cardio-oncology risk stratification.",
+          "pitch_angle": "The multicenter Spanish-Belgian cohort study adds a candidate biomarker to an underdeveloped area of precision cardiology, where predicting who will develop treatment-related heart damage before chemotherapy starts remains an unmet clinical need."
+        }
+      ],
+      "run_date": "2026-10-27",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42933922",
+      "headline": "A new bedside measurement tool may finally give doctors a clearer window into the smallest blood vessels of the lung",
+      "journal": "JACC: Cardiovascular Interventions",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1016/j.jcin.2026.07.043",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at UCLA and Stanford developed and validated a novel invasive hemodynamic index \u2014 the Pulmonary Index of Microcirculatory Resistance (pIMR) \u2014 designed to directly measure resistance in the small blood vessels of the lungs during cardiac catheterization. The study tested the index in a small patient cohort and found it provided a more granular assessment of pulmonary microvascular function than existing measures. The authors propose pIMR as a tool to better characterize pulmonary vascular disease, particularly in conditions like pulmonary arterial hypertension where microvascular dysfunction drives disease progression.",
+      "why_it_matters": "Better tools to measure lung microvascular resistance could improve diagnosis and treatment monitoring for patients with pulmonary hypertension, a serious and often underdiagnosed condition.",
+      "caveats": "small sample (N<100), surrogate endpoints only, single-center, industry funding [Abbott Vascular, Bayer, Nipro, Merck, J&J, others]",
+      "fact_check_note": "Abstract does not specify exact sample size; described as small proof-of-concept cohort. Caveat applied accordingly.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Novel diagnostic tool for pulmonary hypertension; small sample and heavy industry funding limit score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology / MedPage Today",
+          "headline": "New Invasive Index May Give Clinicians a Direct Look at Lung Microvascular Resistance",
+          "hook": "A novel hemodynamic index called pIMR could allow cardiologists and pulmonologists to directly quantify resistance in the lung's smallest blood vessels for the first time during routine catheterization.",
+          "pitch_angle": "Current tools for assessing pulmonary vascular disease are limited in their ability to isolate microvascular dysfunction; pIMR is an early-stage but potentially important addition for diagnosing and monitoring conditions like pulmonary arterial hypertension."
+        }
+      ],
+      "run_date": "2026-10-27",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42929777",
+      "headline": "Cardiac surgeons are measuring the wrong things \u2014 and patients may be paying the price",
+      "journal": "The Journal of Cardiovascular Surgery",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.23736/S0021-9509.26.13907-X",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This editorial by two European vascular surgeons argues that cardiovascular surgery research has become too focused on technical or procedural endpoints \u2014 such as vessel patency rates or procedural success \u2014 at the expense of outcomes that matter most to patients, including quality of life, functional recovery, and survival. No new patient data are presented; this is an opinion/commentary piece. The authors call for a fundamental reorientation of clinical trial design in vascular and cardiovascular surgery toward patient-centered endpoints.",
+      "why_it_matters": "The debate over what counts as success in heart surgery could reshape how clinical trials are designed and which procedures get adopted into routine care.",
+      "caveats": "editorial/opinion \u2014 no original data, no sample size, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Conceptually important framing piece but no data; editorial only.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "Vascular Surgeons Say the Field Is Measuring the Wrong Outcomes \u2014 and It's Time to Change",
+          "hook": "Two leading European vascular surgeons argue that cardiovascular surgery has been optimizing for technical wins while patients lose ground on the outcomes they actually care about.",
+          "pitch_angle": "The editorial targets a fundamental design flaw in cardiovascular surgery trials \u2014 prioritizing procedural metrics over quality of life and survival \u2014 and calls for a structural shift in how success is defined in the field."
+        }
+      ],
+      "run_date": "2026-10-27",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42934414",
+      "headline": "Standard ultrasound measurements may be systematically misleading doctors about newer artificial heart valves",
+      "journal": "Cardiovascular Engineering and Technology",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1007/s13239-026-00867-5",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using computational fluid dynamics simulations across 25 anatomic and valve size variations for three prosthetic valve types, a University of Washington researcher found that standard Doppler ultrasound accurately estimates pressure gradients for traditional surgical bioprosthetic valves but significantly overestimates them for newer transcatheter valves \u2014 balloon-expandable by 19% and self-expanding by 42%. The study also found that body surface area, the standard metric for sizing valve fit to a patient, is a weaker predictor of stroke volume than lean body mass or left ventricular outflow tract area. The author proposes two new LVOT-based measures as potentially more accurate alternatives for evaluating valve-patient fit (patient-prosthesis mismatch).",
+      "why_it_matters": "If confirmed in live patients, this finding suggests that doctors may be misclassifying many transcatheter valve patients as having problematic valve fits based on measurements that are inherently inaccurate for those device types.",
+      "caveats": "computational simulation only (no in-vitro or in-vivo validation), surrogate endpoints only, single-investigator study, findings require prospective clinical confirmation",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding on widely used valve assessment method; simulation-only limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Doppler May Be Giving False Readings for the Newest Transcatheter Heart Valves, Simulations Suggest",
+          "hook": "Computer simulations suggest that the standard echocardiographic technique used to assess transcatheter heart valve function may overestimate pressure gradients by up to 42% \u2014 potentially mislabeling well-functioning valves as problematic.",
+          "pitch_angle": "The finding challenges a core assumption in post-TAVR follow-up care and raises questions about whether current patient-prosthesis mismatch diagnoses in transcatheter valve recipients are accurate, with significant implications for clinical decision-making."
+        },
+        {
+          "publication_type": "STAT News",
+          "headline": "The Formula Doctors Use to Size Heart Valves May Be Wrong \u2014 and a Better Measure Has Been Overlooked",
+          "hook": "Body surface area \u2014 the standard metric for matching artificial heart valves to patients \u2014 turns out to be a notably weaker predictor of heart output than left ventricular measurements that are already routinely collected.",
+          "pitch_angle": "A computational study proposes replacing body surface area with LVOT-based metrics for evaluating valve fit, a shift that could affect how millions of surgical and transcatheter valve recipients are monitored and managed after implantation."
+        }
+      ],
+      "run_date": "2026-10-27",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42933747",
+      "headline": "A simple ultrasound ratio may predict survival in ALS patients better than standard breathing tests",
+      "journal": "Respiratory Physiology & Neurobiology",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1016/j.resp.2026.104667",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers measured a new ultrasound-derived index called 'diaphragm reserve utilisation' (RU) \u2014 the ratio of breathing-effort to maximum diaphragm capacity \u2014 in 38 patients with motor neurone disease (ALS) and 20 healthy controls. Despite similar tidal breathing effort, ALS patients had reduced maximum diaphragm capacity, meaning they were working much closer to their limit with every breath. Higher RU was associated with shorter survival, suggesting this bedside ultrasound measure may capture respiratory decline missed by conventional lung function tests.",
+      "why_it_matters": "For people living with ALS, a simple bedside ultrasound scan may one day provide earlier warning of dangerous respiratory decline than current standard breathing tests.",
+      "caveats": "small sample (N<100), observational design, single-center, surrogate endpoints only, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Respiratory/neuromuscular focus; small observational study; limited cardiovascular hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "An ultrasound ratio may reveal hidden breathing danger in ALS patients \u2014 before standard tests catch it",
+          "hook": "ALS patients appear to breathe normally by standard measures, but a new ultrasound index suggests their diaphragms are already working near maximum capacity.",
+          "pitch_angle": "Researchers found that a novel ratio derived from routine diaphragm ultrasound \u2014 measuring how much of breathing reserve is consumed during quiet breathing \u2014 was elevated in ALS patients and associated with shorter survival, pointing to a potential new clinical monitoring tool for a disease where respiratory failure is the leading cause of death."
+        }
+      ],
+      "run_date": "2026-10-27",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
       "pmid": "42925963",
-      "headline": "Transplanting a heart and lungs together is getting harder \u2014 here's why preserving them as one unit is the key unsolved problem",
-      "journal": "Journal of Heart and Lung Transplantation",
+      "headline": "Heart-lung transplants are getting harder to pull off \u2014 and the preservation problem is bigger than surgeons realized",
+      "journal": "The Journal of Heart and Lung Transplantation",
       "pubdate": "2026 Oct 24",
       "doi": "10.1016/j.healun.2026.10.013",
       "groundbreaking": "Major cardiovascular or public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Stanford cardiothoracic surgeons conducted a narrative review of preservation strategies for combined heart-lung transplantation, a rare but life-saving procedure for end-stage cardiopulmonary disease. The review covers static cold storage, hypothermic transport, airway-pressure devices, and emerging donation-after-circulatory-death pathways, noting that the heart and lungs have competing preservation needs \u2014 differing in ischemic tolerance, optimal temperature, and fluid requirements. The authors conclude that the evidence base remains observational and limited by procedural rarity, and call for multicenter, graft-specific data collection treating the heart-lung bloc as a single physiological unit.",
-      "why_it_matters": "As donor organ shortages grow and more critically ill patients await combined heart-lung transplants, solving the preservation mismatch between the two organs could determine whether scarce grafts can be used safely.",
-      "caveats": "observational design, small sample (N<100), surrogate endpoints only, secondary analysis",
+      "summary": "Stanford cardiothoracic surgeons reviewed contemporary approaches to preserving the combined heart-lung bloc during transplantation, covering static cold storage, hypothermic transport, airway-pressure devices, and donation-after-circulatory-death pathways. The review synthesizes evidence across a rare procedure where the heart and lungs have competing preservation needs \u2014 different ischemic tolerances, storage temperatures, and fluid requirements \u2014 that single-organ protocols cannot adequately address. Authors found the evidence base remains observational and constrained by procedural rarity, and call for multicenter, graft-specific data collection.",
+      "why_it_matters": "As more patients with end-stage combined heart and lung disease need transplants, the field's inability to optimally preserve the scarce dual-organ graft may be quietly limiting who survives long enough to receive one.",
+      "caveats": "observational design, secondary analysis, surrogate endpoints only, small procedural volume underlying evidence base",
       "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Clinically important niche topic; review only, no hard outcomes or large cohort.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Clinical transplant niche; strong cardiovascular relevance but review article limits broad lifestyle hook.",
       "pitch_angles": [
         {
-          "publication_type": "STAT News / MedPage Today",
-          "headline": "Heart-Lung Transplants Are Becoming Riskier to Preserve \u2014 and Doctors Don't Yet Have a System Built for Both Organs at Once",
-          "hook": "A Stanford review finds that transplanting a heart and lungs together is increasingly complicated by the fact that the two organs disagree on nearly every aspect of preservation.",
-          "pitch_angle": "As donation after circulatory death and longer transport distances become more common, the competing cold-storage needs of the heart versus the lungs threaten to make scarce en bloc grafts unusable. The authors argue that current preservation approaches borrowed from single-organ transplant are inadequate and that multicenter, bloc-specific research is urgently needed."
+          "publication_type": "STAT News",
+          "headline": "Heart-lung transplants are becoming more common \u2014 but keeping the graft alive long enough is an unsolved problem",
+          "hook": "The heart and lungs need to be preserved differently, and transplanting them together in one bloc means surgeons are being forced to compromise on both.",
+          "pitch_angle": "A Stanford review finds that modern pressures \u2014 longer transport distances, sicker recipients, and donation after circulatory death \u2014 have turned graft preservation into the central bottleneck for combined heart-lung transplantation. The authors call for multicenter data collection and graft-specific systems that treat the heart-lung bloc as a single physiologic unit, not two organs sharing a cooler."
+        },
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "En Bloc Heart-Lung Preservation: Why Single-Organ Protocols Fall Short",
+          "hook": "The heart and lungs tolerate ischemia differently, need different storage temperatures, and respond differently to perfusate \u2014 yet most preservation protocols were designed for one organ at a time.",
+          "pitch_angle": "This Stanford review synthesizes current evidence on static cold storage, hypothermic machine perfusion, and DCD recovery for the combined heart-lung graft, highlighting where single-organ extrapolation breaks down. With the evidence base still observational and constrained by procedural rarity, the authors argue the field urgently needs preservation-specific multicenter trials."
         }
       ],
-      "run_date": "2026-10-26",
+      "run_date": "2026-10-27",
       "category": "Cardiology",
       "chunk": "1/2",
       "status": "new"
     },
     {
+      "pmid": "42918261",
+      "headline": "Whether a lung cavity is present may determine which antibiotic form works better for a hard-to-treat lung infection",
+      "journal": "Respiratory Medicine",
+      "pubdate": "2026 Oct 24",
+      "doi": "10.1016/j.rmed.2026.109247",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers retrospectively compared inhaled amikacin liposome suspension (ALIS) versus intravenous amikacin in 57 patients with refractory or severe Mycobacterium avium complex pulmonary disease, finding that overall culture conversion rates were similar (55.9% vs 47.8%), but that cavity status significantly modified treatment response \u2014 ALIS appeared more effective in non-cavitary disease while IV amikacin showed a numerical advantage in cavitary disease. The interaction was statistically significant (p=0.043), suggesting that the form of antibiotic delivery may need to be matched to lung structure. Authors caution that larger confirmatory studies are needed.",
+      "why_it_matters": "For the growing number of people \u2014 particularly older women \u2014 living with MAC lung disease, these findings suggest that the presence or absence of lung cavities may one day help guide which treatment path their doctor recommends.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up, industry funding [Insmed Incorporated \u2014 speaker fees to lead author], secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Niche chronic pulmonary infection; small sample and indirect cardiovascular relevance limit broader appeal.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Cavity Status May Determine Whether Inhaled or IV Amikacin Works Better in Refractory MAC Lung Disease",
+          "hook": "A retrospective study suggests that the structural state of the lung \u2014 specifically whether cavities are present \u2014 may flip which antibiotic delivery route outperforms the other in hard-to-treat MAC pulmonary disease.",
+          "pitch_angle": "In 57 patients with refractory MAC-PD, ALIS and IV amikacin showed statistically significant opposite treatment effects depending on cavity status, with a significant interaction term (p=0.043). For clinicians managing this increasingly prevalent disease \u2014 especially in older women \u2014 the findings raise the question of whether CT-guided treatment selection could improve outcomes."
+        }
+      ],
+      "run_date": "2026-10-27",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
       "pmid": "42909613",
-      "headline": "A catheter \u2014 not surgery \u2014 may one day fix blood-flow problems in critically ill children with heart defects",
+      "headline": "Surgeons thread a catheter to build a heart bypass for critically ill children \u2014 no open chest required",
       "journal": "Pediatric Cardiology",
       "pubdate": "2026 Oct 23",
       "doi": "10.1007/s00246-026-04504-9",
       "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Surgeons at the German Heart Center in Munich performed percutaneous (catheter-based) aorto-pulmonary shunt creation in two pediatric patients with congenital heart disease, reporting this as the first such procedure to improve pulmonary blood flow and oxygenation via catheter rather than open surgery. One child had severe cyanosis due to reduced pulmonary blood flow; the other had life-threatening pulmonary arterial hypertension requiring right heart decompression. Both procedures were technically successful and produced the intended immediate hemodynamic effects, suggesting the approach may be feasible as a less invasive alternative to repeated open-chest surgery in selected high-risk pediatric patients.",
-      "why_it_matters": "For children with complex congenital heart defects who face repeated high-risk open-chest surgeries, a catheter-based shunt option could one day reduce surgical burden and related complications.",
-      "caveats": "small sample (N<100), observational design, single-center, surrogate endpoints only",
+      "summary": "Surgeons at the German Heart Center in Munich report the first two cases of a percutaneous (catheter-based) aorto-pulmonary shunt in pediatric patients with congenital heart disease, avoiding the need for open-chest surgery. One child had severe cyanosis from restricted pulmonary blood flow; the other had suprasystemic pulmonary arterial hypertension requiring right heart decompression. Both procedures were technically successful with immediate intended hemodynamic effects.",
+      "why_it_matters": "For critically ill infants and children with complex congenital heart defects who cannot safely undergo repeat open-heart surgery, a catheter-based alternative to create a bypass connection could be a life-saving option \u2014 though this is only a two-patient proof of concept so far.",
+      "caveats": "small sample (N<100), single-center, short follow-up",
       "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Niche pediatric surgical technique; N=2 case series; no hard outcomes data.",
+      "relevance_score": 6,
+      "relevance_score_reason": "First-in-class pediatric cardiac procedure; very small case series limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "First catheter-based aorto-pulmonary shunt in children with congenital heart disease avoids open-chest surgery",
+          "hook": "In two critically ill pediatric patients, surgeons successfully created a connection between the aorta and pulmonary artery using only a catheter \u2014 a procedure that has never been reported in this setting before.",
+          "pitch_angle": "The cases from Munich's German Heart Center suggest it may be technically feasible to replicate surgically placed shunts percutaneously, potentially sparing the highest-risk children from repeat thoracic operations. While only two cases, the report supports further evaluation of this approach in selected patients who cannot tolerate conventional surgery."
+        }
+      ],
+      "run_date": "2026-10-27",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42913094",
+      "headline": "A soft robotic heart sleeve squeezes both sides of a failing heart \u2014 without ever touching the blood",
+      "journal": "European Journal of Heart Failure",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.1093/ejhf/xuag331",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted the first prospective clinical trial of a soft-robotic device (reBEAT\u00ae) that wraps around the outside of both ventricles and squeezes them in a pulsatile rhythm without any blood contact. The device was temporarily applied in 10 end-stage heart failure patients immediately before elective LVAD implantation. Short-term use was safe and feasible, with significant improvements in mean arterial pressure, stroke work, and cardiac power output observed.",
+      "why_it_matters": "This approach could eventually sidestep the most dangerous complications of current mechanical heart support devices \u2014 clotting, bleeding, and stroke \u2014 by keeping hardware entirely outside the bloodstream.",
+      "caveats": "small sample (N<100), single-center, short follow-up, surrogate endpoints only, industry funding [AdjuCor GmbH]",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "First-in-human trial with novel mechanism; small N and surrogate endpoints limit score.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "A robotic sleeve that hugs the failing heart may be the future of cardiac support \u2014 no blood contact required",
+          "hook": "For the first time in humans, a soft-robotic device wrapped around the outside of a dying heart managed to meaningfully boost its pumping power \u2014 without a single component ever touching the blood.",
+          "pitch_angle": "The MISSION reBEAT trial tested a custom-fitted silicone sleeve in 10 end-stage heart failure patients and found it was safe and improved key hemodynamic measures. If the technology scales, it could eliminate the clotting and bleeding complications that make today's mechanical heart pumps so risky."
+        },
+        {
+          "publication_type": "General health",
+          "headline": "A new 'robotic hug' for the heart could one day replace blood-pumping machines that carry serious clot risks",
+          "hook": "Scientists have successfully tested a soft robotic sleeve that squeezes a failing heart from the outside \u2014 no tubes inside the blood, no clot risk.",
+          "pitch_angle": "The device, tested in 10 patients with end-stage heart failure, improved blood pressure and the heart's pumping power in early trials. Researchers say avoiding blood contact could make mechanical heart support far safer for the thousands of patients who need it each year."
+        }
+      ],
+      "run_date": "2026-10-27",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42911883",
+      "headline": "India's first stroke thrombectomy registry shows outcomes rival Western trials \u2014 and combined clot-busting therapy is cost-effective",
+      "journal": "Cerebrovascular Diseases",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.1159/ced/accag007",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed India's first multicenter mechanical thrombectomy registry, enrolling 190 acute ischemic stroke patients (mean age 59.6 years) treated with Solitaire\u2122 X and/or React\u2122 devices at multiple Indian centers. Good functional outcomes at 90 days were achieved in 65.8% of patients, with successful final revascularization in 87.9%, results comparable to global RCTs. A cost-effectiveness model found that combining mechanical thrombectomy with IV-tPA offered an expected gain of 1.5 QALYs over either treatment alone.",
+      "why_it_matters": "This suggests that advanced stroke intervention previously considered resource-prohibitive in India can achieve outcomes on par with high-income countries, with combined therapy offering meaningful value for money.",
+      "caveats": "single-center registry context (multicenter but India-specific), observational design, surrogate endpoints only for cost-effectiveness model, short follow-up (90 days), small sample (N=190)",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Stroke/thrombectomy with hard endpoints; India-specific registry limits generalizability to US readership.",
       "pitch_angles": [
         {
           "publication_type": "STAT News / MedPage Today",
-          "headline": "A Catheter Instead of a Scalpel: First Percutaneous Aorto-Pulmonary Shunt in Children Shows Early Promise",
-          "hook": "For the first time, surgeons have used a catheter rather than open-chest surgery to create a critical blood-flow connection in children with severe congenital heart disease.",
-          "pitch_angle": "A German Heart Center team reports the first two cases of percutaneous aorto-pulmonary shunt creation in pediatric patients, both with immediate hemodynamic success. If confirmed in larger studies, the technique could spare the most vulnerable children with complex heart defects from the compounding risks of repeated thoracic operations."
+          "headline": "India's First Stroke Thrombectomy Registry Finds Outcomes Match Global Benchmarks",
+          "hook": "A new multicenter Indian registry found that mechanical thrombectomy for acute ischemic stroke achieved functional recovery rates rivaling leading Western clinical trials.",
+          "pitch_angle": "The registry of 190 patients documents that combining clot retrieval devices with IV-tPA is cost-effective in a resource-limited setting, a finding with implications for expanding advanced stroke care access across low- and middle-income countries."
+        },
+        {
+          "publication_type": "General health / Everyday Health",
+          "headline": "Combining Two Clot-Busting Stroke Treatments May Be the Most Cost-Effective Option",
+          "hook": "A first-of-its-kind Indian stroke registry found that pairing mechanical clot removal with a clot-dissolving drug outperformed either treatment alone in both patient outcomes and cost-effectiveness.",
+          "pitch_angle": "With stroke rates rising globally, the study suggests that combination therapy \u2014 already standard in some high-income countries \u2014 may offer significant value even in health systems with limited resources."
         }
       ],
-      "run_date": "2026-10-26",
+      "run_date": "2026-10-27",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42904940",
+      "headline": "A 5-year-old arrived for open-heart surgery with blood so thick it posed life-threatening risks \u2014 and surgeons found a way through",
+      "journal": "World Journal for Pediatric & Congenital Heart Surgery",
+      "pubdate": "2026 Oct 21",
+      "doi": "10.1177/21501351261472481",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Surgeons at Akron Children's Hospital report a case of a 5-year-old boy from a low-resource country presenting with unrepaired Tetralogy of Fallot and a hematocrit of 76.2% \u2014 far above normal \u2014 due to severe secondary erythrocytosis (excess red blood cell production triggered by chronic low oxygen). The child required specialized perioperative management to safely perform total repair, including strategies to manage the extreme blood viscosity and clotting risk. The case highlights the global inequity in access to congenital heart surgery and the unique challenges clinicians face when patients arrive late and critically ill.",
+      "why_it_matters": "This case underscores that delayed access to congenital heart repair in low-resource settings can transform a surgically correctable condition into a life-threatening emergency, with lessons relevant to global pediatric cardiac care.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Compelling single case; global health angle strong but no generalizable clinical outcome data.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "A Child's Blood Was So Thick It Nearly Made Surgery Impossible \u2014 a Window Into Global Heart Care Inequity",
+          "hook": "A 5-year-old with an unrepaired heart defect arrived for surgery with a hematocrit of 76% \u2014 nearly double normal \u2014 because he had never received care available to children in wealthier countries.",
+          "pitch_angle": "The case illustrates what happens when congenital heart disease goes unrepaired for years in low-resource settings: a straightforward surgical fix becomes a high-stakes emergency requiring extreme perioperative ingenuity, and it raises urgent questions about global access to pediatric cardiac surgery."
+        }
+      ],
+      "run_date": "2026-10-27",
       "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42904573",
+      "headline": "Genetic testing for inherited heart muscle disease may be missing crucial mutations by saving the most sensitive test for last",
+      "journal": "Europace",
+      "pubdate": "2026 Oct 21",
+      "doi": "10.1093/europace/euag291",
+      "groundbreaking": "Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers from the University of Calgary argue in this review/commentary that copy-number variant (CNV) analysis \u2014 a test that detects large-scale deletions or duplications in DNA \u2014 should be elevated from a second-tier to a first-tier genetic test in patients with inherited cardiomyopathies, rather than being reserved only after standard sequencing fails to find a cause. The authors review evidence suggesting CNVs are underdiagnosed in cardiomyopathy because current triage protocols deprioritize the test. No new patient cohort data are presented; this is a perspective/argument piece.",
+      "why_it_matters": "Inherited cardiomyopathies \u2014 including hypertrophic and dilated cardiomyopathy \u2014 are a leading cause of sudden cardiac death in young people, and missing a genetic diagnosis means affected family members may not receive timely screening.",
+      "caveats": "observational design, small sample (N<100), secondary analysis",
+      "fact_check_note": "Abstract does not present original patient data; this appears to be a perspective or opinion/review article rather than a primary research study \u2014 framing adjusted accordingly.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Inherited cardiomyopathy and sudden cardiac death; commentary limits strength.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Cardiologists may be missing inherited heart disease mutations by using the most sensitive genetic test too late",
+          "hook": "Canadian geneticists argue that a type of DNA analysis capable of detecting large genetic deletions is routinely withheld from cardiomyopathy patients until other tests fail \u2014 potentially leaving dangerous mutations undetected.",
+          "pitch_angle": "Copy-number variants are a recognized cause of inherited cardiomyopathies, but current protocols treat CNV testing as a last resort rather than a standard first step, according to a University of Calgary team writing in Europace. Moving CNV analysis earlier in the diagnostic workup could improve diagnostic yield and enable cascade screening of at-risk family members before a sudden cardiac event occurs."
+        }
+      ],
+      "run_date": "2026-10-27",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42901428",
+      "headline": "Most patients already have advanced right heart failure when severe tricuspid valve leakage is first diagnosed \u2014 not because doctors referred them late",
+      "journal": "International Journal of Cardiology",
+      "pubdate": "2026 Oct 20",
+      "doi": "10.1016/j.ijcard.2026.135005",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers retrospectively analyzed 625 consecutive patients who received a first echocardiographic diagnosis of severe tricuspid regurgitation (TR) at a single Italian center, classifying right heart failure (RHF) severity using a validated four-stage system. At the time severe TR was first documented, 83.7% of patients were already in Stage 3 or Stage 4 RHF; critically, among 310 patients with a prior echocardiogram showing non-severe TR, 78% were already in Stage 3\u20134 before severe TR was even detected. The findings suggest advanced right heart failure often precedes \u2014 rather than results from \u2014 delayed referral for tricuspid intervention.",
+      "why_it_matters": "The study suggests that the window for effective tricuspid valve intervention may be narrower than previously assumed, and that earlier, proactive monitoring of right heart function \u2014 not just the valve itself \u2014 could be key to improving outcomes.",
+      "caveats": "observational design, single-center, retrospective analysis",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding overturning late-referral assumption; large N but observational, single-center.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Severe Tricuspid Regurgitation Is Already Late-Stage Disease When First Diagnosed \u2014 Referral Timing May Not Be the Culprit",
+          "hook": "A longstanding assumption in cardiology \u2014 that patients with severe tricuspid regurgitation arrive in advanced heart failure because they were referred too late \u2014 may be fundamentally wrong.",
+          "pitch_angle": "In a 625-patient retrospective study, 78% of patients with documented prior non-severe TR were already in advanced right heart failure stages before severe TR was ever recorded on echo. The findings reframe the clinical problem: it may not be a referral delay issue but a disease progression issue that demands earlier right heart monitoring strategies."
+        },
+        {
+          "publication_type": "Everyday Health / General health",
+          "headline": "A leaky heart valve often goes unnoticed until serious damage is already done \u2014 and it may not be anyone's fault",
+          "hook": "Doctors have long blamed delayed referrals for why so many tricuspid valve patients arrive in advanced heart failure \u2014 but a new study suggests the disease itself quietly outpaces detection.",
+          "pitch_angle": "Among 625 patients diagnosed with severe tricuspid regurgitation, more than 80% already had advanced right heart failure at the time of first diagnosis \u2014 and most had reached that stage before the valve problem was even severe enough to flag. The findings suggest people with any degree of TR may need more aggressive monitoring of their right heart function, not just their valve."
+        }
+      ],
+      "run_date": "2026-10-27",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42895309",
+      "headline": "A COVID vaccine ingredient may subtly shift blood-clotting biology months after the shot \u2014 but still within normal range",
+      "journal": "Blood Coagulation & Fibrinolysis",
+      "pubdate": "2026 Oct 20",
+      "doi": "10.1097/MBC.0000000000001467",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a case-control study in Port Harcourt, Nigeria, enrolling 102 adults (51 AstraZeneca-vaccinated at least 6 months prior, 51 unvaccinated controls, ages 18\u201365) to examine whether TMPRSS2 gene expression correlates with coagulation markers post-vaccination. Vaccinated participants showed a statistically significant but clinically within-normal-range prolongation of aPTT compared to unvaccinated controls (34.2 s vs. 28.2 s; both within the 20\u201340 s reference interval). Higher relative TMPRSS2 expression was inversely correlated with aPTT among vaccinated individuals only, suggesting a modest long-term molecular adaptation in hemostatic pathways rather than a pathological clotting response.",
+      "why_it_matters": "The finding suggests that the AstraZeneca vaccine may produce a subtle, sustained shift in clotting biology at the molecular level \u2014 one that remains within safe physiological boundaries at least six months after vaccination.",
+      "caveats": "small sample (N<100 per group), observational design, single-center, surrogate endpoints only, secondary analysis, study population limited to Nigerian adults (generalizability uncertain), no severe thrombotic or hemorrhagic events observed",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clot-risk and vaccine angle relevant; small single-center observational design limits impact.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "Six Months After AstraZeneca Shot, TMPRSS2 Expression Still Correlates With Clotting Marker Shifts \u2014 But Within Normal Limits",
+          "hook": "A small Nigerian study found that higher TMPRSS2 gene expression after AstraZeneca vaccination correlates with longer clotting times \u2014 a molecular signal that persists at least half a year post-shot.",
+          "pitch_angle": "Researchers identified a novel TMPRSS2-coagulation link in vaccinated adults that was absent in unvaccinated controls, raising questions about long-term hemostatic adaptation to adenoviral vector vaccines. All values remained within clinical reference ranges and no participants experienced thrombotic events, but the finding adds molecular nuance to ongoing scrutiny of COVID vaccine cardiovascular effects."
+        }
+      ],
+      "run_date": "2026-10-27",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42902780",
+      "headline": "A next-gen aortic device designed to prevent one complication caused another \u2014 and needed emergency repair",
+      "journal": "Interdisciplinary Cardiovascular and Thoracic Surgery",
+      "pubdate": "2026 Oct 20",
+      "doi": "10.1093/icvts/ivag279",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Surgeons in Japan report a single case in which a novel 'partial elephant trunk' (PET) stent device \u2014 designed to reduce a known complication of aortic arch surgery \u2014 caused an unanticipated stenosis (narrowing) that cut blood flow to the lower body. The patient, who had chronic aortic dissection, required emergency endovascular repair on postoperative day 1. The case suggests that the device's reduced radial force, a deliberate design feature, may fail to fully expand in sharply angled aortas.",
+      "why_it_matters": "This case suggests that a design intended to solve one surgical complication may introduce another, raising questions about patient selection criteria for next-generation aortic devices.",
+      "caveats": "small sample (N<100), single-center, single case report, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Single case report, surgical niche, limited generalizability for health journalists.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Novel Frozen Elephant Trunk Device Causes Stenosis in Angulated Aorta \u2014 Emergency TEVAR Required",
+          "hook": "A device engineered to prevent one aortic complication inadvertently caused another, requiring emergency intervention within 24 hours of surgery.",
+          "pitch_angle": "A Japanese surgical team reports that the partial elephant trunk's intentionally reduced radial force failed to fully expand in a steeply angled aortic arch, causing clinically significant stenosis. The case highlights the need for careful patient selection and intraoperative monitoring when deploying novel low-radial-force stent grafts."
+        }
+      ],
+      "run_date": "2026-10-27",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42901132",
+      "headline": "The standard sleep apnea score may miss the heart-health risk hiding in oxygen dips",
+      "journal": "Respiratory Medicine",
+      "pubdate": "2026 Oct 20",
+      "doi": "10.1016/j.rmed.2026.109237",
+      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a retrospective cross-sectional study of 200 adults with obstructive sleep apnea (median age 57, 77.5% male), researchers found that the standard apnea-hypopnea index (AHI) was not significantly associated with daytime sleepiness, while measures of oxygen deprivation \u2014 particularly time spent below 90% oxygen saturation (T90) \u2014 showed stronger associations with cardiometabolic conditions including diabetes and hypertension. The gap between AHI and the oxygen desaturation index (AHI-ODI discordance) was independently linked to excessive daytime sleepiness, though discrimination was modest. No index reliably distinguished patients with prior stroke or atrial fibrillation.",
+      "why_it_matters": "These findings suggest that the most commonly used measure of sleep apnea severity may not fully capture the cardiovascular and metabolic risks tied to nighttime oxygen drops \u2014 potentially leaving high-risk patients under-evaluated.",
+      "caveats": "observational design, single-center, retrospective cross-sectional, surrogate endpoints only, study population skewed male (77.5% \u2014 limited female-specific analysis)",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Sleep-heart health link, counterintuitive AHI finding, cardiometabolic endpoints, clear lifestyle hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / Prevention / Verywell Health",
+          "headline": "Your Sleep Apnea Score Might Not Tell You the Whole Story About Your Heart Risk",
+          "hook": "A new study found that the standard number doctors use to grade sleep apnea severity wasn't linked to daytime fatigue \u2014 but how long your oxygen dips at night was.",
+          "pitch_angle": "Researchers found that oxygen-based measures of sleep apnea were more closely tied to diabetes, hypertension, and heart failure than the widely used AHI score. For the millions of Americans diagnosed \u2014 or undiagnosed \u2014 with sleep apnea, the findings suggest that asking your doctor about oxygen saturation data during a sleep study may reveal risks the headline number misses."
+        },
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "AHI Fails to Predict Daytime Sleepiness or Cardiometabolic Risk in OSA \u2014 Oxygen Indices Do Better",
+          "hook": "In a 200-patient OSA cohort, the apnea-hypopnea index was not significantly associated with excessive daytime sleepiness, while measures of nocturnal hypoxemia showed independent associations with diabetes and hypertension.",
+          "pitch_angle": "The study adds to mounting evidence that AHI alone is an imperfect surrogate for the cardiometabolic burden of obstructive sleep apnea, and that oxygen desaturation metrics \u2014 particularly T90 \u2014 may better stratify risk. The findings, though limited by single-center design and a predominantly male cohort, raise questions about whether sleep lab reporting standards need to evolve."
+        }
+      ],
+      "run_date": "2026-10-27",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42924171",
+      "headline": "A novel drug for severe pulmonary hypertension is showing real-world heart benefits beyond its clinical trial results",
+      "journal": "Pulmonary Circulation",
+      "pubdate": "2026 Oct",
+      "doi": "10.1002/pul2.70434",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a retrospective single-center study from Abu Dhabi, UAE, researchers tracked 33 adults with severe pulmonary arterial hypertension (PAH) who received sotatercept \u2014 a first-in-class activin signaling inhibitor \u2014 in real-world clinical practice between January 2025 and September 2026. The cohort was predominantly female (80.6%) with a mean age of 55 years. Treatment was associated with significant reductions in right atrial size and NT-proBNP (a heart stress marker), improved right heart function (TAPSE), and at least one-category improvement in disease risk profile, with no treatment discontinuations due to adverse events.",
+      "why_it_matters": "For the roughly 500\u20131,000 Americans per million living with pulmonary arterial hypertension, early real-world evidence suggests sotatercept may improve right heart remodeling and disease risk in routine care settings, not just in controlled trials.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up, surrogate endpoints only, retrospective design, Middle East population (UAE) \u2014 generalizability to other regions uncertain",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "First-in-class PAH drug; real-world human data; surrogate endpoints only; small single-center sample.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / Medscape Cardiology",
+          "headline": "Sotatercept's real-world heart benefits in pulmonary hypertension match \u2014 and may extend \u2014 its trial promise",
+          "hook": "Outside the controlled conditions of a clinical trial, a first-in-class pulmonary hypertension drug is still shrinking dangerously enlarged right hearts and improving patients' disease risk profiles.",
+          "pitch_angle": "A real-world cohort study from a UAE pulmonary hypertension center found sotatercept \u2014 an activin signaling inhibitor recently approved for PAH \u2014 significantly reduced right atrial size and heart-stress biomarkers in 33 patients, with no safety-related discontinuations, offering early confirmation that its mechanism holds up in routine clinical practice outside trial conditions."
+        },
+        {
+          "publication_type": "Women's Health / Everyday Health",
+          "headline": "A rare but deadly heart-lung disease disproportionately affects women \u2014 and a new drug is showing real promise",
+          "hook": "More than 80% of the patients in this pulmonary hypertension study were women, and a novel treatment improved their heart function in ways standard therapies often can't.",
+          "pitch_angle": "Pulmonary arterial hypertension \u2014 a progressive, often fatal rise in lung blood pressure \u2014 strikes women far more often than men, and real-world evidence from a new class of drug called sotatercept suggests it can meaningfully improve right heart function and reduce disease severity in female patients who previously had limited treatment options."
+        }
+      ],
+      "run_date": "2026-10-27",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42906939",
+      "headline": "Asbestos and cigarette smoke may be driving a rarer, more aggressive form of lung cancer that's been largely overlooked",
+      "journal": "European Respiratory Review",
+      "pubdate": "2026 Oct",
+      "doi": "10.1183/16000617.0145-2026",
+      "groundbreaking": "Major cardiovascular or public health implication / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A PRISMA-guided scoping review of 1,302 studies (34 included) examined evidence linking occupational and environmental carcinogen exposure to pulmonary carcinoid tumors \u2014 rare neuroendocrine lung cancers making up about 2% of all lung tumors. Among people exposed to World Trade Center dust after 9/11, carcinoids accounted for 6% of lung cancer cases (9% in women, 3% in men), and the proportion of more aggressive atypical carcinoids rose from 9.3% to 16.3% among smokers and roughly doubled with definite asbestos exposure. Authors conclude that a link between asbestos and cigarette smoke and pulmonary carcinoids is plausible but not yet proven, citing limited and heterogeneous evidence.",
+      "why_it_matters": "For the millions of people with past asbestos or heavy tobacco exposure \u2014 including first responders and construction workers \u2014 these findings suggest that pulmonary carcinoids may be an underrecognized cancer risk that deserves greater attention in monitoring programs.",
+      "caveats": "observational design, small number of tumors across included studies, heterogeneous diagnostic criteria, scoping review (not meta-analysis), no hard incidence data",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Public health angle, 9/11 exposure hook, sex difference noted; limited by scoping review design and rare tumor type.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / NYT Health",
+          "headline": "Asbestos and Smoke May Be Linked to a Rare Lung Cancer That Doctors Don't Usually Connect to Those Exposures",
+          "hook": "Among people exposed to World Trade Center dust, a rare type of lung tumor \u2014 pulmonary carcinoids \u2014 accounted for 6% of lung cancers, with women affected at three times the rate of men.",
+          "pitch_angle": "A new scoping review finds plausible biological pathways linking asbestos and cigarette smoke to pulmonary carcinoids, a neuroendocrine tumor rarely discussed in public health warnings about these exposures. The 9/11 data point \u2014 and the fact that women were disproportionately affected \u2014 makes this a potentially underreported cancer story with implications for first responders, construction workers, and longtime smokers."
+        }
+      ],
+      "run_date": "2026-10-27",
+      "category": "Pulmonary Medicine",
       "chunk": "1/2",
       "status": "new"
     },
@@ -85,39 +598,6 @@
       "status": "new"
     },
     {
-      "pmid": "42913094",
-      "headline": "A robotic heart sleeve that wraps around the outside of the heart \u2014 no blood contact \u2014 shows early safety signal in first human trial",
-      "journal": "European Journal of Heart Failure",
-      "pubdate": "2026 Oct 22",
-      "doi": "10.1093/ejhf/xuag331",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In the MISSION reBEAT trial, a soft robotic biventricular support device (reBEAT\u00ae) that wraps around the outside of the heart without touching blood was tested in 10 end-stage heart failure patients immediately before scheduled LVAD implantation at four centers across Europe and Australia. The device was implanted in under 5 minutes on average, with no severe device- or procedure-related adverse events, and produced significant improvements in mean arterial pressure, stroke work, and cardiac power output. This is the first prospective human trial of a non-blood-contact biventricular mechanical circulatory support device.",
-      "why_it_matters": "A heart support device that avoids blood contact could sidestep some of the most dangerous complications of current mechanical heart pumps \u2014 including clotting and stroke \u2014 potentially offering a safer option for patients with advanced heart failure.",
-      "caveats": "small sample (N<100), short follow-up, surrogate endpoints only, industry funding [AdjuCor GmbH], single-arm feasibility trial",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "First-in-class human study with clear heart failure hook; very small N and industry funding are significant caveats.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "A Robotic Heart Sleeve That Never Touches Blood Just Completed Its First Human Trial",
-          "hook": "A soft robotic device that squeezes the heart from the outside \u2014 without any blood contact \u2014 showed early safety and measurable hemodynamic improvements in 10 end-stage heart failure patients in a first-in-human trial.",
-          "pitch_angle": "The reBEAT device sidesteps the clotting and stroke risks inherent to blood-contacting pumps like LVADs, and its ability to support both ventricles simultaneously addresses a longstanding gap in mechanical circulatory support; while the trial is tiny and industry-funded, it marks a meaningful proof-of-concept milestone."
-        },
-        {
-          "publication_type": "Everyday Health / Health.com / General health",
-          "headline": "Scientists Built a Robot That Hugs Your Heart From the Outside to Keep It Beating",
-          "hook": "A device that wraps around the failing heart like a sleeve \u2014 never touching a drop of blood \u2014 just showed it can safely boost circulation in the sickest heart failure patients.",
-          "pitch_angle": "Unlike current mechanical heart pumps, which carry serious risks of blood clots and stroke because blood flows through them, this soft robotic device works entirely from the outside, potentially opening a new path for patients with advanced heart failure who have few good options."
-        }
-      ],
-      "run_date": "2026-10-26",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42918761",
       "headline": "A blood cancer drug used earlier than approved didn't beat standard therapy on the main goal \u2014 but patients felt measurably better",
       "journal": "Blood Cancer Journal",
@@ -142,66 +622,6 @@
       "run_date": "2026-10-26",
       "category": "Hematology & Vascular",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42924171",
-      "headline": "A novel drug for severe pulmonary hypertension shows real-world heart benefits beyond clinical trials",
-      "journal": "Pulmonary Circulation",
-      "pubdate": "2026 Oct 22",
-      "doi": "10.1002/pul2.70434",
-      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers retrospectively evaluated sotatercept, an activin-signaling inhibitor, in 33 adults with severe pulmonary arterial hypertension (PAH) treated at a single tertiary center in Abu Dhabi between January 2025 and September 2026. The cohort was predominantly female (80.6%), with a mean age of 55 years. Real-world use was associated with significant reductions in right atrial area, NT-proBNP, and systolic pulmonary arterial pressure, along with improved right heart function and risk classification, though six-minute walk distance did not significantly change.",
-      "why_it_matters": "Early real-world evidence suggests sotatercept may reverse some structural heart changes in severe pulmonary hypertension, a condition with historically poor outcomes despite combination therapy.",
-      "caveats": "small sample (N<100), observational design, single-center, short follow-up, surrogate endpoints only",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Rare chronic pulmonary condition; surrogate endpoints only; small single-center cohort.",
-      "pitch_angles": [
-        {
-          "publication_type": "Medscape Cardiology / MedPage Today",
-          "headline": "Sotatercept Improves Right-Heart Remodeling in Real-World PAH Patients Outside Clinical Trials",
-          "hook": "A first look at sotatercept in routine Middle Eastern clinical practice finds the novel activin inhibitor echoes its trial results \u2014 with measurable improvements in right atrial structure and cardiac biomarkers.",
-          "pitch_angle": "Clinicians managing severe PAH now have early real-world data supporting sotatercept's cardiac benefits beyond the controlled trial setting, though hard endpoints like mortality and walk distance remain to be confirmed in larger studies."
-        }
-      ],
-      "run_date": "2026-10-26",
-      "category": "Pulmonary Medicine",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42911883",
-      "headline": "India's First Stroke Thrombectomy Registry Shows Outcomes Rival Western Standards \u2014 at a Fraction of the Cost",
-      "journal": "Cerebrovascular Diseases",
-      "pubdate": "2026 Oct 22",
-      "doi": "10.1159/ced/accag007",
-      "groundbreaking": "Major cardiovascular or public health implication / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed data from India's first multicenter mechanical thrombectomy (MT) registry, enrolling 190 acute ischemic stroke patients (mean age 59.6 years) treated with Solitaire\u2122 X and/or React\u2122 catheters at multiple Indian centers. Good functional outcome (modified Rankin Score 0\u20132 at 90 days) was achieved in 65.8% of patients, with successful final revascularization in 87.9%. The study also found that combining MT with IV thrombolysis was cost-effective versus MT alone, yielding an expected gain of 1.5 quality-adjusted life years.",
-      "why_it_matters": "These findings suggest that high-quality mechanical thrombectomy for stroke \u2014 long considered resource-intensive \u2014 may be deliverable and cost-effective in a large developing-country healthcare system, with implications for expanding stroke care globally.",
-      "caveats": "observational design, single-country registry (India), small sample (N=190), surrogate endpoints only for cost model, no randomization",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Stroke care access in a major underserved population; real-world outcomes with hard endpoints.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / MedPage Today",
-          "headline": "India's First Stroke Thrombectomy Registry Finds Outcomes Match Global Benchmarks \u2014 and Combo Therapy Saves Money",
-          "hook": "In a country where mechanical thrombectomy remains severely underused, India's first multicenter registry found functional recovery rates and recanalization success rivaling top Western clinical trials.",
-          "pitch_angle": "The registry of 190 acute ischemic stroke patients showed 65.8% achieved good functional outcomes at 90 days, and combining clot-removal surgery with IV tPA proved more cost-effective than either treatment alone \u2014 findings that could reshape stroke care policy across low- and middle-income countries."
-        },
-        {
-          "publication_type": "General health / Everyday Health",
-          "headline": "The Stroke Treatment That's Standard in the U.S. Is Finally Reaching More of the World \u2014 With Surprisingly Good Results",
-          "hook": "A landmark Indian stroke registry found that a clot-removal procedure long considered too resource-intensive for developing countries works just as well there as it does in the West.",
-          "pitch_angle": "Data from 190 stroke patients across multiple Indian hospitals showed nearly two-thirds recovered good function within 90 days \u2014 results comparable to major clinical trials \u2014 suggesting that geography shouldn't determine who survives a stroke."
-        }
-      ],
-      "run_date": "2026-10-26",
-      "category": "Hematology & Vascular",
-      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -238,33 +658,6 @@
       "status": "new"
     },
     {
-      "pmid": "42904940",
-      "headline": "A 5-year-old arrived for heart surgery with a hematocrit of 76% \u2014 a near-fatal consequence of unrepaired congenital heart disease in a resource-limited setting",
-      "journal": "World Journal for Pediatric & Congenital Heart Surgery",
-      "pubdate": "2026 Oct 21",
-      "doi": "10.1177/21501351261472481",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Clinicians at Akron Children's Hospital report the case of a 5-year-old boy from a low-resource country who presented with unrepaired tetralogy of Fallot and severe secondary erythrocytosis \u2014 a hematocrit of 76.2% (normal is roughly 35\u201345%), a near-incompatible-with-life blood thickness caused by chronic oxygen deprivation. The case required highly specialized perioperative management and highlights the life-threatening consequences when children with congenital heart disease lack access to timely surgical repair. The authors frame the case within the broader global health goal of improving access to pediatric cardiac surgery.",
-      "why_it_matters": "Millions of children worldwide with correctable congenital heart defects like tetralogy of Fallot never receive surgery, and this case illustrates how delayed care can drive secondary blood disorders that dramatically complicate \u2014 and threaten \u2014 eventual repair.",
-      "caveats": "small sample (N<100), single-center, single case report",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Compelling global health angle on congenital heart disease access; single case report limits clinical weight.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health / NYT Health",
-          "headline": "A 5-Year-Old Needed Heart Surgery That Should Have Happened at Birth \u2014 His Blood Had Thickened to a Near-Fatal Level",
-          "hook": "A young child arrived for congenital heart surgery with blood so thick from years of oxygen deprivation that his hematocrit \u2014 a measure of red blood cell density \u2014 had reached 76%, nearly double the normal level.",
-          "pitch_angle": "The case of an unrepaired tetralogy of Fallot in a child from a low-resource country illustrates what happens when correctable congenital heart defects go untreated for years, and underscores the urgent need for global equity in access to pediatric cardiac surgery."
-        }
-      ],
-      "run_date": "2026-10-26",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42914144",
       "headline": "A simple lung-function score at three months after transplant can predict which patients will lose their new lungs",
       "journal": "BMJ Open Respiratory Research",
@@ -289,66 +682,6 @@
       "run_date": "2026-10-26",
       "category": "Pulmonary Medicine",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42901428",
-      "headline": "Most patients with severe tricuspid regurgitation already have advanced heart failure before they're even diagnosed \u2014 'late referral' may not be the real problem",
-      "journal": "International Journal of Cardiology",
-      "pubdate": "2026 Oct 20",
-      "doi": "10.1016/j.ijcard.2026.135005",
-      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers retrospectively analyzed 625 patients at a single Italian center at the time of their first echocardiographic diagnosis of severe tricuspid regurgitation (TR). Among a subgroup of 310 patients with a prior echocardiogram showing non-severe TR, 78% were already in advanced right heart failure (Stage 3\u20134) before severe TR was even documented. The findings challenge the prevailing assumption that advanced disease in severe TR patients is simply a consequence of delayed referral for treatment.",
-      "why_it_matters": "This suggests that the window for intervening in tricuspid valve disease may be far earlier than current guidelines recognize, potentially prompting a rethink of when to monitor and treat this often-overlooked heart valve condition.",
-      "caveats": "observational design, single-center, retrospective analysis, surrogate endpoints only",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive finding overturning late-referral paradigm; large N; single-center observational limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "The 'Late Referral' Explanation for Severe Tricuspid Regurgitation May Be Wrong",
-          "hook": "Most patients with severe tricuspid regurgitation already have Stage 3\u20134 right heart failure before they're ever diagnosed \u2014 not because they were referred too late, but because advanced disease was present before severity thresholds were reached.",
-          "pitch_angle": "A 625-patient retrospective study found that 78% of patients had advanced right heart failure even before their TR was classified as severe, suggesting current intervention triggers may be set too late in the disease course and that earlier surveillance strategies are needed."
-        },
-        {
-          "publication_type": "STAT News",
-          "headline": "Heart Valve Guidelines May Be Missing the Boat on Tricuspid Regurgitation",
-          "hook": "A study of 625 patients found that by the time tricuspid regurgitation is severe enough to meet treatment thresholds, the vast majority of patients are already in advanced heart failure \u2014 raising urgent questions about how the field defines 'timely' intervention.",
-          "pitch_angle": "The findings suggest the 'delayed referral' narrative that has dominated tricuspid valve care may be obscuring a more fundamental problem: that disease staging and intervention eligibility criteria are misaligned, leaving patients in advanced heart failure even when care is delivered on schedule."
-        }
-      ],
-      "run_date": "2026-10-26",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42895309",
-      "headline": "AstraZeneca COVID vaccine may leave a lasting molecular fingerprint on blood clotting \u2014 but still within normal range",
-      "journal": "Blood Coagulation & Fibrinolysis",
-      "pubdate": "2026 Oct 20",
-      "doi": "10.1097/MBC.0000000000001467",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers compared blood coagulation markers and TMPRSS2 gene expression in 102 Nigerian adults (51 AstraZeneca-vaccinated \u22656 months prior, 51 unvaccinated controls, ages 18\u201365). Vaccinated participants had statistically longer activated partial thromboplastin time (aPTT) than controls, though both groups fell within the normal laboratory reference range. Higher relative TMPRSS2 expression correlated with longer aPTT in vaccinated individuals only, suggesting a possible long-term molecular-hemostatic adaptation rather than a dangerous clotting disruption.",
-      "why_it_matters": "The finding suggests the AstraZeneca vaccine may subtly remodel the clotting system months after inoculation, though all values remained within normal limits and no participants experienced thrombotic or bleeding events.",
-      "caveats": "small sample (N=102), observational design, single-center, surrogate endpoints only, secondary analysis, Nigerian cohort only (generalizability to other populations unclear)",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Clot-related finding in humans, but surrogate endpoints, small Nigerian-only cohort, limited generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "Six Months After AstraZeneca Shot, a Molecular Clotting Signal Persists \u2014 But Stays in Safe Territory",
-          "hook": "A small Nigerian study found that the AstraZeneca COVID vaccine may leave a detectable molecular imprint on the blood's clotting system at least six months after vaccination \u2014 yet all values remained within normal limits.",
-          "pitch_angle": "Researchers identified a correlation between TMPRSS2 gene expression and clotting time in vaccinated individuals that was absent in unvaccinated controls, raising questions about long-term hemostatic adaptation post-vaccination. The findings are preliminary and limited to a single African cohort, but add nuance to ongoing discussions about COVID vaccines and coagulation biology."
-        }
-      ],
-      "run_date": "2026-10-26",
-      "category": "Hematology & Vascular",
-      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -406,33 +739,6 @@
       "status": "new"
     },
     {
-      "pmid": "42904573",
-      "headline": "Genetic testing for inherited heart muscle disease may need a first-line upgrade",
-      "journal": "Europace",
-      "pubdate": "2026 Oct 21",
-      "doi": "10.1093/europace/euag291",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This commentary from the University of Calgary argues that copy-number variant (CNV) analysis \u2014 currently used as a second-tier genetic test in inherited cardiomyopathy \u2014 should be moved to a first-tier position in diagnostic workflows. No patient cohort data are presented; the piece makes a conceptual and evidence-based case for reconsidering standard genetic triage protocols. The authors suggest that delaying CNV testing misses potentially diagnosable cases and slows family cascade screening.",
-      "why_it_matters": "Catching inherited cardiomyopathy earlier through better genetic testing could help identify at-risk family members before a first cardiac event.",
-      "caveats": "observational design, small sample (N<100), surrogate endpoints only, secondary analysis",
-      "fact_check_note": "No abstract body was provided beyond the title and author information; summary is based on title, journal context, and institutional affiliations only. Claims should be verified against the full text before publication.",
-      "relevance_score": 4,
-      "relevance_score_reason": "No abstract data; commentary piece; niche genetic testing protocol debate.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "Should CNV Testing Move to the Front of the Line in Inherited Cardiomyopathy?",
-          "hook": "A commentary from Canadian cardiogenetics experts challenges the standard practice of reserving copy-number variant analysis as a last resort in inherited heart muscle disease.",
-          "pitch_angle": "The authors argue that relegating CNV analysis to second-tier status in cardiomyopathy genetic workups delays diagnosis and misses opportunities for family cascade screening. If adopted, moving CNV testing earlier in the diagnostic pathway could change how clinicians approach inherited cardiomyopathy in both index patients and their relatives."
-        }
-      ],
-      "run_date": "2026-10-25",
-      "category": "Cardiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42908195",
       "headline": "An inhaler delivers twice the bronchodilator drug to COPD patients on breathing machines compared to the standard nebulizer \u2014 and costs far less",
       "journal": "Respirology",
@@ -457,33 +763,6 @@
       "run_date": "2026-10-25",
       "category": "Pulmonary Medicine",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42902780",
-      "headline": "A next-generation aortic repair device designed to be gentler on the aorta caused a dangerous narrowing \u2014 fixed only by emergency intervention",
-      "journal": "Interdisciplinary Cardiovascular and Thoracic Surgery",
-      "pubdate": "2026 Oct 20",
-      "doi": "10.1093/icvts/ivag279",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Japanese surgeons report a single case in which a partial elephant trunk (PET) \u2014 a new frozen elephant trunk device designed with lower radial force to reduce aortic injury \u2014 failed to fully expand after total arch replacement in a patient with chronic aortic dissection. The stenosis at a steeply angulated arch caused lower-limb blood pressure to drop to 70% of upper-limb pressure by postoperative day 1, requiring emergency thoracic endovascular aortic repair. The intervention successfully resolved the pressure gradient, but the case highlights a potential anatomical limitation of the lower-force device design.",
-      "why_it_matters": "This case suggests that reduced-radial-force aortic stent grafts may carry a risk of incomplete expansion in patients with sharply angled aortic arches, a finding relevant to device selection in complex aortic surgery.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Surgical case report; limited generalizability, no hard endpoint data beyond one patient.",
-      "pitch_angles": [
-        {
-          "publication_type": "Medscape Cardiology",
-          "headline": "Reduced-Radial-Force Aortic Stent Graft Fails to Expand Fully in Angulated Arch \u2014 Emergency TEVAR Required",
-          "hook": "A device engineered to be gentler on the dissected aorta stenosed acutely in a patient with a steeply curved arch, dropping lower-limb perfusion pressure to 70% of upper-limb pressure within 24 hours.",
-          "pitch_angle": "A Japanese surgical team reports that the partial elephant trunk's lower radial force \u2014 intended to prevent stent graft-induced new entry \u2014 may be insufficient to overcome resistance in sharply angulated aortic anatomy. The case raises a device-selection flag for surgeons managing complex chronic dissections with atypical arch geometry."
-        }
-      ],
-      "run_date": "2026-10-25",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -802,33 +1081,6 @@
       "run_date": "2026-10-23",
       "category": "Pulmonary Medicine",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42906939",
-      "headline": "Asbestos and cigarette smoke may trigger a type of rare lung tumor previously thought to arise spontaneously",
-      "journal": "European Respiratory Review",
-      "pubdate": "2026 Oct",
-      "doi": "10.1183/16000617.0145-2026",
-      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "A scoping review of 1,302 studies (34 included) examined evidence linking occupational or environmental carcinogen exposure \u2014 primarily cigarette smoke and asbestos \u2014 to pulmonary carcinoid tumors, rare neuroendocrine lung tumors making up about 2% of lung cancers. Key findings included that 6% of lung cancers in people exposed to 9/11 World Trade Center dust were carcinoids (9% in women, 3% in men), and the proportion of more aggressive atypical carcinoids rose substantially with asbestos or smoking exposure. The authors note the evidence base is limited by small study sizes and inconsistent diagnostic criteria, but conclude a causal link is plausible.",
-      "why_it_matters": "Pulmonary carcinoids have long been considered tumors without a clear environmental cause, but this review suggests asbestos exposure and smoking \u2014 already known to cause other lung cancers \u2014 may also drive this rarer, sometimes aggressive tumor type.",
-      "caveats": "observational design, small sample sizes in constituent studies, inconsistent diagnostic criteria across studies, scoping review (not meta-analysis)",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Counterintuitive occupational/environmental finding, but limited evidence base and scoping review design.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / General health",
-          "headline": "Asbestos and Smoking May Cause a Type of Lung Tumor Long Thought to Have No Environmental Trigger",
-          "hook": "Pulmonary carcinoids \u2014 rare lung tumors typically considered unrelated to lifestyle \u2014 may actually be linked to asbestos exposure and cigarette smoke, a scoping review suggests.",
-          "pitch_angle": "Among people exposed to World Trade Center dust, carcinoids made up 6% of lung cancer cases, and more aggressive atypical carcinoids were disproportionately common in smokers and asbestos-exposed workers; the finding could reshape occupational cancer surveillance and workers' compensation frameworks."
-        }
-      ],
-      "run_date": "2026-10-23",
-      "category": "Pulmonary Medicine",
-      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -10195,39 +10447,6 @@
       "run_date": "2026-08-26",
       "category": "Pulmonary Medicine",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42616615",
-      "headline": "Sickle cell kidney damage has its own unique genetic fingerprint \u2014 and it's not the same as ordinary kidney disease",
-      "journal": "Blood Advances",
-      "pubdate": "2026 Aug 19",
-      "doi": "10.1182/bloodadvances.2026020894",
-      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers performed the largest local ancestry-aware genome-wide meta-analysis of sickle cell disease nephropathy (SCDN) to date, using two well-characterized adult SCD cohorts (predominantly of African ancestry, U.S.-based) to identify novel genetic loci linked to declining kidney function. The analysis found 12 significant genomic regions in the African ancestral tract and 38 in the European ancestral tract, encompassing genes tied to inflammation, iron metabolism, and estrogen signaling. The findings suggest that SCDN has a distinct genetic architecture from other forms of kidney disease, potentially pointing toward new early-detection and treatment targets.",
-      "why_it_matters": "For the roughly 100,000 Americans living with sickle cell disease, understanding that kidney complications have their own unique genetic drivers \u2014 separate from ordinary kidney disease \u2014 could eventually lead to earlier detection and more targeted therapies.",
-      "caveats": "surrogate endpoints only, observational design, secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Novel GWAS in sickle cell nephropathy; hematology-cardiovascular overlap, hard-to-reach population.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "Sickle cell kidney disease has a unique genetic blueprint \u2014 and it may open new treatment doors",
-          "hook": "Scientists have identified dozens of novel genetic loci driving kidney failure in sickle cell disease \u2014 and they're distinct from the genes that cause kidney damage in the general population.",
-          "pitch_angle": "Using an ancestry-aware analytical method that accounts for the African and European genetic ancestry of SCD patients, researchers uncovered 50 genomic regions linked to declining kidney function. The finding challenges the assumption that standard kidney disease biology applies to sickle cell patients and proposes new molecular targets for early intervention in a condition that drives early mortality."
-        },
-        {
-          "publication_type": "General health",
-          "headline": "Why kidney disease in sickle cell patients is different \u2014 and why that matters for treatment",
-          "hook": "New genetic research suggests that the kidney damage seen in sickle cell disease is biologically distinct from ordinary kidney failure \u2014 and may require its own targeted therapies.",
-          "pitch_angle": "A large genome-wide study found 50 novel genetic regions associated with kidney dysfunction specifically in sickle cell disease, involving pathways unique to the condition such as iron metabolism and inflammatory signaling. For the 100,000 Americans with sickle cell disease, the finding suggests that treating their kidney complications the same way as other patients' may miss the mark."
-        }
-      ],
-      "run_date": "2026-08-26",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
       "status": "new"
     },
     {
