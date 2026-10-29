@@ -1,132 +1,378 @@
 {
-  "last_updated": "2026-10-28T16:38:28.269679+00:00",
-  "total_studies": 369,
-  "new_this_run": 5,
+  "last_updated": "2026-10-29T16:46:29.988211+00:00",
+  "total_studies": 376,
+  "new_this_run": 9,
   "studies": [
     {
+      "pmid": "42951709",
+      "headline": "A new trial is testing whether antibiotics can outsmart the bacteria living inside pancreatic tumors that are quietly sabotaging chemotherapy",
+      "journal": "Digestive and Liver Disease",
+      "pubdate": "2026 Oct 28",
+      "doi": "10.1016/j.dld.2026.10.006",
+      "groundbreaking": "Major dietary or microbiome implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "PANORAMIX is a multicenter, proof-of-concept phase II trial across 18 French centers designed to test two strategies in metastatic pancreatic ductal adenocarcinoma (mPDAC): switching from full NALIRIFOX to maintenance 5-FU chemotherapy after 8 cycles, and whether adding ciprofloxacin to second-line gemcitabine-based therapy can overcome resistance by targeting intratumoral Gammaproteobacteria that inactivate gemcitabine. The trial will enroll up to 108 patients in Step 1 and 92 in Step 2, with primary endpoints of 6-month progression-free survival and 6-month overall survival respectively. Results are not yet reported \u2014 this is a trial design publication.",
+      "why_it_matters": "This trial directly tests whether the bacteria living inside pancreatic tumors drive chemotherapy resistance \u2014 a finding that, if confirmed, could reshape how one of the deadliest cancers is treated.",
+      "caveats": "preprint, no results reported yet (trial protocol publication only), industry funding [Servier, AstraZeneca noted in COI]",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Microbiome-cancer-treatment link; strong clinical and public interest angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The Bacteria Living Inside Pancreatic Tumors May Be Helping Them Resist Chemotherapy",
+          "hook": "A new French clinical trial is testing one of the most provocative ideas in cancer biology: that gut-related bacteria hiding inside pancreatic tumors quietly disarm the drugs meant to kill them.",
+          "pitch_angle": "Researchers have identified a group of bacteria \u2014 Gammaproteobacteria \u2014 that may neutralize gemcitabine, a frontline pancreatic cancer drug, by producing an enzyme that chemically inactivates it; the PANORAMIX trial will test whether a common antibiotic can level the playing field. If the hypothesis holds, it would mean the microbiome's influence on treatment outcomes extends far beyond the gut itself."
+        },
+        {
+          "publication_type": "Gastroenterology & Endoscopy News",
+          "headline": "French Phase II Trial Tests Ciprofloxacin as Chemosensitizer in Metastatic Pancreatic Cancer",
+          "hook": "PANORAMIX is the first trial designed to prospectively test whether targeting intratumoral Gammaproteobacteria with fluoroquinolones can restore gemcitabine sensitivity in mPDAC.",
+          "pitch_angle": "The two-step randomized design also evaluates a maintenance 5-FU strategy after NALIRIFOX induction, addressing two unresolved questions in pancreatic cancer management simultaneously. Gastroenterologists and oncologists managing mPDAC should watch for early results, as microbiota-driven chemoresistance may represent a modifiable treatment target."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Gastroenterology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
       "pmid": "42825548",
-      "headline": "Climate change and falling human body temperatures may be creating a perfect opening for new fungal superbugs",
+      "headline": "Climate change and falling human body temperatures may be opening the door to a new era of deadly fungal infections",
       "journal": "mSphere",
       "pubdate": "2026 Oct 27",
       "doi": "10.1128/msphere.00109-26",
       "groundbreaking": "Counterintuitive finding / Major dietary or microbiome implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a review paper, researchers at the University of W\u00fcrzburg examined the evolutionary biology and clinical significance of Candida auris, a multidrug-resistant fungal pathogen with 30\u201360% mortality in invasive infections. They argue that C. auris's independent emergence on multiple continents implicates rising environmental temperatures \u2014 combined with a documented decline in average human basal body temperature \u2014 as a dual pressure eroding the thermal barrier that has historically protected mammals from fungal disease. No new human subjects data were generated; this is a narrative and theoretical review.",
-      "why_it_matters": "The idea that our bodies' own dropping baseline temperatures could be quietly lowering our defenses against a growing class of heat-adapted fungal pathogens is a provocative lens on why deadly drug-resistant fungi are emerging now.",
-      "caveats": "observational design, no primary data collected, theoretical/review paper, no clinical outcomes measured",
+      "summary": "Researchers at the University of W\u00fcrzburg reviewed the evolutionary biology, ecology, and clinical significance of Candida auris \u2014 a multidrug-resistant fungal pathogen with 30\u201360% mortality in invasive infections \u2014 proposing that its simultaneous emergence on multiple continents as genetically distinct clades reflects shared environmental selective pressures rather than clonal spread. The review argues that two converging forces \u2014 rising environmental temperatures due to climate change and a documented secular decline in human basal body temperature \u2014 are eroding the thermal barrier that has historically protected mammals from fungal pathogens. The authors contend that C. auris may be the first of many fungi adapting to breach mammalian thermal defenses, and call for predictive frameworks for fungal disease emergence.",
+      "why_it_matters": "The simultaneous erosion of two evolutionary defenses \u2014 high body temperature and climate-constrained fungal growth \u2014 suggests the emergence of C. auris may signal a broader, climate-driven shift in human vulnerability to fungal disease.",
+      "caveats": "observational design, review article (no primary data), no clinical outcomes measured, theoretical/modeling framework",
       "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Compelling public health angle but a review with no primary data; tangential to gut/digestive focus.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive climate-fungal immunity link; review only, no primary data.",
       "pitch_angles": [
         {
           "publication_type": "The Atlantic",
-          "headline": "Our Bodies Are Getting Cooler \u2014 and That Might Be Letting Killer Fungi In",
-          "hook": "Human basal body temperature has been quietly falling for over a century, and a new review suggests that trend \u2014 combined with warming environments \u2014 may be helping drug-resistant fungi breach one of our oldest biological defenses.",
-          "pitch_angle": "Candida auris arose independently on four continents in what researchers describe as a convergent evolutionary response to shared environmental pressures; the review argues this pathogen may be a preview of a broader fungal threat, with sobering implications for hospital infection control and global health preparedness."
+          "headline": "Your Body Temperature Is Dropping. Fungi Are Noticing.",
+          "hook": "For millions of years, running a fever-level baseline temperature kept fungi from colonizing the human body \u2014 but that biological firewall may be weakening from two directions at once.",
+          "pitch_angle": "A new review argues that C. auris's simultaneous emergence on multiple continents isn't coincidence \u2014 it's early evidence that climate change and a measurable decline in human body temperature are together dismantling the thermal immunity mammals evolved against fungal pathogens. The implications extend well beyond one drug-resistant yeast, pointing toward a potentially unprecedented era of emerging fungal disease."
+        },
+        {
+          "publication_type": "General health",
+          "headline": "A Drug-Resistant Fungus With 30\u201360% Mortality Is Spreading \u2014 and Climate Change May Explain Why",
+          "hook": "Candida auris appeared independently on four continents within years of each other, a pattern scientists say points to something in our shared environment \u2014 not a single outbreak source.",
+          "pitch_angle": "Researchers suggest that warming global temperatures are allowing heat-sensitive fungi to survive and adapt at human body temperature, while a documented drop in average human basal body temperature chips away at our natural thermal defense. C. auris, already resistant to all three major antifungal drug classes, may be the first signal of a broader fungal threat to come."
         }
       ],
-      "run_date": "2026-10-28",
+      "run_date": "2026-10-29",
       "category": "Microbiology",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42944857",
-      "headline": "Stopping biologic drugs early in pregnancy may not dramatically raise IBD relapse risk \u2014 but the evidence is still thin",
+      "headline": "Stopping IBD Biologics Early in Pregnancy May Not Dramatically Raise Relapse Risk, Small Study Finds",
       "journal": "Scandinavian Journal of Gastroenterology",
       "pubdate": "2026 Oct 27",
       "doi": "10.1080/00365521.2026.2748849",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "groundbreaking": "Major dietary or microbiome implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers retrospectively analyzed 185 pregnancies in 143 women with IBD followed at a single Belgian university hospital from 2010\u20132023, comparing outcomes in those who discontinued biologic therapy before gestational week 20 versus those who continued. Among the 80 women who stopped biologics before GW20, the disease flare rate was 17.5%, compared with 40% in the 10 who continued \u2014 though the difference was not statistically significant (p=0.11). Cord blood measurements in five prospectively sampled cases showed low residual biologic levels, suggesting minimal fetal drug exposure when therapy is stopped early.",
-      "why_it_matters": "For women with IBD in sustained remission who are concerned about fetal drug exposure, stopping biologics before active placental transfer may represent a cautious middle-ground option \u2014 though larger prospective data are still needed before this can be widely recommended.",
-      "caveats": "small sample (N<100), observational design, single-center, retrospective design, very small cord blood subsample (n=5), continued-treatment comparison group extremely small (n=10)",
-      "fact_check_note": "The abstract reports a flare rate of 17.5% in the discontinuation group and 40% in the continuation group, but the difference was not statistically significant (p=0.11) \u2014 this non-significance must be preserved in any coverage.",
+      "summary": "Researchers conducted a retrospective single-center study of 185 pregnancies in 143 women with IBD at a Belgian university hospital (2010\u20132023), examining outcomes when biologic therapy was stopped before gestational week 20. Among 80 women who discontinued biologics before GW20 while in remission, 17.5% experienced a disease flare \u2014 compared with 40% in the small group (n=10) who continued \u2014 though the difference was not statistically significant (p=0.11). Fetal drug exposure appeared low, with detectable cord blood levels found in only one ustekinumab case.",
+      "why_it_matters": "For IBD patients navigating the fraught decision of whether to continue biologic therapy during pregnancy, this early data suggests stopping before active placental transfer may be a viable harm-reduction strategy for those already in sustained remission \u2014 though larger prospective studies are urgently needed.",
+      "caveats": "small sample (N<100 in key subgroups), observational design, single-center, retrospective, short follow-up, 10-patient comparator group severely underpowered",
+      "fact_check_note": "",
       "relevance_score": 6,
-      "relevance_score_reason": "Clinically relevant IBD-pregnancy question; small retrospective sample limits strength of conclusions.",
+      "relevance_score_reason": "Clinically relevant IBD pregnancy question; limited by small, retrospective, single-center design.",
       "pitch_angles": [
         {
           "publication_type": "Gastroenterology & Endoscopy News",
-          "headline": "Early Biologic Discontinuation in IBD Pregnancy: Relapse Risk May Be Lower Than Expected",
-          "hook": "A retrospective study suggests that stopping biologic therapy before gestational week 20 in IBD patients in remission is associated with a flare rate of only 17.5% \u2014 and minimal detectable drug in cord blood.",
-          "pitch_angle": "Current guidelines recommend continuing biologics throughout pregnancy, but many patients remain reluctant due to concerns about fetal exposure; this single-center Belgian cohort study, while limited by small numbers, offers early evidence that carefully timed discontinuation may be a viable strategy worth evaluating in larger prospective trials."
+          "headline": "Stopping Biologics Before GW20 Linked to 17.5% Flare Rate in IBD Pregnancies \u2014 But Fetal Exposure May Be Minimal",
+          "hook": "A Belgian retrospective study suggests discontinuing biologics in the first trimester may not significantly raise relapse risk for IBD patients already in sustained remission.",
+          "pitch_angle": "With most current guidelines recommending continuation of biologics through pregnancy, this small but carefully measured study offers preliminary data that early discontinuation \u2014 before active placental drug transfer \u2014 may represent a reasonable compromise for select patients; the near-absent cord blood drug levels add a compelling fetal safety signal worth tracking in larger prospective work."
+        },
+        {
+          "publication_type": "Everyday Health / Verywell Health",
+          "headline": "If You Have IBD and Are Pregnant, Here's What a New Study Says About Stopping Your Medication Early",
+          "hook": "Many people with Crohn's disease or ulcerative colitis worry about exposing their baby to biologic drugs \u2014 and a new study begins to quantify what stopping early actually means for disease control.",
+          "pitch_angle": "The study found that IBD patients in remission who stopped biologics before week 20 of pregnancy had a roughly 1-in-6 chance of a disease flare, and fetal drug exposure appeared very low \u2014 but experts stress this is preliminary, retrospective data from a single hospital, and patients should not change medication plans without their gastroenterologist's input."
         }
       ],
-      "run_date": "2026-10-28",
+      "run_date": "2026-10-29",
       "category": "Gastroenterology",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42929334",
-      "headline": "Crohn's disease can appear as chronic vulvar swelling in girls \u2014 years before any gut symptoms show up",
+      "headline": "Crohn's Disease Can Show Up in the Vulva \u2014 and Is Often Mistaken for Something Else for Years",
       "journal": "Journal of Pediatric Gastroenterology and Nutrition",
       "pubdate": "2026 Oct 26",
       "doi": "10.1002/jpn3.70631",
-      "groundbreaking": "Counterintuitive finding / Major dietary or microbiome implication",
+      "groundbreaking": "Counterintuitive finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a narrative literature review identifying 56 pediatric cases of vulvar Crohn's disease, supplemented by a single case report of a 13-year-old with a 3-year diagnostic delay. In most cases, vulvar manifestations \u2014 most commonly painless swelling \u2014 preceded intestinal diagnosis and were frequently independent of gastrointestinal disease activity. The review found that early recognition using a multidisciplinary approach and, in refractory cases, anti-TNF-\u03b1 biologic therapy was essential to prevent irreversible tissue damage.",
-      "why_it_matters": "Girls presenting with chronic, unexplained vulvar swelling or fissures may be experiencing an early or isolated manifestation of Crohn's disease, suggesting that pediatric providers outside gastroenterology need greater awareness of this presentation to reduce diagnostic delays.",
-      "caveats": "small sample (N<100), observational design, single-center, narrative review methodology",
+      "summary": "Italian researchers reported a case of a 13-year-old girl with a 3-year diagnostic odyssey of vulvar swelling, erythema, and fissures before biopsy revealed metastatic Crohn's disease, then conducted a narrative literature review identifying 56 pediatric cases of vulvar Crohn's disease. In the majority of reviewed cases, vulvar symptoms preceded intestinal Crohn's diagnosis and were frequently independent of gastrointestinal disease activity. Most refractory cases ultimately required escalation to anti-TNF-\u03b1 biologic therapy.",
+      "why_it_matters": "Vulvar Crohn's disease is a largely unrecognized extraintestinal manifestation that can appear years before gut symptoms in children, and earlier recognition could prevent years of diagnostic delay and irreversible tissue damage.",
+      "caveats": "small sample (N<100), narrative review (not systematic meta-analysis), case report anchor, retrospective literature synthesis, pediatric population only",
       "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Clinically important Crohn's finding but niche pediatric/dermatology audience; no diet or microbiome angle.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clinically important awareness topic; limited by case report and narrative review design.",
       "pitch_angles": [
         {
-          "publication_type": "Gastroenterology & Endoscopy News",
-          "headline": "Vulvar Swelling May Be the First Sign of Crohn's in Girls \u2014 and It's Often Missed for Years",
-          "hook": "A literature review of 56 pediatric cases found that vulvar Crohn's disease typically appears before any gastrointestinal symptoms \u2014 and is routinely misdiagnosed.",
-          "pitch_angle": "Clinicians outside gastroenterology rarely consider Crohn's when evaluating chronic vulvar swelling in girls, leading to years of diagnostic delay; this review outlines the clinical, endoscopic, and histological criteria that can accelerate diagnosis and prevent irreversible tissue damage."
-        },
-        {
           "publication_type": "Health.com / Everyday Health",
-          "headline": "Crohn's Disease Can Show Up in Unexpected Places \u2014 Including Outside the Gut",
-          "hook": "For some girls, the first sign of Crohn's disease isn't stomach pain or diarrhea \u2014 it's unexplained, persistent swelling in the vulvar region.",
-          "pitch_angle": "A review of 56 pediatric cases found that so-called 'metastatic' Crohn's affecting vulvar tissue often precedes any intestinal diagnosis by years, highlighting how broadly this inflammatory disease can affect the body and why persistent unexplained skin symptoms warrant a thorough workup."
+          "headline": "Crohn's Disease Can Cause Genital Symptoms \u2014 and Doctors Often Miss It for Years",
+          "hook": "A new review of 56 pediatric cases finds that Crohn's disease can first appear as chronic vulvar swelling and skin changes \u2014 often years before any gut symptoms emerge.",
+          "pitch_angle": "Dubbed 'metastatic' or vulvar Crohn's disease, this poorly recognized extraintestinal manifestation is frequently misdiagnosed as a skin condition or infection, leading to years of inappropriate treatment \u2014 raising important awareness questions for both patients and clinicians about the many faces of inflammatory bowel disease."
         }
       ],
-      "run_date": "2026-10-28",
+      "run_date": "2026-10-29",
       "category": "Gastroenterology",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42933673",
-      "headline": "A tasty, healthy diet cuts a key Crohn's inflammation marker by 61% in people genetically at risk \u2014 before they ever develop the disease",
+      "headline": "A 'Tasty and Healthy' Diet Cuts Gut Inflammation Markers in People Genetically at Risk for Crohn's Disease",
       "journal": "Gastroenterology",
       "pubdate": "2026 Oct 26",
       "doi": "10.1053/j.gastro.2026.10.376",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study / Major dietary or microbiome implication",
+      "groundbreaking": "First-in-class human study / Major dietary or microbiome implication / Counterintuitive finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "The PIONIR randomized crossover trial enrolled 29 first-degree relatives of Crohn's disease patients who had persistently elevated fecal calprotectin (>70 \u00b5g/g) but no diagnostic endoscopic evidence of disease, randomizing them to 8 weeks of the 'Tasty & Healthy' (T&H) anti-inflammatory diet or their habitual diet before crossing over. After 8 weeks on the T&H diet, median fecal calprotectin fell 61% (from 185 to 72 \u00b5g/g), compared with 38% on the habitual diet, and 71% of T&H participants achieved a \u226550% reduction versus 27% on the habitual diet. Six microbial species differed between the two diet periods after statistical correction, though whether these microbiome shifts drive the anti-inflammatory effect remains unclear.",
-      "why_it_matters": "This is among the first RCT evidence that a dietary intervention can measurably reduce gut inflammation in people who are at high genetic risk for Crohn's disease but have not yet been diagnosed, raising the possibility that diet could be used to delay or prevent IBD onset.",
-      "caveats": "small sample (N<100), short follow-up, single-center elements within multicenter design, microbiome data only (no clinical outcomes), crossover design may carry carryover effects",
+      "summary": "The PIONIR randomized crossover trial enrolled 29 first-degree relatives of Crohn's disease patients who had persistently elevated fecal calprotectin (FC >70 \u00b5g/g) but no confirmed Crohn's diagnosis, assigning them to an 8-week 'Tasty and Healthy' (T&H) dietary intervention or habitual diet before crossing over. After 8 weeks, median FC was significantly lower on the T&H diet (64 \u00b5g/g) versus habitual diet (112 \u00b5g/g; p=0.022), and 71% of T&H participants achieved a \u226550% FC reduction versus 27% on habitual diet. Overall, FC declined an estimated 37% more with T&H than habitual diet, and six gut microbial species differed between conditions \u2014 with 83% of participants reporting good or complete adherence.",
+      "why_it_matters": "This is among the first RCT evidence that a specific dietary pattern can reduce intestinal inflammation in genetically at-risk individuals before Crohn's disease develops, raising the possibility that diet could one day be used as a prevention strategy in high-risk families.",
+      "caveats": "small sample (N<100), short follow-up, 16S or shotgun sequencing method for microbiome not specified in abstract, microbiome data only (no clinical outcomes \u2014 no participants developed Crohn's during trial), crossover design carries carryover risk",
       "fact_check_note": "",
       "relevance_score": 9,
-      "relevance_score_reason": "First RCT on dietary IBD prevention in at-risk humans; strong counterintuitive finding, clean design, gut-microbiome link.",
+      "relevance_score_reason": "First RCT on diet for Crohn's prevention in high-risk individuals; published in Gastroenterology; strong everyday relevance.",
       "pitch_angles": [
         {
-          "publication_type": "EatingWell / Well+Good",
-          "headline": "A Specific Anti-Inflammatory Diet Cut a Key Crohn's Marker by More Than Half in People at High Risk \u2014 Before They Got Sick",
-          "hook": "For people with a family history of Crohn's disease, eating a particular style of anti-inflammatory diet for just 8 weeks dramatically reduced a biological marker of gut inflammation.",
-          "pitch_angle": "The PIONIR trial found that first-degree relatives of Crohn's patients who followed the 'Tasty & Healthy' diet saw fecal calprotectin \u2014 a validated marker of intestinal inflammation \u2014 drop 61%, compared with 38% on their usual diet; with 83% of participants reporting good adherence, the findings suggest that an enjoyable dietary shift could one day be part of an IBD prevention strategy."
+          "publication_type": "The Atlantic",
+          "headline": "Can Diet Prevent Crohn's Disease Before It Starts?",
+          "hook": "A randomized trial found that a specific eating pattern cut gut inflammation markers by 37% in people whose family history puts them at high risk for Crohn's \u2014 before they ever develop the disease.",
+          "pitch_angle": "The PIONIR trial is a rare attempt to intervene at the very earliest stage of IBD risk \u2014 not treating disease, but trying to stop it from ever emerging \u2014 and its success in reducing fecal calprotectin in just 8 weeks challenges the assumption that Crohn's is an inevitable genetic fate; the findings open a larger conversation about whether inflammatory bowel disease is partly a diet-modifiable condition."
         },
         {
-          "publication_type": "The Atlantic / General health",
-          "headline": "Can You Diet Your Way Out of Crohn's Disease Before It Starts?",
-          "hook": "A small but rigorous clinical trial suggests that people genetically predisposed to Crohn's disease may be able to meaningfully reduce gut inflammation through diet alone \u2014 raising the provocative question of whether IBD is partially preventable.",
-          "pitch_angle": "The PIONIR crossover RCT enrolled healthy first-degree relatives of Crohn's patients \u2014 people with elevated inflammatory markers but no diagnosis \u2014 and found that an 8-week anti-inflammatory diet produced striking reductions in fecal calprotectin; while the trial was small and follow-up short, it opens a new front in IBD research: prevention, not just treatment."
+          "publication_type": "EatingWell / Well+Good",
+          "headline": "People at High Risk for Crohn's Disease Saw Gut Inflammation Drop Significantly After 8 Weeks on This Diet",
+          "hook": "A new clinical trial found that a palatable, adherence-friendly diet slashed a key gut inflammation marker by more than half in most high-risk participants \u2014 and the majority said the diet was actually enjoyable.",
+          "pitch_angle": "The 'Tasty and Healthy' diet \u2014 designed to be both anti-inflammatory and actually appealing \u2014 reduced fecal calprotectin levels in 71% of participants with elevated gut inflammation and a family history of Crohn's, suggesting that dietary change may be a realistic and sustainable tool for gut health even in those most vulnerable to inflammatory bowel disease."
         },
         {
           "publication_type": "Gastroenterology & Endoscopy News",
-          "headline": "PIONIR RCT: Dietary Intervention Reduces Fecal Calprotectin in Pre-Clinical Crohn's Risk Population",
-          "hook": "The PIONIR trial is the first randomized crossover evidence that a structured dietary intervention can significantly reduce fecal calprotectin in first-degree relatives of Crohn's patients who carry subclinical intestinal inflammation.",
-          "pitch_angle": "Twenty-nine high-risk FDRs with FC >70 \u00b5g/g but no endoscopic CD diagnosis showed a 61% estimated marginal mean reduction in FC on the Tasty & Healthy diet versus 38% on habitual diet (p<0.001), with six gut microbial species differing between conditions \u2014 positioning diet as a candidate tool for IBD primary prevention trials."
+          "headline": "RCT Shows 'Tasty and Healthy' Diet Reduces Fecal Calprotectin 37% More Than Habitual Diet in High-Risk Crohn's FDRs",
+          "hook": "The PIONIR crossover trial provides the first RCT evidence that a structured dietary intervention can meaningfully reduce subclinical intestinal inflammation in first-degree relatives of Crohn's patients.",
+          "pitch_angle": "With 71% of T&H-arm participants achieving \u226550% FC reduction versus 27% on habitual diet, and six gut microbial species differing between arms, the trial supports longer-term prevention trials in this population \u2014 though the small N of 29 and short 8-week windows limit definitive conclusions about Crohn's incidence prevention."
         }
       ],
-      "run_date": "2026-10-28",
+      "run_date": "2026-10-29",
       "category": "Gastroenterology",
       "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42933650",
+      "headline": "A fingerprick blood test accurately detects vitamin A deficiency in young children \u2014 no correction factors needed",
+      "journal": "The Journal of Nutrition",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1016/j.tjnut.2026.101908",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Beijing evaluated a correction-free dried blood spot (DBS) method for measuring retinol (vitamin A) levels in 85 children under age 9, comparing results against paired plasma samples. DBS and plasma retinol showed high agreement (ICC 0.918), with the DBS method correctly classifying vitamin A inadequacy with 92.9% accuracy. The method also demonstrated high reproducibility across three laboratory sites, suggesting it could feasibly replace venous blood draws in large-scale pediatric surveillance.",
+      "why_it_matters": "A reliable fingerprick test for vitamin A deficiency could make large-scale nutritional screening in children far more feasible in low-resource or field settings globally.",
+      "caveats": "small sample (N<100), single-center, China-based pediatric population, field validation not yet completed",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Methodological nutrition surveillance study; low everyday relevance for gut/diet readership.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "A Simple Fingerprick Test Could Replace Costly Blood Draws to Screen Kids for Vitamin A Deficiency",
+          "hook": "A new dried blood spot method detected vitamin A deficiency in children with over 92% accuracy \u2014 without the correction factors that have long complicated field use.",
+          "pitch_angle": "The study found the minimally invasive test closely matched results from standard venous plasma sampling in children under 9, with high reproducibility across three labs. If validated in the field, it could transform nutritional surveillance in settings where venous sampling is impractical."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Nutritional Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42933537",
+      "headline": "Some babies are born 'metabolically thrifty' \u2014 and that may quietly set the stage for obesity before age 3 months",
+      "journal": "The American Journal of Clinical Nutrition",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1016/j.ajcnut.2026.101600",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Pennington Biomedical Research Center used doubly labeled water and a novel infant metabolic chamber to precisely measure total daily and sleeping energy expenditure in infants under 3 months old. They found that 40% of infants had a 'thrifty' energy phenotype \u2014 sleeping energy expenditure lower than predicted for their age, sex, and body composition \u2014 suggesting meaningful metabolic variation exists from birth. The 2023 Dietary Reference Intakes for infants also showed a mean prediction error of 10% when tested against this cohort, suggesting current feeding recommendations may not fit all infants equally.",
+      "why_it_matters": "Early evidence that metabolic 'thriftiness' is detectable in newborns suggests that a one-size-fits-all approach to infant feeding recommendations may not adequately account for individual obesity risk from birth.",
+      "caveats": "small sample (N<100), single-center, observational design, short follow-up, no long-term obesity outcome data",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive early-life metabolic finding; small sample, no gut or microbiome angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / General health",
+          "headline": "Babies Are Born With Different Metabolisms \u2014 and It May Predict Obesity Risk",
+          "hook": "Scientists can now measure how efficiently a newborn burns calories while sleeping, and 40% of infants in a new study were classified as metabolically 'thrifty' \u2014 burning less energy than expected for their body size.",
+          "pitch_angle": "Using gold-standard metabolic measurement tools rarely applied to infants, researchers found wide variation in energy expenditure in babies under 3 months old, raising the possibility that obesity risk is partly set before solid food is ever introduced. The finding also suggests that national infant feeding recommendations may systematically over- or underestimate calorie needs for a large share of babies."
+        },
+        {
+          "publication_type": "EatingWell / Parents-adjacent health",
+          "headline": "Standard Infant Feeding Guidelines May Not Work for All Babies, New Metabolism Study Finds",
+          "hook": "A new study found that current dietary recommendations for infants had a 10% average prediction error \u2014 because babies' calorie needs vary far more than guidelines assume.",
+          "pitch_angle": "Researchers found that 4 in 10 infants have a naturally lower metabolic rate than expected, suggesting that blanket feeding recommendations may not suit every child. The early-stage research points toward a future of more personalized infant nutrition, though long-term outcomes have not yet been studied."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Nutritional Sciences",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42926060",
+      "headline": "BMI misses sarcopenic obesity entirely in kids with kidney disease \u2014 only body composition scans catch it",
+      "journal": "Clinical Nutrition ESPEN",
+      "pubdate": "2026 Oct 24",
+      "doi": "10.1016/j.clnesp.2026.105206",
+      "groundbreaking": "Counterintuitive finding / Major dietary or microbiome implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a cross-sectional study of 128 children aged 3\u201316 with idiopathic nephrotic syndrome in remission in India, measuring body composition by both DXA and bioelectrical impedance analysis (BIA). Sarcopenic obesity (simultaneous low muscle mass and excess fat) was found in 17.2% of children by DXA \u2014 but zero children were flagged by BMI-based criteria, meaning standard clinical screening completely missed every case. BIA correlated well with DXA for ranking continuous body composition but had 0% sensitivity for identifying DXA-confirmed sarcopenic obesity.",
+      "why_it_matters": "For children with chronic kidney disease, relying on BMI alone may leave a significant nutritional complication \u2014 simultaneous muscle loss and fat gain \u2014 entirely undetected.",
+      "caveats": "small sample (N<100 for key subgroup analysis, N=92), observational design, single-center, cross-sectional, India-specific reference standards, no functional muscle assessment",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Pediatric nephrology niche; no diet, microbiome, or gut angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health / Everyday Health",
+          "headline": "BMI Can't Detect a Hidden Body Composition Problem in Kids With Kidney Disease",
+          "hook": "Standard weight-based screening missed every single case of sarcopenic obesity in a study of children with nephrotic syndrome.",
+          "pitch_angle": "Researchers found that BMI flagged zero cases of sarcopenic obesity in kids with a common chronic kidney condition, while DXA body scans identified it in roughly 1 in 6. The finding suggests that weight alone is an unreliable proxy for nutritional health in children with chronic disease."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Nutritional Sciences",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42910930",
+      "headline": "Surprising gut finding: being colonized by just one Klebsiella strain raises infection risk more than carrying multiple strains",
+      "journal": "mSphere",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.1128/msphere.00329-26",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers developed a new amplicon-based sequencing tool called wzi-Seq to detect and quantify multiple Klebsiella pneumoniae strains in gut samples, then applied it to rectal swabs from 171 hospitalized patients. They found that 63% of patients carried just one Klebsiella strain (mono-colonized), while 37% carried multiple strains simultaneously. Counterintuitively, mono-colonized patients had a significantly higher risk of developing a Klebsiella infection than those with mixed colonization (P=0.034).",
+      "why_it_matters": "This finding suggests that gut microbial diversity \u2014 even among a single pathogen species \u2014 may influence whether a hospital patient develops a dangerous infection, opening new directions for infection risk assessment.",
+      "caveats": "single-center, observational design, small sample (N=171), microbiome data only (no clinical outcomes beyond infection status), secondary analysis of archived samples",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive human gut colonization finding; hospital-focused but microbiome-relevant.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The Gut Microbiome Twist: Why Carrying More Dangerous Bacteria May Actually Protect You",
+          "hook": "A new study found that hospital patients colonized by just one strain of a drug-resistant gut bacterium were more likely to develop a serious infection than those carrying multiple strains \u2014 flipping the common assumption that more bacteria means more danger.",
+          "pitch_angle": "Researchers used a novel rapid-sequencing tool to map Klebsiella populations in patients' guts and found that microbial diversity within a single species may be protective \u2014 a finding that challenges how clinicians think about infection risk and could reshape hospital surveillance strategies."
+        },
+        {
+          "publication_type": "Gastroenterology & Endoscopy News",
+          "headline": "Novel wzi-Seq Tool Reveals Mono-Colonization With Klebsiella Significantly Elevates Infection Risk in Hospitalized Patients",
+          "hook": "A new amplicon sequencing method capable of distinguishing multiple Klebsiella strains in gut samples found that patients harboring a single gut strain faced significantly greater risk of extraintestinal Klebsiella infection than those with mixed colonization.",
+          "pitch_angle": "The wzi-Seq technique \u2014 validated against culture data with 90.8% concordance \u2014 offers a rapid, scalable approach to characterizing gut Klebsiella populations, potentially enabling targeted infection-prevention interventions in high-risk hospitalized patients."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Microbiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42908199",
+      "headline": "\"Everything in moderation\" messaging may be failing Australians \u2014 social action challenges could do better",
+      "journal": "Public Health Nutrition",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.1017/S1368980026103656",
+      "groundbreaking": "Major dietary or microbiome implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Australian researchers from CSIRO examined whether socially driven behavioral action challenges \u2014 think step-count challenges or sugar-free month campaigns \u2014 could outperform standard moderation messaging in reducing discretionary food intake. The study is a commentary or conceptual analysis rather than a clinical trial, focused on the Australian food environment and public health context. The authors argue that moderation messaging has limited efficacy and that structured social challenges may offer a more actionable alternative.",
+      "why_it_matters": "If social challenge frameworks prove more effective than moderation messaging, they could reshape how public health campaigns approach ultra-processed and discretionary food consumption.",
+      "caveats": "observational design, single-center, narrow to Australia-specific food policy context \u2014 no trial data on outcomes",
+      "fact_check_note": "Abstract contains no N or trial design \u2014 this appears to be a commentary or opinion piece, not an interventional study. Summary reflects that limitation.",
+      "relevance_score": 4,
+      "relevance_score_reason": "Policy commentary, no human trial data, Australia-specific food messaging context.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "Why 'Everything in Moderation' May Be the Worst Nutrition Advice You Keep Getting",
+          "hook": "Australian public health researchers say moderation messaging is largely ineffective \u2014 and suggest social challenge frameworks may be a better tool for cutting junk food intake.",
+          "pitch_angle": "Researchers from CSIRO argue that vague calls for moderation around discretionary foods don't translate into behavior change, while structured social challenges may offer clearer, community-driven nudges. The piece explores what it would take to implement these approaches at a population level."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Nutritional Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42921938",
+      "headline": "Food-insecure nutrition students eat less sustainably and feel more eco-anxious \u2014 pointing to a stress-diet-environment feedback loop",
+      "journal": "Journal of the Science of Food and Agriculture",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.1002/jsfa.71152",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A multicenter cross-sectional study of 2,027 nutrition and dietetics students across T\u00fcrkiye found that nearly one-third (31.9%) reported food insecurity. Food-insecure students scored lower on sustainable and healthy eating behavior scales, reported significantly higher eco-anxiety, and had lower life satisfaction compared to food-secure peers \u2014 associations that held after multivariable adjustment. Effect sizes were small to moderate (R\u00b2 0.04\u20130.13), and the cross-sectional design does not allow causal inference.",
+      "why_it_matters": "The finding that even students trained in nutrition face food insecurity \u2014 and that this is linked to reduced sustainable eating and heightened environmental anxiety \u2014 suggests that knowledge alone doesn't protect against structural food access barriers.",
+      "caveats": "observational design, self-reported dietary intake, single-region population (T\u00fcrkiye), student sample limits generalizability, cross-sectional \u2014 no causal inference possible",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Large N, counterintuitive student-nutritionist population, but observational and regionally specific.",
+      "pitch_angles": [
+        {
+          "publication_type": "Well+Good",
+          "headline": "Eco-Anxiety and Food Insecurity Are More Linked Than We Realized \u2014 Even Among People Who Study Nutrition",
+          "hook": "A study of over 2,000 nutrition students found that those who were food insecure felt significantly more eco-anxious and ate less sustainably \u2014 even though they had more nutritional knowledge than most.",
+          "pitch_angle": "The research suggests that structural barriers to food access may fuel a cycle of environmental anxiety and poorer dietary choices, regardless of nutritional awareness. It reframes eco-anxiety not just as a climate communication issue, but as one tied to food security and daily lived experience."
+        },
+        {
+          "publication_type": "The Atlantic",
+          "headline": "Knowing More About Nutrition Doesn't Protect You From Food Insecurity \u2014 or the Anxiety That Comes With It",
+          "hook": "Nearly a third of nutrition and dietetics students in a large Turkish study were food insecure \u2014 and they were eating less sustainably and feeling worse about the planet.",
+          "pitch_angle": "The study highlights a gap between nutritional knowledge and the structural conditions that shape what people can actually eat, complicating the common assumption that education is the solution to poor diet. It also draws a rarely examined connection between food insecurity and eco-anxiety, suggesting both may share common socioeconomic roots."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Nutritional Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42908974",
+      "headline": "Food chemical intolerance is widely misunderstood \u2014 and even dietitians say they lack the training to manage it",
+      "journal": "Nutrition & Dietetics",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.1111/1747-0080.70099",
+      "groundbreaking": "None",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Australian researchers conducted semi-structured qualitative interviews with 13 people living with food chemical intolerance and 21 dietitians to explore experiences, perceptions, and unmet needs around dietary management. Both groups described significant gaps: patients faced poor awareness from health professionals and limited access to practical resources, while dietitians acknowledged that current evidence is insufficient to guide clinical practice confidently. The study identified 13 major themes highlighting a disconnect between patient need and professional preparedness in managing food chemical intolerance.",
+      "why_it_matters": "Many people with food chemical intolerances \u2014 which can overlap with IBS and other digestive symptoms \u2014 may struggle to access adequate dietary support because even specialized practitioners report insufficient training and evidence to guide them.",
+      "caveats": "small sample (N<100), qualitative design, Australia-specific context, self-reported experiences, no clinical outcome data",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Relevant to gut/digestive symptom audience; qualitative, small, Australia-specific.",
+      "pitch_angles": [
+        {
+          "publication_type": "Well+Good / Healthline",
+          "headline": "If You've Struggled to Get Help for Food Intolerances, You're Not Imagining It \u2014 Even Dietitians Say They're Undertrained",
+          "hook": "A new qualitative study found that dietitians themselves report lacking sufficient evidence and training to confidently manage food chemical intolerances \u2014 a condition that can cause widespread digestive and systemic symptoms.",
+          "pitch_angle": "Interviews with patients and clinicians in Australia revealed a significant gap between how many people experience food chemical intolerance and how well the healthcare system is equipped to help them. Both groups agreed that better research, clearer clinical guidelines, and more accessible resources are urgently needed."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Nutritional Sciences",
+      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -213,39 +459,6 @@
       ],
       "run_date": "2026-10-28",
       "category": "Nutritional Sciences",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42910930",
-      "headline": "Gut bacteria diversity may actually protect against dangerous hospital infections \u2014 at least for Klebsiella",
-      "journal": "mSphere",
-      "pubdate": "2026 Oct 22",
-      "doi": "10.1128/msphere.00329-26",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at the University of Michigan developed a new amplicon-based sequencing method called wzi-Seq to detect and quantify multiple strains of Klebsiella pneumoniae from rectal swab samples, applying it to a cohort of 171 hospitalized patients. They found that 63.2% of patients carried a single Klebsiella strain (mono-colonization) while 36.8% carried multiple strains; in multivariate analysis, mono-colonization was significantly associated with higher risk of developing a Klebsiella infection (P=0.034). The counterintuitive finding suggests that having multiple competing Klebsiella strains in the gut may be protective against invasive infection, echoing broader principles of microbial community diversity.",
-      "why_it_matters": "The finding adds a new dimension to gut microbiome diversity research \u2014 suggesting that even within a single opportunistic pathogen species, strain diversity in the gut may help prevent serious hospital-acquired infections.",
-      "caveats": "small sample (N<100 cases), single-center, observational design, hospital patient population only",
-      "fact_check_note": "N=171 total patients (108 mono-colonized, 63 mixed); the study design is a case-control cohort, not a randomized trial. Finding is associational, not causal.",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive finding with human data; clear gut microbiome diversity implication for hospital infections.",
-      "pitch_angles": [
-        {
-          "publication_type": "Gastroenterology & Endoscopy News",
-          "headline": "Klebsiella Strain Diversity in the Gut Appears to Cut Infection Risk in Hospitalized Patients",
-          "hook": "A novel sequencing tool reveals that hospitalized patients carrying just one strain of Klebsiella in the gut face significantly higher odds of developing a serious Klebsiella infection than those carrying multiple strains \u2014 an unexpected echo of the microbiome diversity-is-protective hypothesis.",
-          "pitch_angle": "Researchers developed the wzi-Seq method to distinguish Klebsiella strains from rectal swabs and found mono-colonization was significantly associated with infection risk in a 171-patient cohort; if validated at scale, strain-level gut profiling could become a tool for flagging high-risk patients before infections take hold."
-        },
-        {
-          "publication_type": "The Atlantic",
-          "headline": "In Hospital Guts, Microbial Diversity May Be a Shield Against Deadly Bacteria",
-          "hook": "Even within a single dangerous species, having more strain variety in your gut appears to protect hospitalized patients from serious infection \u2014 a finding that reframes what 'healthy' gut diversity might mean in a clinical setting.",
-          "pitch_angle": "The study used a new sequencing method to show that patients colonized by just one Klebsiella strain were at higher infection risk than those carrying multiple strains; it's a small but striking data point suggesting that microbial competition inside the gut \u2014 even among pathogens \u2014 may matter as much as what species are present."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Microbiology",
       "chunk": "2/2",
       "status": "new"
     },
