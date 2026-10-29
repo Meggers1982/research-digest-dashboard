@@ -1,33 +1,1005 @@
 {
-  "last_updated": "2026-10-28T16:53:21.431762+00:00",
-  "total_studies": 1336,
+  "last_updated": "2026-10-29T17:03:26.159245+00:00",
+  "total_studies": 1339,
   "new_this_run": 12,
   "studies": [
     {
       "pmid": "42949432",
-      "headline": "Whole-genome sequencing of families with rare eye malformation uncovers unexpected repeat-element instability as a possible cause",
+      "headline": "Whole-genome sequencing of rare eye malformation trios points to unexpected genetic culprits \u2014 including repeat instability near a key developmental gene",
       "journal": "Human Molecular Genetics",
       "pubdate": "2026 Oct 28",
       "doi": "10.1093/hmg/ddag111",
       "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers performed whole-genome sequencing on 10 proband-parent trios (N=30 individuals) to map the genetic landscape of congenital microphthalmia, a rare condition in which babies are born with abnormally small eyes. Analysis identified 45 candidate de novo variants across 37 genes, plus rare recessive variants in ANXA9 and SCARA5, and notably found tandem-repeat length outliers \u2014 including one near the SOX9 gene locus \u2014 in three of the ten patients. The findings suggest that repetitive element instability, not just point mutations, may contribute to this eye malformation's molecular origins.",
-      "why_it_matters": "Identifying repeat-element instability as a potential driver of congenital eye malformations could open new diagnostic avenues for the many families with unexplained microphthalmia who currently receive no genetic answer.",
-      "caveats": "small sample (N=10 trios), single-center, findings require independent cohort validation, predominantly Beijing-based population",
+      "summary": "Researchers performed whole-genome sequencing on 10 proband-parent trios affected by congenital microphthalmia (CMIC), a rare condition where one or both eyes are severely underdeveloped. They identified 45 candidate de novo variants across 37 genes, including novel candidates in POMT1, MYH11, and NR4A1, as well as recessive variants in ANXA9 and SCARA5. Notably, repeat-length instability near the SOX9 developmental gene locus was flagged as a candidate driver in one proband, suggesting regulatory genomic elements may contribute to the condition.",
+      "why_it_matters": "Identifying the genetic architecture of rare congenital eye disorders could eventually improve diagnostic yield for families facing these conditions.",
+      "caveats": "small sample (N<100), single-center, findings require independent validation",
       "fact_check_note": "",
       "relevance_score": 5,
-      "relevance_score_reason": "Niche rare disease genetics; small sample and single-center limit generalizability.",
+      "relevance_score_reason": "Rare disease genetics; very small N=10 trios limits broad audience appeal.",
+      "pitch_angles": [
+        {
+          "publication_type": "Science News / General science",
+          "headline": "Tiny eye malformation has surprisingly complex genetic roots \u2014 including unstable DNA repeats",
+          "hook": "A rare condition that leaves babies born with severely underdeveloped eyes may be driven not just by gene mutations, but by unstable repetitive stretches of DNA near a key developmental switch.",
+          "pitch_angle": "Whole-genome sequencing of families affected by congenital microphthalmia revealed dozens of candidate genetic variants \u2014 including one involving repeat instability near SOX9, a master regulator of organ development. The findings suggest the condition's genetic architecture is far more heterogeneous than previously appreciated, with implications for how rare eye disorders are diagnosed."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42951168",
+      "headline": "A wireless RFID sensor detects toxic cadmium in soil in under two minutes \u2014 no lab required",
+      "journal": "Environmental Research",
+      "pubdate": "2026 Oct 28",
+      "doi": "10.1016/j.envres.2026.126024",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers developed a passive, battery-free RFID-based sensor system using a polyaniline/cysteine sensing element to detect cadmium ions (Cd\u00b2\u207a) in soil extracts. The system achieved a detection limit of 3.81 ppb and produced results within 30\u2013120 seconds across real soil samples, with root mean square errors no greater than 10 \u00b5g/kg. The system requires a soil extraction pretreatment step and cannot directly analyze solid soil matrices.",
+      "why_it_matters": "Cadmium contamination in agricultural soils poses serious risks to food safety and human health, and a rapid, low-cost field detection tool could transform how farmers and regulators screen for it.",
+      "caveats": "single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Practical environmental tool with food safety relevance; lacks human health data and real-world deployment.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired / New Scientist",
+          "headline": "This Credit-Card-Sized RFID Tag Can Sniff Out Toxic Cadmium in Farm Soil in 90 Seconds",
+          "hook": "A new sensor built from a modified RFID tag can detect cadmium contamination in agricultural soil faster than most lab tests \u2014 with no battery and no laboratory needed.",
+          "pitch_angle": "Chinese engineers have repurposed the same wireless technology used in retail inventory tags to build a soil cadmium detector that costs a fraction of conventional methods and gives results in under two minutes. If it scales, it could give smallholder farmers and regulators a practical first-line tool for food safety screening."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42950880",
+      "headline": "Soldiers say battlefield first aid is as much about emotional readiness as technical skill \u2014 and training programs may be missing the point",
+      "journal": "Military Medicine",
+      "pubdate": "2026 Oct 28",
+      "doi": "10.1093/milmed/usag494",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted qualitative semi-structured interviews with 20 Swedish soldiers who had completed international deployments to explore how they perceive and experience providing first aid in combat settings. Five distinct categories of perception emerged: structured basic measures, automatic skills, mental readiness, coordinated effort, and emotional proximity in care. The findings suggest that military first aid extends well beyond technical procedures and encompasses cognitive, interpersonal, and emotional dimensions that current training programs may not adequately address.",
+      "why_it_matters": "As modern conflicts increasingly place soldiers in situations where professional medical care is delayed or unavailable, understanding the psychological and interpersonal dimensions of combat first aid could reshape military medical training worldwide.",
+      "caveats": "small sample (N<100), qualitative design, single-country (Sweden), self-reported outcomes",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Qualitative, small sample, niche military context; limited general science audience hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired",
+          "headline": "The Army Trains Soldiers to Stop Bleeding. It Doesn't Train Them for What Comes Next.",
+          "hook": "Soldiers who've been in combat say the hardest part of giving first aid isn't remembering the steps \u2014 it's the emotional weight of treating a wounded comrade under fire.",
+          "pitch_angle": "Interviews with Swedish combat veterans reveal that military first aid is perceived as a deeply human act involving mental readiness and emotional proximity, not just tourniquet technique. The finding suggests that training programs focused almost exclusively on procedural skills may leave soldiers unprepared for the psychological reality of treating casualties in the field."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Public Health & Epidemiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42825548",
+      "headline": "Climate change and cooling human body temperatures may be converging to open the door to a new wave of fungal pandemics",
+      "journal": "mSphere",
+      "pubdate": "2026 Oct 27",
+      "doi": "10.1128/msphere.00109-26",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a review and theoretical analysis, computational biologists examined the evolutionary biology, ecology, and clinical significance of Candida auris \u2014 a multidrug-resistant fungal pathogen that emerged independently on multiple continents and causes invasive infections with 30\u201360% mortality. The authors argue that C. auris's unique thermotolerance (thriving at 37\u00b0C, surviving up to 47\u00b0C) likely evolved in response to rising environmental temperatures eroding the thermal barrier that normally protects mammals from fungal infection. They further propose that a documented long-term decline in average human basal body temperature compounds this vulnerability, potentially making C. auris a preview of many more fungi adapting to infect humans.",
+      "why_it_matters": "If climate change is actively selecting for fungi capable of surviving at human body temperature, C. auris may be the first of an emerging class of untreatable fungal pathogens \u2014 a slow-moving threat that pandemic preparedness frameworks are not yet designed to address.",
+      "caveats": "observational design, purely computational with no validation",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive climate-health-pandemic nexus; strong public health hook; review without new empirical data.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "Our Bodies Are Getting Cooler. Fungi Are Getting Hotter. That's a Problem.",
+          "hook": "For millions of years, running a fever-warm body temperature was one of humanity's best defenses against fungal infection \u2014 and that defense is quietly eroding from two directions at once.",
+          "pitch_angle": "Climate change is warming the environments where fungi evolve, while human basal body temperatures have measurably declined over the past century, and a new review argues these twin trends may explain why Candida auris \u2014 a multidrug-resistant fungal killer \u2014 emerged simultaneously on multiple continents. The authors warn that C. auris could be the first of many fungi crossing the thermal threshold into human hosts, a threat that current pandemic preparedness strategies largely ignore."
+        },
+        {
+          "publication_type": "Scientific American / Wired",
+          "headline": "Candida Auris Evolved to Kill Humans on Four Continents at Once \u2014 Climate Change May Be Why",
+          "hook": "The fact that a lethal, drug-resistant fungus independently evolved on multiple continents in the same era is not a coincidence \u2014 it may be a signal that climate change is rewriting the rules of fungal evolution.",
+          "pitch_angle": "Researchers propose that rising environmental temperatures are acting as a selection pressure, pushing fungi to adapt to the warmer conditions inside mammalian bodies, with C. auris as the first confirmed example. Combined with evidence that human body temperatures have been declining for 150 years, the analysis suggests the evolutionary buffer between humans and fungal pathogens is narrowing faster than appreciated."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42934473",
+      "headline": "HIV antiretroviral drugs and pesticides are turning up together in South African urban drinking water sources",
+      "journal": "Environmental Science and Pollution Research International",
+      "pubdate": "2026 Oct 27",
+      "doi": "10.1007/s11356-026-38342-2",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers tested surface water from dams in urban Gauteng and rural Limpopo provinces of South Africa for a broad panel of emerging contaminants including five antiretroviral (ARV) drugs, antibiotics, pesticides, and metals. The Orlando Dam in Gauteng screened positive for all five ARVs \u2014 dolutegravir, nevirapine, tenofovir disoproxil, lamivudine, and efavirenz \u2014 plus two antibiotics and 14 pesticides, representing the first report of these compounds in that water body. Rural dams showed fewer contaminants, with one to three pesticides detected at each site.",
+      "why_it_matters": "South Africa has one of the world's largest HIV treatment programs, and the widespread presence of ARV drugs in freshwater raises novel questions about ecological effects, antimicrobial resistance pressure, and the adequacy of water treatment infrastructure.",
+      "caveats": "small sample (N<100), observational design, single-center",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive ARV-in-water finding; global HIV/water quality relevance; penalized for very small sample.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "HIV Drugs Are Showing Up in South Africa's Urban Water Supply \u2014 All Five at Once",
+          "hook": "For the first time, researchers have detected a full cocktail of five antiretroviral HIV medications in a major South African urban reservoir, alongside pesticides and antibiotics.",
+          "pitch_angle": "South Africa's massive HIV treatment program \u2014 one of the largest on Earth \u2014 may be leaving a chemical footprint in its freshwater systems that current treatment infrastructure isn't designed to remove. The finding raises urgent questions about ecological toxicity, antibiotic resistance, and water safety for communities that rely on these sources."
+        },
+        {
+          "publication_type": "bioGraphic / New Scientist",
+          "headline": "Freshwater in South Africa Is a Cocktail of HIV Meds, Pesticides, and Antibiotics",
+          "hook": "A survey of South African dams found that urban water bodies are accumulating a chemically complex mix of pharmaceuticals and agricultural pollutants that has never been documented there before.",
+          "pitch_angle": "The discovery of antiretroviral drugs alongside organochlorine pesticides and antibiotics in the Orlando Dam highlights how pharmaceutical consumption at population scale can reshape the chemical environment of freshwater ecosystems \u2014 with largely unknown consequences for aquatic life."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42937308",
+      "headline": "A new cold-tolerant staph relative found in animals carries a key antibiotic resistance gene \u2014 raising food safety questions",
+      "journal": "Journal of Clinical Microbiology",
+      "pubdate": "2026 Oct 27",
+      "doi": "10.1128/jcm.00974-26",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers reviewed all novel bacterial species and taxonomic revisions identified in 2025 from domestic companion and agricultural animals, cataloguing new members across multiple bacterial families. Among the most notable findings was Macrococcus psychrotolerans sp. nov., a cold-tolerant new species in the staph family that carries mecB, a methicillin-resistance determinant borrowed from Staphylococcus aureus. The review also identified new Campylobacter and Helicobacter species from dogs, and a new pathogen isolated from pet hamster abscesses.",
+      "why_it_matters": "The discovery of antibiotic resistance genes in newly identified bacteria from food-producing and companion animals highlights an underappreciated pathway by which resistance could spread to humans.",
+      "caveats": "secondary analysis, observational design, no human subjects \u2014 taxonomic review only",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Antibiotic resistance topic bonus; no human data, taxonomic review limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Science News / Undark",
+          "headline": "A New Cold-Hardy Bacterium Found in Farm Animals Carries a Staph Resistance Gene",
+          "hook": "Among a raft of newly discovered animal bacteria catalogued in 2025, one stands out: a cold-tolerant relative of staph that has already picked up a gene conferring methicillin resistance.",
+          "pitch_angle": "Scientists reviewing newly named bacterial species from livestock and pets found that one novel organism \u2014 capable of surviving refrigeration temperatures \u2014 carries a resistance gene from MRSA, raising questions about food safety and the animal-to-human transmission of resistance. The finding underscores how the expanding use of whole-genome sequencing is revealing a hidden world of resistant microbes circulating in animals close to humans."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42937362",
+      "headline": "Dozens of new bacterial species found in fish and aquatic animals \u2014 and a few may matter for human health",
+      "journal": "Journal of Clinical Microbiology",
+      "pubdate": "2026 Oct 27",
+      "doi": "10.1128/jcm.00976-26",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers reviewed scientific literature from 2024\u20132025 and compiled newly described bacterial taxa isolated from aquatic animal species, identifying additions across families including Aeromonadaceae, Flavobacteriaceae, Pseudomonadaceae, Pasteurellaceae, and others, including Gram-positive organisms, anaerobes, a spirochete, and a new Chlamydiaceae member. Most new taxa were isolated from apparently healthy aquatic animals, and their roles in disease remain largely unknown. The authors flagged a subset with potential clinical significance for aquatic animals or capacity to produce bioactive or antimicrobial compounds.",
+      "why_it_matters": "As aquaculture expands globally to meet food demand, cataloguing bacterial diversity in fish and aquatic animals is increasingly important for managing animal disease, food safety, and potential antimicrobial discovery.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Taxonomic review with limited direct public health hook; food safety and antimicrobial resistance angles are peripheral.",
+      "pitch_angles": [
+        {
+          "publication_type": "Science News / Knowable Magazine",
+          "headline": "The Hidden Bacterial World Inside Fish and Aquatic Animals Is Bigger \u2014 and Stranger \u2014 Than We Knew",
+          "hook": "A systematic review of two years of microbiological literature turned up dozens of bacterial species previously unknown to science, most of them living quietly inside healthy fish and other aquatic animals.",
+          "pitch_angle": "As global aquaculture surges to feed a growing population, scientists are only beginning to map the microbial communities that inhabit the animals we eat \u2014 some of which may produce novel antimicrobial compounds or pose emerging disease risks. This annual taxonomic accounting reveals how much basic microbiology remains to be done in aquatic environments."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42937318",
+      "headline": "A year-in-review of bacteria newly found in wild animals uncovers potential probiotics, drug-resistance clues, and the first cold-tolerant Helicobacter",
+      "journal": "Journal of Clinical Microbiology",
+      "pubdate": "2026 Oct 27",
+      "doi": "10.1128/jcm.00975-26",
+      "groundbreaking": "",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers compiled and analyzed all novel bacterial taxa and taxonomic revisions derived from non-domestic wildlife specimens published or accepted in peer-reviewed literature during 2025. Among the notable discoveries: Helicobacter cappadocius sp. nov., described as the first psychrotrophic (cold-tolerant) species in the Helicobacter genus, and Limosilactobacillus allomucosae sp. nov., which shows potential as a probiotic for domestic pigs. The review notes that while few newly identified bacteria cause clinical disease in their host of origin, several are related to pathogens or opportunistic infection agents with implications for antimicrobial resistance, detoxification, and metabolic health research.",
+      "why_it_matters": "Wildlife microbiomes remain a largely untapped reservoir for medically and industrially relevant bacteria \u2014 including potential probiotic strains and novel antimicrobial resistance genes \u2014 making systematic annual surveillance of non-domestic animal microbiota an important tool for public health preparedness.",
+      "caveats": "secondary analysis, descriptive/taxonomic review with no original experimental data",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Taxonomic review with limited breaking-news hook; antibiotic resistance angle slightly elevates score.",
+      "pitch_angles": [
+        {
+          "publication_type": "bioGraphic / Knowable Magazine",
+          "headline": "What Lives Inside Wild Animals Could Hold the Next Probiotic \u2014 or the Next Superbug",
+          "hook": "A sweeping review of every new bacterium discovered in wild animals in 2025 found a cold-adapted relative of Helicobacter, a promising pig probiotic, and clues to where antibiotic resistance may be hiding in nature.",
+          "pitch_angle": "The annual audit of wildlife-derived bacterial taxa reveals how systematically cataloguing microbes from non-domestic animals is quietly expanding the toolkit for medicine and agriculture, while also tracking the ecological origins of antimicrobial resistance before it reaches clinical settings."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42945972",
+      "headline": "A single missing protein causes a newborn's arteries and veins to twist into dangerous knots \u2014 a newly documented rare disease variant",
+      "journal": "Clinical Genetics",
+      "pubdate": "2026 Oct 27",
+      "doi": "10.1111/cge.70270",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Clinicians in India report a neonate presenting with extreme loosening of the skin (cutis laxa) and dramatic tortuosity \u2014 abnormal twisting \u2014 of arteries throughout the body, along with previously unreported involvement of the venous system. Whole exome sequencing identified a homozygous start-loss variant in the LOX gene, which encodes lysyl oxidase, an enzyme essential for cross-linking collagen and elastin in connective tissue; the infant died at age two despite cardiology follow-up. The case expands the known clinical spectrum of LOX-related disease to include veins as well as arteries and adds to limited evidence supporting LOX as a cause of severe autosomal recessive cutis laxa.",
+      "why_it_matters": "Rare connective tissue disorders with vascular involvement are frequently misdiagnosed; expanding the recognized phenotype of LOX variants could help clinicians reach correct diagnoses faster in critically ill neonates.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Rare disease case report; limited generalizability and very small sample.",
       "pitch_angles": [
         {
           "publication_type": "General science / Science News",
-          "headline": "Babies Born With Tiny Eyes May Have a Genetic Cause Scientists Have Been Overlooking",
-          "hook": "For a rare congenital eye condition, the culprit may not be a mutated gene \u2014 it may be unstable stretches of repetitive DNA that standard genetic tests miss entirely.",
-          "pitch_angle": "A whole-genome study of ten families found that tandem-repeat instability near a key developmental gene may contribute to congenital microphthalmia, a condition that leaves many families without a genetic explanation. The findings suggest current diagnostic panels for rare eye malformations may need to look beyond single-letter mutations to structural changes in the genome."
+          "headline": "A missing enzyme caused a newborn's blood vessels to twist \u2014 and revealed a new face of a rare genetic disease",
+          "hook": "A single genetic typo that disables an enzyme involved in building the body's structural scaffolding caused a newborn's arteries and veins to coil into dangerous shapes, expanding what scientists know about a poorly understood rare disorder.",
+          "pitch_angle": "The case report \u2014 only the latest in a very small literature on LOX-related cutis laxa \u2014 shows that the disease's vascular damage is not limited to arteries as previously assumed, pointing to a broader role for lysyl oxidase in maintaining both arterial and venous integrity. For the small community of clinicians who encounter these critically ill infants, the finding underscores how much rare-disease phenotypes can still surprise us even in the genomics era."
         }
       ],
-      "run_date": "2026-10-28",
+      "run_date": "2026-10-29",
       "category": "Genetics & Molecular Biology",
       "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42946591",
+      "headline": "Standard kidney tests miss early drug damage in children with cystic fibrosis \u2014 better biomarkers already exist",
+      "journal": "Clinical Therapeutics",
+      "pubdate": "2026 Oct 27",
+      "doi": "10.1016/j.clinthera.2026.09.010",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In the PIANO-CF study, researchers measured urinary kidney-injury biomarkers in 29 children with cystic fibrosis (CF) receiving intravenous aminoglycoside antibiotics, 65 stable CF patients, and 269 healthy controls. Children with CF on aminoglycosides showed nearly two-fold increases in urinary KIM-1 and NGAL \u2014 sensitive markers of kidney damage \u2014 despite stable serum creatinine, the standard clinical test. The findings suggest that conventional blood tests are failing to detect early kidney injury in this vulnerable population.",
+      "why_it_matters": "Children with cystic fibrosis receive frequent, prolonged courses of nephrotoxic antibiotics, and undetected kidney damage accumulating over years could have serious long-term consequences for their health.",
+      "caveats": "small sample (N<100 for CF treatment group), single-center, short follow-up, observational design",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Pediatric drug safety gap, clear public health hook, aligns with journalist's drug-labeling interest.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / The Atlantic",
+          "headline": "Kids with cystic fibrosis are quietly losing kidney function \u2014 and no one is catching it in time",
+          "hook": "The standard blood test used to monitor kidney health is missing early signs of damage in children with cystic fibrosis who regularly receive powerful antibiotics.",
+          "pitch_angle": "Aminoglycosides are lifesaving for CF patients but notoriously toxic to kidneys, and this study found that sensitive urine biomarkers flag injury long before serum creatinine budges \u2014 raising questions about whether thousands of young patients are accumulating silent, compounding harm. The gap between what we can detect and what clinicians currently measure points to a systemic failure in pediatric drug monitoring."
+        },
+        {
+          "publication_type": "Health.com / General science",
+          "headline": "The kidney test doctors rely on may be missing drug damage in children with CF",
+          "hook": "Urine biomarkers picked up kidney injury in CF children on antibiotics even when the standard blood test showed nothing wrong.",
+          "pitch_angle": "For children with cystic fibrosis who depend on aminoglycoside antibiotics to survive lung infections, early kidney damage may be going undetected for years because clinicians rely on an insensitive marker. Better tools already exist \u2014 they're just not in routine use."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42946906",
+      "headline": "A government home-visiting program for at-risk families was linked to more mental disorder diagnoses in children \u2014 not fewer",
+      "journal": "Canadian Journal of Public Health",
+      "pubdate": "2026 Oct 27",
+      "doi": "10.17269/s41997-026-01260-4",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used administrative health and education data from Manitoba, Canada, to evaluate the Families First Home-Visiting program \u2014 a paraprofessional-delivered early intervention for at-risk families of children aged 0\u20133 \u2014 in a retrospective population-based cohort of 9,761 eligible families born 2003\u20132009. Children who participated in the program were more likely to receive a mental disorder diagnosis and engage with health services during childhood and adolescence compared to risk-matched controls, with no significant differences in education outcomes. The authors suggest increased service use may partly reflect greater engagement with healthcare rather than worsening mental health, and note that outcomes varied by socioeconomic and psychosocial risk factors.",
+      "why_it_matters": "Early childhood intervention programs are widely promoted and funded on the assumption they improve long-term mental health; findings that suggest otherwise \u2014 or reveal complex, population-specific effects \u2014 have significant implications for how governments design and target such programs.",
+      "caveats": "observational design, secondary analysis, retrospective cohort, administrative data (not clinical diagnoses)",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding, large population-based cohort, strong public health and policy hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "Home Visits Were Supposed to Help At-Risk Kids. A Large Study Found Something Unexpected.",
+          "hook": "Children whose families received a government home-visiting program were more likely to be diagnosed with a mental disorder in adolescence than similar kids who didn't \u2014 raising hard questions about what 'helping' really looks like.",
+          "pitch_angle": "A population-based study of nearly 10,000 Canadian families found that early childhood home-visiting intervention was associated with higher rates of mental disorder diagnoses and health service use \u2014 not lower. The finding is complicated by the possibility that program families were more connected to healthcare, but it challenges assumptions baked into billions of dollars of early intervention policy worldwide."
+        },
+        {
+          "publication_type": "Knowable Magazine",
+          "headline": "Early Childhood Programs Don't Always Deliver on Their Mental Health Promise",
+          "hook": "A rigorous Canadian study tracking nearly 10,000 at-risk families into adolescence found that a widely used home-visiting program was linked to more mental disorder diagnoses, not fewer.",
+          "pitch_angle": "The study highlights how programs that reduce child welfare involvement and injury may not translate into better mental health outcomes \u2014 and that benefits may be concentrated in specific high-risk subgroups. It calls for a more nuanced, personalized approach to early intervention."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Public Health & Epidemiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42944827",
+      "headline": "After breast cancer treatment, Indigenous and non-Indigenous women in Ontario get follow-up mammograms at similar rates \u2014 but rural and low-income First Nations women still fall behind",
+      "journal": "Canadian Journal of Public Health",
+      "pubdate": "2026 Oct 27",
+      "doi": "10.17269/s41997-026-01272-0",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A retrospective cohort study in Ontario examined post-treatment screening mammography among 190 First Nations and 506 non-First Nations women diagnosed with invasive breast cancer between 1995 and 2004, with follow-up data through 2019. Overall post-treatment screening rates did not differ significantly between the two groups, a counterintuitive finding given well-documented pre-diagnosis screening gaps for First Nations women. However, among First Nations women specifically, rural residence, lower income, and older age were strongly associated with reduced follow-up screening, while having received radiotherapy or less invasive surgery predicted higher screening rates.",
+      "why_it_matters": "Understanding which First Nations breast cancer survivors are least likely to receive follow-up care could help healthcare systems target culturally safe survivorship support to those at greatest risk of falling through the cracks.",
+      "caveats": "small sample (N<100 for First Nations group effectively limits subgroup power), observational design, retrospective cohort, single-center region (Ontario), older diagnosis cohort (1995\u20132004)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Counterintuitive equity finding but small sample, Canada-specific, older cohort limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark",
+          "headline": "The Breast Cancer Care Gap for Indigenous Women Is More Complicated Than Anyone Thought",
+          "hook": "A new Canadian study found that First Nations and non-First Nations women received follow-up mammograms at similar rates after breast cancer treatment \u2014 but rural, low-income, and older First Nations women were far less likely to be screened.",
+          "pitch_angle": "The finding complicates a familiar narrative about Indigenous health disparities: the gap in post-treatment care isn't uniform, but concentrated in women facing compound barriers of geography, poverty, and age. The study points to the need for targeted, culturally safe survivorship programs rather than one-size-fits-all interventions."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Public Health & Epidemiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42929157",
+      "headline": "Scientists finally map the family tree of the world's most diverse freshwater fish group",
+      "journal": "Molecular Biology and Evolution",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1093/molbev/msag261",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted the first phylogenomic analysis of Cypriniformes \u2014 an order of ~5,000 freshwater fish species including carps, minnows, and loaches \u2014 with complete family-level representation, analyzing 316 species across 257 newly assembled genomes. Using multiple genome-wide marker sets and two analytical frameworks, they established a stable backbone evolutionary tree for the group while identifying persistent conflict zones driven by both biological processes and analytical artifacts. The study resolves long-disputed placements of highly miniaturized lineages and creates a genomic foundation for future comparative and evolutionary research.",
+      "why_it_matters": "Understanding the evolutionary history of the world's most species-rich freshwater fish group could inform conservation strategies for ecosystems under increasing climate and pollution pressure.",
+      "caveats": "None identified",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Scientifically rigorous but limited public health or everyday-life hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "bioGraphic / New Scientist",
+          "headline": "The World's Most Diverse Freshwater Fish Finally Has a Family Tree",
+          "hook": "With ~5,000 species, Cypriniformes \u2014 the group that includes goldfish, zebra fish, and hundreds of endangered river species \u2014 has long defied clean evolutionary mapping, until now.",
+          "pitch_angle": "A 316-species genomic study has settled longstanding disputes about how the world's most species-rich freshwater fish order is related, resolving puzzles around tiny, poorly understood lineages. The finding matters for conservation biology as freshwater ecosystems face mounting threats from climate change and pollution."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42932085",
+      "headline": "Dead yeast cells may be the next big thing in functional foods \u2014 if scientists can figure out how to use them",
+      "journal": "World Journal of Microbiology & Biotechnology",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1007/s11274-026-05354-6",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This review examines the emerging field of yeast postbiotics \u2014 health-active compounds derived from inactivated yeast cells and their metabolites \u2014 drawing on research into both Saccharomyces and non-Saccharomyces species. The authors evaluate fermentation-based production strategies, metabolite profiling approaches, and proposed functional mechanisms, and assess potential applications in nutraceuticals and functional foods as alternatives to live probiotics. They conclude that yeast postbiotics offer stability and safety advantages over conventional probiotics but that significant scientific, regulatory, and industrial gaps remain before widespread commercial use.",
+      "why_it_matters": "As probiotics face growing scrutiny over safety in vulnerable populations and shelf-life instability, yeast postbiotics could offer a more reliable route to gut-health and immune-support ingredients in everyday foods and supplements.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Gut microbiome topic bonus; review article limits causal strength.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired / Health.com",
+          "headline": "The Next Probiotic Might Already Be Dead",
+          "hook": "Scientists are making the case that inanimate yeast cells \u2014 byproducts of fermentation \u2014 may deliver gut and immune benefits without the risks that come with live bacteria.",
+          "pitch_angle": "Yeast postbiotics represent a quieter but potentially transformative shift in the probiotic industry: products that don't require refrigeration, can't cause infections in immunocompromised people, and may be easier to standardize for food manufacturing. Regulatory frameworks and clinical evidence still lag behind the science, but this review signals the field is accelerating."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42934956",
+      "headline": "One in three pet cats in a Mexican border region carries tick-borne bacteria that can infect humans",
+      "journal": "Vector Borne and Zoonotic Diseases",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1177/15303667261495788",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used PCR-based molecular screening to test 250 domestic cats from three municipalities in Nuevo Le\u00f3n, northeastern Mexico, for four arthropod-borne bacterial pathogens: Anaplasma, Bartonella, Ehrlichia, and Rickettsia. More than a third of cats (33.6%) tested positive for at least one pathogen, with Ehrlichia most prevalent at 20.8%, followed by Anaplasma (8%), Bartonella (3.2%), and Rickettsia (1.6%); some animals carried multiple pathogens simultaneously. Phylogenetic analysis suggested the detected Bartonella strain clustered with B. quintana \u2014 a species known to infect humans \u2014 and the Ehrlichia strain was closely related to E. chaffeensis, which causes human monocytic ehrlichiosis.",
+      "why_it_matters": "Domestic cats share homes with millions of people along the US\u2013Mexico border and beyond, and these findings suggest they may be underappreciated reservoirs for tick-borne pathogens capable of causing human disease.",
+      "caveats": "observational design, single-center, geographically limited to northeastern Mexico, PCR-based exposure data may not confirm active infection",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Zoonotic public health hook with US border relevance; observational and regionally limited.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Women's Health",
+          "headline": "Your Cat Could Be Carrying Tick-Borne Bacteria That Make People Sick \u2014 and Most Owners Don't Know It",
+          "hook": "A new study found that more than one in three domestic cats in a US border region tested positive for bacteria that can cause serious illness in humans \u2014 and cats are rarely screened for these pathogens.",
+          "pitch_angle": "Molecular testing of 250 pet cats in northeastern Mexico found Ehrlichia, Bartonella, Anaplasma, and Rickettsia at striking rates, with some cats infected by multiple pathogens at once; the detected Bartonella strain was related to a species known to infect people. The findings suggest that routine veterinary screening of cats \u2014 not just dogs \u2014 for tick-borne bacteria may be warranted, particularly in tick-endemic regions near the US border."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42934461",
+      "headline": "Ghana's cities are drowning in air pollution \u2014 and stakeholders say governance, not technology, is the real fix",
+      "journal": "Journal of Urban Health",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1007/s11524-026-01165-0",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used participatory 'future workshops' in four Ghanaian cities \u2014 Takoradi, Kumasi, Tamale, and Accra \u2014 engaging 20\u201335 institutional stakeholders per site to identify barriers and co-develop strategies for air pollution governance. Participants identified 59 barriers across seven domains and generated over 200 potential solutions, refined into 90 prioritized strategies. The study found that effective air pollution control in Ghana requires integrated, multisectoral governance reform rather than isolated technical fixes, with all prioritized strategies achieving at least 60% on both feasibility and desirability scores.",
+      "why_it_matters": "As African cities face worsening air quality with limited regulatory infrastructure, this participatory framework offers a replicable model for governance reform across the continent.",
+      "caveats": "small sample (N<100), observational design, single-center, single-country context limits generalizability beyond Ghana",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Strong environmental health hook but narrow Ghana focus limits global pitch appeal.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / The Atlantic",
+          "headline": "Africa's Air Pollution Crisis Isn't a Technology Problem \u2014 It's a Governance One",
+          "hook": "When researchers asked stakeholders across four Ghanaian cities to diagnose their air pollution crisis, the answers had almost nothing to do with cleaner engines or better sensors.",
+          "pitch_angle": "A participatory study in Ghana found that the biggest barriers to clean air are political, institutional, and financial \u2014 not technical \u2014 suggesting that the global focus on pollution-monitoring technology may be missing the point in the Global South. The findings offer a replicable blueprint for other African cities where air quality governance frameworks are still nascent."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Public Health & Epidemiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42931792",
+      "headline": "A parasitic disease spread by dogs and livestock is silently endemic in Afghanistan \u2014 and no one knows how bad it really is",
+      "journal": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1093/trstmh/trag135",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This perspective paper reviews the state of evidence on cystic echinococcosis (CE) \u2014 a neglected tropical disease caused by tapeworm larvae spread through contact with infected dogs and livestock \u2014 in Afghanistan, where unregulated home slaughter, free-roaming dogs, poor hygiene, and limited diagnostic capacity are likely driving transmission. Hospital-based studies confirm CE imposes a significant clinical burden in Afghanistan, but true national prevalence is unknown because no population-based surveillance exists. The authors call for WHO EMRO-coordinated One Health interventions, population-based prevalence surveys, and targeted community education as immediate priorities.",
+      "why_it_matters": "With an agricultural population heavily exposed to livestock and dogs, Afghanistan may harbor one of the world's largest undetected burdens of a disease that causes serious organ damage and can require costly surgery \u2014 yet it receives almost no global health attention.",
+      "caveats": "observational design, no primary data collected, single-region focus (Afghanistan/Central Asia), evidence gaps acknowledged by authors",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Neglected tropical disease with One Health angle; limited data and Afghanistan-specific context reduce generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark",
+          "headline": "A Tapeworm Disease Is Quietly Devastating Afghanistan \u2014 and the World Has Barely Noticed",
+          "hook": "Cystic echinococcosis \u2014 a parasitic disease spread by dogs and livestock \u2014 is endemic in Afghanistan, where no national surveillance exists and patients often don't receive care until organs are severely damaged.",
+          "pitch_angle": "Decades of conflict and healthcare collapse have left Afghanistan without the infrastructure to even measure the burden of a disease that causes cysts to grow silently in livers and lungs for years. Experts are calling for an urgent WHO-coordinated One Health response \u2014 but first, they need to know how many people are actually sick."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Public Health & Epidemiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42927460",
+      "headline": "Voluntary CDC guidelines cut ER opioid prescribing for back pain before mandates even kicked in \u2014 but high-dose prescribing never budged",
+      "journal": "Public Health Reports",
+      "pubdate": "2026 Oct 25",
+      "doi": "10.1177/00333549261486260",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed opioid prescription records for 31,940 patients diagnosed with nonspecific low back pain at a California medical center between 2012 and 2024, using change-point detection and interrupted time series regression to assess the impact of voluntary CDC guidelines (2016) and California's mandatory prescription drug monitoring program (2018). Emergency department opioid prescribing dropped 54.2% immediately around the 2015 change point \u2014 ahead of the 2016 CDC guidelines \u2014 while non-ED settings showed a 42.8% reduction coinciding with the 2018 mandatory monitoring implementation. Despite overall declines in prescribing, high-dose opioid prescribing among those who did receive opioids remained unchanged throughout the study period.",
+      "why_it_matters": "The finding that voluntary guidelines drove faster change in high-prescribing emergency settings \u2014 while mandatory regulations were needed to move non-ED clinicians \u2014 suggests that policy design must account for clinical environment when targeting opioid reduction, and the persistence of high-dose prescribing signals an unfinished public health challenge.",
+      "caveats": "single-center, observational design, California-specific context may limit national generalizability",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Large human cohort, counterintuitive policy finding, direct public health relevance to opioid crisis.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "ERs Cut Opioid Prescribing for Back Pain Before Anyone Told Them To \u2014 But High Doses Never Dropped",
+          "hook": "Emergency rooms in California began dramatically reducing opioid prescriptions for back pain in 2015 \u2014 a full year before CDC guidelines told them to \u2014 yet among patients who did receive opioids, high-dose prescribing never declined at all over 12 years.",
+          "pitch_angle": "A new analysis of nearly 32,000 back pain patients finds that voluntary federal guidelines moved high-prescribing ER settings faster than mandatory state regulations, while outpatient clinics didn't shift until laws forced them. The persistence of high-dose opioid prescribing throughout suggests that prescription volume alone is a misleading metric for measuring the opioid crisis's resolution."
+        },
+        {
+          "publication_type": "Scientific American / Health.com",
+          "headline": "CDC's Voluntary Opioid Guidelines Worked \u2014 But Only in Some Settings, and Not for High Doses",
+          "hook": "A 12-year study of opioid prescribing for back pain found that the type of clinical setting determined whether voluntary guidelines or mandatory laws were needed to change physician behavior.",
+          "pitch_angle": "The research suggests that one-size-fits-all opioid policy may be ineffective \u2014 emergency departments responded to knowledge diffusion from voluntary guidelines, while office-based physicians only changed under regulatory compulsion. The finding that high-dose prescribing among opioid recipients remained flat across the entire study period raises questions about whether current policies are reaching the patients at highest overdose risk."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Public Health & Epidemiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42771940",
+      "headline": "Getting MMR shot twice is safe even for kids who had a rare blood disorder after the first dose",
+      "journal": "Vaccine",
+      "pubdate": "2026 Oct 24",
+      "doi": "10.1016/j.vaccine.2026.129168",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "UK Health Security Agency researchers linked hospitalized ITP episodes to MMR vaccination records for children born in England between 2000 and 2019, using a self-controlled case-series method. They found that while MMR dose 1 carries a small but real risk of ITP (about 1 in 42,900 doses), dose 2 shows no increased risk \u2014 and critically, the 336 children who developed ITP after dose 1 and went on to receive dose 2 showed no elevated risk in the six weeks post-vaccination. The finding directly addresses a long-standing clinical concern that children who experience ITP after MMR dose 1 should not receive a second dose.",
+      "why_it_matters": "This large population-based study suggests clinicians can safely complete the MMR two-dose schedule even in children who previously developed a vaccine-associated blood disorder, which could reduce under-vaccination in a vulnerable group.",
+      "caveats": "observational design, single-center",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Large UK cohort, counterintuitive safety finding, direct vaccine policy implications, strong design.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / General science",
+          "headline": "Kids Who Got a Rare Blood Disorder From MMR Vaccine Can Safely Get the Second Dose, Study Finds",
+          "hook": "For decades, doctors have hesitated to give a second MMR shot to children who developed a blood-clotting disorder after the first \u2014 a new large study suggests that caution may be unfounded.",
+          "pitch_angle": "A UK analysis of nearly two decades of childhood vaccination records found that the second MMR dose carries no elevated ITP risk, even in children who experienced the condition after dose one. The finding could reshape clinical guidance and reduce vaccine hesitancy-driven under-immunization in a group already flagged as medically vulnerable."
+        },
+        {
+          "publication_type": "Health.com / Women's Health",
+          "headline": "Your Child Had a Rare Reaction to the MMR Vaccine \u2014 Doctors Say the Second Shot Is Still Safe",
+          "hook": "Parents told to delay or skip their child's second MMR dose after a rare bleeding disorder may not need to worry, according to a major new UK study.",
+          "pitch_angle": "Researchers tracked hundreds of children who developed idiopathic thrombocytopenic purpura after their first MMR shot and found no increased risk when they received the second dose. The study, covering nearly 20 years of English vaccination data, suggests that current caution around revaccinating these children may be overstated."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42753389",
+      "headline": "Nigerian healthcare workers won't join Lassa fever vaccine trials unless strict safety and ethics conditions are met \u2014 and a 1996 Pfizer scandal still shapes that distrust",
+      "journal": "Vaccine",
+      "pubdate": "2026 Oct 24",
+      "doi": "10.1016/j.vaccine.2026.129162",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted in-depth qualitative interviews with 20 physicians, nurses, and midwives at Aminu Kano Teaching Hospital in northern Nigeria to explore their willingness to participate in Lassa fever vaccine trials. Rather than flat acceptance or refusal, healthcare workers described 'cautious conditionality' \u2014 willingness contingent on transparent safety data, robust informed consent, credible ethical oversight, and fair compensation for harm. The lingering shadow of the 1996 Pfizer meningitis trial in Kano was explicitly cited as shaping deep institutional distrust.",
+      "why_it_matters": "Understanding the specific trust conditions that determine healthcare worker participation in Lassa fever trials is critical to designing ethically credible vaccine studies in West Africa, where outbreaks are ongoing.",
+      "caveats": "small sample (N<100), qualitative design, single-center",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Important pandemic-preparedness angle but small qualitative study; limited generalizable data.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / The Atlantic",
+          "headline": "The 1996 Pfizer Trial Still Haunts Lassa Fever Vaccine Research in Nigeria",
+          "hook": "Nearly three decades after a controversial meningitis drug trial in Kano, Nigerian healthcare workers say they won't join Lassa fever vaccine studies unless researchers first earn back their trust.",
+          "pitch_angle": "A qualitative study of frontline health workers reveals that participation in Lassa fever vaccine trials hinges not on scientific curiosity but on whether researchers can demonstrate transparency, accountability, and protection from harm \u2014 conditions shaped by a painful colonial-era research legacy. This raises urgent questions about how global health institutions design trials in endemic settings where historical exploitation has left lasting wounds."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42926302",
+      "headline": "Urban noise is linked to depression \u2014 but not anxiety \u2014 and poorer neighborhoods feel it most",
+      "journal": "Journal of Urban Health",
+      "pubdate": "2026 Oct 24",
+      "doi": "10.1007/s11524-026-01176-x",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using a probabilistic stratified household survey of 400 residents in the State of Mexico, researchers applied structural equation modeling to examine links between perceived environmental noise, sociodemographic factors, and mental health outcomes. Perceived noise was significantly associated with depressive symptoms but \u2014 counterintuitively \u2014 not with anxiety, while living in urban municipalities was independently associated with higher depression even after controlling for noise. Spatial analysis showed that high perceived noise and depression clustered in metropolitan areas, with larger household size predicting greater noise perception.",
+      "why_it_matters": "As global urbanization accelerates, findings from the Global South suggest that noise pollution may disproportionately burden lower-income urban residents through depression specifically, pointing to a neglected dimension of environmental inequality.",
+      "caveats": "small sample (N<100 per stratum; total N=400), observational design, self-reported outcomes, cross-sectional design, single-country context (Mexico)",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive depression-not-anxiety finding; limited by small N and self-report.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / New Scientist",
+          "headline": "Urban Noise Makes People Depressed \u2014 But Not Anxious. Scientists Want to Know Why.",
+          "hook": "A new study found that perceived environmental noise was significantly linked to depression in Mexican urban households \u2014 but showed no association with anxiety, a split that challenges assumptions about how noise harms mental health.",
+          "pitch_angle": "Research from the State of Mexico suggests that the mental health toll of urban noise may be more specific than previously understood, with depressive symptoms \u2014 not anxiety \u2014 emerging as the primary association in a structural equation model of 400 households. The finding, if replicated, could reshape how cities and clinicians think about noise as an environmental determinant of mental health, particularly in rapidly urbanizing regions of the Global South."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Public Health & Epidemiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42926074",
+      "headline": "A single gene variant found in a consanguineous Jordanian family may explain why some children inherit both intellectual disability and deafness",
+      "journal": "Gene",
+      "pubdate": "2026 Oct 24",
+      "doi": "10.1016/j.gene.2026.150444",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used whole-exome sequencing on a consanguineous Arab family from Jordan to identify a novel homozygous missense variant in the KARS1 gene (c.989 T>C, p.Leu330Pro) co-segregating with intellectual disability and hearing loss. In silico analyses predicted the variant disrupts a highly conserved catalytic domain, destabilizing the protein and impairing both cytosolic and mitochondrial protein synthesis. The findings expand the known genetic and phenotypic spectrum of KARS1-related disorders and suggest its inclusion in regional diagnostic panels.",
+      "why_it_matters": "Identifying rare recessive gene variants in underrepresented consanguineous populations could improve diagnostic rates for families who currently receive no genetic explanation for their children's disabilities.",
+      "caveats": "small sample (N<100), single-center, observational design, purely computational validation beyond sequencing",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Niche genetics case study; small family cohort limits generalizability to broader audiences.",
+      "pitch_angles": [
+        {
+          "publication_type": "Knowable Magazine",
+          "headline": "Why Rare Gene Variants Stay Hidden in Consanguineous Families \u2014 Until Whole-Exome Sequencing Finds Them",
+          "hook": "In populations where cousin marriages are common, rare inherited disease variants accumulate in ways that standard genetic tests miss entirely.",
+          "pitch_angle": "A Jordanian family's undiagnosed combination of intellectual disability and deafness was traced to a single mutated gene using whole-exome sequencing, illustrating how this technology is finally cracking open a long-overlooked diagnostic gap in consanguineous populations worldwide."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "3/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42914993",
+      "headline": "First human vaccine trial against a hemorrhagic fever virus with no approved shots shows promising immune response",
+      "journal": "The Lancet Infectious Diseases",
+      "pubdate": "2026 Oct 23",
+      "doi": "10.1016/S1473-3099(26)00471-8",
+      "groundbreaking": "First-in-class human study / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted the first-in-human phase 1 trial of ChAdOx2 CCHF, an adenoviral-vectored vaccine against Crimean-Congo haemorrhagic fever virus (CCHFV), a WHO priority pathogen, in 46 healthy UK adults aged 18\u201355. Participants received two intramuscular doses 12 weeks apart, with safety and antibody responses assessed at multiple timepoints. The vaccine showed acceptable tolerability \u2014 mostly mild injection-site pain and fatigue \u2014 and induced measurable CCHFV glycoprotein-specific IgG antibody responses that increased substantially after the second dose.",
+      "why_it_matters": "CCHFV kills up to 40% of those infected and is spreading geographically as tick populations expand, yet no approved vaccine exists \u2014 this trial marks the first proof-of-principle that vaccination may be achievable.",
+      "caveats": "small sample (N<100), single-center, open-label non-randomised design, short follow-up, no efficacy data",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "First-in-human pandemic preparedness vaccine; strong public health hook and clean phase 1 design.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / New Scientist",
+          "headline": "A Vaccine for One of the World's Deadliest Hemorrhagic Fevers Just Cleared Its First Human Test",
+          "hook": "Crimean-Congo hemorrhagic fever kills up to 40% of those it infects, spans three continents, and has no approved vaccine \u2014 until now, researchers hadn't even tested one in humans.",
+          "pitch_angle": "The Oxford-developed ChAdOx2 CCHF vaccine safely triggered immune responses in a small first-in-human trial, providing the earliest clinical evidence that the same adenoviral vector platform behind COVID-19 vaccines could be turned against a WHO-priority hemorrhagic fever. With CCHFV-carrying ticks expanding their range into southern Europe, the timing of this proof-of-concept is urgent."
+        },
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "The Forgotten Hemorrhagic Fever Spreading Into Europe Finally Has a Vaccine Candidate",
+          "hook": "Crimean-Congo hemorrhagic fever has quietly spread into Spain and the Balkans, yet researchers have never before tested a vaccine in humans \u2014 that just changed.",
+          "pitch_angle": "A first-in-human UK trial found that a two-dose vaccine against CCHFV was safe and sparked an antibody response, opening the door to larger efficacy trials for a disease that public health experts have long warned could become the next major outbreak threat in Europe. The story raises broader questions about why neglected hemorrhagic fevers lag decades behind in vaccine development despite clear warning signs."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42918487",
+      "headline": "Methadone has saved countless lives \u2014 but its chemistry is so complex it's still teaching drug designers what not to do",
+      "journal": "Drug Discovery Today",
+      "pubdate": "2026 Oct 23",
+      "doi": "10.1016/j.drudis.2026.104840",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Virginia Commonwealth University conducted a narrative review examining methadone's chemistry, pharmacokinetics, receptor pharmacology, and clinical limitations as a lens for next-generation opioid drug design. They found that methadone's complex stereochemistry, unpredictable metabolism, and polypharmacology \u2014 including cardiac risks \u2014 have constrained its clinical use despite decades of success in treating pain and opioid use disorder. The review argues that lessons from methadone's structural quirks can directly inform safer opioid therapeutics.",
+      "why_it_matters": "With opioid overdose deaths remaining a leading cause of mortality in the US, understanding why a proven medication like methadone is still difficult to prescribe safely could accelerate the design of better treatments for opioid use disorder.",
+      "caveats": "secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Opioid crisis relevance strong; review article limits novelty; no new data.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Knowable Magazine",
+          "headline": "Methadone works \u2014 so why is it still so hard to get right?",
+          "hook": "Eight decades after its invention, methadone remains one of the most effective \u2014 and most chemically treacherous \u2014 drugs in medicine, and scientists are still mining its molecular quirks to build safer opioids.",
+          "pitch_angle": "Methadone's unusual stereochemistry means two mirror-image versions of the same molecule do different things in the body, and its unpredictable metabolism has made it both a life-saving treatment and a cardiac risk. As the overdose crisis demands better opioid medications, researchers argue methadone's hard lessons are the best roadmap the field has."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42912516",
+      "headline": "A new AI model uses gene networks as hidden connectors to find new uses for old drugs",
+      "journal": "IEEE Transactions on Computational Biology and Bioinformatics",
+      "pubdate": "2026 Oct 23",
+      "doi": "10.1109/TCBBIO.2026.3746316",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers developed Hyades, a hypergraph masked autoencoder model for computational drug repositioning, which uses genes as structural bridges (hyperedges) connecting drug and disease nodes drawn from three large-scale biomedical knowledge graphs. To address the problem of sparse confirmed drug-disease associations, the model incorporates self-supervised learning via masked node feature reconstruction. Validated across three drug repositioning datasets under 10-fold cross-validation, the model outperformed existing hypergraph-based approaches.",
+      "why_it_matters": "Repurposing existing approved drugs is far faster and cheaper than developing new ones, and AI models that more accurately identify hidden biological connections could accelerate treatment options for rare or neglected diseases.",
+      "caveats": "purely computational with no validation, preprint",
+      "fact_check_note": "Abstract does not describe a preprint; paper appears published in IEEE TCBB. Preprint flag removed from caveats \u2014 corrected to: purely computational with no experimental validation.",
+      "relevance_score": 4,
+      "relevance_score_reason": "Purely computational, no experimental validation; limited general-audience hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired / Scientific American",
+          "headline": "AI Is Learning to Repurpose Old Drugs by Reading the Genome Like a Map",
+          "hook": "A new machine-learning model treats genes as hidden connectors between drugs and diseases \u2014 and could flag new therapeutic uses that human researchers would never think to test.",
+          "pitch_angle": "By encoding genes as bridges within a complex mathematical structure called a hypergraph, the Hyades model surfaces non-obvious drug-disease relationships from biomedical knowledge graphs \u2014 a step toward making drug repurposing faster and less expensive than traditional discovery pipelines."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "3/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42897905",
+      "headline": "Antioxidant supplements are widely used for male infertility \u2014 but the evidence base is still a mess",
+      "journal": "Expert Opinion on Pharmacotherapy",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.1080/14656566.2026.2749640",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a literature review of studies on antioxidant therapy for male infertility published from 2000 to 2026, covering oxidative stress assessment, sperm DNA damage, assisted reproductive technology outcomes, and clinical trial design. They found that despite a plausible biological rationale \u2014 oxidative stress damages sperm \u2014 the evidence base is undermined by lack of standardized diagnostics, inconsistent dosing protocols, heterogeneous trial designs, and an underappreciated risk of 'reductive stress' from over-supplementation. The review concludes that antioxidants cannot yet be recommended on an evidence-based basis for male infertility.",
+      "why_it_matters": "Antioxidant supplements are among the most commonly self-prescribed treatments for male infertility, yet the science supporting them remains too inconsistent to guide clinical use \u2014 or to reassure men that more is better.",
+      "caveats": "secondary analysis, observational design",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Consumer health relevance strong; counterintuitive reductive-stress angle; review limits novelty.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Women's Health",
+          "headline": "Men are taking antioxidants to boost fertility \u2014 but the science says the field doesn't actually know if they work",
+          "hook": "Despite widespread use, antioxidant supplements for male infertility lack a consistent evidence base \u2014 and taking too much may actually harm sperm through a process called reductive stress.",
+          "pitch_angle": "Oxidative damage to sperm is real, but translating that biology into effective supplements has proven elusive: trials use different doses, different biomarkers, and different definitions of success. The counterintuitive finding that excess antioxidants can flip from protective to harmful adds an underreported risk to a multi-million-dollar supplement category."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42913773",
+      "headline": "A new framework identifies 41 everyday chemical exposures linked to worse heart health \u2014 many not on regulators' radar",
+      "journal": "Environmental Pollution",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.1016/j.envpol.2026.129369",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed data from 149 environmental chemicals measured in participants of the 2013\u20132016 National Health and Nutrition Examination Survey (NHANES), using an integrated scoring method called Life's Essential 8 (LE8) \u2014 which captures diabetes, hyperlipidemia, and hypertension \u2014 as a cardiovascular health proxy. After multiple-testing correction, 41 chemicals showed inverse associations with LE8 scores, predominantly volatile organic compound metabolites, polycyclic aromatic hydrocarbons, and aromatic amines. Network toxicology analysis linked these chemicals to cardiovascular pathways involving inflammation, vascular function, and hemostasis, with PTGS2, ESR1, and MAPK1 among the most connected genes.",
+      "why_it_matters": "By using a composite cardiovascular health score rather than diagnosed disease as an endpoint, this approach may catch chemical-heart health links that traditional epidemiology misses \u2014 potentially reshaping how regulators screen environmental exposures for cardiovascular risk.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Large NHANES dataset, strong CVD-environment public health hook; penalized for observational secondary analysis design.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "Scientists Found 41 Common Chemicals Linked to Heart Disease Risk \u2014 Using a New Kind of Health Scorecard",
+          "hook": "By measuring cardiovascular health as a composite score rather than waiting for diagnosed disease, researchers found links between dozens of everyday chemical exposures and heart health that standard methods had missed.",
+          "pitch_angle": "The study draws on nationally representative NHANES data to argue that the way we currently screen environmental chemicals for heart-health effects is too blunt \u2014 missing associations with VOCs, PAHs, and aromatic amines that only emerge when you look at the full picture of cardiovascular risk factors together. The methodology could reframe how regulators prioritize which chemicals to scrutinize."
+        },
+        {
+          "publication_type": "Scientific American / Knowable Magazine",
+          "headline": "A New Chemical Risk Framework Could Catch Heart Hazards That Standard Methods Miss",
+          "hook": "Researchers used the American Heart Association's 'Life's Essential 8' cardiovascular health score as a toxicology screening tool \u2014 and uncovered 41 chemical exposures linked to worse heart health that direct disease models had overlooked.",
+          "pitch_angle": "The Life's Essential 8 composite index, which integrates blood pressure, blood sugar, and cholesterol alongside behavioral factors, proved more sensitive than individual disease endpoints for detecting chemical-cardiovascular associations in a population-level dataset. The approach may offer a scalable template for mapping the cardiovascular exposome."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42918961",
+      "headline": "Whole exome sequencing cracks 'unsolvable' cases of a rare organ-reversal syndrome \u2014 and hints at new disease genes",
+      "journal": "Mammalian Genome",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.1007/s00335-026-10283-8",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers performed whole exome sequencing on 17 adult patients from a Turkish cohort with Kartagener's syndrome \u2014 a rare ciliopathy in which organs are mirrored (situs inversus), accompanied by chronic lung and sinus disease \u2014 identifying pathogenic or candidate variants in multiple established cilia-gene (PCD) genes including DNAH5, DNAI1, and DNAI2, and several novel alleles. In one patient with no mutations in known PCD genes, the analysis uncovered concurrent heterozygous variants in DLEC1 and DNAAF9 plus a hemizygous copy-number deletion in EZR, suggesting possible digenic or oligogenic causation. The study achieved high diagnostic yield in a phenotype-specific cohort and expanded the mutational spectrum associated with this condition.",
+      "why_it_matters": "Up to 30% of primary ciliary dyskinesia cases remain genetically unresolved; identifying new causal genes and variant combinations could eventually lead to better diagnostic tools and, in the longer term, targeted therapies for these patients.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Solid genomics work with clinical relevance; very small cohort limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / Knowable Magazine",
+          "headline": "Some people are born with mirrored organs \u2014 and scientists are finally finding the genetic causes hiding in plain sight",
+          "hook": "A rare syndrome that flips the heart and other organs to the wrong side of the body has long stumped geneticists, but a targeted sequencing study suggests that unresolved cases may involve multiple interacting genes rather than a single culprit.",
+          "pitch_angle": "By focusing exclusively on patients with the organ-reversal form of primary ciliary dyskinesia, researchers boosted their diagnostic yield and uncovered novel mutations \u2014 including a possible three-gene combination in one baffling case. The findings point toward more complex genetic architectures in rare ciliopathies and have implications for how genomic medicine approaches diseases that don't fit a simple one-gene, one-disease model."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42914159",
+      "headline": "Gene therapy for rare brain disorders is harder than it looks \u2014 'just add more gene' is the wrong approach",
+      "journal": "Clinical Genetics",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.1111/cge.70267",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This review uses HNRNPU-related neurodevelopmental disorder \u2014 a rare condition marked by severe developmental delay and treatment-resistant epilepsy \u2014 as a case study to examine why translating genetic diagnoses into gene therapies for rare brain disorders remains so difficult. The authors analyze three therapeutic platforms (viral gene supplementation, antisense oligonucleotides, and CRISPR-based editing), finding that HNRNPU's role as a dosage-sensitive scaffold protein means that overexpression can be toxic and that developmental timing and cell-type specificity critically constrain therapeutic windows. The review argues that the field must move beyond the assumption that restoring gene expression is sufficient for rescue.",
+      "why_it_matters": "As thousands of children receive rare-disease genetic diagnoses each year, understanding why turning a diagnosis into a treatment remains so difficult is essential for setting realistic expectations for patients, families, and funders.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Strong CRISPR and rare-disease public-health hook; review article limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "Genetic diagnosis without a cure: Why cracking a rare brain disorder's code doesn't fix it",
+          "hook": "Next-generation sequencing can now name the gene behind a child's severe epilepsy and developmental delay \u2014 but knowing the gene name and having a treatment are entirely different problems.",
+          "pitch_angle": "A new review dissects why gene therapies for rare neurodevelopmental disorders keep stumbling after diagnosis, using one devastating childhood condition as a window into the field's broader challenges around dosage sensitivity, timing, and cell-type specificity. The piece speaks to the growing gap between genomic promise and therapeutic reality for thousands of rare-disease families."
+        },
+        {
+          "publication_type": "Scientific American / Knowable Magazine",
+          "headline": "CRISPR can't just 'turn up the volume' on brain disorder genes \u2014 here's why",
+          "hook": "For a class of rare brain disorders caused by missing or broken scaffold proteins, restoring gene activity is more like threading a needle than flipping a switch.",
+          "pitch_angle": "Using HNRNPU disorder as an exemplar, researchers lay out why viral gene therapy, antisense oligonucleotides, and CRISPR each face different \u2014 and sometimes contradictory \u2014 constraints when targeting dosage-sensitive genes in developing neurons. The analysis highlights a design problem the gene-therapy field has been slow to confront."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Genetics & Molecular Biology",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42914702",
+      "headline": "A rotavirus strain found in a Japanese teenager carries genes from pigs, humans, and cats \u2014 a hybrid never seen before",
+      "journal": "Virology",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.1016/j.virol.2026.111111",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Japanese virologists sequenced the full genome of a novel human rotavirus strain (G11P[25]) isolated from a 17-year-old boy hospitalized with severe gastroenteritis in Japan. Phylogenetic analysis revealed that the strain's 11 genomic segments trace to at least three distinct evolutionary lineages \u2014 Korean porcine-like human strains, Chinese feline-like human strains, and Thai/Japanese human strains \u2014 making it a mosaic assembled from porcine, human, and feline rotavirus ancestors. The finding expands the known diversity of human G11P[25] rotaviruses well beyond the relatively uniform porcine-like lineages described previously.",
+      "why_it_matters": "Rotavirus reassortment across species barriers suggests animal-origin strains can combine in novel ways to infect humans, with implications for vaccine coverage as new genomic constellations emerge.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "One Health and pandemic preparedness angle; counterintuitive tri-species hybrid; single case limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / Wired",
+          "headline": "A Teenager's Stomach Bug Was Caused by a Rotavirus That Borrowed Genes from Pigs, Humans, and Cats",
+          "hook": "Virologists in Japan found a rotavirus with a genome stitched together from three different animal lineages \u2014 a genomic mosaic that suggests cross-species mixing of rotaviruses is more complex than previously appreciated.",
+          "pitch_angle": "The discovery of a tri-species mosaic rotavirus in a human patient illustrates how reassortment across species barriers can generate novel strains with unpredictable characteristics. As rotavirus vaccines are designed around known circulating strains, the emergence of genomically diverse hybrids raises questions about long-term vaccine coverage."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42911143",
+      "headline": "Eye-destroying fungal infections are spreading \u2014 and a new wave of CRISPR tests and nano-drug delivery could transform how doctors fight them",
+      "journal": "Future Microbiology",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.1080/17460913.2026.2751606",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at LV Prasad Eye Institute reviewed literature from 2000\u20132026 on fungal keratitis, a vision-threatening corneal infection caused primarily by Fusarium and Aspergillus that is expanding due to climate change, contact lens use, and occupational exposures. The review maps shifting epidemiology \u2014 including rising cases caused by rare and cryptic fungal species \u2014 and evaluates emerging diagnostic tools including CRISPR-based tests, AI, and point-of-care biosensors alongside novel therapies such as nanotechnology drug delivery, photoactivated treatments, and antimicrobial peptides. No new primary data were generated; findings are synthesized from published literature.",
+      "why_it_matters": "As fungal keratitis spreads beyond its traditional tropical footprint and contact lens wear grows globally, faster diagnostics and more effective drug delivery could prevent thousands of cases of permanent vision loss annually.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Climate-health and emerging pathogen hook; review article limits originality and scoring.",
+      "pitch_angles": [
+        {
+          "publication_type": "bioGraphic / New Scientist",
+          "headline": "A Fungal Eye Infection Is Quietly Spreading \u2014 and New Tools May Finally Catch It in Time",
+          "hook": "Fungal keratitis, a corneal infection that can permanently blind within days, is expanding beyond tropical farmlands into contact lens wearers globally \u2014 and diagnosis still takes days too long.",
+          "pitch_angle": "A sweeping 26-year literature review finds that climate shifts and rising contact lens use are broadening the reach of dangerous fungal eye infections while rare species are growing more common and harder to treat. CRISPR-based rapid tests and nanoparticle drug delivery systems now in development could cut the diagnostic gap from days to hours and improve drug penetration into the notoriously hard-to-treat cornea."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42910930",
+      "headline": "Having just one Klebsiella strain in your gut raises infection risk more than carrying multiple strains",
+      "journal": "mSphere",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.1128/msphere.00329-26",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers developed a new amplicon-based sequencing tool called wzi-Seq to detect and quantify multiple Klebsiella pneumoniae strains simultaneously from gut swab samples. Applied to rectal swabs from 171 hospitalized patients, the method found that 63.2% carried a single Klebsiella strain and 36.8% carried multiple strains. Counterintuitively, multivariate analysis found that mono-colonization \u2014 not mixed colonization \u2014 was significantly associated with higher risk of invasive Klebsiella infection.",
+      "why_it_matters": "Understanding which gut colonization patterns predict hospital-acquired Klebsiella infections could eventually help clinicians identify which patients need the most urgent preventive attention.",
+      "caveats": "small sample (N<100 cases in each group), observational design, single-center",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive antibiotic-resistance-adjacent finding; human cohort but small and single-center.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / New Scientist",
+          "headline": "The Surprising Gut Pattern That Predicts a Deadly Hospital Infection",
+          "hook": "Doctors assumed that carrying more bacterial strains meant more danger \u2014 but for Klebsiella, the opposite appears to be true.",
+          "pitch_angle": "A new sequencing tool revealed that hospitalized patients colonized by just one strain of Klebsiella pneumoniae were significantly more likely to develop invasive infections than those carrying multiple strains. The finding challenges a basic assumption about microbial diversity and infection risk and could reshape how hospitals screen high-risk patients."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42911540",
+      "headline": "New oral blood thinner clears first human safety hurdle with predictable dosing profile",
+      "journal": "Clinical Pharmacokinetics",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.1007/s40262-026-01722-5",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a Phase I trial of HHT120, a novel oral direct thrombin inhibitor, enrolling 74 healthy participants across single-dose, multiple-dose, and food-effect phases to model its pharmacokinetics and anticoagulant effect. A population pharmacokinetic/pharmacodynamic model showed that HHT120 converts to an active metabolite (Rn-001) in a predictable manner. Simulated dosing of 100\u2013300 mg once daily or 100\u2013200 mg twice daily kept clotting-time prolongation within a safe threshold, suggesting a manageable safety profile for future trials.",
+      "why_it_matters": "Anticoagulants are among the most prescribed and most dangerous drug classes; a new oral thrombin inhibitor with a predictable dose-response profile could eventually offer an alternative for patients who cannot tolerate existing blood thinners.",
+      "caveats": "small sample (N<100), short follow-up, industry funding [Livzon Pharmaceutical Group]",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "First-in-human data but small healthy-volunteer sample and industry-funded; limited public hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "General science",
+          "headline": "A New Kind of Blood Thinner Passed Its First Human Test \u2014 Here's What the Numbers Say",
+          "hook": "A novel oral anticoagulant designed to block the clotting enzyme thrombin directly showed a clean and predictable safety profile across dozens of healthy volunteers in its first human trial.",
+          "pitch_angle": "HHT120's Phase I data suggest the drug and its active metabolite behave predictably at proposed doses, keeping dangerous clotting-time extensions within safe limits. If later trials confirm efficacy, it could join a competitive but still-expanding class of oral blood thinners."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42925572",
+      "headline": "A machine learning model flags dengue patients at risk of death within 24 hours of admission",
+      "journal": "Journal of Vector Borne Diseases",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.4103/jvbd.jvbd_49_26",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers retrospectively analyzed first-24-hour admission data from 1,148 laboratory-confirmed dengue patients (including 21 non-survivors) across multiple hospitals in India between 2012 and 2017. Using LASSO-based feature selection and cost-sensitive threshold optimization across ten machine learning classifiers, the study found that a tuned SVM model correctly identified 18 of 21 non-survivors with 91% sensitivity and 86% specificity. The approach improved triage accuracy without distorting real-world outcome prevalence, suggesting it could help prioritize high-risk patients during dengue outbreaks.",
+      "why_it_matters": "During dengue outbreaks, which are increasing globally with climate change, better early triage tools could reduce preventable deaths by ensuring the sickest patients receive intensive care before deterioration.",
+      "caveats": "observational design, single-country (India), small non-survivor group (N=21), retrospective, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Infectious disease, public health hook, human data, but single-country and very small non-survivor sample.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / Wired",
+          "headline": "A 24-Hour Window: Machine Learning Could Sort Dengue Survivors from Non-Survivors at Hospital Admission",
+          "hook": "With dengue cases surging globally, a new AI triage model correctly flagged 18 of 21 patients who would die \u2014 all within the first day of hospitalization.",
+          "pitch_angle": "A cost-sensitive machine learning framework applied to early admission data outperformed standard clinical assessment in identifying dengue patients at highest risk of death. As dengue spreads to new regions under climate change, scalable decision-support tools like this could prevent deaths in overburdened health systems."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42908437",
+      "headline": "Finland and France figured out how to support struggling farmers' mental health \u2014 most of Europe still hasn't",
+      "journal": "Journal of Agromedicine",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.1080/1059924X.2026.2750260",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a comparative qualitative case study of four institutional models for farmer mental health support across Europe \u2014 an Irish local charity, national systems in Finland and France, and an EU Erasmus+ digital program \u2014 examining coverage, accessibility, financial sustainability, and preventative versus reactive care. The Finnish model stood out for integrating preventative measures such as farm relief programs and paid leave into statutory social protection, while the French system offered the broadest coverage for farmers, farm workers, and families. The study found that statutory embedding of mental health support consistently outperformed charity-dependent or project-based models in reach, continuity, and the ability to combine prevention with crisis response.",
+      "why_it_matters": "With farmer mental health and suicide rates a growing crisis across wealthy nations, this comparative analysis suggests that embedding agricultural wellbeing into statutory welfare systems \u2014 rather than relying on charities or short-term grants \u2014 may be critical to closing the care gap.",
+      "caveats": "small sample (N<100), observational design, qualitative only, no mental health outcomes measured, limited to four European cases",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Timely public health topic with policy angle; qualitative, no outcomes data limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "Why Finland's Farmers Have Paid Vacations \u2014 and Why It Might Be Saving Lives",
+          "hook": "When farmers in Finland feel overwhelmed, they can apply for a government-subsidized stand-in worker so they can take a break \u2014 a small policy detail with potentially large mental health consequences.",
+          "pitch_angle": "A new comparative study finds that countries embedding farmer mental health support inside statutory social protection systems \u2014 like Finland and France \u2014 offer substantially better coverage, continuity, and prevention than the charity-dependent or EU grant-funded models most nations rely on. As farmer suicide and mental health crises escalate across Europe and North America, the findings raise urgent questions about why agricultural welfare remains so structurally underfunded."
+        }
+      ],
+      "run_date": "2026-10-29",
+      "category": "Public Health & Epidemiology",
+      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -55,876 +1027,6 @@
       "run_date": "2026-10-28",
       "category": "Public Health & Epidemiology",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42825548",
-      "headline": "Climate change may be breeding the next generation of deadly fungal pathogens \u2014 and Candida auris is just the beginning",
-      "journal": "mSphere",
-      "pubdate": "2026 Oct 27",
-      "doi": "10.1128/msphere.00109-26",
-      "groundbreaking": "Counterintuitive finding / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at the University of W\u00fcrzburg reviewed the evolutionary biology and ecology of Candida auris \u2014 a multidrug-resistant fungal pathogen with 30\u201360% mortality in invasive infections \u2014 arguing that its simultaneous emergence on multiple continents as genetically distinct clades points to shared climate-driven selective pressures rather than spread from a single source. The review links its rise to climate change eroding the thermal barrier that normally protects mammals from fungal infection, compounded by a documented decline in human basal body temperature. The authors argue C. auris may be the first of many fungi adapting to thrive at human body temperature, urging development of predictive frameworks for fungal disease emergence.",
-      "why_it_matters": "If climate change is systematically lowering the thermal barrier that protects humans from fungal infection, C. auris could be a warning sign of a broader wave of novel fungal pathogens for which medicine has few effective treatments.",
-      "caveats": "observational design, purely computational with no validation",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Counterintuitive climate-health-AMR convergence; high public health urgency; review/computational.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / Undark",
-          "headline": "Our Body Temperature Is Dropping. Fungi Are Evolving to Exploit It.",
-          "hook": "The same climate pressures warming the planet may be helping deadly fungi cross the thermal threshold that has protected mammals for millions of years \u2014 and Candida auris suggests it's already happening.",
-          "pitch_angle": "A new review argues that C. auris's independent emergence on multiple continents is a fingerprint of climate-driven evolution, not random spread \u2014 and that a concurrent decline in human basal body temperature is narrowing the gap between us and the fungal world. If this analysis holds, we may be at the start of an era of novel fungal pandemics for which current antifungals are nearly useless."
-        },
-        {
-          "publication_type": "Scientific American / New Scientist",
-          "headline": "Candida auris Evolved Simultaneously on Four Continents \u2014 Scientists Think They Know Why",
-          "hook": "The near-simultaneous appearance of the same deadly drug-resistant fungus on multiple continents as genetically distinct strains is one of modern medicine's strangest mysteries \u2014 and climate change may be the answer.",
-          "pitch_angle": "Researchers reviewing C. auris's evolutionary history argue that shared environmental selective pressures \u2014 specifically rising global temperatures eroding fungi's traditional thermal exclusion from warm-blooded hosts \u2014 best explain its unprecedented parallel emergence. The findings call for urgent development of surveillance frameworks to anticipate which other fungal species may be next."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42934473",
-      "headline": "HIV drugs and pesticides found together in South African drinking water dams for the first time",
-      "journal": "Environmental Science and Pollution Research International",
-      "pubdate": "2026 Oct 27",
-      "doi": "10.1007/s11356-026-38342-2",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers collected surface water samples from dams in urban Gauteng and rural Limpopo provinces in South Africa and screened them for pharmaceuticals, pesticides, and metals. The Orlando Dam in Gauteng tested positive for five antiretroviral drugs (including dolutegravir and tenofovir), two antibiotics, and fourteen pesticides \u2014 the first reported detection of ARVs and several pesticide classes in that water body. Metals including aluminium and manganese exceeded water quality guidelines at multiple sites.",
-      "why_it_matters": "The detection of antiretroviral drugs \u2014 the backbone of HIV treatment for millions \u2014 in surface water raises concerns about pharmaceutical pollution, potential ecotoxicological effects, and the adequacy of wastewater treatment in regions with high HIV treatment coverage.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Novel first-detection finding with antibiotic resistance and PFAS-adjacent contamination hook; geographically limited.",
-      "pitch_angles": [
-        {
-          "publication_type": "Undark",
-          "headline": "HIV Drugs Are Turning Up in South Africa's Drinking Water \u2014 and No One Was Looking",
-          "hook": "For the first time, researchers have found five antiretroviral drugs used to treat HIV in a South African urban dam \u2014 alongside pesticides and antibiotics.",
-          "pitch_angle": "South Africa's massive HIV treatment program may be leaving a pharmaceutical footprint in its water supply, with unknown consequences for aquatic ecosystems and communities who rely on these sources. The finding highlights a largely invisible cost of scaling up drug access without scaling up wastewater treatment."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Environmental Health",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42937308",
-      "headline": "Bacteria found in pets carry antibiotic-resistance genes from Staph aureus \u2014 and scientists just catalogued dozens of other new animal-associated microbes",
-      "journal": "Journal of Clinical Microbiology",
-      "pubdate": "2026 Oct 27",
-      "doi": "10.1128/jcm.00974-26",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers reviewed novel bacterial species and taxonomic revisions published in 2025, focusing on microbes isolated from companion and agricultural animals. Notable findings include Macrococcus psychrotolerans sp. nov., a cold-tolerant bacterium carrying a mecB methicillin-resistance determinant derived from Staphylococcus aureus, and new Campylobacter and Helicobacter species from dogs. The review covers new members across families including Staphylococcaceae, Streptococcaceae, Pseudomonadaceae, and Pasteurellaceae.",
-      "why_it_matters": "Identifying antibiotic-resistance genes in bacteria from household pets adds to mounting evidence that companion animals may serve as reservoirs for resistance traits that could transfer to human pathogens.",
-      "caveats": "secondary analysis, observational design",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Antibiotic resistance in pet-associated bacteria is a strong public health hook; secondary review limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / Undark",
-          "headline": "The bacteria living on your pets just got a lot more interesting \u2014 and a little more alarming",
-          "hook": "A newly catalogued cold-tolerant bacterium found in animals carries a methicillin-resistance gene borrowed from Staph aureus, adding to evidence that our pets may be silent reservoirs of antibiotic resistance.",
-          "pitch_angle": "A 2025 review of newly identified animal-associated bacteria turned up species harboring resistance genes linked to some of the most problematic human pathogens, including new Campylobacter and Helicobacter strains in dogs. As antibiotic resistance spreads across species lines, the animals sharing our homes are emerging as an understudied piece of the puzzle."
-        },
-        {
-          "publication_type": "Health.com / Women's Health",
-          "headline": "Your dog or cat may be carrying bacteria with antibiotic-resistance genes \u2014 scientists just mapped what's out there",
-          "hook": "Scientists cataloguing new bacterial species from pets found one that carries a resistance gene from Staph aureus \u2014 the kind of finding that raises questions about what's moving between animals and people.",
-          "pitch_angle": "A systematic review of newly named animal-associated bacteria found resistance-carrying microbes and new strains of Campylobacter and Helicobacter in companion animals. Experts say expanding this surveillance is critical as resistance genes continue crossing species boundaries."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42937362",
-      "headline": "Dozens of previously unknown bacteria found living in fish and other aquatic animals \u2014 some may fight drug-resistant infections",
-      "journal": "Journal of Clinical Microbiology",
-      "pubdate": "2026 Oct 27",
-      "doi": "10.1128/jcm.00976-26",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers compiled and analyzed all novel bacterial taxa isolated from aquatic animal species and published between 2024 and 2025, cataloguing new species across families including Aeromonadaceae, Flavobacteriaceae, and Pseudomonadaceae. The review highlights bacteria with potential clinical significance for aquatic animals and others that may produce bioactive or antimicrobial substances. Most newly described species were isolated from healthy animals, leaving their roles in disease largely undetermined.",
-      "why_it_matters": "Aquatic animals harbor a largely unmapped reservoir of microbial diversity that may yield new antimicrobial compounds at a time when antibiotic resistance is a growing global threat.",
-      "caveats": "observational design, secondary analysis, role of most taxa in health or disease unknown",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Antibiotic resistance hook lifts score; catalog review limits narrative punch.",
-      "pitch_angles": [
-        {
-          "publication_type": "Knowable Magazine / New Scientist",
-          "headline": "The Ocean's Microbes Are Full of Surprises \u2014 Including Possible New Antibiotics",
-          "hook": "Dozens of bacteria unknown to science have been found inside healthy fish, shellfish, and other aquatic animals \u2014 and some may produce substances that fight drug-resistant infections.",
-          "pitch_angle": "A new annual review of aquatic animal microbiomes reveals a steady stream of microbial novelty, with several newly named species flagged for potential antimicrobial activity. As antibiotic resistance climbs, researchers argue that cataloguing this aquatic microbial dark matter is not just academic \u2014 it's a potential lifeline."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42937318",
-      "headline": "Wildlife microbiomes are yielding new bacterial species at a record pace \u2014 including the first cold-tolerant Helicobacter",
-      "journal": "Journal of Clinical Microbiology",
-      "pubdate": "2026 Oct 27",
-      "doi": "10.1128/jcm.00975-26",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers reviewed all novel bacterial taxa isolated from non-domestic wildlife and published or accepted in 2025, identifying a range of new species with implications for antimicrobial resistance, probiotic development, and detoxification research. Among the highlights is Helicobacter cappadocius sp. nov., described as the first psychrotrophic (cold-tolerant) species in the Helicobacter genus, and Limosilactobacillus allomucosae sp. nov., flagged as a candidate probiotic for domestic pigs. Few newly identified bacteria were directly linked to disease in their host animals.",
-      "why_it_matters": "Wild animals serve as understudied reservoirs for microbial diversity with broad implications for antibiotic resistance surveillance, probiotic science, and the discovery of bacteria capable of breaking down environmental toxins.",
-      "caveats": "observational design, secondary analysis, clinical relevance of most taxa unestablished",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Antibiotic resistance and probiotic angles relevant; catalog format limits story depth.",
-      "pitch_angles": [
-        {
-          "publication_type": "bioGraphic / New Scientist",
-          "headline": "From Arctic Foxes to Tropical Birds, Wildlife Are Hosting Bacteria Science Has Never Seen Before",
-          "hook": "The first cold-loving Helicobacter species ever described \u2014 found in a wild animal \u2014 is just one of dozens of new bacteria catalogued from wildlife in a single year.",
-          "pitch_angle": "Non-domestic animals are proving to be treasure troves of undiscovered microbial life, with some new species closely related to human pathogens and others showing promise as probiotics or pollution-fighters. Researchers argue that tracking this wildlife microbiome is essential for anticipating future disease threats and finding new biological tools."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42945972",
-      "headline": "A rare gene variant that disrupts collagen crosslinking can mimic a different \u2014 and better-known \u2014 vascular syndrome, confounding diagnosis",
-      "journal": "Clinical Genetics",
-      "pubdate": "2026 Oct 27",
-      "doi": "10.1111/cge.70270",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Clinicians at a New Delhi hospital report a neonate born with generalized cutis laxa \u2014 loose, inelastic skin \u2014 whose imaging revealed severe vascular tortuosity closely resembling arterial tortuosity syndrome, a distinct genetic condition. Whole-exome sequencing identified a novel homozygous start-loss variant in the LOX gene, which encodes lysyl oxidase, an enzyme critical for collagen and elastin crosslinking; the child died at age 2. The case expands the known phenotype of LOX-related connective tissue disease to include venous as well as arterial tortuosity, a combination not previously documented.",
-      "why_it_matters": "Accurate molecular diagnosis in rare connective tissue disorders is clinically urgent because management and prognosis differ substantially between conditions that can look identical on imaging.",
-      "caveats": "small sample (N=1 case report), single-center, limited generalizability from single case",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Single case report; rare pediatric genetics with limited broad audience appeal.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science / Science News",
-          "headline": "A Single Genetic Typo Can Make One Rare Disease Look Exactly Like Another \u2014 With Fatal Consequences",
-          "hook": "A newborn's vascular system was so severely twisted that doctors suspected one rare syndrome \u2014 but the true cause turned out to be a never-before-described mutation in a completely different gene.",
-          "pitch_angle": "A case report from India describes how a novel LOX gene variant produced vascular abnormalities indistinguishable from arterial tortuosity syndrome, a misidentification that underscores why whole-exome sequencing is increasingly essential in rare pediatric disease. The finding also expands the known disease spectrum of LOX mutations to include the venous system, suggesting the condition may be underdiagnosed."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42946591",
-      "headline": "Standard kidney injury markers miss drug damage in kids with cystic fibrosis \u2014 but urine biomarkers catch it early",
-      "journal": "Clinical Therapeutics",
-      "pubdate": "2026 Oct 27",
-      "doi": "10.1016/j.clinthera.2026.09.010",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "The PIANO-CF study prospectively evaluated urinary biomarkers of kidney injury in 29 children with cystic fibrosis (CF) receiving intravenous aminoglycosides, 65 clinically stable CF children, and 269 age-matched healthy controls. Children with CF had significantly lower baseline levels of uKIM-1 and uNGAL than healthy controls \u2014 an unexpected finding \u2014 but these biomarkers rose nearly twofold with aminoglycoside exposure even when serum creatinine remained stable. The results suggest CF-specific reference ranges for kidney biomarkers are needed, as healthy-child norms may mask early drug-induced damage.",
-      "why_it_matters": "Children with CF often receive repeated courses of nephrotoxic antibiotics throughout their lives, and missing early kidney damage could accelerate progression to serious kidney disease \u2014 making better monitoring tools a critical unmet need.",
-      "caveats": "small sample (N<100), single-center, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive baseline finding; pediatric drug safety hook; small sample limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Undark / Scientific American",
-          "headline": "The Standard Test for Kidney Damage Misses What's Happening Inside Kids with Cystic Fibrosis",
-          "hook": "Children with cystic fibrosis receive powerful, kidney-damaging antibiotics repeatedly \u2014 yet the standard blood test used to detect kidney injury is essentially blind to the early damage those drugs cause.",
-          "pitch_angle": "A new study found that two urine biomarkers detected aminoglycoside-induced kidney injury in young CF patients even when serum creatinine \u2014 the clinical standard \u2014 showed no change, while also revealing that CF children have a distinct kidney biomarker baseline that makes healthy-child reference ranges misleading. The findings suggest current monitoring practices may be systematically underdiagnosing a serious long-term complication in a vulnerable population."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Pharmacology & Drug Therapy",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42946906",
-      "headline": "A home-visiting program for at-risk families left children more likely to be diagnosed with mental disorders \u2014 not less",
-      "journal": "Canadian Journal of Public Health",
-      "pubdate": "2026 Oct 27",
-      "doi": "10.17269/s41997-026-01260-4",
-      "groundbreaking": "Counterintuitive finding / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used administrative health data from Manitoba, Canada to evaluate the long-term outcomes of the Families First Home-Visiting program, which supports at-risk families with children ages 0\u20133. The retrospective cohort included all eligible families (N=9,761) with children born 2003\u20132009, tracked from ages 5\u201315. Children who received the program were more likely to receive mental disorder diagnoses and use health services compared to risk-matched controls, with no significant differences in educational outcomes.",
-      "why_it_matters": "The finding that a widely implemented early-childhood intervention may be associated with more \u2014 not fewer \u2014 mental health diagnoses challenges assumptions about home-visiting programs and raises questions about how 'success' is measured in preventive public health.",
-      "caveats": "observational design, secondary analysis, single-region (Manitoba, Canada)",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive public health finding; large population cohort; clear societal hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / Undark",
-          "headline": "A Program Designed to Protect At-Risk Kids May Be Flagging More of Them as Mentally Ill",
-          "hook": "A Canadian home-visiting program meant to help vulnerable families left enrolled children more likely to receive mental health diagnoses \u2014 raising uncomfortable questions about what early intervention actually does.",
-          "pitch_angle": "A large Manitoba cohort study found children in a paraprofessional home-visiting program were more likely to be diagnosed with mental disorders than risk-matched peers who received no intervention. Whether this reflects better detection, increased health-system contact, or something else entirely is a live and consequential question for the billions spent globally on early childhood programs."
-        },
-        {
-          "publication_type": "Knowable Magazine / Science News",
-          "headline": "Do Early Childhood Interventions Actually Work? A Large Canadian Study Complicates the Picture",
-          "hook": "One of the largest evaluations of a government-run home-visiting program found no educational benefit and a paradoxical increase in mental health diagnoses among children served.",
-          "pitch_angle": "Tracking nearly 10,000 at-risk Manitoba families into adolescence, researchers found the Families First program did not improve educational outcomes and was associated with higher rates of mental disorder diagnoses \u2014 though the effect varied by family risk profile. The study forces a reckoning with how early-intervention success is defined and measured."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Public Health & Epidemiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42944827",
-      "headline": "After breast cancer, First Nations and non-First Nations women in Ontario get follow-up mammograms at similar rates \u2014 but geography and income still create gaps within Indigenous communities",
-      "journal": "Canadian Journal of Public Health",
-      "pubdate": "2026 Oct 27",
-      "doi": "10.17269/s41997-026-01272-0",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "A retrospective cohort study examined post-diagnosis mammography screening among 190 First Nations and 506 non-First Nations women in Ontario diagnosed with invasive breast cancer between 1995 and 2004, with follow-up through 2019. No statistically significant differences in post-treatment screening rates were found between the two groups overall. However, within First Nations women, rural residence, older age, and lower income were each strongly associated with reduced follow-up screening.",
-      "why_it_matters": "The finding that overall screening parity exists at the population level masks persistent within-group disparities driven by income and geography, underscoring that equity in cancer survivorship care cannot be measured by group averages alone.",
-      "caveats": "observational design, small sample (N<100 for First Nations subgroup analyses), single-province, historical cohort (diagnoses 1995\u20132004), short follow-up relative to modern care patterns",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Health equity angle; counterintuitive null finding but small sample and historical cohort limit impact.",
-      "pitch_angles": [
-        {
-          "publication_type": "Undark / The Atlantic",
-          "headline": "Indigenous Women Are Getting Follow-Up Cancer Screenings \u2014 But Only If They Don't Live Too Far Away or Earn Too Little",
-          "hook": "A Canadian study found that First Nations and non-First Nations women received follow-up mammograms after breast cancer at similar overall rates \u2014 a surprising result that dissolves on closer inspection.",
-          "pitch_angle": "When researchers dug into the data, rural First Nations women were 65% less likely to receive follow-up screening, and those in the lowest income bracket were 80% less likely \u2014 revealing that population-level parity can obscure deep structural inequities in cancer survivorship care."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Public Health & Epidemiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42929157",
-      "headline": "The largest-ever genomic tree of the world's most diverse freshwater fish group finally settles ancient evolutionary disputes",
-      "journal": "Molecular Biology and Evolution",
-      "pubdate": "2026 Oct 26",
-      "doi": "10.1093/molbev/msag261",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "An international team built the first family-complete phylogenomic analysis of Cypriniformes \u2014 the order containing carps, minnows, loaches, and zebrafishes, totaling roughly 5,000 species \u2014 using 316 species representing about 30% of all described genera, including 257 newly assembled genomes. Multiple genome-wide analytical frameworks converged on a stable backbone topology, resolving long-contested placements of highly miniaturized lineages. The study also identified remaining regions of genuine evolutionary conflict driven by biological processes and modeling artifacts.",
-      "why_it_matters": "Establishing a reliable evolutionary tree for the most species-rich group of freshwater fishes provides a critical framework for conservation genetics, biodiversity assessments, and understanding how vertebrates diversified across the world's river systems.",
-      "caveats": "None identified",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Rigorous large genomic study; strong biodiversity hook but niche audience fit.",
-      "pitch_angles": [
-        {
-          "publication_type": "bioGraphic / National Geographic",
-          "headline": "Scientists Just Mapped the Family Tree of Earth's Most Diverse Freshwater Fish \u2014 and It Rewrites Some Old Assumptions",
-          "hook": "With roughly 5,000 species spanning every inhabited continent's rivers, the carp-and-minnow order Cypriniformes is freshwater's great evolutionary success story \u2014 and scientists have finally mapped how it all unfolded.",
-          "pitch_angle": "A multinational team assembled the most comprehensive genomic dataset ever built for Cypriniformes, resolving decades of disputed relationships among tiny, poorly understood lineages and establishing a stable evolutionary backbone for the group. The findings provide conservation biologists and evolutionary researchers with a reliable reference tree for one of the planet's most ecologically critical \u2014 and threatened \u2014 groups of freshwater animals."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "2/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42932085",
-      "headline": "Yeast byproducts could be the next frontier in gut health \u2014 but the science is still catching up to the hype",
-      "journal": "World Journal of Microbiology & Biotechnology",
-      "pubdate": "2026 Oct 26",
-      "doi": "10.1007/s11274-026-05354-6",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This review paper synthesizes current research on yeast-derived postbiotics \u2014 health-active metabolites and cellular components from inanimate Saccharomyces and non-Saccharomyces yeast species \u2014 examining their production via fermentation, metabolite profiling, proposed mechanisms of action, and potential applications in functional foods and nutraceuticals. The authors argue that yeast postbiotics offer stability and safety advantages over live probiotics, particularly for vulnerable populations, while identifying major gaps in regulatory frameworks and clinical validation. No new experimental data are presented.",
-      "why_it_matters": "As consumer demand for gut-health products accelerates, understanding whether yeast-derived postbiotics have evidence-backed benefits \u2014 and what regulatory guardrails are needed \u2014 matters for both public health and a rapidly growing food industry.",
-      "caveats": "observational design, secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Gut microbiome topic bonus; review only, no new data, moderate pitch potential.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health.com / Women's Health",
-          "headline": "Move Over Probiotics \u2014 Yeast 'Postbiotics' Are Being Pitched as the Safer Gut-Health Fix",
-          "hook": "Scientists are exploring whether the dead remnants of yeast used in fermentation could deliver gut-health benefits without the risks that come with live probiotic supplements.",
-          "pitch_angle": "A new review maps the emerging science of yeast postbiotics \u2014 metabolites and structural components left behind after yeast are inactivated \u2014 which proponents say are more shelf-stable and safer for immunocompromised individuals than live probiotic cultures. Researchers caution that clinical evidence remains thin and regulatory standards are still being developed, meaning consumers are likely ahead of the science on this one."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "2/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42934956",
-      "headline": "One in three pet cats in a Mexican border region tested positive for tick-borne bacteria \u2014 including some linked to human disease",
-      "journal": "Vector Borne and Zoonotic Diseases",
-      "pubdate": "2026 Oct 26",
-      "doi": "10.1177/15303667261495788",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers collected blood samples from 250 domestic cats across three municipalities in Nuevo Le\u00f3n, northeastern Mexico, and used PCR testing to screen for Anaplasma, Bartonella, Ehrlichia, and Rickettsia. Overall, 33.6% of cats tested positive for at least one pathogen, with Ehrlichia most prevalent (20.8%), followed by Anaplasma (8%), Bartonella (3.2%), and Rickettsia (1.6%). Phylogenetic analysis placed one Bartonella sequence within the B. quintana clade \u2014 a pathogen known to cause disease in humans \u2014 marking the first documented report of these infections and coinfections in cats in Mexico.",
-      "why_it_matters": "Cats share homes and close contact with millions of people across the US-Mexico border region, and their potential role as reservoirs for multiple human-relevant tick-borne pathogens has been largely overlooked compared to dogs.",
-      "caveats": "observational design, single-center, PCR positivity does not confirm active disease",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Zoonosis, US-adjacent, companion animal angle; observational limits causal claims.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health.com / Women's Health",
-          "headline": "Your Cat Could Be Carrying Tick-Borne Bacteria \u2014 and Most Vets Aren't Testing for It",
-          "hook": "More than a third of pet cats sampled in a Mexican border city tested positive for tick-borne bacteria, including a pathogen strain known to infect humans.",
-          "pitch_angle": "While dogs are routinely screened for tick-borne diseases, cats have largely flown under the radar \u2014 even though they roam outdoors, bring ticks indoors, and sleep in human beds. This study, the first of its kind in Mexico, suggests that surveillance of cats for zoonotic pathogens is long overdue."
-        },
-        {
-          "publication_type": "Undark / The Atlantic",
-          "headline": "We've Been Ignoring Cats as Disease Vectors \u2014 This Study Suggests That's a Mistake",
-          "hook": "One in three cats in a northeastern Mexican city carried tick-borne bacteria linked to human illness, yet cat surveillance for zoonotic disease lags far behind that of dogs.",
-          "pitch_angle": "As urbanization and climate change expand tick habitats, the gap in surveillance between dogs and cats may represent a blind spot in public health preparedness, particularly in border communities where pets move freely across jurisdictions with different veterinary standards."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42934461",
-      "headline": "African cities have 200+ ideas for cleaner air \u2014 but politics and money keep blocking them",
-      "journal": "Journal of Urban Health",
-      "pubdate": "2026 Oct 26",
-      "doi": "10.1007/s11524-026-01165-0",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used participatory 'future workshops' with 20\u201335 institutional stakeholders each in four Ghanaian cities (Takoradi, Kumasi, Tamale, Accra) in 2024 to identify barriers to air pollution governance and co-develop solutions. Participants catalogued 59 barriers spanning politics, funding, technology, and regulation, generating over 200 potential solutions refined into 90 actionable strategies. The study found that effective air quality governance in Ghana requires integrated, multisectoral action, and that all prioritized strategies achieved at least 60% on both desirability and feasibility among stakeholders.",
-      "why_it_matters": "As African cities face worsening air pollution with minimal dedicated policy infrastructure, this participatory framework offers a replicable model for other low-resource urban settings to develop locally grounded governance strategies.",
-      "caveats": "single-center, observational design, small sample (N<100 per workshop), qualitative methods without outcome measurement",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Africa-specific governance study; limited generalizability and no health outcome data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Undark",
-          "headline": "Ghana's Cities Are Choking \u2014 and Experts Now Have a Blueprint to Fight Back",
-          "hook": "African cities generate some of the world's worst urban air pollution, yet governance research has almost entirely ignored the continent.",
-          "pitch_angle": "Researchers working with stakeholders across four Ghanaian cities identified more than 200 ideas for cutting urban air pollution, distilling them into 90 actionable strategies \u2014 but the study also reveals how deeply politics, funding gaps, and weak institutions block progress. The participatory framework could serve as a template for other African nations scrambling to build air quality policy from scratch."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Public Health & Epidemiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42771940",
-      "headline": "Children who get a rare blood disorder after their first MMR shot can safely get the second dose",
-      "journal": "Vaccine",
-      "pubdate": "2026 Oct 24",
-      "doi": "10.1016/j.vaccine.2026.129168",
-      "groundbreaking": "Counterintuitive finding / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Using linked hospital and vaccination records for children born in England between 2000 and 2019, researchers applied a self-controlled case-series design to assess the risk of idiopathic thrombocytopenic purpura (ITP) \u2014 a platelet disorder \u2014 after MMR vaccination. They found an increased risk of ITP after the first MMR dose (relative incidence 2.38; approximately 1 in 42,900 doses), but no elevated risk after the second dose. Critically, the 336 children who developed ITP after dose 1 and went on to receive dose 2 showed no increased risk, suggesting the second dose is safe even for this group.",
-      "why_it_matters": "This large population-based study directly addresses a key clinical uncertainty, suggesting that a rare vaccine side effect after MMR dose 1 should not prevent children from receiving the protective second dose.",
-      "caveats": "observational design, single-center",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Large population cohort, counterintuitive safety finding, clear public health implication.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health.com / Women's Health",
-          "headline": "Your child had a rare reaction to their first MMR shot \u2014 here's what the science says about the second dose",
-          "hook": "A study of nearly two decades of childhood vaccination data found that children who developed a rare blood disorder after their first MMR vaccine had no increased risk from the second dose.",
-          "pitch_angle": "Idiopathic thrombocytopenic purpura after MMR dose 1 has long made parents and doctors hesitant about dose 2 \u2014 but this large English cohort study suggests that fear may be unfounded. The finding could meaningfully improve MMR completion rates in a population already at risk of under-vaccination."
-        },
-        {
-          "publication_type": "Scientific American / The Atlantic",
-          "headline": "A rare MMR side effect has long worried parents and doctors. A 20-year study says the second shot is still safe.",
-          "hook": "For two decades, a blood disorder triggered by the first MMR vaccine has created uncertainty about whether children should receive the second dose \u2014 new large-scale data suggests they safely can.",
-          "pitch_angle": "Researchers tracked over 19 years of linked hospital and vaccination records in England and found that while the first MMR dose carries a small but real risk of ITP, the second dose does not \u2014 even in children who previously experienced ITP. At a time of heightened scrutiny over vaccine safety, this kind of rigorous population-level reassurance carries significant public health weight."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42753389",
-      "headline": "Nigerian healthcare workers want to help test a Lassa fever vaccine \u2014 but only if researchers earn their trust first",
-      "journal": "Vaccine",
-      "pubdate": "2026 Oct 24",
-      "doi": "10.1016/j.vaccine.2026.129162",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted qualitative interviews with 20 physicians, nurses, and midwives at a major teaching hospital in Kano, northern Nigeria, to understand their willingness to participate in Lassa fever vaccine trials. Rather than flat refusal or unconditional acceptance, healthcare workers expressed 'cautious conditionality' \u2014 they would participate if explicit safety, ethical, and institutional safeguards were met. The legacy of the 1996 Pfizer meningitis trial in Kano remained a powerful influence on their decision-making.",
-      "why_it_matters": "With Lassa fever endemic across West Africa and vaccine trials urgently needed, understanding the trust barriers among frontline healthcare workers \u2014 who are both primary targets and critical trial participants \u2014 is essential for designing ethical and effective research programs.",
-      "caveats": "small sample (N<100), observational design, single-center, self-reported outcomes",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Strong public health and research ethics hook; limited by small qualitative sample.",
-      "pitch_angles": [
-        {
-          "publication_type": "Undark / The Atlantic",
-          "headline": "The Shadow of a 1996 Drug Trial Still Shapes Who Will Test a Lassa Fever Vaccine",
-          "hook": "Nearly three decades after Pfizer's controversial meningitis trial in Kano, Nigerian healthcare workers say they'll only join Lassa fever vaccine studies if researchers prove they can be trusted.",
-          "pitch_angle": "This study reveals how historical research abuses continue to shape vaccine trial recruitment in endemic disease settings \u2014 and identifies concrete steps researchers must take to rebuild institutional trust. As Lassa fever remains a persistent occupational threat with no approved vaccine, the findings carry urgent implications for global health research ethics."
-        },
-        {
-          "publication_type": "Science News / New Scientist",
-          "headline": "Healthcare Workers in Lassa-Endemic Nigeria Will Join Vaccine Trials \u2014 Under Strict Conditions",
-          "hook": "Frontline workers most at risk from Lassa fever aren't opposed to vaccine trials \u2014 they just want transparency, accountability, and proof that their safety comes first.",
-          "pitch_angle": "A qualitative study in northern Nigeria found that healthcare workers approach vaccine trial participation as ethical evaluators, not passive subjects, with trust in institutions and transparent safety data as non-negotiable prerequisites. These findings offer a practical roadmap for trial designers working in post-colonial research settings shaped by past controversies."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42926302",
-      "headline": "Urban noise is linked to depression \u2014 but not anxiety \u2014 in Mexican households, and city living adds risk even without the noise",
-      "journal": "Journal of Urban Health",
-      "pubdate": "2026 Oct 24",
-      "doi": "10.1007/s11524-026-01176-x",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed data from a probabilistic stratified household survey (n=400) in the State of Mexico, applying structural equation modeling to examine links between perceived noise, sociodemographic factors, and mental health. Perceived noise was significantly associated with depressive symptoms but not with anxiety \u2014 a counterintuitive split \u2014 and urban residence was independently associated with higher depression even after controlling for noise. Spatial analysis showed that high perceived noise and depression clustered together in metropolitan areas.",
-      "why_it_matters": "The finding that city living raises depression risk independently of noise exposure suggests urban mental health policy may need to address structural stressors beyond soundscapes \u2014 a lesson relevant to rapidly urbanizing regions across the Global South.",
-      "caveats": "small sample (N<100 per stratum; total N=400), observational design, self-reported outcomes, single-region (State of Mexico), secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Counterintuitive noise-depression split; small sample and regional scope limit generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American",
-          "headline": "City Noise May Depress You \u2014 But the City Itself Is Part of the Problem, Too",
-          "hook": "A study in Mexico finds that perceived environmental noise is linked to depression but not anxiety \u2014 and that living in an urban area raises depression risk even after noise is accounted for.",
-          "pitch_angle": "The unexpected dissociation between noise and anxiety challenges assumptions about how urban soundscapes harm mental health, and the independent urban-depression link suggests multiple overlapping stressors \u2014 crowding, inequality, limited green space \u2014 may act on mood through separate pathways. As cities in the Global South grow rapidly, understanding these layered risks could reshape how urban planners and public health officials approach mental wellbeing."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Public Health & Epidemiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42918604",
-      "headline": "Toxic dioxin-like compounds are quietly accumulating in deep-sea cold seeps \u2014 and we've barely started looking for them",
-      "journal": "Environmental Pollution",
-      "pubdate": "2026 Oct 23",
-      "doi": "10.1016/j.envpol.2026.129404",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used high-resolution mass spectrometry to screen sediment cores from the Haima cold seep area of the South China Sea for halogenated carbazoles, a class of emerging organohalogen contaminants. Beyond the 12 known target compounds, they identified 47 previously uncharacterized halogenated carbazole-like compounds, whose combined concentrations exceeded those of the known targets by more than tenfold, with some cores reaching 170 ng/g dry weight. The cold seep environment showed a distinct chemical signature dominated by chlorinated-iodinated congeners, suggesting local geochemical processes drive unique halogenation patterns not seen in coastal sediments.",
-      "why_it_matters": "Deep-sea environments were long assumed to be isolated from industrial contamination, but the discovery of abundant, structurally novel halogenated pollutants in cold seep sediments suggests these ecosystems may be accumulation hotspots for a largely uncharacterized class of toxic compounds.",
-      "caveats": "observational design, single-center, geographically limited to South China Sea, compounds annotated at confidence Level 3 only (tentative identification)",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Counterintuitive deep-sea pollution finding; strong environmental discovery angle.",
-      "pitch_angles": [
-        {
-          "publication_type": "bioGraphic / Scientific American / New Scientist",
-          "headline": "The Deep Ocean Is Quietly Accumulating a Class of Toxic Chemicals We Barely Know Exist",
-          "hook": "Scientists probing sediments from a deep-sea cold seep in the South China Sea found concentrations of novel halogenated pollutants more than ten times higher than the known target compounds \u2014 compounds so new they don't yet have formal toxicity classifications.",
-          "pitch_angle": "The discovery of 47 previously uncharacterized halogenated carbazole-like compounds in deep-sea sediments challenges the idea that the ocean depths are pristine environments, and suggests that standard pollution monitoring, which targets only a small roster of known chemicals, is missing the vast majority of what's actually accumulating there. The findings open questions about whether similar enrichment is occurring in cold seeps globally and what ecological consequences these compounds may have for deep-sea food webs."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Environmental Health",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42914993",
-      "headline": "The first human trial of a Crimean-Congo hemorrhagic fever vaccine shows it's safe and triggers an immune response",
-      "journal": "The Lancet Infectious Diseases",
-      "pubdate": "2026 Oct 23",
-      "doi": "10.1016/S1473-3099(26)00471-8",
-      "groundbreaking": "First-in-class human study / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In an open-label, non-randomized phase 1 trial at the University of Oxford (N=46 healthy adults aged 18\u201355), researchers tested two doses of ChAdOx2 CCHF \u2014 an adenoviral-vectored vaccine against Crimean-Congo hemorrhagic fever virus (CCHFV), a WHO-designated priority pathogen \u2014 administered 12 weeks apart. Reactogenicity was predominantly mild (injection-site pain and fatigue); no serious adverse events were reported, and two participants were discontinued. Antibody responses to CCHFV glycoproteins were detected after the first dose and substantially increased after the second, providing proof-of-principle that vaccination against CCHFV can generate a humoral immune response in humans.",
-      "why_it_matters": "Crimean-Congo hemorrhagic fever has a case fatality rate up to 40% and is spreading geographically as tick populations expand with climate change \u2014 this first human safety signal is a necessary step toward a vaccine that doesn't yet exist.",
-      "caveats": "small sample (N<100), open-label, non-randomised, single-center, short follow-up, phase 1 only (safety/immunogenicity, not efficacy)",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "First-in-human trial for high-fatality WHO priority pathogen; pandemic preparedness hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American / New Scientist",
-          "headline": "A Vaccine Against One of the World's Deadliest Hemorrhagic Fevers Just Passed Its First Human Test",
-          "hook": "Crimean-Congo hemorrhagic fever kills up to 40% of those infected and has no approved vaccine \u2014 until now, no one had ever tested one in humans.",
-          "pitch_angle": "Using the same adenoviral vector platform behind the Oxford-AstraZeneca COVID-19 vaccine, researchers found that ChAdOx2 CCHF was safe and generated measurable antibody responses in 46 volunteers, representing proof of principle for a vaccine against a pathogen that WHO ranks among its most urgent priorities. With CCHFV-carrying ticks expanding into southern Europe and climate change widening their range, the timing of this milestone has global significance."
-        },
-        {
-          "publication_type": "The Atlantic / Undark",
-          "headline": "A Hemorrhagic Fever With a 40% Kill Rate Is Spreading \u2014 and Scientists Just Took the First Step Toward a Vaccine",
-          "hook": "Crimean-Congo hemorrhagic fever has killed up to four in ten people it infects, yet until this trial no vaccine had ever been tested in a human being.",
-          "pitch_angle": "As climate change pushes the Hyalomma ticks that carry CCHFV into Spain, Italy, and beyond, the window for preventive action is narrowing \u2014 and this first-in-human phase 1 result, while early, suggests the Oxford vaccine platform that helped end COVID-19 may have another role to play in preparing for the next outbreak."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42918487",
-      "headline": "Methadone has saved lives for 60 years \u2014 its chemical quirks also explain why it keeps killing people",
-      "journal": "Drug Discovery Today",
-      "pubdate": "2026 Oct 23",
-      "doi": "10.1016/j.drudis.2026.104840",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This narrative review examines methadone as a case study in opioid pharmacology, analyzing how its chemical structure, stereochemistry, receptor polypharmacology, and unusual pharmacokinetics collectively explain both its enduring clinical value and its persistent safety liabilities. The authors synthesize decades of research on methadone's synthesis, structure-activity relationships, and clinical limitations, with particular focus on features \u2014 including its long and variable half-life and interactions with multiple receptor types \u2014 that complicate dosing and contribute to overdose risk. The review positions these lessons as a framework for designing next-generation opioid therapeutics that better balance efficacy, duration, and safety.",
-      "why_it_matters": "As the opioid crisis continues to evolve, understanding why even well-established treatments like methadone carry serious risks is essential to designing safer drugs for the millions who need them.",
-      "caveats": "secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Public health opioid angle; narrative review with no new data limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic / Undark",
-          "headline": "Methadone Has Been Treating Addiction Since the 1960s. Its Chemistry Still Confounds Us.",
-          "hook": "Methadone is one of the most effective tools against opioid addiction \u2014 and one of the most unpredictable drugs in the American medicine cabinet.",
-          "pitch_angle": "A new review unpacks the molecular reasons why methadone's half-life varies wildly between patients, why it interacts with receptors far beyond the opioid system, and why those properties make it simultaneously life-saving and lethal. The authors argue those hard-learned lessons should be driving the design of the next generation of addiction treatments."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Pharmacology & Drug Therapy",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42920044",
-      "headline": "A new framework lets unstable oral drugs reach human trials without costly reformulation",
-      "journal": "Pharmaceutical Research",
-      "pubdate": "2026 Oct 23",
-      "doi": "10.1007/s11095-026-04219-9",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Amgen researchers developed an exposure-based risk assessment framework to evaluate pH-dependent drug degradation during first-in-human clinical development. The framework was applied to 'Compound A,' an acid-labile molecule, using biorelevant stability testing, animal pharmacokinetic studies, and computational absorption modeling. The approach allowed the compound to advance to human trials without premature reformulation, because degradant systemic exposure remained below regulatory safety thresholds.",
-      "why_it_matters": "A smarter risk-assessment approach could accelerate development of acid-sensitive drugs \u2014 a common challenge in oral medicine \u2014 without unnecessary costly delays.",
-      "caveats": "industry funding [Amgen], single compound case study, animal study components, preclinical framework only",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Highly technical pharma workflow study; limited general audience hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "A Smarter Way to Get Unstable Drugs Into Human Trials",
-          "hook": "Many promising oral drugs fail before they ever reach a patient \u2014 not because they don't work, but because they fall apart in stomach acid before anyone can test them properly.",
-          "pitch_angle": "Amgen scientists have developed a risk-based framework that could let acid-labile drug candidates reach first-in-human trials without expensive and time-consuming reformulation. The approach, which combines lab stability tests, animal studies, and computational modeling, suggests that many drug candidates may be abandoned too early based on overly cautious assumptions."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Pharmacology & Drug Therapy",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42897905",
-      "headline": "Antioxidant supplements are widely used for male infertility \u2014 but the evidence for them remains surprisingly shaky",
-      "journal": "Expert Opinion on Pharmacotherapy",
-      "pubdate": "2026 Oct 22",
-      "doi": "10.1080/14656566.2026.2749640",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a comprehensive narrative review of literature from 2000\u20132026 on antioxidant therapy for male infertility, synthesizing evidence from RCTs, systematic reviews, and clinical guidelines retrieved from PubMed, Scopus, and Web of Science. Despite oxidative stress being widely recognized as a major driver of male subfertility, the review found that no standardized diagnostic criteria, agreed-upon antioxidant formulations, or consistent dosing protocols exist. The authors also flagged an underappreciated risk: excessive antioxidant supplementation may cause reductive stress, potentially worsening sperm function.",
-      "why_it_matters": "Millions of couples worldwide use over-the-counter antioxidant supplements to address male infertility, yet this review suggests the evidence base guiding those choices remains critically incomplete and potentially misleading.",
-      "caveats": "observational design, secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Consumer health relevance; narrative review limits strength; no new primary data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health.com / Women's Health",
-          "headline": "Men Take Antioxidant Supplements to Boost Fertility. Science Isn't Sure They Work \u2014 and Too Much May Backfire.",
-          "hook": "Antioxidant supplements marketed for male fertility are a multimillion-dollar category, but a sweeping review of 26 years of research finds the evidence base is riddled with inconsistencies \u2014 and high doses may actually harm sperm.",
-          "pitch_angle": "A new review finds no standardized diagnostic tests, no agreed dosing, and heterogeneous trial results, making it impossible to confirm antioxidants reliably improve male fertility outcomes. The authors warn that 'reductive stress' from over-supplementation is a real and under-discussed risk."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Pharmacology & Drug Therapy",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42913773",
-      "headline": "A scorecard designed for heart health just identified 41 everyday chemicals that may quietly damage it",
-      "journal": "Environmental Pollution",
-      "pubdate": "2026 Oct 22",
-      "doi": "10.1016/j.envpol.2026.129369",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed 149 environmental chemicals using data from 2013\u20132016 NHANES surveys, applying the American Heart Association's Life's Essential 8 (LE8) cardiovascular health score as an integrative biomarker. While standard single-pollutant models found few direct associations with cardiovascular disease, the LE8 framework revealed inverse associations with 41 chemicals \u2014 primarily VOC metabolites, polycyclic aromatic hydrocarbons, and aromatic amines \u2014 after correction for multiple testing. Mediation analyses suggested these chemicals may impair cardiovascular health indirectly through pathways involving diabetes, hypertension, and hyperlipidemia.",
-      "why_it_matters": "Using a composite cardiovascular health index rather than a single disease endpoint may expose chemical hazards that conventional epidemiological screening routinely misses, potentially reshaping how regulators identify environmental cardiovascular risks.",
-      "caveats": "observational design, secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Large NHANES dataset, novel analytical framework, strong public health and environmental health hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American",
-          "headline": "A Heart Health Score Designed for Clinics Is Now Catching Toxic Chemicals That Standard Tests Miss",
-          "hook": "When researchers applied a composite cardiovascular health index to NHANES chemical exposure data, they uncovered 41 pollutants linked to heart risk \u2014 chemicals that conventional disease-endpoint analysis had missed entirely.",
-          "pitch_angle": "The Life's Essential 8 score, developed to guide individual heart health, may be a powerful new lens for environmental toxicology \u2014 catching the cumulative, indirect ways that everyday chemical exposures erode cardiovascular health before diagnosable disease appears."
-        },
-        {
-          "publication_type": "The Atlantic",
-          "headline": "The Air Pollution\u2013Heart Disease Link Is Bigger Than We Thought \u2014 and We've Been Measuring It Wrong",
-          "hook": "Forty-one common environmental chemicals \u2014 from car exhaust byproducts to industrial pollutants \u2014 are associated with worse cardiovascular health, but only a new composite screening method could see them.",
-          "pitch_angle": "Standard regulatory toxicology looks for chemicals that directly cause heart attacks or strokes, but a new study suggests the real damage is subtler and cumulative \u2014 eroding blood pressure, blood sugar, and cholesterol in ways that add up to serious cardiovascular harm over time."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Environmental Health",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42918961",
-      "headline": "Whole-exome sequencing of rare organ-reversal syndrome uncovers new genetic culprits in 30% of unexplained cases",
-      "journal": "Mammalian Genome",
-      "pubdate": "2026 Oct 22",
-      "doi": "10.1007/s00335-026-10283-8",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers performed whole-exome sequencing on 17 adult patients with Kartagener's syndrome \u2014 a rare ciliopathy causing reversed organ placement, chronic lung disease, and sinusitis \u2014 recruited from a Turkish clinical cohort. The study identified pathogenic or likely pathogenic variants in known primary ciliary dyskinesia genes including DNAH5, DNAI1, and DNAI2, with several novel alleles detected. In one genetically unresolved patient, candidate variants in DLEC1, DNAAF9, and a copy-number loss in EZR were identified as possible contributors warranting further study.",
-      "why_it_matters": "Expanding the known genetic landscape of Kartagener's syndrome could improve diagnostic yields for the estimated 30% of primary ciliary dyskinesia cases that currently go genetically unresolved, potentially guiding clinical management for patients with unexplained chronic lung disease.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Rare disease genetics with diagnostic implications; very small cohort limits broader impact.",
-      "pitch_angles": [
-        {
-          "publication_type": "Undark / New Scientist",
-          "headline": "A rare syndrome that flips your organs inside-out is still genetically mysterious \u2014 new clues are emerging",
-          "hook": "Kartagener's syndrome \u2014 which causes the heart, stomach, and other organs to develop as mirror images of normal \u2014 remains genetically unexplained in nearly a third of patients, but new sequencing work is starting to fill the gaps.",
-          "pitch_angle": "Whole-exome sequencing of 17 adults with Kartagener's syndrome identified novel genetic variants in established disease genes and flagged three candidate genes in a patient whose case had stumped conventional testing. The findings highlight how phenotype-driven genomic analysis \u2014 focusing on patients with the distinctive organ-reversal trait \u2014 can sharpen the search for causes in a disease that has long been genetically elusive."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42914159",
-      "headline": "CRISPR and gene therapy for rare brain disorders may do more harm than good if dosing isn't precisely controlled",
-      "journal": "Clinical Genetics",
-      "pubdate": "2026 Oct 22",
-      "doi": "10.1111/cge.70267",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used HNRNPU-related rare neurodevelopmental disorder \u2014 a condition causing severe epilepsy and developmental delay \u2014 as a case study to analyze why gene therapies including CRISPR, antisense oligonucleotides, and viral gene supplementation are so difficult to translate clinically. The review (not a clinical trial) found that simply increasing expression of a missing gene is insufficient and potentially dangerous: HNRNPU is dosage-sensitive, meaning too much of the protein can cause localized cell toxicity. The authors argue that spatial, developmental, and therapeutic timing windows must all be accounted for in designing safe gene-directed therapies for rare neurodevelopmental disorders.",
-      "why_it_matters": "As CRISPR-based therapies move toward clinical use for rare childhood brain disorders, this analysis suggests that 'more gene expression' is not always better \u2014 a critical caution for drug developers and regulators.",
-      "caveats": "review article (no original human data), small field with limited clinical trial evidence",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "CRISPR/gene editing topic bonus; review only, no human subjects data reduces score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired / Scientific American",
-          "headline": "Why 'Fix the Gene' Isn't Enough: The Hidden Dangers of CRISPR for Rare Brain Disorders",
-          "hook": "Turning on a missing gene sounds like the obvious fix \u2014 but for some rare neurological conditions, too much gene expression can poison the very cells you're trying to save.",
-          "pitch_angle": "A new review using a rare epilepsy disorder as a test case reveals that gene therapies including CRISPR must navigate narrow dosage windows, developmental timing, and cell-type sensitivity \u2014 or risk causing harm. The finding reframes a central assumption of the gene therapy field and has implications for dozens of rare neurodevelopmental disorders now entering the therapeutic pipeline."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42914702",
-      "headline": "A gut virus in a Japanese teenager appears to be a genetic hybrid of pig, cat, and human rotavirus strains \u2014 a first of its kind",
-      "journal": "Virology",
-      "pubdate": "2026 Oct 22",
-      "doi": "10.1016/j.virol.2026.111111",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers sequenced the full genome of a novel G11P[25] rotavirus strain \u2014 designated S22-592 \u2014 detected in stool from a 17-year-old hospitalized with severe gastroenteritis in Japan. Whole-genome analysis revealed a unique 11-segment genotype constellation with genomic segments most closely related to Korean porcine-like human strains, Chinese feline-like human strains, and Thai/Japanese human strains. The findings suggest S22-592 is a genomic mosaic assembled from segment groups with distinct porcine-, human-, and feline-associated evolutionary histories \u2014 expanding known diversity beyond previously described G11P[25] lineages.",
-      "why_it_matters": "Rotavirus mosaics that blend genetic material from human, pig, and cat lineages illustrate how inter-species mixing events can generate novel strains with unpredictable characteristics, with implications for vaccine coverage and pandemic surveillance.",
-      "caveats": "small sample (N<100), single-center, single case study",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Counterintuitive cross-species mosaic virus in a human; single case limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American / New Scientist",
-          "headline": "A teenager's stomach bug turned out to be a viral chimera with pig, cat, and human DNA",
-          "hook": "A rotavirus that hospitalized a Japanese teenager carried genomic segments from three separate animal lineages \u2014 a kind of evolutionary patchwork that virologists say expands what we know about how new strains emerge.",
-          "pitch_angle": "Whole-genome sequencing revealed that the virus, strain S22-592, assembled its 11 genomic segments from distinct porcine, feline, and human rotavirus lineages across multiple countries \u2014 a mosaic configuration not previously described for this strain type. The finding raises questions about how often inter-species gene-shuffling produces novel rotaviruses with the potential to evade existing vaccine immunity."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42911143",
-      "headline": "A blinding eye infection is spreading beyond the tropics \u2014 and doctors are struggling to identify it in time",
-      "journal": "Future Microbiology",
-      "pubdate": "2026 Oct 22",
-      "doi": "10.1080/17460913.2026.2751606",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a systematic review of literature from 2000 to August 2026 on fungal keratitis, a vision-threatening corneal infection caused by molds such as Fusarium and Aspergillus. The review found that climate change, contact lens use, and expanding agricultural exposures are broadening the geographic and demographic reach of the disease beyond its traditional tropical strongholds. Emerging diagnostic tools \u2014 including CRISPR-based rapid tests, AI-assisted imaging, and biosensors \u2014 combined with nanotechnology drug delivery systems and new antifungals, suggest a shift toward faster, more targeted treatment is possible but not yet standard.",
-      "why_it_matters": "As fungal keratitis spreads into non-tropical regions partly driven by climate change and contact lens use, delayed diagnosis continues to be a leading cause of preventable blindness worldwide.",
-      "caveats": "observational design, secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Climate-health and emerging pathogen hook; review design limits novelty.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic",
-          "headline": "The Eye Infection Climate Change Is Helping Spread \u2014 and Doctors Often Miss It",
-          "hook": "Fungal keratitis, a mold infection that can cause permanent blindness, is quietly expanding beyond tropical regions as climates shift and contact lens use grows \u2014 but diagnosis still typically takes days.",
-          "pitch_angle": "A comprehensive review of 26 years of research finds that changing environments and contact lens habits are fueling a global rise in a little-known, vision-destroying infection caused by the same molds found in soil and plants. Faster CRISPR-based diagnostics and nano-scale drug delivery offer hope, but aren't yet widely available \u2014 leaving a growing patient population at risk of irreversible damage."
-        },
-        {
-          "publication_type": "Health.com / Women's Health",
-          "headline": "Your Contact Lenses Could Be a Gateway for This Rare but Blinding Fungal Infection",
-          "hook": "Fungal keratitis \u2014 a mold infection of the eye's cornea \u2014 is increasingly linked to contact lens wear, and early signs are easy to mistake for a routine eye irritation.",
-          "pitch_angle": "A sweeping review of global research finds that contact lens users face rising risk of a sight-threatening fungal infection that standard antibiotic drops won't treat, and that standard lab diagnosis can take days \u2014 often too long to prevent lasting damage. Researchers say new rapid tests and novel drug formulations could change outcomes, but most eye care providers don't yet have access to them."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42910930",
-      "headline": "Carrying just one strain of a dangerous hospital bacteria may be riskier than carrying many",
-      "journal": "mSphere",
-      "pubdate": "2026 Oct 22",
-      "doi": "10.1128/msphere.00329-26",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers developed a new amplicon sequencing tool called wzi-Seq to detect and quantify multiple strains of Klebsiella pneumoniae from rectal swab samples, applying it to 171 hospitalized patients in a case-control cohort. They found that 63.2% of patients carried a single Klebsiella strain (mono-colonization) and 36.8% carried multiple strains, and that mono-colonization was significantly associated with higher risk of developing a Klebsiella infection (P=0.034). Counterintuitively, patients harboring only one strain were at greater infection risk than those with a more diverse gut Klebsiella population.",
-      "why_it_matters": "Identifying whether a hospitalized patient carries one or multiple strains of this drug-resistant bacterium could help clinicians assess infection risk more precisely and intervene before life-threatening bloodstream infections develop.",
-      "caveats": "single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive finding with clear hospital infection public health relevance; human cohort data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American",
-          "headline": "When It Comes to a Deadly Hospital Bacteria, Diversity in Your Gut May Be Protective",
-          "hook": "Patients colonized by just one strain of Klebsiella pneumoniae in their gut were significantly more likely to develop a serious infection than those harboring multiple strains \u2014 a counterintuitive finding that upends assumptions about bacterial risk.",
-          "pitch_angle": "Using a newly developed DNA sequencing method, researchers found that microbial diversity within a single bacterial species may matter for infection risk \u2014 not just whether the bacteria is present at all. The finding suggests that population-level gut ecology, not just colonization status, should inform how hospitals monitor and manage high-risk patients."
-        },
-        {
-          "publication_type": "Undark",
-          "headline": "A New Test Could Predict Which Hospital Patients Will Get a Dangerous Bacterial Infection Before It Happens",
-          "hook": "A novel sequencing tool revealed that hospitalized patients colonized by a single Klebsiella strain face greater infection risk \u2014 a finding that could change how hospitals screen vulnerable patients.",
-          "pitch_angle": "Healthcare-associated Klebsiella infections kill tens of thousands of people annually, often striking patients already weakened by illness or surgery; a new strain-characterization tool now offers a way to flag who is most at risk before infection sets in. The counterintuitive discovery that mono-colonization is more dangerous than mixed colonization raises new questions about how microbial competition in the gut might protect against disease."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42911540",
-      "headline": "A new oral blood thinner shows promising safety signals in early human trial \u2014 but key questions remain",
-      "journal": "Clinical Pharmacokinetics",
-      "pubdate": "2026 Oct 22",
-      "doi": "10.1007/s40262-026-01722-5",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Chinese researchers conducted a Phase I pharmacokinetic and pharmacodynamic analysis of HHT120, a novel oral direct thrombin inhibitor, in 74 healthy participants across single-dose, multiple-dose, and food-effect study phases. Using population pharmacokinetic modeling, they characterized the drug and its active metabolite Rn-001, finding no significant covariate effects on drug exposure. Simulated dosing regimens of 100\u2013300 mg once daily or 100\u2013200 mg twice daily kept anticoagulant activity (measured by APTT) within a range suggesting a favorable safety profile.",
-      "why_it_matters": "Direct thrombin inhibitors are a critical class of anticoagulants used to prevent stroke and clotting disorders, and a new oral candidate with a clean early safety profile could eventually expand treatment options for millions of patients globally.",
-      "caveats": "small sample (N=74 healthy volunteers only), industry funding [Livzon Pharmaceutical Group], single-center, short follow-up, Phase I only, no patient population studied",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Human Phase I trial on anticoagulant; small N, healthy volunteers only, early stage.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science / Health.com",
-          "headline": "A New Type of Blood Thinner Passed Its First Human Safety Test \u2014 Here's What That Means",
-          "hook": "A new oral anticoagulant called HHT120 has cleared its first human trial with encouraging safety signals, adding to a field where better blood-thinning options are still urgently needed.",
-          "pitch_angle": "In a Phase I trial of 74 healthy adults, HHT120 \u2014 a direct thrombin inhibitor that blocks clot formation \u2014 showed predictable drug behavior and anticoagulant effects that stayed within safe limits across multiple dosing scenarios. While far from approval, the early data support advancing the drug to trials in patients with actual clotting conditions, where it could one day offer an alternative to existing anticoagulants."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Pharmacology & Drug Therapy",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42925572",
-      "headline": "A machine learning tool using just 24 hours of hospital data correctly flagged most dengue patients at risk of dying \u2014 even when standard models missed them",
-      "journal": "Journal of Vector Borne Diseases",
-      "pubdate": "2026 Oct 22",
-      "doi": "10.4103/jvbd.jvbd_49_26",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a retrospective multicentric study of 1,148 laboratory-confirmed dengue patients admitted to hospitals in India between 2012 and 2017, of whom 21 died. Using LASSO-based feature selection and ten machine learning classifiers applied only to data from the first 24 hours of admission, a cost-sensitive threshold-optimized support vector machine model correctly identified 18 of 21 non-survivors, achieving a balanced accuracy of 88.6%. The approach preserved real-world outcome prevalence while improving identification of the highest-risk patients compared with standard default-threshold models.",
-      "why_it_matters": "During dengue outbreaks, which strain hospital systems across South and Southeast Asia and increasingly in the Americas, a validated early triage tool could help clinicians prioritize scarce resources and potentially prevent deaths.",
-      "caveats": "observational design, single-center, short follow-up, retrospective, small non-survivor group (N=21), India-specific cohort",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Dengue public health relevance is global; retrospective design and tiny non-survivor group limit strength.",
-      "pitch_angles": [
-        {
-          "publication_type": "Undark / The Atlantic",
-          "headline": "Can a machine learning model save lives during a dengue outbreak? Early results from India say maybe",
-          "hook": "A cost-sensitive AI triage tool using only the first 24 hours of hospital data correctly flagged 18 of 21 dengue patients who went on to die \u2014 outperforming standard models that routinely missed the highest-risk cases.",
-          "pitch_angle": "In a retrospective study of more than 1,100 dengue patients in India, researchers found that tuning machine learning thresholds for clinical cost \u2014 treating a missed death as worse than an unnecessary admission \u2014 dramatically improved identification of who was truly at risk. As dengue expands its geographic range under climate change, tools that can rapidly sort the worried-well from the critically ill could become essential for overwhelmed health systems."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42908437",
-      "headline": "Finland embeds farmer mental health into statutory welfare \u2014 and it may be the best model Europe has",
-      "journal": "Journal of Agromedicine",
-      "pubdate": "2026 Oct 22",
-      "doi": "10.1080/1059924X.2026.2750260",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a comparative qualitative case study of four institutional models for farmer mental health support \u2014 an Irish local charity, the Finnish and French national systems, and an EU Erasmus+ program \u2014 analyzing each across five dimensions: coverage, accessibility, professionalization, financial sustainability, and reactive versus preventative support. The Finnish model stood out for integrating preventative measures like farm relief and paid leave within statutory social protection, while the local Irish charity offered niche trauma support but had limited reach and relied on charitable funding. The study found that embedding mental health support in statutory systems provides broader, more sustainable coverage, though it did not assess clinical outcomes.",
-      "why_it_matters": "With farmer mental health crises rising across Europe and North America, the finding that statutory integration \u2014 rather than charity-based or project-funded models \u2014 offers the most sustainable coverage could inform policy reform in countries where farming communities remain underserved.",
-      "caveats": "small sample (N<100), qualitative methods, observational design, no clinical outcome data, single-region (Europe)",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Clear public health hook on underserved rural population; qualitative design limits evidence strength.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic",
-          "headline": "Europe Is Quietly Running an Experiment in Farmer Mental Health \u2014 Finland May Be Winning",
-          "hook": "As farmers across the Western world face worsening mental health crises, a new comparative study finds that embedding support within national welfare systems \u2014 not charities or one-off EU projects \u2014 may be the only model that reliably works.",
-          "pitch_angle": "Finland's approach, which includes farm relief workers so farmers can actually take time off, offers a radically different vision from the charity-driven, underfunded patchwork most farming communities rely on. The findings carry direct relevance for the U.S. and UK, where farmer suicide rates remain elevated and institutional support is fragmented."
-        }
-      ],
-      "run_date": "2026-10-28",
-      "category": "Public Health & Epidemiology",
-      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -1201,33 +1303,6 @@
       "run_date": "2026-10-27",
       "category": "Public Health & Epidemiology",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42926074",
-      "headline": "A single misspelled gene letter causes intellectual disability and deafness in a Jordanian family \u2014 and may be missed by standard tests",
-      "journal": "Gene",
-      "pubdate": "2026 Oct 24",
-      "doi": "10.1016/j.gene.2026.150444",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used whole-exome sequencing on a consanguineous Arab family from Jordan and identified a novel homozygous missense variant in the KARS1 gene (c.989 T>C, p.Leu330Pro) co-segregating with intellectual disability and hearing impairment. Computational analyses predicted the variant disrupts the enzyme's catalytic domain, potentially impairing both cytosolic and mitochondrial protein synthesis. The study expands the known genetic and clinical spectrum of KARS1-related disorders.",
-      "why_it_matters": "Identifying rare recessive variants in understudied populations closes diagnostic gaps for families in whom intellectual disability often goes unexplained for years.",
-      "caveats": "small sample (N<100), single-center, observational design, purely computational with no validation",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Narrow case-family genetics study; limited generalizability and no functional validation.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "One Misspelled DNA Letter Explains Decades of Unexplained Disability in a Family",
-          "hook": "A single genetic typo \u2014 hidden in a gene that helps build proteins throughout the body \u2014 appears to explain intellectual disability and deafness running through multiple generations of a Jordanian family.",
-          "pitch_angle": "Whole-exome sequencing cracked a case that standard diagnostic testing had missed, pointing to a mutation in KARS1, a gene critical to protein synthesis in both the cell's cytoplasm and its mitochondria. The finding illustrates how sequencing technology is finally reaching families in consanguineous communities where rare recessive diseases are overrepresented but underdiagnosed."
-        }
-      ],
-      "run_date": "2026-10-27",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "3/3",
       "status": "new"
     },
     {
