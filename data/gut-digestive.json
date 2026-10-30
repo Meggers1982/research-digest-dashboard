@@ -1,105 +1,405 @@
 {
-  "last_updated": "2026-10-29T16:46:29.988211+00:00",
-  "total_studies": 376,
-  "new_this_run": 9,
+  "last_updated": "2026-10-30T16:42:35.812334+00:00",
+  "total_studies": 385,
+  "new_this_run": 8,
   "studies": [
     {
-      "pmid": "42951709",
-      "headline": "A new trial is testing whether antibiotics can outsmart the bacteria living inside pancreatic tumors that are quietly sabotaging chemotherapy",
-      "journal": "Digestive and Liver Disease",
-      "pubdate": "2026 Oct 28",
-      "doi": "10.1016/j.dld.2026.10.006",
-      "groundbreaking": "Major dietary or microbiome implication",
+      "pmid": "42956959",
+      "headline": "Patients at low-volume liver transplant centers wait longer and get fewer organs \u2014 even though their death rates on the waitlist look similar",
+      "journal": "Journal of Gastrointestinal Surgery",
+      "pubdate": "2026 Oct 29",
+      "doi": "10.1016/j.gassur.2026.102662",
+      "groundbreaking": "Counterintuitive finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "PANORAMIX is a multicenter, proof-of-concept phase II trial across 18 French centers designed to test two strategies in metastatic pancreatic ductal adenocarcinoma (mPDAC): switching from full NALIRIFOX to maintenance 5-FU chemotherapy after 8 cycles, and whether adding ciprofloxacin to second-line gemcitabine-based therapy can overcome resistance by targeting intratumoral Gammaproteobacteria that inactivate gemcitabine. The trial will enroll up to 108 patients in Step 1 and 92 in Step 2, with primary endpoints of 6-month progression-free survival and 6-month overall survival respectively. Results are not yet reported \u2014 this is a trial design publication.",
-      "why_it_matters": "This trial directly tests whether the bacteria living inside pancreatic tumors drive chemotherapy resistance \u2014 a finding that, if confirmed, could reshape how one of the deadliest cancers is treated.",
-      "caveats": "preprint, no results reported yet (trial protocol publication only), industry funding [Servier, AstraZeneca noted in COI]",
+      "summary": "Using Scientific Registry of Transplant Recipients data, researchers compared waitlist and transplant outcomes across U.S. liver transplant programs stratified into four volume quartiles. Low-volume centers had lower transplant rates, longer time-to-transplant, and lower organ offer acceptance ratios compared to high-volume centers, yet waitlist mortality percentages were similar across groups. The authors flag this as a 'waitlist paradox' \u2014 lower-volume centers appear to manage waitlist death by removing sicker patients for clinical deterioration rather than transplanting them, suggesting patients may have less realized access to transplantation than headline mortality figures imply.",
+      "why_it_matters": "This finding suggests that where a patient waits for a liver transplant may meaningfully affect their chances of actually receiving one, even when raw waitlist death rates look similar across programs.",
+      "caveats": "observational design, registry-based (no individual patient-level data on candidate selection or outcomes after removal), ecological comparison across program quartiles",
       "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Microbiome-cancer-treatment link; strong clinical and public interest angle.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Health systems/access finding; tangential to gut/digestive health editorial focus.",
       "pitch_angles": [
         {
-          "publication_type": "The Atlantic",
-          "headline": "The Bacteria Living Inside Pancreatic Tumors May Be Helping Them Resist Chemotherapy",
-          "hook": "A new French clinical trial is testing one of the most provocative ideas in cancer biology: that gut-related bacteria hiding inside pancreatic tumors quietly disarm the drugs meant to kill them.",
-          "pitch_angle": "Researchers have identified a group of bacteria \u2014 Gammaproteobacteria \u2014 that may neutralize gemcitabine, a frontline pancreatic cancer drug, by producing an enzyme that chemically inactivates it; the PANORAMIX trial will test whether a common antibiotic can level the playing field. If the hypothesis holds, it would mean the microbiome's influence on treatment outcomes extends far beyond the gut itself."
-        },
-        {
-          "publication_type": "Gastroenterology & Endoscopy News",
-          "headline": "French Phase II Trial Tests Ciprofloxacin as Chemosensitizer in Metastatic Pancreatic Cancer",
-          "hook": "PANORAMIX is the first trial designed to prospectively test whether targeting intratumoral Gammaproteobacteria with fluoroquinolones can restore gemcitabine sensitivity in mPDAC.",
-          "pitch_angle": "The two-step randomized design also evaluates a maintenance 5-FU strategy after NALIRIFOX induction, addressing two unresolved questions in pancreatic cancer management simultaneously. Gastroenterologists and oncologists managing mPDAC should watch for early results, as microbiota-driven chemoresistance may represent a modifiable treatment target."
+          "publication_type": "General health",
+          "headline": "Where You Wait for a Liver Transplant May Matter More Than You Think",
+          "hook": "New research finds that patients at smaller liver transplant centers wait longer and receive transplants at lower rates than those at high-volume programs \u2014 even though death rates on the waitlist look nearly identical.",
+          "pitch_angle": "A national analysis of U.S. transplant registry data found that low-volume centers accepted organ offers at half the rate of high-volume centers and had far lower proportions of patients ultimately receiving transplants. The similar waitlist death rates appear to mask a troubling pattern: smaller programs may be removing more patients for clinical deterioration rather than getting them to transplant, raising important questions about equitable access to lifesaving care."
         }
       ],
-      "run_date": "2026-10-29",
+      "run_date": "2026-10-30",
       "category": "Gastroenterology",
       "chunk": "2/2",
       "status": "new"
     },
     {
+      "pmid": "42956783",
+      "headline": "A single dengue infection provided complete protection against a second exposure a year later \u2014 in every participant tested",
+      "journal": "The Lancet. Microbe",
+      "pubdate": "2026 Oct 29",
+      "doi": "10.1016/j.lanmic.2026.101542",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a first-in-human phase 1 controlled trial (N=14 healthy adults), researchers tested a new dengue serotype 4 live virus human challenge strain (DENV-4-LVHC H-241), finding that all 14 participants developed mild-to-moderate self-limited dengue at a low dose of 95 plaque-forming units. When 6 of the original participants were rechallenged with the same strain 12 months later, none developed detectable dengue viremia or symptoms, demonstrating robust homologous immunity. No severe dengue or serious adverse events occurred, validating the strain as a safe and predictable platform for future vaccine and therapeutic trials.",
+      "why_it_matters": "Establishing a reliable dengue challenge model is a critical step toward faster evaluation of dengue vaccines and treatments \u2014 a growing urgency as dengue expands geographically with climate change.",
+      "caveats": "small sample (N<100), single-center, non-randomized open-label, rechallenge substudy N=6, military/government funding (Military Infectious Disease Research Program)",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Important virology/vaccine platform study; minimal gut-health or diet relevance for this audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "Scientists Just Gave People Dengue on Purpose \u2014 and the Results Could Speed Up a Vaccine",
+          "hook": "Every volunteer deliberately infected with a new dengue virus strain developed a mild illness \u2014 and every one of them was completely protected when exposed again a year later.",
+          "pitch_angle": "The controlled dengue challenge model validated in this small phase 1 trial gives researchers a reliable tool to test vaccine and drug candidates without waiting years for natural outbreaks, potentially accelerating the path to a dengue vaccine as the virus spreads to new regions."
+        }
+      ],
+      "run_date": "2026-10-30",
+      "category": "Microbiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42951709",
+      "headline": "Scientists are testing whether a common antibiotic can outsmart pancreatic cancer's resistance to chemotherapy by targeting gut bacteria inside tumors",
+      "journal": "Digestive and Liver Disease",
+      "pubdate": "2026 Oct 28",
+      "doi": "10.1016/j.dld.2026.10.006",
+      "groundbreaking": "Major dietary or microbiome implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "The PANORAMIX trial is a multicenter phase II proof-of-concept study enrolling up to 200 patients with metastatic pancreatic ductal adenocarcinoma across 18 French centers, with two sequential randomized steps. Step 1 tests whether maintenance 5-FU after 8 cycles of NALIRIFOX can preserve disease control while reducing toxicity; Step 2 tests whether ciprofloxacin, a fluoroquinolone antibiotic, can overcome gemcitabine resistance by targeting intratumoral Gammaproteobacteria that express cytidine deaminase \u2014 an enzyme that inactivates the drug. This is a trial protocol paper; no efficacy results are yet available.",
+      "why_it_matters": "The hypothesis that bacteria living inside pancreatic tumors may be undermining chemotherapy \u2014 and that a standard antibiotic could restore drug sensitivity \u2014 represents a potentially paradigm-shifting approach to one of the deadliest cancers.",
+      "caveats": "trial protocol only (no results), proof-of-concept phase II, non-comparative design, microbiome data only (no clinical outcomes yet), short follow-up anticipated, industry-adjacent investigator conflicts of interest",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Microbiome-cancer-treatment intersection; strong translational hook; protocol only, no results yet.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The Bacteria Living Inside Pancreatic Tumors May Be Sabotaging Chemotherapy",
+          "hook": "A new French clinical trial is testing the radical idea that a common antibiotic could make one of the deadliest cancers respond to chemotherapy again \u2014 by killing bacteria that have set up shop inside tumors.",
+          "pitch_angle": "Certain bacteria from the Gammaproteobacteria class appear to colonize pancreatic tumors and produce an enzyme that chemically disarms gemcitabine, a frontline drug, before it can do its job. The PANORAMIX trial will test whether adding ciprofloxacin to standard chemotherapy can neutralize this microbial resistance mechanism \u2014 a finding that, if confirmed, would fundamentally change how oncologists think about the tumor microbiome."
+        },
+        {
+          "publication_type": "Gastroenterology & Endoscopy News",
+          "headline": "PANORAMIX Trial Tests Antibiotic-Mediated Microbiota Modulation to Restore Gemcitabine Sensitivity in Metastatic PDAC",
+          "hook": "A multicenter French phase II trial is the first to prospectively randomize metastatic pancreatic cancer patients to ciprofloxacin alongside gemcitabine-based chemotherapy, targeting intratumoral bacteria implicated in drug resistance.",
+          "pitch_angle": "PANORAMIX addresses two underexplored questions in metastatic PDAC management: whether maintenance 5-FU can reduce cumulative NALIRIFOX toxicity without sacrificing disease control, and whether fluoroquinolone-mediated elimination of cytidine deaminase-expressing Gammaproteobacteria can restore gemcitabine efficacy in the second-line setting. With 6-month overall survival as the Step 2 primary endpoint, results from this 18-center trial will provide the first prospective human data on microbiota modulation as a chemosensitization strategy in pancreatic cancer."
+        }
+      ],
+      "run_date": "2026-10-30",
+      "category": "Gastroenterology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42949529",
+      "headline": "Body fat may be a modifiable trigger for kidney disease in people with a high-risk genetic variant",
+      "journal": "Nutrition and Health",
+      "pubdate": "2026 Oct 28",
+      "doi": "10.1177/02601060261499899",
+      "groundbreaking": "Major dietary or microbiome implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers genotyped adults with chronic kidney disease (CKD) for APOL1 risk variants \u2014 a gene disproportionately carried by people of African ancestry \u2014 then compared body composition and renal biomarkers between risk and non-risk groups. In this pilot study (N not explicitly stated, described as small), APOL1 risk-variant carriers showed significantly higher BMI, central abdominal fat, and body fat percentage alongside abnormal kidney function markers. Findings suggest that adiposity may be a modifiable environmental trigger for CKD expression in genetically predisposed individuals, pointing toward precision nutrition as a potential intervention target.",
+      "why_it_matters": "For the millions of people of African ancestry who carry APOL1 risk variants, this early evidence suggests that managing body fat through diet could be a meaningful lever for delaying kidney disease \u2014 even before symptoms appear.",
+      "caveats": "small sample (N<100), pilot study, observational design, single-center, cross-sectional comparison (no longitudinal follow-up), no dietary intake data",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Genetic-nutrition intersection is relevant but pilot design, no gut angle, and kidney-not-gut focus limit score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health / Health.com",
+          "headline": "Your Genes and Your Waistline May Team Up to Raise Kidney Disease Risk",
+          "hook": "A pilot study finds that people carrying a kidney-disease-linked gene variant have significantly more body and belly fat \u2014 suggesting weight management could help offset genetic risk.",
+          "pitch_angle": "Researchers found that adults carrying APOL1 risk variants \u2014 a genetic profile more common in people of African descent \u2014 had higher BMI and abdominal fat alongside worse kidney function markers. This raises the possibility that precision nutrition targeting body fat could help delay CKD in a genetically vulnerable population."
+        }
+      ],
+      "run_date": "2026-10-30",
+      "category": "Nutritional Sciences",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
       "pmid": "42825548",
-      "headline": "Climate change and falling human body temperatures may be opening the door to a new era of deadly fungal infections",
+      "headline": "Climate change and declining human body temperatures may be opening the door to a new era of deadly fungal infections",
       "journal": "mSphere",
       "pubdate": "2026 Oct 27",
       "doi": "10.1128/msphere.00109-26",
       "groundbreaking": "Counterintuitive finding / Major dietary or microbiome implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at the University of W\u00fcrzburg reviewed the evolutionary biology, ecology, and clinical significance of Candida auris \u2014 a multidrug-resistant fungal pathogen with 30\u201360% mortality in invasive infections \u2014 proposing that its simultaneous emergence on multiple continents as genetically distinct clades reflects shared environmental selective pressures rather than clonal spread. The review argues that two converging forces \u2014 rising environmental temperatures due to climate change and a documented secular decline in human basal body temperature \u2014 are eroding the thermal barrier that has historically protected mammals from fungal pathogens. The authors contend that C. auris may be the first of many fungi adapting to breach mammalian thermal defenses, and call for predictive frameworks for fungal disease emergence.",
-      "why_it_matters": "The simultaneous erosion of two evolutionary defenses \u2014 high body temperature and climate-constrained fungal growth \u2014 suggests the emergence of C. auris may signal a broader, climate-driven shift in human vulnerability to fungal disease.",
-      "caveats": "observational design, review article (no primary data), no clinical outcomes measured, theoretical/modeling framework",
+      "summary": "This review examines the evolutionary biology and clinical significance of Candida auris, a multidrug-resistant fungal pathogen that independently evolved thermotolerance on multiple continents \u2014 a pattern suggesting shared environmental selective pressures. The authors argue that anthropogenic climate change is raising ambient temperatures (training more fungi to survive at mammalian body heat) while documented declines in average human basal body temperature simultaneously lower the thermal barrier that protects us from fungal infection. C. auris, which tolerates up to 47\u00b0C, resists all three major antifungal drug classes, and carries 30\u201360% mortality in invasive infections, may represent only the first of many fungi poised to breach this shrinking thermal defense.",
+      "why_it_matters": "The convergence of rising environmental temperatures and falling human body temperatures suggests the window of thermal protection against fungal pathogens is narrowing \u2014 a systemic risk that extends far beyond C. auris.",
+      "caveats": "observational design, no primary data (review/commentary), no clinical outcomes measured",
       "fact_check_note": "",
       "relevance_score": 6,
-      "relevance_score_reason": "Counterintuitive climate-fungal immunity link; review only, no primary data.",
+      "relevance_score_reason": "Counterintuitive climate-body temperature convergence angle; review only, no primary data.",
       "pitch_angles": [
         {
           "publication_type": "The Atlantic",
-          "headline": "Your Body Temperature Is Dropping. Fungi Are Noticing.",
-          "hook": "For millions of years, running a fever-level baseline temperature kept fungi from colonizing the human body \u2014 but that biological firewall may be weakening from two directions at once.",
-          "pitch_angle": "A new review argues that C. auris's simultaneous emergence on multiple continents isn't coincidence \u2014 it's early evidence that climate change and a measurable decline in human body temperature are together dismantling the thermal immunity mammals evolved against fungal pathogens. The implications extend well beyond one drug-resistant yeast, pointing toward a potentially unprecedented era of emerging fungal disease."
+          "headline": "Our Bodies Are Getting Cooler \u2014 and Fungi Are Noticing",
+          "hook": "Human basal body temperature has been quietly falling for over a century, and climate change is warming the world around us \u2014 together, these trends may be shrinking the thermal moat that keeps deadly fungi at bay.",
+          "pitch_angle": "Candida auris independently evolved on multiple continents at the same time, a pattern that points to a shared environmental pressure \u2014 rising heat \u2014 nudging fungi toward mammalian temperatures; paired with declining human body temps, this review argues we may be entering a new era of fungal disease."
         },
         {
           "publication_type": "General health",
-          "headline": "A Drug-Resistant Fungus With 30\u201360% Mortality Is Spreading \u2014 and Climate Change May Explain Why",
-          "hook": "Candida auris appeared independently on four continents within years of each other, a pattern scientists say points to something in our shared environment \u2014 not a single outbreak source.",
-          "pitch_angle": "Researchers suggest that warming global temperatures are allowing heat-sensitive fungi to survive and adapt at human body temperature, while a documented drop in average human basal body temperature chips away at our natural thermal defense. C. auris, already resistant to all three major antifungal drug classes, may be the first signal of a broader fungal threat to come."
+          "headline": "The Deadly Fungus That Evolved on Four Continents Simultaneously \u2014 and What It Warns Us About Climate Change",
+          "hook": "Candida auris didn't spread from one place; it evolved independently on multiple continents at the same time, suggesting something in our changing world is driving fungi to become better at infecting humans.",
+          "pitch_angle": "A new review argues that C. auris \u2014 which kills up to 60% of patients it infects and resists every major antifungal drug class \u2014 may be a preview of a broader wave of thermotolerant fungal pathogens emerging as climate and human biology converge."
         }
       ],
-      "run_date": "2026-10-29",
+      "run_date": "2026-10-30",
       "category": "Microbiology",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42944857",
-      "headline": "Stopping IBD Biologics Early in Pregnancy May Not Dramatically Raise Relapse Risk, Small Study Finds",
+      "headline": "Stopping Crohn's and Colitis Biologics Early in Pregnancy May Not Spike Relapse Risk",
       "journal": "Scandinavian Journal of Gastroenterology",
       "pubdate": "2026 Oct 27",
       "doi": "10.1080/00365521.2026.2748849",
       "groundbreaking": "Major dietary or microbiome implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a retrospective single-center study of 185 pregnancies in 143 women with IBD at a Belgian university hospital (2010\u20132023), examining outcomes when biologic therapy was stopped before gestational week 20. Among 80 women who discontinued biologics before GW20 while in remission, 17.5% experienced a disease flare \u2014 compared with 40% in the small group (n=10) who continued \u2014 though the difference was not statistically significant (p=0.11). Fetal drug exposure appeared low, with detectable cord blood levels found in only one ustekinumab case.",
-      "why_it_matters": "For IBD patients navigating the fraught decision of whether to continue biologic therapy during pregnancy, this early data suggests stopping before active placental transfer may be a viable harm-reduction strategy for those already in sustained remission \u2014 though larger prospective studies are urgently needed.",
-      "caveats": "small sample (N<100 in key subgroups), observational design, single-center, retrospective, short follow-up, 10-patient comparator group severely underpowered",
+      "summary": "Researchers conducted a retrospective single-center study at University Hospital of Li\u00e8ge (2010\u20132023) examining 185 pregnancies in 143 women with IBD. Among 80 women who discontinued biologic therapy before gestational week 20 while in remission, 17.5% experienced a disease flare \u2014 compared with 40% among the 10 who continued treatment, though the difference was not statistically significant (p=0.11). Fetal drug exposure appeared minimal, with low residual drug levels detected in cord blood in only one ustekinumab case.",
+      "why_it_matters": "For women with IBD who are concerned about fetal exposure to biologic drugs, early evidence suggests that stopping treatment before 20 weeks may not dramatically raise the risk of disease relapse \u2014 though larger studies are needed before this informs clinical decisions.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up, secondary analysis",
       "fact_check_note": "",
       "relevance_score": 6,
-      "relevance_score_reason": "Clinically relevant IBD pregnancy question; limited by small, retrospective, single-center design.",
+      "relevance_score_reason": "Clinically meaningful IBD-pregnancy angle; limited by small N and retrospective design.",
       "pitch_angles": [
         {
           "publication_type": "Gastroenterology & Endoscopy News",
-          "headline": "Stopping Biologics Before GW20 Linked to 17.5% Flare Rate in IBD Pregnancies \u2014 But Fetal Exposure May Be Minimal",
-          "hook": "A Belgian retrospective study suggests discontinuing biologics in the first trimester may not significantly raise relapse risk for IBD patients already in sustained remission.",
-          "pitch_angle": "With most current guidelines recommending continuation of biologics through pregnancy, this small but carefully measured study offers preliminary data that early discontinuation \u2014 before active placental drug transfer \u2014 may represent a reasonable compromise for select patients; the near-absent cord blood drug levels add a compelling fetal safety signal worth tracking in larger prospective work."
+          "headline": "Stopping Biologics Before Week 20 in IBD Pregnancies May Be Feasible, Retrospective Data Suggest",
+          "hook": "Only 17.5% of IBD patients who discontinued biologic therapy before gestational week 20 while in remission experienced a disease flare \u2014 raising questions about current guidelines recommending continuation throughout pregnancy.",
+          "pitch_angle": "A single-center Belgian retrospective study found that discontinuing biologics early in pregnancy was not statistically associated with increased relapse risk, and cord blood drug levels were minimal in tested cases. While the sample is small and findings are preliminary, the data support designing larger prospective trials to help clinicians and patients navigate this high-stakes decision."
         },
         {
           "publication_type": "Everyday Health / Verywell Health",
-          "headline": "If You Have IBD and Are Pregnant, Here's What a New Study Says About Stopping Your Medication Early",
-          "hook": "Many people with Crohn's disease or ulcerative colitis worry about exposing their baby to biologic drugs \u2014 and a new study begins to quantify what stopping early actually means for disease control.",
-          "pitch_angle": "The study found that IBD patients in remission who stopped biologics before week 20 of pregnancy had a roughly 1-in-6 chance of a disease flare, and fetal drug exposure appeared very low \u2014 but experts stress this is preliminary, retrospective data from a single hospital, and patients should not change medication plans without their gastroenterologist's input."
+          "headline": "Should You Stop Your Crohn's or Colitis Medication When You're Pregnant? New Research Adds Nuance",
+          "hook": "Many women with IBD stop their biologic medications during pregnancy out of concern for their baby \u2014 and new data suggest that for those in remission, stopping early may not dramatically raise the risk of a flare.",
+          "pitch_angle": "A Belgian study tracking 185 pregnancies found a 17.5% flare rate among women who discontinued biologics before 20 weeks, and fetal drug exposure appeared low in the few cord blood samples tested. Experts caution the study is small and retrospective, and patients should never adjust treatment without their gastroenterologist's guidance."
         }
       ],
-      "run_date": "2026-10-29",
+      "run_date": "2026-10-30",
       "category": "Gastroenterology",
       "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42945001",
+      "headline": "A cancer immunotherapy drug produced durable responses in 60% of patients with no known primary tumor site",
+      "journal": "Journal of Gastrointestinal Cancer",
+      "pubdate": "2026 Oct 27",
+      "doi": "10.1007/s12029-026-01622-8",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers retrospectively reviewed 10 consecutive patients with unfavorable carcinoma of unknown primary (CUP) who received first-line nivolumab monotherapy at a single Japanese cancer center. The objective response rate was 60%, including 2 complete responses, with a median duration of response of 16.2 months among responders. However, median progression-free survival was only 2.9 months, and the study's very small size and lack of a comparator limit interpretation.",
+      "why_it_matters": "This early real-world evidence suggests immunotherapy may offer durable benefit for a historically difficult-to-treat cancer with no identifiable origin, though much larger studies are needed to confirm these findings.",
+      "caveats": "small sample (N<100), observational design, single-center, retrospective, no comparator arm, PD-L1 not assessed, limited genomic profiling",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Oncology/immunotherapy focus; minimal gut health, diet, or microbiome relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "Gastroenterology & Endoscopy News",
+          "headline": "Nivolumab Shows 60% Response Rate as First-Line Therapy in Carcinoma of Unknown Primary",
+          "hook": "In one of the few real-world datasets for first-line immunotherapy in carcinoma of unknown primary, 6 of 10 patients responded \u2014 including 2 with complete responses lasting over a year.",
+          "pitch_angle": "This small Japanese retrospective study suggests nivolumab may offer a viable first-line option for unfavorable CUP, a condition with historically grim outcomes and no standard therapy. While the N=10 sample demands cautious interpretation, the 16.2-month median duration of response in responders is a clinically meaningful signal worth watching in larger trials."
+        }
+      ],
+      "run_date": "2026-10-30",
+      "category": "Gastroenterology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42933673",
+      "headline": "A 'Tasty and Healthy' Diet Cuts Gut Inflammation Markers in People Genetically at Risk for Crohn's Disease",
+      "journal": "Gastroenterology",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1053/j.gastro.2026.10.376",
+      "groundbreaking": "First-in-class human study / Major dietary or microbiome implication / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "The PIONIR randomized crossover trial enrolled 29 first-degree relatives of Crohn's disease patients who had persistently elevated fecal calprotectin (a marker of gut inflammation) but no confirmed IBD diagnosis, assigning them to an 8-week anti-inflammatory 'Tasty & Healthy' (T&H) dietary pattern or their habitual diet before crossing over. Participants on the T&H diet saw fecal calprotectin fall by an estimated 61% versus 38% on the habitual diet, and 71% achieved a \u226550% reduction versus 27% on the habitual diet (RR=2.68). Six gut microbial species also differed significantly between diet groups, and adherence to the T&H diet was high, with 83% reporting good or complete compliance.",
+      "why_it_matters": "This is one of the first randomized trials to show that a specific dietary pattern can measurably reduce gut inflammation in healthy people who are genetically predisposed to Crohn's disease \u2014 suggesting diet may have a role in delaying or preventing IBD onset.",
+      "caveats": "small sample (N<100), short follow-up, microbiome data only (no clinical outcomes), secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 9,
+      "relevance_score_reason": "First RCT on dietary IBD prevention in at-risk relatives; counterintuitive, high topic fit.",
+      "pitch_angles": [
+        {
+          "publication_type": "Gastroenterology & Endoscopy News",
+          "headline": "RCT: Anti-Inflammatory Diet Cuts Fecal Calprotectin by 61% in High-Risk Crohn's Relatives",
+          "hook": "For the first time, a randomized controlled trial shows that a structured dietary intervention can significantly reduce intestinal inflammation markers in healthy first-degree relatives of Crohn's disease patients \u2014 before any diagnosis is made.",
+          "pitch_angle": "The PIONIR crossover trial (N=29) found the Tasty & Healthy diet reduced fecal calprotectin nearly twice as much as habitual diet over 8 weeks, with six gut microbial species shifting significantly between groups. The findings open a new frontier in IBD prevention research, though larger and longer trials are needed to determine whether reducing fecal calprotectin translates into lower rates of actual disease onset."
+        },
+        {
+          "publication_type": "EatingWell / Well+Good",
+          "headline": "Eating an Anti-Inflammatory Diet May Help People With a Family History of Crohn's Disease Protect Their Gut",
+          "hook": "If a parent or sibling has Crohn's disease, your gut inflammation may already be elevated \u2014 and a new clinical trial suggests the right diet could bring it back down.",
+          "pitch_angle": "The PIONIR trial found that adults with a family history of Crohn's who followed a structured anti-inflammatory eating pattern for 8 weeks saw gut inflammation markers drop by 61%, compared with 38% on their usual diet. The diet was rated acceptable by 79% of participants and showed high adherence, suggesting that eating for gut health is not just practical \u2014 it may eventually be a tool for delaying or preventing IBD in those most at risk."
+        },
+        {
+          "publication_type": "The Atlantic",
+          "headline": "Can You Eat Your Way Out of a Crohn's Disease Destiny?",
+          "hook": "A small but rigorous clinical trial suggests that for people born into families marked by Crohn's disease, what they eat may reshape the trajectory of their gut health before any disease ever begins.",
+          "pitch_angle": "The PIONIR trial is one of the first randomized studies to test whether diet can intervene in the biological cascade leading to IBD \u2014 targeting people who are genetically at risk but not yet sick. If larger trials confirm the results, it could shift how medicine thinks about inflammatory bowel disease: not just as something to treat, but something to prevent through food."
+        }
+      ],
+      "run_date": "2026-10-30",
+      "category": "Gastroenterology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42932085",
+      "headline": "Postbiotics Made From Yeast May Be Safer and More Shelf-Stable Than Traditional Probiotics",
+      "journal": "World Journal of Microbiology & Biotechnology",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1007/s11274-026-05354-6",
+      "groundbreaking": "Major dietary or microbiome implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This narrative review examines yeast-derived postbiotics \u2014 inanimate microorganisms and their metabolites from Saccharomyces and non-Saccharomyces species \u2014 as functional food and nutraceutical ingredients, covering production via fermentation, metabolite profiling, and proposed mechanisms of action. No original human or animal data were collected; this is a synthesis of existing literature. The authors suggest yeast postbiotics offer stability and safety advantages over live probiotics, particularly for vulnerable populations, and flag significant regulatory and reproducibility gaps.",
+      "why_it_matters": "As consumer interest in postbiotics grows, understanding whether yeast-derived versions could offer practical advantages over live probiotics \u2014 without the stability or safety trade-offs \u2014 has real relevance for the functional food and supplement space.",
+      "caveats": "observational design, no original data (review only), no clinical outcomes, preprint-adjacent (ahead of formal indexing), single-center authorship group",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Relevant postbiotic topic; review-only with no new human data.",
+      "pitch_angles": [
+        {
+          "publication_type": "Well+Good / Everyday Health",
+          "headline": "Postbiotics Are Having a Moment \u2014 and Yeast May Be the Next Big Source",
+          "hook": "A new review suggests postbiotics derived from yeast could sidestep some of the biggest drawbacks of traditional probiotics, including instability and safety concerns for vulnerable people.",
+          "pitch_angle": "Yeast-based postbiotics \u2014 the inanimate byproducts of fermentation \u2014 may be more shelf-stable and suitable for a wider range of people than live probiotic supplements, according to a review of emerging research; experts say significant scientific and regulatory work remains before these products hit mainstream shelves."
+        },
+        {
+          "publication_type": "Gastroenterology & Endoscopy News / General health",
+          "headline": "Yeast Postbiotics: A Primer on the Science, Gaps, and Commercial Promise",
+          "hook": "A new review maps the science behind yeast-derived postbiotics, highlighting both their potential as safer probiotic alternatives and the reproducibility and regulatory hurdles still standing in the way.",
+          "pitch_angle": "For clinicians and researchers tracking the 'NextGen Biotics' space, this review synthesizes current knowledge on Saccharomyces and non-Saccharomyces yeast metabolites as functional food ingredients \u2014 while flagging that without standardized production and robust clinical trials, translating bench findings to patient-relevant outcomes remains a significant challenge."
+        }
+      ],
+      "run_date": "2026-10-30",
+      "category": "Microbiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42929274",
+      "headline": "Taxing junk food in Tonga slashed imports by 41% \u2014 and prices actually went up",
+      "journal": "Public Health Nutrition",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1017/S1368980026103553",
+      "groundbreaking": "First-in-class human study / Major dietary implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used interrupted time series analysis to evaluate nine excise tax increases on unhealthy foods (including chicken pieces, mutton flaps, corned beef, ice cream, and sausages) in Tonga, comparing post-tax trends against projected pre-tax counterfactuals. The study examined retail prices and import volumes over time, adjusting for GDP, tourism, exchange rates, and other confounders. Taxes averaging 28% of import value were associated with a 13% average retail price increase and a 41% mean drop in import volumes across taxed foods.",
+      "why_it_matters": "This real-world natural experiment suggests that taxing ultra-processed and high-fat foods \u2014 not just sugary drinks \u2014 can meaningfully reduce population exposure to unhealthy food supplies, adding rare empirical support to a policy tool debated in many countries.",
+      "caveats": "observational design, single-center, narrow to Pacific Island nation context (Tonga) \u2014 generalizability to other food systems uncertain, import volumes as proxy for consumption (actual dietary intake not measured)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Food policy finding; no gut microbiome or digestive disease data; Tonga-specific context limits US readership relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / General health",
+          "headline": "What Happens When a Country Taxes Junk Food Instead of Just Soda",
+          "hook": "A small Pacific Island nation taxed everything from corned beef to ice cream \u2014 and imports of those foods collapsed by nearly half.",
+          "pitch_angle": "Tonga's multi-food excise taxes cut imports of unhealthy foods by an average of 41% and raised retail prices by 13%, offering one of the first empirical tests of broad junk-food taxation. The findings matter globally as policymakers debate whether sugar taxes should expand to cover ultra-processed foods more broadly."
+        }
+      ],
+      "run_date": "2026-10-30",
+      "category": "Nutritional Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42935126",
+      "headline": "Smartphone-based breastfeeding support boosts exclusive nursing rates \u2014 but only in the first three months",
+      "journal": "Breastfeeding Medicine",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1177/15568253261500936",
+      "groundbreaking": "Major dietary or microbiome implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a systematic review and meta-analysis of 15 RCTs testing mobile health (mHealth) interventions \u2014 including apps, SMS, and direct digital counseling \u2014 on exclusive breastfeeding (EBF) rates in vulnerable or disparate populations. At 3 months postpartum, mHealth was associated with a 21% higher relative rate of EBF (RR = 1.21; 95% CI: 1.10\u20131.33), translating to 129 additional EBF cases per 1,000 participants. Effectiveness was not demonstrated at later time points, and evidence in infants under 2 months was rated low certainty.",
+      "why_it_matters": "Breast milk is a key early source of microbiome-shaping oligosaccharides and immune factors for infants, so interventions that meaningfully extend exclusive breastfeeding \u2014 even modestly \u2014 could have downstream implications for infant gut development and long-term health.",
+      "caveats": "high heterogeneity (I\u00b2=64.2%), effectiveness limited to 3-month window only, populations in vulnerability/disparity (may not generalize broadly), intervention types varied widely across trials",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "RCT meta-analysis; breastfeeding links to infant microbiome; no direct gut outcome data measured.",
+      "pitch_angles": [
+        {
+          "publication_type": "Well+Good / Everyday Health",
+          "headline": "Texting New Moms About Breastfeeding Actually Works \u2014 Here's the Catch",
+          "hook": "A meta-analysis of 15 randomized trials found that mobile health tools boosted exclusive breastfeeding rates by 21% \u2014 but only for the first three months.",
+          "pitch_angle": "Digital counseling and breastfeeding apps can meaningfully increase exclusive nursing in the critical early postpartum window, particularly among vulnerable populations \u2014 but the benefits appear to fade after three months, suggesting these tools need to be redesigned for longer-term support. Since breast milk shapes the infant gut microbiome, extending exclusive breastfeeding even slightly could have lasting health implications for babies."
+        },
+        {
+          "publication_type": "Verywell Health / Healthline",
+          "headline": "Breastfeeding Apps Help \u2014 But Only Up to 3 Months Postpartum, Study Finds",
+          "hook": "A new meta-analysis finds mHealth tools significantly increase exclusive breastfeeding at three months, but show no benefit at later time points.",
+          "pitch_angle": "The analysis of 15 RCTs found direct digital counseling was the most effective mHealth approach, adding roughly 129 more exclusively breastfeeding mothers per 1,000. The finding highlights a critical gap: most digital interventions aren't designed to sustain support through the periods when moms are most likely to stop breastfeeding."
+        }
+      ],
+      "run_date": "2026-10-30",
+      "category": "Nutritional Sciences",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42933604",
+      "headline": "A simple nutrition score predicts amputations and death in diabetic kidney patients on dialysis",
+      "journal": "Clinical Nutrition ESPEN",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1016/j.clnesp.2026.105213",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a retrospective longitudinal cohort study of 53 adult diabetic patients on chronic hemodialysis followed for up to six years (Spain), researchers evaluated whether the Geriatric Nutritional Risk Index (GNRI) at baseline was associated with diabetic foot complications. Each one-unit increase in GNRI was independently associated with a 19.7% lower odds of having diabetic foot ulceration, and lower GNRI scores correlated with more hospitalizations, more amputations, and significantly worse survival by Kaplan-Meier analysis. The findings suggest GNRI is a robust, easily calculated tool for flagging which dialysis patients face the highest risk of severe limb and mortality outcomes.",
+      "why_it_matters": "A straightforward nutritional screening score may help clinicians identify which diabetic dialysis patients are most at risk for foot amputations and death \u2014 potentially allowing earlier multidisciplinary intervention.",
+      "caveats": "small sample (N<100), observational design, retrospective, single-center, single-country (Spain)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clinically relevant nutrition-outcomes link but small N, niche population, and no gut/microbiome angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "Gastroenterology & Endoscopy News / General health",
+          "headline": "Malnutrition Score Flags Dialysis Patients Most Likely to Lose a Limb",
+          "hook": "A simple nutritional index calculated at a single clinic visit independently predicted diabetic foot amputations and all-cause mortality in patients on chronic hemodialysis over six years of follow-up.",
+          "pitch_angle": "Spanish researchers found that each one-point drop in the Geriatric Nutritional Risk Index was associated with nearly 20% higher odds of diabetic foot disease in dialysis patients, as well as more hospitalizations and worse survival. The study makes the case for routine nutritional screening as a frontline tool in nephrology and diabetes care."
+        }
+      ],
+      "run_date": "2026-10-30",
+      "category": "Nutritional Sciences",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42933603",
+      "headline": "Adding probiotics to iron supplements did not boost hemoglobin any more than iron alone in older adults with anemia",
+      "journal": "Clinical Nutrition ESPEN",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1016/j.clnesp.2026.105208",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a double-blind, placebo-controlled RCT (PRATHAM trial, N=200 randomized; N=184 completed follow-up), community-dwelling adults aged \u226560 years with mild-to-moderate anemia in India received either iron-folic acid (IFA) plus a 30-billion-CFU probiotic combination (Streptococcus faecalis, Bifidobacterium, Lactobacillus) or IFA plus placebo for 12 weeks, with gut microbiome diversity, hemoglobin, ferritin, and hepcidin assessed before and after. Hemoglobin rose similarly in both groups (~1.0\u20131.2 g/dL, p=0.439), and there were no significant between-group differences in hepcidin or most alpha-diversity measures; ferritin increased significantly more in the IFA-only control group. The null result challenges the assumption that probiotics enhance iron absorption or anemia response in older adults.",
+      "why_it_matters": "This well-powered RCT suggests that adding a commercially relevant probiotic blend to iron therapy does not enhance anemia recovery in older adults \u2014 a finding that should temper enthusiasm for probiotic-iron supplement combinations marketed for this population.",
+      "caveats": "single-country (India), 12-week follow-up may be short for microbiome-level changes, microbiome data limited to alpha-diversity (16S sequencing method not specified in abstract)",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive RCT null result; probiotics + iron topic has clear consumer relevance and N\u2265100.",
+      "pitch_angles": [
+        {
+          "publication_type": "Well+Good / Prevention",
+          "headline": "Adding Probiotics to Your Iron Supplement Probably Won't Help More Than Iron Alone, New RCT Finds",
+          "hook": "A rigorous double-blind trial found that older adults with anemia who took probiotics alongside iron supplements improved their hemoglobin no more than those who took iron alone.",
+          "pitch_angle": "Researchers tested a 30-billion-CFU probiotic blend added to standard iron-folic acid therapy in 200 elderly anemic adults over 12 weeks and found no added benefit for hemoglobin, iron stores, or gut microbiome diversity. The finding is a useful reality check for a growing category of probiotic-iron combo supplements increasingly marketed to older consumers."
+        },
+        {
+          "publication_type": "Gastroenterology & Endoscopy News",
+          "headline": "Probiotic Co-Supplementation Fails to Improve Anemia Outcomes Over IFA Alone in Elderly RCT",
+          "hook": "A 200-person double-blind RCT shows that adding a multi-strain, high-dose probiotic to iron-folic acid therapy produced no significant advantage in hemoglobin response, ferritin, hepcidin, or gut microbiome alpha-diversity in adults over 60 with mild-to-moderate anemia.",
+          "pitch_angle": "The PRATHAM trial \u2014 one of the first adequately powered RCTs to test probiotic augmentation of iron therapy in the elderly \u2014 delivered a clear null result, with iron stores actually rising more in the IFA-only group. The findings raise questions about whether probiotic strains, dose, duration, or baseline microbiome composition need to be better matched to the anemia phenotype before this strategy can be clinically recommended."
+        }
+      ],
+      "run_date": "2026-10-30",
+      "category": "Nutritional Sciences",
+      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -122,45 +422,6 @@
           "headline": "Crohn's Disease Can Cause Genital Symptoms \u2014 and Doctors Often Miss It for Years",
           "hook": "A new review of 56 pediatric cases finds that Crohn's disease can first appear as chronic vulvar swelling and skin changes \u2014 often years before any gut symptoms emerge.",
           "pitch_angle": "Dubbed 'metastatic' or vulvar Crohn's disease, this poorly recognized extraintestinal manifestation is frequently misdiagnosed as a skin condition or infection, leading to years of inappropriate treatment \u2014 raising important awareness questions for both patients and clinicians about the many faces of inflammatory bowel disease."
-        }
-      ],
-      "run_date": "2026-10-29",
-      "category": "Gastroenterology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42933673",
-      "headline": "A 'Tasty and Healthy' Diet Cuts Gut Inflammation Markers in People Genetically at Risk for Crohn's Disease",
-      "journal": "Gastroenterology",
-      "pubdate": "2026 Oct 26",
-      "doi": "10.1053/j.gastro.2026.10.376",
-      "groundbreaking": "First-in-class human study / Major dietary or microbiome implication / Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "The PIONIR randomized crossover trial enrolled 29 first-degree relatives of Crohn's disease patients who had persistently elevated fecal calprotectin (FC >70 \u00b5g/g) but no confirmed Crohn's diagnosis, assigning them to an 8-week 'Tasty and Healthy' (T&H) dietary intervention or habitual diet before crossing over. After 8 weeks, median FC was significantly lower on the T&H diet (64 \u00b5g/g) versus habitual diet (112 \u00b5g/g; p=0.022), and 71% of T&H participants achieved a \u226550% FC reduction versus 27% on habitual diet. Overall, FC declined an estimated 37% more with T&H than habitual diet, and six gut microbial species differed between conditions \u2014 with 83% of participants reporting good or complete adherence.",
-      "why_it_matters": "This is among the first RCT evidence that a specific dietary pattern can reduce intestinal inflammation in genetically at-risk individuals before Crohn's disease develops, raising the possibility that diet could one day be used as a prevention strategy in high-risk families.",
-      "caveats": "small sample (N<100), short follow-up, 16S or shotgun sequencing method for microbiome not specified in abstract, microbiome data only (no clinical outcomes \u2014 no participants developed Crohn's during trial), crossover design carries carryover risk",
-      "fact_check_note": "",
-      "relevance_score": 9,
-      "relevance_score_reason": "First RCT on diet for Crohn's prevention in high-risk individuals; published in Gastroenterology; strong everyday relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic",
-          "headline": "Can Diet Prevent Crohn's Disease Before It Starts?",
-          "hook": "A randomized trial found that a specific eating pattern cut gut inflammation markers by 37% in people whose family history puts them at high risk for Crohn's \u2014 before they ever develop the disease.",
-          "pitch_angle": "The PIONIR trial is a rare attempt to intervene at the very earliest stage of IBD risk \u2014 not treating disease, but trying to stop it from ever emerging \u2014 and its success in reducing fecal calprotectin in just 8 weeks challenges the assumption that Crohn's is an inevitable genetic fate; the findings open a larger conversation about whether inflammatory bowel disease is partly a diet-modifiable condition."
-        },
-        {
-          "publication_type": "EatingWell / Well+Good",
-          "headline": "People at High Risk for Crohn's Disease Saw Gut Inflammation Drop Significantly After 8 Weeks on This Diet",
-          "hook": "A new clinical trial found that a palatable, adherence-friendly diet slashed a key gut inflammation marker by more than half in most high-risk participants \u2014 and the majority said the diet was actually enjoyable.",
-          "pitch_angle": "The 'Tasty and Healthy' diet \u2014 designed to be both anti-inflammatory and actually appealing \u2014 reduced fecal calprotectin levels in 71% of participants with elevated gut inflammation and a family history of Crohn's, suggesting that dietary change may be a realistic and sustainable tool for gut health even in those most vulnerable to inflammatory bowel disease."
-        },
-        {
-          "publication_type": "Gastroenterology & Endoscopy News",
-          "headline": "RCT Shows 'Tasty and Healthy' Diet Reduces Fecal Calprotectin 37% More Than Habitual Diet in High-Risk Crohn's FDRs",
-          "hook": "The PIONIR crossover trial provides the first RCT evidence that a structured dietary intervention can meaningfully reduce subclinical intestinal inflammation in first-degree relatives of Crohn's patients.",
-          "pitch_angle": "With 71% of T&H-arm participants achieving \u226550% FC reduction versus 27% on habitual diet, and six gut microbial species differing between arms, the trial supports longer-term prevention trials in this population \u2014 though the small N of 29 and short 8-week windows limit definitive conclusions about Crohn's incidence prevention."
         }
       ],
       "run_date": "2026-10-29",
