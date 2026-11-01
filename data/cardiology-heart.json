@@ -1,164 +1,611 @@
 {
-  "last_updated": "2026-10-31T15:50:40.508224+00:00",
-  "total_studies": 682,
-  "new_this_run": 8,
+  "last_updated": "2026-11-01T16:51:54.004152+00:00",
+  "total_studies": 686,
+  "new_this_run": 7,
   "studies": [
     {
+      "pmid": "42965544",
+      "headline": "Doctors expected a failing right ventricle to keep declining after a tricuspid valve procedure \u2014 instead, it recovered",
+      "journal": "JACC: Cardiovascular Interventions",
+      "pubdate": "2026 Oct 31",
+      "doi": "10.1016/j.jcin.2026.09.013",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used cardiac CT angiography to assess right ventricular function in patients who underwent transcatheter tricuspid valve replacement (TTVR), a minimally invasive procedure for severe tricuspid regurgitation, at one year of follow-up. Contrary to expectations \u2014 since the right ventricle typically struggles after such interventions \u2014 patients showed paradoxical improvement in right ventricular function at 12 months. The single-center study from Mount Sinai suggests that TTVR may allow the right ventricle to recover rather than deteriorate over time.",
+      "why_it_matters": "Severe tricuspid regurgitation is associated with poor heart failure outcomes, and concern about right ventricular decline after valve replacement has limited treatment uptake \u2014 this finding suggests the heart may actually adapt favorably.",
+      "caveats": "small sample (N<100), single-center, observational design, short follow-up, surrogate endpoints only, industry funding [Medtronic, Abbott]",
+      "fact_check_note": "Abstract does not report N \u2014 sample size could not be verified from available text.",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding in structural heart disease; single-center and small sample limit generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Right Ventricle Improves \u2014 Not Worsens \u2014 a Year After Transcatheter Tricuspid Valve Replacement",
+          "hook": "Contrary to prevailing concern that tricuspid valve replacement strains the right ventricle, a cardiac CT study found right ventricular function actually improved one year after the minimally invasive procedure.",
+          "pitch_angle": "The paradoxical recovery challenges a key clinical hesitation about transcatheter tricuspid valve replacement \u2014 that the right ventricle will decline once the regurgitant volume load is removed \u2014 and may support broader use of the procedure in patients with severe tricuspid regurgitation and existing right ventricular dysfunction."
+        }
+      ],
+      "run_date": "2026-11-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
       "pmid": "42957924",
-      "headline": "A drug injected directly into the brain may be safe for treating one of the deadliest types of stroke",
+      "headline": "A drug injected directly into the brain may offer a new path after the deadliest type of stroke",
       "journal": "Translational Stroke Research",
       "pubdate": "2026 Oct 30",
       "doi": "10.1007/s12975-026-01504-y",
       "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a first-in-human Phase 1b/2a randomized, double-blind, placebo-controlled trial of EDV2209 \u2014 a MEK 1/2 inhibitor delivered directly into the brain via intracerebroventricular injection \u2014 in 27 patients with severe spontaneous subarachnoid hemorrhage. The drug was administered within 8 hours of hemorrhage onset across multiple dosing cohorts. Adverse events were equally distributed between treatment and placebo groups, and outcomes were as expected or better in treated patients, suggesting the approach is safe and potentially beneficial.",
-      "why_it_matters": "Subarachnoid hemorrhage carries high mortality and disability rates, and this early trial suggests a novel drug delivery route may offer a safe new treatment path \u2014 though efficacy has not yet been established.",
-      "caveats": "small sample (N<100), single-center, surrogate endpoints only, short follow-up, industry funding [Edvince AB \u2014 shareholder authorship disclosed]",
+      "summary": "Researchers conducted a first-in-human Phase 1b/2a randomized, double-blind, placebo-controlled trial of EDV2209, a MEK 1/2 inhibitor delivered by direct injection into the brain's ventricles, in patients with severe spontaneous subarachnoid hemorrhage (N=27). Adverse events were equally distributed between treatment and placebo groups, with no treatment-associated safety concerns and stable drug levels in cerebrospinal fluid with no detectable plasma spillover. Outcomes and mortality were as expected or better in treated patients, providing early safety rationale for a larger efficacy trial.",
+      "why_it_matters": "Subarachnoid hemorrhage carries very high mortality and few treatment options exist, so early safety data on a novel targeted drug delivered directly to the brain is a meaningful step forward.",
+      "caveats": "small sample (N<100), single-center, short follow-up, surrogate endpoints only, industry funding [Edvince AB]",
       "fact_check_note": "",
       "relevance_score": 7,
-      "relevance_score_reason": "First-in-human RCT for devastating stroke type; small N limits confidence.",
+      "relevance_score_reason": "First-in-human trial for high-mortality stroke type; small N limits confidence.",
       "pitch_angles": [
         {
-          "publication_type": "STAT News / MedPage Today",
-          "headline": "Brain-injected drug clears first safety hurdle in severe stroke trial",
-          "hook": "A MEK inhibitor delivered directly into the brain's fluid system showed no added harm compared to placebo in patients with one of stroke medicine's most lethal conditions.",
-          "pitch_angle": "The first-in-human trial of EDV2209 found no treatment-associated safety concerns in 27 patients with severe subarachnoid hemorrhage, setting the stage for a larger Phase 2b/3 efficacy trial. The study's intracerebroventricular delivery method \u2014 bypassing the blood-brain barrier entirely \u2014 represents a novel approach to a condition with few effective pharmaceutical options."
+          "publication_type": "STAT News",
+          "headline": "A brain-injected drug survived its first human safety test in one of stroke medicine's hardest-to-treat emergencies",
+          "hook": "Subarachnoid hemorrhage kills or disables most patients who survive it \u2014 and a targeted drug delivered directly into the brain ventricles just cleared its first human safety hurdle.",
+          "pitch_angle": "A Phase 1b/2a trial found no safety red flags for EDV2209, a MEK 1/2 inhibitor injected into the cerebral ventricles within 8 hours of subarachnoid hemorrhage onset. The finding sets the stage for a larger efficacy trial in a condition where treatment options have barely moved in decades."
         },
         {
-          "publication_type": "General health / NYT Health",
-          "headline": "For a devastating brain bleed, scientists are trying a drug injected into the skull \u2014 and it looks safe so far",
-          "hook": "Subarachnoid hemorrhage kills or disables roughly half of those it strikes, and a new trial just showed a drug delivered directly into brain fluid may be safe enough to test further.",
-          "pitch_angle": "In a small but rigorous first-in-human trial, a targeted drug called EDV2209 produced no extra side effects compared to a placebo when injected into the cerebrospinal fluid of patients within hours of a brain aneurysm rupture. Researchers say the safety signal is encouraging enough to justify a larger trial designed to actually measure whether the drug improves survival and recovery."
+          "publication_type": "MedPage Today",
+          "headline": "Novel MEK Inhibitor Passes Safety Bar in Severe Subarachnoid Hemorrhage \u2014 Phase 2b/3 Planned",
+          "hook": "A randomized, double-blind trial found that intracerebroventricular EDV2209 produced no excess adverse events versus placebo in patients with severe subarachnoid hemorrhage.",
+          "pitch_angle": "With stable CSF pharmacokinetics and no detectable plasma levels, EDV2209 appears to stay where it is delivered \u2014 a key safety feature for a drug targeting delayed cerebral ischemia. Researchers now plan a larger powered trial to test efficacy."
         }
       ],
-      "run_date": "2026-10-31",
+      "run_date": "2026-11-01",
       "category": "Hematology & Vascular",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42962968",
-      "headline": "Athletes With Arm Pain, Numbness, or Swelling May Have a Vascular Emergency Hiding in Plain Sight",
+      "headline": "Athletes with arm pain and swelling are being misdiagnosed for months \u2014 and it can end careers or cost limbs",
       "journal": "Annals of Vascular Surgery",
       "pubdate": "2026 Oct 30",
       "doi": "10.1016/j.avsg.2026.10.041",
       "groundbreaking": "Major cardiovascular or public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a narrative review of published literature on thoracic outlet syndrome (TOS) in athletes, synthesizing findings on diagnostic challenges, management by subtype, and return-to-play outcomes. The review found that the venous form of TOS \u2014 Paget-Schroetter syndrome \u2014 requires urgent thrombolysis and early surgery, while the arterial form is rare but limb-threatening; mixed presentations occurred in up to 23% of surgical cases. Overall outcomes were favorable when subtype-specific diagnosis guided treatment, though the evidence base remains limited by retrospective, single-center studies.",
-      "why_it_matters": "In athletes, delayed diagnosis of vascular thoracic outlet syndrome can escalate from shoulder pain to a limb-threatening clot \u2014 a risk that may be underappreciated by sports medicine clinicians and athletes alike.",
-      "caveats": "observational design, single-center, narrative review (no meta-analysis), retrospective source studies, inconsistent return-to-play definitions across included studies",
+      "summary": "Researchers conducted a narrative review of published literature on thoracic outlet syndrome (TOS) in athletes, synthesizing evidence on diagnostic pitfalls, management by TOS subtype (neurogenic, venous, arterial), and return-to-play outcomes. The review found that the venous form \u2014 Paget-Schroetter syndrome, an effort-induced deep vein thrombosis of the arm \u2014 requires urgent clot-dissolving treatment and early surgery, while the neurogenic form usually responds to 4\u20136 months of rehabilitation. Mixed TOS presentations occurred in up to 23% of surgical cases, and evidence overall is limited by retrospective, single-center studies with inconsistent definitions.",
+      "why_it_matters": "Delayed diagnosis of vascular thoracic outlet syndrome in athletes can lead to limb-threatening arterial complications or career-ending venous clots, making earlier recognition critical for athletic trainers, sports medicine physicians, and the athletes themselves.",
+      "caveats": "observational design, retrospective studies included, narrative review (not systematic meta-analysis), single-center studies in underlying evidence base",
       "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Vascular clot risk in athletes; narrative review limits evidence strength.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Vascular clot risk in athletes; narrative review limits strength; lifestyle and sports hook.",
       "pitch_angles": [
         {
-          "publication_type": "Verywell Health / General health",
-          "headline": "Why Athletes' Shoulder Pain Could Signal a Dangerous Blood Clot",
-          "hook": "A vascular emergency hiding behind arm numbness or swelling is being missed in athletes \u2014 sometimes until it's too late.",
-          "pitch_angle": "Thoracic outlet syndrome compresses blood vessels and nerves near the shoulder, and in athletes the venous form can trigger a serious clot requiring emergency treatment. A new review finds outcomes are good when the right subtype is caught early, but misdiagnosis remains common \u2014 making awareness among athletes and their trainers potentially life-saving."
+          "publication_type": "Prevention / Women's Health",
+          "headline": "Arm Pain After Intense Workouts Isn't Always a Muscle Strain \u2014 It Could Be a Dangerous Blood Clot",
+          "hook": "A new review warns that athletes who develop arm swelling, pain, or discoloration after overhead exertion may actually have a rare but serious blood clot in the arm's main vein \u2014 and it's routinely missed for months.",
+          "pitch_angle": "Paget-Schroetter syndrome, the venous form of thoracic outlet syndrome, can develop in swimmers, baseball pitchers, and weightlifters and requires urgent clot-dissolving treatment to prevent long-term disability. The review found that conventional diagnostic tests often miss the condition in athletes, suggesting the need for specialized imaging when symptoms don't resolve."
         },
         {
           "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "Vascular TOS in Athletes: A Clot Emergency Masquerading as Overuse Injury",
-          "hook": "Up to 23% of surgical TOS cases in athletes involve mixed presentations, complicating diagnosis and delaying urgent vascular intervention.",
-          "pitch_angle": "A narrative review in Annals of Vascular Surgery synthesizes management strategies across TOS subtypes in athletes, finding that venous TOS (Paget-Schroetter syndrome) demands prompt thrombolysis and first-rib resection while arterial TOS \u2014 though rare \u2014 is limb-threatening. Clinicians are urged to adopt subtype-specific diagnostic protocols and standardized return-to-play criteria to improve outcomes."
+          "headline": "Thoracic Outlet Syndrome in Athletes: Subtype Misclassification Is Driving Delayed Treatment and Poor Outcomes",
+          "hook": "A narrative review spanning decades of literature finds that up to 23% of surgically treated athletes have mixed thoracic outlet syndrome presentations \u2014 a reality that standard provocative tests frequently fail to capture.",
+          "pitch_angle": "The review emphasizes subtype-specific management: venous TOS demands urgent thrombolysis and rib resection, while neurogenic TOS typically responds to months of physical therapy. The authors call for prospective, sport-specific studies with standardized return-to-play criteria to replace a body of evidence dominated by retrospective, single-center reports."
         }
       ],
-      "run_date": "2026-10-31",
+      "run_date": "2026-11-01",
       "category": "Hematology & Vascular",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42962265",
-      "headline": "A new lab test is catching a hidden antibody that standard diagnostics miss in a rare blood-destroying condition",
+      "headline": "A new blood test reveals a hidden immune driver of severe anemia that standard diagnostics miss",
       "journal": "Blood Advances",
       "pubdate": "2026 Oct 30",
       "doi": "10.1182/bloodadvances.2025019072",
-      "groundbreaking": "First-in-class human study",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Dutch researchers developed a flow cytometry-based assay called Flow IAT to detect IgM and IgG antibodies \u2014 and their complement-activating effects \u2014 on red blood cells in patients with autoimmune hemolytic anemia (AIHA), a condition where the immune system destroys its own red cells. Testing 48 AIHA patients and 21 controls, they found IgM binding strongly correlated with complement activation (via C4 and C3 deposition) across all AIHA subtypes, while IgG binding correlated poorly with complement activity. The Flow IAT detected IgM antibodies with greater sensitivity than conventional diagnostic methods, which is clinically relevant as new complement-inhibiting drugs become available for AIHA.",
-      "why_it_matters": "As complement inhibitors become available for autoimmune hemolytic anemia, accurately identifying which patients' disease is complement-driven \u2014 something current tests often miss \u2014 could help doctors select the right treatment.",
-      "caveats": "small sample (N<100), single-center, observational design, surrogate endpoints only",
+      "summary": "Dutch researchers developed a flow cytometry-based assay called Flow IAT to detect IgM antibodies and complement activation in autoimmune hemolytic anemia (AIHA), a condition in which the immune system destroys red blood cells; the assay was tested on 48 AIHA patients and 21 controls from a national Dutch registry. The new assay found that IgM antibodies \u2014 not the IgG antibodies that conventional tests are optimized to detect \u2014 strongly drive complement activation in both cold and warm AIHA subtypes. Flow IAT showed higher sensitivity for IgM than standard diagnostic tests, suggesting many patients may be misclassified and potentially missing out on newer complement-inhibitor therapies.",
+      "why_it_matters": "Correctly identifying complement involvement in autoimmune hemolytic anemia now has direct treatment consequences, since new complement-blocking drugs are available \u2014 and this assay suggests current diagnostics routinely miss the key trigger.",
+      "caveats": "small sample (N=48 patients), single-center, observational design, surrogate endpoints only",
       "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Clinically useful diagnostic advance for rare hematologic condition; small N, niche audience.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Diagnostic innovation with treatment implications; penalized for small sample and surrogate-only endpoints.",
       "pitch_angles": [
         {
           "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "New flow cytometry test detects complement-driving antibodies standard AIHA diagnostics routinely miss",
-          "hook": "A novel assay reveals that IgM antibodies \u2014 largely invisible to conventional testing \u2014 are a key driver of complement activation in autoimmune hemolytic anemia, with implications for matching patients to emerging complement-inhibitor therapies.",
-          "pitch_angle": "The Flow IAT, developed from a Dutch national AIHA registry cohort, showed that IgM (not IgG) strongly predicts complement deposition across both cold and warm AIHA subtypes \u2014 a finding that challenges the traditional focus on IgG in diagnostic workups. With complement inhibitors now entering clinical use for AIHA, the ability to reliably detect complement-activating IgM could become a critical tool for treatment selection."
+          "headline": "New flow cytometry assay catches IgM-driven complement activation that standard AIHA tests miss",
+          "hook": "A novel diagnostic approach found that IgM antibodies \u2014 largely invisible to conventional testing \u2014 are a key driver of complement-mediated red blood cell destruction in autoimmune hemolytic anemia.",
+          "pitch_angle": "With complement inhibitors now available for AIHA, accurately distinguishing complement-driven disease from non-complement-driven disease is clinically urgent; this Dutch study suggests current diagnostics leave a meaningful gap that the Flow IAT assay may close."
         }
       ],
-      "run_date": "2026-10-31",
+      "run_date": "2026-11-01",
       "category": "Hematology & Vascular",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42956187",
-      "headline": "Squeezing air out of the lungs before a shock doubles the odds of resetting AFib on the first try",
+      "headline": "A simple breathing maneuver nearly doubles the odds of restoring normal heart rhythm on the first shock in AFib patients",
       "journal": "Journal of Cardiovascular Electrophysiology",
       "pubdate": "2026 Oct 29",
       "doi": "10.1111/jce.70548",
       "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers randomized 116 patients with persistent atrial fibrillation (mean age not specified in abstract) to either standard ventilation or a transient lung-volume reduction (TLVR) maneuver immediately before electrical cardioversion. The TLVR group achieved first-shock success in 53.4% of cases versus 29.3% in the standard group (p=0.008), while cumulative success after up to three shocks was similar between groups. The maneuver works by temporarily lowering the electrical resistance of the chest wall, allowing more current to reach the heart on the initial shock.",
-      "why_it_matters": "For the roughly 3 million Americans living with atrial fibrillation who may need electrical cardioversion, a simple breathing maneuver performed just before the shock could meaningfully reduce the number of repeated shocks required.",
-      "caveats": "single-center, short follow-up, surrogate endpoints only (first-shock success defined as 1 min of sinus rhythm \u2014 long-term rhythm outcomes not reported), study population in Turkey (Ankara)",
+      "summary": "In a prospective randomized trial of 116 patients with persistent atrial fibrillation scheduled for cardioversion, researchers in Turkey tested whether briefly reducing lung volume immediately before delivering the shock could improve success. The transient lung-volume reduction (TLVR) maneuver significantly lowered transthoracic electrical impedance, and first-shock cardioversion success was 53.4% in the TLVR group versus 29.3% in the standard group (p=0.008). Cumulative success after up to three shocks was similar between groups, suggesting TLVR primarily speeds the path to restored rhythm rather than changing overall outcomes.",
+      "why_it_matters": "For the millions of people with atrial fibrillation who undergo electrical cardioversion, a simple breathing technique performed by anesthesiologists before the shock could meaningfully reduce the number of shocks needed to restore normal heart rhythm.",
+      "caveats": "single-center, short follow-up, surrogate endpoints only",
       "fact_check_note": "",
       "relevance_score": 8,
-      "relevance_score_reason": "RCT, AFib high-prevalence condition, counterintuitive procedural finding, clear clinical hook.",
+      "relevance_score_reason": "RCT design, AFib high-prevalence condition, counterintuitive breathing maneuver finding, clinical hook.",
       "pitch_angles": [
         {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "Pre-Shock Lung Deflation Maneuver Nearly Doubles First-Shock AFib Cardioversion Success in RCT",
-          "hook": "A simple ventilation technique performed seconds before electrical cardioversion cut transthoracic impedance enough to roughly double first-shock success rates in persistent AFib patients.",
-          "pitch_angle": "In a 116-patient randomized trial, briefly reducing lung volume immediately before the shock raised first-shock cardioversion success from 29% to 53%, with the impedance reduction rate emerging as a strong independent predictor of outcome. The finding suggests a low-cost, low-risk procedural tweak that electrophysiology and anesthesia teams could adopt quickly to reduce repeated shocks and improve patient experience."
+          "publication_type": "STAT News",
+          "headline": "Deflating the Lungs Before the Shock: A Simple Maneuver Could Change How AFib Cardioversion Is Done",
+          "hook": "A randomized trial found that briefly reducing a patient's lung volume before electrical cardioversion nearly doubled the rate of restoring normal heart rhythm on the very first shock.",
+          "pitch_angle": "By lowering the electrical resistance of the chest wall, the transient lung-volume reduction maneuver allowed more current to reach the heart muscle \u2014 a physiological insight that could prompt a low-cost tweak to standard cardioversion protocols. The finding is especially relevant for patients in whom repeated shocks carry higher procedural risk."
         },
         {
-          "publication_type": "Prevention / Everyday Health",
-          "headline": "Doctors Found a Surprisingly Simple Way to Make AFib Shock Treatment Work Better on the First Try",
-          "hook": "Taking the air out of a patient's lungs for a moment before delivering an electrical shock to reset an irregular heartbeat nearly doubled the odds of success \u2014 no new drugs or devices required.",
-          "pitch_angle": "A small randomized study found that a brief, standardized lung-deflation maneuver before electrical cardioversion for atrial fibrillation raised the first-shock success rate from about 29% to 53%, suggesting the technique could spare patients additional shocks and the risks that come with them. Researchers say the likely mechanism is reduced chest-wall resistance, allowing more of the electrical current to actually reach the heart."
+          "publication_type": "Everyday Health / General health",
+          "headline": "A Breathing Trick Before Heart Shock Treatment Could Make It Work Better the First Time",
+          "hook": "Doctors found that briefly reducing the air in a patient's lungs just before delivering a corrective electric shock to the heart made the procedure work on the first attempt nearly twice as often.",
+          "pitch_angle": "For AFib patients facing cardioversion \u2014 a procedure to reset an erratic heartbeat \u2014 needing fewer shocks could mean less sedation, faster recovery, and lower procedural stress. This simple anesthesiology maneuver costs nothing extra and may be easy to adopt."
         }
       ],
-      "run_date": "2026-10-31",
+      "run_date": "2026-11-01",
       "category": "Hematology & Vascular",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42954885",
-      "headline": "A Teen's Exercise-Triggered Cardiac Arrest Reveals a Hidden Danger in a Common Heart Valve Condition",
+      "headline": "A teenage girl's near-fatal cardiac arrest during exercise reveals that 'benign' mitral valve prolapse can hide a deadly electrical secret",
       "journal": "Cardiology in the Young",
       "pubdate": "2026 Oct 29",
       "doi": "10.1017/S1047951126124731",
-      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Clinicians in Turkey report the first pediatric case of arrhythmogenic mitral valve prolapse (AMVP) syndrome in a 16-year-old girl who experienced sudden cardiac arrest during exercise, featuring intermittent QT/QTc prolongation always accompanied by T-wave inversions in inferolateral leads. Genetic analysis found heterozygous variants in the KCNH2 and ANK2 genes, supporting an arrhythmic substrate underlying what is typically considered a benign heart valve condition. The case highlights that intermittent \u2014 not just persistent \u2014 QTc changes may be a critical warning sign in AMVP that could be missed on routine ECG.",
-      "why_it_matters": "Mitral valve prolapse affects roughly 2\u20133% of the population and is usually reassuring, but this case suggests that intermittent ECG changes in a subset of patients may signal a rare but life-threatening arrhythmia risk \u2014 particularly in young athletes.",
-      "caveats": "small sample (N<100), single-center, single case report, self-reported outcomes, surrogate endpoints only",
+      "summary": "Turkish cardiologists report the first pediatric case of arrhythmogenic mitral valve prolapse (MVP) syndrome in a 16-year-old girl who suffered sudden cardiac arrest during exercise, featuring the novel observation that QT/QTc interval prolongation and T-wave inversions appeared intermittently rather than persistently on her ECGs. Genetic testing identified heterozygous variants in the KCNH2 and ANK2 genes, adding a molecular dimension to the diagnosis. The case highlights that intermittent ECG changes \u2014 easy to miss on a routine tracing \u2014 may be the only warning sign before a life-threatening arrhythmia in young people with MVP.",
+      "why_it_matters": "Because mitral valve prolapse is common and usually considered harmless, this case suggests that pediatric and adolescent patients \u2014 especially females \u2014 with MVP may need more rigorous ECG monitoring to catch the rare but deadly arrhythmogenic subtype before a cardiac arrest occurs.",
+      "caveats": "small sample (N<100), single-center, observational design",
       "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Sudden cardiac death angle in pediatric MVP; single case limits generalizability.",
+      "relevance_score": 7,
+      "relevance_score_reason": "Sudden cardiac death in youth, counterintuitive benign-condition risk, female-specific relevance, heart disease in women/girls angle.",
       "pitch_angles": [
         {
-          "publication_type": "General health / Everyday Health",
-          "headline": "Mitral Valve Prolapse Is Usually Harmless \u2014 But in Some Young People, It Can Be Deadly",
-          "hook": "A 16-year-old girl's exercise-triggered cardiac arrest is shedding new light on a heart condition that doctors have long considered benign.",
-          "pitch_angle": "A new case report describes the first pediatric diagnosis of arrhythmogenic mitral valve prolapse syndrome, in which a common valve abnormality is linked to dangerous heart rhythm disturbances \u2014 and the warning signs appeared only intermittently on standard ECG, making them easy to miss. The case raises questions about whether routine ECG screening is sufficient to identify which MVP patients face life-threatening risk."
+          "publication_type": "Everyday Health / General health",
+          "headline": "Her Doctors Said Her Heart Valve Problem Was Harmless \u2014 Then She Had a Cardiac Arrest at 16",
+          "hook": "A teenage athlete collapsed in cardiac arrest during exercise \u2014 and her only known heart condition was mitral valve prolapse, long considered a benign diagnosis.",
+          "pitch_angle": "A new case report documents intermittent, easy-to-miss ECG warning signs in a form of arrhythmogenic MVP that can trigger sudden cardiac death in young people, particularly females. The finding suggests that young patients with MVP may warrant closer monitoring than current practice typically provides, especially during exercise."
         },
         {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "Intermittent QTc Prolongation in Pediatric MVP: A Red Flag Hiding in Plain Sight",
-          "hook": "In the first reported pediatric case of arrhythmogenic mitral valve prolapse syndrome, QT prolongation appeared intermittently \u2014 always paired with inferolateral T-wave inversions \u2014 before a sudden cardiac arrest during exercise.",
-          "pitch_angle": "This case from Turkish pediatric cardiologists documents KCNH2 and ANK2 gene variants alongside classic arrhythmogenic MVP features in an adolescent, suggesting a genetic arrhythmic substrate that standard ECG protocols may fail to detect. Clinicians are reminded that episodic \u2014 not just persistent \u2014 repolarization abnormalities warrant urgent evaluation in young MVP patients."
+          "publication_type": "Women's Health / AARP The Magazine",
+          "headline": "The 'Harmless' Heart Valve Condition That Doctors Are Starting to Take More Seriously in Young Women",
+          "hook": "Mitral valve prolapse affects millions of people \u2014 mostly women \u2014 and has long been dismissed as benign, but a growing body of evidence including this new pediatric case suggests a dangerous subtype can lurk undetected until cardiac arrest strikes.",
+          "pitch_angle": "Researchers identified intermittent QT prolongation and abnormal T-wave patterns \u2014 changes that can vanish between ECG recordings \u2014 as potential early warning signs of arrhythmogenic MVP syndrome. The case adds urgency to calls for sex-specific screening guidelines, since young women with MVP may be at disproportionate but underrecognized risk."
         }
       ],
-      "run_date": "2026-10-31",
+      "run_date": "2026-11-01",
       "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42496136",
+      "headline": "One in three Wellens syndrome patients quietly shifts to a more dangerous ECG pattern before their angiogram even starts",
+      "journal": "European Heart Journal. Acute Cardiovascular Care",
+      "pubdate": "2026 Oct 29",
+      "doi": "10.1093/ehjacc/zuag102",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a retrospective single-center study of 51 patients with angiographically confirmed Wellens syndrome (\u226570% LAD stenosis), researchers reviewed serial ECGs taken during the first 24 hours and found that 35% of patients spontaneously evolved from the less severe Pattern A (biphasic T waves) to Pattern B (deep symmetric T-wave inversion) before coronary angiography. Most transitions occurred within 6 hours of admission and during pain-free intervals, suggesting this dynamic ECG shift is part of the acute natural history of the syndrome. No in-hospital deaths or major adverse cardiovascular events occurred.",
+      "why_it_matters": "Clinicians managing chest pain patients may miss a critical window if they assume a single ECG reading captures the full picture of Wellens syndrome risk.",
+      "caveats": "small sample (N=51 total; N=18 with A-to-B evolution), observational design, single-center, retrospective, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clinically relevant ECG finding, but small single-center retrospective study with surrogate endpoints.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Wellens Syndrome ECG Patterns Aren't Static \u2014 One-Third of Patients Shift to the Worse Pattern Before Angiography",
+          "hook": "A third of Wellens syndrome patients silently transitioned from the milder Pattern A to the more worrisome Pattern B ECG signature \u2014 most within 6 hours of hospital admission and while pain-free.",
+          "pitch_angle": "This small retrospective study challenges the implicit assumption that ECG classification of Wellens syndrome is fixed at presentation, suggesting serial monitoring in the acute phase may be diagnostically important. The findings are preliminary but raise questions about whether dynamic ECG evolution should inform triage or timing of angiography."
+        }
+      ],
+      "run_date": "2026-11-01",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42440133",
+      "headline": "Italy's first national LVAD registry reveals that timing matters as much as the device: patients implanted before crisis hit have far better odds",
+      "journal": "European Journal of Heart Failure",
+      "pubdate": "2026 Oct 28",
+      "doi": "10.1093/ejhf/xuag126",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "The ITAMACS registry captured 12 years of data on 1,061 advanced heart failure patients from 12 Italian centers who received durable left ventricular assist devices (LVADs) between 2010 and 2021. Overall survival was 73% at 1 year, 54% at 3 years, and 42% at 5 years. On multivariable analysis, being implanted before reaching the most critical illness stage (INTERMACS class >1) was independently associated with a 34% lower mortality risk, while bridge-to-transplant intent was associated with a 37% lower risk versus destination therapy.",
+      "why_it_matters": "Real-world data from over 1,000 patients suggest that earlier LVAD implantation \u2014 before patients deteriorate to the sickest stage \u2014 is associated with meaningfully better long-term survival in advanced heart failure.",
+      "caveats": "observational design, single-country registry (Italy), surrogate endpoints only for some analyses, no sex-specific survival breakdown noted",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Large real-world registry, hard survival endpoints, high-prevalence condition; observational and single-country limit generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "ITAMACS: Earlier LVAD Implantation Linked to Markedly Better Survival in 12-Year Italian Registry",
+          "hook": "Data from over 1,000 patients show that LVAD recipients who weren't yet in cardiogenic shock at implant had a 34% lower mortality risk \u2014 a finding with direct implications for patient selection timing.",
+          "pitch_angle": "Italy's first national LVAD registry reveals that survival at 5 years was just 42% overall, but early implantation (INTERMACS class >1) and bridge-to-transplant strategy were the strongest modifiable predictors of better outcomes. The findings add real-world weight to arguments for earlier referral and device implantation in advanced heart failure management."
+        }
+      ],
+      "run_date": "2026-11-01",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42947459",
+      "headline": "A tiny heart pouch can flip inside out on its own \u2014 and be mistaken for a tumor",
+      "journal": "Cardiology in the Young",
+      "pubdate": "2026 Oct 28",
+      "doi": "10.1017/S1047951126124810",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers present the first autopsy-confirmed case of spontaneous left atrial appendage inversion \u2014 where the appendage flips inward into the heart without any surgical cause \u2014 in an 8-month-old infant with no cardiac surgery history. The condition has been documented in fewer than ten cases worldwide and is easily misidentified on echocardiography as a clot, tumor, or infection. An updated literature review suggests pericardial effusion-driven pressure gradients are the likely trigger for this rare phenomenon.",
+      "why_it_matters": "This rare case suggests that a left atrial mass on imaging in infants \u2014 or adults \u2014 may occasionally represent a structural anomaly rather than a clot or tumor, with important implications for diagnosis.",
+      "caveats": "small sample (N<100), single-center, single case report",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Extremely rare pediatric case report; very limited clinical generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Left Atrial Mass in an Infant: Don't Overlook This Rare Mimic",
+          "hook": "A spontaneously inverted left atrial appendage in an 8-month-old \u2014 confirmed only at autopsy \u2014 underscores how easily this structural anomaly is mistaken for thrombus or tumor on echo.",
+          "pitch_angle": "This first autopsy case of spontaneous LAA inversion in an infant, paired with an updated literature review, highlights a diagnostic pitfall clinicians should keep in their differential when imaging reveals an unexplained left atrial mass, particularly in the setting of pericardial effusion."
+        }
+      ],
+      "run_date": "2026-11-01",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42616615",
+      "headline": "A genomics study finds new clues to why sickle cell disease destroys kidneys \u2014 and why ancestry matters for finding them",
+      "journal": "Blood Advances",
+      "pubdate": "2026 Oct 27",
+      "doi": "10.1182/bloodadvances.2026020894",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers from Duke, University of Pittsburgh, University of Maryland, and collaborators performed a local ancestry-aware genome-wide meta-analysis focused on kidney function (estimated glomerular filtration rate) in two well-characterized adult sickle cell disease cohorts in the United States, leveraging participants' African and European ancestral genomic components separately to improve statistical power. The analysis identified 12 significant genomic regions in the African ancestry tract and additional loci in European ancestry components \u2014 including novel loci not previously linked to SCD nephropathy. The study demonstrates that standard genome-wide methods that ignore local ancestry miss disease-relevant signals in admixed populations, particularly for a condition that disproportionately affects people of African descent.",
+      "why_it_matters": "Kidney disease is a leading cause of early death in sickle cell disease, and identifying its genetic drivers is a critical step toward targeted treatments for a condition that affects roughly 100,000 Americans \u2014 the vast majority of whom are Black.",
+      "caveats": "observational design, secondary analysis, surrogate endpoints only (eGFR as outcome proxy)",
+      "fact_check_note": "Abstract was truncated; the stated figure of 12 significant genomic regions in the African tract is drawn from the visible abstract text. Full locus count in European ancestry components could not be verified from the available excerpt.",
+      "relevance_score": 7,
+      "relevance_score_reason": "Health equity angle, hard-to-detect genomic signals, high-mortality complication in underserved population.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Standard genetic analysis was missing kidney disease signals in sickle cell patients \u2014 a new ancestry-aware method finds them",
+          "hook": "By accounting for local ancestry in admixed genomes, researchers uncovered genetic variants tied to sickle cell kidney disease that conventional GWAS methods consistently overlooked.",
+          "pitch_angle": "The finding highlights a methodological blind spot in genomics research that disproportionately affects Black patients \u2014 and suggests that precision medicine for sickle cell disease will require ancestry-aware analytical tools as a baseline standard."
+        },
+        {
+          "publication_type": "General health / Everyday Health",
+          "headline": "Scientists find new genetic clues to the kidney damage that shortens lives in sickle cell disease",
+          "hook": "A large genomics study found novel genetic risk factors for kidney disease in sickle cell patients \u2014 but only when researchers analyzed DNA in a way that accounts for African ancestry.",
+          "pitch_angle": "Kidney failure is one of the most dangerous complications of sickle cell disease, which affects roughly 100,000 Americans; this research suggests that standard genetic tools have been missing key warning signals \u2014 and that better-tailored methods could accelerate the search for treatments."
+        }
+      ],
+      "run_date": "2026-11-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42934841",
+      "headline": "A newly discovered gene variant may explain why some breast cancer patients' hearts fail after chemotherapy",
+      "journal": "Cardiovascular Research",
+      "pubdate": "2026 Oct 27",
+      "doi": "10.1093/cvr/cvag236",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers identified STYXL1 as a novel susceptibility gene associated with anthracycline-induced cardiotoxicity in breast cancer patients, using genomic analyses across Spanish and Belgian cohorts. The study examined genetic variants that may predispose certain patients to heart damage from anthracycline chemotherapy, a drug class widely used in breast cancer treatment. Identifying this gene could eventually help clinicians predict which patients are at elevated cardiac risk before chemotherapy begins.",
+      "why_it_matters": "Anthracycline-induced cardiotoxicity affects a meaningful proportion of breast cancer survivors and can lead to heart failure, so a genetic marker that flags high-risk patients before treatment could reshape cardiac monitoring strategies.",
+      "caveats": "observational design, surrogate endpoints only",
+      "fact_check_note": "Abstract does not provide N or age range for the study population \u2014 sample size and demographic details could not be verified from the available abstract text.",
+      "relevance_score": 8,
+      "relevance_score_reason": "Cardio-oncology intersection, high-prevalence cancer, clear clinical implication for heart failure prevention.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Verywell Health",
+          "headline": "Scientists Found a Gene That May Predict Which Breast Cancer Patients Are at Risk for Chemo-Related Heart Damage",
+          "hook": "A common chemotherapy for breast cancer can damage the heart \u2014 and researchers may have found a genetic clue that reveals who is most vulnerable before treatment even starts.",
+          "pitch_angle": "A study identified STYXL1 as a gene variant linked to anthracycline-induced cardiotoxicity, the heart damage that can follow certain breast cancer chemotherapy regimens. If validated, genetic screening for this variant could one day help oncologists and cardiologists tailor monitoring or treatment plans to protect the heart."
+        },
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "STYXL1 Emerges as Susceptibility Gene for Anthracycline Cardiotoxicity in Breast Cancer Cohorts",
+          "hook": "A genomic study across Spanish and Belgian breast cancer cohorts has flagged STYXL1 as a novel genetic susceptibility marker for anthracycline-induced cardiotoxicity.",
+          "pitch_angle": "The finding adds to a growing body of pharmacogenomic evidence that cardiac risk from anthracyclines is not uniform, and that inherited variation may help explain why some patients develop heart failure while others tolerate the same regimen without cardiac consequences. The research supports the case for pre-treatment genetic risk stratification in cardio-oncology practice."
+        }
+      ],
+      "run_date": "2026-11-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42946175",
+      "headline": "Most people with COPD know exercise is good for them \u2014 almost none know how much they should actually do",
+      "journal": "Respiratory Medicine",
+      "pubdate": "2026 Oct 27",
+      "doi": "10.1016/j.rmed.2026.109253",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers surveyed 126 community-dwelling adults with COPD (mean age 66.5 years) across four Portuguese hospitals and a patient association about their knowledge of WHO physical activity guidelines. While 72% reported prior exposure to physical activity information, fewer than 17% could correctly identify the minimum recommended targets for moderate-intensity activity, and fewer than 10% knew the strength-training recommendation. Higher education level and higher physical activity levels were associated with better guideline knowledge in multivariable analysis.",
+      "why_it_matters": "A gap between general awareness and actionable knowledge of exercise targets suggests that COPD education programs may need to shift from 'why exercise' messaging to specific, practical 'how much' guidance.",
+      "caveats": "small sample (N<100), observational design, single-center, self-reported outcomes, Portugal-based sample",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Lifestyle hook and COPD relevance; small observational study, no hard endpoints.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention",
+          "headline": "People With COPD Know They Should Exercise \u2014 But Almost No One Knows the Right Amount",
+          "hook": "More than 7 in 10 COPD patients said they'd seen exercise advice \u2014 but fewer than 1 in 10 could name the correct strength-training target.",
+          "pitch_angle": "A Portuguese survey of 126 COPD patients found that awareness of exercise benefits far outpaces knowledge of specific WHO activity targets, suggesting that health messaging needs to move beyond 'exercise is good' to concrete, actionable numbers people can actually use."
+        }
+      ],
+      "run_date": "2026-11-01",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42945397",
+      "headline": "A child's aorta swelled to dangerous proportions \u2014 and a newly discovered gene mutation explains why",
+      "journal": "European Heart Journal",
+      "pubdate": "2026 Oct 27",
+      "doi": "10.1093/eurheartj/ehag864",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers report a pediatric case of a giant aortic aneurysm caused by a novel mutation in the FBLN4 gene, which encodes fibulin-4, a protein critical to arterial wall integrity. The child presented with a lethal arteriopathy, and genetic analysis identified a previously undescribed mutation responsible for the condition. The case adds to a small but growing body of evidence linking FBLN4 mutations to severe early-onset vascular disease.",
+      "why_it_matters": "Identifying novel genetic causes of pediatric aortic aneurysm could improve early detection and management in children with unexplained arterial disease.",
+      "caveats": "small sample (N<100), single-center, single case report",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Rare pediatric case report; limited generalizability despite high-impact journal.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Novel FBLN4 Mutation Identified in Child With Lethal Giant Aortic Aneurysm",
+          "hook": "A newly discovered FBLN4 gene mutation caused a devastating aortic aneurysm in a child \u2014 expanding the known genetic landscape of pediatric arteriopathy.",
+          "pitch_angle": "Published in the European Heart Journal, this case adds a new mutation to the FBLN4 spectrum and highlights the importance of genetic workup in children presenting with unexplained aortic dilation or vascular fragility syndromes."
+        }
+      ],
+      "run_date": "2026-11-01",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42933922",
+      "headline": "A new catheter-based measurement tool may finally let doctors directly assess the smallest blood vessels in the lungs",
+      "journal": "JACC: Cardiovascular Interventions",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1016/j.jcin.2026.07.043",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at UCLA introduced the Pulmonary Index of Microcirculatory Resistance (IMR), a novel invasive hemodynamic index adapted from coronary physiology to directly assess pulmonary microvasculature during right heart catheterization. The study describes the development and early validation of the index, which is designed to distinguish pulmonary arterial disease from pulmonary venous disease at the microvascular level. The tool could help clinicians better characterize the underlying cause of pulmonary hypertension in individual patients.",
+      "why_it_matters": "Pulmonary hypertension is notoriously difficult to phenotype precisely at the bedside, and a tool that can directly measure microvascular resistance could sharpen diagnosis and treatment targeting for this serious chronic condition.",
+      "caveats": "small sample (N<100), single-center, surrogate endpoints only, industry funding [Abbott Vascular]",
+      "fact_check_note": "Abstract does not report N or participant characteristics \u2014 sample size could not be verified from available text.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Technically novel index for pulmonary hypertension; highly procedural focus limits general media appeal.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Pulmonary IMR: A New Invasive Index May Pinpoint Microvascular Disease in Pulmonary Hypertension",
+          "hook": "A UCLA team has adapted the coronary index of microcirculatory resistance to the pulmonary circulation, offering a new way to invasively characterize the smallest lung vessels in patients with pulmonary hypertension.",
+          "pitch_angle": "The Pulmonary Index of Microcirculatory Resistance could help interventional cardiologists and pulmonologists distinguish arterial from venous contributions to pulmonary hypertension during standard right heart catheterization, potentially guiding more precise therapy selection in a condition where one-size-fits-all treatment often falls short."
+        }
+      ],
+      "run_date": "2026-11-01",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42933747",
+      "headline": "A simple ultrasound measure of diaphragm strain may predict survival in ALS patients",
+      "journal": "Respiratory Physiology & Neurobiology",
+      "pubdate": "2026 Oct 26",
+      "doi": "10.1016/j.resp.2026.104667",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers prospectively studied 38 patients with motor neurone disease (MND/ALS) and 20 healthy controls using diaphragm ultrasound, introducing a novel index called 'reserve utilisation' (RU) that measures how much of the diaphragm's capacity is used during quiet breathing. MND patients maintained normal tidal breathing but were already drawing on a much larger proportion of their maximal diaphragm capacity compared to controls, a sign of hidden respiratory stress. Higher RU was associated with shorter survival, suggesting it may offer prognostic information beyond conventional breathing tests.",
+      "why_it_matters": "An ultrasound-derived diaphragm measure may catch respiratory decline in ALS patients earlier than standard tests, offering a new window for timely intervention decisions.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Novel human study with survival endpoint; limited by small sample and ALS-specific scope.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "A New Ultrasound Index May Catch Hidden Breathing Failure in ALS \u2014 Before Standard Tests Do",
+          "hook": "ALS patients who appeared to breathe normally were already working their diaphragms much harder than healthy people \u2014 a hidden strain detectable by ultrasound.",
+          "pitch_angle": "A novel ratio measuring how much of the diaphragm's maximum capacity is used during quiet breathing was higher in ALS patients than controls and associated with shorter survival, suggesting it could serve as an early warning sign of respiratory decline. The finding warrants larger validation studies but offers a potentially accessible clinical tool for monitoring one of ALS's most dangerous complications."
+        }
+      ],
+      "run_date": "2026-11-01",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42948081",
+      "headline": "An anemia drug may also lower dangerous lung pressure \u2014 tiny study hints at surprising dual benefit",
+      "journal": "Pulmonary Circulation",
+      "pubdate": "2026 Oct",
+      "doi": "10.1002/pul2.70405",
+      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a retrospective proof-of-concept study, researchers analyzed five patients with myelodysplastic syndrome (MDS) and elevated pulmonary artery systolic pressure (PASP) who received luspatercept, a drug approved for anemia in blood disorders. After treatment, median PASP dropped from 62.0 mmHg to 33.0 mmHg, and NT-proBNP and uric acid levels also fell, alongside modest hemoglobin improvements. Findings did not reach statistical significance due to the very small sample, but the consistent direction of effect across patients prompted the authors to call for larger prospective studies.",
+      "why_it_matters": "Luspatercept shares a biological mechanism with sotatercept \u2014 a recently approved pulmonary hypertension drug \u2014 raising the possibility that a blood disorder treatment could carry an unexpected cardiovascular benefit for patients with both conditions.",
+      "caveats": "small sample (N<100), observational design, retrospective, single-center, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive drug repurposing signal in pulmonary hypertension; critically limited by N=5.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Anemia Drug Luspatercept Linked to Sharp Drop in Pulmonary Artery Pressure in Tiny Pilot Study",
+          "hook": "A drug used to treat anemia in blood cancer patients cut dangerous lung pressure nearly in half in five patients \u2014 a result that surprised even the researchers.",
+          "pitch_angle": "Luspatercept's mechanism closely mirrors that of sotatercept, the recently approved pulmonary hypertension breakthrough, suggesting the anemia drug may carry unrecognized vascular benefits. The findings are extremely preliminary but offer a hypothesis-generating rationale for prospective trials in patients who have both myelodysplastic syndrome and elevated pulmonary pressures."
+        },
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Luspatercept and Pulmonary Hypertension: A Mechanistic Overlap With Sotatercept Yields an Intriguing Early Signal",
+          "hook": "Because luspatercept and sotatercept both sequester TGF-\u03b2 superfamily ligands, cardiologists may want to watch early data on whether the anemia drug carries hidden pulmonary vascular benefits.",
+          "pitch_angle": "A five-patient retrospective study found consistent reductions in PASP, NT-proBNP, and uric acid after luspatercept in MDS patients with elevated pulmonary pressures \u2014 surrogate endpoints only, but directionally compelling. The mechanistic rationale is strong enough that larger prospective evaluation seems warranted."
+        }
+      ],
+      "run_date": "2026-11-01",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "38785445",
+      "headline": "Heart disease and dementia may fuel each other in a vicious cycle \u2014 and the drugs treating one can affect the other",
+      "journal": "Cardiology in Review",
+      "pubdate": "2026 Nov-Dec",
+      "doi": "10.1097/CRD.0000000000000730",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This narrative review synthesizes evidence on the bidirectional relationship between cardiovascular disease \u2014 including hypertension, coronary artery disease, arrhythmia, and diabetes \u2014 and dementia subtypes including Alzheimer's, vascular, Lewy body, and frontotemporal dementia. The authors also review clinical trial data on whether antihypertensives and statins protect cognition, and whether dementia drugs like acetylcholinesterase inhibitors affect heart health. No new primary data are presented; the review is based on existing trial and observational evidence.",
+      "why_it_matters": "Managing cardiovascular risk factors may be one of the most actionable strategies available for reducing dementia risk, and clinicians treating patients with both conditions need to weigh how cardiac and cognitive medications interact.",
+      "caveats": "secondary analysis, observational design, no primary data, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "High-prevalence conditions, lifestyle hook, bidirectional framing useful for general health; review design limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP The Magazine",
+          "headline": "What Your Heart Health Has to Do With Your Memory \u2014 and Vice Versa",
+          "hook": "A new review finds that heart disease and dementia don't just share risk factors \u2014 they may actively make each other worse, creating a cycle that's hard to break.",
+          "pitch_angle": "Hypertension, irregular heart rhythms, and coronary artery disease are all linked to higher dementia risk, but emerging evidence also suggests that cognitive decline can worsen cardiovascular control through inflammation and disrupted nervous system function. The review highlights that medications used for each condition can affect the other, underscoring the need for integrated care as people age."
+        },
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "Protecting Your Heart May Also Be One of the Best Things You Can Do for Your Brain",
+          "hook": "A comprehensive review of the science finds that the same habits and risk factors driving heart disease \u2014 high blood pressure, diabetes, irregular heart rhythms \u2014 are also quietly raising the odds of dementia.",
+          "pitch_angle": "Researchers reviewed clinical trial and observational data showing cardiovascular disease and dementia are connected in both directions, with cognitive decline feeding back into heart risk through inflammation and autonomic dysfunction. The takeaway for readers: lifestyle interventions that lower blood pressure and blood sugar may be doing double duty for brain health as well."
+        }
+      ],
+      "run_date": "2026-11-01",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42480822",
+      "headline": "Two blockbuster heart failure drugs may not reduce myocardial inflammation the way lab studies promised",
+      "journal": "International Journal of Cardiology",
+      "pubdate": "2026 Nov 1",
+      "doi": "10.1016/j.ijcard.2026.134686",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed left ventricular myocardial samples from 104 advanced heart failure patients who underwent heart transplantation at a Hungarian center, comparing inflammasome pathway gene and protein expression between those treated with ARNi (sacubitril/valsartan) or SGLT2 inhibitors versus those who were not. While unadjusted analyses suggested lower inflammasome markers in treated patients, after adjusting for clinical covariates \u2014 including sex, diabetes, and potassium levels \u2014 no significant association remained between either drug class and myocardial inflammasome expression.",
+      "why_it_matters": "These findings suggest that the anti-inflammatory effects of ARNi and SGLT2 inhibitor therapies seen in cell and animal studies may not translate clearly to the failing human heart, complicating explanations of how these drugs work.",
+      "caveats": "observational design, single-center, surrogate endpoints only, small sample relative to subgroup analyses, cross-sectional tissue sampling, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive null finding for high-profile drug classes; surrogate-only tissue endpoints and single-center limit strength.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "SGLT2 inhibitors and sacubitril/valsartan may not work the way we thought \u2014 at least not by cooling heart inflammation",
+          "hook": "A study of explanted human hearts found no meaningful difference in key inflammation markers between patients who took two of cardiology's most celebrated drug classes and those who didn't.",
+          "pitch_angle": "Preclinical data have fueled excitement that ARNi and SGLT2 inhibitors reduce heart failure progression partly by dampening inflammasome activity, but this human tissue study found that association disappeared once researchers adjusted for other clinical factors. The findings don't undermine the drugs' proven survival benefits \u2014 but they complicate the mechanistic story and underscore how often animal models fail to predict human biology."
+        },
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Inflammasome Pathway Expression Unchanged by ARNi or SGLT2i in Explanted Heart Failure Myocardium",
+          "hook": "Multivariable analysis of 104 transplanted hearts found that neither ARNi nor SGLT2 inhibitor treatment was independently associated with lower myocardial inflammasome gene or protein expression \u2014 despite robust preclinical signals.",
+          "pitch_angle": "Only female sex, diabetes, time since transplant, and serum potassium remained associated with inflammasome pathway markers after adjustment, suggesting these clinical variables \u2014 not drug exposure \u2014 drive myocardial inflammatory priming in advanced HF. The study raises methodological questions about how anti-inflammatory mechanisms of guideline-directed therapies should be evaluated in human tissue."
+        }
+      ],
+      "run_date": "2026-11-01",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42571821",
+      "headline": "Nearly 9 in 10 pericarditis recurrences strike within the first 3 months \u2014 not the 2-year window doctors watch",
+      "journal": "International Journal of Cardiology",
+      "pubdate": "2026 Nov 1",
+      "doi": "10.1016/j.ijcard.2026.134720",
+      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers prospectively followed 272 patients (mean age 59.5 years; 58% men) hospitalized for a first episode of acute pericarditis at a single Greek center for a median of 51 months. Despite clinical guidelines suggesting recurrence risk remains elevated for up to two years, the study found that 86.8% of all recurrences happened within just 3 months of the initial episode, with a median time to recurrence of only 35 days. Higher peak CRP levels and fever during the initial hospitalization were associated with earlier recurrence.",
+      "why_it_matters": "People recovering from pericarditis may face their greatest risk of a relapse much sooner than currently assumed, suggesting the first few months after diagnosis are the most critical window for close monitoring.",
+      "caveats": "single-center, observational design, study population from Greece (may not generalize fully), surrogate endpoints only (no mortality or hospitalization as primary outcome)",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive timing finding; human data, N=272; but single-center, observational, niche condition.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Pericarditis Recurrence Is Front-Loaded: 87% of Relapses Hit Within 3 Months",
+          "hook": "The conventional two-year watch window for pericarditis recurrence may be misallocating clinical attention \u2014 a new prospective study finds most relapses happen within weeks, not months or years.",
+          "pitch_angle": "A 272-patient prospective cohort found 86.8% of pericarditis recurrences occurred within 3 months of the index episode, with a median recurrence time of just 35 days. The findings suggest treatment tapering protocols and follow-up scheduling after a first pericarditis episode may need to be recalibrated toward early-phase intensity."
+        },
+        {
+          "publication_type": "Everyday Health / Health.com / Verywell Health",
+          "headline": "If Your Pericarditis Is Going to Come Back, It Likely Will Within 3 Months",
+          "hook": "Doctors have long told patients to watch for pericarditis recurrence for up to two years \u2014 but new research suggests the real danger window is far shorter.",
+          "pitch_angle": "A study tracking 272 pericarditis patients found that nearly 9 in 10 recurrences happened within just 3 months of the first episode, with most returning within about five weeks. Early warning signs like high inflammation markers and fever at first diagnosis were associated with faster relapse, suggesting some patients may need closer early follow-up."
+        }
+      ],
+      "run_date": "2026-11-01",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42833477",
+      "headline": "Starting COPD triple-inhaler therapy early \u2014 not after years of disease \u2014 may deliver stronger and more lasting benefits",
+      "journal": "Respiratory Medicine",
+      "pubdate": "2026 Nov",
+      "doi": "10.1016/j.rmed.2026.109195",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers pooled patient-level data from six observational studies to compare outcomes in COPD patients who escalated to single-inhaler triple therapy (BDP/FF/GB) at different stages of disease \u2014 within 48 months of diagnosis, between 49\u201396 months, or after 97+ months. Across all groups, exacerbations declined after starting triple therapy, but patients diagnosed within 48 months showed the largest reductions in exacerbations and the highest rates of disease stability and control at 12 months. The study suggests earlier escalation may deliver more durable clinical benefits, though the observational design and industry funding limit causal conclusions.",
+      "why_it_matters": "For the millions of people living with COPD, this real-world analysis suggests that waiting years before stepping up to triple inhaler therapy may mean missing a window for greater and more lasting disease control.",
+      "caveats": "observational design, secondary analysis, surrogate endpoints only, industry funding [Chiesi Farmaceutici], short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "COPD management finding with clinical relevance; weakened by industry funding and observational design.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Earlier Triple-Inhaler Escalation in COPD Tied to Greater 12-Month Stability, Real-World Data Suggest",
+          "hook": "COPD patients who stepped up to triple therapy within four years of diagnosis had fewer exacerbations and higher disease stability rates at one year than those who waited longer.",
+          "pitch_angle": "A pooled analysis of six observational studies found that earlier escalation to single-inhaler triple therapy was associated with more durable reductions in exacerbations and better disease control at 12 months; however, industry funding by the manufacturer of the study drug and the observational design mean these findings should be interpreted cautiously."
+        },
+        {
+          "publication_type": "Verywell Health",
+          "headline": "If You Have COPD, Starting the Strongest Inhaler Therapy Sooner May Matter More Than Doctors Realized",
+          "hook": "A large real-world analysis found that COPD patients who escalated to triple inhaler therapy early in their disease course fared significantly better after one year than those who waited.",
+          "pitch_angle": "Pooled data from six studies of COPD patients suggests that escalating to triple-drug inhaler therapy within four years of diagnosis \u2014 rather than waiting until disease worsens \u2014 is associated with bigger reductions in flare-ups and better disease stability, though the study was partly funded by the drug's manufacturer."
+        }
+      ],
+      "run_date": "2026-11-01",
+      "category": "Pulmonary Medicine",
       "chunk": "1/2",
       "status": "new"
     },
@@ -187,66 +634,6 @@
       "run_date": "2026-10-31",
       "category": "Pulmonary Medicine",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42496136",
-      "headline": "One in three patients with a dangerous pre-heart-attack ECG pattern spontaneously shifts to a more severe form within hours \u2014 without symptoms",
-      "journal": "European Heart Journal: Acute Cardiovascular Care",
-      "pubdate": "2026 Oct 29",
-      "doi": "10.1093/ehjacc/zuag102",
-      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a retrospective single-center study of 51 patients with angiographically confirmed Wellens syndrome (significant LAD coronary artery stenosis \u226570%), researchers reviewed serial ECGs in the first 24 hours to document spontaneous evolution between the two recognized ECG patterns. Approximately one-third of patients (35.3%, n=18) progressed from Pattern A (biphasic T waves) to Pattern B (deep symmetric T-wave inversion) before coronary angiography, with most transitions occurring within 6 hours of admission and all during pain-free intervals. No in-hospital deaths or major adverse cardiovascular events occurred in this cohort, all of whom underwent revascularization.",
-      "why_it_matters": "Clinicians monitoring Wellens syndrome patients may need to track serial ECGs more aggressively in the first 6 hours, as silent pattern evolution may carry diagnostic and prognostic significance not yet fully defined.",
-      "caveats": "small sample (N=51), observational design, single-center, retrospective, surrogate endpoints only, no sex-specific analysis reported",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Clinically relevant ECG finding; small retrospective single-center study limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "Wellens Syndrome Can Silently Shift to Its More Dangerous ECG Pattern Within Hours \u2014 While Patients Feel Fine",
-          "hook": "A third of patients with a high-risk pre-infarction ECG pattern progressed to its more severe form before angiography \u2014 all while pain-free, a new study finds.",
-          "pitch_angle": "Researchers documented spontaneous A-to-B pattern evolution in Wellens syndrome in 35% of 51 patients, mostly within 6 hours of admission, raising the question of whether current monitoring protocols adequately capture this dynamic change. The finding suggests that a single ECG snapshot may be insufficient for risk stratification in this already high-risk population, and warrants larger prospective studies to define the prognostic weight of pattern evolution."
-        }
-      ],
-      "run_date": "2026-10-31",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42440133",
-      "headline": "Italy's first national LVAD registry finds 4 in 10 advanced heart failure patients survive five years on a mechanical heart pump \u2014 and timing of implant matters",
-      "journal": "European Journal of Heart Failure",
-      "pubdate": "2026 Oct 28",
-      "doi": "10.1093/ejhf/xuag126",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "The ITAMACS registry captured all 1,061 durable LVAD implantations performed across 12 Italian centers from 2010\u20132021, analyzing survival and predictors of mortality in patients with advanced heart failure implanted as either bridge-to-transplant (40.5%) or destination therapy (38.8%). Overall survival was 73% at 1 year, 54% at 3 years, and 42% at 5 years. Multivariable analysis found that older age and redo surgery were independently associated with higher mortality, while being implanted before critical deterioration (INTERMACS class >1) and having bridge-to-transplant intent were protective.",
-      "why_it_matters": "Real-world data from over 1,000 patients confirms that implanting a mechanical heart pump before a patient reaches crisis-level illness meaningfully improves survival \u2014 a finding with direct implications for how advanced heart failure programs prioritize timing of referral.",
-      "caveats": "observational design, single-country registry (Italy), no sex-specific survival analysis reported, surrogate endpoints only for some outcomes",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Large real-world N=1061, hard endpoints, high-prevalence advanced HF; observational registry limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "National LVAD Registry: Getting Implanted Before Crisis-Level Heart Failure Boosts 5-Year Survival by More Than a Third",
-          "hook": "Data from Italy's first national mechanical heart pump registry \u2014 over 1,000 patients across 12 years \u2014 shows that patients implanted before reaching the most critical illness stage are significantly more likely to survive long-term.",
-          "pitch_angle": "The ITAMACS registry found 42% 5-year survival overall, but patients implanted at INTERMACS class >1 had a 34% lower mortality risk than those in cardiogenic shock at implant \u2014 reinforcing calls for earlier referral to advanced heart failure programs. Older age and redo surgery also independently predicted worse outcomes, data that can help programs refine patient selection and timing decisions."
-        },
-        {
-          "publication_type": "AARP / General health",
-          "headline": "For People With Severe Heart Failure, Getting a Mechanical Pump Sooner \u2014 Not Later \u2014 May Be the Difference Between Life and Death",
-          "hook": "A 12-year registry of more than 1,000 patients with advanced heart failure in Italy found that those who received a mechanical heart pump before their condition became critical were significantly more likely to be alive five years later.",
-          "pitch_angle": "The study, the first of its kind in Italy, found that 42% of LVAD recipients survived five years \u2014 but survival odds dropped sharply for patients who waited until they were in cardiogenic shock before receiving the device. Researchers say the findings underscore the importance of early referral to specialized heart failure centers, particularly for older patients who face additional mortality risk."
-        }
-      ],
-      "run_date": "2026-10-31",
-      "category": "Cardiology",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -283,147 +670,6 @@
       "status": "new"
     },
     {
-      "pmid": "42616615",
-      "headline": "Genetic analysis of sickle cell disease reveals new clues to why some patients' kidneys fail earlier than others",
-      "journal": "Blood Advances",
-      "pubdate": "2026 Oct 27",
-      "doi": "10.1182/bloodadvances.2026020894",
-      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Using a local ancestry-aware genome-wide association meta-analysis \u2014 a more precise method for studying admixed populations \u2014 researchers analyzed two well-characterized adult sickle cell disease cohorts to identify genetic loci linked to kidney disease (nephropathy), a common and life-shortening complication. The approach uncovered 12 significant genomic regions in the African ancestry component and additional loci in the European ancestry component, including novel findings not detected in prior standard GWAS analyses. The study highlights genes previously unconnected to sickle cell nephropathy and provides new targets for understanding and potentially treating kidney damage in this population.",
-      "why_it_matters": "Kidney disease is a leading cause of early death in sickle cell disease, and identifying the genetic factors that raise individual risk could eventually help doctors predict and prevent this complication in the roughly 100,000 Americans living with the condition.",
-      "caveats": "observational design, surrogate endpoints only, secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Important precision medicine advance for SCD nephropathy; surrogate/genetic endpoints only.",
-      "pitch_angles": [
-        {
-          "publication_type": "General health / MedPage Today",
-          "headline": "New genetic analysis finds hidden risk factors for kidney failure in sickle cell disease",
-          "hook": "A more sophisticated genomic approach has uncovered novel genetic regions linked to kidney disease in sickle cell patients \u2014 variants that standard analysis had missed because it didn't account for the mixed African and European ancestry of the study population.",
-          "pitch_angle": "The local ancestry-aware method used here is specifically designed to avoid the statistical blind spots that occur when analyzing people with admixed ancestry using tools calibrated for single populations \u2014 a long-standing limitation in sickle cell research. The findings point to new biological pathways that may explain why kidney damage progresses faster in some patients, potentially opening doors to targeted monitoring or treatment strategies."
-        }
-      ],
-      "run_date": "2026-10-31",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42934841",
-      "headline": "A newly identified gene may explain why some breast cancer patients suffer heart damage from chemotherapy \u2014 and others don't",
-      "journal": "Cardiovascular Research",
-      "pubdate": "2026 Oct 27",
-      "doi": "10.1093/cvr/cvag236",
-      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers from Spain and Belgium conducted a genomic study in breast cancer patients treated with anthracyclines \u2014 a common class of chemotherapy \u2014 and identified STYXL1 as a novel susceptibility gene associated with cardiotoxicity risk. The multicenter study used human genotyping and genomic editing approaches to validate the gene's role. The finding suggests that genetic variation in STYXL1 may help explain why anthracycline-induced heart damage develops in some patients but not others.",
-      "why_it_matters": "Identifying a genetic marker for chemotherapy-related heart damage could eventually help oncologists and cardiologists personalize treatment to protect the hearts of breast cancer patients before therapy begins.",
-      "caveats": "observational design, surrogate endpoints only, preprint",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Strong cardio-oncology angle; human genomic study; high-prevalence cancer population; aligns with AHA cardiotoxicity coverage interest.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / MedPage Today",
-          "headline": "Scientists Pinpoint a Gene That May Predict Which Breast Cancer Patients Face Heart Damage From Chemo",
-          "hook": "A genomic study across Spanish and Belgian cancer centers has identified STYXL1 as a gene that may determine why anthracycline chemotherapy damages the hearts of some breast cancer patients but spares others.",
-          "pitch_angle": "Anthracyclines remain among the most effective breast cancer drugs, but cardiotoxicity is a serious and often unpredictable side effect. If STYXL1 can be validated as a predictive biomarker, it could open the door to genetic screening before treatment \u2014 a key goal of the emerging field of cardio-oncology."
-        },
-        {
-          "publication_type": "Everyday Health / Women's Health / Health.com",
-          "headline": "Your Genes May Determine Whether Breast Cancer Chemo Hurts Your Heart",
-          "hook": "A new study found that a specific gene variant may make some breast cancer patients far more vulnerable to chemotherapy-related heart damage \u2014 a side effect that often goes undetected until it's serious.",
-          "pitch_angle": "Researchers identified a gene called STYXL1 that appears to influence the heart's susceptibility to damage from anthracyclines, one of the most widely used breast cancer drug classes. The discovery raises the possibility of one day screening patients genetically before chemotherapy to better protect their heart health during treatment."
-        }
-      ],
-      "run_date": "2026-10-31",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42946175",
-      "headline": "People with COPD know exercise is good for them \u2014 but most have no idea how much they actually need",
-      "journal": "Respiratory Medicine",
-      "pubdate": "2026 Oct 27",
-      "doi": "10.1016/j.rmed.2026.109253",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers surveyed 126 community-dwelling Portuguese adults with COPD (mean age 66.5 years) about their awareness of physical activity benefits and their specific knowledge of WHO exercise guidelines. While 72% reported having previously encountered information about physical activity recommendations, only 16.7% correctly identified the minimum target for moderate-intensity activity, 11.9% for vigorous activity, and 9.5% for strength training. Higher educational level and higher physical activity levels were independently associated with better guideline knowledge.",
-      "why_it_matters": "Knowing that exercise helps is not the same as knowing how much to do \u2014 and this gap in actionable knowledge may be a key, modifiable barrier to physical activity among the millions of people managing COPD.",
-      "caveats": "small sample (N<100), observational design, single-country (Portugal), self-reported outcomes, cross-sectional design",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Lifestyle hook for high-prevalence chronic disease; small single-country sample limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Verywell Health / Prevention / EatingWell",
-          "headline": "People with COPD Know They Should Exercise \u2014 But Almost None Know the Right Amount",
-          "hook": "Less than 1 in 6 adults with COPD could correctly identify the minimum weekly exercise target recommended by global health authorities.",
-          "pitch_angle": "A Portuguese survey found that while most COPD patients had heard of exercise guidelines, knowledge of the specifics \u2014 including how many minutes per week of moderate activity to aim for \u2014 was strikingly low. Researchers suggest that healthcare providers need to go beyond telling patients that exercise is beneficial and offer concrete, personalized targets."
-        }
-      ],
-      "run_date": "2026-10-31",
-      "category": "Pulmonary Medicine",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42945397",
-      "headline": "A rare gene mutation caused a giant aortic aneurysm in a child \u2014 and doctors could barely save them",
-      "journal": "European Heart Journal",
-      "pubdate": "2026 Oct 27",
-      "doi": "10.1093/eurheartj/ehag864",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Clinicians in India report a pediatric case of a giant aortic aneurysm linked to a previously undescribed mutation in the FBLN4 gene, which encodes fibulin-4, a protein critical to arterial wall integrity. The patient is a child with no prior surgical history who presented with a lethal arteriopathy. The case expands the known mutation spectrum of FBLN4-related disease and underscores how rare genetic variants can cause catastrophic vascular disease in young children.",
-      "why_it_matters": "This case suggests that unexplained aortic disease in children may have a genetic basis that standard workups miss, potentially pointing toward earlier genetic screening in pediatric vascular emergencies.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Rare pediatric genetic case report; no hard population-level cardiovascular endpoints.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "A Child's Giant Aortic Aneurysm Points to an Uncharted Gene Mutation Doctors Are Only Beginning to Map",
-          "hook": "A novel mutation in the FBLN4 gene caused a catastrophic aortic aneurysm in a child \u2014 a finding that may reshape how pediatric vascular emergencies are genetically evaluated.",
-          "pitch_angle": "Clinicians in India identified a previously unknown FBLN4 mutation in a child with a life-threatening aortic aneurysm, adding to a small but growing literature on fibulin-4-related arteriopathy. The case raises questions about how quickly genetic testing should enter the pediatric cardiac emergency workflow."
-        }
-      ],
-      "run_date": "2026-10-31",
-      "category": "Cardiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42933922",
-      "headline": "A new catheter-based measurement may finally reveal what's happening deep inside the lung's smallest blood vessels",
-      "journal": "JACC: Cardiovascular Interventions",
-      "pubdate": "2026 Oct 26",
-      "doi": "10.1016/j.jcin.2026.07.043",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at UCLA and Stanford developed a novel invasive hemodynamic index \u2014 the Pulmonary Index of Microcirculatory Resistance (IMR) \u2014 adapted from coronary physiology techniques to assess the pulmonary microvasculature. The study describes the methodology and early validation in patients undergoing right heart catheterization. The index may offer a more precise, direct measure of small-vessel pulmonary vascular disease than existing hemodynamic tools.",
-      "why_it_matters": "Better characterization of pulmonary microvascular disease could eventually improve diagnosis and treatment targeting in conditions like pulmonary hypertension.",
-      "caveats": "small sample (N<100), single-center, surrogate endpoints only, industry funding [Abbott Vascular]",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Novel diagnostic tool for pulmonary vasculature; limited by small sample and surrogate endpoints.",
-      "pitch_angles": [
-        {
-          "publication_type": "Medscape Cardiology / STAT News",
-          "headline": "Cardiologists Adapt Coronary Pressure-Wire Technique to Probe the Lung's Tiniest Vessels",
-          "hook": "A measurement tool borrowed from coronary artery physiology may now offer invasive cardiologists their first direct window into the pulmonary microvasculature.",
-          "pitch_angle": "A UCLA-Stanford team has validated a novel catheter-based index \u2014 the Pulmonary IMR \u2014 designed to quantify resistance in the smallest pulmonary vessels during right heart catheterization. If confirmed in larger trials, it could sharpen diagnosis and treatment decisions in pulmonary hypertension, where microvascular disease is often invisible to current hemodynamic tools."
-        }
-      ],
-      "run_date": "2026-10-31",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42929777",
       "headline": "Vascular surgeons are measuring the wrong things \u2014 and patients are paying the price, two leading surgeons argue",
       "journal": "The Journal of Cardiovascular Surgery",
@@ -447,66 +693,6 @@
       ],
       "run_date": "2026-10-31",
       "category": "Hematology & Vascular",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42934414",
-      "headline": "Standard ultrasound may be systematically misreading how well newer heart valves are working",
-      "journal": "Cardiovascular Engineering and Technology",
-      "pubdate": "2026 Oct 26",
-      "doi": "10.1007/s13239-026-00867-5",
-      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Using computational fluid dynamics simulations across 75 valve configurations (25 each for surgical bioprosthetic, balloon-expandable, and self-expanding valves), a University of Washington cardiologist found that standard Doppler ultrasound correctly estimates pressure gradients for surgical valves but overestimates them for newer transcatheter valves \u2014 by up to 42% for self-expanding valves. The study also found that using a patient's left ventricular outflow tract area rather than body surface area better predicts whether a valve is properly sized for an individual. These findings suggest that current assessment methods may be misclassifying many transcatheter valve patients as having worse outcomes than they actually do.",
-      "why_it_matters": "Millions of patients receive prosthetic aortic valves each year, and if standard Doppler measurements are routinely overestimating pressure in newer valve types, some patients may be incorrectly flagged as having poor valve function \u2014 potentially leading to unnecessary interventions.",
-      "caveats": "surrogate endpoints only, single-center, simulation study (not in-vivo validation), observational design for ARIC data component",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive finding with major clinical implication for valve patients; simulation only, no patient outcomes.",
-      "pitch_angles": [
-        {
-          "publication_type": "Medscape Cardiology / MedPage Today",
-          "headline": "Doppler may overestimate gradients in TAVR valves by up to 42%, simulations suggest",
-          "hook": "A new computational analysis finds that the standard echocardiographic method for assessing prosthetic valve function works well for surgical valves but may significantly overestimate pressure gradients in the transcatheter valves now widely used in older and higher-risk patients.",
-          "pitch_angle": "Computational fluid dynamics simulations showed Doppler peak velocity overestimated total gradient by 19% for balloon-expandable valves and 42% for self-expanding valves, compared to near-perfect accuracy for surgical bioprosthetics. The author also proposes using left ventricular outflow tract area rather than body surface area to define patient-prosthesis mismatch, which may more accurately identify patients at risk."
-        },
-        {
-          "publication_type": "General health / NYT Health",
-          "headline": "The standard test doctors use to check prosthetic heart valves may be giving wrong answers for newer devices",
-          "hook": "A new analysis suggests the ultrasound method cardiologists rely on to check whether a replacement heart valve is working properly may be systematically overstating pressure problems in the newer transcatheter valves increasingly used in older patients.",
-          "pitch_angle": "Computer simulations found that Doppler echocardiography \u2014 the go-to tool for valve assessment \u2014 accurately reads pressure across old-style surgical valves but overstates it in balloon-expandable and self-expanding transcatheter valves, which now account for a growing share of aortic valve replacements. If confirmed in real patients, the finding could mean some people are being told their valve isn't working well when it actually is."
-        }
-      ],
-      "run_date": "2026-10-31",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42933747",
-      "headline": "A simple bedside ultrasound may reveal how hard a breathing muscle is working \u2014 before standard tests catch trouble in ALS",
-      "journal": "Respiratory Physiology & Neurobiology",
-      "pubdate": "2026 Oct 26",
-      "doi": "10.1016/j.resp.2026.104667",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers prospectively studied 38 patients with motor neurone disease (MND/ALS) and 20 healthy controls using diaphragm ultrasound to calculate a novel index called 'reserve utilisation' (RU) \u2014 the ratio of tidal to maximal diaphragm thickening. Patients with MND maintained normal tidal breathing but were using a far greater proportion of their maximal diaphragm capacity compared with controls, meaning their breathing reserve was being silently depleted. Higher RU was also associated with shorter survival, suggesting the index may add prognostic information beyond conventional respiratory tests.",
-      "why_it_matters": "Early detection of diaphragm strain in ALS patients using a non-invasive ultrasound measure could one day help clinicians time ventilatory support more precisely, though validation in larger cohorts is needed.",
-      "caveats": "small sample (N<100), observational design, single-center, short follow-up, surrogate endpoints only",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Novel physiologic index with survival signal; small N and no cardiovascular hard endpoints.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "Standard ALS Breathing Tests Miss a Hidden Warning Sign That Ultrasound Can Catch",
-          "hook": "ALS patients appear to breathe normally by conventional measures \u2014 but a new ultrasound index reveals their diaphragms are already working near maximum capacity, and that hidden strain predicts shorter survival.",
-          "pitch_angle": "A prospective study of 38 MND patients found that 'diaphragm reserve utilisation,' a ratio derived from bedside ultrasound, detected physiologic stress invisible to standard spirometry; higher values correlated with worse survival. If validated in larger cohorts, the index could reshape when clinicians offer ventilatory support to ALS patients."
-        }
-      ],
-      "run_date": "2026-10-31",
-      "category": "Pulmonary Medicine",
       "chunk": "2/2",
       "status": "new"
     },
@@ -604,33 +790,6 @@
       "status": "new"
     },
     {
-      "pmid": "42948081",
-      "headline": "A drug used for a blood disorder may also sharply lower dangerous lung artery pressure \u2014 but the evidence is just 5 patients",
-      "journal": "Pulmonary Circulation",
-      "pubdate": "2026 Oct",
-      "doi": "10.1002/pul2.70405",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a retrospective proof-of-concept study, researchers at Zhongshan Hospital (Fudan University, Shanghai) reviewed serial echocardiograms in five patients with myelodysplastic syndrome (MDS) and elevated pulmonary artery systolic pressure (PASP) who received luspatercept, a drug approved for anemia in MDS. Median PASP fell from 62 mmHg to 33 mmHg after treatment, and NT-proBNP and uric acid levels also declined, with modest hemoglobin improvement. No formal statistical significance was reached given the extremely small sample, and all measured outcomes were surrogate endpoints.",
-      "why_it_matters": "Because luspatercept shares a mechanism similar to sotatercept \u2014 an approved pulmonary hypertension drug \u2014 these preliminary signals raise the possibility that an existing blood-disorder treatment could have unexpected benefits for lung artery pressure, though far larger studies are needed.",
-      "caveats": "small sample (N<100), observational design, single-center, retrospective, surrogate endpoints only, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Mechanistically intriguing and counterintuitive; extremely small N and surrogate endpoints only.",
-      "pitch_angles": [
-        {
-          "publication_type": "Medscape Cardiology",
-          "headline": "Luspatercept Linked to Dramatic Drop in Pulmonary Artery Pressure in MDS Patients \u2014 But N=5",
-          "hook": "A drug approved for anemia in myelodysplastic syndrome slashed pulmonary artery systolic pressure by nearly half in a tiny retrospective cohort, raising questions about whether its TGF-\u03b2 suppression mechanism mirrors that of the approved PH drug sotatercept.",
-          "pitch_angle": "In five MDS patients with elevated PASP, luspatercept treatment was associated with a median PASP reduction from 62 to 33 mmHg and falling NT-proBNP levels \u2014 surrogate signals only, but the mechanistic parallel to sotatercept gives the finding clinical plausibility. The authors call for prospective trials to test luspatercept's vascular effects in pulmonary hypertension populations."
-        }
-      ],
-      "run_date": "2026-10-31",
-      "category": "Pulmonary Medicine",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42957060",
       "headline": "The fungi living in your airways and gut may be secretly controlling your asthma \u2014 and not all fungi are equal",
       "journal": "Respiratory Medicine",
@@ -654,33 +813,6 @@
       ],
       "run_date": "2026-10-30",
       "category": "Pulmonary Medicine",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42947459",
-      "headline": "An 8-Month-Old's Autopsy Reveals a Heart Condition So Rare It's Been Documented Fewer Than Ten Times Worldwide",
-      "journal": "Cardiology in the Young",
-      "pubdate": "2026 Oct 28",
-      "doi": "10.1017/S1047951126124810",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers in Tunisia report the first autopsy-confirmed case of spontaneous left atrial appendage inversion \u2014 a structural cardiac anomaly in which the appendage folds inward \u2014 in an 8-month-old infant with no surgical history. The case is accompanied by a literature review of similar cases published from 2020 to 2024. Findings suggest that a pressure gradient across the appendage wall, often driven by pericardial effusion, may trigger the inversion \u2014 and that the condition can masquerade on imaging as a tumor, clot, or infection.",
-      "why_it_matters": "This ultra-rare finding serves as a reminder that a left atrial mass on echocardiography doesn't always mean the usual suspects \u2014 thrombus, tumor, or vegetation \u2014 and misidentification could lead to harmful or unnecessary treatment.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Extremely rare pediatric case report; limited generalizability to cardiovascular health readership.",
-      "pitch_angles": [
-        {
-          "publication_type": "Medscape Cardiology",
-          "headline": "Left Atrial Mass in an Infant: When It's None of the Above",
-          "hook": "An autopsy case of spontaneous left atrial appendage inversion in an 8-month-old \u2014 fewer than ten such cases exist in the world literature \u2014 highlights a diagnostic pitfall that can fool even experienced echocardiographers.",
-          "pitch_angle": "The case, reported from Tunisia, suggests pericardial effusion-driven pressure gradients may trigger this anomaly at any age, even without prior cardiac surgery. Cardiologists and radiologists should be aware this rare entity can mimic thrombus, vegetation, or tumor on standard imaging."
-        }
-      ],
-      "run_date": "2026-10-30",
-      "category": "Hematology & Vascular",
       "chunk": "1/2",
       "status": "new"
     },
