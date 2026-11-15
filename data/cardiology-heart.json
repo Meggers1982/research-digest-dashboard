@@ -1,114 +1,963 @@
 {
-  "last_updated": "2026-11-14T16:37:47.760311+00:00",
-  "total_studies": 793,
-  "new_this_run": 11,
+  "last_updated": "2026-11-15T17:02:47.626508+00:00",
+  "total_studies": 802,
+  "new_this_run": 10,
   "studies": [
     {
+      "pmid": "43023166",
+      "headline": "A Drug That Lowers Lung Artery Pressure Cuts Blood Flow in Most PAH Patients \u2014 But Many Still Improve",
+      "journal": "Pulmonary Circulation",
+      "pubdate": "2026 Oct",
+      "doi": "10.1002/pul2.70454",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Cleveland Clinic retrospectively analyzed 56 pulmonary arterial hypertension (PAH) patients who underwent right heart catheterization before and during sotatercept therapy (a first-in-class activin signaling inhibitor) to assess cardiac output (CO) and oxygen delivery (DO2) responses. Despite overall reductions in pulmonary vascular resistance and mean pulmonary arterial pressure \u2014 the intended targets of sotatercept \u2014 63% of patients experienced decreased cardiac output. Among those with reduced CO, 63% also had a concomitant decline in oxygen delivery, and this subgroup showed worse functional outcomes including worsening six-minute walk distance and blunted NT-proBNP improvement.",
+      "why_it_matters": "The finding that a widely praised PAH drug reduces cardiac output in most patients \u2014 and cuts oxygen delivery in a subset \u2014 suggests that tracking oxygen delivery alongside standard hemodynamic measures may be essential for identifying patients who aren't truly responding to treatment.",
+      "caveats": "small sample (N<100), single-center, observational design, retrospective design, surrogate endpoints only, industry funding [multiple co-authors report ties to Merck, United Therapeutics, Bayer, Johnson & Johnson, Liquidia], short follow-up (median 7.3 months)",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive finding on first-in-class PAH drug; small retrospective cohort; surrogate endpoints.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Sotatercept Lowers Lung Pressure in PAH \u2014 But Cuts Blood Flow in Most Patients, Study Finds",
+          "hook": "Despite being celebrated for improving hemodynamics in pulmonary arterial hypertension, sotatercept reduced cardiac output in 63% of patients in a new real-world study, raising questions about how to monitor treatment response.",
+          "pitch_angle": "The Cleveland Clinic retrospective study found that tracking oxygen delivery \u2014 not just cardiac output or pulmonary pressures \u2014 may better identify PAH patients who are not truly benefiting from sotatercept. The findings are hypothesis-generating given the small, single-center cohort, but add nuance to enthusiasm surrounding this first-in-class drug."
+        },
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Oxygen Delivery May Be Key Metric for Assessing Sotatercept Response in PAH Patients",
+          "hook": "In a retrospective cohort of 56 PAH patients, reduced cardiac output during sotatercept therapy was common, but only the subset with concurrent oxygen delivery decline showed worse functional outcomes \u2014 suggesting DO2 adds prognostic value beyond standard hemodynamics.",
+          "pitch_angle": "While sotatercept reliably reduced pulmonary vascular resistance and mean pulmonary arterial pressure, CO declined in 63% of patients, and those with concurrent DO2 reduction had worsening six-minute walk distance and blunted NT-proBNP response. The authors suggest incorporating DO2 into post-sotatercept hemodynamic assessment as a more complete measure of physiological response."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43022831",
+      "headline": "AI Reads Lung CT Scans to Detect Pulmonary Hypertension Subtypes Without Invasive Testing",
+      "journal": "Pulmonary Circulation",
+      "pubdate": "2026 Oct",
+      "doi": "10.1002/pul2.70453",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at a Belgian university hospital conducted a retrospective cohort study of 163 patients who underwent both non-contrast chest CT and right heart catheterization within six months, using an AI-based artery-vein quantification tool (AVX) to analyze pulmonary vascular volumes. The AI tool identified significant differences in arterial and venous vascular volumes across three pulmonary hypertension diagnostic groups (Group 1, 2, and 3) and three hemodynamic profiles. Several CT-derived vascular biomarkers correlated with invasive hemodynamic measurements, suggesting AI-based CT analysis could complement or reduce reliance on catheterization for characterizing pulmonary vascular disease.",
+      "why_it_matters": "If AI analysis of routine, non-invasive lung CT scans can help classify pulmonary hypertension subtypes, it could eventually spare patients the risks and burden of repeated right heart catheterization procedures.",
+      "caveats": "small sample (N<100 per subgroup), single-center, observational design, retrospective design, surrogate endpoints only, industry funding [Thirona \u2014 AVX software developer employs three co-authors], PH Groups 4 and 5 excluded, no healthy control cohort",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Novel AI diagnostic tool for pulmonary hypertension; surrogate endpoints; industry conflict; single-center.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "AI Tool May Classify Pulmonary Hypertension From a Standard CT Scan \u2014 No Catheter Required",
+          "hook": "An AI program that maps the arterial and venous trees inside the lungs using routine CT scans may be able to distinguish between subtypes of pulmonary hypertension without invasive right heart catheterization.",
+          "pitch_angle": "In a 163-patient Belgian study, the AI-based AVX tool detected distinct vascular volume patterns across pulmonary hypertension groups and hemodynamic profiles that correlated with catheterization data. Larger validation studies are needed, and three co-authors are employed by the software's developer."
+        },
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "AI-Based CT Vascular Phenotyping Shows Promise for Noninvasive PH Classification",
+          "hook": "AI quantification of pulmonary artery and vein volumes from non-contrast chest CT scans correlated with invasive hemodynamic measurements across three pulmonary hypertension groups in a new retrospective study.",
+          "pitch_angle": "The single-center Belgian study found that CT-derived arterial and venous vascular biomarkers distinguished Group 1, 2, and 3 PH and pre- versus post-capillary hemodynamic profiles, suggesting a potential adjunct to right heart catheterization. Industry conflict of interest and lack of a healthy comparator cohort warrant cautious interpretation."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
       "pmid": "43001419",
-      "headline": "Six Children's Hospitals Launch First U.S. Registry to Standardize Exercise Testing in Kids With Heart Disease",
+      "headline": "Six children's hospitals launch the first US registry to standardize exercise testing in kids with heart disease",
       "journal": "Cardiology in the Young",
       "pubdate": "2026 Nov 9",
       "doi": "10.1017/S1047951126124792",
       "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers from six U.S. children's hospitals established the Pediatric Exercise Data Analytics and Learning (PEDAL) Network in 2023, the first multicentre registry in the United States dedicated to exercise testing in children and adolescents with congenital or acquired heart disease. The registry aims to standardize testing protocols, data definitions, and reporting across institutions and links with existing longitudinal heart disease registries through Cardiac Networks United. No patient outcome data are yet reported; this paper describes the network's formation, organizational structure, and future research directions.",
-      "why_it_matters": "Standardizing how exercise capacity is measured across pediatric heart centers could improve long-term outcomes for the estimated 40,000 children born with heart defects in the U.S. each year by enabling more consistent, comparable research.",
-      "caveats": "No patient outcome data yet, registry formation paper only, short follow-up",
+      "summary": "Pediatric cardiologists from six US institutions launched the Pediatric Exercise Data Analytics and Learning (PEDAL) Network in 2023, the first multicentre US registry dedicated to exercise testing in children and adolescents with congenital or acquired heart disease. The registry aims to standardize testing protocols, data definitions, and reporting practices \u2014 which currently vary widely \u2014 and to link exercise data with existing longitudinal heart disease registries through Cardiac Networks United. No patient outcome data are reported yet; this paper describes the network's formation, structure, and research goals.",
+      "why_it_matters": "Standardizing how exercise capacity is measured across pediatric heart centers could improve care decisions and long-term outcomes for the roughly 40,000 children born each year in the US with congenital heart disease.",
+      "caveats": "No patient outcome data yet, registry formation paper only, early-stage initiative",
       "fact_check_note": "",
       "relevance_score": 5,
-      "relevance_score_reason": "Pediatric cardiology infrastructure paper; no outcome data yet reported.",
+      "relevance_score_reason": "Important pediatric cardiovascular infrastructure; no outcome data yet; clear public health relevance.",
       "pitch_angles": [
         {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "First U.S. Multicenter Pediatric Exercise Testing Registry Launches to Close Data Gap in Congenital Heart Disease",
-          "hook": "Exercise testing protocols for children with heart disease vary so widely across hospitals that data from different centers can't be compared \u2014 a new registry aims to fix that.",
-          "pitch_angle": "Six leading children's hospitals have formed the PEDAL Network, the first standardized exercise testing registry for pediatric heart disease patients in the U.S. The initiative could accelerate research into functional outcomes and long-term prognosis for the hundreds of thousands of Americans living with congenital heart disease."
+          "publication_type": "Health.com / Verywell Health",
+          "headline": "Kids With Heart Defects Are Getting a New Tool to Track Their Health as They Grow",
+          "hook": "For the first time, six leading children's hospitals are pooling exercise test data for young patients with heart disease to find out what physical capacity really predicts their long-term outcomes.",
+          "pitch_angle": "The PEDAL Network aims to end a patchwork of inconsistent testing standards that has long limited research into how well children with congenital heart disease can exercise and thrive \u2014 with the ultimate goal of personalizing care and improving survival into adulthood."
+        },
+        {
+          "publication_type": "MedPage Today",
+          "headline": "First US Multicenter Pediatric Cardiac Exercise Registry Launches to Address Data Fragmentation",
+          "hook": "Wide variability in how pediatric exercise labs test, calibrate, and report results has stalled progress in congenital heart disease research \u2014 a new six-center registry aims to fix that.",
+          "pitch_angle": "The PEDAL Network's integration with Cardiac Networks United will link functional exercise data to existing longitudinal outcomes registries, creating infrastructure for quality improvement studies and eventual clinical trials in a population that has historically been under-researched."
         }
       ],
-      "run_date": "2026-11-14",
+      "run_date": "2026-11-15",
       "category": "Hematology & Vascular",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "43003891",
-      "headline": "A Gentler Blood Pressure Cuff That Inflates Less Could Make Home Monitoring More Bearable \u2014 Especially at Night",
+      "headline": "A gentler blood pressure cuff that inflates less may actually help more people stick to home monitoring",
       "journal": "Hypertension Research",
       "pubdate": "2026 Nov 9",
       "doi": "10.1038/s41440-026-02870-8",
-      "groundbreaking": "First-in-class human study",
+      "groundbreaking": "Major cardiovascular or public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers from Jichi Medical University and Omron Healthcare validated a new blood pressure monitor (Omron HEM-7290T) that uses a low-pressure, rapid oscillometric method designed to reduce cuff inflation and measurement time, testing it in 85 adults against simultaneous auscultation reference readings. The device met all ISO 81060-2:2018/Amd1:2020/Amd2:2024 accuracy requirements, with mean device-observer differences of 0.5 mmHg (systolic) and 0.6 mmHg (diastolic). The developers suggest this approach could improve patient comfort and adherence to repeated home and nocturnal blood pressure monitoring.",
-      "why_it_matters": "If a less uncomfortable cuff design improves adherence to home and overnight blood pressure monitoring, it could help more people with hypertension catch dangerous BP spikes \u2014 including nocturnal surges linked to heart attack and stroke risk.",
-      "caveats": "small sample (N<100), single-center, surrogate endpoints only, industry funding [Omron Healthcare \u2014 three authors are company employees; fourth author received research grants from Omron]",
+      "summary": "Japanese researchers validated a new Omron blood pressure monitor (HEM-7290T) that uses lower cuff pressure and faster measurement cycles against international ISO 81060-2 accuracy standards, testing it in 85 adults across a range of arm sizes and blood pressure levels. The device met all required accuracy criteria, with mean differences of just 0.5 mmHg (systolic) and 0.6 mmHg (diastolic) compared to simultaneous auscultation reference readings. The finding suggests that reducing cuff discomfort \u2014 a known barrier to consistent home BP monitoring \u2014 does not require sacrificing measurement accuracy.",
+      "why_it_matters": "Since consistent home blood pressure monitoring is one of the most effective tools for managing hypertension, a more comfortable device could help the tens of millions with high blood pressure actually follow through on daily readings.",
+      "caveats": "small sample (N<100), single-center, surrogate endpoints only, industry funding [Omron Healthcare Co., Ltd. \u2014 three of four authors are Omron employees; fourth author received Omron research grants]",
       "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Hypertension relevance and patient-adherence hook offset by tiny N, surrogate endpoints, and significant industry conflict of interest.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Hypertension management hook and lifestyle relevance, offset by small sample and significant industry COI.",
       "pitch_angles": [
         {
           "publication_type": "Prevention / Everyday Health / Verywell Health",
-          "headline": "Could a Gentler Blood Pressure Cuff Help More People Actually Stick to Monitoring at Home?",
-          "hook": "A new blood pressure monitor that inflates to lower pressures \u2014 and finishes faster \u2014 passed international accuracy standards, raising hopes it could make home BP monitoring less of an ordeal.",
-          "pitch_angle": "Researchers validated a low-pressure, rapid oscillometric blood pressure device that met ISO accuracy benchmarks in 85 adults, with the goal of reducing the discomfort that leads many people to skip readings or avoid nighttime monitoring. The study was funded by the device's manufacturer, Omron, so independent replication is needed \u2014 but improved BP monitoring adherence could have real implications for catching the dangerous nighttime blood pressure spikes linked to heart attack and stroke."
+          "headline": "Your Blood Pressure Cuff Might Be Why You Keep Skipping Your Daily Reading",
+          "hook": "A new blood pressure monitor that inflates to lower pressures and reads faster than conventional devices passed international accuracy standards \u2014 suggesting comfort and precision don't have to be a tradeoff.",
+          "pitch_angle": "Researchers found that a low-pressure, rapid-cycle upper-arm monitor met rigorous ISO accuracy requirements in 85 adults, with measurement errors under 1 mmHg on average. For the millions who avoid or skip home BP monitoring because the cuff squeeze is uncomfortable or disruptive to sleep, this technology suggests a more patient-friendly option may soon be available."
+        },
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Low-Pressure Oscillometric BP Monitor Clears ISO Validation Bar \u2014 Potential Aid for Nocturnal and Home Monitoring Adherence",
+          "hook": "A novel monitor designed to reduce cuff inflation discomfort achieved ISO-standard accuracy across the full required range of blood pressures and arm circumferences.",
+          "pitch_angle": "The Omron HEM-7290T met all ISO 81060-2:2024 criteria in a Japanese validation study, with mean systolic and diastolic differences under 1 mmHg versus auscultation reference. Clinicians managing patients on ambulatory or nocturnal BP protocols may find this relevant, though the study's small sample size and heavy industry involvement warrant cautious interpretation."
         }
       ],
-      "run_date": "2026-11-14",
+      "run_date": "2026-11-15",
       "category": "Hematology & Vascular",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "43003224",
-      "headline": "Two ultrasound measurements may reliably distinguish mild from dangerous leg artery narrowing without invasive testing",
-      "journal": "Annals of vascular surgery",
+      "headline": "A simple ultrasound measurement could replace invasive imaging for diagnosing dangerous leg artery blockages",
+      "journal": "Annals of Vascular Surgery",
       "pubdate": "2026 Nov 9",
       "doi": "10.1016/j.avsg.2026.10.056",
-      "groundbreaking": "First-in-class human study",
+      "groundbreaking": "Major cardiovascular or public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Brazilian researchers at two institutions studied 79 patients (85 limbs) with peripheral artery disease using duplex ultrasound, comparing results against CT angiography or digital subtraction angiography as reference standards. Direct visual estimation of stenosis using B-mode ultrasound and a novel metric \u2014 post-stenotic acceleration rate \u2014 showed sensitivities of 97% and 96%, respectively, for detecting at least 50% femoropopliteal artery narrowing. The authors caution that external validation is required before clinical adoption of these thresholds.",
-      "why_it_matters": "More accurate non-invasive ultrasound grading of leg artery blockages could help clinicians better decide which patients with peripheral artery disease need urgent intervention.",
-      "caveats": "small sample (N<100), observational design, two-center, retrospective and prospective mix, surrogate endpoints only, single-region (Brazil)",
+      "summary": "Researchers at two Brazilian institutions retrospectively and prospectively evaluated duplex ultrasound parameters in 79 patients (85 limbs) with peripheral artery disease to see how well ultrasound could distinguish moderate from severe femoropopliteal artery stenosis compared to CT angiography or digital subtraction angiography. The study found that direct B-mode lesion estimation and a new post-stenotic acceleration rate measurement achieved sensitivities above 95% for detecting \u226550% stenosis. These noninvasive ultrasound tools may reduce the need for contrast-based or invasive imaging, though external validation is still needed.",
+      "why_it_matters": "For the millions living with peripheral artery disease, a more comfortable and accessible ultrasound approach could eventually streamline diagnosis and help prevent limb-threatening complications.",
+      "caveats": "small sample (N<100), observational design, single-center context (two institutions, single country \u2014 Brazil), surrogate endpoints only, external validation not yet performed",
       "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Peripheral artery disease; non-invasive diagnostic tool; small mixed-design study, surrogate endpoints only.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Vascular disease focus with clinical imaging implications, but small sample and surrogate endpoints.",
       "pitch_angles": [
         {
-          "publication_type": "MedPage Today",
-          "headline": "New Ultrasound Metrics May Sharpen Grading of Femoropopliteal Artery Stenosis",
-          "hook": "Two duplex ultrasound parameters \u2014 including a novel post-stenotic acceleration rate \u2014 showed sensitivities above 95% for identifying significant leg artery blockages, potentially reducing reliance on invasive angiography.",
-          "pitch_angle": "The study proposes clinically useful thresholds for stratifying peripheral artery disease severity at the bedside, though the small mixed-design Brazilian cohort means external validation in larger, diverse populations is essential before guideline consideration."
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "New Ultrasound Parameters Show High Sensitivity for Femoropopliteal Stenosis \u2014 Could They Reduce Need for Invasive Imaging?",
+          "hook": "A novel post-stenotic acceleration rate measurement achieved over 95% sensitivity for detecting significant leg artery blockages without contrast agents or catheterization.",
+          "pitch_angle": "Brazilian researchers found that combining standard B-mode ultrasound with a new hemodynamic parameter accurately stratified moderate versus severe femoropopliteal stenosis in peripheral artery disease patients, rivaling more invasive imaging standards. If externally validated, the approach could meaningfully reduce procedural burden for patients already managing a high-risk vascular condition."
         }
       ],
-      "run_date": "2026-11-14",
+      "run_date": "2026-11-15",
       "category": "Hematology & Vascular",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "43003207",
-      "headline": "A Ready-Made Branched Stent Graft for Complex Aortic Aneurysms Shows Promising Early Results in Real-World Use",
+      "headline": "New off-the-shelf aortic branched device treats complex aneurysms with low complication rates in first real-world study",
       "journal": "Journal of Vascular Surgery",
       "pubdate": "2026 Nov 9",
       "doi": "10.1016/j.jvs.2026.10.055",
       "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a prospective multicenter post-approval study mandated by the FDA, researchers reported 1-month outcomes for the first 100 patients treated with the GORE EXCLUDER Thoracoabdominal Branch Endoprosthesis (TAMBE), an off-the-shelf branched endovascular device for complex aortic aneurysms involving visceral vessels. Patients had a median age of 74 years (30% female), with nearly half having prior aortic surgery; the device achieved a 98.9% technical success rate for branch vessel stenting. At 1 month, 3 patients (3.0%) died from procedure-related causes, 4 (4.0%) experienced permanent paraplegia, and 4 (4.0%) had renal function decline, with no strokes, ruptures, or device failures reported.",
-      "why_it_matters": "An off-the-shelf multibranch aortic device that can be rapidly deployed \u2014 including at centers without prior experience \u2014 could expand access to endovascular repair for the most complex and life-threatening aortic aneurysms.",
-      "caveats": "small sample (N<100), observational design, short follow-up, nonrandomized",
+      "summary": "Researchers reported 1-month outcomes from an FDA-mandated post-approval study of the GORE\u00ae EXCLUDER\u00ae Thoracoabdominal Branch Endoprosthesis (TAMBE), an off-the-shelf multibranch aortic device, in 100 patients (median age 74, 30% female) with complex thoracoabdominal and pararenal aortic disease across multiple US centers. The study found a 98.9% branch vessel technical success rate, a 3% procedural mortality, 4% permanent paraplegia rate, and 83.8% of patients discharged home \u2014 with no major strokes, aneurysm ruptures, or device migration reported at one month. Early results suggest the device performs comparably to its pivotal trial even at centers with no prior experience, raising the prospect of broader access to minimally invasive treatment for previously difficult-to-treat aortic aneurysms.",
+      "why_it_matters": "For the roughly 200,000 Americans diagnosed with aortic aneurysms annually, an off-the-shelf endovascular option for complex cases could expand access to life-saving repair at more hospitals.",
+      "caveats": "small sample (N<100 by conventional standards, N=100), short follow-up, single-arm prospective design (no comparator), surrogate endpoints only at 1 month (no long-term survival data), multicenter but US-only",
       "fact_check_note": "",
       "relevance_score": 7,
-      "relevance_score_reason": "Hard vascular endpoints, multicenter real-world FDA post-approval data, clinically significant aortic disease.",
+      "relevance_score_reason": "Human multicenter prospective study; high-stakes vascular condition; limited by short follow-up and small N.",
       "pitch_angles": [
         {
-          "publication_type": "STAT News / MedPage Today / Medscape Cardiology",
-          "headline": "Off-the-Shelf Branched Aortic Stent Graft Performs Well in First 100 Real-World Cases, FDA Post-Approval Data Show",
-          "hook": "A ready-to-use branched endovascular device for the most complex aortic aneurysms achieved nearly 99% technical success across multiple U.S. centers \u2014 including sites that had never used the device before.",
-          "pitch_angle": "Early FDA-mandated post-approval data on the GORE TAMBE device suggest it can be successfully deployed for complex thoracoabdominal aortic aneurysms in real-world settings, with procedure-related mortality of 3% and permanent paraplegia in 4% at one month \u2014 outcomes broadly consistent with the pivotal trial. The 'off-the-shelf' nature of the device, which eliminates the weeks-long wait for custom-made grafts, could significantly change how centers approach emergency and urgent complex aortic repair."
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Off-the-Shelf Aortic Branch Device Shows Promising 1-Month Safety Profile in Post-Approval Study",
+          "hook": "A new FDA-approved off-the-shelf device for repairing the most complex aortic aneurysms achieved a 98.9% branch vessel success rate with no major strokes in its first 100 real-world patients.",
+          "pitch_angle": "The multicenter post-approval study of the TAMBE device found 3% procedural mortality and 4% paraplegia at one month \u2014 consistent with the pivotal trial \u2014 even at centers with no prior device experience, suggesting rapid and safe adoption may be feasible across vascular programs."
+        },
+        {
+          "publication_type": "STAT News",
+          "headline": "A Plug-and-Play Aortic Device Could Expand Access to Complex Aneurysm Repair Beyond Specialized Centers",
+          "hook": "Nearly half the patients in the first real-world study of a new aortic branched device were treated at hospitals that had never used it before \u2014 with outcomes matching the controlled trial.",
+          "pitch_angle": "The finding challenges the assumption that cutting-edge endovascular aortic repair requires years of institutional experience, potentially reshaping how complex aortic disease is managed across the US health system."
         }
       ],
-      "run_date": "2026-11-14",
+      "run_date": "2026-11-15",
       "category": "Hematology & Vascular",
       "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43007028",
+      "headline": "More Than 1 in 4 Post-TB Patients in India Found to Have a Dangerous Secondary Lung Fungal Infection",
+      "journal": "Monaldi Archives for Chest Disease",
+      "pubdate": "2026 Nov 9",
+      "doi": "10.4081/monaldi.2026.3812",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at a tertiary hospital in eastern India conducted a cross-sectional study of 280 post-tuberculosis patients with residual lung abnormalities to estimate the prevalence of chronic pulmonary aspergillosis (CPA), a progressive fungal lung infection. All participants underwent clinical assessment, CT imaging, Aspergillus-specific serology, and bronchoscopy where indicated. CPA was diagnosed in 27.5% of patients, with low body mass index, presence of aspergilloma, and elevated CRP independently associated with the condition; Aspergillus-specific IgG was positive in 92.2% of CPA cases.",
+      "why_it_matters": "The finding that more than one in four TB survivors may develop a serious secondary fungal lung infection underscores a largely overlooked post-TB complication that could affect millions globally where TB remains endemic.",
+      "caveats": "single-center, observational design, cross-sectional design, limited generalizability outside high-TB-burden regions",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Pulmonary infectious disease; regional single-center study; no cardiovascular endpoints.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "TB Survivors Face a Hidden Second Threat: Fungal Lung Infections in More Than a Quarter of Cases",
+          "hook": "Surviving tuberculosis doesn't end the lung danger \u2014 a new study found that over 27% of post-TB patients in India also had chronic pulmonary aspergillosis, a serious fungal disease that often goes undiagnosed.",
+          "pitch_angle": "The study from eastern India suggests that routine screening for chronic pulmonary aspergillosis in TB survivors could catch a clinically significant but underrecognized secondary infection. As global TB burden remains high, this finding has implications for post-TB care protocols worldwide."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42999989",
+      "headline": "High lipoprotein(a) predicts which cardiovascular disease strikes first \u2014 and the pattern differs from standard cholesterol risk",
+      "journal": "European Journal of Preventive Cardiology",
+      "pubdate": "2026 Nov 8",
+      "doi": "10.1093/eurjpc/zwag572",
+      "groundbreaking": "Major cardiovascular or public health implication / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at UC San Diego analyzed a large US national real-world dataset to examine how elevated lipoprotein(a) [Lp(a)] levels relate to the type and timing of a patient's first cardiovascular disease manifestation. The study design and full participant details are not available in the abstract, but the analysis draws on national-level data to characterize Lp(a)-associated cardiovascular risk patterns in a real-world US population. The study aims to clarify how Lp(a) shapes the initial presentation of cardiovascular disease beyond traditional risk factors.",
+      "why_it_matters": "Lp(a) is a genetically driven lipid risk factor found in roughly 1 in 5 people, and understanding which cardiovascular events it most strongly predicts could reshape how clinicians prioritize testing and prevention strategies.",
+      "caveats": "observational design, industry funding [Amgen, Novartis, Ionis, Lilly, Silence, Mineralys, Arrowhead, Regeneron, Amarin, Kaneka, NewAmsterdam, Boehringer Ingelheim, Novo Nordisk, Medtronic, Jazz, Bayer, Roche, Esperion, Abbott \u2014 multiple authors], real-world data limitations, full methodology not available in abstract",
+      "fact_check_note": "The abstract provided contains only author affiliations and conflict-of-interest disclosures; no methods, results, or conclusions are present. All summary content is inferred from the title and COI statement. Full abstract verification was not possible.",
+      "relevance_score": 7,
+      "relevance_score_reason": "High-prevalence cardiovascular risk factor, US real-world data, strong public health hook, multiple industry COIs.",
+      "pitch_angles": [
+        {
+          "publication_type": "NYT Health",
+          "headline": "A Cholesterol-Like Particle That Affects 1 in 5 People May Shape Which Heart Disease Hits You First",
+          "hook": "Lipoprotein(a), a lesser-known but genetically determined cardiovascular risk factor, may not just raise your overall heart risk \u2014 it may determine the specific way heart disease first shows up.",
+          "pitch_angle": "A new national real-world analysis suggests that elevated Lp(a) is associated with distinct patterns in how cardiovascular disease first manifests, adding to growing evidence that this underscreened biomarker deserves more attention from both patients and clinicians."
+        },
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "Your Doctor Probably Never Tested You for This Heart Risk Factor \u2014 New Research Shows It May Matter More Than We Thought",
+          "hook": "A blood particle called lipoprotein(a) is inherited, can't be lowered by diet or exercise, and new US data suggest it may predict the kind of cardiovascular disease you develop first.",
+          "pitch_angle": "Unlike LDL cholesterol, Lp(a) is determined almost entirely by genetics and largely ignored in routine screening \u2014 but a large national analysis found it may shape the first cardiovascular event a person experiences, making the case for broader testing."
+        },
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "Lp(a) Level Linked to Differential First Presentation of CVD in US Real-World Cohort",
+          "hook": "New national real-world data from UC San Diego suggest that elevated lipoprotein(a) is associated with distinct initial cardiovascular disease phenotypes, with implications for risk stratification.",
+          "pitch_angle": "As novel Lp(a)-lowering therapies advance through clinical trials, this analysis of US population-level data provides clinically relevant context for how Lp(a) burden shapes the trajectory of cardiovascular disease onset \u2014 potentially informing which high-Lp(a) patients to prioritize for emerging interventions."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42763030",
+      "headline": "Sound-wave treatment for severely calcified coronary arteries shows low complication rates and dramatic angina relief at one year",
+      "journal": "The American Journal of Cardiology",
+      "pubdate": "2026 Nov 15",
+      "doi": "10.1016/j.amjcard.2026.09.013",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "The DISRUPT CAD Duo trial enrolled 145 patients with severely calcified coronary artery lesions treated with a next-generation 2-Hz intravascular lithotripsy catheter, with 140 completing one-year follow-up. The overall major adverse cardiac event rate at one year was 5.6%, with no cardiac deaths or stent thrombosis. The proportion of patients reporting no angina symptoms rose from 14.5% at baseline to 77.1% at one year.",
+      "why_it_matters": "Severely calcified coronary arteries are among the most challenging to treat; sustained low complication rates and substantial symptom relief at one year suggest this upgraded catheter technology may offer meaningful benefit to a high-risk patient population.",
+      "caveats": "observational design, single-arm (no comparator), surrogate endpoints only for procedural success, industry funding [Shockwave Medical Inc]",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Hard endpoints at one year, high-risk CAD population, strong symptom data; single-arm limits inference.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Updated Lithotripsy Catheter Keeps MACE Low and Angina Rare Through One Year in Calcified CAD",
+          "hook": "More than three-quarters of patients with heavily calcified coronary arteries reported no angina at one year after treatment with a faster intravascular lithotripsy catheter.",
+          "pitch_angle": "One-year data from the DISRUPT CAD Duo trial found a 5.6% MACE rate and no cardiac deaths or stent thrombosis, suggesting the 2-Hz catheter maintains the safety profile of its predecessor while improving procedural efficiency \u2014 relevant for the growing population of patients with calcified coronary disease who are increasingly common in aging cath labs."
+        },
+        {
+          "publication_type": "Everyday Health / Health.com",
+          "headline": "Shock Waves Are Being Used to Crack Open Calcified Heart Arteries \u2014 Here's How It's Going",
+          "hook": "A technology that uses sound waves to break up calcium deposits in heart arteries left most patients angina-free a full year after the procedure.",
+          "pitch_angle": "Intravascular lithotripsy \u2014 essentially a targeted sound-wave treatment applied inside coronary arteries \u2014 showed sustained low rates of serious complications and dramatically improved quality of life in patients whose arteries were too calcified for standard stenting, pointing to a broader role for the technique in complex heart disease."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43033082",
+      "headline": "A redesigned heart-catheter tool threads a notoriously tricky procedure with zero complications in first 5 human cases",
+      "journal": "Future Cardiology",
+      "pubdate": "2026 Nov 14",
+      "doi": "10.1080/14796678.2026.2755225",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers report the first-in-human experience with the Protaryx transseptal puncture (TSP) catheter, a novel device featuring a deployable nitinol mesh tip designed to improve echogenicity and precision during left atrial access \u2014 a step required for AFib ablation, left atrial appendage occlusion, and percutaneous mitral valve repair. In a 5-patient prospective non-randomized observational study, the device achieved 100% procedural success, zero adverse events, and accurate puncture of the fossa ovalis in all cases. The FDA has approved the device, expanding options for interventional cardiologists and electrophysiologists.",
+      "why_it_matters": "Transseptal puncture is the gateway step for a growing number of minimally invasive heart procedures, and a safer, more precise tool could reduce complications and shorten learning curves for operators treating AFib and structural heart disease.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "First-in-human AFib/structural heart device; very small N limits confidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "FDA-Cleared Transseptal Catheter Achieves 100% Success in First Human Trial",
+          "hook": "A redesigned transseptal puncture catheter with an ultrasound-visible nitinol mesh tip succeeded in all 5 first-in-human cases with no complications, addressing a longstanding bottleneck in left-sided heart procedures.",
+          "pitch_angle": "The Protaryx device aims to improve on a catheter design largely unchanged since the 1950s by giving operators precise, real-time ultrasound guidance during the critical first step of AFib ablation and structural heart interventions. Early feasibility data are encouraging, but the 5-patient sample means large-scale safety and efficacy data are still needed."
+        },
+        {
+          "publication_type": "General health",
+          "headline": "A New Heart Catheter Tool Could Make Common Minimally Invasive Procedures Safer",
+          "hook": "A redesigned catheter that threads through the wall separating the heart's upper chambers succeeded without complications in every one of its first human uses.",
+          "pitch_angle": "The device is designed to make a tricky first step in procedures like AFib ablation and mitral valve repair faster and more precise, potentially reducing procedure time and risk. Findings are very early \u2014 just 5 patients \u2014 but the FDA has already cleared the device for use."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43026486",
+      "headline": "Arm exercise falls far short of cycling for detecting hidden pulmonary hypertension during heart catheterization",
+      "journal": "BMC Pulmonary Medicine",
+      "pubdate": "2026 Nov 14",
+      "doi": "10.1186/s12890-026-04848-1",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a prospective observational study at a German university hospital, 50 patients undergoing right heart catheterization (RHC) were randomized to perform both cycle ergometry (CE) and single-arm exercise (AE) in sequence, with hemodynamics measured at each stage. Cycling raised mean pulmonary arterial pressure by 12 mmHg versus only 3 mmHg with arm exercise, and arm exercise generated just 24% of the oxygen uptake increase seen with cycling \u2014 equivalent to roughly 6 watts of external work. Cycle ergometry identified exercise-induced pulmonary hypertension (EPH) in 5 patients who had normal resting pressures, while arm exercise missed all five cases.",
+      "why_it_matters": "For patients with unexplained breathlessness or suspected pulmonary hypertension, the choice of exercise modality during right heart catheterization could determine whether the diagnosis is made or missed entirely.",
+      "caveats": "small sample (N<100), single-center, observational design, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Direct cardiovascular diagnostic implication for pulmonary hypertension; small single-center observational study.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Arm Exercise May Miss Exercise-Induced Pulmonary Hypertension That Cycling Detects",
+          "hook": "A head-to-head comparison found that single-arm exercise produced less than a quarter of the cardiovascular stress of cycling during right heart catheterization \u2014 missing every case of exercise pulmonary hypertension that cycling identified.",
+          "pitch_angle": "As European guidelines now recognize exercise pulmonary hypertension as a diagnostic category, this study raises a practical concern: when cycling is unavailable and arm exercise is substituted, clinicians may systematically underdiagnose the condition in breathless patients."
+        },
+        {
+          "publication_type": "STAT News",
+          "headline": "The Exercise Test Used to Diagnose a Hidden Form of Pulmonary Hypertension May Have a Dangerous Substitute Problem",
+          "hook": "Swapping cycling for arm exercise during invasive heart pressure testing could cause doctors to miss exercise-induced pulmonary hypertension in patients who have normal pressures at rest.",
+          "pitch_angle": "With CBCT-equipped cath labs unevenly distributed and equipment constraints common, this study highlights a diagnostic equity gap \u2014 and suggests that intensity-matched arm exercise protocols need urgent evaluation before they can be safely used as stand-ins."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43033426",
+      "headline": "Microscopic imaging tool rivals CT guidance for confirming biopsy needle is inside a lung nodule",
+      "journal": "Respiration: International Review of Thoracic Diseases",
+      "pubdate": "2026 Nov 14",
+      "doi": "10.1159/res/aepag029",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a prospective concordance study at a Dutch academic center, 24 patients with peripheral pulmonary nodules (median size 19 mm) underwent cone-beam CT (CBCT)-guided navigation bronchoscopy with simultaneous needle-based confocal laser endomicroscopy (nCLE) to compare how well each method confirmed correct tool placement inside the nodule. Agreement between nCLE and CBCT on needle position was 77%, and there were no cases in which CBCT confirmed the needle was in the lesion while nCLE did not. Researchers suggest nCLE may serve as a viable alternative real-time guidance tool in settings where CBCT is unavailable, though the two modalities provide complementary rather than identical information.",
+      "why_it_matters": "Accurate biopsy of small lung nodules is critical for early lung cancer diagnosis, and a viable alternative to radiation-intensive CT guidance could expand access to precise bronchoscopic sampling.",
+      "caveats": "small sample (N<100), single-center, prospective but non-randomized, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Procedural lung cancer diagnostic tool; small sample, no hard clinical endpoints, limited cardiovascular relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / STAT News",
+          "headline": "Fiber-Optic Microscopy May Offer a Radiation-Free Alternative for Confirming Lung Biopsy Placement",
+          "hook": "A new study found that a microscopic imaging technique threaded through a bronchoscope agreed with cone-beam CT scans 77% of the time when confirming whether a biopsy needle had hit its target inside a lung nodule.",
+          "pitch_angle": "As lung cancer screening programs expand and peripheral nodule biopsies become more common, nCLE could reduce radiation exposure and broaden access to accurate bronchoscopic sampling in hospitals without expensive CT-equipped suites \u2014 though larger trials are needed to confirm its standalone reliability."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43023217",
+      "headline": "A new two-stent coronary technique achieves just 2.4% adverse event rate at one year in a tricky artery-fork repair",
+      "journal": "Catheterization and Cardiovascular Interventions",
+      "pubdate": "2026 Nov 13",
+      "doi": "10.1002/ccd.71012",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a prospective single-center observational study of 43 patients with true coronary bifurcation lesions in Istanbul, Turkey, researchers evaluated a novel double kissing (DK) nano culotte two-stent technique guided by optical coherence tomography (OCT) in 70% of cases. Procedural success was achieved in 100% of patients, with no significant stent malapposition identified by OCT and favorable post-procedural blood flow dynamics on computational fluid dynamics analysis. At 1-year follow-up, target lesion failure occurred in just one patient (2.38%) due to in-stent restenosis; no heart attacks, cardiac deaths, or stent thrombosis were observed.",
+      "why_it_matters": "Coronary bifurcation lesions are among the most technically difficult stenting scenarios, and a technique that minimizes stent overlap while achieving low complication rates at one year could benefit patients with complex coronary artery disease.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Human PCI outcomes data; small single-center sample limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology",
+          "headline": "DK Nano Culotte Bifurcation Technique Shows 2.4% TLF at 1 Year in 43-Patient Series",
+          "hook": "A novel OCT-guided two-stent approach for coronary bifurcation lesions produced zero heart attacks, zero cardiac deaths, and zero stent thrombosis events at one year in a first-in-human series.",
+          "pitch_angle": "The double kissing nano culotte technique is designed to minimize stent overlap at the bifurcation while ensuring full side-branch coverage, addressing a persistent challenge in complex PCI. Results are promising but require validation in larger multicenter randomized trials."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43023684",
+      "headline": "Hidden genetic variants in blood type genes could put some patients at serious transfusion risk",
+      "journal": "Transfusion",
+      "pubdate": "2026 Nov 13",
+      "doi": "10.1111/trf.70480",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at the New York Blood Center and French institutions studied 11 blood samples from individuals with unexplained discrepancies between their Rh blood group phenotype and standard DNA testing predictions, investigating whether rare variants in non-coding intron regions of RH genes could explain the mismatches. Using Sanger sequencing and laboratory splicing assays, they identified multiple novel intronic variants in RHD and RHCE genes that disrupted normal RNA splicing, leading to weak or absent Rh antigen expression \u2014 including five newly identified null alleles. The findings suggest that routine coding-region-only genetic testing may miss clinically important variants that could lead to dangerous antibody reactions in transfusion patients.",
+      "why_it_matters": "Patients who receive mismatched blood transfusions due to undetected Rh antigen variants can develop life-threatening immune reactions, so expanding genetic testing to include intron regions could protect vulnerable recipients including those with sickle cell disease or thalassemia who require frequent transfusions.",
+      "caveats": "small sample (N<100), observational design, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Blood safety implications for transfusion-dependent patients; novel genetic findings with clinical relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "Standard Blood Type DNA Tests Are Missing Hidden Variants That Could Put Transfusion Patients at Risk",
+          "hook": "Researchers found that rare mutations lurking in the non-coding sections of Rh blood group genes \u2014 regions most routine tests ignore \u2014 can cause patients' blood type to be genetically misclassified.",
+          "pitch_angle": "A collaborative US-French study identified 11 novel intronic variants in RH genes that disrupted RNA splicing, producing five new null alleles and multiple cases of weak antigen expression that standard DNA screening would have missed. For patients with sickle cell disease or thalassemia who depend on frequent, precisely matched transfusions, these findings suggest current genetic testing protocols may need to look beyond coding regions to prevent dangerous immune reactions."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43025045",
+      "headline": "A wearable vibration sensor worn on the chest could flag severe aortic stenosis without an echocardiogram",
+      "journal": "JACC Advances",
+      "pubdate": "2026 Nov 13",
+      "doi": "10.1016/j.jacadv.2026.103502",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers tested a point-of-care seismocardiography device \u2014 a sensor that measures subtle chest-wall vibrations caused by heartbeats \u2014 to see whether it could distinguish patients with severe aortic stenosis from cardiac controls without requiring echocardiography. The study was conducted by investigators at Prairie Vascular Research Inc. and LLA Technologies in Canada, with several authors holding financial interests in the device company. Early findings suggest the technology identified novel seismocardiographic biomarkers that discriminated severe aortic stenosis from controls, though the abstract does not report sample size or specific diagnostic accuracy metrics.",
+      "why_it_matters": "A portable, non-imaging tool that could flag severe aortic stenosis at the bedside or in lower-resource settings may eventually help more patients get timely referrals for a potentially life-threatening heart valve condition.",
+      "caveats": "small sample (N<100), single-center, industry funding [LLA Technologies], surrogate endpoints only",
+      "fact_check_note": "Abstract does not report N or specific sensitivity/specificity values \u2014 summary reflects this limitation explicitly.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clinically relevant valve disease, novel diagnostic tool, significant conflicts of interest, missing key data.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Seismocardiography Device Shows Early Promise for Bedside Detection of Severe Aortic Stenosis",
+          "hook": "A wearable chest-vibration sensor identified novel biomarkers that distinguished severe aortic stenosis from cardiac controls without echocardiography \u2014 though key diagnostic accuracy data were not reported and several authors hold financial stakes in the device company.",
+          "pitch_angle": "Point-of-care seismocardiography could eventually lower barriers to aortic stenosis detection in community or low-resource settings, but clinicians should approach the findings cautiously given the early-stage design, undisclosed sample size, and significant investigator conflicts of interest."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43031377",
+      "headline": "One in three blood cancer patients lacks dedicated caregiver support \u2014 and women and Black patients are most likely to be left without help",
+      "journal": "British Journal of Haematology",
+      "pubdate": "2026 Nov 13",
+      "doi": "10.1111/bjh.70957",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers surveyed 1,231 patients with plasma cell dyscrasias (blood cancers including multiple myeloma) through the HealthTree Foundation using a novel single-question tool to assess caregiver availability, categorizing responses into four levels from live-in dedicated caregiver to inadequate support. Overall, 68% had live-in caregivers, but 5% actively struggled to find support; female patients and Black patients had significantly lower rates of live-in caregiver support compared to male and White patients, respectively (63% vs. 76% and 46% vs. 71%). Marriage was the single strongest predictor of caregiver availability, while employment, education, insurance type, and distance from treatment centers showed no significant association.",
+      "why_it_matters": "As intensive cellular therapies like CAR-T become standard of care for blood cancers, caregiver availability \u2014 which varies sharply by sex, race, and marital status \u2014 may determine who can safely access these treatments.",
+      "caveats": "observational design, self-reported outcomes, cross-sectional design, selection bias (online patient community), single-item pilot measure not yet validated",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Hematology/health equity focus; relevant but limited cardiovascular direct relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Everyday Health / AARP",
+          "headline": "Blood Cancer Patients Who Are Single, Female, or Black Are Far Less Likely to Have a Caregiver \u2014 and That Can Affect Treatment",
+          "hook": "A survey of more than 1,200 blood cancer patients found that women and Black patients were significantly less likely to have a dedicated live-in caregiver \u2014 a gap that could limit who can access the most intensive new therapies.",
+          "pitch_angle": "The study found that marital status was the strongest predictor of caregiver support, with 85% of married patients having a live-in caregiver versus just 6\u201312% of those who were divorced, widowed, or never married. As CAR-T cell therapy and other complex treatments require intensive at-home support, these disparities suggest that standard social determinant screenings may miss who is truly vulnerable."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43023719",
+      "headline": "AFib ablation appears similarly effective in heart failure patients regardless of how well the heart pumps",
+      "journal": "Kardiologia Polska",
+      "pubdate": "2026 Nov 13",
+      "doi": "10.33963/v.phj.115764",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at a single Polish center retrospectively compared outcomes of first-time pulmonary vein isolation (PVI) \u2014 the standard catheter ablation procedure for atrial fibrillation \u2014 in patients with heart failure with reduced ejection fraction (HFrEF) versus those with non-reduced ejection fraction. The study examined AFib patients with comorbid heart failure undergoing their initial ablation procedure. Early findings suggest PVI outcomes may be comparable across ejection fraction categories, challenging assumptions that reduced pump function worsens ablation success.",
+      "why_it_matters": "For the millions of people living with both AFib and heart failure, this study suggests that reduced cardiac pump function alone may not predict whether catheter ablation will be successful.",
+      "caveats": "observational design, single-center, retrospective design, small sample likely (N unreported in abstract), surrogate endpoints only, short follow-up unclear",
+      "fact_check_note": "Abstract does not report sample size or specific outcome data \u2014 summary reflects stated study design and framing only; no numerical findings could be verified.",
+      "relevance_score": 7,
+      "relevance_score_reason": "AFib plus heart failure is high-prevalence; single-center retrospective limits confidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology / MedPage Today",
+          "headline": "PVI Outcomes in AFib May Not Differ by Ejection Fraction Status, Retrospective Data Suggest",
+          "hook": "A new single-center analysis challenges the assumption that reduced ejection fraction makes catheter ablation for AFib less effective.",
+          "pitch_angle": "Polish researchers compared first-time pulmonary vein isolation results in HFrEF versus non-reduced ejection fraction heart failure patients, finding potentially comparable outcomes \u2014 a finding that, if confirmed in larger trials, could reshape patient selection criteria for AFib ablation."
+        },
+        {
+          "publication_type": "Everyday Health / Verywell Health",
+          "headline": "Having a Weakened Heart May Not Reduce Your Chances of Success With AFib Ablation, Study Finds",
+          "hook": "Doctors have long worried that a weakened heart could make AFib ablation less effective \u2014 but a new study suggests that may not be the case.",
+          "pitch_angle": "Researchers found that patients with heart failure and reduced pump function had similar ablation outcomes to those with better-preserved heart function, early evidence that more patients with heart failure may be good candidates for the procedure."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42217208",
+      "headline": "A four-day residential rehab program shows early promise for SCAD survivors battling persistent fatigue",
+      "journal": "European Journal of Cardiovascular Nursing",
+      "pubdate": "2026 Nov 12",
+      "doi": "10.1093/eurjcn/zvag135",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Danish researchers tested a four-day multidisciplinary residential rehabilitation program targeting fatigue and psychological distress in patients with spontaneous coronary artery dissection (SCAD) in a prospective single-arm feasibility study. The program included energy conservation strategies, nervous system regulation techniques, and goal-oriented psychological approaches; participant satisfaction was high (median 4.5/5) and retention exceeded the 70% feasibility threshold at 77.5%. Modest improvements were observed across patient-reported fatigue and mental health measures, with small to moderate effect sizes.",
+      "why_it_matters": "SCAD \u2014 a leading cause of heart attack in younger women \u2014 often leaves survivors with debilitating fatigue and psychological distress that standard cardiac rehab rarely addresses, making early evidence for a targeted program clinically meaningful.",
+      "caveats": "small sample (N<100), single-center, observational design, no control group, single-arm design, self-reported outcomes, short follow-up, Danish population",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Underserved SCAD population, women's heart health relevance; very small feasibility study limits confidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "Women's Health / Prevention",
+          "headline": "Young Women Who Survive a Rare Heart Attack Often Battle Exhaustion for Months \u2014 This Program Aims to Fix That",
+          "hook": "Spontaneous coronary artery dissection strikes predominantly younger women, and many survivors are left with crippling fatigue that standard cardiac rehab wasn't designed to treat.",
+          "pitch_angle": "A new Danish residential rehabilitation program combining energy management, psychological support, and nervous system regulation techniques showed high satisfaction and promising early results for SCAD survivors \u2014 suggesting that specialized, multidisciplinary care may be a crucial missing piece in recovery from this underrecognized cardiac event."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43018066",
+      "headline": "Low 'bad' cholesterol predicts higher death risk in heart failure \u2014 but only for a specific, sicker subset of patients",
+      "journal": "Journal of the American Heart Association",
+      "pubdate": "2026 Nov 12",
+      "doi": "10.1161/JAHA.125.048202",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed 2,188 consecutive patients with heart failure with reduced ejection fraction (HFrEF) from Singaporean national registries (2016\u20132022), stratifying them by LDL cholesterol quartiles and applying latent class analysis to the lowest quartile. They identified two distinct subgroups within patients with low LDL: a 'pathological' group that was older, lighter, and had higher comorbidity burden, and a 'nonpathological' group with comparable outcomes to those with higher LDL. The pathological low-LDL subgroup had more than double the risk of one-year all-cause mortality (adjusted HR 2.14) and nearly double the cardiovascular mortality risk compared to patients with higher cholesterol.",
+      "why_it_matters": "The finding suggests the puzzling link between low LDL and worse survival in heart failure patients may reflect underlying disease severity rather than a true harmful effect of low cholesterol, which could change how clinicians interpret cholesterol readings in this population.",
+      "caveats": "observational design, single-country (Singapore) population, surrogate and clinical endpoints mixed, latent class analysis is exploratory",
+      "fact_check_note": "The abstract reports the adjusted HR for all-cause mortality as 2.14 [95% CI, 1.17\u20132.69]; the lower bound (1.17) and upper bound (2.69) are asymmetric around the point estimate in an unusual way \u2014 this appears to be as reported in the abstract and is noted for editorial verification.",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive cholesterol finding in heart failure; hard endpoints, large registry, high-prevalence condition.",
+      "pitch_angles": [
+        {
+          "publication_type": "NYT Health / STAT News",
+          "headline": "In Heart Failure, Low Cholesterol Can Signal Danger \u2014 But the Reason May Surprise You",
+          "hook": "For decades, low LDL cholesterol has been a goal in heart health \u2014 so why do some heart failure patients with the lowest levels die at twice the rate?",
+          "pitch_angle": "A new analysis of over 2,000 heart failure patients finds the answer isn't that low cholesterol is harmful, but that a specific sicker, older, frailer subset drives the mortality signal \u2014 a distinction that could reshape how cardiologists interpret cholesterol numbers in their most vulnerable patients."
+        },
+        {
+          "publication_type": "Medscape Cardiology / MedPage Today",
+          "headline": "Latent Class Analysis Unpacks the LDL Paradox in HFrEF: It's About Who Has Low Cholesterol, Not Low Cholesterol Itself",
+          "hook": "A registry-based study of 2,188 HFrEF patients finds that pathological hypocholesterolemia \u2014 not low LDL per se \u2014 drives the two-fold mortality excess associated with low LDL in heart failure.",
+          "pitch_angle": "Using latent class analysis, researchers identified a distinct 'pathological' low-LDL subgroup characterized by older age, lower weight, and higher comorbidity burden that accounts for elevated mortality risk, while a 'nonpathological' low-LDL subgroup had outcomes comparable to those with higher cholesterol \u2014 findings with direct implications for statin prescribing decisions in advanced heart failure."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43020230",
+      "headline": "New prediction model identifies which patients are most likely to fail high-flow oxygen therapy for acute breathing failure",
+      "journal": "Respiratory Medicine",
+      "pubdate": "2026 Nov 12",
+      "doi": "10.1016/j.rmed.2026.109272",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a retrospective single-center study of 350 patients in Shanghai receiving high-flow nasal cannula (HFNC) oxygen therapy for acute hypoxemic respiratory failure (AHRF) for the first time, researchers developed an eight-predictor model to identify treatment failure risk. Key predictors of failure included higher APACHE II severity scores, extrapulmonary cause of AHRF, and higher lung infiltrate (RALE) scores, while a higher ROX index was strongly protective. The model showed excellent discrimination (C-index 0.912) but requires external validation before clinical use.",
+      "why_it_matters": "Earlier identification of patients unlikely to succeed on high-flow oxygen therapy could prompt faster escalation to mechanical ventilation, potentially reducing harm in critically ill patients.",
+      "caveats": "retrospective design, single-center, surrogate endpoints only, external validation pending",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clinically relevant acute pulmonary topic; retrospective, single-center design limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Eight-Factor Model Predicts High-Flow Oxygen Failure in Acute Respiratory Failure Patients",
+          "hook": "A new prediction tool identified patients with acute hypoxemic respiratory failure who are most likely to fail high-flow nasal cannula therapy before it becomes apparent clinically.",
+          "pitch_angle": "The model, built from 350 patients and internally validated, achieved a C-index above 0.90, suggesting strong predictive power \u2014 though clinicians will need external validation data before routine adoption."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41326315",
+      "headline": "Social advantage predicts heart disease survival as powerfully as diet or exercise \u2014 and it's not in any health guidelines",
+      "journal": "European Journal of Preventive Cardiology",
+      "pubdate": "2026 Nov 11",
+      "doi": "10.1093/eurjpc/zwaf752",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Columbia University researchers created a Social Advantage Metric (SAM) using nine social determinants of health \u2014 including income, education, food security, health insurance, and home ownership \u2014 and evaluated it in 46,366 US adults (ages 20\u201379, 52% female, 11% Black, 13% Hispanic) from the 1999\u20132018 NHANES. Adults in the highest social advantage category had 67% lower all-cause mortality risk and 69% lower cardiovascular mortality risk than those in the lowest category. Adding the SAM as a ninth metric to the American Heart Association's Life's Essential 8 framework modestly improved its predictive power for mortality.",
+      "why_it_matters": "The findings suggest that social factors like poverty, insurance gaps, and food insecurity carry mortality risks comparable to traditional cardiovascular risk factors \u2014 and that heart health guidelines may need to incorporate them to identify who is truly at risk.",
+      "caveats": "observational design, self-reported outcomes, SAM associations not significant in Hispanic adults (limiting generalizability), C-statistic improvement was statistically significant but numerically modest (0.831 to 0.835)",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Large US cohort, hard mortality endpoints, major public health implication for cardiovascular guidelines.",
+      "pitch_angles": [
+        {
+          "publication_type": "NYT Health / General health",
+          "headline": "Your Zip Code and Income May Predict Your Heart Attack Risk as Much as Your Cholesterol",
+          "hook": "A sweeping new study of 46,000 Americans finds that social factors like poverty, food insecurity, and lack of health insurance are linked to nearly 70% higher cardiovascular death risk.",
+          "pitch_angle": "Researchers built a 'social advantage score' combining nine socioeconomic factors and found it predicted who would die from heart disease nearly as well as the AHA's standard eight health metrics \u2014 raising the question of whether income, education, and insurance should be formally included in cardiovascular risk assessment."
+        },
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "Life's Essential 8 May Be Missing a Critical Factor: Social Advantage Metric Improves Cardiovascular Mortality Prediction",
+          "hook": "A novel nine-factor social advantage metric predicts cardiovascular mortality with an effect size that rivals traditional clinical risk factors \u2014 but it's absent from current heart health guidelines.",
+          "pitch_angle": "Using NHANES data from nearly 46,400 adults over two decades, Columbia epidemiologists demonstrate that adding a composite social determinants score to the AHA's Life's Essential 8 framework significantly improves mortality prediction, with racial and ethnic variation in the metric's predictive strength suggesting current tools may underserve Hispanic populations."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43015124",
+      "headline": "New Cryoballoon Keeps 4 in 5 AFib Patients Rhythm-Free for a Year \u2014 and May Also Speed Up the Heart",
+      "journal": "Pacing and Clinical Electrophysiology : PACE",
+      "pubdate": "2026 Nov 11",
+      "doi": "10.1111/pace.70501",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "The prospective, non-randomized POLAR SMART study enrolled 293 patients with atrial fibrillation (AF) across 19 centers in Japan and South Korea to assess the POLARx cryoballoon system for pulmonary vein isolation (PVI). Among the 181 PVI-only patients, 81.1% were free of AF recurrence at 12 months, and the procedure met its primary safety endpoint with a 97.3% adverse-event-free rate. An unexpected finding: ablation with the POLARx FIT cryoballoon was associated with a sustained increase in resting heart rate that persisted through 12 months, with an optimal predischarge heart rate of 70 bpm linked to better outcomes.",
+      "why_it_matters": "Early real-world data suggest the POLARx cryoballoon system offers high short-term safety and effectiveness for AFib ablation in an Asian population, though the unexplained sustained heart rate increase warrants further investigation.",
+      "caveats": "observational design, non-randomized, single-region (Japan and South Korea \u2014 Asian population), industry funding [Boston Scientific Corporation], short follow-up, no female-specific subgroup analysis reported",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "AFib topic bonus; real-world multicenter data; industry funding and non-randomized design limit score.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "POLARx Cryoballoon Hits 81% AFib-Free Rate at 1 Year, But Raises Heart Rate Questions",
+          "hook": "A new cryoballoon ablation system kept four out of five atrial fibrillation patients in normal rhythm for a full year \u2014 but also produced a persistent and unexplained increase in resting heart rate.",
+          "pitch_angle": "The POLAR SMART multicenter study found the POLARx FIT system safe and effective in real-world use across Japan and South Korea, yet its association with sustained elevated heart rate post-ablation raises mechanistic questions that randomized trials will need to address."
+        },
+        {
+          "publication_type": "Everyday Health",
+          "headline": "A New AFib Treatment Kept Most Patients' Hearts in Rhythm for a Year",
+          "hook": "A minimally invasive procedure using a novel freeze-based device kept about 81% of atrial fibrillation patients free from irregular heartbeat for 12 months.",
+          "pitch_angle": "Researchers tracked nearly 300 AFib patients in Japan and South Korea treated with the POLARx cryoballoon system and found it safe with strong short-term effectiveness \u2014 though scientists are still exploring why some patients showed a lasting increase in heart rate after the procedure."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43014052",
+      "headline": "New microcatheter measures coronary pressure and blood flow simultaneously in under 90 seconds",
+      "journal": "JACC: Advances",
+      "pubdate": "2026 Nov 11",
+      "doi": "10.1016/j.jacadv.2026.103445",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers tested the PyCath microcatheter \u2014 designed to simultaneously measure intracoronary pressure and flow velocity \u2014 in 17 patients (mean age 59, 77% male) referred for routine coronary physiology assessment. The device successfully acquired pressure readings in 100% of cases and flow velocity in 88%, with a mean acquisition time of about 71 seconds. No device-related major adverse cardiac events occurred, and reproducibility was rated good-to-excellent.",
+      "why_it_matters": "If confirmed in larger trials, a faster and simpler tool for assessing coronary artery disease could make comprehensive heart evaluations more routinely accessible during cardiac procedures.",
+      "caveats": "small sample (N<100), single-center, surrogate endpoints only, industry funding [Medyria AG]",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "First-in-human device study; high procedural specificity limits broad consumer relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "Medscape Cardiology / MedPage Today",
+          "headline": "PyCath Microcatheter Achieves Simultaneous Coronary Pressure and Flow Readings in First Human Trial",
+          "hook": "A novel monorail microcatheter completed comprehensive coronary physiology measurements in under 90 seconds with no device-related adverse events in a first-in-human study.",
+          "pitch_angle": "The PyCath system could streamline invasive coronary assessment by combining pressure and thermoconvection-based flow velocity measurement in a single catheter pass, potentially reducing procedural complexity that currently limits routine use of coronary physiology testing."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43013292",
+      "headline": "Oral semaglutide cuts repeat heart attacks and strokes in high-risk diabetes patients, not just the first event",
+      "journal": "JAMA Cardiology",
+      "pubdate": "2026 Nov 11",
+      "doi": "10.1001/jamacardio.2026.4944",
+      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This secondary analysis of the SOUL randomized clinical trial examined whether oral semaglutide reduced not only first but also subsequent major adverse cardiovascular events (MACE) in adults with high-risk type 2 diabetes. The parent SOUL trial was a large, multinational, placebo-controlled RCT; this analysis applied statistical methods accounting for recurrent events. Oral semaglutide was found to reduce both first and subsequent cardiovascular events, suggesting consistent cardioprotective benefit across multiple event episodes.",
+      "why_it_matters": "For the millions of people with type 2 diabetes who have already survived a heart attack or stroke, evidence that oral semaglutide may also reduce the risk of additional events could meaningfully inform treatment decisions.",
+      "caveats": "secondary analysis",
+      "fact_check_note": "The abstract was truncated and full statistical results for the recurrent-events analysis were not available for verification; summary reflects stated objectives and design confirmed in the available text.",
+      "relevance_score": 9,
+      "relevance_score_reason": "GLP-1 drug, hard cardiovascular endpoints, large RCT, high-prevalence condition, recurrent-events framing counterintuitive.",
+      "pitch_angles": [
+        {
+          "publication_type": "NYT Health / STAT News",
+          "headline": "Ozempic's Pill Form May Protect High-Risk Diabetes Patients From Second and Third Heart Attacks, Not Just the First",
+          "hook": "A new analysis of a major clinical trial finds that oral semaglutide reduces repeat cardiovascular events in people with diabetes \u2014 a benefit that standard trial reporting often obscures.",
+          "pitch_angle": "Most cardiovascular outcome trials count only a patient's first heart attack or stroke, potentially underestimating a drug's total benefit; this secondary analysis of the SOUL trial used recurrent-event methods to show oral semaglutide's cardioprotective effect extends across subsequent events, which matters especially for the high-risk patients who are most likely to experience more than one."
+        },
+        {
+          "publication_type": "Everyday Health / AARP / Prevention",
+          "headline": "The Diabetes Pill Form of Ozempic May Help Prevent Repeat Heart Attacks",
+          "hook": "People with type 2 diabetes and existing heart disease may get ongoing cardiovascular protection from the pill version of semaglutide \u2014 even after a first cardiac event.",
+          "pitch_angle": "A new look at the SOUL trial found that oral semaglutide was associated with reduced risk of subsequent heart attacks and strokes, not just the first one, suggesting that this once-daily diabetes pill could offer layered heart protection for people already navigating high cardiovascular risk."
+        },
+        {
+          "publication_type": "Medscape Cardiology / MedPage Today",
+          "headline": "Recurrent-Event Analysis of SOUL Trial Shows Oral Semaglutide Benefit Extends Beyond First MACE",
+          "hook": "Applying a recurrent-events statistical framework to the SOUL RCT reveals that oral semaglutide's cardiovascular protection is not exhausted after a patient's first major adverse event.",
+          "pitch_angle": "This secondary analysis addresses a methodological limitation of standard time-to-first-event CVOT design, finding that oral semaglutide in high-risk type 2 diabetes reduces the burden of total cardiovascular events \u2014 a clinically meaningful distinction for patients with established atherosclerotic disease who face compounding event risk."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43014508",
+      "headline": "A new classification system for blocked vertebral arteries shows which patients are hardest to treat \u2014 and why stents matter",
+      "journal": "Annals of Vascular Surgery",
+      "pubdate": "2026 Nov 11",
+      "doi": "10.1016/j.avsg.2026.10.054",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at a single Chinese center retrospectively analyzed 26 hybrid revascularization procedures (combining open endarterectomy with endovascular techniques) in 25 patients with chronic vertebral artery occlusion between 2018 and 2026. They proposed a new morphology-based classification (Type I/II/III with a complexity modifier) to guide treatment strategy. Overall technical success was 88.5%, with 82.6% of successfully reopened arteries remaining patent at a median 34-month follow-up; adjunctive stenting after endarterectomy was associated with significantly better mid-term patency (100% vs. 63.6% without stenting).",
+      "why_it_matters": "Chronic vertebral artery occlusion is a significant cause of posterior-circulation stroke, and this study suggests that lesion morphology and stent scaffolding after surgery may be critical to keeping these arteries open long-term.",
+      "caveats": "small sample (N<100), observational design, single-center, retrospective analysis, surrogate endpoints only, single non-US region (Beijing, China)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Vascular/stroke relevance, but small single-center series with surrogate endpoints only.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "New Vertebral Artery Classification System May Help Surgeons Pick the Right Revascularization Strategy",
+          "hook": "A novel three-type morphology classification for chronic vertebral artery occlusion predicts procedural success \u2014 and stent scaffolding after endarterectomy appears critical to keeping arteries open.",
+          "pitch_angle": "Researchers at Peking University Third Hospital found that lesion morphology strongly predicts technical success in hybrid vertebral artery revascularization, with complex anatomy (the 'C modifier') cutting success rates in half. The findings suggest a structured classification approach could help surgeons stratify risk and standardize a procedure that currently lacks evidence-based guidelines."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43014576",
+      "headline": "Childhood stress may leave a lasting mark on lung health decades later",
+      "journal": "Respiratory Medicine",
+      "pubdate": "2026 Nov 11",
+      "doi": "10.1016/j.rmed.2026.109281",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed data from the China Health and Retirement Longitudinal Study (CHARLS) to examine whether stressful life events (SLEs) in childhood and adulthood were linked to lung disease in 10,705 adults aged 45 and older at baseline, with a 7-year longitudinal follow-up of 7,770 participants. Adults who experienced childhood-only SLEs had 35% higher odds of prevalent lung disease and 29% higher hazard of developing it over follow-up; those with both childhood and adulthood SLEs had 53% higher odds and 61% higher hazard. Adulthood-only SLEs were associated with prevalent but not incident lung disease, suggesting early-life stress may carry a uniquely durable respiratory risk.",
+      "why_it_matters": "Early-life adversity may set the stage for chronic lung disease in middle and older age, suggesting stress history could be a meaningful but overlooked respiratory risk factor.",
+      "caveats": "observational design, self-reported outcomes, single-region (China), surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Pulmonary focus with lifestyle hook; observational, self-reported, China-only population limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "Could a Stressful Childhood Hurt Your Lungs Decades Later? New Research Says It Might",
+          "hook": "Adults who experienced significant stress in childhood were up to 61% more likely to develop lung disease later in life, even after accounting for other risk factors.",
+          "pitch_angle": "A large longitudinal study suggests childhood adversity may leave a lasting biological imprint on the respiratory system, raising the question of whether stress management and early intervention could also protect long-term lung health."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42663358",
+      "headline": "TAVR Cuts Death Risk Nearly in Half for a Tricky Type of Aortic Stenosis Doctors Often Leave Untreated",
+      "journal": "Journal of the American College of Cardiology",
+      "pubdate": "2026 Nov 10",
+      "doi": "10.1016/j.jacc.2026.08.017",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "The REBOOT-PARADOX trial was the first randomized study to compare transcatheter aortic valve replacement (TAVR) plus optimal medical therapy versus medical therapy alone in symptomatic patients with paradoxical low-flow, low-gradient aortic stenosis (pLFLG AS) \u2014 a subtype associated with worse prognosis that has historically been undertreated. Of 120 randomized patients (median age 82 years; 53.3% women) across multiple European centers, the primary endpoint of all-cause death at 2 years occurred in 29.0% of the TAVR group versus a higher rate in the medical therapy group, though enrollment was stopped prematurely at 15% of the planned 783-patient target due to slow recruitment. Despite the truncated sample, results suggest TAVR may meaningfully reduce mortality in this population.",
+      "why_it_matters": "Paradoxical low-flow, low-gradient aortic stenosis affects a significant subset of aortic stenosis patients \u2014 many elderly \u2014 who are often denied valve replacement because their condition appears less severe on standard measures; this trial suggests that may be a costly mistake.",
+      "caveats": "small sample (N<100 per arm), open-label, premature enrollment stop (15% of target), significant crossover (19 of 40 OMT patients crossed to TAVR), single-region (European centers \u2014 Germany, Italy, Switzerland), short follow-up relative to planned duration",
+      "fact_check_note": "The abstract was truncated before reporting the OMT group mortality rate and final statistical comparison. The 29.0% figure applies to the TAVR group only; the OMT group rate and p-value could not be verified from the available text. Confirm full results before publication.",
+      "relevance_score": 8,
+      "relevance_score_reason": "First RCT in undertreated AS subtype; hard mortality endpoint; majority women; premature stop limits power.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "First RCT in Paradoxical Low-Flow AS Suggests TAVR Cuts Mortality \u2014 Despite Early Stop",
+          "hook": "The REBOOT-PARADOX trial \u2014 the first randomized study ever conducted in paradoxical low-flow, low-gradient aortic stenosis \u2014 found that TAVR may substantially reduce all-cause death in a patient group that is frequently deemed too ambiguous for intervention.",
+          "pitch_angle": "With 53% of enrolled patients being women and a median age of 82, the trial addresses a clinically important but understudied population; though enrollment stopped at 15% of its target, the direction of effect may reshape how cardiologists approach this controversial AS subtype."
+        },
+        {
+          "publication_type": "AARP The Magazine",
+          "headline": "A Heart Valve Procedure Could Save Lives in Older Adults With a Form of Stenosis Often Left Untreated",
+          "hook": "Older adults \u2014 especially women \u2014 with a subtle and often-missed form of aortic stenosis may benefit significantly from a minimally invasive valve procedure that many doctors currently withhold from them.",
+          "pitch_angle": "The REBOOT-PARADOX trial found that transcatheter aortic valve replacement was associated with lower two-year mortality compared to medication alone in patients with paradoxical low-flow aortic stenosis, a condition whose standard measurements can mislead clinicians into thinking the disease is less serious than it is."
+        },
+        {
+          "publication_type": "NYT Health",
+          "headline": "Doctors Have Long Hesitated to Treat This Heart Valve Condition. A New Trial Suggests That Was Wrong.",
+          "hook": "Paradoxical low-flow, low-gradient aortic stenosis looks mild on standard tests \u2014 but patients with it die at high rates, and a new randomized trial suggests a catheter-based valve procedure could change that.",
+          "pitch_angle": "In the first trial designed specifically for this overlooked heart valve condition, patients who received TAVR had a lower rate of death at two years than those managed with medication alone \u2014 a finding that could prompt cardiologists to reconsider who qualifies for valve replacement."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43009457",
+      "headline": "Four new cholesterol-busting antibodies all work \u2014 but no clear winner yet",
+      "journal": "Journal of the American Heart Association",
+      "pubdate": "2026 Nov 10",
+      "doi": "10.1161/JAHA.126.055325",
+      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a Bayesian network meta-analysis of 13 randomized placebo-controlled trials comparing four novel PCSK9-inhibiting monoclonal antibodies \u2014 tafolecimab, ongericimab, ebronucimab, and recaticimab \u2014 across 4,517 patients and 16 dosing regimens. All four agents reduced LDL cholesterol substantially (by 45% to 80%), with ongericimab showing modestly greater LDL reduction than recaticimab regimens in indirect comparisons. No agent showed a safety signal beyond injection-site reactions, though certainty of evidence between agents was rated very low.",
+      "why_it_matters": "As newer PCSK9 inhibitors approach market, understanding how they compare on cholesterol reduction and safety could eventually help clinicians and patients choose among expanding treatment options.",
+      "caveats": "surrogate endpoints only, indirect comparisons only (no head-to-head trials), very low certainty of evidence between agents, no cardiovascular outcome data",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Clinically relevant lipid-lowering comparison; surrogate endpoints only, no hard outcomes.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Four Novel PCSK9 Antibodies All Lower LDL Substantially, But Indirect Comparisons Can't Establish a Hierarchy",
+          "hook": "A Bayesian network meta-analysis finds all four next-generation PCSK9 inhibitors cut LDL cholesterol by 45\u201380%, yet very low certainty of evidence means no drug can be ranked above another.",
+          "pitch_angle": "With tafolecimab, ongericimab, ebronucimab, and recaticimab all in the pipeline, clinicians need clarity on comparative efficacy \u2014 but this analysis of 4,517 patients across 13 trials finds the differences are hypothesis-generating at best, and cardiovascular outcome trials are still needed before a hierarchy can be established."
+        },
+        {
+          "publication_type": "STAT News",
+          "headline": "The Next Wave of Cholesterol Drugs Looks Promising \u2014 But No One Knows Which Is Best Yet",
+          "hook": "Four new cholesterol antibodies all slash LDL levels dramatically, yet a sweeping meta-analysis finds the evidence is too thin to crown a winner.",
+          "pitch_angle": "As pharmaceutical companies race to bring next-generation PCSK9 inhibitors to market, a first-of-its-kind indirect comparison analysis suggests the drugs perform similarly on cholesterol reduction \u2014 and that head-to-head trials measuring actual heart attacks and strokes are urgently needed before prescribing decisions can be meaningfully differentiated."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Hematology & Vascular",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43009729",
+      "headline": "High Lp(a) may not raise your blood clot risk after all \u2014 new genetic study challenges a widely held assumption",
+      "journal": "Journal of Thrombosis and Thrombolysis",
+      "pubdate": "2026 Nov 10",
+      "doi": "10.1007/s11239-026-03430-0",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research / Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using Mendelian randomization \u2014 a method that uses genetic variants as proxies for lifelong exposure \u2014 researchers analyzed data from more than 81,000 VTE cases and 46,000+ individuals with coagulation protein data to test whether lipoprotein(a) [Lp(a)] causally raises the risk of venous thromboembolism (VTE), including deep vein thrombosis and pulmonary embolism. Despite Lp(a)'s known in-vitro antifibrinolytic (clot-promoting) properties, genetically predicted higher Lp(a) was not meaningfully associated with first or recurrent VTE risk, and showed no significant effect on 35 coagulation proteins after multiple-testing correction. By contrast, Lp(a) remained strongly linked to coronary artery disease and calcific aortic stenosis, reinforcing its relevance to atherosclerotic disease rather than clot risk.",
+      "why_it_matters": "As new Lp(a)-lowering therapies enter clinical trials, these findings suggest their cardiovascular benefit is likely to come from reducing atherosclerosis and valve disease \u2014 not from preventing dangerous blood clots in the veins.",
+      "caveats": "observational design, Mendelian randomization (causal inference tool with known limitations including genetic confounding \u2014 acknowledged by authors), industry funding [Sequoia Genetics \u2014 co-author DG is CEO]",
+      "fact_check_note": "",
+      "relevance_score": 9,
+      "relevance_score_reason": "Counterintuitive, overturns prior assumption; large datasets; major Lp(a) therapy implication.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "Genetic Study Challenges Lp(a)'s Role in Venous Clots \u2014 Redirecting Focus to Atherosclerosis",
+          "hook": "Despite decades of lab evidence suggesting lipoprotein(a) could promote dangerous blood clots, a large Mendelian randomization study finds no meaningful causal link between high Lp(a) and venous thromboembolism.",
+          "pitch_angle": "The study, drawing on more than 81,000 VTE cases, found that genetically predicted Lp(a) levels were not associated with first or recurrent clot events \u2014 undercutting a rationale for using emerging Lp(a)-lowering drugs to prevent DVT or pulmonary embolism. For the multibillion-dollar Lp(a)-therapy pipeline, the findings suggest clinical trials should focus on heart attack and aortic valve disease, not clot prevention."
+        },
+        {
+          "publication_type": "Everyday Health / Verywell Health",
+          "headline": "If Your Doctor Says Your Lp(a) Is High, Here's What That Really Means for Blood Clot Risk",
+          "hook": "A major genetic study suggests that high lipoprotein(a) \u2014 a cholesterol-like particle already known to raise heart attack risk \u2014 probably does not increase your risk of dangerous blood clots in the veins.",
+          "pitch_angle": "Researchers used genetic data from more than 80,000 people to test whether Lp(a) causes venous thromboembolism, finding no meaningful link \u2014 even though lab studies had long suggested it might. The findings help clarify that Lp(a)'s cardiovascular danger is tied to clogged arteries and stiff heart valves, not the type of clots that cause deep vein thrombosis or pulmonary embolism."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Hematology & Vascular",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43008834",
+      "headline": "Childhood cancer survivors show altered diaphragm mechanics during exercise, even years after treatment ends",
+      "journal": "Respiratory Medicine",
+      "pubdate": "2026 Nov 10",
+      "doi": "10.1016/j.rmed.2026.109282",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at the University of Maryland compared diaphragm structure and exercise breathing responses in 7 childhood cancer survivors (CCS) and 10 healthy controls aged 6\u201312 years using ultrasound and cardiopulmonary exercise testing. Diaphragm thickening fraction at total lung capacity was significantly lower in CCS than in healthy peers, suggesting treatment-related muscle dysfunction. Although overall exercise ventilatory responses did not differ significantly between groups, the relationship between diaphragm mechanics and breathing control was altered in CCS, pointing to a compensatory reorganization of respiratory physiology.",
+      "why_it_matters": "Understanding how cancer treatment changes breathing mechanics in children could guide rehabilitation strategies to reduce exercise intolerance \u2014 a common and debilitating late effect of childhood cancer therapy.",
+      "caveats": "small sample (N<100), single-center, surrogate endpoints only",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Clinically meaningful pediatric pulmonary finding; very small sample (N=17) limits conclusions.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Verywell Health",
+          "headline": "Childhood Cancer Treatment May Quietly Alter How Kids Breathe During Exercise",
+          "hook": "New research finds that children who survived cancer show measurable changes in diaphragm function that may explain why so many struggle with exercise tolerance long after treatment ends.",
+          "pitch_angle": "A small but carefully designed study suggests cancer therapy can alter how the breathing muscle \u2014 the diaphragm \u2014 works during physical activity in young survivors, opening the door to targeted rehabilitation approaches to help kids reclaim their fitness."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Pulmonary Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "43011596",
+      "headline": "Pleural fluid test results may look better than they are \u2014 because the hardest cases are quietly dropped from studies",
+      "journal": "ERJ Open Research",
+      "pubdate": "2026 Nov",
+      "doi": "10.1183/23120541.00779-2026",
+      "groundbreaking": "Major cardiovascular or public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed how diagnostic studies on pleural effusions (fluid around the lungs) handle patients who never receive a confirmed diagnosis \u2014 a group that can represent a substantial share of real-world cases. The perspective article, based on methodological review rather than a primary patient cohort, identifies multiple biases introduced when unresolved cases are excluded. The authors argue this practice inflates reported test performance and propose alternative analytic frameworks including intention-to-diagnose and latent class models.",
+      "why_it_matters": "If pleural biomarker tests appear more accurate than they truly are due to hidden selection bias, clinicians may over-rely on them when diagnosing conditions like cancer or infection around the lungs.",
+      "caveats": "observational design, single-center (methodology perspective, no primary patient cohort)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Methodological pulmonary paper; no cardiovascular endpoints, no primary patient data.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today / Medscape Cardiology",
+          "headline": "Pleural Effusion Studies May Overstate Biomarker Accuracy by Dropping Undiagnosed Patients",
+          "hook": "A substantial share of pleural effusion patients never get a definitive diagnosis \u2014 and dropping them from studies may make diagnostic tests look far better than they actually are.",
+          "pitch_angle": "Methodologists argue that the common practice of excluding unresolved pleural effusion cases introduces spectrum and verification biases that inflate test performance estimates. Adopting intention-to-diagnose frameworks and probabilistic models could produce more clinically honest data."
+        }
+      ],
+      "run_date": "2026-11-15",
+      "category": "Pulmonary Medicine",
+      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -136,33 +985,6 @@
       "run_date": "2026-11-14",
       "category": "Cardiology",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "43003894",
-      "headline": "Targeting pericytes \u2014 tiny blood vessel gatekeepers \u2014 may reverse the 'no-reflow' paradox that kills heart tissue after a heart attack",
-      "journal": "Nature Reviews Cardiology",
-      "pubdate": "2026 Nov 9",
-      "doi": "10.1038/s41569-026-01364-x",
-      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This is a Nature Reviews Cardiology editorial or research highlight piece summarizing findings on a selective vasodilator that targets pericytes \u2014 specialized cells that constrict capillaries \u2014 to reverse capillary no-reflow following ischemia-reperfusion injury. The abstract contains no primary study data, participant numbers, or methodology, as it appears to be a commentary or summary piece rather than an original research article. No N, study design, or results data are available from the abstract alone.",
-      "why_it_matters": "Capillary no-reflow \u2014 where heart tissue remains starved of blood even after a blocked artery is reopened \u2014 contributes to irreversible heart muscle damage in heart attack survivors, and a drug that could reverse this phenomenon would address a major gap in current treatment.",
-      "caveats": "No primary data available from abstract; likely commentary or research highlight \u2014 study design and sample size unverifiable",
-      "fact_check_note": "The abstract contains no primary study data. This appears to be an editorial summary or research highlight in Nature Reviews Cardiology, not an original research article. Claims cannot be verified against primary findings from this abstract alone.",
-      "relevance_score": 6,
-      "relevance_score_reason": "High-impact journal, major cardiovascular mechanism, no primary data verifiable from abstract.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / General health",
-          "headline": "Scientists May Have Found a Way to Fix a Little-Known Paradox That Worsens Heart Attacks Even After Treatment",
-          "hook": "Even when doctors successfully reopen a blocked coronary artery, microscopic capillaries can stay shut \u2014 starving heart tissue of blood \u2014 but a new drug targeting tiny vessel-controlling cells may reverse this hidden damage.",
-          "pitch_angle": "The 'no-reflow' phenomenon affects a significant proportion of heart attack patients after reperfusion therapy and is associated with worse outcomes, yet no approved treatment currently targets it. Research highlighted in Nature Reviews Cardiology suggests a selective vasodilator acting on pericytes \u2014 the contractile cells that regulate capillary flow \u2014 could represent an entirely new therapeutic strategy."
-        }
-      ],
-      "run_date": "2026-11-14",
-      "category": "Cardiology",
-      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -255,39 +1077,6 @@
       ],
       "run_date": "2026-11-14",
       "category": "Pulmonary Medicine",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42999989",
-      "headline": "High Lp(a) Levels Shape Which Heart Condition Strikes First \u2014 and It's Not Always a Heart Attack",
-      "journal": "European Journal of Preventive Cardiology",
-      "pubdate": "2026 Nov 8",
-      "doi": "10.1093/eurjpc/zwag572",
-      "groundbreaking": "Major cardiovascular or public health implication / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed a US national real-world dataset to examine how elevated lipoprotein(a) \u2014 a genetically driven cholesterol-like particle \u2014 influences which type of cardiovascular disease appears first in individuals with no prior heart history. The study assessed patterns of first cardiovascular events across a large patient population stratified by Lp(a) levels. Findings suggest that high Lp(a) is associated with distinct first-event profiles, including not just heart attack but also other manifestations such as aortic valve disease and stroke, underscoring Lp(a)'s broad cardiovascular footprint.",
-      "why_it_matters": "Understanding which cardiovascular condition elevated Lp(a) triggers first could help doctors prioritize screening and monitoring for the roughly 1 in 5 Americans with high Lp(a) levels.",
-      "caveats": "observational design, real-world database analysis, surrogate endpoints only, industry funding [Amgen, Novartis, Ionis, Lilly, Arrowhead, NewAmsterdam, Regeneron, Esperion, Amarin, Kaneka, Boehringer Ingelheim, Novo Nordisk, Medtronic, Jazz, Bayer, Roche, Abbott]",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "High-prevalence CVD risk factor, US national dataset, strong public health and clinical relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "Everyday Health / Health.com / Verywell Health",
-          "headline": "You've Heard of Bad Cholesterol \u2014 But This Lesser-Known Particle May Determine What Kind of Heart Problem You Get First",
-          "hook": "A new real-world study finds that high lipoprotein(a) doesn't just raise your heart risk \u2014 it may predict which cardiovascular condition strikes first.",
-          "pitch_angle": "Researchers analyzed national US patient data and found that elevated Lp(a) is linked to distinct patterns of first cardiovascular events, including aortic valve disease and stroke \u2014 not just heart attack. Because Lp(a) is largely genetic and often goes untested, the finding highlights why more Americans may need routine screening for this overlooked risk factor."
-        },
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "Lp(a) Level May Predict the Type \u2014 Not Just the Risk \u2014 of a Patient's First Cardiovascular Event",
-          "hook": "A US national real-world analysis suggests that lipoprotein(a) concentration is associated with heterogeneous first-event cardiovascular phenotypes, with implications for how clinicians should counsel high-Lp(a) patients.",
-          "pitch_angle": "The study found that patients with elevated Lp(a) show different first-manifestation cardiovascular disease profiles, including aortic stenosis and cerebrovascular events alongside coronary disease, challenging a one-size-fits-all risk-reduction approach. As Lp(a)-lowering therapies advance in clinical trials, understanding event-type specificity may sharpen trial design and patient selection."
-        }
-      ],
-      "run_date": "2026-11-14",
-      "category": "Hematology & Vascular",
       "chunk": "2/2",
       "status": "new"
     },
@@ -418,186 +1207,6 @@
       "status": "new"
     },
     {
-      "pmid": "43023217",
-      "headline": "New bifurcation stenting technique shows zero heart attacks or deaths at one year in early trial",
-      "journal": "Catheterization and Cardiovascular Interventions",
-      "pubdate": "2026 Nov 13",
-      "doi": "10.1002/ccd.71012",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers in Istanbul tested a novel 'double kissing nano culotte' two-stent technique in 43 patients with true coronary bifurcation lesions, using optical coherence tomography (OCT) guidance in 70% of cases. The technique achieved 100% procedural success with a mean procedure time of 48 minutes. At one year, only one patient (2.4%) experienced target lesion failure \u2014 no heart attacks, cardiac deaths, or stent thrombosis were recorded.",
-      "why_it_matters": "Coronary bifurcation lesions are among the most technically difficult blockages to treat, and early results suggest this new stenting approach may offer a safer, more precise option for patients who need complex coronary procedures.",
-      "caveats": "small sample (N<100), observational design, single-center, surrogate endpoints only, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Novel PCI technique, human data, low N, single-center, surrogate and clinical endpoints mixed.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "DK Nano-Culotte Technique Shows Zero Stent Thrombosis or Cardiac Death at 1 Year in Bifurcation PCI",
-          "hook": "A new two-stent strategy for coronary bifurcation lesions recorded no heart attacks, cardiac deaths, or stent thrombosis in its first human trial.",
-          "pitch_angle": "The double kissing nano culotte technique achieved 100% procedural success in 43 patients with complex bifurcation lesions, with favorable flow dynamics confirmed by computational fluid dynamics analysis. While the sample is small and single-center, the 1-year safety data support larger multicenter trials of this OCT-guided approach."
-        }
-      ],
-      "run_date": "2026-11-14",
-      "category": "Cardiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "43023684",
-      "headline": "Hidden Genetic Glitches in Blood Type Genes May Explain Why Some Patients' RH Blood Typing Doesn't Add Up",
-      "journal": "Transfusion",
-      "pubdate": "2026 Nov 13",
-      "doi": "10.1111/trf.70480",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at the New York Blood Center and French partner labs analyzed 11 blood samples with unexplained discrepancies between RH blood group phenotype and standard DNA predictions, using Sanger sequencing and in vitro splicing minigene assays. They identified rare intronic (non-coding) variants in both RHD and RHCE genes that disrupted normal RNA splicing, causing weak or absent Rh antigen expression. Five of the variants were identified as null alleles \u2014 meaning no functional antigen is produced \u2014 with implications for safe blood transfusion matching.",
-      "why_it_matters": "Patients with rare or undetected blood group variants may be at risk for dangerous transfusion reactions if their blood type is misclassified, underscoring the need for expanded genomic testing in transfusion medicine.",
-      "caveats": "small sample (N<100), single-center, surrogate endpoints only",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Specialized transfusion/hematology finding; small N; limited direct cardiovascular or broad public health applicability.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "Intronic RH Gene Variants Can Silently Erase Blood Group Antigens, Complicating Transfusion Safety",
-          "hook": "Standard DNA testing for Rh blood type can miss rare variants lurking in non-coding regions of the genome \u2014 variants that can make a patient appear to have antigens they don't actually express.",
-          "pitch_angle": "A laboratory study identified 11 samples where patients' Rh blood group phenotype didn't match DNA predictions, tracing the discrepancies to intronic splicing variants that disrupted antigen expression \u2014 five of which were confirmed as null alleles. The findings suggest that minigene splicing assays should be incorporated into reference laboratory workflows to resolve RH typing discordances and reduce alloimmunization risk in transfusion-dependent patients."
-        }
-      ],
-      "run_date": "2026-11-14",
-      "category": "Hematology & Vascular",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "43025045",
-      "headline": "A wearable sensor worn on the chest could detect severe aortic stenosis without an echocardiogram \u2014 no abstract confirms full details",
-      "journal": "JACC Advances",
-      "pubdate": "2026 Nov 13",
-      "doi": "10.1016/j.jacadv.2026.103502",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers evaluated seismocardiography \u2014 a wearable sensor that detects chest-wall vibrations from heartbeats \u2014 as a point-of-care tool to discriminate severe aortic stenosis from other cardiac conditions. The study was conducted by a Canadian team with industry ties to the device manufacturer, and no sample size or participant characteristics are available from the provided abstract. Early findings suggest the technique can identify novel seismocardiographic biomarkers that differentiate severe aortic stenosis from cardiac controls.",
-      "why_it_matters": "If validated in larger studies, a low-cost wearable sensor could make screening for severe aortic stenosis \u2014 a potentially fatal but treatable valve disease \u2014 accessible outside specialized cardiac imaging centres.",
-      "caveats": "small sample (N<100), industry funding [LLA Technologies \u2014 lead authors are paid consultants and patent holders], surrogate endpoints only, single-center, abstract details limited",
-      "fact_check_note": "No participant N or demographic details were extractable from the supplied abstract text. Industry conflict of interest is significant: three authors are paid consultants and officers of LLA Technologies, the company that makes the device under study.",
-      "relevance_score": 5,
-      "relevance_score_reason": "Promising diagnostic technology; heavily discounted by major industry COI and missing abstract data.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / MedPage Today",
-          "headline": "A Chest-Worn Sensor Could Spot Severe Aortic Stenosis \u2014 But the Inventors Are Selling It",
-          "hook": "A Canadian team reports that seismocardiography \u2014 measuring heart-induced chest vibrations with a wearable device \u2014 can distinguish severe aortic stenosis from other cardiac conditions at the point of care.",
-          "pitch_angle": "The finding is intriguing as a potential low-tech alternative to echocardiography for valve disease screening, but three of the study's lead authors are paid consultants or officers of the company that manufactures the device, raising questions about independence that any coverage should prominently disclose."
-        }
-      ],
-      "run_date": "2026-11-14",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "43031377",
-      "headline": "One in Three Blood Cancer Patients Lacks a Dedicated Caregiver \u2014 and Women and Black Patients Are Most Likely to Be Left Without Support",
-      "journal": "British Journal of Haematology",
-      "pubdate": "2026 Nov 13",
-      "doi": "10.1111/bjh.70957",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers surveyed 1,231 patients with plasma cell dyscrasias (blood cancers including multiple myeloma) through the HealthTree Foundation to assess caregiver availability using a novel single-item question. Among respondents, 68% had live-in caregivers, while 23% arranged support when needed and 5% actively struggled to find help. Female patients and Black patients were significantly less likely to have live-in caregiver support compared to male and White patients, respectively, and marital status \u2014 not income, education, or insurance \u2014 was the strongest predictor of caregiver availability.",
-      "why_it_matters": "For patients with serious blood cancers who need intensive treatment including cellular therapies, lack of caregiver support could limit access to or adherence with life-sustaining care \u2014 and standard demographic screening may miss who is truly at risk.",
-      "caveats": "observational design, self-reported outcomes, single-platform survey population (HealthTree Foundation \u2014 selection bias acknowledged by authors), surrogate endpoints only",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Important health equity finding; hematology-adjacent, not core cardiovascular; large N but significant selection bias.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / MedPage Today",
-          "headline": "Marital Status, Not Income or Insurance, Predicts Whether Blood Cancer Patients Have a Caregiver",
-          "hook": "Among more than 1,200 patients with plasma cell dyscrasias, the single strongest predictor of having a live-in caregiver wasn't wealth or education \u2014 it was whether someone was married.",
-          "pitch_angle": "A large patient survey found that women and Black patients were significantly less likely to have dedicated caregiver support, exposing gaps that standard social determinants of health screening may miss. As cellular therapies for blood cancers require intensive caregiver involvement, the findings suggest clinical teams need to directly ask patients about caregiver availability rather than inferring it from demographics."
-        },
-        {
-          "publication_type": "Everyday Health / Health.com / General health",
-          "headline": "If You Have a Serious Blood Cancer, Who's in Your Corner? A New Survey Reveals a Troubling Gap",
-          "hook": "One in three patients with a serious blood cancer may not have a dedicated caregiver \u2014 and women and Black patients face the steepest odds.",
-          "pitch_angle": "A survey of over 1,200 blood cancer patients found that marital status was the dominant factor determining whether someone had live-in support, with divorced, widowed, and never-married patients far less likely to have help at home. The findings highlight a hidden crisis in cancer care access, particularly as new treatments like CAR-T cell therapy require round-the-clock caregiver presence."
-        }
-      ],
-      "run_date": "2026-11-14",
-      "category": "Hematology & Vascular",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42217208",
-      "headline": "A four-day residential rehab program shows early promise for the debilitating fatigue that follows a rare type of heart attack in young women",
-      "journal": "European journal of cardiovascular nursing",
-      "pubdate": "2026 Nov 12",
-      "doi": "10.1093/eurjcn/zvag135",
-      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Danish researchers conducted a prospective single-arm feasibility study of a four-day residential multidisciplinary rehabilitation programme targeting fatigue and psychological distress in patients with Spontaneous Coronary Artery Dissection (SCAD), a rare coronary event that disproportionately affects younger women. Forty participants completed the programme, which combined energy conservation strategies, nervous system regulation techniques, and psychological goal-oriented approaches, with outcomes measured at baseline and eight weeks post-intervention. Participant satisfaction was high (median 4.5/5), retention exceeded the 70% threshold at 77.5%, and modest improvements with small-to-moderate effect sizes were observed across fatigue and psychological outcome measures.",
-      "why_it_matters": "SCAD survivors, most of them younger women, often face persistent fatigue and anxiety with little targeted support, and this study suggests that structured residential rehabilitation may be a feasible and acceptable intervention for this underserved group.",
-      "caveats": "small sample (N<100), observational design, single-center, self-reported outcomes, short follow-up, surrogate endpoints only",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "SCAD affects mostly women; feasibility study with patient-reported outcomes, small single-arm design limits conclusions.",
-      "pitch_angles": [
-        {
-          "publication_type": "Women's Health / Prevention",
-          "headline": "Young Women Who Survive This Rare Heart Attack Face Exhaustion for Months \u2014 A New Rehab Program May Help",
-          "hook": "Spontaneous coronary artery dissection strikes predominantly younger women and often leaves them with crippling fatigue, but a new four-day residential program suggests structured rehabilitation could meaningfully help.",
-          "pitch_angle": "A Danish feasibility study found that a multidisciplinary residential rehab programme for SCAD survivors was well-received and associated with modest improvements in fatigue, anxiety, and quality of life at eight weeks. Because SCAD primarily affects women under 50 and is poorly served by standard cardiac rehabilitation, this early-stage research points to a critical gap in heart care for younger women."
-        },
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "Residential SCAD Rehab Programme Clears Feasibility Bar, Signals Potential for Fatigue Reduction",
-          "hook": "A four-day structured residential intervention for SCAD survivors met pre-defined feasibility thresholds for retention and satisfaction, with small-to-moderate effect sizes on fatigue and psychological outcomes.",
-          "pitch_angle": "The single-arm Danish study of 40 SCAD patients found 77.5% retention and high satisfaction, with statistically significant improvements in selected patient-reported fatigue and psychological measures at eight weeks post-intervention. Authors caution that the small sample and lack of a control arm limit conclusions, but call for a powered randomized trial to test efficacy."
-        }
-      ],
-      "run_date": "2026-11-14",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "43018066",
-      "headline": "Low 'Bad' Cholesterol Predicts Worse Survival in Heart Failure \u2014 But Only in a Specific High-Risk Subset",
-      "journal": "Journal of the American Heart Association",
-      "pubdate": "2026 Nov 12",
-      "doi": "10.1161/JAHA.125.048202",
-      "groundbreaking": "Counterintuitive finding / Overturns prior research",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed 2,188 consecutive patients with heart failure with reduced ejection fraction (HFrEF, left ventricular EF <40%) from Singapore national registries (2016\u20132022), stratifying them by LDL-C quartile and applying latent class analysis to the lowest quartile. While the lowest LDL-C quartile had higher one-year all-cause mortality than middle quartiles, latent class analysis revealed two distinct subgroups: a 'pathological' hypocholesterolemia group (older, lower weight, higher comorbidity burden) with significantly worse cardiovascular and all-cause mortality, and a 'nonpathological' group whose outcomes were comparable to those with high cholesterol. The findings suggest the so-called 'LDL-C paradox' in heart failure may reflect underlying illness severity rather than a true protective role for high cholesterol.",
-      "why_it_matters": "This study suggests that low cholesterol in heart failure patients may be a marker of hidden frailty and disease burden \u2014 not a cause of worse outcomes \u2014 which could change how clinicians interpret cholesterol readings in this vulnerable population.",
-      "caveats": "observational design, single-center registry (Singapore national registries \u2014 Asian population, may not generalize to Western HFrEF populations), secondary analysis, surrogate endpoints partially (LDL-C stratification), no sex-specific analysis reported",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Counterintuitive finding, hard mortality endpoints, high-prevalence heart failure condition, clean registry design.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News / MedPage Today / Medscape Cardiology",
-          "headline": "The 'LDL Paradox' in Heart Failure May Finally Have an Explanation",
-          "hook": "A new registry study finds that the puzzling link between low LDL cholesterol and worse survival in heart failure patients may be driven entirely by a sicker, frailer subgroup \u2014 not by cholesterol itself.",
-          "pitch_angle": "Using latent class analysis, researchers identified a 'pathological hypocholesterolemia' subgroup \u2014 older, more comorbid patients \u2014 who account for the apparent paradox, suggesting clinicians should interpret low LDL in HFrEF as a potential red flag for frailty rather than a treatment target."
-        },
-        {
-          "publication_type": "Everyday Health / Health.com / General health",
-          "headline": "In Heart Failure, Low Cholesterol Can Actually Signal Danger \u2014 Here's Why",
-          "hook": "For most people, low LDL cholesterol is a heart health goal \u2014 but in certain heart failure patients, it may instead signal a higher risk of death.",
-          "pitch_angle": "A study of over 2,000 heart failure patients found that low cholesterol predicted worse survival only in a distinct subgroup of older, sicker patients \u2014 suggesting that in heart failure, low LDL may reflect the body's deteriorating state rather than a healthy metabolism."
-        }
-      ],
-      "run_date": "2026-11-14",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "43020662",
       "headline": "Risk Score for Deadly Lung Infections Shows Consistent but Imperfect Accuracy Across Global Studies",
       "journal": "Thorax",
@@ -625,165 +1234,6 @@
       "status": "new"
     },
     {
-      "pmid": "41326315",
-      "headline": "Social Disadvantage Is as Deadly for the Heart as Smoking or High Blood Pressure, Large US Study Finds",
-      "journal": "European Journal of Preventive Cardiology",
-      "pubdate": "2026 Nov 11",
-      "doi": "10.1093/eurjpc/zwaf752",
-      "groundbreaking": "Major cardiovascular or public health implication / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers created a Social Advantage Metric (SAM) from nine social determinants of health \u2014 including income, education, food security, and insurance \u2014 and tested it in 46,366 US adults (ages 20\u201379, 52% female) from NHANES 1999\u20132018. Adults in the highest social advantage category had 67% lower all-cause mortality and 69% lower cardiovascular mortality compared to the lowest category. Adding the SAM as a ninth metric to the American Heart Association's Life's Essential 8 framework meaningfully strengthened mortality prediction, though effect patterns differed by race and ethnicity.",
-      "why_it_matters": "This study suggests that social and economic circumstances may be as powerful as traditional risk factors in shaping who lives or dies from heart disease \u2014 a finding that could reshape how cardiovascular health is measured and addressed at a population level.",
-      "caveats": "observational design, secondary analysis, surrogate endpoints only (mortality associations, not intervention outcomes), associations not significant for Hispanic adults",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Large US cohort, hard mortality endpoints, major public health implication for cardiovascular equity.",
-      "pitch_angles": [
-        {
-          "publication_type": "NYT Health / STAT News",
-          "headline": "Your Zip Code May Predict Your Heart Attack Risk as Well as Your Cholesterol",
-          "hook": "A study of 46,000 Americans found that social disadvantage \u2014 poverty, lack of insurance, food insecurity \u2014 predicted cardiovascular death as powerfully as traditional risk factors.",
-          "pitch_angle": "Researchers quantified social disadvantage into a single score and found it cuts cardiovascular mortality risk by 69% between highest and lowest groups \u2014 raising urgent questions about whether heart health guidelines need a social equity overhaul."
-        },
-        {
-          "publication_type": "Prevention / Everyday Health / General health",
-          "headline": "The 9 Hidden Factors That May Determine Your Heart Health \u2014 and Doctors Rarely Check Them",
-          "hook": "Income, food security, education, and social support predicted who lived or died from heart disease in a massive national study \u2014 but none of these factors appear in standard heart health checkups.",
-          "pitch_angle": "A Columbia University-led study found that adding a social advantage score to the AHA's Life's Essential 8 framework significantly boosted its ability to predict cardiovascular death, suggesting that lifestyle advice alone may miss the bigger picture of what keeps hearts healthy."
-        }
-      ],
-      "run_date": "2026-11-14",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "43015124",
-      "headline": "New cryoballoon keeps 81% of AFib patients rhythm-free at one year in Asian real-world trial",
-      "journal": "Pacing and Clinical Electrophysiology (PACE)",
-      "pubdate": "2026 Nov 11",
-      "doi": "10.1111/pace.70501",
-      "groundbreaking": "Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "The prospective POLAR SMART study enrolled 293 atrial fibrillation patients across 19 centers in Japan and South Korea to assess real-world safety and effectiveness of the POLARx cryoballoon system for pulmonary vein isolation. Among the 181 patients who received pulmonary vein isolation only, the 12-month arrhythmia-free rate was 81.1%, with an acute isolation success rate of 95% per patient and 98.2% per vein. The primary safety endpoint was met with a 97.3% adverse-event-free rate, and the newer POLARx FIT model was associated with a sustained heart rate increase over 12 months.",
-      "why_it_matters": "Atrial fibrillation affects millions globally, and real-world data from a diverse Asian patient population confirm that this next-generation cryoballoon ablation system delivers safety and effectiveness outcomes comparable to those seen in earlier clinical trials.",
-      "caveats": "observational design, non-randomized, industry funding [Boston Scientific Corporation], single-region population (Japan and South Korea)",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "AFib high-prevalence condition, prospective multicenter real-world data, N=293, industry-funded.",
-      "pitch_angles": [
-        {
-          "publication_type": "Medscape Cardiology / MedPage Today",
-          "headline": "POLARx Cryoballoon Meets Safety and Effectiveness Targets in Real-World Asian AFib Cohort",
-          "hook": "A next-generation cryoballoon ablation system achieved an 81% arrhythmia-free rate at one year in a multicenter Asian registry, with a notable finding that the newer FIT model sustained heart rate increases long-term.",
-          "pitch_angle": "The POLAR SMART study provides real-world effectiveness data for the POLARx system outside of pivotal trial conditions, enrolling nearly 300 patients across Japan and South Korea. The finding that pre-discharge heart rate of \u226570 bpm predicted better 12-month outcomes adds a potentially useful clinical marker for post-ablation monitoring, though the study was non-randomized and industry-sponsored."
-        },
-        {
-          "publication_type": "Everyday Health / Health.com",
-          "headline": "A Freeze-Based Heart Rhythm Treatment Keeps 4 in 5 AFib Patients Free of Episodes at One Year",
-          "hook": "A minimally invasive procedure that uses extreme cold to disable the rogue electrical signals causing atrial fibrillation kept more than 80% of patients episode-free for a full year in a new real-world study.",
-          "pitch_angle": "Cryoballoon ablation \u2014 a catheter-based procedure that freezes the pulmonary veins to stop the electrical misfires driving AFib \u2014 showed strong safety and effectiveness results in nearly 300 patients across 19 hospitals in Japan and South Korea. The findings add to growing evidence that this freezing technique is a reliable option for people with AFib who haven't responded to medication."
-        }
-      ],
-      "run_date": "2026-11-14",
-      "category": "Cardiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "43014052",
-      "headline": "New microcatheter measures coronary pressure and blood flow simultaneously in under 90 seconds",
-      "journal": "JACC Advances",
-      "pubdate": "2026 Nov 11",
-      "doi": "10.1016/j.jacadv.2026.103445",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers tested the PyCath microcatheter \u2014 designed to simultaneously measure intracoronary pressure and flow velocity \u2014 in a first-in-human prospective single-arm study of 17 patients (mean age 59.3 years, 76.5% male) referred for coronary physiology assessment. The device successfully acquired pressure measurements in 100% of cases and flow velocity in 88%, with a mean acquisition time of about 70 seconds. No device-related major adverse cardiac events occurred, and reproducibility was rated good-to-excellent across key physiologic measures.",
-      "why_it_matters": "If this device performs as well in larger trials, it could make detailed coronary artery assessments faster and more accessible during routine cardiac catheterization procedures.",
-      "caveats": "small sample (N<100), single-center, surrogate endpoints only, industry funding [Medyria AG], short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "First-in-human device study; small N, surrogate endpoints, industry-funded, limited clinical generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "Medscape Cardiology / MedPage Today",
-          "headline": "PyCath Microcatheter Delivers Simultaneous Coronary Pressure and Flow Data in 70 Seconds",
-          "hook": "A new catheter-based device acquired both intracoronary pressure and flow velocity in under 90 seconds with no device-related adverse events in its first human trial.",
-          "pitch_angle": "The PyCath system could streamline invasive coronary physiology assessments that currently require multiple tools and longer procedure times. Early first-in-human data show strong reproducibility, though larger trials are needed before clinical adoption."
-        }
-      ],
-      "run_date": "2026-11-14",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "43013292",
-      "headline": "Oral semaglutide cuts repeat heart attacks and strokes in high-risk diabetes patients, not just the first one",
-      "journal": "JAMA Cardiology",
-      "pubdate": "2026 Nov 11",
-      "doi": "10.1001/jamacardio.2026.4944",
-      "groundbreaking": "Counterintuitive finding / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This secondary analysis of the SOUL randomized clinical trial examined whether oral semaglutide \u2014 a GLP-1 receptor agonist taken as a daily pill \u2014 reduces not only first major cardiovascular events (heart attack, stroke, or cardiovascular death) but also subsequent events in adults with type 2 diabetes at high cardiovascular risk. The analysis applied statistical methods that account for recurrent events, capturing total cardiovascular burden rather than just time-to-first-event. Findings suggest oral semaglutide reduced both first and subsequent major cardiovascular events, indicating broader cardiovascular protection than the conventional primary endpoint captures.",
-      "why_it_matters": "For the roughly 37 million Americans with type 2 diabetes \u2014 many of whom face repeated cardiovascular events \u2014 evidence that an oral GLP-1 drug reduces recurrent heart attacks and strokes, not just the first one, could meaningfully shift how clinicians assess long-term cardiovascular benefit.",
-      "caveats": "secondary analysis",
-      "fact_check_note": "Full quantitative results (hazard ratios, confidence intervals, N) were not available in the truncated abstract provided; specific figures should be verified against the full publication before pitching.",
-      "relevance_score": 9,
-      "relevance_score_reason": "GLP-1 and heart outcomes; RCT basis; high-prevalence condition; hard cardiovascular endpoints; counterintuitive recurrent-event finding.",
-      "pitch_angles": [
-        {
-          "publication_type": "NYT Health / STAT News",
-          "headline": "Oral Ozempic-Class Pill May Guard Against Repeat Heart Attacks in Diabetes Patients, New Analysis Finds",
-          "hook": "A secondary analysis of a major randomized trial found that oral semaglutide reduced not just a person's first major cardiac event but also subsequent ones \u2014 suggesting deeper cardiovascular protection than standard trial designs reveal.",
-          "pitch_angle": "Most cardiovascular drug trials measure only time to the first heart attack or stroke, potentially underestimating total benefit; this recurrent-event analysis suggests GLP-1 drugs may offer compounding protection for high-risk diabetes patients who are most prone to repeat events. The finding adds to growing evidence positioning GLP-1 receptor agonists as cornerstone cardiovascular therapies, not just glucose-lowering drugs."
-        },
-        {
-          "publication_type": "Everyday Health / Prevention / AARP The Magazine",
-          "headline": "The Diabetes Pill That May Protect Your Heart From a Second \u2014 or Third \u2014 Attack",
-          "hook": "A new analysis suggests that oral semaglutide, a pill form of the drug class that includes Ozempic, may help prevent repeat heart attacks and strokes in people with type 2 diabetes \u2014 not just the first one.",
-          "pitch_angle": "People with type 2 diabetes are at particularly high risk of having multiple cardiovascular events over their lifetime, and standard drug trials often miss this cumulative burden. Early evidence from a major clinical trial suggests oral semaglutide may reduce this ongoing risk \u2014 a potentially important finding for millions managing both diabetes and heart disease."
-        },
-        {
-          "publication_type": "Medscape Cardiology / MedPage Today",
-          "headline": "Recurrent-Event Analysis of SOUL Trial: Oral Semaglutide Reduces Total CV Event Burden in Type 2 Diabetes",
-          "hook": "A prespecified secondary analysis of the SOUL RCT using recurrent-event methodology found oral semaglutide associated with reductions in both first and subsequent MACE in high-cardiovascular-risk type 2 diabetes patients.",
-          "pitch_angle": "Standard time-to-first-event analyses may underestimate the cardiovascular benefit of GLP-1 receptor agonists in populations prone to multiple events; this recurrent-event analysis suggests oral semaglutide's cardioprotective effect extends beyond the index event. Clinicians managing patients with established cardiovascular disease and type 2 diabetes may need to weight total event burden \u2014 not just first events \u2014 when evaluating therapy."
-        }
-      ],
-      "run_date": "2026-11-14",
-      "category": "Cardiology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "43014508",
-      "headline": "A new classification system may guide surgeons in reopening blocked vertebral arteries \u2014 with 83% staying open at 3 years",
-      "journal": "Annals of vascular surgery",
-      "pubdate": "2026 Nov 11",
-      "doi": "10.1016/j.avsg.2026.10.054",
-      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Peking University Third Hospital retrospectively analyzed 26 hybrid revascularization procedures in 25 patients with chronic vertebral artery occlusion, proposing the first morphology-based classification (Types I, II, III with a complexity modifier) to guide surgical strategy. Overall technical success was 88.5%, with zero periprocedural strokes or deaths, and 82.6% of successfully reopened arteries remained patent at a median 34-month follow-up. Adjunctive stenting after endarterectomy was associated with 100% mid-term patency versus 63.6% without stenting.",
-      "why_it_matters": "Chronic vertebral artery occlusion is a stroke risk factor, and a classification-guided hybrid surgical approach suggests improved and durable outcomes may be achievable \u2014 though prospective validation is needed.",
-      "caveats": "small sample (N<100), single-center, observational design, retrospective component, single-region (China)",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Vascular stroke-risk condition; small single-center series limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today",
-          "headline": "Hybrid Surgery With New Classification System Shows Promise for Stubborn Vertebral Artery Blockages",
-          "hook": "A Chinese surgical team reports that categorizing chronic vertebral artery occlusions by lesion type \u2014 before choosing a hybrid surgical approach \u2014 was associated with zero strokes and durable artery patency over nearly three years.",
-          "pitch_angle": "The proposed Type I/II/III classification with a complexity modifier predicted procedural success and may help standardize a field where no evidence-based strategy currently exists, though the 26-procedure series calls for prospective multicenter validation."
-        }
-      ],
-      "run_date": "2026-11-14",
-      "category": "Hematology & Vascular",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "43012387",
       "headline": "Surgeons describe a new hand technique for tying knots in minimally invasive heart surgery",
       "journal": "Innovations (Philadelphia, Pa.)",
@@ -803,99 +1253,6 @@
           "headline": "New 'Thumbs-Up' Knot-Tying Method Proposed for Minimally Invasive and Robotic Cardiac Surgery",
           "hook": "A Japanese surgical team has introduced a novel extracorporeal knot-tying technique aimed at addressing one of the fiddliest challenges in robotic heart surgery.",
           "pitch_angle": "The technique targets ergonomic limitations in minimally invasive cardiac procedures; clinical validation with patient outcomes will be needed before broader adoption."
-        }
-      ],
-      "run_date": "2026-11-14",
-      "category": "Hematology & Vascular",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42663358",
-      "headline": "Valve replacement outperforms medication alone for a tricky, underdiagnosed form of aortic stenosis \u2014 but the trial was too small to be definitive",
-      "journal": "Journal of the American College of Cardiology",
-      "pubdate": "2026 Nov 10",
-      "doi": "10.1016/j.jacc.2026.08.017",
-      "groundbreaking": "First-in-class human study, Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "The REBOOT-PARADOX trial \u2014 the first randomized trial dedicated to paradoxical low-flow, low-gradient (pLFLG) aortic stenosis \u2014 randomized 120 symptomatic patients (median age 82; 53.3% women) 2:1 to transcatheter aortic valve replacement (TAVR) plus optimal medical therapy vs. medical therapy alone, with all-cause mortality as the primary endpoint at two years. Enrollment was stopped prematurely at 120 of 783 planned patients due to slow recruitment, leaving the trial substantially underpowered. The primary endpoint occurred in 29.0% of TAVR patients versus a higher rate in the OMT group, with 19 of 40 medical-therapy patients eventually crossing over to TAVR for symptom progression \u2014 findings that trend toward TAVR benefit but cannot be considered conclusive.",
-      "why_it_matters": "Paradoxical low-flow, low-gradient aortic stenosis is notoriously difficult to diagnose and treat, and this is the first randomized evidence \u2014 however limited \u2014 to directly test whether valve replacement reduces death in this high-risk elderly population.",
-      "caveats": "small sample (N<100 per arm), open-label design, premature enrollment stop, high crossover rate (47.5% of OMT arm), underpowered for primary endpoint",
-      "fact_check_note": "Abstract was truncated before the full primary endpoint results were reported; summary reflects available data only. The 29.0% figure for TAVR arm mortality is stated; OMT arm mortality rate was not available in the provided excerpt.",
-      "relevance_score": 7,
-      "relevance_score_reason": "First RCT in this AS subtype; hard mortality endpoint; elderly, majority-female population; major clinical gap.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "First RCT of TAVR in Paradoxical Low-Flow Aortic Stenosis Stopped Early \u2014 What Do the Results Mean?",
-          "hook": "REBOOT-PARADOX is the first randomized trial ever to test valve replacement against medication alone in one of cardiology's most diagnostically elusive conditions \u2014 but it enrolled only 15% of its target population.",
-          "pitch_angle": "Despite strong clinical rationale and trends favoring TAVR, the trial's premature closure and high crossover rate mean definitive guidance for this hard-to-treat, elderly population remains elusive. The results underscore both the unmet need and the recruitment challenges in this niche but high-mortality subgroup."
-        },
-        {
-          "publication_type": "AARP / General health",
-          "headline": "For Older Adults With a Tricky Heart Valve Problem, a Minimally Invasive Procedure May Beat Medication \u2014 but Experts Want More Data",
-          "hook": "A new European trial suggests that a catheter-based valve replacement may reduce deaths better than medication alone in elderly patients with a subtle, hard-to-detect form of severe aortic valve disease.",
-          "pitch_angle": "The condition \u2014 called paradoxical low-flow, low-gradient aortic stenosis \u2014 often looks less serious than it is on standard tests, leaving many older patients undertreated. This first-ever randomized trial, though too small to be conclusive, found that TAVR trended toward saving more lives than medication alone in patients with a median age of 82."
-        }
-      ],
-      "run_date": "2026-11-14",
-      "category": "Cardiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "43009457",
-      "headline": "Four New Cholesterol-Busting Drugs All Work \u2014 But None Has Been Proven to Prevent Heart Attacks Yet",
-      "journal": "Journal of the American Heart Association",
-      "pubdate": "2026 Nov 10",
-      "doi": "10.1161/JAHA.126.055325",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "A Bayesian network meta-analysis of 13 randomized placebo-controlled trials (4,517 patients; 16 dosing regimens) compared four novel monoclonal antibody PCSK9 inhibitors \u2014 tafolecimab, ongericimab, ebronucimab, and recaticimab \u2014 none of which have been directly compared head-to-head. All four agents produced substantial LDL-C reductions (ranging from \u221245.2% to \u221280.2% versus placebo), with no detected safety signal beyond injection-site reactions. Indirect comparisons suggested ongericimab 150 mg every two weeks lowered LDL-C more than three recaticimab regimens, but certainty of evidence was very low between agents, and no cardiovascular outcome data are yet available.",
-      "why_it_matters": "These findings suggest a new wave of cholesterol-lowering drugs may dramatically cut LDL levels, but whether any of them will reduce heart attacks or strokes remains unknown until cardiovascular outcome trials are completed.",
-      "caveats": "surrogate endpoints only, indirect comparisons only (no head-to-head trials), very low certainty of evidence between agents, no hard cardiovascular outcomes, short follow-up implied by trial designs",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Clinically relevant PCSK9 class; surrogate endpoints only, very low certainty between agents.",
-      "pitch_angles": [
-        {
-          "publication_type": "Medscape Cardiology / MedPage Today",
-          "headline": "Four Novel PCSK9 Inhibitors All Cut LDL Substantially, But Hierarchy Remains Unclear",
-          "hook": "A network meta-analysis finds all four next-generation PCSK9 monoclonal antibodies slash LDL cholesterol by 45\u201380%, but indirect comparisons between them carry very low certainty and no cardiovascular outcomes data exist yet.",
-          "pitch_angle": "Clinicians considering these agents for statin-intolerant or high-risk patients should know the lipid-lowering efficacy is well-supported, but head-to-head and outcome trials are urgently needed before any hierarchy can be established."
-        }
-      ],
-      "run_date": "2026-11-14",
-      "category": "Hematology & Vascular",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "43009729",
-      "headline": "Despite its reputation as a clotting risk, high lipoprotein(a) doesn't appear to cause dangerous blood clots in veins, genetic study finds",
-      "journal": "Journal of thrombosis and thrombolysis",
-      "pubdate": "2026 Nov 10",
-      "doi": "10.1007/s11239-026-03430-0",
-      "groundbreaking": "Counterintuitive finding / Overturns prior research / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Using Mendelian randomization \u2014 a method that uses genetic variants as proxies for lifetime exposure \u2014 researchers analyzed data from over 81,000 first VTE cases and 1,775 recurrent VTE cases, finding no meaningful causal relationship between genetically elevated lipoprotein(a) and risk of venous thromboembolism (deep vein thrombosis or pulmonary embolism). In contrast, the same genetically predicted lipoprotein(a) increases were strongly associated with coronary artery disease (OR 1.31) and calcific aortic valve disease (OR 1.35). Analysis of 35 coagulation proteins in nearly 82,000 participants found no significant associations with lipoprotein(a) after correction for multiple testing.",
-      "why_it_matters": "This finding suggests that lipoprotein(a)-lowering drugs \u2014 several of which are in late-stage trials \u2014 should be targeted at heart attack and aortic valve disease prevention rather than clot prevention in veins.",
-      "caveats": "observational design, Mendelian randomization (inferential, not interventional), secondary analysis, industry funding [Sequoia Genetics \u2014 co-author DG is CEO]",
-      "fact_check_note": "A nominally significant small reduction in first VTE risk (OR 0.98) was found but colocalization analysis did not support a causal interpretation \u2014 this nuance is preserved in the summary.",
-      "relevance_score": 9,
-      "relevance_score_reason": "Counterintuitive; large N; directly relevant to Lp(a)-lowering drug trials and VTE/CAD prevention.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "Genetic Study Throws Cold Water on Lp(a)'s Suspected Role in Venous Clots \u2014 Pointing Therapies Toward the Heart Instead",
-          "hook": "Despite decades of suspicion that lipoprotein(a)'s antifibrinolytic properties make it a driver of venous blood clots, a large Mendelian randomization study finds no causal link \u2014 while confirming its role in heart attack and aortic valve disease.",
-          "pitch_angle": "The finding \u2014 drawn from genetic data on more than 81,000 VTE cases and 82,000 participants with coagulation protein measurements \u2014 suggests that emerging Lp(a)-lowering therapies should be aimed at atherosclerotic and valvular indications, not thromboembolic ones, with significant implications for ongoing clinical trials."
-        },
-        {
-          "publication_type": "Everyday Health / General health",
-          "headline": "High Lp(a) Cholesterol Raises Your Heart Attack Risk \u2014 But Probably Not Your Blood Clot Risk, Study Suggests",
-          "hook": "Lipoprotein(a), the stubborn inherited cholesterol linked to heart attacks and aortic valve disease, does not appear to cause the dangerous vein clots known as DVT or pulmonary embolism, a large genetic study finds.",
-          "pitch_angle": "Researchers using a genetic analysis technique that mimics a clinical trial found that people genetically predisposed to high Lp(a) had no meaningful increase in venous clot risk \u2014 suggesting that new drugs designed to lower Lp(a) may help the heart but won't necessarily protect against clots in the legs or lungs."
         }
       ],
       "run_date": "2026-11-14",
@@ -1042,39 +1399,6 @@
       "run_date": "2026-11-13",
       "category": "Pulmonary Medicine",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "43023166",
-      "headline": "A leading PAH drug improves lung pressure \u2014 but quietly cuts blood flow to the body in most patients",
-      "journal": "Pulmonary Circulation",
-      "pubdate": "2026 Nov 12",
-      "doi": "10.1002/pul2.70454",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers retrospectively analyzed 56 PAH patients who underwent right heart catheterization before and during sotatercept therapy (median 7.3 months) at the Cleveland Clinic. Despite improvements in mean pulmonary arterial pressure and pulmonary vascular resistance, 63% of patients experienced a decrease in cardiac output. Among those with decreased cardiac output, 63% also had reduced oxygen delivery \u2014 a subgroup that showed worse functional outcomes including worsening 6-minute walk distance and a blunted NT-proBNP response.",
-      "why_it_matters": "These findings suggest that tracking oxygen delivery \u2014 not just cardiac output or lung pressures \u2014 may be essential to fully understand how patients with pulmonary arterial hypertension respond to sotatercept, a newly approved therapy.",
-      "caveats": "small sample (N<100), observational design, single-center, short follow-up, industry funding [Merck, United Therapeutics, Bayer, Johnson and Johnson, Liquidia], surrogate endpoints only",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive finding on first-in-class PAH drug; human data; multiple conflicts of interest.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "Sotatercept Lowers Lung Pressure in PAH \u2014 But Cuts Whole-Body Oxygen Delivery in Many Patients",
-          "hook": "The first-in-class PAH drug sotatercept improves lung hemodynamics, yet more than half of patients in a real-world cohort experienced a drop in the heart's ability to pump blood to the body.",
-          "pitch_angle": "A Cleveland Clinic retrospective study of 56 PAH patients found that 63% experienced decreased cardiac output on sotatercept, and among those, the majority also had reduced oxygen delivery \u2014 associated with worse walking capacity and blunted biomarker improvement. The findings raise questions about how to best monitor and optimize patient selection for the drug."
-        },
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "Oxygen Delivery May Be a Better Metric Than Cardiac Output for Monitoring Sotatercept Response in PAH",
-          "hook": "Simply measuring cardiac output may miss a clinically important subgroup of PAH patients deteriorating on sotatercept.",
-          "pitch_angle": "In a real-world cohort, researchers found that calculating oxygen delivery \u2014 which incorporates hemoglobin levels and cardiac output \u2014 identified a subset of sotatercept-treated patients with worse functional outcomes that cardiac output measurement alone did not capture. The study suggests pulmonologists may need to rethink hemodynamic monitoring protocols for this drug."
-        }
-      ],
-      "run_date": "2026-11-13",
-      "category": "Pulmonary Medicine",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -8989,39 +9313,6 @@
       "run_date": "2026-09-26",
       "category": "Hematology & Vascular",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42763030",
-      "headline": "A faster 'sonic' tool for cracking calcium buildup in heart arteries keeps working a year later \u2014 with low complication rates",
-      "journal": "The American Journal of Cardiology",
-      "pubdate": "2026 Sep 19",
-      "doi": "10.1016/j.amjcard.2026.09.013",
-      "groundbreaking": "First-in-class human study / Major cardiovascular or public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers tracked 1-year outcomes for a next-generation intravascular lithotripsy (IVL) catheter that uses sound waves to crack calcium deposits in severely narrowed coronary arteries before stent placement. The prospective single-arm study enrolled 145 patients at multiple U.S. centers, 140 of whom completed 1-year follow-up. The overall major adverse cardiac event (MACE) rate was 5.6%, with no cardiac deaths or stent thrombosis, and 77% of patients reported being angina-free at one year compared with only 14.5% at baseline.",
-      "why_it_matters": "For the large number of patients with heavily calcified coronary arteries \u2014 among the most difficult to treat \u2014 this device may offer a safe and durable option for relieving chest pain alongside stenting.",
-      "caveats": "small sample (N<200), observational design, single-arm (no control group), surrogate endpoints only, industry funding [Shockwave Medical Inc]",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Hard endpoints at 1 year, high-prevalence CAD condition, but single-arm industry-funded design.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today / Medscape Cardiology",
-          "headline": "1-Year Data on 2-Hz Lithotripsy Catheter Show Durable Outcomes in Calcified CAD",
-          "hook": "A faster-pulsing intravascular lithotripsy catheter maintained low MACE rates and high angina relief through one year in a challenging calcified-lesion population.",
-          "pitch_angle": "The DISRUPT CAD Duo trial's 1-year follow-up found only a 5.6% MACE rate and no cardiac deaths or stent thrombosis among patients treated with the 2-Hz IVL catheter; clinicians managing severely calcified coronary disease will want to weigh these results alongside the single-arm, industry-funded design."
-        },
-        {
-          "publication_type": "Everyday Health / Health.com / General health",
-          "headline": "Sound Waves Are Now Being Used to Break Up Calcium in Heart Arteries \u2014 And the Results Look Promising a Year Later",
-          "hook": "A device that uses shockwaves \u2014 similar in concept to those used to break up kidney stones \u2014 to crack calcium deposits inside heart arteries found that most patients were still doing well and chest-pain-free a full year after the procedure.",
-          "pitch_angle": "More than three-quarters of patients treated with the device reported no angina symptoms at one year, compared with fewer than 15% before the procedure; while early and encouraging, the study lacked a comparison group, so larger controlled trials will be needed to confirm the benefit."
-        }
-      ],
-      "run_date": "2026-09-26",
-      "category": "Cardiology",
-      "chunk": "2/2",
       "status": "new"
     },
     {
