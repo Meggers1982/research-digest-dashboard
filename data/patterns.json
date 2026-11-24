@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T22:56:31+00:00",
-  "week_start": "2026-11-09",
-  "week_end": "2026-11-15",
+  "generated_at": "2026-11-24T01:01:51+00:00",
+  "week_start": "2026-11-16",
+  "week_end": "2026-11-22",
   "model": "claude-opus-5",
   "verify_model": "claude-opus-5",
   "effort": {
@@ -16,51 +16,50 @@
     "aging-longevity": {
       "label": "Aging & Longevity",
       "status": "failed",
-      "study_count": 53,
+      "study_count": 5,
       "threads": [],
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch7S4MqidQrZUXypGGiHZ'}"
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChLrH9GsbR3MPxiRiWNWh'}"
     },
     "cardiology-heart": {
       "label": "Cardiology & Heart Health",
       "status": "failed",
-      "study_count": 68,
+      "study_count": 22,
       "threads": [],
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch7S4MqxA6iW7jsWr5RWe'}"
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChLrH9GceEgbutTiz71RX'}"
     },
     "conditions-body": {
       "label": "Conditions & Body",
-      "status": "failed",
-      "study_count": 117,
-      "threads": [],
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch7S4MtgsJGNt8T7JdB2V'}"
+      "status": "no_studies",
+      "study_count": 0,
+      "threads": []
     },
     "dermatology-skin": {
       "label": "Dermatology & Skin Science",
       "status": "failed",
-      "study_count": 43,
+      "study_count": 9,
       "threads": [],
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch7S4NuhUTpmNKY8yigY2'}"
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChLrH9HcYmL7oH2QgM6Vg'}"
     },
     "elderly-geriatric": {
       "label": "Elderly & Geriatric",
       "status": "failed",
-      "study_count": 158,
+      "study_count": 28,
       "threads": [],
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch7S4NvSc2zAg8s7yVb5J'}"
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChLrHA5V5pAdVhL92TC1G'}"
     },
     "fitness-exercise": {
       "label": "Fitness & Exercise",
       "status": "failed",
-      "study_count": 104,
+      "study_count": 19,
       "threads": [],
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch7S4NwCGv4b3f47o7nmv'}"
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChLrHAATCGge13oHZJjkD'}"
     },
     "gut-digestive": {
       "label": "Gut & Digestive Health",
       "status": "failed",
-      "study_count": 69,
+      "study_count": 17,
       "threads": [],
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch7S4PZe21TJ6Mmq7fqb4'}"
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChLrHAACy4FavgqT1nGyu'}"
     },
     "mental-health": {
       "label": "Mental Health & Psychiatry",
@@ -71,29 +70,29 @@
     "pediatric-health": {
       "label": "Children's & Pediatric Health",
       "status": "failed",
-      "study_count": 50,
+      "study_count": 14,
       "threads": [],
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch7S4PZe66N8wT31QvoBw'}"
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChLrHAeyD4mRPC7S97T74'}"
     },
     "science-environment": {
       "label": "Science & Environment",
       "status": "failed",
-      "study_count": 107,
+      "study_count": 28,
       "threads": [],
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch7S4PastUcb53miiBw8A'}"
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChLrHAjgVREqDwpgeQZNd'}"
     },
     "womens-health": {
       "label": "Women's Health",
       "status": "failed",
-      "study_count": 84,
+      "study_count": 35,
       "threads": [],
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch7S4QBM9EgkKcYJmSpAw'}"
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChLrHApswnFCrySocSsCP'}"
     }
   },
   "cross_topic": [],
   "cross_topic_meta": {
     "status": "failed",
-    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch7S4QpJuP7PbiTDaNNhK'}"
+    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChLrHBY44LywseMXkdfrq'}"
   },
   "dropped": [],
   "usage": {
